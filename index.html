@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <!-- [GA4] Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1SWMP4KC55"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1SWMP4KC55');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- 1. [SEO] 검색 엔진용 타이틀 (핵심 키워드 포함) -->
     <title>도쿄 신사 지도 - 소원별(재물, 사랑, 건강) 맞춤 신사 찾기 | JinjaMap</title>
-    
-    <!-- 2. [SEO] 메타 설명 (검색 결과 아래에 뜨는 설명글) -->
-    <meta name="description" content="도쿄 여행 필수 코스! 재물운, 연애운, 학업운 등 당신의 소원에 딱 맞는 신사를 지도에서 쉽게 찾아보세요. 신사의 위치, 역사, 기원 내용을 한눈에 확인할 수 있습니다.">
-    
-    <!-- 3. [SEO] 키워드 (요즘은 중요도가 낮지만 넣어두면 좋음) -->
+    <meta name="description" content="도쿄 여행 필수 코스! 재물운, 연애운, 학업운 등 당신의 소원에 딱 맞는 신사를 지도에서 쉽게 찾아보세요.">
     <meta name="keywords" content="도쿄 신사, 도쿄 여행, 일본 신사, 도쿄 지도, 엔무스비, 재물운 신사, 도쿄 파워스팟, JinjaMap">
-    
-    <!-- 4. [SEO] 대표 URL (중복 콘텐츠 방지) -->
     <link rel="canonical" href="https://jinjamap.com/">
 
-    <!-- 5. [SNS] 오픈 그래프 (카톡, 페이스북 공유 시 미리보기 설정) -->
+    <!-- SNS 설정 -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jinjamap.com/">
     <meta property="og:title" content="도쿄 신사 지도: 당신의 소원을 이뤄줄 곳을 찾아보세요">
@@ -24,31 +26,22 @@
     <meta property="og:image" content="https://jinjamap.com/assets/images/JinjaMapLogo.png">
     <meta property="og:locale" content="ko_KR">
 
-    <!-- 6. [SNS] 트위터 카드 설정 -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="도쿄 신사 지도 - JinjaMap">
     <meta name="twitter:description" content="도쿄 여행 중 방문할 만한 신사를 테마별로 찾아보세요.">
     <meta name="twitter:image" content="https://jinjamap.com/assets/images/JinjaMapLogo.png">
 
-    <!-- 7. [아이콘] 파비콘 설정 (브라우저 탭 아이콘) -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-
-    <!-- CSS 연결 -->
     <link rel="stylesheet" href="assets/css/style.css">
     
-    <!-- [SEO] 구조화된 데이터 (JSON-LD) - 구글이 사이트를 더 잘 이해하게 함 -->
+    <!-- 구조화된 데이터 -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "JinjaMap",
       "url": "https://jinjamap.com/",
-      "description": "도쿄의 신사 정보를 테마별로 제공하는 지도 서비스",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://jinjamap.com/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "description": "도쿄의 신사 정보를 테마별로 제공하는 지도 서비스"
     }
     </script>
 </head>
@@ -56,12 +49,17 @@
     <div class="container">
         <header>
             <h1>
-                <img src="assets/images/JinjaMapLogo.png" alt="도쿄 신사 지도 JinjaMap 로고" class="logo-img">
+                <!-- 반응형 로고 적용 (가로형/세로형) -->
+                <picture>
+                    <source srcset="assets/images/JinjaMapLogo_Horizontal.png" media="(max-width: 768px)">
+                    <img src="assets/images/JinjaMapLogo_Vertical.png" alt="도쿄 신사 지도 JinjaMap 로고" class="logo-img">
+                </picture>
             </h1>
-            <!-- 시각 장애인 및 검색 봇을 위한 숨김 텍스트 (화면엔 안 보임) -->
+            
+            <!-- [SEO] 숨겨진 설명 텍스트 (수정됨: 가정, 예술 삭제) -->
             <p style="position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0);">
                 JinjaMap은 도쿄에 있는 다양한 신사들의 위치와 정보를 제공합니다. 
-                재물, 사랑(연애), 건강, 학업, 안전 등 당신이 기원하고 싶은 소원에 맞춰 신사를 찾아보세요.
+                재물, 사랑(연애), 건강, 학업, 안전, 성공, 휴식, 역사 등 당신이 기원하고 싶은 소원에 맞춰 신사를 찾아보세요.
             </p>
 
             <div class="theme-filter-buttons">
@@ -71,9 +69,8 @@
                 <button class="theme-button" data-theme="health" data-tooltip="무병장수, 질병 치유, 심신의 안정 등 몸과 마음의 건강을 기원.">건강</button>
                 <button class="theme-button" data-theme="study" data-tooltip="시험 합격, 학업 성취, 지혜, 자격증 취득 등 배움과 관련된 기원.">학업</button>
                 <button class="theme-button" data-theme="safety" data-tooltip="교통안전, 여행, 재해 예방, 액운을 막는 '야쿠요케' 등 위험으로부터의 보호를 기원.">안전</button>
-                <button class="theme-button" data-theme="family" data-tooltip="가족의 화목과 평안, 순산, 자녀의 건강한 성장 등 가족에 관한 기원.">가정</button>
+                <!-- [삭제됨] 가정, 예술 버튼 삭제 -->
                 <button class="theme-button" data-theme="success" data-tooltip="승진, 목표 달성, 경기 승리 등 특정 분야에서의 성공과 성취를 기원.">성공</button>
-                <button class="theme-button" data-theme="art" data-tooltip="예체능, 기술, 손재주 등 기예의 향상과 재능 개화를 기원.">예술</button>
                 <button class="theme-button" data-theme="relax" data-tooltip="아름다운 자연 경관을 즐기거나 '파워스팟'에서 기운을 얻으며 마음의 평온을 찾는 것.">휴식</button>
                 <button class="theme-button" data-theme="history" data-tooltip="신사의 역사적 가치, 독특한 건축물, 문화재 탐방 등 지적 탐구를 목적으로 방문.">역사</button>
             </div>
@@ -81,8 +78,6 @@
         <main>
             <section>
                 <div id="map"></div>
-                
-                <!-- [SEO] 검색 로봇이 읽을 수 있는 텍스트 콘텐츠 추가 (하단 설명) -->
                 <article style="padding: 20px; color: #666; font-size: 0.9rem; line-height: 1.6;">
                     <h2>도쿄 신사 여행 가이드</h2>
                     <p>
@@ -95,15 +90,11 @@
         </main>
     </div>
 
-    <!-- Google Maps API -->
-    
     <script src="assets/js/map.js"></script>
-
+    <!-- [보안] 키값 보호를 위해 리퍼러 제한 필수 -->
     <script
       src="https://maps.googleapis.com/maps/api/js?key=REDACTED_GOOGLE_API_KEY&callback=initMap&libraries=marker&v=beta&loading=async"
       async defer>
     </script>
-
-
 </body>
 </html>

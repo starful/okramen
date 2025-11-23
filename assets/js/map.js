@@ -36,10 +36,10 @@ async function initMap() {
     const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
     const { Geocoder } = await google.maps.importLibrary("geocoding");
 
-    const tokyoCenter = { lat: 35.6895, lng: 139.6917 };
+    const tokyoCenter ={ lat: 36.2048, lng: 138.2529 };
 
     map = new Map(document.getElementById("map"), {
-        zoom: 12,
+        zoom: 5,
         center: tokyoCenter,
         mapId: "2938bb3f7f034d78a2dbaf56", // 본인의 Map ID가 있다면 교체하세요.
         mapTypeControl: false,
