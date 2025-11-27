@@ -5,15 +5,14 @@ let allShrinesData = [];
 
 // 1. 카테고리별 색상 정의
 const categoryColors = {
-    '재물': '#FBC02D', // Gold
-    '연애': '#E91E63', // Pink
-    '사랑': '#E91E63',
-    '건강': '#2E7D32', // Green
-    '학업': '#1565C0', // Blue
-    '안전': '#455A64', // BlueGrey
-    '성공': '#512DA8', // Purple
-    '역사': '#EF6C00', // Orange
-    '기타': '#D32F2F'  // Red
+    '재물': '#FBC02D', 
+    '연애': '#E91E63', '사랑': '#E91E63',
+    '건강': '#2E7D32', 
+    '학업': '#1565C0', 
+    '안전': '#455A64', 
+    '성공': '#512DA8', 
+    '역사': '#EF6C00', 
+    '기타': '#D32F2F'
 };
 
 // 2. 신사에 가장 적합한 카테고리 키 찾기
@@ -30,10 +29,11 @@ function findMainCategory(categories) {
 async function initMap() {
     const tokyoCoords = { lat: 35.6895, lng: 139.6917 };
     
+    // [중요] 실제 서비스 시 Cloud Console에서 생성한 Map ID로 교체 필요
     map = new google.maps.Map(document.getElementById("map"), {
         zoom: 11,
         center: tokyoCoords,
-        mapId: "DEMO_MAP_ID", // 벡터 지도 활성화
+        mapId: "DEMO_MAP_ID", 
         mapTypeControl: false,
         fullscreenControl: false,
         streetViewControl: false,
@@ -42,7 +42,7 @@ async function initMap() {
 
     infoWindow = new google.maps.InfoWindow();
 
-    // 내 위치 찾기 버튼 추가
+    // 내 위치 찾기 버튼
     addLocationButton();
 
     try {
@@ -58,10 +58,11 @@ async function initMap() {
         }
 
         addMarkers(allShrinesData);
-        renderTop5Shrines(allShrinesData);
-        setupFilterButtons();
         
-        // [추가됨] 버튼에 건수(숫자) 표시하기
+        // [수정] 최신 4개만 표시
+        renderRecentShrines(allShrinesData);
+        
+        setupFilterButtons();
         updateFilterButtonCounts(allShrinesData);
 
     } catch (error) {
@@ -69,42 +70,48 @@ async function initMap() {
     }
 }
 
-// [추가됨] 카테고리별 개수를 세서 버튼 텍스트 업데이트
+// [추가] 주소 복사 함수
+window.copyToClipboard = function(text) {
+    if (!text) return;
+    navigator.clipboard.writeText(text).then(() => {
+        alert("📋 주소가 복사되었습니다!\n" + text);
+    }).catch(err => {
+        console.error('복사 실패:', err);
+        // 보안 컨텍스트(https)가 아닐 경우 execCommand 폴백
+        const textArea = document.createElement("textarea");
+        textArea.value = text;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("Copy");
+        textArea.remove();
+        alert("📋 주소가 복사되었습니다!\n" + text);
+    });
+};
+
 function updateFilterButtonCounts(shrines) {
-    // 테마 키와 한글 키워드 매핑
     const themeMap = {
         'wealth': '재물', 'love': '연애', 'health': '건강',
         'study': '학업', 'safety': '안전', 'success': '성공', 'history': '역사'
     };
 
-    // 1. 카운트 초기화 (전체 개수 먼저 설정)
     const counts = { 'all': shrines.length };
     Object.keys(themeMap).forEach(key => counts[key] = 0);
 
-    // 2. 데이터 순회하며 개수 세기
     shrines.forEach(shrine => {
         if (!shrine.categories) return;
-        
         Object.keys(themeMap).forEach(themeKey => {
             const keyword = themeMap[themeKey];
-            // 해당 키워드가 포함되어 있으면 카운트 증가
             if (shrine.categories.some(cat => cat.includes(keyword))) {
                 counts[themeKey]++;
             }
         });
     });
 
-    // 3. 버튼 텍스트 업데이트
     const buttons = document.querySelectorAll('.theme-button');
     buttons.forEach(btn => {
         const theme = btn.getAttribute('data-theme');
         const count = counts[theme] || 0;
-
-        // 기존 텍스트(예: "재물")만 가져오기 (혹시 이미 숫자가 있어도 제거)
-        // firstChild가 텍스트 노드라고 가정
         const originalText = btn.childNodes[0].nodeValue.trim(); 
-        
-        // 텍스트 변경: "재물" -> "재물 (5)"
         btn.textContent = `${originalText} (${count})`;
     });
 }
@@ -119,7 +126,6 @@ function addMarkers(shrines) {
         const mainCategoryKey = findMainCategory(shrine.categories);
         const borderColor = categoryColors[mainCategoryKey] || categoryColors['기타'];
 
-        // 이미지 마커 생성
         const pinImg = document.createElement("img");
         pinImg.src = "assets/images/marker_torii.png"; 
         
@@ -140,24 +146,28 @@ function addMarkers(shrines) {
         });
 
         marker.categories = shrine.categories || [];
-        marker.mainCategoryKey = mainCategoryKey;
 
+        // 마커 클릭 시 InfoWindow
         marker.addListener("click", () => {
             const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(shrine.title)}&travelmode=walking`;
+            
+            // 주소 데이터가 있으면 사용, 없으면 제목 사용
+            const copyText = shrine.address ? shrine.address : shrine.title;
+
             const contentString = `
                 <div class="infowindow-content">
                     <img src="${shrine.thumbnail}" alt="${shrine.title}">
                     <h3>${shrine.title}</h3>
                     <p>🏷️ ${shrine.categories.join(', ')}</p>
-                    <div style="margin-top: 10px; display: flex; gap: 8px;">
-                        <a href="${directionsUrl}" target="_blank" 
-                           style="flex: 1; background: #4285F4; color: white; text-align: center; padding: 6px; border-radius: 4px; text-decoration: none; font-size: 13px;">
-                           📍 길찾기
-                        </a>
-                        <a href="${shrine.link}" target="_blank" 
-                           style="flex: 1; background: #f1f1f1; color: #333; text-align: center; padding: 6px; border-radius: 4px; text-decoration: none; font-size: 13px; border: 1px solid #ddd;">
-                           블로그 보기
-                        </a>
+                    
+                    <div class="info-btn-group">
+                        <a href="${directionsUrl}" target="_blank" class="info-btn dir-btn">📍 길찾기</a>
+                        <a href="${shrine.link}" target="_blank" class="info-btn blog-btn">블로그</a>
+                        
+                        <!-- [NEW] 주소 복사 버튼 -->
+                        <button onclick="copyToClipboard('${copyText}')" class="info-btn copy-btn" title="주소 복사">
+                            📋
+                        </button>
                     </div>
                 </div>
             `;
@@ -229,15 +239,18 @@ function addLocationButton() {
     map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(locationButton);
 }
 
-function renderTop5Shrines(shrines) {
+// [수정] 최신 4개만 렌더링
+function renderRecentShrines(shrines) {
     const listContainer = document.getElementById('shrine-list');
     if (!listContainer) return;
 
     listContainer.innerHTML = ''; 
     const sortedShrines = [...shrines].sort((a, b) => new Date(b.published) - new Date(a.published));
-    const top5 = sortedShrines.slice(0, 5);
+    
+    // 0~4 (4개)만 자름
+    const recentItems = sortedShrines.slice(0, 4);
 
-    top5.forEach(shrine => {
+    recentItems.forEach(shrine => {
         const categoryTag = shrine.categories && shrine.categories.length > 0 
             ? ` • <span>🏷️ ${shrine.categories[0]}</span>` 
             : '';
@@ -279,47 +292,14 @@ function setupFilterButtons() {
 /* --------------------------------------
    오미쿠지 (운세 뽑기) 로직
 -------------------------------------- */
-
-// 1. 운세 데이터 정의 (결과에 따라 지도 필터 연동)
 const omikujiResults = [
-    { 
-        title: "대길 (大吉)", 
-        desc: "금전운이 폭발하는 날입니다!💰<br>지금 당장 복권이라도 사야 할 기세!", 
-        theme: "wealth", 
-        btnText: "💰 재물운 신사 지도 보기",
-        color: "#FBC02D"
-    },
-    { 
-        title: "중길 (中吉)", 
-        desc: "마음이 설레는 인연이 다가옵니다.💘<br>사랑을 쟁취할 준비 되셨나요?", 
-        theme: "love", 
-        btnText: "💘 연애운 신사 지도 보기",
-        color: "#E91E63"
-    },
-    { 
-        title: "소길 (小吉)", 
-        desc: "건강이 최고입니다.🌿<br>몸과 마음을 힐링하는 시간이 필요해요.", 
-        theme: "health", 
-        btnText: "🌿 건강기원 신사 지도 보기",
-        color: "#2E7D32"
-    },
-    { 
-        title: "길 (吉)", 
-        desc: "노력한 만큼 성과가 나오는 날!📚<br>학업이나 승진에 좋은 기운이 있어요.", 
-        theme: "study", 
-        btnText: "🎓 학업/성공 신사 지도 보기",
-        color: "#1565C0"
-    },
-    { 
-        title: "흉 (凶)", 
-        desc: "조금 조심해야 할 시기입니다.🚧<br>신사에서 액운을 씻어내고 보호받으세요!", 
-        theme: "safety", 
-        btnText: "🛡️ 액막이/안전 신사 지도 보기",
-        color: "#455A64"
-    }
+    { title: "대길 (大吉)", desc: "금전운이 폭발하는 날입니다!💰<br>지금 당장 복권이라도 사야 할 기세!", theme: "wealth", btnText: "💰 재물운 신사 지도 보기", color: "#FBC02D" },
+    { title: "중길 (中吉)", desc: "마음이 설레는 인연이 다가옵니다.💘<br>사랑을 쟁취할 준비 되셨나요?", theme: "love", btnText: "💘 연애운 신사 지도 보기", color: "#E91E63" },
+    { title: "소길 (小吉)", desc: "건강이 최고입니다.🌿<br>몸과 마음을 힐링하는 시간이 필요해요.", theme: "health", btnText: "🌿 건강기원 신사 지도 보기", color: "#2E7D32" },
+    { title: "길 (吉)", desc: "노력한 만큼 성과가 나오는 날!📚<br>학업이나 승진에 좋은 기운이 있어요.", theme: "study", btnText: "🎓 학업/성공 신사 지도 보기", color: "#1565C0" },
+    { title: "흉 (凶)", desc: "조금 조심해야 할 시기입니다.🚧<br>신사에서 액운을 씻어내고 보호받으세요!", theme: "safety", btnText: "🛡️ 액막이/안전 신사 지도 보기", color: "#455A64" }
 ];
 
-// 2. 이벤트 리스너 설정
 document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('omikuji-modal');
     const openBtn = document.getElementById('omikuji-btn');
@@ -329,39 +309,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const step2 = document.getElementById('omikuji-step2');
     const boxImg = document.getElementById('shaking-box');
 
-    // 모달 열기
     openBtn.addEventListener('click', () => {
         modal.style.display = 'flex';
         step1.style.display = 'block';
         step2.style.display = 'none';
-        boxImg.classList.remove('shake'); // 흔들림 초기화
+        boxImg.classList.remove('shake'); 
     });
 
-    // 모달 닫기
-    closeBtn.addEventListener('click', () => {
-        modal.style.display = 'none';
-    });
+    closeBtn.addEventListener('click', () => modal.style.display = 'none');
+    window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
 
-    // 배경 클릭 시 닫기
-    window.addEventListener('click', (e) => {
-        if (e.target === modal) {
-            modal.style.display = 'none';
-        }
-    });
-
-    // [핵심] 운세 뽑기 버튼 클릭
     drawBtn.addEventListener('click', () => {
-        // 1. 흔들리는 애니메이션 시작
         boxImg.classList.add('shake');
         
-        // 2. 1초 뒤에 결과 보여주기
         setTimeout(() => {
             boxImg.classList.remove('shake');
             
-            // 랜덤 뽑기 로직
+            // [NEW] 폭죽 효과 (Confetti)
+            if (typeof confetti === 'function') {
+                confetti({
+                    particleCount: 150,
+                    spread: 70,
+                    origin: { y: 0.6 },
+                    colors: ['#FBC02D', '#E91E63', '#ffffff']
+                });
+            }
+
             const randomResult = omikujiResults[Math.floor(Math.random() * omikujiResults.length)];
             
-            // 결과 화면 구성
             document.getElementById('result-title').textContent = randomResult.title;
             document.getElementById('result-title').style.color = randomResult.color;
             document.getElementById('result-desc').innerHTML = randomResult.desc;
@@ -370,9 +345,7 @@ document.addEventListener('DOMContentLoaded', () => {
             goMapBtn.textContent = randomResult.btnText;
             goMapBtn.style.backgroundColor = randomResult.color;
             
-            // 버튼 클릭 시 해당 필터 적용
             goMapBtn.onclick = () => {
-                // 1. 상단 필터 버튼 UI 업데이트
                 const buttons = document.querySelectorAll('.theme-button');
                 buttons.forEach(b => {
                     b.classList.remove('active');
@@ -380,21 +353,16 @@ document.addEventListener('DOMContentLoaded', () => {
                         b.classList.add('active');
                     }
                 });
-                
-                // 2. 지도 마커 필터링 실행
                 filterMapMarkers(randomResult.theme);
-                
-                // 3. 모달 닫기
                 modal.style.display = 'none';
-
-                // 4. (선택사항) 알림 띄우기
-                alert(`"${randomResult.title}"이 나와서 [${randomResult.btnText}] 테마를 적용했습니다!`);
+                
+                // 지도로 스크롤 이동
+                document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
             };
 
-            // 화면 전환
             step1.style.display = 'none';
             step2.style.display = 'block';
             
-        }, 1000); // 1초 딜레이
+        }, 1000);
     });
 });

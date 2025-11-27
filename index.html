@@ -10,11 +10,6 @@
       gtag('config', 'G-1SWMP4KC55');
     </script>
 
-    <!-- [Google AdSense] 승인을 위해 필수 -->
-    <!-- client=ca-pub-XXXXXXXXXXXXXXXX 부분은 반드시 본인의 게시자 ID로 변경하세요 -->
-<!--     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
-     crossorigin="anonymous"></script> -->
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -35,6 +30,9 @@
 
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- [NEW] 폭죽 효과 라이브러리 (Confetti) -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -48,7 +46,7 @@
             
             <p id="update-msg" class="update-message">데이터 로딩 중...</p>
             
-            <!-- 테마 필터 버튼 (7개 카테고리 + 전체보기) -->
+            <!-- 테마 필터 버튼 -->
             <div class="theme-filter-buttons">
                 <button class="theme-button active" data-theme="all">전체 보기</button>
                 <button class="theme-button" data-theme="wealth" data-tooltip="사업 번창, 금전운, 재산 증식">재물</button>
@@ -64,7 +62,7 @@
         <main>
             <section>
                 <div id="map"></div>
-                <article style="padding: 20px; color: #666; font-size: 0.9rem; line-height: 1.6;">
+                <article style="padding: 20px; color: #555; font-size: 0.95rem; line-height: 1.6; background: rgba(255,255,255,0.8);">
                     <h2>도쿄 신사 여행 가이드</h2>
                     <p>
                         도쿄 여행 중 특별한 경험을 원하시나요? JinjaMap을 통해 도쿄 곳곳에 숨겨진 신사를 탐방해보세요.
@@ -83,7 +81,6 @@
             </section>
         </main>
 
-        <!-- [Footer] 애드센스 승인 필수 요소 -->
         <footer>
             <p>&copy; 2024 JinjaMap. All rights reserved.</p>
             <p>
@@ -93,12 +90,12 @@
         </footer>
     </div>
 
-    <!-- [NEW] 오미쿠지(운세) 플로팅 버튼 -->
+    <!-- 오미쿠지(운세) 플로팅 버튼 -->
     <button id="omikuji-btn" class="omikuji-floating-btn">
         🥠 오늘의 운세
     </button>
 
-    <!-- [NEW] 오미쿠지 모달 팝업 -->
+    <!-- 오미쿠지 모달 팝업 -->
     <div id="omikuji-modal" class="modal-overlay" style="display: none;">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
@@ -106,7 +103,6 @@
                 <h2>⛩️ 신사 오미쿠지</h2>
                 <p>오늘 당신에게 필요한 기운은 무엇일까요?</p>
                 <div class="omikuji-box">
-                    <!-- 이미지가 없으면 🥠 이모지로 대체하거나 이미지를 assets/images 폴더에 넣어주세요 -->
                     <img src="assets/images/omikuji_box.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" alt="운세통" id="shaking-box" style="width: 100px; margin: 20px auto; display:block;"> 
                     <div style="display:none; font-size: 80px; margin: 20px;">🥠</div>
                 </div>
@@ -116,7 +112,6 @@
             <div id="omikuji-step2" style="display: none;">
                 <h2 id="result-title" style="color:#d32f2f; font-size: 2rem;">대길 (大吉)</h2>
                 <p id="result-desc" style="font-size: 1.1rem; margin: 15px 0;">엄청난 재물운이 들어오고 있어요!</p>
-                <p style="color:#666; font-size: 0.9rem;">추천 신사 테마:</p>
                 <button id="go-map-btn" class="action-btn" style="background-color: #FBC02D; color: #333;">
                     💰 재물운 신사 보러가기
                 </button>
@@ -127,8 +122,7 @@
     <!-- Map Logic -->
     <script src="assets/js/map.js"></script>
     
-    <!-- Google Maps API -->
-    <!-- libraries=marker 필수 (AdvancedMarkerElement 사용을 위해) -->
+    <!-- Google Maps API (AdvancedMarkerElement 사용을 위해 libraries=marker 필수) -->
     <script
       src="https://maps.googleapis.com/maps/api/js?key=REDACTED_GOOGLE_API_KEY&callback=initMap&libraries=marker&v=beta&loading=async"
       async defer>
