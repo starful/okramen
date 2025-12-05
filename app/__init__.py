@@ -31,6 +31,12 @@ def ads_txt():
 def privacy():
     return render_template('privacy.html')
 
+# [추가] sitemap.xml 파일을 위한 라우트
+@app.route('/sitemap.xml')
+def sitemap_xml():
+    # sitemap.xml 파일이 템플릿 폴더에 있다고 가정합니다.
+    return send_from_directory(app.template_folder, 'sitemap.xml', mimetype='application/xml')
+
 @app.route('/api/shrines')
 def api_shrines():
     global cache_data, last_fetch_time

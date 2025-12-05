@@ -36,6 +36,26 @@
 
     <!-- [NEW] 폭죽 효과 라이브러리 (Confetti) -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "JinjaMap - 도쿄 신사 지도 (Tokyo Shrine Map)",
+      "url": "https://jinjamap.com/",
+      "description": "도쿄 여행 필수 코스! 재물, 사랑, 건강 등 소원별 신사 찾기. Explore Tokyo's shrines by wish (Wealth, Love, Health).",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://jinjamap.com/?q={search_term_string}" // 검색 기능이 있다면 추가, 현재는 없으므로 생략 가능
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+
 </head>
 <body>
     <div class="container">
