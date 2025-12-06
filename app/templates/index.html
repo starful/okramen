@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <!-- [GA4] Google Analytics -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1SWMP4KC55"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -10,51 +10,33 @@
       gtag('config', 'G-1SWMP4KC55');
     </script>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938"
-     crossorigin="anonymous"></script>
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script> -->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>도쿄 신사 지도 (Tokyo Shrine Map / 東京神社マップ) - JinjaMap</title>
-    
-    <meta name="description" content="도쿄 여행 필수 코스! 재물, 사랑, 건강 등 소원별 신사 찾기. Explore Tokyo's shrines by wish (Wealth, Love, Health).">
-    <meta name="keywords" content="도쿄 신사, 도쿄 여행, 일본 신사, 도쿄 지도, 엔무스비, 재물운 신사, JinjaMap, 오미쿠지">
+    <title>도쿄 신사 지도 (Tokyo Shrine Map) - JinjaMap</title>
+    <meta name="description" content="도쿄 여행 필수 코스! 재물, 사랑, 건강 등 소원별 신사 찾기.">
     
     <link rel="canonical" href="https://jinjamap.com/">
 
-    <!-- SNS 설정 (OG 태그) -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jinjamap.com/">
-    <meta property="og:title" content="도쿄 신사 지도: 당신의 소원을 이뤄줄 곳을 찾아보세요">
-    <meta property="og:description" content="도쿄 내 주요 신사 위치와 테마별(재물, 사랑, 건강 등) 정보를 지도에서 바로 확인하세요.">
-    <meta property="og:image" content="https://jinjamap.com/static/images/JinjaMapLogo.png">
-    <meta property="og:locale" content="ko_KR">
-
+    <!-- [최적화] 외부 도메인 사전 연결 (여기를 추가하세요!) -->
+    <!-- 1. Google Maps 서버 미리 연결 (LCP 개선) -->
+    <link rel="preconnect" href="https://maps.googleapis.com">
+    <link rel="preconnect" href="https://maps.gstatic.com">
+    
+    <!-- 2. 하테나 블로그 이미지 서버 미리 연결 (스크린샷 해결책, 300ms 절약) -->
+    <link rel="preconnect" href="https://cdn-ak.f.st-hatena.com">
+    
+    <!-- 3. Google Fonts (이미 사용 중이라면) & Adsense DNS 조회 -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <!-- [최적화 끝] -->
+    
     <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/static/css/style.css">
 
-    <!-- [NEW] 폭죽 효과 라이브러리 (Confetti) -->
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "JinjaMap - 도쿄 신사 지도 (Tokyo Shrine Map)",
-      "url": "https://jinjamap.com/",
-      "description": "도쿄 여행 필수 코스! 재물, 사랑, 건강 등 소원별 신사 찾기. Explore Tokyo's shrines by wish (Wealth, Love, Health).",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://jinjamap.com/?q={search_term_string}" // 검색 기능이 있다면 추가, 현재는 없으므로 생략 가능
-        },
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
-
+    <!-- 폭죽 효과 -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
 
 </head>
 <body>
@@ -63,22 +45,27 @@
             <h1>
                 <picture>
                     <source srcset="/static/images/JinjaMapLogo_Horizontal.png" media="(max-width: 768px)">
-                    <img src="/static/images/JinjaMapLogo_Vertical.png" alt="도쿄 신사 지도 JinjaMap 로고" class="logo-img">
+                    <!-- [최적화] fetchpriority="high" 및 사이즈 명시로 LCP 개선 -->
+                    <img src="/static/images/JinjaMapLogo_Vertical.png" 
+                         alt="도쿄 신사 지도 JinjaMap 로고" 
+                         class="logo-img"
+                         fetchpriority="high"
+                         width="650" height="325"
+                         style="height: auto;">
                 </picture>
             </h1>
             
             <p id="update-msg" class="update-message">데이터 로딩 중...</p>
             
-            <!-- 테마 필터 버튼 -->
             <div class="theme-filter-buttons">
                 <button class="theme-button active" data-theme="all">전체 보기</button>
-                <button class="theme-button" data-theme="wealth" data-tooltip="사업 번창, 금전운, 재산 증식">재물</button>
-                <button class="theme-button" data-theme="love" data-tooltip="연애 성취, 좋은 인연, 결혼">사랑</button>
-                <button class="theme-button" data-theme="health" data-tooltip="무병장수, 질병 치유">건강</button>
-                <button class="theme-button" data-theme="study" data-tooltip="시험 합격, 학업 성취">학업</button>
-                <button class="theme-button" data-theme="safety" data-tooltip="교통안전, 액운 방지">안전</button>
-                <button class="theme-button" data-theme="success" data-tooltip="승진, 목표 달성, 승리">성공</button>
-                <button class="theme-button" data-theme="history" data-tooltip="역사적 가치, 문화재 탐방">역사</button>
+                <button class="theme-button" data-theme="wealth" data-tooltip="재물, 사업 번창">재물</button>
+                <button class="theme-button" data-theme="love" data-tooltip="연애, 결혼, 인연">사랑</button>
+                <button class="theme-button" data-theme="health" data-tooltip="건강, 치유">건강</button>
+                <button class="theme-button" data-theme="study" data-tooltip="학업, 합격">학업</button>
+                <button class="theme-button" data-theme="safety" data-tooltip="안전, 액운 방지">안전</button>
+                <button class="theme-button" data-theme="success" data-tooltip="승진, 목표 달성">성공</button>
+                <button class="theme-button" data-theme="history" data-tooltip="역사, 문화재">역사</button>
             </div>
         </header>
         
@@ -87,89 +74,54 @@
                 <div id="map"></div>
                 <article style="padding: 20px; color: #555; font-size: 0.95rem; line-height: 1.6; background: rgba(255,255,255,0.8);">
                     <h2>도쿄 신사 여행 가이드</h2>
-                    <p>
-                        도쿄 여행 중 특별한 경험을 원하시나요? JinjaMap을 통해 도쿄 곳곳에 숨겨진 신사를 탐방해보세요.
-                        아사쿠사의 센소지부터 도심 속의 메이지 신궁, 그리고 현지인들만 아는 숨겨진 파워스팟까지.
-                        여러분의 소원을 이루어줄 특별한 장소를 지도에서 쉽게 찾을 수 있습니다.
-                    </p>
-
-                    <h2>도쿄 신사 여행, 아는 만큼 보여요!</h2>
-                    <p>
-                        도쿄 여행 중 특별한 경험을 원하시나요? JinjaMap을 통해 도쿄 곳곳에 숨겨진 신사를 탐방해보세요.
-                        아사쿠사의 센소지부터 도심 속의 메이지 신궁, 그리고 현지인들만 아는 숨겨진 파워스팟까지.
-                        여러분의 소원을 이루어줄 특별한 장소를 지도에서 쉽게 찾을 수 있습니다.
-                    </p>
-                    <h3 style="margin-top:20px; font-size:1.1rem;">신사 참배 기본 예절</h3>
-                    <p>
-                        신사에 들어갈 때는 입구인 토리이(鳥居) 앞에서 가볍게 고개를 숙여 인사합니다. 참배길 중앙은 신이 다니는 길이므로 가장자리를 이용해 걷는 것이 좋습니다. 데미즈야(手水舎)에서 손과 입을 헹궈 몸을 정화한 뒤, 본당 앞에서 '두 번 절하고, 두 번 박수치고, 다시 한 번 절하는' 방식으로 참배합니다.
-                    </p>
+                    <p>JinjaMap을 통해 도쿄 곳곳에 숨겨진 신사를 탐방해보세요. 여러분의 소원을 이루어줄 특별한 장소를 지도에서 쉽게 찾을 수 있습니다.</p>
                 </article>
             </section>
 
-            <!-- 최신 신사 리스트 영역 -->
             <section class="list-section">
                 <h2 class="list-title">⛩️ 최신 신사 탐방기</h2>
-                <div id="shrine-list" class="shrine-grid">
-                    <!-- 자바스크립트로 여기에 카드가 생성됩니다 -->
-                </div>
+                <!-- 자바스크립트로 카드가 생성되는 공간 -->
+                <div id="shrine-list" class="shrine-grid"></div>
             </section>
         </main>
 
-        <!-- [추가] JinjaMap 소개 섹션 -->
         <section style="padding: 40px 20px; background-color: #fff; border-top: 1px solid #eee; text-align: center;">
             <h2 style="margin-bottom: 15px;">JinjaMap은?</h2>
-            <p style="max-width: 600px; margin: 0 auto; color: #555; line-height: 1.7;">
-                JinjaMap은 도쿄 여행자들이 자신의 소원에 맞는 신사를 쉽게 찾을 수 있도록 돕기 위해 만들어진 비영리 프로젝트입니다. <br>
-                블로그에 기록된 실제 방문기를 바탕으로 신사의 위치와 특징(재물, 사랑, 건강 등)을 지도 위에 시각화하여 제공합니다.
-            </p>
+            <p style="color: #555;">도쿄 여행자들이 소원에 맞는 신사를 찾을 수 있도록 돕는 비영리 프로젝트입니다.</p>
         </section>
-
 
         <footer>
             <p>&copy; 2024 JinjaMap. All rights reserved.</p>
             <p>
-                <a href="/privacy.html">개인정보처리방침 (Privacy Policy)</a> | 
-                <a href="https://script.google.com/macros/s/AKfycbyEtqfnTbVsIF3HSu2kb3Rc-hz-XiWWUeSMieqk-MGL4463bd7oCT0dsSAinA3VUedVYQ/exec" target="_blank" rel="noopener noreferrer">문의하기 (Contact)</a>
+                <a href="/privacy.html">개인정보처리방침</a> | 
+                <a href="https://forms.gle/your-google-form-url" target="_blank">문의하기</a>
             </p>
         </footer>
     </div>
 
-    <!-- 오미쿠지(운세) 플로팅 버튼 -->
-    <button id="omikuji-btn" class="omikuji-floating-btn">
-        🥠 오늘의 운세
-    </button>
+    <!-- 오미쿠지 버튼 및 모달 -->
+    <button id="omikuji-btn" class="omikuji-floating-btn">🥠 오늘의 운세</button>
 
-    <!-- 오미쿠지 모달 팝업 -->
     <div id="omikuji-modal" class="modal-overlay" style="display: none;">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
             <div id="omikuji-step1">
                 <h2>⛩️ 신사 오미쿠지</h2>
-                <p>오늘 당신에게 필요한 기운은 무엇일까요?</p>
                 <div class="omikuji-box">
-                    <img src="/static/images/omikuji_box.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" alt="운세통" id="shaking-box" style="width: 100px; margin: 20px auto; display:block;"> 
-                    <div style="display:none; font-size: 80px; margin: 20px;">🥠</div>
+                    <img src="/static/images/omikuji_box.png" id="shaking-box" style="width: 100px; margin: 20px auto; display:block;" alt="오미쿠지 통"> 
                 </div>
                 <button id="draw-btn" class="action-btn">운세 뽑기!</button>
             </div>
-            
             <div id="omikuji-step2" style="display: none;">
-                <h2 id="result-title" style="color:#d32f2f; font-size: 2rem;">대길 (大吉)</h2>
-                <p id="result-desc" style="font-size: 1.1rem; margin: 15px 0;">엄청난 재물운이 들어오고 있어요!</p>
-                <button id="go-map-btn" class="action-btn" style="background-color: #FBC02D; color: #333;">
-                    💰 재물운 신사 보러가기
-                </button>
+                <h2 id="result-title" style="font-size: 2rem;"></h2>
+                <p id="result-desc" style="font-size: 1.1rem; margin: 15px 0;"></p>
+                <button id="go-map-btn" class="action-btn"></button>
             </div>
         </div>
     </div>
 
-    <!-- Map Logic -->
+    <!-- [중요] 최적화된 JS 로드 -->
     <script src="/static/js/map.js"></script>
-    
-    <!-- Google Maps API (AdvancedMarkerElement 사용을 위해 libraries=marker 필수) -->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=REDACTED_GOOGLE_API_KEY&callback=initMap&libraries=marker&v=beta&loading=async"
-      async defer>
-    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=REDACTED_GOOGLE_API_KEY&callback=initMap&libraries=marker&v=beta&loading=async" async defer></script>
 </body>
 </html>

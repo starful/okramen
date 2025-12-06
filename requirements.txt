@@ -4,3 +4,4 @@ beautifulsoup4
 gunicorn
 google-cloud-storage
 googlemaps
+flask-compress
