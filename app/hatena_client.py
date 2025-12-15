@@ -75,7 +75,7 @@ def get_all_posts():
             soup = BeautifulSoup(content_html, 'html.parser')
             content_text = soup.get_text(separator=" ")
 
-            # 3. [이미지 추출 로직 강화]
+            # 3. 이미지 추출
             thumbnail = DEFAULT_THUMBNAIL
             
             # (1단계) HTML <img> 태그 검색
@@ -86,40 +86,35 @@ def get_all_posts():
                     thumbnail = src
                     break
             
-            # (2단계) <img>가 없다면 하테나 문법 [f:id:...] 파싱 (스크린샷 문제 해결용)
-            # 패턴: [f:id:아이디:시간:...]
+            # (2단계) 하테나 문법 [f:id:...] 파싱
             if thumbnail == DEFAULT_THUMBNAIL:
-                # 정규식으로 id, timestamp, 확장자코드를 찾음
-                # 예: [f:id:starful:20251123173439p:plain] -> p=png
                 match = re.search(r'\[f:id:([^:]+):([0-9]{14})([a-z])?:.*?\]', content_text)
                 if match:
-                    h_user = match.group(1) # starful
-                    h_time = match.group(2) # 20251123173439
-                    h_type = match.group(3) # p, j, g 등
-                    
-                    h_date = h_time[:8] # 20251123
-                    
-                    # 확장자 추론 (p=png, j=jpg, g=gif, 없으면 jpg)
+                    h_user = match.group(1)
+                    h_time = match.group(2)
+                    h_type = match.group(3)
+                    h_date = h_time[:8]
                     ext = 'png' if h_type == 'p' else 'gif' if h_type == 'g' else 'jpg'
-                    
-                    # 하테나 이미지 서버 URL 구성
                     thumbnail = f"https://cdn-ak.f.st-hatena.com/images/fotolife/{h_user[0]}/{h_user}/{h_date}/{h_time}.{ext}"
 
-            # 4. [본문 요약 정리] (스크린샷의 [f:id...] 텍스트 제거)
-            # 하테나 문법 태그 제거
+            # 4. 본문 요약
             clean_summary = re.sub(r'\[f:id:[^\]]+\]', '', content_text)
-            # 공백 정리 및 길이 제한
             clean_summary = re.sub(r'\s+', ' ', clean_summary).strip()
             summary = clean_summary[:180] + "..." if len(clean_summary) > 180 else clean_summary
 
-            # 5. [주소 추출]
+            # 5. [주소 추출 로직 개선]
             address = None
             addr_match = re.search(r'(소재지|주소|위치|Address)\s*[:：]?\s*([^\n\r]+)', content_text)
             if addr_match:
                 candidate = addr_match.group(2).strip()
-                if len(candidate) < 50 and ('〒' in candidate or any(x in candidate for x in ['도', '시', '구', '현', '町', '県', '市', '区'])):
+                
+                # [수정됨] 마크다운 표 문법(|) 및 볼드체(**) 기호 제거
+                candidate = candidate.replace('|', '').replace('*', '').strip()
+                
+                if len(candidate) < 60 and ('〒' in candidate or any(x in candidate for x in ['도', '시', '구', '현', '町', '県', '市', '区'])):
                     address = candidate
             
+            # 주소가 없으면 제목을 기반으로 추측 (마지막 수단)
             if not address:
                 clean_title = re.sub(r'\[.*?\]', '', title)
                 clean_title = re.split(r'[:：|\-–~]', clean_title)[0].strip()

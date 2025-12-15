@@ -166,3 +166,29 @@ footer a { color: #666; text-decoration: none; }
     cursor: pointer; font-family: Roboto, Arial, sans-serif;
     font-size: 14px; line-height: 38px; margin: 10px; padding: 0 10px;
 }
+
+/* 상세 페이지 표(Table) 스타일 */
+.detail-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.95rem;
+}
+
+.detail-content th, 
+.detail-content td {
+    border: 1px solid #e0e0e0;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.detail-content th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    color: #333;
+    width: 30%; /* 항목 너비 고정 */
+}
+
+.detail-content tr:nth-child(even) {
+    background-color: #fcfcfc;
+}

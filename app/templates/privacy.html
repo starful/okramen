@@ -3,34 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>개인정보처리방침 - JinjaMap</title>
+    <title>개인정보처리방침 (Privacy Policy) - JinjaMap</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
-        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        h2 { margin-top: 30px; }
+        :root {
+            --primary-color: #333;
+            --accent-color: #3498db;
+            --bg-color: #f9f9f9;
+            --card-bg: #ffffff;
+            --text-color: #555;
+            --heading-color: #2c3e50;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: var(--heading-color);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: var(--heading-color);
+            margin-top: 35px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 12px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            word-break: keep-all;
+        }
+
+        ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .btn-container {
+            margin-top: 50px;
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 30px;
+        }
+
+        .home-btn {
+            display: inline-block;
+            background-color: var(--heading-color);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .home-btn:hover {
+            background-color: #000;
+            text-decoration: none;
+        }
+
+        .last-updated {
+            text-align: right;
+            font-size: 0.85rem;
+            color: #999;
+            margin-top: -20px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 25px; }
+            h1 { font-size: 1.6rem; }
+            body { padding: 20px 10px; }
+        }
     </style>
 </head>
 <body>
-    <h1>개인정보처리방침 (Privacy Policy)</h1>
-    <p>본 개인정보처리방침은 JinjaMap(이하 '사이트')이 이용자의 개인정보를 어떻게 수집, 사용, 보호하는지에 대해 설명합니다.</p>
 
-    <h2>1. 수집하는 개인정보 항목</h2>
-    <p>본 사이트는 별도의 회원가입 없이 이용 가능하며, 이용자가 자발적으로 제공하지 않는 한 개인 식별 정보를 수집하지 않습니다. 다만, 서비스 개선을 위해 쿠키(Cookie) 및 이용 기록이 자동 수집될 수 있습니다.</p>
+<div class="container">
+    <h1>개인정보처리방침</h1>
+    <div class="last-updated">최종 수정일: 2024년 12월 09일</div>
 
-    <h2>2. 쿠키(Cookie) 및 광고</h2>
-    <p>본 사이트는 구글 애드센스(Google AdSense) 광고를 게재할 수 있습니다. 구글과 제3자 벤더는 쿠키를 사용하여 사용자의 이전 웹사이트 방문 기록을 바탕으로 광고를 제공합니다. 사용자는 구글 광고 설정에서 개인 맞춤 광고를 해제할 수 있습니다.</p>
-
-    <h2>3. 구글 애널리틱스 (Google Analytics)</h2>
-    <p>본 사이트는 트래픽 분석을 위해 구글 애널리틱스를 사용합니다. 이 과정에서 익명화된 데이터가 수집될 수 있습니다.</p>
-
-    <h2>4. 외부 링크</h2>
-    <p>본 사이트는 Hatena Blog 등 외부 웹사이트로의 링크를 포함하고 있습니다. 외부 사이트의 개인정보 보호 정책에 대해서는 책임을 지지 않습니다.</p>
-
-    <h2>5. 문의하기</h2>
-    <p>본 정책에 관한 문의 사항은 아래 링크를 통해 문의 양식을 작성해 주시기 바랍니다.</p>
     <p>
-        <a href="https://forms.gle/A7Fw4WKg5rwjTetZ9" target="_blank" rel="noopener noreferrer">문의 양식으로 이동하기</a>
+        <strong>JinjaMap</strong>(이하 "본 사이트")은 이용자의 개인정보를 중요시하며, 
+        「개인정보 보호법」 등 관련 법령을 준수하기 위해 노력하고 있습니다. 
+        본 개인정보처리방침은 이용자가 안심하고 서비스를 이용할 수 있도록 개인정보 수집 항목, 목적, 처리 방법에 대해 설명합니다.
     </p>
-    <p><a href="/">메인으로 돌아가기</a></p>
+
+    <h2>1. 개인정보의 수집 및 이용 목적</h2>
+    <p>본 사이트는 별도의 회원가입 절차 없이 누구나 자유롭게 이용할 수 있습니다. 
+    일반적인 이용 과정에서 개인을 식별할 수 있는 정보(이름, 연락처 등)는 수집하지 않습니다.
+    단, 서비스 안정성과 품질 개선을 위해 다음과 같은 정보가 자동 수집될 수 있습니다.</p>
+    <ul>
+        <li><strong>서버 로그(Log Data):</strong> IP 주소, 브라우저 종류, 방문 일시, 참조 페이지(Referrer) 등</li>
+        <li><strong>위치 정보:</strong> '내 위치 찾기' 기능 사용 시 이용자의 브라우저를 통해 위치 정보를 처리하지만, 이는 이용자의 기기 내에서만 작동하며 <strong>서버에 저장되지 않습니다.</strong></li>
+    </ul>
+
+    <h2>2. 쿠키(Cookie) 및 광고 게재 (Google AdSense)</h2>
+    <p>본 사이트는 서비스 운영 및 수익 창출을 위해 <strong>Google AdSense</strong> 광고를 게재합니다.</p>
+    <ul>
+        <li>Google을 포함한 제3자 벤더는 쿠키(Cookie)를 사용하여 사용자의 과거 본 사이트 및 다른 웹사이트 방문 기록을 바탕으로 맞춤형 광고를 게재할 수 있습니다.</li>
+        <li>Google은 광고 쿠키를 사용하여 사용자가 본 사이트나 다른 사이트를 방문한 기록에 기반해 적절한 광고를 제공합니다.</li>
+        <li>사용자는 <a href="https://www.google.com/settings/ads" target="_blank">Google 광고 설정</a>에서 맞춤형 광고를 사용 중지할 수 있습니다.</li>
+        <li>또한, <a href="http://www.aboutads.info/choices/" target="_blank">www.aboutads.info</a>에 접속하여 제3자 벤더의 맞춤형 광고 쿠키 사용을 거부할 수 있습니다.</li>
+    </ul>
+
+    <h2>3. 방문자 분석 (Google Analytics)</h2>
+    <p>사이트 이용 현황을 파악하고 더 나은 콘텐츠를 제공하기 위해 <strong>Google Analytics</strong>를 사용합니다.</p>
+    <ul>
+        <li>이 과정에서 IP 주소 등 비식별화된 정보가 수집될 수 있습니다.</li>
+        <li>수집된 정보는 통계 분석 목적으로만 활용되며, 개인을 식별하는 용도로는 사용되지 않습니다.</li>
+    </ul>
+
+    <h2>4. 외부 사이트로의 링크</h2>
+    <p>본 사이트는 정보 제공을 위해 외부 웹사이트(Hatena Blog 등)로의 링크를 포함하고 있습니다. 이용자가 링크를 클릭하여 타 사이트로 이동할 경우, 해당 사이트의 개인정보보호 정책이 적용되므로 본 사이트는 이에 대한 책임을 지지 않습니다.</p>
+
+    <h2>5. 개인정보의 보호 및 권리</h2>
+    <p>이용자는 쿠키 수집을 거부할 권리가 있으며, 브라우저 설정을 통해 쿠키 저장을 차단할 수 있습니다. 본 사이트는 수집된 로그 데이터를 법령에 정해진 경우를 제외하고는 제3자에게 제공하지 않습니다.</p>
+
+    <h2>6. 문의하기 (Contact)</h2>
+    <p>본 개인정보처리방침이나 서비스 이용과 관련하여 문의 사항이 있으신 경우, 아래 링크를 통해 연락 주시기 바랍니다.</p>
+    <p>
+        📩 <a href="https://script.google.com/macros/s/AKfycbwY1zVFx7_5SGK81GajV2nklh5mhlyPwu6avHDBnYY74SOxb7_F1JNyhn11b-UjcD17-g/exec" target="_blank" rel="noopener noreferrer">문의 양식 작성하기 (Google Forms)</a>
+    </p>
+
+    <div class="btn-container">
+        <a href="/" class="home-btn">메인으로 돌아가기</a>
+    </div>
+</div>
+
 </body>
 </html>

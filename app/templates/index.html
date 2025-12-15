@@ -10,96 +10,109 @@
       gtag('config', 'G-1SWMP4KC55');
     </script>
 
-    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script> -->
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>도쿄 신사 지도 (Tokyo Shrine Map) - JinjaMap</title>
     <meta name="description" content="도쿄 여행 필수 코스! 재물, 사랑, 건강 등 소원별 신사 찾기.">
-    
     <link rel="canonical" href="https://jinjamap.com/">
 
-    <!-- [최적화] 외부 도메인 사전 연결 (여기를 추가하세요!) -->
-    <!-- 1. Google Maps 서버 미리 연결 (LCP 개선) -->
+    <!-- 리소스 사전 연결 -->
     <link rel="preconnect" href="https://maps.googleapis.com">
     <link rel="preconnect" href="https://maps.gstatic.com">
-    
-    <!-- 2. 하테나 블로그 이미지 서버 미리 연결 (스크린샷 해결책, 300ms 절약) -->
-    <link rel="preconnect" href="https://cdn-ak.f.st-hatena.com">
-    
-    <!-- 3. Google Fonts (이미 사용 중이라면) & Adsense DNS 조회 -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
-    <!-- [최적화 끝] -->
     
     <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/static/css/style.css">
 
-    <!-- 폭죽 효과 -->
+    <!-- 폭죽 효과 라이브러리 -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
-
 </head>
 <body>
+
+    <div id="google_translate_element" style="position: absolute; top: 10px; right: 10px; z-index: 1001;"></div>
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'ko', 
+        includedLanguages: 'en,ja,ko,zh-CN,zh-TW',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
     <div class="container">
         <header>
             <h1>
-                <picture>
-                    <source srcset="/static/images/JinjaMapLogo_Horizontal.png" media="(max-width: 768px)">
-                    <!-- [최적화] fetchpriority="high" 및 사이즈 명시로 LCP 개선 -->
-                    <img src="/static/images/JinjaMapLogo_Vertical.png" 
-                         alt="도쿄 신사 지도 JinjaMap 로고" 
-                         class="logo-img"
-                         fetchpriority="high"
-                         width="650" height="325"
-                         style="height: auto;">
-                </picture>
+                <a href="/">
+                    <picture>
+                        <source srcset="/static/images/JinjaMapLogo_Horizontal.png" media="(max-width: 768px)">
+                        <img src="/static/images/JinjaMapLogo_Vertical.png" 
+                             alt="도쿄 신사 지도 JinjaMap 로고" 
+                             class="logo-img"
+                             fetchpriority="high"
+                             width="650" height="325"
+                             style="height: auto;">
+                    </picture>
+                </a>
             </h1>
             
-            <p id="update-msg" class="update-message">데이터 로딩 중...</p>
+            <p id="update-msg" class="update-message" style="display:none;">데이터 로딩 중...</p>
             
+            <!-- 필터 버튼 -->
             <div class="theme-filter-buttons">
                 <button class="theme-button active" data-theme="all">전체 보기</button>
-                <button class="theme-button" data-theme="wealth" data-tooltip="재물, 사업 번창">재물</button>
-                <button class="theme-button" data-theme="love" data-tooltip="연애, 결혼, 인연">사랑</button>
-                <button class="theme-button" data-theme="health" data-tooltip="건강, 치유">건강</button>
-                <button class="theme-button" data-theme="study" data-tooltip="학업, 합격">학업</button>
-                <button class="theme-button" data-theme="safety" data-tooltip="안전, 액운 방지">안전</button>
-                <button class="theme-button" data-theme="success" data-tooltip="승진, 목표 달성">성공</button>
-                <button class="theme-button" data-theme="history" data-tooltip="역사, 문화재">역사</button>
+                <button class="theme-button" data-theme="wealth">재물</button>
+                <button class="theme-button" data-theme="love">사랑</button>
+                <button class="theme-button" data-theme="health">건강</button>
+                <button class="theme-button" data-theme="study">학업</button>
+                <button class="theme-button" data-theme="safety">안전</button>
+                <button class="theme-button" data-theme="success">성공</button>
+                <button class="theme-button" data-theme="history">역사</button>
             </div>
         </header>
         
         <main>
             <section>
                 <div id="map"></div>
-                <article style="padding: 20px; color: #555; font-size: 0.95rem; line-height: 1.6; background: rgba(255,255,255,0.8);">
-                    <h2>도쿄 신사 여행 가이드</h2>
-                    <p>JinjaMap을 통해 도쿄 곳곳에 숨겨진 신사를 탐방해보세요. 여러분의 소원을 이루어줄 특별한 장소를 지도에서 쉽게 찾을 수 있습니다.</p>
+                
+                <article style="padding: 30px; color: #444; font-size: 1rem; line-height: 1.8; background: #fff; border-radius: 12px; margin-top: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                    <h2 style="font-size: 1.5rem; color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">
+                        ⛩️ 도쿄 신사 여행 가이드
+                    </h2>
+                    <p style="margin-bottom: 25px;">
+                        <strong>JinjaMap</strong>은 여러분의 간절한 소원(재물, 사랑, 건강 등)에 딱 맞는 
+                        도쿄의 <strong>파워스팟(Power Spot)</strong>을 찾아드리는 서비스입니다.
+                        상단의 버튼을 눌러 원하는 테마의 신사를 찾아보세요.
+                    </p>
                 </article>
             </section>
 
             <section class="list-section">
                 <h2 class="list-title">⛩️ 최신 신사 탐방기</h2>
-                <!-- 자바스크립트로 카드가 생성되는 공간 -->
+                <!-- map.js가 데이터를 가져와서 여기에 카드를 채워넣습니다 -->
                 <div id="shrine-list" class="shrine-grid"></div>
             </section>
         </main>
 
         <section style="padding: 40px 20px; background-color: #fff; border-top: 1px solid #eee; text-align: center;">
-            <h2 style="margin-bottom: 15px;">JinjaMap은?</h2>
-            <p style="color: #555;">도쿄 여행자들이 소원에 맞는 신사를 찾을 수 있도록 돕는 비영리 프로젝트입니다.</p>
+            <h2 style="margin-bottom: 15px;">JinjaMap Project</h2>
+            <p style="color: #555;">도쿄 여행자들의 소원 성취를 돕는 비영리 프로젝트입니다.</p>
         </section>
 
         <footer>
             <p>&copy; 2024 JinjaMap. All rights reserved.</p>
             <p>
                 <a href="/privacy.html">개인정보처리방침</a> | 
-                <a href="https://forms.gle/your-google-form-url" target="_blank">문의하기</a>
+                <a href="https://script.google.com/macros/s/AKfycbwY1zVFx7_5SGK81GajV2nklh5mhlyPwu6avHDBnYY74SOxb7_F1JNyhn11b-UjcD17-g/exec" target="_blank">문의하기</a>
             </p>
         </footer>
     </div>
 
-    <!-- 오미쿠지 버튼 및 모달 -->
+    <!-- 오미쿠지 UI -->
     <button id="omikuji-btn" class="omikuji-floating-btn">🥠 오늘의 운세</button>
 
     <div id="omikuji-modal" class="modal-overlay" style="display: none;">
@@ -120,7 +133,7 @@
         </div>
     </div>
 
-    <!-- [중요] 최적화된 JS 로드 -->
+    <!-- 스크립트 로드: map.js 먼저, 그 다음 Google Maps -->
     <script src="/static/js/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=REDACTED_GOOGLE_API_KEY&callback=initMap&libraries=marker&v=beta&loading=async" async defer></script>
 </body>

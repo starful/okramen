@@ -5,3 +5,5 @@ gunicorn
 google-cloud-storage
 googlemaps
 flask-compress
+python-frontmatter
+markdown

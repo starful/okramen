@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ post.title }} - JinjaMap</title>
+    <meta name="description" content="{{ post.summary }}">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        .detail-container { max-width: 800px; margin: 0 auto; padding: 20px; background: #fff; }
+        .detail-header { text-align: center; margin-bottom: 40px; }
+        .detail-title { font-size: 2rem; margin-bottom: 10px; color: #333; }
+        .detail-meta { color: #666; font-size: 0.9rem; }
+        .detail-img { width: 100%; height: auto; border-radius: 10px; margin-bottom: 30px; }
+        .detail-content { font-size: 1.1rem; line-height: 1.8; color: #444; }
+        .detail-content h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 40px; color: #d35400; }
+        .detail-content img { max-width: 100%; height: auto; display: block; margin: 20px auto; border-radius: 5px; }
+        .back-btn { display: inline-block; margin-top: 40px; padding: 10px 20px; background: #333; color: white; text-decoration: none; border-radius: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header style="padding: 20px;">
+            <a href="/"><img src="/static/images/JinjaMapLogo_Horizontal.png" alt="Logo" style="height: 40px;"></a>
+        </header>
+
+        <article class="detail-container">
+            <div class="detail-header">
+                <h1 class="detail-title">{{ post.title }}</h1>
+                <div class="detail-meta">
+                    📍 {{ post.address }} | 🏷️ {{ post.categories|join(', ') }}
+                </div>
+            </div>
+
+            <!-- 메인 썸네일 -->
+            <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
+
+            <!-- 마크다운 변환 내용 -->
+            <div class="detail-content">
+                {{ content | safe }}
+            </div>
+
+            <div style="text-align: center;">
+                <a href="/" class="back-btn">🗺️ 지도 돌아가기</a>
+            </div>
+        </article>
+        
+        <footer>
+            <p>&copy; 2024 JinjaMap</p>
+        </footer>
+    </div>
+</body>
+</html>

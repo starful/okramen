@@ -1,18 +1,21 @@
-// 전역 변수 선언
+/**
+ * map.js - JinjaMap Main Logic (Bigger Markers Version)
+ */
+
 let map;
 let allMarkers = [];
 let infoWindow;
 let allShrinesData = [];
 
-// 카테고리 테마 매핑
+// 카테고리(한글) <-> 테마(영문 코드) 매핑
 const CATEGORY_THEME_MAP = {
-    '재물': 'wealth',
-    '사랑': 'love', '연애': 'love',
-    '건강': 'health',
-    '학업': 'study',
-    '안전': 'safety',
-    '성공': 'success',
-    '역사': 'history',
+    '재물': 'wealth', '금전운': 'wealth', '복권': 'wealth',
+    '사랑': 'love', '연애': 'love', '인연': 'love', '결혼': 'love',
+    '건강': 'health', '치유': 'health',
+    '학업': 'study', '합격': 'study',
+    '안전': 'safety', '교통안전': 'safety', '액막이': 'safety',
+    '성공': 'success', '사업': 'success', '승진': 'success',
+    '역사': 'history', '유래': 'history'
 };
 
 const THEME_COLORS = {
@@ -22,17 +25,17 @@ const THEME_COLORS = {
 };
 
 /**
- * 지도 초기화
+ * 지도 초기화 (Google Maps API 콜백)
  */
 async function initMap() {
     const tokyoCoords = { lat: 35.6895, lng: 139.6917 };
 
-    // Google Maps 라이브러리 비동기 로드
+    // Google Maps 라이브러리 로드
     const { Map } = await google.maps.importLibrary("maps");
     const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
     map = new Map(document.getElementById("map"), {
-        zoom: 11,
+        zoom: 10,
         center: tokyoCoords,
         mapId: "2938bb3f7f034d78",
         mapTypeControl: false,
@@ -44,29 +47,44 @@ async function initMap() {
     infoWindow = new google.maps.InfoWindow();
     addLocationButton();
 
+    // API를 통해 데이터 가져오기
     try {
         const response = await fetch('/api/shrines');
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        
         const jsonData = await response.json();
         
-        // 데이터 호환성 체크 (배열 or 객체)
         if (Array.isArray(jsonData)) {
             allShrinesData = jsonData;
+        } else if (jsonData.shrines) {
+            allShrinesData = jsonData.shrines;
         } else {
-            allShrinesData = jsonData.shrines || [];
-            if (jsonData.last_updated) {
-                document.getElementById('update-msg').textContent = `데이터 업데이트: ${jsonData.last_updated}`;
-            }
+            allShrinesData = [];
         }
+
+        console.log(`Loaded ${allShrinesData.length} shrines.`);
 
         // 마커 및 리스트 렌더링
         addMarkers(allShrinesData, AdvancedMarkerElement);
-        renderRecentShrines(allShrinesData.slice(0, 4)); // 최신 8개 렌더링
+        renderRecentShrines(allShrinesData.slice(0, 8));
+        
         updateFilterButtonCounts(allShrinesData);
         setupFilterButtons();
+        
+        // 초기 로딩 시 모든 마커가 보이도록 카메라 이동
+        updateCameraBounds();
+
+        // 로딩 메시지 숨김
+        const msgEl = document.getElementById('update-msg');
+        if(msgEl) msgEl.style.display = 'none';
 
     } catch (error) {
         console.error("데이터 로딩 실패:", error);
-        document.getElementById('update-msg').textContent = '데이터를 불러오는 데 실패했습니다.';
+        const msgEl = document.getElementById('update-msg');
+        if(msgEl) {
+            msgEl.textContent = '데이터를 불러오는 데 실패했습니다.';
+            msgEl.style.display = 'block';
+        }
     }
 }
 
@@ -74,7 +92,6 @@ async function initMap() {
  * 마커 추가 함수
  */
 function addMarkers(shrines, AdvancedMarkerElement) {
-    // 기존 마커 제거
     allMarkers.forEach(m => m.map = null);
     allMarkers = [];
 
@@ -84,10 +101,16 @@ function addMarkers(shrines, AdvancedMarkerElement) {
         const mainTheme = findMainTheme(shrine.categories);
         const borderColor = THEME_COLORS[mainTheme] || THEME_COLORS['default'];
 
-        // 커스텀 마커 DOM 요소 생성
         const markerContent = document.createElement("div");
         markerContent.className = 'marker-icon';
-        markerContent.style.borderColor = borderColor;
+        markerContent.style.backgroundColor = borderColor;
+        
+        // [수정됨] 마커 크기 확대 (20px -> 32px)
+        markerContent.style.width = '32px';
+        markerContent.style.height = '32px';
+        markerContent.style.borderRadius = '50%';
+        markerContent.style.border = '3px solid white'; // 테두리도 조금 두껍게
+        markerContent.style.boxShadow = '0 3px 6px rgba(0,0,0,0.4)'; // 그림자도 조금 더 진하게
 
         const marker = new AdvancedMarkerElement({
             map: map,
@@ -96,9 +119,7 @@ function addMarkers(shrines, AdvancedMarkerElement) {
             content: markerContent,
         });
 
-        // 테마 정보 저장
         marker.themes = getThemesFromCategories(shrine.categories);
-
         marker.addListener("click", () => showInfoWindow(marker, shrine));
         allMarkers.push(marker);
     });
@@ -109,16 +130,26 @@ function addMarkers(shrines, AdvancedMarkerElement) {
  */
 function showInfoWindow(marker, shrine) {
     const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${shrine.lat},${shrine.lng}&travelmode=walking`;
-    
-    // [최적화] loading="lazy" 및 width/height 스타일 적용으로 레이아웃 시프트 방지
+    const thumbUrl = shrine.thumbnail ? shrine.thumbnail : '/static/images/default_thumb.webp';
+    const detailLink = shrine.link || '#';
+
     const contentString = `
-        <div class="infowindow-content">
-            <img src="${shrine.thumbnail}" alt="${shrine.title}" loading="lazy" style="background:#eee; min-height:140px;">
-            <h3>${shrine.title}</h3>
-            <p>🏷️ ${shrine.categories ? shrine.categories.join(', ') : ''}</p>
-            <div class="info-btn-group">
-                <a href="${directionsUrl}" target="_blank" class="info-btn dir-btn">📍 길찾기</a>
-                <a href="${shrine.link}" target="_blank" class="info-btn blog-btn">블로그</a>
+        <div class="infowindow-content" style="max-width:220px;">
+            <a href="${detailLink}" target="_blank">
+                <img src="${thumbUrl}" alt="${shrine.title}" 
+                     style="width:100%; height:120px; object-fit:cover; border-radius:8px; margin-bottom:8px; background:#eee;">
+            </a>
+            <h3 style="margin:0 0 5px 0; font-size:16px;">
+                <a href="${detailLink}" target="_blank" style="text-decoration:none; color:#333;">${shrine.title}</a>
+            </h3>
+            <p style="margin:0 0 10px 0; font-size:12px; color:#666;">
+                🏷️ ${shrine.categories ? shrine.categories.join(', ') : ''}
+            </p>
+            <div class="info-btn-group" style="display:flex; gap:5px;">
+                <a href="${directionsUrl}" target="_blank" class="info-btn" 
+                   style="flex:1; padding:6px; background:#4285F4; color:white; text-align:center; border-radius:4px; text-decoration:none; font-size:12px;">📍 길찾기</a>
+                <a href="${detailLink}" class="info-btn" 
+                   style="flex:1; padding:6px; background:#fff; border:1px solid #ddd; color:#333; text-align:center; border-radius:4px; text-decoration:none; font-size:12px;">📖 리뷰</a>
             </div>
         </div>
     `;
@@ -127,33 +158,32 @@ function showInfoWindow(marker, shrine) {
 }
 
 /**
- * [최적화] 리스트 렌더링 (DocumentFragment + Lazy Loading)
+ * 리스트 렌더링
  */
 function renderRecentShrines(shrines) {
     const listContainer = document.getElementById('shrine-list');
     if (!listContainer) return;
     
-    listContainer.innerHTML = ''; // 초기화
-
-    // [최적화] 가상 DOM 조각을 사용하여 리플로우(Reflow) 방지
+    listContainer.innerHTML = '';
     const fragment = document.createDocumentFragment();
 
     shrines.forEach(shrine => {
         const card = document.createElement('div');
         card.className = 'shrine-card';
         
-        const categoryTag = shrine.categories?.[0] ? `• <span>🏷️ ${shrine.categories[0]}</span>` : '';
+        const thumbUrl = shrine.thumbnail ? shrine.thumbnail : '/static/images/default_thumb.webp';
+        const categoryTag = shrine.categories?.[0] ? `<span>🏷️ ${shrine.categories[0]}</span>` : '';
+        const detailLink = shrine.link || '#';
         
-        // [최적화] loading="lazy" 추가
         card.innerHTML = `
-            <a href="${shrine.link}" target="_blank" class="card-thumb-link">
-                <img src="${shrine.thumbnail}" alt="${shrine.title}" class="card-thumb" loading="lazy">
+            <a href="${detailLink}" class="card-thumb-link">
+                <img src="${thumbUrl}" alt="${shrine.title}" class="card-thumb" loading="lazy">
             </a>
             <div class="card-content">
-                <h3 class="card-title"><a href="${shrine.link}" target="_blank">${shrine.title}</a></h3>
-                <div class="card-meta"><span>📅 ${shrine.published}</span>${categoryTag}</div>
-                <p class="card-summary">${shrine.summary}</p>
-                <a href="${shrine.link}" target="_blank" class="card-btn">더 보기 →</a>
+                <h3 class="card-title"><a href="${detailLink}">${shrine.title}</a></h3>
+                <div class="card-meta">📅 ${shrine.published || ''} • ${categoryTag}</div>
+                <p class="card-summary">${shrine.summary || ''}</p>
+                <a href="${detailLink}" class="card-btn">더 보기 →</a>
             </div>
         `;
         fragment.appendChild(card);
@@ -162,31 +192,82 @@ function renderRecentShrines(shrines) {
     listContainer.appendChild(fragment);
 }
 
-// 유틸리티 및 이벤트 리스너 함수들 (기존 로직 유지)
-
+/**
+ * 버튼 카운트 업데이트
+ */
 function updateFilterButtonCounts(shrines) {
     const counts = { all: shrines.length };
-    Object.values(CATEGORY_THEME_MAP).forEach(theme => counts[theme] = 0);
+    
+    Object.values(CATEGORY_THEME_MAP).forEach(theme => {
+        if (!counts[theme]) counts[theme] = 0;
+    });
 
     shrines.forEach(shrine => {
-        const themes = getThemesFromCategories(shrine.categories);
-        new Set(themes).forEach(theme => {
+        const themes = new Set(getThemesFromCategories(shrine.categories));
+        themes.forEach(theme => {
             if (counts.hasOwnProperty(theme)) counts[theme]++;
         });
     });
 
     document.querySelectorAll('.theme-button').forEach(btn => {
         const theme = btn.dataset.theme;
-        const originalText = btn.textContent.split('(')[0].trim();
-        btn.textContent = `${originalText} (${counts[theme] || 0})`;
+        if (theme && counts[theme] !== undefined) {
+            const textOnly = btn.textContent.split('(')[0].trim();
+            btn.textContent = `${textOnly} (${counts[theme]})`;
+        }
     });
 }
 
+/**
+ * 지도 마커 필터링 및 카메라 이동
+ */
 function filterMapMarkers(selectedTheme) {
+    let hasVisibleMarkers = false;
+
     allMarkers.forEach(marker => {
-        const isVisible = (selectedTheme === 'all' || marker.themes.includes(selectedTheme));
+        let isVisible = false;
+        if (selectedTheme === 'all') {
+            isVisible = true;
+        } else if (marker.themes && marker.themes.includes(selectedTheme)) {
+            isVisible = true;
+        }
         marker.map = isVisible ? map : null;
+        if (isVisible) hasVisibleMarkers = true;
     });
+
+    // 필터링 후 카메라 재조정
+    if (hasVisibleMarkers) {
+        updateCameraBounds();
+    }
+}
+
+/**
+ * 현재 보이는 마커들에 맞춰 지도 범위 재조정
+ */
+function updateCameraBounds() {
+    const bounds = new google.maps.LatLngBounds();
+    let visibleCount = 0;
+
+    allMarkers.forEach(marker => {
+        if (marker.map !== null && marker.position) {
+            bounds.extend(marker.position);
+            visibleCount++;
+        }
+    });
+
+    if (visibleCount > 0) {
+        map.fitBounds(bounds);
+
+        const listener = google.maps.event.addListener(map, "idle", () => {
+            if (map.getZoom() > 15) {
+                map.setZoom(15);
+            }
+            google.maps.event.removeListener(listener);
+        });
+    } else {
+        map.setCenter({ lat: 35.6895, lng: 139.6917 });
+        map.setZoom(10);
+    }
 }
 
 function setupFilterButtons() {
@@ -201,6 +282,7 @@ function setupFilterButtons() {
 }
 
 function getThemesFromCategories(categories = []) {
+    if (!categories) return [];
     return categories.map(cat => CATEGORY_THEME_MAP[cat]).filter(Boolean);
 }
 
@@ -214,8 +296,10 @@ function findMainTheme(categories = []) {
 
 function addLocationButton() {
     const locationButton = document.createElement("button");
-    locationButton.innerHTML = "🎯 내 위치";
+    locationButton.textContent = "🎯 내 위치";
     locationButton.className = "location-button";
+    locationButton.style.cssText = "background:white; border:2px solid #ccc; padding:8px; border-radius:4px; margin:10px; cursor:pointer; box-shadow:0 2px 6px rgba(0,0,0,0.3);";
+
     map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(locationButton);
 
     locationButton.addEventListener("click", () => {
@@ -228,6 +312,8 @@ function addLocationButton() {
                 },
                 () => alert("위치 정보를 가져올 수 없습니다.")
             );
+        } else {
+            alert("브라우저가 위치 정보를 지원하지 않습니다.");
         }
     });
 }
@@ -249,41 +335,48 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.style.display = 'flex';
         document.getElementById('omikuji-step1').style.display = 'block';
         document.getElementById('omikuji-step2').style.display = 'none';
-        document.getElementById('shaking-box').classList.remove('shake');
+        const box = document.getElementById('shaking-box');
+        if(box) box.classList.remove('shake');
     };
     
     document.querySelector('.close-modal').onclick = () => modal.style.display = 'none';
     
-    document.getElementById('draw-btn').onclick = () => {
-        const box = document.getElementById('shaking-box');
-        box.classList.add('shake');
-        
-        setTimeout(() => {
-            box.classList.remove('shake');
-            if (typeof confetti === 'function') confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 } });
-
-            const res = omikujiResults[Math.floor(Math.random() * omikujiResults.length)];
+    const drawBtn = document.getElementById('draw-btn');
+    if(drawBtn) {
+        drawBtn.onclick = () => {
+            const box = document.getElementById('shaking-box');
+            if(box) box.classList.add('shake');
             
-            document.getElementById('result-title').innerText = res.title;
-            document.getElementById('result-title').style.color = res.color;
-            document.getElementById('result-desc').innerHTML = res.desc;
-            
-            const btn = document.getElementById('go-map-btn');
-            btn.innerText = res.btnText;
-            btn.style.backgroundColor = res.color;
-            
-            btn.onclick = () => {
-                document.querySelectorAll('.theme-button').forEach(b => {
-                    b.classList.remove('active');
-                    if(b.dataset.theme === res.theme) b.classList.add('active');
-                });
-                filterMapMarkers(res.theme);
-                modal.style.display = 'none';
-                document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
-            };
-            
-            document.getElementById('omikuji-step1').style.display = 'none';
-            document.getElementById('omikuji-step2').style.display = 'block';
-        }, 1000);
-    };
+            setTimeout(() => {
+                if(box) box.classList.remove('shake');
+                if (typeof confetti === 'function') confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 } });
+    
+                const res = omikujiResults[Math.floor(Math.random() * omikujiResults.length)];
+                
+                document.getElementById('result-title').innerText = res.title;
+                document.getElementById('result-title').style.color = res.color;
+                document.getElementById('result-desc').innerHTML = res.desc;
+                
+                const btn = document.getElementById('go-map-btn');
+                btn.innerText = res.btnText;
+                btn.style.backgroundColor = res.color;
+                
+                btn.onclick = () => {
+                    document.querySelectorAll('.theme-button').forEach(b => {
+                        b.classList.remove('active');
+                        if(b.dataset.theme === res.theme) b.classList.add('active');
+                    });
+                    
+                    filterMapMarkers(res.theme);
+                    modal.style.display = 'none';
+                    
+                    const mapEl = document.getElementById("map");
+                    if(mapEl) mapEl.scrollIntoView({ behavior: "smooth", block: "center" });
+                };
+                
+                document.getElementById('omikuji-step1').style.display = 'none';
+                document.getElementById('omikuji-step2').style.display = 'block';
+            }, 1000);
+        };
+    }
 });
