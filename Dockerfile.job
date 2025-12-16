@@ -1,7 +1,0 @@
-FROM python:3.9-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
-# 웹 서버 실행(CMD) 대신 파이썬 스크립트 실행
-CMD ["python", "cache_warmer.py"]

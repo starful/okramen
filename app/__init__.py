@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, abort
+from flask import Flask, jsonify, render_template, abort, send_from_directory
 from flask_compress import Compress
 import json
 import os
@@ -8,15 +8,21 @@ import markdown
 app = Flask(__name__)
 Compress(app)
 
-# [설정] 데이터 파일 경로
-# 주의: 이 경로에 실제 'shrines_data.json' 파일이 존재해야 지도가 나옵니다.
-DATA_FILE = os.path.join(app.root_path, 'static', 'json', 'shrines_data.json')
-CONTENT_DIR = os.path.join(app.root_path, 'content')
+# [설정] 경로 설정
+BASE_DIR = app.root_path
+DATA_FILE = os.path.join(BASE_DIR, 'static', 'json', 'shrines_data.json')
+CONTENT_DIR = os.path.join(BASE_DIR, 'content')
 
 @app.route('/')
 def index():
-    # HTML에서 비동기(fetch)로 데이터를 가져오므로, 여기선 그냥 템플릿만 렌더링합니다.
     return render_template('index.html')
+
+# ==========================================
+# [추가] 개인정보처리방침 라우트
+# ==========================================
+@app.route('/privacy.html')
+def privacy():
+    return render_template('privacy.html')
 
 @app.route('/api/shrines')
 def api_shrines():
@@ -26,7 +32,6 @@ def api_shrines():
                 data = json.load(f)
             return jsonify(data)
         else:
-            # 파일이 없을 경우 빈 배열 반환 (에러 방지)
             return jsonify({"shrines": [], "error": "Data file not found"})
     except Exception as e:
         return jsonify({"shrines": [], "error": str(e)})
@@ -41,14 +46,18 @@ def shrine_detail(shrine_id):
     with open(md_path, 'r', encoding='utf-8') as f:
         post = frontmatter.load(f)
     
-    # 마크다운 변환 (테이블 확장 기능 포함)
     content_html = markdown.markdown(post.content, extensions=['tables'])
     
     return render_template('detail.html', post=post, content=content_html)
 
+# [핵심] content/images 이미지 서빙
+@app.route('/content/images/<path:filename>')
+def serve_content_images(filename):
+    images_dir = os.path.join(CONTENT_DIR, 'images')
+    return send_from_directory(images_dir, filename)
+
 @app.route('/ads.txt')
 def ads_txt():
-    # 경로가 맞는지 확인 필요 (보통 static 폴더나 root에 둠)
     return app.send_static_file('ads.txt')
 
 @app.route('/sitemap.xml')

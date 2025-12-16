@@ -4,7 +4,7 @@ categories: [사랑, 건강]
 address: 가나가와현 후지사와시 에노시마 2-3-8
 lat: 35.3006
 lng: 139.4802
-thumbnail: /static/images/jinja/enoshima.webp
+thumbnail: /content/images/enoshima.webp
 published: 2024-03-15
 summary: 일본 3대 벤자이텐을 모시는 연애와 재물의 성지. 용과 선녀의 전설이 깃든 에노시마의 파워스팟과 아름다운 풍경을 소개합니다.
 ---

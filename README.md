@@ -1,25 +1,28 @@
 # ⛩️ JinjaMap (Tokyo Shrine Explorer)
 
-**JinjaMap** is a web application that maps major shrines in Tokyo, dynamically syncing with a Hatena Blog to discover them based on specific wishes and themes. It utilizes the Google Maps API for visualization and Python Flask for backend processing.
+**JinjaMap** is a web application that maps major shrines in Tokyo. It helps users discover power spots based on specific wishes (Wealth, Love, Health, etc.) using an interactive Google Map.
+
+Unlike the previous version, this system now operates on a **static data build system** using Markdown files, ensuring faster performance and easier content management without external API dependencies.
 
 ## ✨ Features
 
-*   **Hatena Blog Integration**: Automatically fetches blog posts, extracts addresses, and maps them using the Hatena AtomPub API.
-*   **Google Maps Integration**: Visualizes the locations of shrines across Tokyo with interactive markers.
-*   **Theme-Based Filtering**: Filter shrines by specific purposes based on blog categories:
-    *   💰 **Wealth** (Business success, financial luck)
-    *   ❤️ **Love** (Relationships, marriage)
-    *   💊 **Health** (Longevity, healing)
-    *   🎓 **Study** (Academic success)
-    *   And more (Safety, Success, History).
-*   **Responsive Design**: Optimized for both desktop and mobile devices.
-*   **Serverless Deployment**: Hosted using Docker and Python Flask on Google Cloud Run.
+*   **Markdown-Based Content**: Manage shrine data easily via local `.md` files in the `app/content/` directory.
+*   **Automated Data Build**: The system automatically converts Markdown to JSON during the Docker build process.
+*   **Google Maps Integration**: Visualizes shrine locations with custom markers and interactive info windows.
+*   **Theme-Based Filtering**:
+    *   💰 **Wealth** (재물)
+    *   ❤️ **Love** (연애/사랑)
+    *   💊 **Health** (건강)
+    *   🎓 **Study** (학업)
+    *   🛡️ **Safety** (안전)
+*   **Responsive Design**: Fully optimized for mobile and desktop.
+*   **Serverless Deployment**: Hosted on Google Cloud Run.
 
 ## 🛠️ Tech Stack
 
 *   **Backend**: Python 3.10, Flask, Gunicorn
-*   **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
-*   **API**: Google Maps JavaScript API, Hatena Blog AtomPub API
+*   **Data Processing**: Python-frontmatter (Markdown parsing)
+*   **Frontend**: HTML5, CSS3, Vanilla JS
 *   **Infrastructure**: Docker, Google Cloud Run, Cloud Build
 
 ## 📂 Project Structure
@@ -27,88 +30,65 @@
 ```text
 jinjaMap/
 ├── app/
-│   ├── __init__.py         # Flask application entry point
-│   ├── hatena_client.py    # Logic to fetch and parse Hatena Blog data
-│   │
-│   ├── static/             # Static files (CSS, JS, images)
-│   │   ├── css/
-│   │   │   └── style.css
-│   │   ├── js/
-│   │   └── ...
-│   │   └── images/
-│   │       └── ...
-│   │
-│   └── templates/          # HTML templates
-│       ├── index.html
-│       ├── privacy.html
-│       └── ads.txt
+│   ├── content/            # [CORE] Shrine data files (.md)
+│   ├── static/             # Assets (CSS, JS, Images, JSON)
+│   ├── templates/          # HTML Templates
+│   └── __init__.py         # Flask App
 │
-├── makeMapJson.py          # Data generation script
-├── requirements.txt        # Python dependencies
-├── Dockerfile              # Docker configuration
-├── cloudbuild.yaml         # CI/CD configuration
-└── README.md
+├── build_data.py           # Script: Converts Markdown -> JSON
+├── Dockerfile              # Container config (Runs build_data.py)
+├── cloudbuild.yaml         # CI/CD config
+└── requirements.txt        # Dependencies
 ```
 
-## 🚀 Deployment Guide (Google Cloud Run)
+## 📝 How to Add a New Shrine
 
-This project is deployed to Google Cloud Run. You can choose between **Automated Deployment** (via Cloud Build) or **Manual Deployment**.
+1.  Create a new Markdown file in **`app/content/`** (e.g., `meiji_jingu.md`).
+2.  Add the required **Frontmatter** at the top:
+
+```yaml
+---
+layout: post
+title: "Meiji Jingu Shrine"
+date: 2024-03-20
+categories: [love, peace]
+tags: [Tokyo, PowerSpot]
+thumbnail: /static/images/jinja/meiji.webp
+lat: 35.6764
+lng: 139.6993
+address: 1-1 Yoyogikamizonocho, Shibuya City, Tokyo
+excerpt: A brief summary of the shrine...
+---
+
+(Write the full description here using Markdown...)
+```
+
+3.  When you deploy, `build_data.py` will automatically include this file in the map data.
+
+## 🚀 Deployment Guide
+
+This project is deployed to **Google Cloud Run** using **Cloud Build**.
 
 ### 1. Prerequisites
-Ensure you have the Google Cloud SDK (`gcloud`) installed and authenticated.
+*   Google Cloud SDK installed.
+*   Project ID set: `starful-258005`
+
+### 2. Deploy Command
+Since external API keys are no longer needed for the build process, the command is simple:
 
 ```bash
-# Set your project ID
-gcloud config set project starful-2580_05
+gcloud builds submit
 ```
 
-### 2. Method A: Automated Build & Deploy (Recommended)
-This method uses `cloudbuild.yaml` to build the Docker image and deploy it to Cloud Run in a single command. It also safely handles your API credentials.
+This command will:
+1.  Upload the source code.
+2.  Build the Docker image (and generate `shrines_data.json`).
+3.  Deploy the new image to Cloud Run.
 
-**Run the following command:**
-(Replace `YOUR_...` with your actual credentials)
+## ⚠️ Configuration
 
-```bash
-gcloud builds submit \
-    --substitutions=_HATENA_USERNAME="YOUR_HATENA_ID",_HATENA_BLOG_ID="blog.jinjamap.com",_HATENA_API_KEY="YOUR_API_KEY",_GOOGLE_MAPS_API_KEY="YOUR_GOOGLE_MAPS_KEY"
-```
-
-*   **Note**: This command executes the steps defined in `cloudbuild.yaml`:
-    1.  Runs the data generation script (`makeMapJson.py`).
-    2.  Builds the Docker image.
-    3.  Pushes it to the Artifact Registry.
-    4.  **Deploys** the service (`jinjamap`) to Cloud Run automatically.
-
-### 3. Method B: Manual Deployment
-If you prefer to build and deploy separately, or need to redeploy an existing image without rebuilding.
-
-**Step 1: Build & Push Image**
-```bash
-gcloud builds submit --tag us-central1-docker.pkg.dev/starful-2580_05/jinjamap-repo/jinjamap
-```
-
-**Step 2: Deploy to Cloud Run**
-```bash
-gcloud run deploy jinjamap \
-  --image us-central1-docker.pkg.dev/starful-2580_05/jinjamap-repo/jinjamap \
-  --platform managed \
-  --region us-central1 \
-  --allow-unauthenticated \
-  --port 8080
-```
-*Note: For manual deployment, environment variables are not required for the web server to run, as it only serves static content and an API that reads from storage.*
-
-## ⚠️ API Configuration
-
-### Google Maps API
-For the map to work, ensure the `app/templates/index.html` file contains a valid API key with **HTTP Referrer restrictions** configured in Google Cloud Console:
-*   `https://jinjamap-*.run.app/*`
-*   `https://jinjamap.com/*`
-
-### Hatena Blog API
-The `app/hatena_client.py` script connects to Hatena. For the data generation to work, ensure your blog posts have:
-1.  **Categories** set (e.g., "재물", "연애").
-2.  **Address** in the content body (e.g., `주소: 도쿄도...` or `Address: Tokyo...`) for Geocoding.
+### Google Maps API Key
+The Google Maps API key is client-side. Ensure `app/templates/index.html` contains a valid key with **HTTP Referrer restrictions** configured in the Google Cloud Console.
 
 ## 📝 License
 

@@ -4,7 +4,7 @@ title: "수천 마리의 여우가 지키는 소원의 성지, 아이치현 '도
 date: 2025-11-30
 categories: [아이치, 역사, 파워스팟]
 tags: [도요카와, 다키니신텐, 사업번창, 영호총, 이나리즈시, 일본3대이나리, 신불습합]
-thumbnail: /static/images/jinja/toyokawa_inari_main.webp
+thumbnail: /content/images/toyokawa_inari_main.webp
 lat: 34.825126
 lng: 137.394142
 address: 愛知県豊川市豊川町1番地 (1 Toyokawa-cho, Toyokawa-shi, Aichi)

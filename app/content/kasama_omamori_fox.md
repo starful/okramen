@@ -4,7 +4,7 @@ title: "1,370년의 신비, 일본 3대 이나리 '가사마 이나리 신사'�
 date: 2025-12-02
 categories: [이바라키, 신사, 역사]
 tags: [가사마, 우카노미타마, 사업번창, 등나무, 가사마야키, 일본3대이나리, 파워스팟]
-thumbnail: /static/images/jinja/kasama_inari_main.webp
+thumbnail: /content/images/kasama_inari_main.webp
 lat: 36.384260
 lng: 140.258942
 address: 茨城県笠間市笠間1番地 (1 Kasama, Kasama-shi, Ibaraki)

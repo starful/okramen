@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025.12.14",
+  "last_updated": "2025.12.15",
   "shrines": [
     {
       "id": "enoshima",
@@ -7,15 +7,287 @@
       "lat": 35.3006,
       "lng": 139.4802,
       "categories": [
-        "love",
-        "wealth",
-        "art"
+        "사랑",
+        "건강"
       ],
-      "thumbnail": "/static/images/enoshima.webp",
+      "thumbnail": "/content/images/enoshima.webp",
       "address": "가나가와현 후지사와시 에노시마 2-3-8",
-      "published": "2024-03-15",
+      "published": "2025-12-15",
       "summary": "일본 3대 벤자이텐을 모시는 연애와 재물의 성지. 용과 선녀의 전설이 깃든 에노시마의 파워스팟과 아름다운 풍경을 소개합니다.",
       "link": "/shrine/enoshima"
+    },
+    {
+      "id": "kasama_omamori_fox",
+      "title": "1,370년의 신비, 일본 3대 이나리 '가사마 이나리 신사'에서 만나는 풍요와 예술의 여행",
+      "lat": 36.38426,
+      "lng": 140.258942,
+      "categories": [
+        "이바라키",
+        "신사",
+        "역사"
+      ],
+      "thumbnail": "/content/images/kasama_inari_main.webp",
+      "address": "茨城県笠間市笠間1番地 (1 Kasama, Kasama-shi, Ibaraki)",
+      "published": "2025-12-02",
+      "summary": "이바라키현 가사마시, 고즈넉한 풍경 속에 자리한 이곳은 **일본 3대 이나리(日本三大稲荷)** 중 하나로 꼽히는 유서 깊은 성지, **가사마 이나리 신사(笠間稲荷神社)**입니다. ...",
+      "link": "/shrine/kasama_omamori_fox"
+    },
+    {
+      "id": "kasama_inari_shrine",
+      "title": "일본 3대 이나리의 위엄! 1,370년 역사가 깃든 사업 번창의 성지 '가사마 이나리 신사' 완전 정복",
+      "lat": 36.386124,
+      "lng": 140.257321,
+      "categories": [
+        "재물",
+        "성공",
+        "역사"
+      ],
+      "thumbnail": "/content/images/kasama_inari_shrine.webp",
+      "address": "이바라키현 가사마시 가사마 1 (〒309-1611)",
+      "published": "2025-12-02",
+      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n도심의 빌딩 숲을 벗어나 조금은 고즈넉한 풍경 속으로 들어가 보고 싶지 않으신가요? 오늘은 이바라키현 가사마시의 평화로운 풍경 ...",
+      "link": "/shrine/kasama_inari_shrine"
+    },
+    {
+      "id": "kasama_inari",
+      "title": "[이바라키] 일본 3대 이나리의 품격, 1370년 역사가 깃든 '가사마 이나리 신사' 완전 정복",
+      "lat": 36.386938,
+      "lng": 140.258757,
+      "categories": [
+        "재물",
+        "성공",
+        "역사"
+      ],
+      "thumbnail": "/content/images/kasama_inari.webp",
+      "address": "1 Kasama, Kasama, Ibaraki 309-1611, Japan",
+      "published": "2025-12-02",
+      "summary": "이바라키현 가사마시, 고즈넉한 풍경 속에 자리한 이곳은 **일본 3대 이나리(日本三大稲荷)** 중 하나로 꼽히는 유서 깊은 성지, **가사마 이나리 신사**입니다. 단순한 참배의 ...",
+      "link": "/shrine/kasama_inari"
+    },
+    {
+      "id": "saijo_inari",
+      "title": "[오카야마] 신사와 사찰의 기묘한 동거, 1200년 역사의 '사이조 이나리' 완벽 가이드",
+      "lat": 34.707153,
+      "lng": 133.829064,
+      "categories": [
+        "재물",
+        "성공",
+        "역사"
+      ],
+      "thumbnail": "/content/images/saijo_inari.webp",
+      "address": "712 Takamatsu Inari, Kita Ward, Okayama, 701-1331, Japan",
+      "published": "2025-12-02",
+      "summary": "오카야마현을 여행하다 보면 붉은 도리이가 끝없이 펼쳐진 신비로운 장소를 마주하게 됩니다. 하지만 이곳은 단순한 신사가 아닙니다. 1200년이라는 긴 세월 동안 불교와 신토가 서로를...",
+      "link": "/shrine/saijo_inari"
+    },
+    {
+      "id": "daikokushu_shrine",
+      "title": "오사카 상인들의 비밀! 재물운과 인연을 한 번에 잡는 '다이코쿠슈 신사' 완전 정복",
+      "lat": 34.656111,
+      "lng": 135.4975,
+      "categories": [
+        "재물",
+        "성공",
+        "역사"
+      ],
+      "thumbnail": "/content/images/daikokushu_shrine.webp",
+      "address": "오사카부 오사카시 나니와구 시키쓰니시 1-2-12 (〒556-0015)",
+      "published": "2025-11-30",
+      "summary": "오사카의 번화가 난바(難波)에서 그리 멀지 않은 곳, 분주한 도시의 소음 속에서도 고요한 위엄을 잃지 않는 성지가 있습니다. 현지인들에게는 **'기즈노 다이코쿠상(木津の大国さん)'...",
+      "link": "/shrine/daikokushu_shrine"
+    },
+    {
+      "id": "toyokawa_main_gate",
+      "title": "수천 마리의 여우가 지키는 소원의 성지, 아이치현 '도요카와 이나리' 완벽 순례 가이드",
+      "lat": 34.825126,
+      "lng": 137.394142,
+      "categories": [
+        "아이치",
+        "역사",
+        "파워스팟"
+      ],
+      "thumbnail": "/content/images/toyokawa_inari_main.webp",
+      "address": "愛知県豊川市豊川町1番地 (1 Toyokawa-cho, Toyokawa-shi, Aichi)",
+      "published": "2025-11-30",
+      "summary": "일본 전역에 붉은 토리이가 끝없이 이어진 길, 그리고 그 곁을 지키는 신비로운 여우 석상. '이나리(稲荷)'라는 이름은 우리에게 풍요와 번영의 상징으로 깊이 각인되어 있습니다. 하...",
+      "link": "/shrine/toyokawa_main_gate"
+    },
+    {
+      "id": "shinagawa_shrine",
+      "title": "도쿄에서 용의 기운을 받다! 쇼군이 선택한 성공과 번영의 성지 '시나가와 신사' 완전 정복",
+      "lat": 35.619888,
+      "lng": 139.740428,
+      "categories": [
+        "성공",
+        "재물",
+        "역사"
+      ],
+      "thumbnail": "/content/images/shinagawa_shrine.webp",
+      "address": "도쿄도 시나가와구 기타시나가와 3-7-15 (〒140-0001)",
+      "published": "2025-11-30",
+      "summary": "도쿄의 번잡함 속에서 잠시 숨을 고르고, 시공을 초월한 영적인 기운을 느끼고 싶을 때, 저는 주저 없이 **시나가와 신사(品川神社)**로 발걸음을 향합니다.\n\n빌딩 숲 사이에 자리...",
+      "link": "/shrine/shinagawa_shrine"
+    },
+    {
+      "id": "matsunoo_taisha",
+      "title": "[교토] 술의 신과 만나는 신비로운 시간, 일본 최고(最古)의 신사 '마츠노오 타이샤'",
+      "lat": 35.000301,
+      "lng": 135.685577,
+      "categories": [
+        "성공",
+        "역사",
+        "재물"
+      ],
+      "thumbnail": "/content/images/matsunoo_taisha.webp",
+      "address": "3 Arashiyama Miyamachi, Nishikyo Ward, Kyoto, 616-0024, Japan",
+      "published": "2025-11-30",
+      "summary": "교토(京都)라는 도시의 서쪽 끝, 아라시야마(嵐山)의 한적한 기슭에 자리한 **마츠노오 타이샤(松尾大社)**. 이곳은 화려한 관광지의 소란스러움에서 한 걸음 비켜나, 수천 년의 역...",
+      "link": "/shrine/matsunoo_taisha"
+    },
+    {
+      "id": "hoto_shrine",
+      "title": "로또 1등 당첨의 성지? 배 타고 가는 보물섬, 사가현 '호토 신사' 참배 가이드",
+      "lat": 33.48002,
+      "lng": 129.98715,
+      "categories": [
+        "재물",
+        "성공",
+        "역사"
+      ],
+      "thumbnail": "/content/images/hoto_shrine.webp",
+      "address": "사가현 가라쓰시 다카시마 523 (〒847-0027)",
+      "published": "2025-11-30",
+      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n오늘은 규슈 북서부, 사가현 가라쓰시(唐津市)의 앞바다로 여러분을 안내하려 합니다. 겐카이나다(玄界灘)의 푸른 물결 위에 조용히...",
+      "link": "/shrine/hoto_shrine"
+    },
+    {
+      "id": "koami_jinja",
+      "title": "[도쿄] 전쟁과 지진도 피해간 기적의 강운, '고아미 신사'에서 재물운 씻어내기",
+      "lat": 35.683548,
+      "lng": 139.780112,
+      "categories": [
+        "재물",
+        "안전",
+        "성공"
+      ],
+      "thumbnail": "/content/images/koami_jinja.webp",
+      "address": "16-23 Nihonbashikoamicho, Chuo City, Tokyo 103-0016, Japan",
+      "published": "2025-11-30",
+      "summary": "도쿄의 빌딩 숲, 그 숨 가쁜 심장부인 니혼바시(日本橋)에 시간의 흐름을 잊은 듯 고요히 자리한 작은 신사가 있습니다. 그 이름은 **고아미 신사(小網神社)**. 비록 그 규모는 ...",
+      "link": "/shrine/koami_jinja"
+    },
+    {
+      "id": "sakatsura_isosaki_shrine",
+      "title": "로또 1등 당첨의 기운이 서린 곳? 300년 수목 터널을 지나 만나는 이바라키 '사카츠라 이소사키 신사'",
+      "lat": 36.386576,
+      "lng": 140.609144,
+      "categories": [
+        "재물",
+        "건강",
+        "역사"
+      ],
+      "thumbnail": "/content/images/sakatsura_isosaki_shrine.webp",
+      "address": "이바라키현 히타치나카시 이소자키초 4607-2 (〒311-1202)",
+      "published": "2025-11-30",
+      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n도쿄에서 조금만 벗어나면 만날 수 있는 이바라키현. 이곳에는 드넓은 태평양을 마주하고 선, 시간의 흐름조차 비켜 간 듯한 고요한...",
+      "link": "/shrine/sakatsura_isosaki_shrine"
+    },
+    {
+      "id": "iwakuni_shirohebi_shrine",
+      "title": "살아있는 신의 사자를 만나다! 재물운이 폭발하는 야마구치 '이와쿠니 시로헤비 신사' 순례",
+      "lat": 34.170428,
+      "lng": 132.222341,
+      "categories": [
+        "재물",
+        "성공",
+        "역사"
+      ],
+      "thumbnail": "/content/images/iwakuni_shirohebi_shrine.webp",
+      "address": "야마구치현 이와쿠니시 이마즈마치 6초메 4-2 (〒741-0081)",
+      "published": "2025-11-30",
+      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n야마구치현 동부, 유려한 5연 아치교인 '긴타이쿄(錦帯橋)'와 산 정상에 우뚝 솟은 '이와쿠니 성'으로 유명한 역사 도시 이와쿠...",
+      "link": "/shrine/iwakuni_shirohebi_shrine"
+    },
+    {
+      "id": "kinkasan_koganeyama",
+      "title": "3년 연속 참배하면 평생 돈 걱정 끝? 일본 최강 금전운 성지 '긴카산 고가네야마 신사' 여행 가이드",
+      "lat": 38.29657,
+      "lng": 141.563721,
+      "categories": [
+        "재물",
+        "성공",
+        "역사"
+      ],
+      "thumbnail": "/content/images/kinkasan_koganeyama.webp",
+      "address": "5 Kinkasan, Ayukawahama, Ishinomaki, Miyagi 986-2523, Japan",
+      "published": "2025-11-30",
+      "summary": "미야기현(宮城県) 오시카 반도(牡鹿半島) 끝자락, 태평양의 푸른 물결 위에 홀로 떠 있는 신비로운 섬, **긴카산(金華山)**. 이곳은 섬 전체가 신의 영역으로 여겨지는 성지이자,...",
+      "link": "/shrine/kinkasan_koganeyama"
+    },
+    {
+      "id": "kogane_shrine",
+      "title": "황금빛 도리이가 부르는 풍요의 약속, 기후 '고가네 신사' 완벽 가이드",
+      "lat": 35.419614,
+      "lng": 136.758062,
+      "categories": [
+        "재물",
+        "성공",
+        "역사"
+      ],
+      "thumbnail": "/content/images/kogane_shrine.webp",
+      "address": "기후현 기후시 고가네마치 5초메 3 (〒500-8842)",
+      "published": "2025-11-30",
+      "summary": "기후(岐阜)시의 중심가, 분주한 일상의 소음이 잠시 멎는 곳에 고요히 자리한 성지가 있습니다. 그 이름은 **'고가네 신사(金神社)'**. 황금빛으로 빛나는 이름만큼이나 참배객들의...",
+      "link": "/shrine/kogane_shrine"
+    },
+    {
+      "id": "kanemochi_shrine",
+      "title": "로또 1등 당첨자가 비밀로 하는 곳? 일본 최고의 금전운 성지 '가네모치 신사' 완전 정복",
+      "lat": 35.24422,
+      "lng": 133.43547,
+      "categories": [
+        "재물",
+        "성공",
+        "역사"
+      ],
+      "thumbnail": "/static/images/kanemochi_shrine.webp",
+      "address": "돗토리현 히노군 히노초 가네모치 74 (〒689-4512)",
+      "published": "2024-11-30",
+      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n오늘 여러분께 소개해 드릴 곳은 일본 전역, 아니 전 세계에서 '돈'을 사랑하는 사람들이라면 누구나 한 번쯤 꿈꾸는 궁극의 파워...",
+      "link": "/shrine/kanemochi_shrine"
+    },
+    {
+      "id": "araya_yama_shrine",
+      "title": "일본 제일의 금전운 성지, 후지산의 기운을 품은 '아라야야마 신사' 참배 가이드",
+      "lat": 35.4746,
+      "lng": 138.8079,
+      "categories": [
+        "재물",
+        "성공",
+        "역사"
+      ],
+      "thumbnail": "/content/images/araya_yama_shrine.webp",
+      "address": "야마나시현 후지요시다시 아라야 1230 (〒403-0006)",
+      "published": "2024-11-30",
+      "summary": "안녕하세요, **JinjaMap** 에디터입니다.\n\n후지산(富士山)의 신령한 기운이 감도는 야마나시 현(山梨県). 이 신성한 산의 기슭에는 수많은 전설과 이야기가 깃들어 있습니다....",
+      "link": "/shrine/araya_yama_shrine"
+    },
+    {
+      "id": "kinkasan_main",
+      "title": "3년 연속 참배하면 평생 돈 걱정 끝? 신비로운 황금의 섬, 긴카산 고가네야마 신사",
+      "lat": 38.297123,
+      "lng": 141.564512,
+      "categories": [
+        "미야기",
+        "신사",
+        "파워스팟",
+        "재물"
+      ],
+      "thumbnail": "/content/images/kinkasan_main.webp",
+      "address": "986-2523 宮城県石巻市鮎川浜金華山５",
+      "published": "2023-11-30",
+      "summary": "미야기현(宮城県) 오시카 반도(牡鹿半島) 끝자락, 태평양의 푸른 물결 위에 홀로 떠 있는 신비로운 섬, **긴카산(金華山)**. 이곳은 섬 전체가 신의 영역으로 여겨지는 성지이자,...",
+      "link": "/shrine/kinkasan_main"
     }
   ]
 }

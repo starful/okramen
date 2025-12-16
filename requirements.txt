@@ -2,8 +2,6 @@ flask
 requests
 beautifulsoup4
 gunicorn
-google-cloud-storage
-googlemaps
 flask-compress
 python-frontmatter
 markdown

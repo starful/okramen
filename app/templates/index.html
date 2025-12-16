@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <!-- Google Analytics -->
+    <!-- Google Analytics 및 AdSense 코드는 유지 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1SWMP4KC55"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -9,30 +9,19 @@
       gtag('js', new Date());
       gtag('config', 'G-1SWMP4KC55');
     </script>
-
-    <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>도쿄 신사 지도 (Tokyo Shrine Map) - JinjaMap</title>
-    <meta name="description" content="도쿄 여행 필수 코스! 재물, 사랑, 건강 등 소원별 신사 찾기.">
-    <link rel="canonical" href="https://jinjamap.com/">
-
-    <!-- 리소스 사전 연결 -->
-    <link rel="preconnect" href="https://maps.googleapis.com">
-    <link rel="preconnect" href="https://maps.gstatic.com">
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    
+    <title>JinjaMap - 도쿄 신사 여행 가이드</title>
     <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/static/css/style.css">
-
-    <!-- 폭죽 효과 라이브러리 -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
 </head>
 <body>
 
-    <div id="google_translate_element" style="position: absolute; top: 10px; right: 10px; z-index: 1001;"></div>
+    <!-- 번역기 위치 고정 -->
+    <div id="google_translate_element" style="position: absolute; top: 10px; right: 10px; z-index: 2000;"></div>
     <script type="text/javascript">
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({
@@ -44,86 +33,80 @@
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    <div class="container">
-        <header>
+    <!-- [1] 헤더: 고정형으로 변경됨 -->
+    <header>
+        <div class="container">
             <h1>
                 <a href="/">
                     <picture>
                         <source srcset="/static/images/JinjaMapLogo_Horizontal.png" media="(max-width: 768px)">
-                        <img src="/static/images/JinjaMapLogo_Vertical.png" 
-                             alt="도쿄 신사 지도 JinjaMap 로고" 
-                             class="logo-img"
-                             fetchpriority="high"
-                             width="650" height="325"
-                             style="height: auto;">
+                        <img src="/static/images/JinjaMapLogo_Vertical.png" alt="JinjaMap" class="logo-img">
                     </picture>
                 </a>
             </h1>
-            
-            <p id="update-msg" class="update-message" style="display:none;">데이터 로딩 중...</p>
-            
+
+            <p id="last-updated" class="update-info"></p>
+
             <!-- 필터 버튼 -->
             <div class="theme-filter-buttons">
-                <button class="theme-button active" data-theme="all">전체 보기</button>
-                <button class="theme-button" data-theme="wealth">재물</button>
-                <button class="theme-button" data-theme="love">사랑</button>
-                <button class="theme-button" data-theme="health">건강</button>
-                <button class="theme-button" data-theme="study">학업</button>
-                <button class="theme-button" data-theme="safety">안전</button>
-                <button class="theme-button" data-theme="success">성공</button>
-                <button class="theme-button" data-theme="history">역사</button>
+                <button class="theme-button active" data-theme="all">전체</button>
+                <button class="theme-button" data-theme="wealth">💰 재물</button>
+                <button class="theme-button" data-theme="love">💘 사랑</button>
+                <button class="theme-button" data-theme="health">💊 건강</button>
+                <button class="theme-button" data-theme="study">🎓 학업</button>
+                <button class="theme-button" data-theme="safety">🛡️ 안전</button>
+                <button class="theme-button" data-theme="success">🏆 성공</button>
+                <button class="theme-button" data-theme="history">📜 역사</button>
             </div>
-        </header>
-        
-        <main>
-            <section>
-                <div id="map"></div>
-                
-                <article style="padding: 30px; color: #444; font-size: 1rem; line-height: 1.8; background: #fff; border-radius: 12px; margin-top: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                    <h2 style="font-size: 1.5rem; color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">
-                        ⛩️ 도쿄 신사 여행 가이드
-                    </h2>
-                    <p style="margin-bottom: 25px;">
-                        <strong>JinjaMap</strong>은 여러분의 간절한 소원(재물, 사랑, 건강 등)에 딱 맞는 
-                        도쿄의 <strong>파워스팟(Power Spot)</strong>을 찾아드리는 서비스입니다.
-                        상단의 버튼을 눌러 원하는 테마의 신사를 찾아보세요.
-                    </p>
-                </article>
-            </section>
-
-            <section class="list-section">
-                <h2 class="list-title">⛩️ 최신 신사 탐방기</h2>
-                <!-- map.js가 데이터를 가져와서 여기에 카드를 채워넣습니다 -->
-                <div id="shrine-list" class="shrine-grid"></div>
-            </section>
-        </main>
-
-        <section style="padding: 40px 20px; background-color: #fff; border-top: 1px solid #eee; text-align: center;">
-            <h2 style="margin-bottom: 15px;">JinjaMap Project</h2>
-            <p style="color: #555;">도쿄 여행자들의 소원 성취를 돕는 비영리 프로젝트입니다.</p>
+        </div>
+    </header>
+    
+    <main>
+        <!-- [2] 지도 섹션: 화면 너비 100% 사용 -->
+        <section class="map-section">
+            <div id="map"></div>
         </section>
 
-        <footer>
-            <p>&copy; 2024 JinjaMap. All rights reserved.</p>
-            <p>
-                <a href="/privacy.html">개인정보처리방침</a> | 
-                <a href="https://script.google.com/macros/s/AKfycbwY1zVFx7_5SGK81GajV2nklh5mhlyPwu6avHDBnYY74SOxb7_F1JNyhn11b-UjcD17-g/exec" target="_blank">문의하기</a>
-            </p>
-        </footer>
-    </div>
+        <!-- [3] 컨텐츠 영역: 위로 살짝 올라오는 카드 형태 -->
+        <div class="content-wrapper">
+            <!-- 소개 박스 -->
+            <article class="intro-box">
+                <h2>⛩️ 당신의 소원을 들어줄 신사는 어디일까요?</h2>
+                <p>
+                    JinjaMap은 도쿄 곳곳에 숨겨진 <strong>파워스팟(Power Spot)</strong>을 찾아드립니다.<br>
+                    지도의 핀을 클릭하거나 아래 리스트에서 여행지를 찾아보세요.
+                </p>
+            </article>
 
-    <!-- 오미쿠지 UI -->
-    <button id="omikuji-btn" class="omikuji-floating-btn">🥠 오늘의 운세</button>
+            <!-- 리스트 섹션 -->
+            <section id="list-section">
+                <h2 class="list-title">🎏 최신 신사 탐방기</h2>
+                <div id="shrine-list" class="shrine-grid">
+                    <!-- map.js가 이곳에 카드를 자동으로 채웁니다 -->
+                </div>
+                <div id="scroll-sentinel" style="height: 20px; width: 100%;"></div>
+            </section>
+        </div>
+    </main>
 
+    <footer>
+        <p><strong>JinjaMap Project</strong><br>도쿄 여행자들의 소원 성취를 돕는 비영리 프로젝트입니다.</p>
+        <p style="margin-top: 10px; font-size: 0.8rem;">
+            <a href="/privacy.html">개인정보처리방침</a> | &copy; 2024 JinjaMap
+        </p>
+    </footer>
+
+    <!-- 오미쿠지 UI (그대로 유지) -->
+    <button id="omikuji-btn" class="omikuji-floating-btn">🥠 운세 뽑기</button>
     <div id="omikuji-modal" class="modal-overlay" style="display: none;">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
             <div id="omikuji-step1">
-                <h2>⛩️ 신사 오미쿠지</h2>
+                <h2>신사 오미쿠지</h2>
                 <div class="omikuji-box">
-                    <img src="/static/images/omikuji_box.png" id="shaking-box" style="width: 100px; margin: 20px auto; display:block;" alt="오미쿠지 통"> 
+                    <img src="/static/images/omikuji_box.png" id="shaking-box" style="width: 100px; margin: 20px auto; display:block;" alt="오미쿠지"> 
                 </div>
-                <button id="draw-btn" class="action-btn">운세 뽑기!</button>
+                <button id="draw-btn" class="action-btn">운세 확인하기</button>
             </div>
             <div id="omikuji-step2" style="display: none;">
                 <h2 id="result-title" style="font-size: 2rem;"></h2>
@@ -133,8 +116,8 @@
         </div>
     </div>
 
-    <!-- 스크립트 로드: map.js 먼저, 그 다음 Google Maps -->
-    <script src="/static/js/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=REDACTED_GOOGLE_API_KEY&callback=initMap&libraries=marker&v=beta&loading=async" async defer></script>
+    <!-- 스크립트 -->
+    <script type="module" src="/static/js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=REDACTED_GOOGLE_API_KEY&libraries=marker&v=beta&loading=async" async defer></script>
 </body>
 </html>
