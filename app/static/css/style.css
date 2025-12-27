@@ -1,4 +1,6 @@
-/* style.css - Modern Layout Update */
+/* =========================================
+   1. Variables & Global Settings
+   ========================================= */
 :root {
     --primary-color: #333;
     --accent-color: #d35400; /* 포인트 컬러 (주황) */
@@ -14,23 +16,26 @@ body {
     margin: 0;
     color: var(--primary-color);
     background-color: var(--bg-color);
-    /* 은은한 일본 전통 패턴 배경 (선택사항) */
     background-image: radial-gradient(#e5e5e5 1px, transparent 1px);
     background-size: 20px 20px;
 }
 
 .container {
-    max-width: 1200px; /* 전체 폭을 넓힘 */
+    max-width: 1200px;
     margin: 0 auto;
     background-color: transparent;
 }
 
-/* --- Header & Navigation --- */
+a { text-decoration: none; color: inherit; }
+
+/* =========================================
+   2. Header & Navigation
+   ========================================= */
 header {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     padding: 20px 0 15px 0;
-    position: sticky; /* 스크롤 시 상단 고정 */
+    position: sticky;
     top: 0;
     z-index: 1000;
     border-bottom: 1px solid #eaeaea;
@@ -41,42 +46,77 @@ header {
 h1 { margin: 0; line-height: 1; }
 
 .logo-img {
-    height: 90px; /* 기존 45px -> 90px로 확대 */
-    width: auto;  /* 비율 유지 */
+    height: 90px;
+    width: auto;
     display: block;
-    margin: 0 auto 10px auto; /* 하단 여백 약간 줄임 */
-    transition: height 0.3s ease; /* 부드러운 크기 변화 */
+    margin: 0 auto 10px auto;
+    transition: height 0.3s ease;
 }
 
-/* 모바일 화면(폭 768px 이하)에서는 너무 크지 않게 조절 */
-@media (max-width: 768px) {
-    .logo-img {
-        height: 55px; /* 모바일에서는 적당한 크기로 */
-    }
+/* Status Bar */
+.status-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
-/* Theme Filters (가로 스크롤 가능) */
+.status-badge {
+    background-color: rgba(51, 51, 51, 0.08);
+    color: #555;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.status-badge.highlight {
+    background-color: #fff8e1;
+    color: #d35400;
+    border-color: #ffe0b2;
+}
+
+.update-info {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+/* =========================================
+   3. Theme Filters
+   ========================================= */
 .theme-filter-buttons {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
     padding: 0 15px;
 }
 
 .theme-button {
-    padding: 6px 16px;
+    padding: 8px 16px;
     font-size: 0.9rem;
     font-weight: 600;
     border: 1px solid #ddd;
     background-color: #fff;
     color: #555;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .theme-button:hover { background-color: #f0f0f0; }
+
 .theme-button.active {
     background-color: var(--primary-color);
     color: white;
@@ -84,11 +124,28 @@ h1 { margin: 0; line-height: 1; }
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* --- Map Section --- */
+.count-badge {
+    background-color: #eee;
+    color: #666;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.theme-button.active .count-badge {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+/* =========================================
+   4. Map Section & Markers
+   ========================================= */
 .map-section {
     position: relative;
     width: 100%;
-    height: 60vh; /* 화면 높이의 60% 차지 */
+    height: 60vh;
     min-height: 400px;
     background: #eee;
     margin-bottom: 0;
@@ -96,158 +153,139 @@ h1 { margin: 0; line-height: 1; }
 
 #map { width: 100%; height: 100%; }
 
-/* --- Content Area --- */
+.marker-icon {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background-color: #d35400;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    background-image: url('/static/images/JinjaMap_Torii.png');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box; 
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.marker-icon:hover { transform: scale(1.1); z-index: 999; }
+
+/* InfoWindow Styles */
+.infowindow-content { max-width: 240px; padding: 0; }
+.infowindow-content img {
+    width: 100%; height: 130px; object-fit: cover;
+    border-radius: 6px; margin-bottom: 8px; background-color: #f0f0f0;
+}
+.infowindow-content h3 { font-size: 16px; margin: 5px 0; color: #333; font-weight: 700; }
+.infowindow-content p { font-size: 13px; color: #666; margin-bottom: 10px; line-height: 1.4; }
+
+.info-btn-group { display: flex; gap: 5px; }
+.info-btn {
+    flex: 1; text-align: center; padding: 6px 0;
+    border-radius: 4px; font-size: 12px; font-weight: bold;
+    text-decoration: none; cursor: pointer; border: none;
+}
+.dir-btn { background: #4285F4; color: white !important; }
+.blog-btn { background: #f1f1f1; color: #333 !important; border: 1px solid #ddd; }
+
+/* =========================================
+   5. Main Content (Grid & Cards)
+   ========================================= */
 .content-wrapper {
     max-width: 1100px;
-    margin: -40px auto 0; /* 지 위로 살짝 올라오게 겹침 효과 */
+    margin: -40px auto 0;
     padding: 0 20px 40px;
     position: relative;
     z-index: 10;
 }
 
-/* Intro Card */
 .intro-box {
-    background: #fff;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    text-align: center;
-    margin-bottom: 40px;
+    background: #fff; padding: 25px;
+    border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    text-align: center; margin-bottom: 40px;
 }
 .intro-box h2 { font-size: 1.2rem; color: var(--accent-color); margin-bottom: 10px; }
 .intro-box p { font-size: 0.95rem; color: var(--text-gray); margin: 0; }
 
-/* --- Grid List --- */
 .list-title {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-    font-weight: 700;
-    position: relative;
-    display: inline-block;
-    width: 100%;
+    text-align: center; font-size: 1.5rem; margin-bottom: 30px;
+    font-weight: 700; position: relative; display: inline-block; width: 100%;
 }
 
 .shrine-grid {
     display: grid;
-    /* 화면 크기에 따라 자동 조절 (최소 320px) */
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 25px;
 }
 
 .shrine-card {
-    background: #fff;
-    border-radius: 12px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    background: #fff; border-radius: 12px;
+    overflow: hidden; display: flex; flex-direction: column;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid #f0f0f0;
+    animation: fadeIn 0.6s ease-out forwards;
 }
+.shrine-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
 
-.shrine-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-}
-
-.card-thumb-link {
-    display: block;
-    position: relative;
-    padding-top: 56.25%; /* 16:9 비율 고정 */
-    overflow: hidden;
-}
-
+.card-thumb-link { display: block; position: relative; padding-top: 56.25%; overflow: hidden; }
 .card-thumb {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    object-fit: cover; transition: transform 0.5s ease;
 }
-
 .shrine-card:hover .card-thumb { transform: scale(1.05); }
 
-.card-content {
-    padding: 20px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
+.new-badge {
+    position: absolute; top: 10px; left: 10px;
+    background: #e74c3c; color: white;
+    padding: 4px 10px; border-radius: 20px;
+    font-size: 11px; font-weight: 800; z-index: 5;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.card-meta {
-    font-size: 0.8rem;
-    color: #999;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.card-title {
-    font-size: 1.15rem;
-    margin: 0 0 10px 0;
-    line-height: 1.4;
-}
-
-.card-title a {
-    text-decoration: none;
-    color: var(--primary-color);
-    font-weight: bold;
-}
-
+.card-content { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; }
+.card-meta { font-size: 0.8rem; color: #999; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+.card-title { font-size: 1.15rem; margin: 0 0 10px 0; line-height: 1.4; }
+.card-title a { text-decoration: none; color: var(--primary-color); font-weight: bold; }
 .card-summary {
-    font-size: 0.95rem;
-    color: var(--text-gray);
-    line-height: 1.6;
-    margin-bottom: 20px;
-    flex-grow: 1;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    font-size: 0.95rem; color: var(--text-gray); line-height: 1.6;
+    margin-bottom: 20px; flex-grow: 1;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
 }
 
-.card-footer {
-    border-top: 1px solid #f5f5f5;
-    padding-top: 15px;
-    margin-top: auto;
-}
-
+.card-footer { border-top: 1px solid #f5f5f5; padding-top: 15px; margin-top: auto; }
 .card-btn {
-    font-size: 0.9rem;
-    color: var(--accent-color);
-    font-weight: 600;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
+    font-size: 0.9rem; color: var(--accent-color);
+    font-weight: 600; text-decoration: none; display: flex; align-items: center;
 }
 .card-btn:hover { text-decoration: underline; }
 
-/* Footer */
+/* =========================================
+   6. Detail Page (Desktop Defaults)
+   ========================================= */
+.detail-container { max-width: 800px; margin: 0 auto; padding: 20px; background: #fff; }
+.detail-header { text-align: center; margin-bottom: 40px; }
+.detail-title { font-size: 2rem; margin-bottom: 10px; color: #333; }
+.detail-meta { color: #666; font-size: 0.9rem; }
+.detail-img { width: 100%; height: auto; border-radius: 10px; margin-bottom: 30px; }
+.detail-content { font-size: 1.1rem; line-height: 1.8; color: #444; }
+.detail-content h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 40px; color: #d35400; }
+.detail-content img { max-width: 100%; height: auto; display: block; margin: 20px auto; border-radius: 5px; }
+.back-btn {
+    display: inline-block; margin-top: 40px; padding: 10px 20px;
+    background: #333; color: white; text-decoration: none; border-radius: 20px;
+}
+
+/* =========================================
+   7. Footer & UI Elements
+   ========================================= */
 footer {
-    text-align: center;
-    padding: 40px 20px;
-    color: #888;
-    font-size: 0.9rem;
-    border-top: 1px solid #eaeaea;
-    background: #fff;
-    margin-top: 40px;
+    text-align: center; padding: 40px 20px; color: #888;
+    font-size: 0.9rem; border-top: 1px solid #eaeaea;
+    background: #fff; margin-top: 40px;
 }
 
-/* Mobile Adjustments */
-@media (max-width: 768px) {
-    .theme-filter-buttons {
-        flex-wrap: nowrap;
-        overflow-x: auto; /* 모바일 가로 스크롤 */
-        justify-content: flex-start;
-        padding-bottom: 5px;
-        -webkit-overflow-scrolling: touch;
-    }
-    .theme-button { flex-shrink: 0; }
-    .map-section { height: 50vh; }
-    .content-wrapper { margin-top: 0; }
-}
-
-/* Omikuji & Marker */
+/* Omikuji Modal */
 .omikuji-floating-btn {
     position: fixed; bottom: 30px; left: 20px;
     background-color: #d32f2f; color: white;
@@ -271,325 +309,68 @@ footer {
     font-size: 1rem; border-radius: 8px; cursor: pointer; margin-top: 15px; width: 100%;
 }
 
-/* --- Custom Marker & Map UI --- */
-.marker-icon {
-    width: 40px; height: 40px;
-    border-radius: 50%;
-    border: 3px solid #fff; /* 흰색 테두리로 깔끔하게 */
-    background-color: #d35400; /* 기본 배경색 (이미지 로드 실패 시) */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    /* 도리이 아이콘 이미지 */
-    background-image: url('/static/images/JinjaMap_Torii.png');
-    background-size: 24px 24px;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-sizing: border-box; 
-    cursor: pointer;
-    transition: transform 0.2s ease;
-}
+/* Animations */
+@keyframes popIn { 0% { transform: scale(0); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
-.marker-icon:hover {
-    transform: scale(1.1); /* 마우스 올리면 살짝 커짐 */
-    z-index: 999;
-}
-
-/* 지도 내 '내 위치' 버튼 스타일 */
-.location-button {
-    background-color: #fff;
-    border: 0;
-    border-radius: 2px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-    margin: 10px;
-    padding: 0 12px;
-    height: 40px;
-    cursor: pointer;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 14px;
-    color: #565656;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.location-button:hover {
-    background-color: #ebebeb;
-    color: #000;
-}
-
-/* 지도 정보창 (InfoWindow) 스타일 개선 */
-.infowindow-content {
-    max-width: 240px;
-    padding: 0;
-}
-.infowindow-content img {
-    width: 100%;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 6px;
-    margin-bottom: 8px;
-    background-color: #f0f0f0;
-}
-.infowindow-content h3 {
-    font-size: 16px;
-    margin: 5px 0;
-    color: #333;
-    font-weight: 700;
-}
-.infowindow-content p {
-    font-size: 13px;
-    color: #666;
-    margin-bottom: 10px;
-    line-height: 1.4;
-}
-
-/* 정보창 버튼 그룹 */
-.info-btn-group {
-    display: flex;
-    gap: 5px;
-}
-.info-btn {
-    flex: 1;
-    text-align: center;
-    padding: 6px 0;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight: bold;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
-}
-.dir-btn { background: #4285F4; color: white !important; }
-.blog-btn { background: #f1f1f1; color: #333 !important; border: 1px solid #ddd; }
-
-/* --- Update Date & NEW Badge --- */
-
-/* 헤더의 업데이트 날짜 스타일 */
-.update-info {
-    font-size: 0.85rem;
-    color: #888;
-    margin-top: -5px;
-    margin-bottom: 15px;
-    font-weight: 500;
-}
-
-/* NEW 뱃지 스타일 */
-.new-badge {
-    position: absolute;
-    top: 10px;
-    left: 10px; /* 왼쪽 상단에 배치 */
-    background: #e74c3c; /* 강렬한 빨강 */
-    color: white;
-    padding: 4px 10px;
-    border-radius: 20px;
-    font-size: 11px;
-    font-weight: 800;
-    z-index: 5;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-@keyframes popIn {
-    0% { transform: scale(0); opacity: 0; }
-    100% { transform: scale(1); opacity: 1; }
-}
-
-/* 카드 등장 애니메이션 */
-.shrine-card {
-    animation: fadeIn 0.6s ease-out forwards;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-/* ... 기존 스타일 ... */
-
-/* Theme Filter Buttons */
-.theme-filter-buttons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px; /* 간격 조금 넓힘 */
-    padding: 0 15px;
-}
-
-.theme-button {
-    padding: 8px 16px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    color: #555;
-    border-radius: 30px; /* 더 둥글게 */
-    cursor: pointer;
-    transition: all 0.2s ease;
-    display: flex; /* 뱃지 정렬을 위해 flex 사용 */
-    align-items: center;
-    gap: 6px;
-}
-
-/* [추가] 건수 뱃지 스타일 */
-.count-badge {
-    background-color: #eee;
-    color: #666;
-    font-size: 0.75rem;
-    padding: 2px 8px;
-    border-radius: 10px;
-    font-weight: 700;
-    transition: all 0.2s ease;
-}
-
-/* 버튼이 활성화되었을 때 뱃지 스타일 */
-.theme-button.active .count-badge {
-    background-color: rgba(255, 255, 255, 0.3); /* 반투명 흰색 */
-    color: #fff;
-}
-
-/* --- Status Bar Styles --- */
-.status-bar {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px; /* 로고와 필터 버튼 사이 여백 */
-    flex-wrap: wrap;
-}
-
-.status-badge {
-    background-color: rgba(51, 51, 51, 0.08); /* 연한 회색 배경 */
-    color: #555;
-    padding: 6px 16px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    border: 1px solid rgba(0,0,0,0.05);
-}
-
-/* 강조 뱃지 (Updating Weekly) */
-.status-badge.highlight {
-    background-color: #fff8e1; /* 연한 노란색 배경 */
-    color: #d35400; /* 주황색 텍스트 */
-    border-color: #ffe0b2;
-}
-
-/* --- Mobile Header Optimization --- */
+/* =========================================
+   8. Mobile Optimizations (Consolidated)
+   ========================================= */
 @media (max-width: 768px) {
-    /* 1. 헤더 패딩 줄이기 */
-    header {
-        padding: 10px 0 5px 0;
-    }
-
-    /* 2. 로고 크기 축소 */
-    .logo-img {
-        height: 40px; /* 기존 55px -> 40px */
-        margin-bottom: 5px;
-    }
-
-    /* 3. 상태 표시줄 (Status Bar) 간소화 */
-    .status-bar {
-        margin: 5px 0 10px 0;
-        gap: 5px;
-    }
+    /* Header & Nav */
+    header { padding: 10px 0 5px 0; }
+    .logo-img { height: 40px; margin-bottom: 5px; }
+    .status-bar { margin: 5px 0 10px 0; gap: 5px; }
+    .status-badge { padding: 2px 8px; font-size: 0.7rem; }
+    .status-badge.highlight { display: none; }
     
-    .status-badge {
-        padding: 2px 8px; /* 패딩 축소 */
-        font-size: 0.7rem; /* 글자 크기 축소 */
-    }
-    
-    /* 화면이 좁으면 'Weekly Update' 뱃지 숨기기 (공간 확보) */
-    .status-badge.highlight {
-        display: none; 
-    }
-
-    /* 4. 필터 버튼 영역 최적화 */
+    /* Filter Buttons */
     .theme-filter-buttons {
-        padding: 0 10px;
-        gap: 6px;
-        /* 가로 스크롤 가능하게 유지하되 스크롤바 숨김 */
-        scrollbar-width: none; /* Firefox */
-        -ms-overflow-style: none; /* IE/Edge */
+        padding: 0 10px; gap: 6px; flex-wrap: nowrap; overflow-x: auto;
+        justify-content: flex-start; padding-bottom: 5px; -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
     }
-    .theme-filter-buttons::-webkit-scrollbar {
-        display: none; /* Chrome/Safari */
-    }
-
-    .theme-button {
-        padding: 5px 12px; /* 버튼 크기 축소 */
-        font-size: 0.8rem;
-    }
+    .theme-filter-buttons::-webkit-scrollbar { display: none; }
+    .theme-button { padding: 5px 12px; font-size: 0.8rem; flex-shrink: 0; }
+    .count-badge { font-size: 0.65rem; padding: 1px 5px; }
     
-    .count-badge {
-        font-size: 0.65rem;
-        padding: 1px 5px;
-    }
-    
-    /* 5. 지도 영역 높이 조절 (헤더가 작아졌으니 지도를 좀 더 보여줌) */
-    .map-section {
-        height: 45vh; /* 50vh -> 45vh */
-        min-height: 300px;
-    }
-}
+    /* Map & Layout */
+    .map-section { height: 45vh; min-height: 300px; }
+    .content-wrapper { margin-top: 0; }
 
-/* --- Detail Page Mobile Optimization --- */
-@media (max-width: 768px) {
-    /* 1. 전체 컨테이너 여백 조정 */
+    /* Detail Page Typography Improvement */
     .detail-container {
-        padding: 20px 15px; /* 좌우 여백을 15px로 확보 */
-        border-radius: 0; /* 모바일에서는 꽉 찬 느낌을 위해 라운드 제거 */
-        box-shadow: none; /* 그림자 제거로 깔끔하게 */
+        padding: 25px 20px;
+        margin-top: 0;
+        border-radius: 0;
+        box-shadow: none;
     }
-
-    /* 2. 제목 스타일 개선 */
     .detail-title {
-        font-size: 1.6rem; /* 제목 크기 적절히 조절 */
-        line-height: 1.3;
-        margin-bottom: 15px;
+        font-size: 1.75rem; font-weight: 800; line-height: 1.3;
+        margin-bottom: 15px; word-break: keep-all;
     }
-
     .detail-meta {
-        font-size: 0.85rem;
-        margin-bottom: 20px;
-        padding-bottom: 15px;
-        border-bottom: 1px solid #eee; /* 구분선 추가 */
+        font-size: 0.9rem; color: #666;
+        margin-bottom: 30px; padding-bottom: 20px;
+        border-bottom: 1px solid #eee; line-height: 1.5;
     }
-
-    /* 3. 본문 텍스트 가독성 향상 */
     .detail-content {
-        font-size: 1.05rem; /* 글자 크기 약간 키움 */
-        line-height: 1.7; /* 줄 간격 넉넉하게 */
-        color: #333; /* 가독성 좋은 진한 회색 */
-        text-align: justify; /* 양쪽 정렬 (선택사항) */
+        font-size: 1.125rem; /* 가독성 향상 */
+        line-height: 1.8; color: #2c3e50; text-align: left;
     }
-
-    /* 4. 본문 내 소제목(H2, H3) 스타일 */
+    .detail-content p { margin-bottom: 1.5rem; word-break: break-word; }
     .detail-content h2 {
-        font-size: 1.3rem;
-        margin-top: 35px;
-        margin-bottom: 15px;
-        padding-bottom: 8px;
-        border-bottom: 2px solid var(--accent-color); /* 포인트 컬러 밑줄 */
+        font-size: 1.4rem; margin-top: 40px; margin-bottom: 20px;
+        padding-bottom: 10px; border-bottom: 2px solid var(--accent-color);
+        font-weight: 700; line-height: 1.3;
     }
-    
     .detail-content h3 {
-        font-size: 1.15rem;
-        margin-top: 25px;
-        margin-bottom: 10px;
-        font-weight: 700;
+        font-size: 1.2rem; margin-top: 30px; margin-bottom: 15px; font-weight: 700; color: #444;
     }
-
-    /* 5. 이미지 최적화 */
+    .detail-content ul, .detail-content ol { padding-left: 20px; margin-bottom: 1.5rem; }
+    .detail-content li { margin-bottom: 8px; }
     .detail-img, .detail-content img {
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin: 20px 0;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
-    
-    /* 6. 문단 간격 */
-    .detail-content p {
-        margin-bottom: 1.2em;
+        width: 100%; height: auto; border-radius: 8px;
+        margin: 25px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
 }
