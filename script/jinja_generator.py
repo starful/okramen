@@ -38,19 +38,11 @@ if not GEMINI_API_KEY:
 
 genai.configure(api_key=GEMINI_API_KEY)
 
-# 모델 자동 선택 (최신 모델 우선)
-def get_best_model():
-    try:
-        models = [m.name for m in genai.list_models()]
-        for m in models:
-            if 'gemini-1.5-pro' in m: return genai.GenerativeModel(m)
-        for m in models:
-            if 'gemini-1.5-flash' in m: return genai.GenerativeModel(m)
-        return genai.GenerativeModel("gemini-pro")
-    except:
-        return genai.GenerativeModel("gemini-pro")
+# 모델을 'gemini-2.0-flash'로 고정
+MODEL_NAME = "gemini-2.0-flash"
+model = genai.GenerativeModel(MODEL_NAME)
+logging.info(f"✅ Using fixed model: {MODEL_NAME}")
 
-model = get_best_model()
 
 # 한글 카테고리 -> 영어 매핑
 CATEGORY_EN_MAP = {
@@ -195,20 +187,21 @@ excerpt: "{excerpt}"
 
 # --- 5. 메인 실행 ---
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--count", type=int, default=1, help="Number of posts to generate")
-    args = parser.parse_args()
+    # ==========================================
+    # [수정] 생성 개수를 5개로 고정합니다.
+    # ==========================================
+    TARGET_COUNT = 5
 
-    logging.info(f"🚀 Generator Started (Target: {args.count})")
+    logging.info(f"🚀 Generator Started (Target: {TARGET_COUNT})")
 
     success_count = 0
-    for i in range(args.count):
+    for i in range(TARGET_COUNT):
         row, shrine_name = get_target_row()
         if not shrine_name:
             logging.info("🎉 All shrines processed.")
             break
 
-        logging.info(f"[{i+1}/{args.count}] Generating: {shrine_name}")
+        logging.info(f"[{i+1}/{TARGET_COUNT}] Generating: {shrine_name}")
         
         try:
             region = "Japan"
