@@ -10,7 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchShrines();
     initThemeFilters();
     initOmikuji();
-    // initMap은 Google Maps Loader가 호출하거나, 로더가 없을 경우 window.initMap으로 실행됨
+    
+    // [수정] 페이지 로드 시 initMap을 직접 호출합니다.
+    // (index.html에 Bootstrap Loader가 적용되어 있어야 작동합니다)
+    initMap(); 
 });
 
 // [1] Fetch Data
@@ -48,19 +51,20 @@ async function fetchShrines() {
 }
 
 // [2] Google Maps Initialization
-// window 객체에 할당하여 모듈 외부(Google Loader)에서 호출 가능하게 함
-window.initMap = async function() {
+// [수정] window 객체 할당 제거, 일반 비동기 함수로 변경
+async function initMap() {
     const mapEl = document.getElementById('map');
     if (!mapEl) return;
 
     try {
+        // [중요] Bootstrap Loader 덕분에 importLibrary를 즉시 사용할 수 있습니다.
         const { Map } = await google.maps.importLibrary("maps");
         const center = { lat: 36.2048, lng: 138.2529 }; // 일본 중심부
 
         map = new Map(mapEl, {
             zoom: 5,
             center: center,
-            // [중요] 사용자가 생성한 실제 Map ID 적용
+            // [중요] 사용자가 생성한 실제 Map ID 적용 (AdvancedMarkerElement 사용 필수)
             mapId: "2938bb3f7f034d78a2dbaf56", 
             disableDefaultUI: false,
             zoomControl: true,
@@ -69,6 +73,7 @@ window.initMap = async function() {
         });
 
         isMapLoaded = true;
+        console.log("✅ Map initialized successfully!");
 
         // 데이터가 이미 로드되었다면 마커 업데이트
         if (shrinesData.length > 0) {
@@ -76,9 +81,9 @@ window.initMap = async function() {
         }
 
     } catch (error) {
-        console.error("Map Init Error:", error);
+        console.error("❌ Map Init Error:", error);
     }
-};
+}
 
 // [3] Update Markers (Modern Version with AdvancedMarkerElement)
 async function updateMapMarkers(data) {
