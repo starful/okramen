@@ -69,6 +69,7 @@ The **Komainu** (guardian lions) here have a distinctively stoic expression, the
 The **Goshuin** (red ink stamp) of Nishi-Komatsugawa Tenso Shrine is highly sought after for its refined simplicity. It typically features the bold characters for "Tenso Shrine" accompanied by the red seal representing the Sun. In the world of Goshuin collecting, this minimalist style is often preferred as it mirrors the "purity" (*Kegare-naki*) central to Shinto belief.
 
 **Amulets for New Beginnings**
+
 Because Amaterasu is the goddess who brings the dawn, the shrine's amulets are particularly popular for:
 *   **Michihiraki (Path Opening):** Blessings for those starting a new job, moving to a new house, or embarking on a new stage of life.
 *   **Kanai Anzen (Household Safety):** Praying for the "light of the sun" to keep the home peaceful and warm.
@@ -80,8 +81,9 @@ Because Amaterasu is the goddess who brings the dawn, the shrine's amulets are p
 
 After your spiritual reset at the shrine, a short walk will lead you to one of the district's most successful environmental restoration projects.
 
-**Komatsugawa Sakaigawa Shinsui Park (小松川境川親수공원)**
+**Komatsugawa Sakaigawa Shinsui Park (小松川境川親)**
 This park is a literal "river of life" for the community. Built on a former industrial waterway that had become polluted, it was transformed into a 4-kilometer long man-made stream. 
+
 *   **A Natural Escape:** The water is clean and flows gently, lined with seasonal flowers such as hydrangeas and cherry blossoms. 
 *   **Local Life:** You can see local families playing in the water during summer and residents enjoying quiet strolls under the lush greenery. It’s the perfect place to sit and reflect on the "flow" of life after your visit to the Sun Goddess.
 
@@ -115,6 +117,7 @@ To conclude your journey, I highly recommend a visit to **Matsu-no-yu**, a belov
 
 **The Shitamachi Bath Experience**
 Matsu-no-yu is the quintessence of Edogawa’s bath culture. 
+
 *   **A Warm Welcome:** It is a family-run establishment where the owners often greet you with a friendly smile. 
 *   **Medicinal Baths:** They are known for their high-quality water and occasional "medicinal baths" (*yakuyu*) using seasonal herbs. 
 *   **Nostalgic Vibe:** Soaking in the hot water while looking at a tile mural of Mount Fuji (another symbol of Japan’s solar energy) is the ultimate way to purify your body after the shrine has purified your spirit. It’s a warm, welcoming end to a day of deep exploration.

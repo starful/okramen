@@ -86,6 +86,7 @@ A visit to Kitakasai Inari Shrine is perfectly paired with some of Edogawa's mos
 
 **Gyosen Park (行船公園)**
 This is arguably one of the best neighborhood parks in Tokyo. Within its borders, you will find:
+
 *   **Edogawa Natural Zoo:** An incredible free zoo that is home to red pandas, penguins, and giant anteaters. It is a fantastic place for families and photography lovers.
 *   **Heisei Garden:** A stunningly quiet Japanese garden featuring a large pond (*Suikei*) and the **Genshin-an** tea house. The garden provides a perfect contrast to the vibrant energy of the Inari shrine, offering a place for deep, silent contemplation.
 
@@ -119,6 +120,7 @@ This is the true beauty of these neighborhood shrines. They aren't museums; they
 To finish your Edogawa exploration, head to **Akebono-yu**, a historic sento (public bath) located in the Funabori area, just a 15-minute walk or a short bus ride from the shrine.
 
 **Why Akebono-yu?**
+
 *   **A Slice of History:** This is one of the oldest bathhouses in the ward, featuring traditional architecture that will transport you back to the Showa era.
 *   **Healing Waters:** They are famous for their medicinal baths (*yakuyu*) and their spacious tubs.
 *   **A Local Tradition:** Much like the shrine, the sento is a place where neighbors gather. Soaking in the hot water after a long walk through the Ukita district is the ultimate way to ground yourself and feel like a true local.

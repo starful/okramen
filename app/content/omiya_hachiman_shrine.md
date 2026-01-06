@@ -70,6 +70,7 @@ Receiving a **Goshuin** (red ink stamp) at Omiya Hachiman is a powerful way to m
 
 **Amulets for Life's Transitions**
 The shrine office offers a variety of **Omamori** (amulets) reflecting Hachiman's role as a protector:
+
 *   **Safety of the Home (Kanai Anzen):** Essential for the local residential community.
 *   **Protection against Misfortune (Yakuyoke):** A traditional specialty of Hachiman shrines.
 *   **Shichi-Go-San Blessings:** In the autumn, the shrine becomes vibrant with children dressed in traditional kimono, visiting to celebrate their growth and pray for a healthy future.
@@ -82,6 +83,7 @@ Just a 5 to 10-minute walk east from the shrine brings you to one of Edogawa’s
 
 **Nature and Leisure**
 The riverbank is a vast green corridor that separates Tokyo from Chiba Prefecture. It is a favorite spot for:
+
 *   **Cycling and Walking:** The well-paved paths are perfect for a morning jog or a sunset stroll.
 *   **Seasonal Beauty:** In the spring, the cherry blossoms create a tunnel of pink along the bank. In the summer, the area near the river becomes the stage for one of Japan’s biggest fireworks festivals.
 *   **Rowing and Water Sports:** You can often see local university rowing clubs practicing on the wide, calm waters of the river, adding a youthful energy to the historic landscape.
@@ -111,10 +113,10 @@ What I loved most was the sense of pride the local residents take in this place.
 ***
 
 ### ♨️ Relax at a Nearby Onsen: Tsuru-no-yu (鶴の湯)
-
 To complete your Koiwa pilgrimage, head to **Tsuru-no-yu**, a historic and highly-rated **sento** (public bathhouse) located within walking distance of the shrine.
 
 **Why Tsuru-no-yu?**
+
 *   **Traditional Charm:** It features a high ceiling and the classic mural of Mount Fuji that sento lovers crave.
 *   **Medicinal Baths:** They are known for their "Kuro-yu" (black water) or other medicinal baths that are incredibly soothing for tired muscles.
 *   **A Local Hub:** Much like the shrine, the sento is where the community gathers. Soaking in the hot water after a walk through the Higashi-Koiwa district is the ultimate way to ground yourself and experience the authentic daily life of a Tokyoite. It’s the perfect end to a day of spiritual and physical reset.

@@ -69,6 +69,7 @@ The **Goshuin** (holy stamp) of Higashi Kasai Tenso Shrine is celebrated for its
 
 **Charms and Amulets**
 Because Amaterasu represents the supreme light that dispels darkness, the shrine’s **Omamori** are highly regarded for:
+
 *   **Michihiraki (Opening the Path):** Prayers for guidance when one is at a crossroads in life.
 *   **Kaiun (Good Fortune):** Inviting the "rising sun" into one's personal and professional endeavors.
 *   **Yakuyoke (Protection from Evil):** The belief that no shadow can exist where the Sun Goddess shines her light.
@@ -79,8 +80,9 @@ Because Amaterasu represents the supreme light that dispels darkness, the shrine
 
 Kasai is one of Tokyo’s greenest districts, and a visit to the shrine is perfectly complemented by the surrounding parks.
 
-**Edogawa City Nagisa Park (나기사 공원)**
+**Edogawa City Nagisa Park**
 Located a short walk south of the shrine, **Nagisa Park** is a sprawling riverside oasis. It is part of the "Shinsui" (water-proximate) park network. 
+
 *   **Nagisa Pony Land:** A unique feature where children can enjoy pony rides for free, making it a favorite for local families.
 *   **Flower Hill:** In late spring, the hills are blanketed in vibrant azaleas (*tsutsuji*), creating a stunning landscape against the backdrop of the Old Edo River.
 *   **The River View:** Walking along the bank of the Kyu-Edogawa (Old Edo River), you can see traditional fishing boats and modern leisure craft, illustrating the area's maritime heritage.
@@ -111,6 +113,7 @@ During my visit, I sat on a small wooden bench near the main hall and simply wat
 To conclude your "Solar Pilgrimage," there is no better destination than **Yudokoro Kasai**. Located just a few minutes away by bus or a pleasant walk, this super-sento is a temple of relaxation.
 
 **Why choose Yudokoro Kasai?**
+
 *   **Open-Air Baths (Rotenburo):** They feature one of the largest outdoor bathing areas in Tokyo. Soaking in the hot water while looking up at the sky creates a direct physical connection to the elements you just honored at the shrine.
 *   **Variety of Tubs:** From carbonated baths that boost circulation to "silk baths" that nourish the skin, it is a comprehensive wellness experience.
 *   **Refreshed Spirit:** After the spiritual purification of the shrine, the physical purification of the onsen leaves you feeling entirely reborn—ready to face the world with the energy of the rising sun.

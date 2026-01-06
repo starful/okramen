@@ -17,6 +17,7 @@ excerpt: "Explore the historic Chuo Katori Shrine in Edogawa. Dedicated to the s
 **Chuo Katori Shrine (中央 香取神社)** is a sanctuary dedicated to one of the most powerful and respected deities in the Shinto pantheon: **Futsunushi-no-Mikoto**. In the ancient chronicles of the *Nihon Shoki*, Futsunushi is heralded as the deity of the sword and the personification of martial prowess. He played a pivotal role in the "Kuni-yuzuri" (Transfer of the Land) myth, descending from the heavens to pacify the chaotic earthly realm. 
 
 Unlike deities of mere destruction, Futsunushi represents the "Sharp Will" required to cut through confusion and bring about peace and order. Because of this, he is worshipped as a guardian of:
+
 *   **Decisive Victory (Victory in life, sports, and business)**
 *   **Martial Arts and Swordsmanship**
 *   **Disaster Prevention and General Protection**
@@ -70,6 +71,7 @@ Throughout the precincts, you will notice vibrant banners and stone lanterns. Th
 The **Goshuin** (holy stamp) of Chuo Katori Shrine is highly regarded for its bold and traditional style. Because the shrine honors a deity of the sword, the calligraphy often carries a certain "sharpness" and strength. Having this stamp in your book is considered a powerful talisman for overcoming personal obstacles.
 
 **Amulets (Omamori) for the Modern Challenger**
+
 *   **The Kachi-mamori (Victory Amulet):** This is the shrine's signature item. It is especially popular among those facing competitive exams, job interviews, or sports tournaments. It represents the "invincible spirit" of Futsunushi-no-Mikoto.
 *   **Budo-mamori (Martial Arts Protection):** Given the shrine's connection to martial arts, practitioners of Kendo, Judo, and Karate often visit to receive blessings for their training and protection from injury.
 *   **Safety and Prosperity:** The shrine also offers amulets for household safety and business success, reflecting its long history as a village guardian.
@@ -77,10 +79,10 @@ The **Goshuin** (holy stamp) of Chuo Katori Shrine is highly regarded for its bo
 ***
 
 ### 4. 🌃 What to See Nearby: Komatsugawa Sakaigawa Shinsui Park
-
 After your visit to the shrine, a short walk leads you to one of Edogawa’s most impressive urban nature projects: **Komatsugawa Sakaigawa Shinsui Park (小松川境川親水公園)**.
 
 **A River Reborn**
+
 This park is built on the former bed of the Sakaigawa River. Once a polluted industrial waterway, it has been completely revitalized into a 3.9-kilometer-long "water-friendly" park. It features a clean, man-made stream where children can play in the water during the summer.
 *   **Seasonal Beauty:** The park is lined with cherry blossoms in the spring and vibrant hydrangeas in early summer. 
 *   **A Scenic Walk:** It offers a perfect, peaceful walking path that connects the Chuo district to the Edo River, allowing you to experience the harmony between water and urban life that defines Edogawa.
@@ -110,11 +112,11 @@ I spent a long time looking at the carvings on the main hall. They are incredibl
 ***
 
 ### ♨️ Relax at a Nearby Onsen: Nishiki-yu (錦湯)
-
 To finish your "victory pilgrimage," head over to **Nishiki-yu**, located in the Chuo 2-chome area. This is a classic, authentic Japanese **sento** (public bathhouse). 
 
 **The Authentic Sento Vibe**
 Nishiki-yu is famous for its nostalgic Showa-era atmosphere. 
+
 *   **The Mural:** It features a traditional tile mural that instantly transports you back in time. 
 *   **The Water:** The baths are kept at a perfect, invigorating temperature—ideal for relaxing your muscles after a long walk through Edogawa.
 *   **Community Spirit:** You'll see locals of all ages here, sharing a soak and a chat. It’s the perfect way to ground yourself and experience the true "heart" of the Chuo neighborhood before heading home.

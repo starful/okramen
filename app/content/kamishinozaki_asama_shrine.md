@@ -20,6 +20,7 @@ excerpt: "Experience the profound history of Kamishinozaki Asama Shrine. From it
 The shrine is dedicated to **Konohanasakuya-hime no Mikoto (木花開耶姫命)**, the supreme deity associated with Mount Fuji. In Japanese mythology, she is the daughter of the mountain god Oyamatsumi and is considered the personification of life as delicate as a cherry blossom yet as strong as fire. 
 
 Because she famously gave birth in a burning room to prove her fidelity, she is worshipped here as a powerful guardian for:
+
 *   **Safe Childbirth (Anzan):** Generations of families in the Shinozaki area have brought their newborns here for their first blessings.
 *   **Fire Prevention (Chinka):** A crucial blessing for the densely packed wooden settlements of old Japan.
 *   **Prosperity and Growth:** Much like a blossom turning into fruit, she is believed to nurture the seeds of success in business and life.
@@ -78,6 +79,7 @@ The **Haiden (Worship Hall)** is a masterclass in woodwork. The carvings on the 
 The **Goshuin** (red ink stamp) at Kamishinozaki Asama Shrine is highly prized for its historical weight. It often features a central stamp that includes the shape of Mount Fuji, signifying its lineage. The calligraphy is bold and elegant, reflecting the strength of the goddess who resides within.
 
 **Omamori (Amulets)**
+
 *   **The Anzan-mamori:** Because the goddess is the patron of mothers, these charms are beautifully crafted and are the most popular item here.
 *   **Protection against Misfortune:** Given the shrine's 1,200-year history of resilience, its protective charms are considered particularly "strong" against bad luck.
 *   **Miniature 'Nobori' Charms:** During festival years, you may find unique items related to the giant banners.
@@ -85,10 +87,9 @@ The **Goshuin** (red ink stamp) at Kamishinozaki Asama Shrine is highly prized f
 ***
 
 ### 4. 🌃 What to See Nearby: Nature and River Views
-
 The Shinozaki area provides a refreshing contrast to the high-density urban centers of Tokyo.
 
-**Shinozaki Park (시노자키 공원)**
+**Shinozaki Park**
 Located just a 10-minute walk away, this is one of Edogawa’s largest green spaces. It is famous for its vast lawns and sports facilities. In the spring, it is a premier spot for cherry blossom viewing (*hanami*). It provides the perfect "horizontal" counterpoint to the "vertical" spiritual energy of the shrine's Fujizuka.
 
 **The Edogawa Riverbank**
@@ -118,8 +119,8 @@ This is not a "tourist shrine"; it is a community anchor. You can feel it in the
 ### ♨️ Relax at a Nearby Onsen: Shinozaki-yu (篠崎湯)
 
 After your historical exploration, head over to **Shinozaki-yu**, a beloved local sento (public bath) located in the Shinozaki 1-chome area.
-
 **The Sento Experience**
+
 *   **A Classic Vibe:** This is a traditional neighborhood bathhouse where the atmosphere is warm and welcoming. 
 *   **Hot Mineral Baths:** Their hot tubs are the perfect remedy for the fatigue of walking. 
 *   **Local Connection:** Much like the shrine, Shinozaki-yu is a place where locals gather to share their days. It is the physical equivalent of the spiritual reset you find at the shrine—a true Edogawa experience to end your day.

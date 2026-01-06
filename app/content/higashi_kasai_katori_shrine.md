@@ -78,6 +78,7 @@ For many visitors, the spiritual experience is encapsulated in the **Goshuin** (
 
 **Amulets for the Modern Warrior**
 Because the shrine is dedicated to a deity of victory and martial prowess, its **Omamori** (amulets) are particularly sought after for:
+
 *   **Kachi-mamori (Victory Amulet):** Popular among students taking entrance exams and athletes. It represents the "cutting through" of doubt and the achievement of one's goals.
 *   **Yakuyoke (Warding off Evil):** Given the sword-like nature of the deity, these amulets are believed to "slice away" bad luck and negative energy.
 *   **Traffic Safety:** As Edogawa is a bustling hub of transportation, many local drivers come here to have their vehicles blessed.
@@ -123,6 +124,7 @@ I spent nearly twenty minutes just watching the way the sunlight filtered throug
 No spiritual journey is complete without the physical purification of a Japanese bath. **Yudokoro Kasai** is a beloved "Super Sento" that offers a luxurious experience at a local price.
 
 **Why visit?**
+
 *   **Rotenburo (Open-air Bath):** They have one of the largest outdoor bathing areas in Tokyo’s 23 wards. Soaking in hot mineral water while looking up at the sky is the ultimate relaxation.
 *   **Kuroyu (Black Water):** Some baths in this area feature the famous "Kuroyu," a dark, mineral-rich water that is exceptionally good for the skin.
 *   **The Vibe:** It’s a place where you can see families, seniors, and travelers all co-existing. It’s the perfect way to ground yourself after your visit to the Katori deity.
