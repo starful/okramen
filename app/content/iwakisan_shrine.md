@@ -1,5 +1,7 @@
 ---
-{}
+excerpt: 'Discover the spirit of Tsugaru Fuji: Aomori''s Iwakisan Shrine (Okunikkō),
+  a 1,200-year-old power spot famed for magnificent architecture. (132 chars)'
+lang: en
 ---
 
 layout: post

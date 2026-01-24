@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Kyoto's oldest shrine and a World Heritage site. Pray for special connections
   and beauty with the primeval Tadasu no Mori forest, Mitarashi Pond, and the one-of-a-kind
   'Hime-mamori' amulet.
+lang: en
 lat: 35.039212
 layout: post
 lng: 135.773243

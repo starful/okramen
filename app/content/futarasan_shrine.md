@@ -9,6 +9,7 @@ excerpt: Hidden behind the ornate Toshogu, discover Nikko's true spiritual heart
   From the 1200-year-old legend of the serpent bridge to a mystical spring that restores
   youth, embark on a soul-healing journey to Futarasan Shrine, a place that promises
   love and family peace.
+lang: en
 lat: 36.758368
 layout: post
 lng: 139.596347

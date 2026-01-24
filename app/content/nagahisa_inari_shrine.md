@@ -1,14 +1,26 @@
 ---
-layout: post
-title: "The Eternal Guardian of Hakozaki: Discovering Nagahisa Inari Shrine"
-date: "2026-01-10"
-categories: [History, Prosperity, Safety]
-tags: [Tokyo, Personal Experience, Chuo-ku, Nihonbashi, Hakozaki, Inari]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/6_1.jpg"
+address: 4-1 Nihonbashi Hakozaki-cho, Chuo-ku, Tokyo 103-0015
+categories:
+- History
+- Prosperity
+- Safety
+date: '2026-01-10'
+excerpt: Explore Nagahisa Inari Shrine, a peaceful spiritual anchor in the modern
+  district of Hakozaki. Carrying a name that means 'Eternal Prosperity,' this historic
+  Inari sanctuary offers a moment of quiet reflection amidst the urban bustle of Nihonbashi.
+lang: en
 lat: 35.67995
+layout: post
 lng: 139.783927
-address: "4-1 Nihonbashi Hakozaki-cho, Chuo-ku, Tokyo 103-0015"
-excerpt: "Explore Nagahisa Inari Shrine, a peaceful spiritual anchor in the modern district of Hakozaki. Carrying a name that means 'Eternal Prosperity,' this historic Inari sanctuary offers a moment of quiet reflection amidst the urban bustle of Nihonbashi."
+tags:
+- Tokyo
+- Personal Experience
+- Chuo-ku
+- Nihonbashi
+- Hakozaki
+- Inari
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/6_1.jpg
+title: 'The Eternal Guardian of Hakozaki: Discovering Nagahisa Inari Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: A Wish for Eternal Prosperity
@@ -57,7 +69,6 @@ The **Kitsune** (fox messengers) here are particularly noteworthy. Adorned with 
 ***
 
 ### 3. 📜 Goshuin and Shrine Items: Symbols of Timeless Fortune
-
 As a local neighborhood shrine, Nagahisa Inari is often unmanned, creating a very private and meditative atmosphere for visitors. 
 
 **Blessings of the Eternal Fox**
@@ -66,8 +77,8 @@ While a dedicated shrine office may not always be open for daily **Goshuin** (ho
 ***
 
 ### 4. 🌃 What to See Nearby: The Waterfront and Air Terminal
-
 Hakozaki is a unique blend of high-speed transit and slow-paced riverside charm.
+
 *   **Tokyo City Air Terminal (T-CAT):** Located just a few blocks away, this is a major hub for airport limousine buses. It’s a great place to find shops and restaurants if you’re traveling to or from Narita or Haneda.
 *   **Sumida River Terrace:** A short walk east brings you to the beautifully maintained Sumida River walking paths. From here, you can see the **Kiyosu Bridge**, one of the most beautiful bridges in Tokyo, especially when illuminated at night.
 *   **Hakozaki Junction:** For fans of "urban landscapes" and architecture, the massive, multi-layered highway junction over the shrine area is a world-famous sight for photographers.
@@ -92,10 +103,10 @@ Nagahisa Inari Shrine is a testament to the fact that spirituality in Tokyo does
 ***
 
 ### ♨️ Relax at a Nearby Onsen: Tsuru-no-yu (鶴の湯)
-
 To complete your journey through the Hakozaki area, visit **Tsuru-no-yu**, a classic Japanese **sento** located nearby in the Kayabacho district (`Nihonbashi Kayabacho 2-4-8`).
 
 **Why visit?**
+
 *   **A Hidden Neighborhood Hub:** This sento is a favorite for local residents and office workers alike. It offers a wonderfully authentic "Shitamachi" atmosphere.
 *   **Refresh and Reset:** After exploring the urban canyons of Hakozaki, a hot soak in Tsuru-no-yu’s mineral-rich water is the ultimate way to refresh your body.
 *   **The Perfect Loop:** The name "Tsuru" (Crane) is another symbol of longevity in Japan, perfectly complementing the "Eternal" theme of Nagahisa Inari Shrine.

@@ -9,6 +9,7 @@ excerpt: An overwhelming scenic view in Yamaguchi Prefecture, where 123 red tori
   gates stretch like a dragon against the blue East Sea. Introducing Motonosumi Shrine,
   a miraculous power spot steeped in the legend of a white fox and selected by CNN
   as one of Japan's most beautiful places.
+lang: en
 lat: 34.426732
 layout: post
 lng: 131.056035

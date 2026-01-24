@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The head shrine of 12,000 Tenmangu shrines nationwide. Enjoy the aura of
   success and the beauty of 1,500 plum trees at Kitano Tenmangu, which enshrines the
   god of learning, Sugawara no Michizane.
+lang: en
 lat: 35.031512
 layout: post
 lng: 135.735212

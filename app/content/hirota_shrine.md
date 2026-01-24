@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Japan's oldest shrine, founded by Empress Jingū in the 3rd century. Discover
   the powerful winning luck and the magnificent spectacle of 20,000 azaleas at Hirota
   Shrine, home to the 'God of Victory' where the Hanshin Tigers pray for their championship.
+lang: en
 lat: 34.754712
 layout: post
 lng: 135.342156

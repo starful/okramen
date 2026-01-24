@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: A UNESCO World Heritage site and one of Japan's Three Great Views. Experience
   unforgettable wonder at Itsukushima Shrine, with its mystical red torii gate floating
   on the sea, imbued with the ambition of Taira no Kiyomori.
+lang: en
 lat: 34.295967
 layout: post
 lng: 132.319812

@@ -8,6 +8,7 @@ excerpt: The pink sanctuary that enshrines Japan's only 'God of Love (Koinomikot
   Reflect on the true meaning of relationships and walk the special heart-themed path
   at Fukuoka's Koinoki Shrine, born from Sugawara no Michizane's poignant love for
   his family.
+lang: en
 lat: 33.204543
 layout: post
 lng: 130.491232

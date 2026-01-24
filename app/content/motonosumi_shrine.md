@@ -9,6 +9,7 @@ excerpt: Selected as one of CNN's '31 Most Beautiful Places in Japan'. Discover 
   overwhelming scenery and sacred energy at Motonosumi Shrine in Yamaguchi Prefecture,
   where 123 red torii gates stretch towards the blue sea from a cliff's edge, steeped
   in the legend of the white fox.
+lang: en
 lat: 34.426742
 layout: post
 lng: 131.056905

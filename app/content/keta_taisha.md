@@ -9,6 +9,7 @@ excerpt: At the gateway to Japan's Noto Peninsula lies Keta Taisha, home to a va
   33,000-square-meter primeval forest, the 'Forest You Cannot Enter.' We invite you
   to this mystical sanctuary, imbued with the legend of Okuninushi-no-Okami from Japan's
   founding myths and a powerful aura for forging connections.
+lang: en
 lat: 36.924874
 layout: post
 lng: 136.763523

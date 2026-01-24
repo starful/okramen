@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Inside Kiyomizu-dera lies Jishu Shrine, a legendary sanctuary for matchmaking.
   Discover the mystical legends of the 3,000-year-old 'Love Stones' and feel the enduring
   power of Enmusubi, even during its renovation.
+lang: en
 lat: 34.994712
 layout: post
 lng: 135.785345

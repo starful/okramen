@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: Senso-ji, Tokyo's oldest temple. Pass through the giant red lantern of Kaminarimon
   to meet the wish-granting Kannon Bodhisattva and experience the atmosphere of the
   Edo period.
+lang: en
 lat: 35.714712
 layout: post
 lng: 139.796345

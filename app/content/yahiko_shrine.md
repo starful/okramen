@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Yahiko Shrine, Niigata's top power spot with 2,400 years of history. Discover
   the legend of the 'God of Pioneering' who leads to business prosperity and success,
   and the mysterious 'Hinotamaishi' stone that grants wishes.
+lang: en
 lat: 37.699742
 layout: post
 lng: 138.825243

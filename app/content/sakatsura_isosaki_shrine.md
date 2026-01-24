@@ -9,6 +9,7 @@ excerpt: A mystical forest of healing, guided by a 300-year-old camellia tree tu
   We invite you to Sakatsura Isosaki Shrine, a sacred ground where gods from Japan's
   creation myths descended, and home to the 'Lucky Turtle Rock' said to bring lottery
   winnings to those who touch it.
+lang: en
 lat: 36.386576
 layout: post
 lng: 140.609144

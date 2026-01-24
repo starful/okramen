@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The guardian deity of the Kamakura Shogunate and the spiritual pillar of
   the samurai. Receive the energy of victory at Tsurugaoka Hachimangu Shrine and stroll
   through its magnificent grounds steeped in 800 years of history.
+lang: en
 lat: 35.326212
 layout: post
 lng: 139.556212

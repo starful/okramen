@@ -9,6 +9,7 @@ excerpt: In the mountains north of Kyoto lies Kifune Shrine, dedicated to the go
   of water. Discover its mystical stone staircase illuminated by red lanterns and
   the unique 'Mizu-ura Mikuji' fortune-telling slips where words appear when floated
   on water.
+lang: en
 lat: 35.122512
 layout: post
 lng: 135.763545

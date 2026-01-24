@@ -8,6 +8,7 @@ date: 2025-12-22
 excerpt: The head shrine of all Sengen shrines in Japan. Purify your body and mind
   at 'Wakutamaike Pond' with the clear spring water of Mt. Fuji, and make a wish at
   the national treasure-class main hall built by Tokugawa Ieyasu.
+lang: en
 lat: 35.225612
 layout: post
 lng: 138.609745

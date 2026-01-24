@@ -1,14 +1,25 @@
 ---
-layout: post
-title: "A Thousand-Year Echo of Mount Fuji: A Deep Dive into Kamishinozaki Asama Shrine"
-date: "2026-01-06"
-categories: [Health, Safety, History]
-tags: [Tokyo, Personal Experience, Edogawa, Mt Fuji Worship, Cultural Heritage]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//4_1.jpg"
+address: 1-22-31 Kamishinozaki, Edogawa City, Tokyo 133-0054
+categories:
+- Health
+- Safety
+- History
+date: '2026-01-06'
+excerpt: Experience the profound history of Kamishinozaki Asama Shrine. From its Heian-period
+  origins to its massive 'Fujizuka' mound and the legendary giant banners, this guide
+  explores the spiritual heart of Edogawa's Fuji worship.
+lang: en
 lat: 35.714776
+layout: post
 lng: 139.902001
-address: "1-22-31 Kamishinozaki, Edogawa City, Tokyo 133-0054"
-excerpt: "Experience the profound history of Kamishinozaki Asama Shrine. From its Heian-period origins to its massive 'Fujizuka' mound and the legendary giant banners, this guide explores the spiritual heart of Edogawa's Fuji worship."
+tags:
+- Tokyo
+- Personal Experience
+- Edogawa
+- Mt Fuji Worship
+- Cultural Heritage
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//4_1.jpg
+title: 'A Thousand-Year Echo of Mount Fuji: A Deep Dive into Kamishinozaki Asama Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: A Millennium of Devotion to the Mountain Goddess

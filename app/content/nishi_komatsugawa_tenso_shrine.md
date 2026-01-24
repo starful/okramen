@@ -1,14 +1,26 @@
 ---
-layout: post
-title: "The Eternal Light of Nishi-Komatsugawa: A Deep Dive into Tenso Shrine"
-date: "2026-01-06"
-categories: [History, Safety, Health]
-tags: [Tokyo, Personal Experience, Edogawa, Amaterasu, Shinmei Shrine]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//8_1.jpg"
+address: 1-3 Nishikomatsugawacho, Edogawa City, Tokyo 132-0032
+categories:
+- History
+- Safety
+- Health
+date: '2026-01-06'
+excerpt: Embark on a spiritual journey to Nishi-Komatsugawa Tenso Shrine. This detailed
+  guide explores its sacred connection to the Sun Goddess Amaterasu, the minimalist
+  beauty of Shinmei-style architecture, and its enduring role as the silent protector
+  of Edogawa's riverside community.
+lang: en
 lat: 35.69558
+layout: post
 lng: 139.862069
-address: "1-3 Nishikomatsugawacho, Edogawa City, Tokyo 132-0032"
-excerpt: "Embark on a spiritual journey to Nishi-Komatsugawa Tenso Shrine. This detailed guide explores its sacred connection to the Sun Goddess Amaterasu, the minimalist beauty of Shinmei-style architecture, and its enduring role as the silent protector of Edogawa's riverside community."
+tags:
+- Tokyo
+- Personal Experience
+- Edogawa
+- Amaterasu
+- Shinmei Shrine
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//8_1.jpg
+title: 'The Eternal Light of Nishi-Komatsugawa: A Deep Dive into Tenso Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: The Radiant Ancestor in Edogawa

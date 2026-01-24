@@ -6,6 +6,7 @@ date: 2025-12-26
 excerpt: Deep in the heart of Saga Prefecture, nestled within a hushed, primeval forest,
   lies Takeo Shrine (武雄神社, *Takeo Jinja*). This is not merely a place of worship;
   ...
+lang: en
 lat: 35.6895
 layout: post
 lng: 139.6917

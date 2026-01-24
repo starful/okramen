@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The first Tenman-gū in Japan and one of the Three Great Tenjin. Receive powerful
   energy for academic achievement and wish fulfillment at Hōfu Tenman-gū, where Sugawara
   no Michizane stayed, longing for Kyoto, on his sorrowful journey to exile.
+lang: en
 lat: 34.057212
 layout: post
 lng: 131.573543

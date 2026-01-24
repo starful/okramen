@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: A hidden sacred place in Harajuku, Tokyo. Experience the victorious energy
   of the 'Z Flag' and the charm of a tranquil Japanese garden at the shrine dedicated
   to Heihachiro Togo, the 'Nelson of the East.'
+lang: en
 lat: 35.670612
 layout: post
 lng: 139.704243

@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: A historic sacred site nestled in the embrace of Kokura Castle. Ward off
   misfortune with the power of Susanoo-no-Mikoto, worshipped by legendary warriors,
   and feel the passion of the 400-year-old 'Kokura Gion Daiko' festival.
+lang: en
 lat: 33.884153
 layout: post
 lng: 130.873212

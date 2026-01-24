@@ -5,6 +5,7 @@ categories:
 date: 2025-12-27
 excerpt: Long before Kyoto was Kyoto, when it was a fertile basin known as Yamashiro,
   a powerful clan named Kamo worshipped the forces of nature that governed their li...
+lang: en
 lat: 35.6895
 layout: post
 lng: 139.6917

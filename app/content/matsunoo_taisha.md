@@ -1,5 +1,7 @@
 ---
-{}
+excerpt: Unlock success and wealth! Meet the God of Sake at Matsunoo Taisha, Kyoto's
+  ancient Arashiyama power spot. (117 characters)
+lang: en
 ---
 
 layout: post

@@ -1,14 +1,26 @@
 ---
-layout: post
-title: "The Radiant Sun in Edogawa: A Deep Dive into Higashi Kasai Tenso Shrine"
-date: "2026-01-04"
-categories: [Health, Safety, History]
-tags: [Tokyo, Personal Experience, Edogawa, Amaterasu, Tenso Shrine]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//5_1.jpg"
+address: 9-5-1 Higashikasai, Edogawa City, Tokyo 134-0084
+categories:
+- Health
+- Safety
+- History
+date: '2026-01-04'
+excerpt: Experience the solar grace of Higashi Kasai Tenso Shrine. This comprehensive
+  guide explores its ancient connection to the Grand Shrine of Ise, the mythology
+  of the Sun Goddess Amaterasu, and the peaceful sanctuary it provides within Tokyo's
+  residential heart.
+lang: en
 lat: 35.656552
+layout: post
 lng: 139.883002
-address: "9-5-1 Higashikasai, Edogawa City, Tokyo 134-0084"
-excerpt: "Experience the solar grace of Higashi Kasai Tenso Shrine. This comprehensive guide explores its ancient connection to the Grand Shrine of Ise, the mythology of the Sun Goddess Amaterasu, and the peaceful sanctuary it provides within Tokyo's residential heart."
+tags:
+- Tokyo
+- Personal Experience
+- Edogawa
+- Amaterasu
+- Tenso Shrine
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//5_1.jpg
+title: 'The Radiant Sun in Edogawa: A Deep Dive into Higashi Kasai Tenso Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: The Celestial Light of Edogawa

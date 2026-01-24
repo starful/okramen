@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: A spectacular tunnel of red torii gates in the heart of Tokyo. Experience
   the romance of the Edo period and the energy of a powerful spiritual spot at Nezu
   Shrine, where 1,900 years of history and 3,000 azalea bushes come together.
+lang: en
 lat: 35.719742
 layout: post
 lng: 139.760212

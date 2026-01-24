@@ -1,26 +1,31 @@
 ---
-layout: post
-title: "Find the Three Hidden Rabbits: The Legend of Love and Connection at Yamagata's Kumano Taisha Shrine"
-date: 2025-12-17
-categories: [Love, History, Wealth]
-tags:
-  [
-    Yamagata,
-    Kumano Taisha,
-    Nanyo City,
-    matchmaking,
-    enmusubi,
-    three rabbits,
-    Akayu Onsen,
-    power spot,
-    Tsukimusubi,
-    Japanese mythology,
-  ]
-thumbnail: /content/images/kumano_taisha.webp
-lat: 38.077212
-lng: 140.115423
 address: 〒992-0472 山形県南陽市宮内3476-1
-excerpt: A sacred place for powerful connections, blessed by Japan's first divine couple. Challenge yourself to the legend that your wish will come true if you find all 'three hidden rabbits' behind the main hall of Yamagata's Kumano Taisha Shrine.
+categories:
+- Love
+- History
+- Wealth
+date: 2025-12-17
+excerpt: A sacred place for powerful connections, blessed by Japan's first divine
+  couple. Challenge yourself to the legend that your wish will come true if you find
+  all 'three hidden rabbits' behind the main hall of Yamagata's Kumano Taisha Shrine.
+lang: en
+lat: 38.077212
+layout: post
+lng: 140.115423
+tags:
+- Yamagata
+- Kumano Taisha
+- Nanyo City
+- matchmaking
+- enmusubi
+- three rabbits
+- Akayu Onsen
+- power spot
+- Tsukimusubi
+- Japanese mythology
+thumbnail: /content/images/kumano_taisha.webp
+title: 'Find the Three Hidden Rabbits: The Legend of Love and Connection at Yamagata''s
+  Kumano Taisha Shrine'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.

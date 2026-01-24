@@ -1,26 +1,32 @@
 ---
-layout: post
-title: "The Crimson Jewel of Dogo Onsen: Meet the God of Victory at the Top of 135 Steps, Isaniwa Shrine"
-date: 2025-12-17
-categories: [Success, History, Health]
-tags:
-  [
-    Matsuyama,
-    Dogo Onsen,
-    Isaniwa Shrine,
-    Hachimangu,
-    Important Cultural Property,
-    Power Spot,
-    Luck in Competitions,
-    Prayer for Safe Childbirth,
-    Japanese Architecture,
-    Ehime Travel,
-  ]
-thumbnail: /content/images/isaniwa_shrine.webp
-lat: 33.851612
-lng: 132.788415
 address: 〒790-0838 愛媛県松山市桜谷町173
-excerpt: Perched on a hill overlooking Japan's oldest onsen, Dogo Onsen, a vermilion sanctuary appears after climbing 135 steep stone steps. Feel the powerful aura of success and the breath of history at Isaniwa Shrine, built by a samurai in the Edo period as a prayer for 'certain victory'.
+categories:
+- Success
+- History
+- Health
+date: 2025-12-17
+excerpt: Perched on a hill overlooking Japan's oldest onsen, Dogo Onsen, a vermilion
+  sanctuary appears after climbing 135 steep stone steps. Feel the powerful aura of
+  success and the breath of history at Isaniwa Shrine, built by a samurai in the Edo
+  period as a prayer for 'certain victory'.
+lang: en
+lat: 33.851612
+layout: post
+lng: 132.788415
+tags:
+- Matsuyama
+- Dogo Onsen
+- Isaniwa Shrine
+- Hachimangu
+- Important Cultural Property
+- Power Spot
+- Luck in Competitions
+- Prayer for Safe Childbirth
+- Japanese Architecture
+- Ehime Travel
+thumbnail: /content/images/isaniwa_shrine.webp
+title: 'The Crimson Jewel of Dogo Onsen: Meet the God of Victory at the Top of 135
+  Steps, Isaniwa Shrine'
 ---
 
 Hello, readers! This is your editor from 'JinjaMap,' here to add depth to your travels.

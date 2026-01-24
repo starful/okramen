@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: The head shrine of all 3,385 Ebisu shrines in Japan. Discover powerful financial
   luck and special connections at Miho Shrine, the stage for the mythological "land
   transfer" and home to the god of business prosperity and abundance.
+lang: en
 lat: 35.556212
 layout: post
 lng: 133.307312

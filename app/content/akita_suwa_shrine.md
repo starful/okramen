@@ -8,6 +8,7 @@ date: 2025-12-02
 excerpt: A shrine built on the vow of a warlord victorious in the Siege of Osaka.
   The miraculous divine 'Mizunara' tree, which grew from a staff into a giant, invites
   you to a powerful spot that promises victory and success.
+lang: en
 lat: 39.418083
 layout: post
 lng: 140.547139

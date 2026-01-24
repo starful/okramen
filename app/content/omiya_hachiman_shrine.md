@@ -1,14 +1,25 @@
 ---
-layout: post
-title: "The Guardian of Higashi-Koiwa: A Deep Dive into Omiya Hachiman Shrine"
-date: "2026-01-06"
-categories: [History, Safety, Health]
-tags: [Tokyo, Personal Experience, Edogawa, Hachiman Shrine, Shitamachi]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//3_1.jpg"
+address: 6-15-15 Higashikoiwa, Edogawa City, Tokyo 133-0052
+categories:
+- History
+- Safety
+- Health
+date: '2026-01-06'
+excerpt: Embark on a spiritual journey to the heart of Higashi-Koiwa. This comprehensive
+  guide explores the Hachiman legacy of Omiya Hachiman Shrine, its centuries-old protection
+  of the Koiwa community, and the serene riverside beauty that surrounds it.
+lang: en
 lat: 35.73527
+layout: post
 lng: 139.888612
-address: "6-15-15 Higashikoiwa, Edogawa City, Tokyo 133-0052"
-excerpt: "Embark on a spiritual journey to the heart of Higashi-Koiwa. This comprehensive guide explores the Hachiman legacy of Omiya Hachiman Shrine, its centuries-old protection of the Koiwa community, and the serene riverside beauty that surrounds it."
+tags:
+- Tokyo
+- Personal Experience
+- Edogawa
+- Hachiman Shrine
+- Shitamachi
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//3_1.jpg
+title: 'The Guardian of Higashi-Koiwa: A Deep Dive into Omiya Hachiman Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: The Hachiman Legacy and the Heart of Koiwa

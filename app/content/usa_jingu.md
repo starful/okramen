@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The head shrine of 44,000 Hachiman shrines nationwide and one of the three
   great Hachimangu. Discover the legend of the powerful oracle that changed Japanese
   history and the majesty of the National Treasure 'Hachiman-zukuri' main hall.
+lang: en
 lat: 33.526512
 layout: post
 lng: 131.374243

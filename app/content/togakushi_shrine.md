@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The setting of Japan's creation myth, the 'Amano-Iwato' legend. Walk through
   a 400-year-old cedar forest path and open the door to new opportunities on the Togakushi
   Shrine's Five-Shrine Pilgrimage.
+lang: en
 lat: 36.746212
 layout: post
 lng: 138.083154

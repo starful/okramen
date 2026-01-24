@@ -9,6 +9,7 @@ excerpt: Kuzuryu Shrine Shingu, enshrining the thousand-year legend of the nine-
   dragon god sleeping in Hakone's Lake Ashi. Introducing its powerful matchmaking
   and financial luck, and the mystical water 'Ryujinsui,' said to bring good fortune
   just by drinking it.
+lang: en
 lat: 35.204558
 layout: post
 lng: 139.025348

@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Kashima Jingu, where Takemikazuchi, the martial god of Japan's founding myths,
   is enshrined. In its 2,600-year-old forest, receive a powerful 'energy of decision'
   for victory and new beginnings.
+lang: en
 lat: 35.969112
 layout: post
 lng: 140.631267

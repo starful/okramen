@@ -9,6 +9,7 @@ excerpt: Hie Shrine, located in the heart of Tokyo next to the National Diet Bui
   Introducing an urban power spot filled with the energy of the 'Shinsaru (divine
   monkey),' the guardian deity of the Tokugawa clan, known for bringing business prosperity
   and connecting people.
+lang: en
 lat: 35.674712
 layout: post
 lng: 139.739767

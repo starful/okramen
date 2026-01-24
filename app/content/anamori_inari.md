@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Beside Haneda Airport, a shrine with a red torii tunnel that guards travel
   safety and financial luck. Journey into its miraculous history and discover 'Osuna,'
   the mysterious sand that brings good fortune.
+lang: en
 lat: 35.549212
 layout: post
 lng: 139.743154

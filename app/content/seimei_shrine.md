@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The former residence of Abe no Seimei, the greatest Onmyoji of the Heian
   period. A mystical power spot journey to ward off misfortune and pray for victory
   within a powerful barrier protected by the star-shaped 'pentagram'.
+lang: en
 lat: 35.029812
 layout: post
 lng: 135.751345

@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: A 1,200-year-old World Heritage site. Experience Kyoto's best scenery and
   spiritual power at the 'Stage of Kiyomizu,' built without a single nail, and the
   'Otowa Waterfall,' which grants three wishes.
+lang: en
 lat: 34.994712
 layout: post
 lng: 135.785345

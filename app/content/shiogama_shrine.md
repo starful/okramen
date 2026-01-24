@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The 1200-year-old guardian deity of Tohoku. Climb the 202 stone steps to
   cast off misfortune and receive powerful energy for purification and success at
   Shiogama Shrine, home to the legend of the mystical salt cauldrons.
+lang: en
 lat: 38.319712
 layout: post
 lng: 141.026156

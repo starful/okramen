@@ -8,6 +8,7 @@ date: 2025-12-02
 excerpt: One of Japan's Three Great Inari Shrines, founded 500 years ago by a fox's
   revelation. We invite you to Kumamoto's top power spot for financial luck, where
   a mystical red torii tunnel and the 'Bell that Summons Fortune' await.
+lang: en
 lat: 32.812222
 layout: post
 lng: 130.687222

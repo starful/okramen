@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Imamiya Ebisu Shrine, home to 'Ebessan,' the guardian deity of Osaka's commerce.
   Experience the 'Toka Ebisu' festival, which draws over a million people annually,
   and the power of making a wish by striking the gong behind the main hall.
+lang: en
 lat: 34.655212
 layout: post
 lng: 135.501512

@@ -8,6 +8,7 @@ date: 2025-12-22
 excerpt: A place steeped in the sweat and tears of the Tondenhei who pioneered the
   harsh lands of Hokkaido. Experience the pioneering spirit and a time of healing
   at the 130-year-old Asahikawa Shrine, nestled in a forest.
+lang: en
 lat: 43.748312
 layout: post
 lng: 142.368543

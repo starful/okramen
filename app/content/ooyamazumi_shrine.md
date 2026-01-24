@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The guardian deity of Japan, located on Omishima, the 'Island of the Gods'
   in the Seto Inland Sea. Receive the energy of victory and safety at Oyamazumi Shrine,
   home to a 2,600-year-old sacred tree and countless samurai treasures.
+lang: en
 lat: 34.248312
 layout: post
 lng: 133.005243

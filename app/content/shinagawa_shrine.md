@@ -8,6 +8,7 @@ date: 2025-11-30
 excerpt: Experience the energy of climbing Mt. Fuji in the heart of Tokyo? Receive
   powerful energy for success and wealth at Shinagawa Shrine, where a torii gate entwined
   with twin dragons and the history of the Edo Shogunate come alive.
+lang: en
 lat: 35.619888
 layout: post
 lng: 139.740428

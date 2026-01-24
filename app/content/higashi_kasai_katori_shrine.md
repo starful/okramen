@@ -1,14 +1,26 @@
 ---
-layout: post
-title: "The Unyielding Spirit of Edogawa: A Deep Dive into Higashi Kasai Katori Shrine"
-date: "2026-01-06"
-categories: [History, Safety, Culture]
-tags: [Tokyo, Personal Experience, Edogawa, Katori Shrine, Hidden Gem]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou/2_1.jpg"
+address: 2-34-20 Higashikasai, Edogawa City, Tokyo 134-0084
+categories:
+- History
+- Safety
+- Culture
+date: '2026-01-06'
+excerpt: Journey into the heart of Edogawa to discover Higashi Kasai Katori Shrine.
+  From its Genroku-era roots to its connection with the legendary sword deity Futsunushi-no-Mikoto,
+  this guide explores the spiritual and architectural treasures of a true neighborhood
+  guardian.
+lang: en
 lat: 35.668368
+layout: post
 lng: 139.880894
-address: "2-34-20 Higashikasai, Edogawa City, Tokyo 134-0084"
-excerpt: "Journey into the heart of Edogawa to discover Higashi Kasai Katori Shrine. From its Genroku-era roots to its connection with the legendary sword deity Futsunushi-no-Mikoto, this guide explores the spiritual and architectural treasures of a true neighborhood guardian."
+tags:
+- Tokyo
+- Personal Experience
+- Edogawa
+- Katori Shrine
+- Hidden Gem
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou/2_1.jpg
+title: 'The Unyielding Spirit of Edogawa: A Deep Dive into Higashi Kasai Katori Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: The Celestial Sword of the East

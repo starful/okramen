@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The head temple for warding off evil (yakuyoke). Shake off bad fortune at
   Kawasaki Daishi, an ancient temple founded in 1128, and enjoy the famous kuzumochi
   and the charm of its vibrant shopping street.
+lang: en
 lat: 35.534212
 layout: post
 lng: 139.728543

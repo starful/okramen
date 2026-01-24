@@ -8,6 +8,7 @@ date: 2025-12-25
 excerpt: Between Shibuya and Harajuku lies a vast man-made forest lush with 100,000
   trees. Experience a powerful 'power spot' and serene relaxation in this sacred space
   dedicated to Emperor Meiji, the leader of Japan's modernization.
+lang: en
 lat: 35.676397
 layout: post
 lng: 139.699326

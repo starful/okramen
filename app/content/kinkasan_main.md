@@ -11,6 +11,7 @@ excerpt: At the tip of the Oshika Peninsula in Miyagi Prefecture, Kinkasan is a 
   discovery, we guide you to this powerful spot for financial luck, where it's said
   that 'visiting for three consecutive years will free you from money worries for
   life'.
+lang: en
 lat: 38.297123
 layout: post
 lng: 141.564512

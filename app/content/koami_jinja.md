@@ -10,6 +10,7 @@ excerpt: Introducing Koami Shrine, a sacred site for 'Goun-yakuyoke' (Strong Luc
   small yet powerful spot, from its miraculous history of surviving the Great Kanto
   Earthquake and air raids to the 'Tokyo Zeniarai Benten' for boosting your financial
   fortune.
+lang: en
 lat: 35.683548
 layout: post
 lng: 139.780112

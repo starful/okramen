@@ -8,6 +8,7 @@ date: 2025-11-25
 excerpt: The "breathtaking view you must see before you die" that has captivated photographers
   worldwide. Discover 1,300 years of history and a stunning landscape at this sacred
   site dedicated to Konohanasakuya-hime, the goddess of Mt. Fuji.
+lang: en
 lat: 35.500583
 layout: post
 lng: 138.801667

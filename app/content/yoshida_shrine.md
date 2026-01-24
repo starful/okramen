@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The majesty of 'Daigengu,' where gods from all over Japan are gathered in
   one place. Meet unique deities like the God of Cooking and the God of Confections
   at Yoshida Shrine, a place that changed the history of Shinto.
+lang: en
 lat: 35.024712
 layout: post
 lng: 135.787654

@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Encounter a branch of Ise Grand Shrine in the heart of Tokyo. Receive special
   energy for love at the ultimate sacred ground for 'matchmaking,' the first place
   in Japan to conduct shrine weddings.
+lang: en
 lat: 35.699712
 layout: post
 lng: 139.746156

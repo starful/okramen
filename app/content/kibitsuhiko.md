@@ -1,14 +1,23 @@
 ---
-layout: post
-title: "Kibitsuhiko Shrine: A Journey Through Myth and History in Okayama"
+address: 기비쓰히코 신사 (吉備津彦神社)
+categories:
+- Success
 date: 2025-12-29
-categories: ['Success']
-tags: ['Japan', 'Shrine', 'Travel', 'Success', 'Okayama']
-thumbnail: /content/images/kibitsuhiko.webp
+excerpt: Kibitsuhiko Shrine (吉備津彦神社) in Okayama is more than just a beautiful place
+  of worship; it's a portal into the ancient legends and rich history of the Kibi
+  regio...
+lang: en
 lat: 35.6895
+layout: post
 lng: 139.6917
-address: "기비쓰히코 신사 (吉備津彦神社)"
-excerpt: "Kibitsuhiko Shrine (吉備津彦神社) in Okayama is more than just a beautiful place of worship; it's a portal into the ancient legends and rich history of the Kibi regio..."
+tags:
+- Japan
+- Shrine
+- Travel
+- Success
+- Okayama
+thumbnail: /content/images/kibitsuhiko.webp
+title: 'Kibitsuhiko Shrine: A Journey Through Myth and History in Okayama'
 ---
 
 ### 1. 🙏 Introduction: Deities & History

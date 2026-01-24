@@ -8,6 +8,7 @@ date: 2025-12-22
 excerpt: Nikko Toshogu, the shrine that deifies Tokugawa Ieyasu. Discover national
   treasure-class architecture crafted by Japan's finest artisans and a powerful aura
   that brings victory.
+lang: en
 lat: 36.758067
 layout: post
 lng: 139.600645

@@ -71,8 +71,11 @@ def main():
             with open(filepath, 'r', encoding='utf-8') as f:
                 post = frontmatter.load(f)
                 
-                # Draft 체크
-                if post.get('draft') == True and not os.environ.get('DEV_MODE'): continue
+                # [추가] 언어 설정 읽기 (기본값 en)
+                lang = post.get('lang', 'en')
+                
+                # [추가] Draft 체크
+                if post.get('draft') == True: continue
                 if not post.get('lat') or not post.get('lng'): continue
                 
                 date_val = post.get('date')
@@ -82,10 +85,19 @@ def main():
                 if not summary:
                     summary = strip_markdown(post.content)[:120] + '...'
                 
-                has_onsen = "Relax at a Nearby Onsen" in str(post.content)
+                # [3] 온천 판별 로직 (영어/한국어/일본어 키워드 모두 체크)
+                content_str = str(post.content)
+                has_onsen = (
+                    "Relax at a Nearby Onsen" in content_str or  # 영어
+                    "근처 온천" in content_str or                # 한국어
+                    "近くの温泉" in content_str or               # 일본어 (기존 번역 프롬프트 기준)
+                    "♨️" in content_str or                       # 아이콘
+                    "温泉" in content_str                       # 일본어 한자
+                )
 
                 shrine = {
                     "id": filename.replace('.md', ''),
+                    "lang": lang,  # [4] JSON에 언어 정보 포함
                     "title": post.get('title', 'No Title'),
                     "lat": post.get('lat'),
                     "lng": post.get('lng'),

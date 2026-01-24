@@ -1,14 +1,29 @@
 ---
-layout: post
-title: "The Maritime Legacy of Old Edo: A Comprehensive Guide to Tsukuda Sumiyoshi Shrine"
-date: "2026-01-10"
-categories: [History, Safety, Prosperity]
-tags: [Tokyo, Personal Experience, Chuo-ku, Tsukuda, Maritime, Sumiyoshi, Tsukudani]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/10_1.jpg"
+address: 1-1-14 Tsukuda, Chuo-ku, Tokyo 104-0051
+categories:
+- History
+- Safety
+- Prosperity
+date: '2026-01-10'
+excerpt: Journey to Tsukuda Island, where the spirit of old Osaka meets the heart
+  of Edo. Discover Sumiyoshi Shrine, the guardian of seafaring merchants and the birthplace
+  of the world-famous Tsukudani, nestled in a preserved pocket of history amidst Tokyo's
+  skyscrapers.
+lang: en
 lat: 35.668001
+layout: post
 lng: 139.783333
-address: "1-1-14 Tsukuda, Chuo-ku, Tokyo 104-0051"
-excerpt: "Journey to Tsukuda Island, where the spirit of old Osaka meets the heart of Edo. Discover Sumiyoshi Shrine, the guardian of seafaring merchants and the birthplace of the world-famous Tsukudani, nestled in a preserved pocket of history amidst Tokyo's skyscrapers."
+tags:
+- Tokyo
+- Personal Experience
+- Chuo-ku
+- Tsukuda
+- Maritime
+- Sumiyoshi
+- Tsukudani
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/10_1.jpg
+title: 'The Maritime Legacy of Old Edo: A Comprehensive Guide to Tsukuda Sumiyoshi
+  Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: From the Shores of Settsu to the Heart of Edo
@@ -89,8 +104,8 @@ Because of its maritime heritage, the shrine offers unique **Kotsu Anzen** (Traf
 ***
 
 ### 4. 🌃 What to See Nearby: A Walk Through Edo's Waterfront
-
 Tsukudajima is one of Tokyo's most rewarding "Shitamachi" districts to explore.
+
 *   **Original Tsukudani Shops:** Visit **Ten-yasu** or **Tsukuda-gen**, shops that have been operating since the Edo period, to buy authentic Tsukudani as a souvenir.
 *   **Tsukuda-kobashi Bridge:** This small, red-railed bridge over the narrow canal is the ultimate photo spot. You can see traditional houseboats (*屋形船*) docked below.
 *   **Ishikawajima Lighthouse:** A short walk north leads to a reproduction of the historic lighthouse that guided ships into Edo harbor.
@@ -105,4 +120,4 @@ Tsukudajima is one of Tokyo's most rewarding "Shitamachi" districts to explore.
 | **Address**      | 1-1-14 Tsukuda, Chuo-ku, Tokyo 104-0051              |
 | **Nearest Station**| **Tsukishima Station** (Yurakucho / Oedo Line) - Exit 6, 5 min walk |
 | **Alternative**  | **Hatchobori Station** (JR Keiyo Line) - 15 min walk across the bridge |
-| **Hours**        | Grounds open 24 hours (Office 9:00 AM - 4:30 PM)      
+| **Hours**        | Grounds open 24 hours (Office 9:00 AM - 4:30 PM)

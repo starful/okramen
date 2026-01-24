@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: A 1,300-year-old World Heritage site. In a primeval forest where the divine
   messenger deer roam, discover special connections and tranquility at the mystical
   Kasuga Taisha, illuminated by 3,000 lanterns.
+lang: en
 lat: 34.681212
 layout: post
 lng: 135.848212

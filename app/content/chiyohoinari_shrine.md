@@ -9,6 +9,7 @@ excerpt: One of Japan's three great Inari shrines and a sacred place for entrepr
   'Ochobo-san.' Experience the energy of success at Chiyohoinari Shrine, known for
   its unique worship culture of offering fried tofu and business cards, and the legend
   of the golden rice ears.
+lang: en
 lat: 35.295245
 layout: post
 lng: 136.658712

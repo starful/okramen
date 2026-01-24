@@ -1,26 +1,32 @@
 ---
-layout: post
-title: "The Soul's Rebirth at the End of a Thousand-Year Pilgrimage: Kumano Hongu Taisha and the Great Silence of Oyunohara"
-date: 2025-12-17
-categories: [History, Success, Safety]
-tags:
-  [
-    Wakayama,
-    Kumano Kodo,
-    Kumano Hongu Taisha,
-    Power Spot,
-    Yatagarasu,
-    Rebirth,
-    Yomigaeri,
-    Onsen Trip,
-    Japanese Shrine,
-    World Heritage,
-  ]
-thumbnail: /content/images/kumano_hongu_taisha.webp
-lat: 33.840767
-lng: 135.773825
 address: 〒647-1731 和歌山県田辺市本宮町本宮1110
-excerpt: Kumano, the home of Japanese mythology and a land where souls are reborn. Discover the giant torii gate and the legend of the sacred crow, Yatagarasu, at Kumano Hongu Taisha, the final destination of a pilgrimage route walked by everyone from emperors to commoners for over a thousand years.
+categories:
+- History
+- Success
+- Safety
+date: 2025-12-17
+excerpt: Kumano, the home of Japanese mythology and a land where souls are reborn.
+  Discover the giant torii gate and the legend of the sacred crow, Yatagarasu, at
+  Kumano Hongu Taisha, the final destination of a pilgrimage route walked by everyone
+  from emperors to commoners for over a thousand years.
+lang: en
+lat: 33.840767
+layout: post
+lng: 135.773825
+tags:
+- Wakayama
+- Kumano Kodo
+- Kumano Hongu Taisha
+- Power Spot
+- Yatagarasu
+- Rebirth
+- Yomigaeri
+- Onsen Trip
+- Japanese Shrine
+- World Heritage
+thumbnail: /content/images/kumano_hongu_taisha.webp
+title: 'The Soul''s Rebirth at the End of a Thousand-Year Pilgrimage: Kumano Hongu
+  Taisha and the Great Silence of Oyunohara'
 ---
 
 Hello, this is the editor of 'JinjaMap,' where we explore and document mystical sacred sites around the world.

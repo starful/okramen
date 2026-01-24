@@ -1,14 +1,27 @@
 ---
-layout: post
-title: "The Modern Sanctuary of New Life: A Deep Dive into Nihonbashi Suitengu Shrine"
-date: "2026-01-10"
-categories: [Health, Safety, History]
-tags: [Tokyo, Personal Experience, Chuo-ku, Nihonbashi, Suitengu, Pregnancy]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/2_1.jpg"
+address: 2-4-1 Nihonbashi Kakigara-cho, Chuo-ku, Tokyo 103-0014
+categories:
+- Health
+- Safety
+- History
+date: '2026-01-10'
+excerpt: Experience the fusion of ancient faith and modern architecture at Nihonbashi
+  Suitengu. As Tokyo's premier shrine for safe childbirth and fertility, this guide
+  explores its tragic origins, its connection to the Samurai lords, and its role as
+  a guardian of families.
+lang: en
 lat: 35.683572
+layout: post
 lng: 139.785196
-address: "2-4-1 Nihonbashi Kakigara-cho, Chuo-ku, Tokyo 103-0014"
-excerpt: "Experience the fusion of ancient faith and modern architecture at Nihonbashi Suitengu. As Tokyo's premier shrine for safe childbirth and fertility, this guide explores its tragic origins, its connection to the Samurai lords, and its role as a guardian of families."
+tags:
+- Tokyo
+- Personal Experience
+- Chuo-ku
+- Nihonbashi
+- Suitengu
+- Pregnancy
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/2_1.jpg
+title: 'The Modern Sanctuary of New Life: A Deep Dive into Nihonbashi Suitengu Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: The Celestial Waters of Protection
@@ -17,6 +30,7 @@ excerpt: "Experience the fusion of ancient faith and modern architecture at Niho
 
 **The Deities of the Universe and the Sea**
 Suitengu enshrines four primary deities:
+
 1.  **Amenominakanushi-no-kami (天御中主大神):** The central deity of the universe in Japanese mythology, representing the source of all life.
 2.  **Emperor Antoku (安徳天皇):** The child emperor who tragically perished at the age of six during the Battle of Dan-no-ura (1185).
 3.  **Kenreimon-in (建礼門院):** The mother of Emperor Antoku.
@@ -72,7 +86,6 @@ Given its name (*Suitengu* means "Palace of the Water Heaven"), the shrine featu
 ***
 
 ### 3. 📜 Goshuin and Shrine Items: Talismans for the Family
-
 Nihonbashi Suitengu offers some of the most specialized talismans in Japan.
 
 *   **Misuzu-obi (Sacred Belly Band):** A long sash made of natural cotton, blessed for safe delivery. It is traditionally wrapped around the abdomen starting from the fifth month of pregnancy.
@@ -85,7 +98,6 @@ The shrine office is incredibly efficient, designed to handle the massive crowds
 ***
 
 ### 4. 🌃 What to See Nearby: Traditions of Ningyocho
-
 Suitengu is located on the edge of **Ningyocho**, one of Tokyo’s most charming historic districts.
 
 *   **Amazake Yokocho:** A famous narrow alley lined with traditional craft shops and snack vendors. Don't miss the *Taiyaki* (fish-shaped cake) or *Ningyo-yaki* (doll-shaped cakes).
@@ -113,10 +125,10 @@ Visiting Nihonbashi Suitengu is a unique experience that perfectly captures the 
 ***
 
 ### ♨️ Relax at a Nearby Onsen: Suehiroyu (末広湯)
-
 After a day of exploring Nihonbashi and Ningyocho, head to **Suehiroyu**, a classic neighborhood sento located in the heart of Ningyocho.
 
 **Why Suehiroyu?**
+
 *   **Authentic Shitamachi Vibe:** This public bathhouse has been a local favorite for decades. It features high ceilings and traditional tile murals.
 *   **Healing Waters:** The heat of the baths is the perfect way to soothe your feet after walking the historic streets.
 *   **The Experience:** Ending your day with a hot soak alongside the locals of Ningyocho is the most authentic way to experience Tokyo's residential culture. It’s just a 7-minute walk from Suitengu!

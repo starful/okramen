@@ -9,6 +9,7 @@ excerpt: Ootori Taisha, the Ichinomiya of Izumi Province, Osaka. In the forest i
   with the legend of the hero Yamato Takeru no Mikoto, who transformed into a giant
   white bird, feel the powerful energy of comeback and victory, embodying the spirit
   of 'rising again after every fall.'
+lang: en
 lat: 34.536712
 layout: post
 lng: 135.462345

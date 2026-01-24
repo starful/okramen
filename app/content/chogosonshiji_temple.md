@@ -9,6 +9,7 @@ excerpt: A legendary mountain where Prince Shotoku received a revelation of vict
   1,400 years ago. Pray for certain victory and financial fortune at Chogosonshiji
   Temple on Mount Shigi, a place brimming with giant tiger decorations and the powerful
   aura of Bishamonten.
+lang: en
 lat: 34.608312
 layout: post
 lng: 135.671312

@@ -1,14 +1,25 @@
 ---
-layout: post
-title: "The Martial Guardian of Edogawa: A Deep Dive into Chuo Katori Shrine"
-date: "2026-01-06"
-categories: [History, Safety, Health]
-tags: [Tokyo, Personal Experience, Edogawa, Katori Shrine, Martial Arts Deity]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//7_1.jpg"
+address: 4-5-23 Chuo, Edogawa City, Tokyo 132-0021
+categories:
+- History
+- Safety
+- Health
+date: '2026-01-06'
+excerpt: Explore the historic Chuo Katori Shrine in Edogawa. Dedicated to the sword
+  deity Futsunushi-no-Mikoto, this sanctuary offers a profound look into Edo-period
+  faith, architectural craftsmanship, and the enduring spirit of victory and protection.
+lang: en
 lat: 35.70678
+layout: post
 lng: 139.86773
-address: "4-5-23 Chuo, Edogawa City, Tokyo 132-0021"
-excerpt: "Explore the historic Chuo Katori Shrine in Edogawa. Dedicated to the sword deity Futsunushi-no-Mikoto, this sanctuary offers a profound look into Edo-period faith, architectural craftsmanship, and the enduring spirit of victory and protection."
+tags:
+- Tokyo
+- Personal Experience
+- Edogawa
+- Katori Shrine
+- Martial Arts Deity
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//7_1.jpg
+title: 'The Martial Guardian of Edogawa: A Deep Dive into Chuo Katori Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: The Sword of Pacification and Victory

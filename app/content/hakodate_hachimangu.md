@@ -1,25 +1,30 @@
 ---
-layout: post
-title: "The Northern Sanctuary for Victory and Success: Encountering the Squid Amulet and Yachigashira Onsen at Hakodate Hachimangu Shrine"
-date: 2025-12-18
-categories: [Success, History, Wealth]
-tags:
-  [
-    Hokkaido,
-    Hakodate,
-    HakodateHachimangu,
-    PowerSpot,
-    LuckInCompetitions,
-    YachigashiraOnsen,
-    SquidAmulet,
-    Goshuin,
-    HokkaidoTravel,
-  ]
-thumbnail: /content/images/hakodate_hachimangu.webp
-lat: 41.748312
-lng: 140.714243
 address: 2-5 Yachigashira-cho, Hakodate, Hokkaido 040-0046
-excerpt: The guardian shrine of Hakodate. A perfect travel course to pray for success to Hachiman Okami, the god of certain victory, and heal in the hot springs filled with the spirit of Mt. Hakodate.
+categories:
+- Success
+- History
+- Wealth
+date: 2025-12-18
+excerpt: The guardian shrine of Hakodate. A perfect travel course to pray for success
+  to Hachiman Okami, the god of certain victory, and heal in the hot springs filled
+  with the spirit of Mt. Hakodate.
+lang: en
+lat: 41.748312
+layout: post
+lng: 140.714243
+tags:
+- Hokkaido
+- Hakodate
+- HakodateHachimangu
+- PowerSpot
+- LuckInCompetitions
+- YachigashiraOnsen
+- SquidAmulet
+- Goshuin
+- HokkaidoTravel
+thumbnail: /content/images/hakodate_hachimangu.webp
+title: 'The Northern Sanctuary for Victory and Success: Encountering the Squid Amulet
+  and Yachigashira Onsen at Hakodate Hachimangu Shrine'
 ---
 
 Hello, this is the editor of 'JinjaMap,' where we journey to discover hidden gem-like sacred sites around the world.

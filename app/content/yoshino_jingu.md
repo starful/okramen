@@ -9,6 +9,7 @@ excerpt: Emperor Go-Daigo lived one of the most dramatic lives in Japanese histo
   Receive the powerful energy for 'great wish fulfillment' at Yoshino Jingu Shrine,
   which honors his indomitable spirit resting in Yoshino, the capital of the Southern
   Court.
+lang: en
 lat: 34.368385
 layout: post
 lng: 135.85617

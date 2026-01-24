@@ -1,14 +1,27 @@
 ---
-layout: post
-title: "The Dragon of Strong Luck: A Deep Dive into Nihonbashi Koami Shrine"
-date: "2026-01-10"
-categories: [Health, Safety, Prosperity]
-tags: [Tokyo, Personal Experience, Chuo-ku, Nihonbashi, Koami, Money Washing]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/5_1.jpg"
+address: 16-23 Nihonbashi Koami-cho, Chuo-ku, Tokyo 103-0016
+categories:
+- Health
+- Safety
+- Prosperity
+date: '2026-01-10'
+excerpt: Known as Tokyo's most powerful 'Power Spot' for warding off misfortune and
+  attracting financial luck, Koami Shrine is a miraculous survivor of both earthquake
+  and war. Discover the secrets of its rising dragons and the sacred well where visitors
+  wash their wealth.
+lang: en
 lat: 35.685321
+layout: post
 lng: 139.780312
-address: "16-23 Nihonbashi Koami-cho, Chuo-ku, Tokyo 103-0016"
-excerpt: "Known as Tokyo's most powerful 'Power Spot' for warding off misfortune and attracting financial luck, Koami Shrine is a miraculous survivor of both earthquake and war. Discover the secrets of its rising dragons and the sacred well where visitors wash their wealth."
+tags:
+- Tokyo
+- Personal Experience
+- Chuo-ku
+- Nihonbashi
+- Koami
+- Money Washing
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/5_1.jpg
+title: 'The Dragon of Strong Luck: A Deep Dive into Nihonbashi Koami Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: The Miraculous Survivor of Nihonbashi

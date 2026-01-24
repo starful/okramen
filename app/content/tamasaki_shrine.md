@@ -9,6 +9,7 @@ excerpt: At the eastern tip of Chiba's Boso Peninsula lies Tamasaki Shrine, the 
   point of a 'ley line' where the sun's energy first touches down. We invite you to
   this sacred place, filled with powerful energy, featuring a magnificent black-lacquered
   sanctuary, a guardian goddess for women, and a barefoot path that grants wishes.
+lang: en
 lat: 35.372545
 layout: post
 lng: 140.365312

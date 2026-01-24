@@ -1,5 +1,8 @@
 ---
-{}
+excerpt: '**Nara''s Kashihara Jingu:** Stand on the sacred, majestic land marking
+  Japan''s mythological beginning and the site of the first emperor''s ascent. (117
+  characters)'
+lang: en
 ---
 
 layout: post

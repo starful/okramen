@@ -1,14 +1,28 @@
 ---
-layout: post
-title: "Taming the Waves of Edo: A Deep Dive into Namayoke Inari Shrine, the Guardian of Tsukiji"
-date: "2026-01-10"
-categories: [History, Prosperity, Safety]
-tags: [Tokyo, Personal Experience, Chuo-ku, Tsukiji, Inari, Shinto]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/11_1.jpg"
+address: 6-20-37 Tsukiji, Chuo-ku, Tokyo 104-0045
+categories:
+- History
+- Prosperity
+- Safety
+date: '2026-01-10'
+excerpt: Explore Namayoke Inari Shrine, the spiritual anchor of the Tsukiji district.
+  From its legendary origins of calming the storm-tossed seas to its unique food memorial
+  mounds and giant lion heads, discover the shrine that made the construction of Tsukiji
+  possible.
+lang: en
 lat: 35.663485
+layout: post
 lng: 139.77157
-address: "6-20-37 Tsukiji, Chuo-ku, Tokyo 104-0045"
-excerpt: "Explore Namayoke Inari Shrine, the spiritual anchor of the Tsukiji district. From its legendary origins of calming the storm-tossed seas to its unique food memorial mounds and giant lion heads, discover the shrine that made the construction of Tsukiji possible."
+tags:
+- Tokyo
+- Personal Experience
+- Chuo-ku
+- Tsukiji
+- Inari
+- Shinto
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/11_1.jpg
+title: 'Taming the Waves of Edo: A Deep Dive into Namayoke Inari Shrine, the Guardian
+  of Tsukiji'
 ---
 
 ### 1. 🙏 Deities and Origins: The Miracle that Built Tsukiji
@@ -31,12 +45,14 @@ The primary deity is **Ukanomitama-no-mikoto**, the classic Inari god of agricul
 Stepping into the grounds of Namayoke Inari, you are immediately struck by a sense of gratitude that permeates the space. It is a compact sanctuary, but it is densely packed with unique monuments that you won't find anywhere else in Japan.
 
 **The Giant Lion Heads (Shishi-gashira)**
+
 The most iconic features of the shrine are the two massive lion heads housed in their own pavilions.
 *   **Suiten-isshu (The Male Lion):** A towering red lion head with a massive golden horn, weighing several tons.
 *   **Ohaguro-shishi (The Female Lion):** A majestic black lion head with golden teeth (reflecting the ancient 'Ohaguro' tradition of teeth-blackening). 
 These lions were historically carried through the streets during festivals to ward off the clouds and wind, symbolically "biting" back the storms.
 
 **The Mounds of Gratitude**
+
 Perhaps the most touching part of the shrine is the collection of "Tsuka" (memorial mounds) dedicated to the ingredients that sustain the Tsukiji market. You will see the **Sushi-zuka**, **Tamago-zuka** (Egg mound), **Ebi-zuka** (Shrimp mound), and even an **Anago-zuka** (Conger Eel mound). These are built by market workers to show respect and gratitude to the lives of the creatures that have supported their livelihoods for generations.
 
 <!-- 이미지 그리드 시작 -->
@@ -79,15 +95,16 @@ Perhaps the most touching part of the shrine is the collection of "Tsuka" (memor
 ### 3. 📜 Goshuin and Shrine Items: Protection Against the Tides
 
 **The Goshuin of Wave Protection**
+
 The **Goshuin** (holy stamp) here is exceptionally popular. It often features a bold, central seal with the name of the shrine and a small, delicate stamp of a wave or a lion head. During the annual **Tsukiji Shishi Matsuri** (Lion Festival) in June, the shrine offers limited-edition stamps that are highly prized for their artistic and spiritual value.
 
 **Amulets for Navigating Life**
+
 Given its history, the shrine offers unique **Yakuyoke** (warding off misfortune) amulets. These are specifically for those who feel they are facing "rough seas" in their personal lives. The **Kachi-守** (Victory charm) featuring the lion head is a favorite for those seeking the strength to "bite through" their challenges.
 
 ***
 
 ### 4. 🌃 What to See Nearby: The Culinary Heart of Tokyo
-
 Namayoke Inari is the gateway to one of the most exciting culinary districts in the world.
 
 *   **Tsukiji Outer Market:** Just steps away, you will find hundreds of stalls selling the freshest sushi, grilled seafood, tamagoyaki (omelets), and professional-grade kitchen knives. It is a paradise for food lovers.
@@ -108,7 +125,6 @@ Namayoke Inari is the gateway to one of the most exciting culinary districts in 
 ***
 
 ### ✨ Editor's Closing Remarks: The Spirit of the Shore
-
 What I find most moving about Namayoke Inari Shrine is how it remains a silent, dignified observer of the chaotic Tsukiji market. While thousands of tourists and wholesalers rush by with their eyes on the seafood, the shrine stands as a reminder of the spiritual foundations of this land. 
 
 I spent a few minutes watching an old man who ran a tamagoyaki stall stop at the **Tamago-zuka** (Egg mound), bow deeply, and say a silent "thank you." It was a powerful reminder that in Japan, nothing—not even an egg—is taken for granted. If you visit Tsukiji for the sushi, please take ten minutes to visit this shrine. It is the heart that pumps life into the entire district.
@@ -116,10 +132,10 @@ I spent a few minutes watching an old man who ran a tamagoyaki stall stop at the
 ***
 
 ### ♨️ Relax at a Nearby Onsen: Tsuru-no-yu (鶴の湯)
-
 To complete your Tsukiji morning, head over to **Tsuru-no-yu**, a classic Japanese **sento** located at `Chuo-ku, Tsukiji 7-4-4`.
 
 **Why visit?**
+
 *   **The Market Worker's Sanctuary:** For decades, the workers of Tsukiji have come here to wash away the salt and fatigue of the morning market. 
 *   **Classic Vibe:** It offers a wonderfully authentic, no-frills bathing experience with high ceilings and hot, invigorating water.
 *   **Total Purification:** After the sensory overload of the market and the spiritual reset of the shrine, a hot soak at Tsuru-no-yu is the perfect way to ground yourself before continuing your Tokyo adventure.

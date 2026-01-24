@@ -9,6 +9,7 @@ excerpt: An essential stop on any Kyoto trip and the birthplace of the Gion Mats
   We invite you to Yasaka Shrine, home to the powerful guardian deity Susanoo who
   vanquishes plagues, and the legendary 'Beauty Water' said to make you beautiful
   just by applying it.
+lang: en
 lat: 35.003656
 layout: post
 lng: 135.778553

@@ -9,6 +9,7 @@ excerpt: In the glamorous streets of Azabu-Juban lies a sacred place imbued with
   legend of a mystical toad that stopped a fire and the Treasure Ship of the Seven
   Lucky Gods. Embark on a healing journey to 'Juban Inari Shrine' to reclaim lost
   luck and attract wealth.
+lang: en
 lat: 35.655845
 layout: post
 lng: 139.736025

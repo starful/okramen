@@ -8,6 +8,7 @@ date: 2025-12-02
 excerpt: The grandeur of one of Japan's Three Great Inari Shrines, spanning 1,370
   years. Discover 400-year-old wisteria trees, the essence of magnificent Edo architecture,
   and a powerful aura that invites business success.
+lang: en
 lat: 36.386124
 layout: post
 lng: 140.257321

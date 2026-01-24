@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: In the heart of Akihabara, Tokyo, lies Kanda Myoujin, the 1300-year-old guardian
   shrine of Edo. Pray for success to Masakado, the god of victory, and Daikokuten,
   the god of wealth, and discover the unique IT good luck charm.
+lang: en
 lat: 35.702045
 layout: post
 lng: 139.767912

@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: Naritasan Shinshoji was founded 1,000 years ago with a prayer for peace.
   A perfect healing journey to cast away misfortune in the flames of the Goma ritual
   and rejuvenate with 300-year-old traditional eel rice.
+lang: en
 lat: 35.786512
 layout: post
 lng: 140.318212

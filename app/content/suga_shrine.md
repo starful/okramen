@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The place where the hero Susanoo, who defeated the monster Yamata-no-Orochi,
   built his newlywed home. Receive powerful blessings for relationships and victory
   at Suga Shrine, Japan's first palace and the birthplace of Waka poetry.
+lang: en
 lat: 35.297512
 layout: post
 lng: 132.964243

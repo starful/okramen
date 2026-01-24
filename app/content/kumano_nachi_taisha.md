@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: A mystical sanctuary that worships Nachi Falls, one of Japan's three great
   waterfalls, as its deity. Meet Yatagarasu, the messenger of the gods, at Kumano
   Nachi Taisha, the pinnacle of the UNESCO World Heritage site, Kumano Kodo.
+lang: en
 lat: 33.668545
 layout: post
 lng: 135.890612

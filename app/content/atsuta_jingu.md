@@ -9,6 +9,7 @@ excerpt: One of Japan's three great shrines, and the resting place of the legend
   divine sword, 'Kusanagi-no-Tsurugi.' We invite you to the mystical forest of Atsuta
   Jingu, home to Oda Nobunaga's prayer for victory and the legendary beauty water
   of Yang Guifei.
+lang: en
 lat: 35.125612
 layout: post
 lng: 136.908745

@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: The mystery of the red torii gate floating on Lake Ashinoko. Receive the
   energy of victory and the blessings of the nine-headed dragon god at Hakone Shrine,
   with its 1200 years of history.
+lang: en
 lat: 35.204558
 layout: post
 lng: 139.025348

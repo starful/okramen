@@ -1,14 +1,25 @@
 ---
-layout: post
-title: "The Crimson Guardian of Ukita: A Deep Dive into Kitakasai Inari Shrine"
-date: "2026-01-06"
-categories: [History, Safety, Prosperity]
-tags: [Tokyo, Personal Experience, Edogawa, Inari Shrine, Hidden Gem]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//6_1.jpg"
+address: 4-24-16 Kitakasai, Edogawa City, Tokyo 134-0081
+categories:
+- History
+- Safety
+- Prosperity
+date: '2026-01-06'
+excerpt: Explore the hidden spiritual heart of Kitakasai. This comprehensive guide
+  uncovers the history of the Ukita region's reclamation, the mystical fox guardians
+  of Kitakasai Inari Shrine, and the tranquil harmony of this neighborhood sanctuary.
+lang: en
 lat: 35.670311
+layout: post
 lng: 139.865508
-address: "4-24-16 Kitakasai, Edogawa City, Tokyo 134-0081"
-excerpt: "Explore the hidden spiritual heart of Kitakasai. This comprehensive guide uncovers the history of the Ukita region's reclamation, the mystical fox guardians of Kitakasai Inari Shrine, and the tranquil harmony of this neighborhood sanctuary."
+tags:
+- Tokyo
+- Personal Experience
+- Edogawa
+- Inari Shrine
+- Hidden Gem
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634633/starful.net/chuuou//6_1.jpg
+title: 'The Crimson Guardian of Ukita: A Deep Dive into Kitakasai Inari Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: The Rice Goddess and the Spirit of Ukita

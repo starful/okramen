@@ -9,6 +9,7 @@ excerpt: Southeast of Osaka Castle lies Tamatsukuri Inari Shrine, imbued with th
   spirit of ancient bead makers and the deep faith of the Toyotomi clan. We introduce
   the 'love fox' that forges relationships and a powerful spot where Hideyori's umbilical
   cord is buried.
+lang: en
 lat: 34.678256
 layout: post
 lng: 135.530263

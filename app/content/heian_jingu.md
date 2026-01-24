@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: A vermilion sacred site built to commemorate the 1100th anniversary of Kyoto's
   founding. A journey through time to Heian Jingu, home to the magnificent Daigokuden,
   the beautiful four-season Shin-en Garden, and the pride of Kyoto's people.
+lang: en
 lat: 35.016012
 layout: post
 lng: 135.782543

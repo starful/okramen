@@ -8,6 +8,7 @@ date: 2025-11-30
 excerpt: Where a giant lion-head hall swallows misfortune, and Daikoku-sama, worshipped
   by Osaka merchants, beckons financial luck. Change your fortune at Daikokushu Shrine,
   a powerful hidden power spot in the heart of the city.
+lang: en
 lat: 34.656111
 layout: post
 lng: 135.4975

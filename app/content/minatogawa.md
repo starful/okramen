@@ -1,14 +1,23 @@
 ---
-layout: post
-title: "Minatogawa Shrine: A Journey into Loyalty and History in Kobe"
+address: 미나토가와 신사 (湊川神社)
+categories:
+- Success
 date: 2025-12-29
-categories: ['Success']
-tags: ['Japan', 'Shrine', 'Travel', 'Success', 'Hyogo']
-thumbnail: /content/images/minatogawa.webp
+excerpt: Minatogawa Shrine, nestled in the heart of Kobe, Hyogo Prefecture, is more
+  than just a place of worship; it's a testament to unwavering loyalty and a powerful
+  s...
+lang: en
 lat: 35.6895
+layout: post
 lng: 139.6917
-address: "미나토가와 신사 (湊川神社)"
-excerpt: "Minatogawa Shrine, nestled in the heart of Kobe, Hyogo Prefecture, is more than just a place of worship; it's a testament to unwavering loyalty and a powerful s..."
+tags:
+- Japan
+- Shrine
+- Travel
+- Success
+- Hyogo
+thumbnail: /content/images/minatogawa.webp
+title: 'Minatogawa Shrine: A Journey into Loyalty and History in Kobe'
 ---
 
 ### 1. 🙏 Introduction: Deities & History

@@ -1,14 +1,23 @@
 ---
-layout: post
-title: "Kehi Jingu Shrine: An Ancient Portal to the Soul of Japan (Fukui)"
+address: 게히 신궁 (氣比神宮)
+categories:
+- History
 date: 2025-12-29
-categories: ['History']
-tags: ['Japan', 'Shrine', 'Travel', 'History', 'Fukui']
-thumbnail: /content/images/kehi_jingu_shrine.webp
+excerpt: Kehi Jingu Shrine, nestled in the coastal city of Tsuruga in Fukui Prefecture,
+  isn't just another pretty shrine; it's a living, breathing chronicle of Japanese
+  ...
+lang: en
 lat: 35.6895
+layout: post
 lng: 139.6917
-address: "게히 신궁 (氣比神宮)"
-excerpt: "Kehi Jingu Shrine, nestled in the coastal city of Tsuruga in Fukui Prefecture, isn't just another pretty shrine; it's a living, breathing chronicle of Japanese ..."
+tags:
+- Japan
+- Shrine
+- Travel
+- History
+- Fukui
+thumbnail: /content/images/kehi_jingu_shrine.webp
+title: 'Kehi Jingu Shrine: An Ancient Portal to the Soul of Japan (Fukui)'
 ---
 
 ### 1. 🙏 Introduction: Deities & History

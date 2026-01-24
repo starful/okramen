@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Nestled in a natural cave beneath a cliff overlooking the blue sea, Udo Shrine.
   Pray for special connections and good fortune at this place imbued with the poignant
   love story of Japan's founding myth and a mother's heart.
+lang: en
 lat: 31.649722
 layout: post
 lng: 131.465556

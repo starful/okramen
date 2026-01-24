@@ -6,6 +6,7 @@ date: 2025-12-27
 excerpt: Step into the crisp mountain air of Nagano Prefecture, and you may feel a
   presence far older than the towering cryptomeria trees that surround you. You are
   on t...
+lang: en
 lat: 35.6895
 layout: post
 lng: 139.6917

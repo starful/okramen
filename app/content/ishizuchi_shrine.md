@@ -1,5 +1,7 @@
 ---
-{}
+excerpt: Conquer Mt. Ishizuchi! Fulfill your wishes by challenging the sacred chain
+  climb at Shikoku's ancient power spot for health and success. (107 chars)
+lang: en
 ---
 
 ```markdown

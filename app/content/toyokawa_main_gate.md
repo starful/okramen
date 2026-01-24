@@ -9,6 +9,7 @@ excerpt: Toyokawa Inari, a unique sacred site in Japan where Shinto and Buddhism
   merge. This is an in-depth cultural journey to discover the mystical scenery of
   'Reikozuka,' created by over 1,000 fox statues, and the powerful blessings for business
   prosperity.
+lang: en
 lat: 34.825126
 layout: post
 lng: 137.394142

@@ -9,6 +9,7 @@ excerpt: Mt. Tsukuba, the 'Purple Peak' of the Kanto Plain. Receive powerful mat
   energy and the financial luck of the Toad Rock at this shrine dedicated to the divine
   couple who birthed the Japanese archipelago. We invite you to an ancient sacred
   site where myth and nature intertwine.
+lang: en
 lat: 36.212045
 layout: post
 lng: 140.106461

@@ -9,6 +9,7 @@ excerpt: Introducing Kinkasan Koganeyama Shrine in Miyagi Prefecture, the legend
   sacred site where it's said that 'visiting for three consecutive years brings a
   lifetime free of money worries.' Embark on a special pilgrimage to a mystical island,
   accessible by boat, to pray for golden financial fortune.
+lang: en
 lat: 38.29657
 layout: post
 lng: 141.563721

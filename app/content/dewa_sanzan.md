@@ -9,6 +9,7 @@ excerpt: The three sacred mountains governing the past, present, and future. A j
   of rebirth to purify your soul by climbing 2,446 stone steps, and to find your true
   self amidst the National Treasure Five-Storied Pagoda and the Michelin 3-star cedar-lined
   path.
+lang: en
 lat: 38.706212
 layout: post
 lng: 139.967845

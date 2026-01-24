@@ -9,6 +9,7 @@ excerpt: Katori Shrine, where Futsunushi, the martial god of Japan's founding my
   is enshrined. Discover the powerful energy that brings victory and the legendary
   'Kaname-ishi' stone that prevents earthquakes. A pilgrimage to a sacred site with
   2,600 years of history.
+lang: en
 lat: 35.885612
 layout: post
 lng: 140.528345

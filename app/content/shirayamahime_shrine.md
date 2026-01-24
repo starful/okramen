@@ -8,6 +8,7 @@ date: 2025-12-22
 excerpt: The head shrine of 3,000 Hakusan shrines nationwide. Reconnect strained relationships
   with the power of the goddess 'Kukurihime,' who reconciled the creator god couple,
   and receive the pure energy of the sacred Mount Hakusan.
+lang: en
 lat: 36.438512
 layout: post
 lng: 136.634212

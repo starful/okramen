@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: A mysterious forest of foxes hidden in Akasaka, the heart of Tokyo. Discover
   the secret to the success of the great Edo-period magistrate Ooka Tadasuke and the
   legend of the 'Yuzukin,' which brings financial luck.
+lang: en
 lat: 35.676512
 layout: post
 lng: 139.734267

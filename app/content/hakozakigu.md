@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: One of Japan's Three Great Hachiman Shrines and a sacred site for national
   protection. Experience a special visit at Hakozakigu Shrine, steeped in the miraculous
   history of repelling the Mongol invasions and a powerful aura of victory.
+lang: en
 lat: 33.614212
 layout: post
 lng: 130.423543

@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: A hidden power spot in Kyoto's Gion district. Welcome a turning point in
   your life at Yasui Konpiragu, a shrine with a massive stone that severs bad ties
   and forges good ones, steeped in the legend of the tragic Emperor Sutoku.
+lang: en
 lat: 34.999567
 layout: post
 lng: 135.776654

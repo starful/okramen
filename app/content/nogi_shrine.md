@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: A sacred place in the heart of Tokyo, imbued with the sublime love and loyalty
   of General Nogi and his wife. Pray for an eternal bond along its serene forest paths
   and with its beautiful 'couple's guardian amulet.'
+lang: en
 lat: 35.666212
 layout: post
 lng: 139.728543

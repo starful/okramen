@@ -10,6 +10,7 @@ excerpt: This is a place steeped in the legend of a benevolent goddess who saved
   for financial luck, located in the heart of Gifu City, featuring a stunning golden
   torii and a 'limited edition Goshuin' available only on the last Friday of each
   month.
+lang: en
 lat: 35.419614
 layout: post
 lng: 136.758062

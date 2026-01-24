@@ -1,26 +1,32 @@
 ---
-layout: post
-title: "Kirishima Jingu, the Start of Japan's Founding Myth: Meet the 9 Masks and an 800-Year-Old Cedar in the Land of Tenson Korin"
-date: 2025-12-17
-categories: [Success, History, Safety]
-tags:
-  [
-    Kagoshima,
-    Kirishima,
-    Kirishima Jingu,
-    Tenson Korin,
-    Ninigi-no-Mikoto,
-    Sakamoto Ryoma,
-    Power Spot,
-    Kumen Mamori,
-    Kyushu Travel,
-    Mythological Journey,
-  ]
-thumbnail: /content/images/kirishima_jingu.webp
-lat: 31.857212
-lng: 130.869512
 address: 〒899-4201 鹿児島県霧島市霧島田口2608-5
-excerpt: At the misty foot of Mount Kirishima lies a sacred site dedicated to Ninigi-no-Mikoto, the protagonist of Japan's founding myth, 'Tenson Korin.' Experience the powerful energy emanating from the magnificent vermilion shrine and the giant, 800-year-old cedar tree.
+categories:
+- Success
+- History
+- Safety
+date: 2025-12-17
+excerpt: At the misty foot of Mount Kirishima lies a sacred site dedicated to Ninigi-no-Mikoto,
+  the protagonist of Japan's founding myth, 'Tenson Korin.' Experience the powerful
+  energy emanating from the magnificent vermilion shrine and the giant, 800-year-old
+  cedar tree.
+lang: en
+lat: 31.857212
+layout: post
+lng: 130.869512
+tags:
+- Kagoshima
+- Kirishima
+- Kirishima Jingu
+- Tenson Korin
+- Ninigi-no-Mikoto
+- Sakamoto Ryoma
+- Power Spot
+- Kumen Mamori
+- Kyushu Travel
+- Mythological Journey
+thumbnail: /content/images/kirishima_jingu.webp
+title: 'Kirishima Jingu, the Start of Japan''s Founding Myth: Meet the 9 Masks and
+  an 800-Year-Old Cedar in the Land of Tenson Korin'
 ---
 
 Hello, this is the editor of 'JinjaMap,' introducing mystical sacred sites from around the world.

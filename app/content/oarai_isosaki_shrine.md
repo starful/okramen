@@ -6,6 +6,7 @@ date: 2025-12-26
 excerpt: In the annals of Japanese mythology, the creation of the nation was not a
   singular act but a collaborative effort by countless deities, or *kami*. Among the
   mos...
+lang: en
 lat: 35.6895
 layout: post
 lng: 139.6917

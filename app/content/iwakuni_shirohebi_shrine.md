@@ -8,6 +8,7 @@ date: 2025-11-30
 excerpt: A place where a 'living god' with red eyes and pure white scales resides.
   We guide you to this special sacred site in Iwakuni, which enshrines the natural
   monument white snake (Shirohebi) and promises powerful financial fortune.
+lang: en
 lat: 34.170428
 layout: post
 lng: 132.222341

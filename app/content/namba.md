@@ -1,14 +1,23 @@
 ---
-layout: post
-title: "Namba Yasaka Shrine: Home to the Roaring Lion Head in Osaka"
+address: 난바 야사카 신사 (難波八坂神社)
+categories:
+- Success
 date: 2025-12-29
-categories: ['Success']
-tags: ['Japan', 'Shrine', 'Travel', 'Success', 'Osaka']
-thumbnail: /content/images/namba.webp
+excerpt: Namba Yasaka Shrine, tucked away in the bustling Namba district of Osaka,
+  is a vibrant testament to Japanese mythology and spiritual tradition. It’s not the
+  gra...
+lang: en
 lat: 35.6895
+layout: post
 lng: 139.6917
-address: "난바 야사카 신사 (難波八坂神社)"
-excerpt: "Namba Yasaka Shrine, tucked away in the bustling Namba district of Osaka, is a vibrant testament to Japanese mythology and spiritual tradition. It’s not the gra..."
+tags:
+- Japan
+- Shrine
+- Travel
+- Success
+- Osaka
+thumbnail: /content/images/namba.webp
+title: 'Namba Yasaka Shrine: Home to the Roaring Lion Head in Osaka'
 ---
 
 ### 1. 🙏 Introduction: Deities & History

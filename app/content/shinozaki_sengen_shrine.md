@@ -1,14 +1,25 @@
 ---
-layout: post
-title: "The Ancient Pulse of Edogawa: A Comprehensive Guide to Shinozaki Sengen Shrine"
+address: 1 Chome-17-21 Shinozakimachi, Edogawa City, Tokyo
+categories:
+- Health
+- Safety
+- History
 date: 2026-01-06
-categories: [Health, Safety, History]
-tags: [Tokyo, Personal Experience, Edogawa, Mt Fuji Worship, Konohanasakuya-hime]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1541551591/starful.net/edogawa/1_1.jpg"
+excerpt: Uncover the thousand-year history of Shinozaki Sengen Shrine. Dedicated to
+  the goddess of Mount Fuji, this sanctuary offers profound insights into ancient
+  Fuji worship, local Edo-period culture, and the serene spirit of the Edogawa riverside.
+lang: en
 lat: 35.7065
+layout: post
 lng: 139.9025
-address: "1 Chome-17-21 Shinozakimachi, Edogawa City, Tokyo"
-excerpt: "Uncover the thousand-year history of Shinozaki Sengen Shrine. Dedicated to the goddess of Mount Fuji, this sanctuary offers profound insights into ancient Fuji worship, local Edo-period culture, and the serene spirit of the Edogawa riverside."
+tags:
+- Tokyo
+- Personal Experience
+- Edogawa
+- Mt Fuji Worship
+- Konohanasakuya-hime
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1541551591/starful.net/edogawa/1_1.jpg
+title: 'The Ancient Pulse of Edogawa: A Comprehensive Guide to Shinozaki Sengen Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: A Goddess of Mt. Fuji in Urban Tokyo

@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: Ascend 1,368 stone steps to encounter Shikoku's greatest sacred site. Experience
   the miracle of 'Konpira-san,' the guardian deity of maritime safety, and the positive
   energy of the yellow amulet.
+lang: en
 lat: 34.184212
 layout: post
 lng: 133.809712

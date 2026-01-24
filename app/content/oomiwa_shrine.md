@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: No main hall, no Buddhist statues. Japan's oldest shrine worships only the
   sacred Mount Miwa itself. Experience spiritual healing at Omiwa Shrine, home to
   mysterious medicinal water that cures all ills and the legend of the snake god.
+lang: en
 lat: 34.529212
 layout: post
 lng: 135.852543

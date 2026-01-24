@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: An ancient shrine with 1,800 years of history from which the name 'Kobe'
   originated. Discover the 'God of Rebirth,' who overcame war and earthquakes, and
   the mystical water fortune-telling, 'Mizumikuji,' which forges romantic connections.
+lang: en
 lat: 34.695345
 layout: post
 lng: 135.191612

@@ -8,6 +8,7 @@ date: 2025-11-30
 excerpt: The birthplace of the Maneki-neko and a sacred site for powerful 'matchmaking'.
   Catch both love and luck at Imado Shrine, where cute cat statues and unique round
   ema await.
+lang: en
 lat: 35.719702
 layout: post
 lng: 139.802061

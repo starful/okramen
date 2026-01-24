@@ -9,6 +9,7 @@ excerpt: The head shrine dedicated to Japan's god of learning, 'Sugawara no Mich
   Receive the energy of academic achievement and wisdom at Dazaifu Tenmangu Shrine,
   where the fragrance of 6,000 plum trees and 1,100 years of history are alive and
   well.
+lang: en
 lat: 33.521512
 layout: post
 lng: 130.534865

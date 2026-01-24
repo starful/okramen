@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: The headquarters of traffic safety in Japan and a UNESCO World Heritage site.
   Journey to Munakata Taisha, where national treasures from the forbidden island of
   Okinoshima and the blessings of three goddesses who open new paths await.
+lang: en
 lat: 33.830512
 layout: post
 lng: 130.513543

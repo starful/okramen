@@ -1,5 +1,7 @@
 ---
-{}
+excerpt: Unlock fortune and victory at Miyajidake Shrine, featuring Japan’s largest
+  shimenawa and the iconic Path of Light stretching straight to the sea. (124 chars)
+lang: en
 ---
 
 ```markdown

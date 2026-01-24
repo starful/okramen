@@ -9,6 +9,7 @@ excerpt: Takachiho in Miyazaki Prefecture, the stage for Japan's founding myth, 
   Korin.' Experience the relationship luck of the mystical Couple Cedar Trees (Meoto
   Sugi) and the powerful energy for warding off evil at the 1900-year-old Takachiho
   Shrine. We invite you into the forest where the breath of the gods is alive.
+lang: en
 lat: 32.705123
 layout: post
 lng: 131.306543

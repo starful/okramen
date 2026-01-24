@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: In the Arashiyama Bamboo Grove, Nonomiya Shrine holds the prayers of an imperial
   princess from a thousand years ago. Discover the mystical power of the 'Okame-ishi'
   turtle rock, a setting from 'The Tale of Genji' that grants wishes.
+lang: en
 lat: 35.017742
 layout: post
 lng: 135.674212

@@ -8,6 +8,7 @@ date: 2025-11-30
 excerpt: Hoto Shrine, whose name itself means 'treasures are certain to be won.' Located
   on the small island of Takashima, this is Japan's premier power spot for financial
   luck, bustling with worshippers praying for the miracle of a lottery win.
+lang: en
 lat: 33.48002
 layout: post
 lng: 129.98715

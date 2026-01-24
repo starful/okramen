@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: One of Japan's three great Inari shrines, a splendid sanctuary known as the
   'Nikko of the West.' Discover the magnificence of the red structure built on a cliff
   and the breathtaking view of the Ariake Sea from the Okunoin.
+lang: en
 lat: 33.072512
 layout: post
 lng: 130.108243

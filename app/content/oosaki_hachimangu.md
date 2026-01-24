@@ -9,6 +9,7 @@ excerpt: Discover Osaki Hachimangu, Sendai's guardian shrine and a national trea
   built by Date Masamune. Experience the essence of Momoyama architecture with its
   shining black lacquer and gold leaf, and receive powerful energy for victory and
   protection from misfortune.
+lang: en
 lat: 38.272112
 layout: post
 lng: 140.843612

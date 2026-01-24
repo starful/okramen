@@ -1,14 +1,24 @@
 ---
-layout: post
-title: "Finding the Thread of Connection: A Visit to Matsushima Hakusan Shrine"
-date: "2026-01-10"
-categories: [Health, Safety, History]
-tags: [Tokyo, Personal Experience, Edogawa]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/1_1.jpg"
+address: 3-43-16 Matsushima, Edogawa City, Tokyo 132-0031
+categories:
+- Health
+- Safety
+- History
+date: '2026-01-10'
+excerpt: Explore the serene and historic Matsushima Hakusan Shrine, a hidden gem nestled
+  in the administrative heart of Edogawa. Dedicated to the goddess of matchmaking
+  and reconciliation, this sanctuary offers a peaceful retreat and a deep connection
+  to Japan's ancient spiritual roots.
+lang: en
 lat: 35.7064
+layout: post
 lng: 139.8615
-address: "3-43-16 Matsushima, Edogawa City, Tokyo 132-0031"
-excerpt: "Explore the serene and historic Matsushima Hakusan Shrine, a hidden gem nestled in the administrative heart of Edogawa. Dedicated to the goddess of matchmaking and reconciliation, this sanctuary offers a peaceful retreat and a deep connection to Japan's ancient spiritual roots."
+tags:
+- Tokyo
+- Personal Experience
+- Edogawa
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/1_1.jpg
+title: 'Finding the Thread of Connection: A Visit to Matsushima Hakusan Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: The Goddess of Reconciliation and Unity
@@ -58,8 +68,8 @@ The architectural details of the **Haiden** (worship hall) reflect a humble yet 
 ***
 
 ### 📜 3. Goshuin and Shrine Items: Tokens of Connection
-
 At Matsushima Hakusan Shrine, the **Goshuin** (red ink stamp) is a cherished record of connection. The calligraphy is often bold and fluid, featuring the distinctive seal of the Hakusan deity. Because the goddess Kikurihime is the patron of matchmaking, the shrine's **Omamori** (amulets) are especially popular for:
+
 *   **En-musubi (Matchmaking):** To help find a significant other or to strengthen an existing bond.
 *   **Kanai Anzen (Household Safety):** Ensuring that family members remain in harmony and health.
 *   **Reconciliation:** For those seeking to mend a misunderstanding or bring peace back into a strained relationship.
@@ -69,8 +79,8 @@ The shrine also features unique votive tablets (Ema) where visitors write their 
 ***
 
 ### 🌃 4. What to See Nearby: The Administrative Heart of Edogawa
-
 While Matsushima Hakusan Shrine is a spiritual anchor, its surroundings offer a fascinating look at the "real" Tokyo.
+
 *   **Edogawa Ward Office:** Located just steps away, the ward office is the administrative center of the district. It’s an interesting contrast between modern bureaucracy and ancient faith.
 *   **Komatsugawa Sakaigawa Shinsui Park:** A short walk from the shrine will take you to this beautiful "water park" built on a revitalized waterway. It’s an ideal spot for a post-shrine stroll under the cherry blossoms or the lush summer greenery.
 *   **Retro Shopping Streets:** The Matsushima area retains several "Showa-style" local shops and eateries that offer a nostalgic glimpse into mid-20th-century Tokyo life.
@@ -95,10 +105,10 @@ My time at Matsushima Hakusan Shrine was a reminder that the most profound spiri
 ***
 
 ### ♨️ Relax at a Nearby Onsen: Matsushima-yu (松島湯)
-
 To complete your local experience, head over to **Matsushima-yu**, a classic neighborhood **sento** (public bathhouse) located just a 5-minute walk from the shrine at `Matsushima 3-35-11`.
 
 **Why visit?**
+
 *   **Traditional Vibe:** This sento has maintained its local charm, offering high ceilings and traditional tile murals.
 *   **Soothing Heat:** The hot baths are the perfect way to warm your body and soul after a day of walking through Edogawa.
 *   **Community Connection:** In the sento, everyone is equal. It is a wonderful way to experience the communal warmth of the Matsushima district, just as you experienced its spiritual warmth at the Hakusan Shrine.

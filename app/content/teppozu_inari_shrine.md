@@ -1,14 +1,27 @@
 ---
-layout: post
-title: "The Maritime Guardian of Edo: A Deep Dive into Teppozu Inari Shrine"
-date: "2026-01-10"
-categories: [History, Safety, Prosperity]
-tags: [Tokyo, Personal Experience, Chuo-ku, Hatchobori, Inari, Fujizuka]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/8_1.jpg"
+address: 1-6-7 Minato, Chuo-ku, Tokyo 104-0043
+categories:
+- History
+- Safety
+- Prosperity
+date: '2026-01-10'
+excerpt: Journey to the ancient waterside sanctuary of Teppozu Inari Shrine. From
+  its 9th-century origins to its legendary Fujizuka and its role as the protector
+  of Edo's seafaring merchants, discover a spiritual anchor that has weathered 1,200
+  years of Tokyo's history.
+lang: en
 lat: 35.672442
+layout: post
 lng: 139.779722
-address: "1-6-7 Minato, Chuo-ku, Tokyo 104-0043"
-excerpt: "Journey to the ancient waterside sanctuary of Teppozu Inari Shrine. From its 9th-century origins to its legendary Fujizuka and its role as the protector of Edo's seafaring merchants, discover a spiritual anchor that has weathered 1,200 years of Tokyo's history."
+tags:
+- Tokyo
+- Personal Experience
+- Chuo-ku
+- Hatchobori
+- Inari
+- Fujizuka
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/8_1.jpg
+title: 'The Maritime Guardian of Edo: A Deep Dive into Teppozu Inari Shrine'
 ---
 
 ### 1. 🙏 Deities and Origins: The Gun-Shaped Sanctuary of the Sun and Sea
@@ -107,10 +120,10 @@ Teppozu Inari Shrine is a reminder that Tokyo’s heart has always been tied to 
 ***
 
 ### ♨️ Relax at a Nearby Onsen: Minato-yu (湊湯)
-
 To complete your journey in the Minato district, visit **Minato-yu**, located just a few blocks away at `Chuo-ku, Minato 1-6-2`.
 
 **Why visit?**
+
 *   **A Modern Sento Masterpiece:** Unlike traditional bathhouses, Minato-yu is known for its sleek, dark-stone modern interior and designer atmosphere.
 *   **Soft Water Healing:** They use high-quality softened water that is incredibly gentle on the skin.
 *   **Proximity:** It’s almost right next door to the shrine! After your spiritual purification at Teppozu Inari, there is no better way to physically reset than a soak in the stylish baths of Minato-yu.

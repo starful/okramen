@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: Yushima Tenmangu Shrine, Tokyo's premier sacred site for academics. Experience
   the earnest prayers of students hoping to pass exams, the fragrance of 300 plum
   trees, and the powerful energy of Ameno-tajikarao, the god of strength.
+lang: en
 lat: 35.707712
 layout: post
 lng: 139.768412

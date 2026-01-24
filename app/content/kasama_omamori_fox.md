@@ -9,6 +9,7 @@ excerpt: A guide to a mystical pilgrimage at one of Japan's Three Great Inari Sh
   located in Kasama, Ibaraki. Explore 1,370 years of history, powerful blessings for
   business prosperity, and the enchanting 400-year-old wisteria trees that adorn the
   shrine grounds.
+lang: en
 lat: 36.38426
 layout: post
 lng: 140.258942

@@ -4,6 +4,7 @@ import json
 import os
 import frontmatter
 import markdown
+import re
 
 app = Flask(__name__)
 Compress(app)
@@ -60,6 +61,12 @@ def shrine_detail(shrine_id):
         abort(404)
     with open(md_path, 'r', encoding='utf-8') as f:
         post = frontmatter.load(f)
+
+    # [추가] 렌더링 직전에 줄바꿈 보정 로직 실행
+    # 리스트(* 혹은 -) 앞에 빈 줄이 없으면 강제로 두 번 줄바꿈을 넣어줍니다.
+    fixed_content = re.sub(r'([^\n])\n\*\s', r'\1\n\n* ', post.content)
+    fixed_content = re.sub(r'([^\n])\n-\s', r'\1\n\n- ', fixed_content)
+
     content_html = markdown.markdown(post.content, extensions=['tables'])
     return render_template('detail.html', post=post, content=content_html)
 

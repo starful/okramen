@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: A mystical cave shrine in Kamakura. Experience the legendary 'Zeniarai,'
   where washing money in the clear spring water is said to multiply it, and receive
   a powerful boost to your financial luck.
+lang: en
 lat: 35.326212
 layout: post
 lng: 139.542154

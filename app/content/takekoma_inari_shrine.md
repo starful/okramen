@@ -1,5 +1,7 @@
 ---
-{}
+excerpt: Harness the power of Japan's Three Great Inari! Visit Takekoma for a millennium
+  of history and ultimate success in business and wealth. (142 chars)
+lang: en
 ---
 
 layout: post

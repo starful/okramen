@@ -6,6 +6,7 @@ date: 2025-12-27
 excerpt: Nestled at the foot of the sacred Mount Hiei, overlooking the vast expanse
   of Lake Biwa, Hiyoshi Taisha (日吉大社) is a shrine of immense historical and spiritual
   s...
+lang: en
 lat: 35.6895
 layout: post
 lng: 139.6917

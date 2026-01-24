@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: With 2,500 years of history, this Ichinomiya enshrines the pioneering deity
   of Aso. Experience the indomitable will of revival and the miracle of the 'Wish-Granting
   Stone' at Aso Shrine, rising again after the earthquake.
+lang: en
 lat: 32.947912
 layout: post
 lng: 131.122154

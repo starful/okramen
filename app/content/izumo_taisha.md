@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: In the 10th lunar month, 8 million gods from all over Japan gather in this
   land of myth. Discover the mystical legends of Okuninushi-no-Okami and the powerful
   energy of connection at Izumo Taisha, Japan's foremost sacred site for matchmaking.
+lang: en
 lat: 35.399512
 layout: post
 lng: 132.685243

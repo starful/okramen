@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The pinnacle of Japanese faith, Ise Jingu. Encounter the sun goddess Amaterasu
   and the god of abundance Toyouke in a 2,000-year-old forest. From the soul-cleansing
   Isuzu River to the vibrant Okage Yokocho, it's the perfect healing journey.
+lang: en
 lat: 34.455012
 layout: post
 lng: 136.725845

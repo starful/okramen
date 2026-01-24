@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: The head shrine of 3,500 Ebisu shrines nationwide. Discover the moving myth
   of an abandoned deity who became the god of fortune, and experience the powerful
   aura of financial luck at this site, famous for its annual 'Lucky Man' race.
+lang: en
 lat: 34.733568
 layout: post
 lng: 135.336154

@@ -1,14 +1,23 @@
 ---
-layout: post
-title: "Samukawa Shrine: A Journey Through Time and Fortune in Kanagawa"
+address: 사무카와 신사 (寒川神社)
+categories:
+- Safety
 date: 2025-12-29
-categories: ['Safety']
-tags: ['Japan', 'Shrine', 'Travel', 'Safety', 'Kanagawa']
-thumbnail: /content/images/samukawa.webp
+excerpt: Samukawa Shrine, nestled in the heart of Kanagawa Prefecture, isn't just
+  another beautiful Shinto shrine; it's a powerhouse of spiritual energy with a rich
+  hist...
+lang: en
 lat: 35.6895
+layout: post
 lng: 139.6917
-address: "사무카와 신사 (寒川神社)"
-excerpt: "Samukawa Shrine, nestled in the heart of Kanagawa Prefecture, isn't just another beautiful Shinto shrine; it's a powerhouse of spiritual energy with a rich hist..."
+tags:
+- Japan
+- Shrine
+- Travel
+- Safety
+- Kanagawa
+thumbnail: /content/images/samukawa.webp
+title: 'Samukawa Shrine: A Journey Through Time and Fortune in Kanagawa'
 ---
 
 ### 1. 🙏 Introduction: Deities & History

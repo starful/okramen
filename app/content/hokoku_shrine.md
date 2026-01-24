@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: Inside Osaka Castle Park lies Hokoku Shrine, dedicated to Toyotomi Hideyoshi,
   the unifier of Japan. Absorb the energy of the man who rose from humble beginnings
   to become the supreme ruler and pray for powerful career advancement and success.
+lang: en
 lat: 34.685212
 layout: post
 lng: 135.526212

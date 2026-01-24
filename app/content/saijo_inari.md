@@ -9,6 +9,7 @@ excerpt: Introducing Okayama's Saijo Inari, a miraculous space where a shrine an
   a temple coexist. From its massive torii gate steeped in 1200 years of history to
   its powerful fortune for wealth and a mystical power spot for cutting bad ties,
   embark on a special pilgrimage that could change your destiny.
+lang: en
 lat: 34.707153
 layout: post
 lng: 133.829064

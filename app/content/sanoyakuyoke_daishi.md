@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The Kanto region's greatest sanctuary for warding off evil, with a 1,000-year
   history. Experience the powerful protection of the demon master 'Tsunodaishi' and
   the delightful taste of Sano Ramen, made with pure water.
+lang: en
 lat: 36.315243
 layout: post
 lng: 139.574612

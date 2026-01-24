@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Just 30 minutes from Tokyo, Musashi Ichinomiya Hikawa Shrine boasts 2,400
   years of history. Enjoy a special spiritual experience here, with Japan's longest
   2km approach and powerful matchmaking blessings.
+lang: en
 lat: 35.916712
 layout: post
 lng: 139.629745

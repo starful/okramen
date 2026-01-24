@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Discover the 2,000-year history of Takase Shrine in the Echigo (Toyama) Plain.
   Experience the success, love, and mysterious healing power of the 'Nade-usagi' bestowed
   by Okuninushi-no-Mikoto, the protagonist of Japan's nation-building myths.
+lang: en
 lat: 36.604212
 layout: post
 lng: 136.965412

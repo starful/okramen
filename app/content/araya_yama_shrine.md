@@ -9,6 +9,7 @@ excerpt: Praised by titans of Japanese business and famous consultants as the ul
   power spot for financial luck. We introduce the perfect pilgrimage course to receive
   the energy of wealth, from the mysterious Okumiya at the 2nd station of Mt. Fuji
   to the main shrine with its wish-granting stone.
+lang: en
 lat: 35.4746
 layout: post
 lng: 138.8079

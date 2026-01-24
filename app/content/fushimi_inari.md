@@ -8,6 +8,7 @@ date: 2025-12-22
 excerpt: The head shrine of 30,000 Inari shrines across Japan. An overwhelming spectacle
   of red torii tunnels, the wish-granting 'Omokaru Ishi' stone, and Kyoto's top power
   spot with 1,300 years of history.
+lang: en
 lat: 34.967212
 layout: post
 lng: 135.772654

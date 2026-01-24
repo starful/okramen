@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The head shrine of over 2,300 Sumiyoshi shrines nationwide. Cross Osaka's
   iconic red arch bridge into the realm of the gods, where the miracles of 'Omokaruishi'
   and 'Godairiki,' which summon wealth and luck, await you.
+lang: en
 lat: 34.612056
 layout: post
 lng: 135.495045
@@ -140,8 +141,8 @@ If you need a moment of pause during your Osaka trip, come to Sumiyoshi Taisha.
 
 Spa World is a great day-trip onsen option nearby A Myth of 1800 Years, Osaka's Sumiyoshi Taisha Where the Sea God Resides: Crossing the Red Arch Bridge to Find Fortune, offering a unique and globally-themed bathing experience. This large complex houses onsen inspired by different cultures around the world, from ancient Rome to exotic Asia. It's a super relaxing place to unwind after exploring the shrine and provides a fun and memorable onsen experience.
 ***
-### 🗺️ Nearby Recommendations
 
+### 🗺️ Nearby Recommendations
 If you enjoyed your visit, consider exploring these other sacred sites:
 
 - **For Wealth Luck:** Discover [Money Washed in a Cave Spring Returns as Manifold Blessings: The Miracle of Kamakura's Zeniarai Benten Shrine](/shrine/zeniarai_benten), another powerful spot for your wishes.

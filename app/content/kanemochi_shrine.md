@@ -9,6 +9,7 @@ excerpt: Introducing the mysterious origins and powerful blessings of 'Kanemochi
   Person) Shrine,' a place with an extraordinary name. Awaken your dormant fortune
   at Japan's number one power spot for financial luck, born from a history of ancient
   iron-making.
+lang: en
 lat: 35.24422
 layout: post
 lng: 133.43547

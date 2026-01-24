@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Just an hour from Tokyo, discover a 1,500-year-old shrine in 'Little Edo'
   Kawagoe. Experience the powerful matchmaking blessings guarded by five family deities
   and encounter the 'marriage stones,' limited to just 20 per day.
+lang: en
 lat: 35.926512
 layout: post
 lng: 139.489712

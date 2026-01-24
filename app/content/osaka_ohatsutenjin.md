@@ -9,6 +9,7 @@ excerpt: In the heart of Osaka's bustling Umeda district lies Tsuyunoten Shrine,
   1,300 years of history. The setting of the tragic love story 'Sonezaki Shinju' and
   a sacred place for lovers to promise eternal love, come and receive the special
   energy of connection.
+lang: en
 lat: 34.699478
 layout: post
 lng: 135.50117

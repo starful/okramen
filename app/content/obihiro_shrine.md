@@ -8,6 +8,7 @@ date: 2025-12-22
 excerpt: A place where the history of Hokkaido's Tokachi pioneers lives and breathes.
   Receive the energy of the three pioneering gods at Obihiro Shrine, welcomed by adorable
   Ezo Risu (squirrels), and enjoy special seasonal goshuin and butadon.
+lang: en
 lat: 42.923112
 layout: post
 lng: 143.208745

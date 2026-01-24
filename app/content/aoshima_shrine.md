@@ -8,6 +8,7 @@ date: 2025-12-17
 excerpt: Aoshima, a mysterious island covered in tropical plants, set upon the blue
   sea. Pray for a special connection and good fortune at Aoshima Shrine, home to a
   poignant love story from Japan's founding mythology.
+lang: en
 lat: 31.804153
 layout: post
 lng: 131.474612

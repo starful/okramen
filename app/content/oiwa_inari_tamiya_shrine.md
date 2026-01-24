@@ -1,14 +1,28 @@
 ---
-layout: post
-title: "The Truth Behind the Legend: A Deep Dive into Oiwa Inari Tamiya Shrine in Shinkawa"
-date: "2026-01-10"
-categories: [History, Prosperity, Safety]
-tags: [Tokyo, Personal Experience, Chuo-ku, Shinkawa, Oiwa-sama, Ghost Story, Kabuki]
-thumbnail: "https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/9_1.jpg"
+address: 2-25-11 Shinkawa, Chuo-ku, Tokyo 104-0033
+categories:
+- History
+- Prosperity
+- Safety
+date: '2026-01-10'
+excerpt: Beyond the chills of the famous ghost story 'Yotsuya Kaidan' lies the true
+  sanctuary of Oiwa-sama. Discover the Shinkawa branch of the Tamiya family shrine,
+  a place of profound devotion, entertainment history, and prayers for household prosperity.
+lang: en
 lat: 35.674742
+layout: post
 lng: 139.783122
-address: "2-25-11 Shinkawa, Chuo-ku, Tokyo 104-0033"
-excerpt: "Beyond the chills of the famous ghost story 'Yotsuya Kaidan' lies the true sanctuary of Oiwa-sama. Discover the Shinkawa branch of the Tamiya family shrine, a place of profound devotion, entertainment history, and prayers for household prosperity."
+tags:
+- Tokyo
+- Personal Experience
+- Chuo-ku
+- Shinkawa
+- Oiwa-sama
+- Ghost Story
+- Kabuki
+thumbnail: https://res.cloudinary.com/dbwazrzbc/image/upload/v1550634974/starful.net/chuuou/9_1.jpg
+title: 'The Truth Behind the Legend: A Deep Dive into Oiwa Inari Tamiya Shrine in
+  Shinkawa'
 ---
 
 ### 1. 🙏 Deities and Origins: From Folklore to Fortune

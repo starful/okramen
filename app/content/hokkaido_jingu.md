@@ -8,6 +8,7 @@ date: 2025-12-18
 excerpt: The head shrine of Hokkaido, nestled in a primeval forest in the heart of
   Sapporo. A sacred space enshrining the three pioneer deities, where you can enjoy
   the famous 'Hangan-sama' mochi and a moment of healing.
+lang: en
 lat: 43.053812
 layout: post
 lng: 141.307945

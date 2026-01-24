@@ -9,6 +9,7 @@ excerpt: The mythical land where the fierce battle between the hero who became t
   model for the Momotaro legend and an oni took place. We invite you to Kibitsu Shrine,
   a national treasure with a beautiful 360m corridor and the mysterious 'Crying Cauldron'
   divination.
+lang: en
 lat: 34.669866
 layout: post
 lng: 133.851722

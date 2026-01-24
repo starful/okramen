@@ -8,6 +8,7 @@ date: 2025-11-30
 excerpt: In the heart of Tokyo, a tranquil forest shrine guarded by a 400-year-old
   giant tree. Receive powerful blessings for matchmaking and warding off evil at the
   national treasure-class main hall, built by order of the 8th Shogun Yoshimune.
+lang: en
 lat: 35.669866
 layout: post
 lng: 139.736417
