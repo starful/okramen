@@ -60,15 +60,17 @@ def onsen_detail(onsen_id):
     with open(md_path, 'r', encoding='utf-8') as f:
         post = frontmatter.load(f)
 
-    # 💡 [여기서부터 아래 내용을 추가/덮어쓰기 해주세요!]
-    # 카테고리가 문자열로 들어오면 알파벳이 쪼개지지 않도록 리스트로 강제 변환
     if isinstance(post.get('categories'), str):
         post['categories'] =[c.strip() for c in post['categories'].split(',')]
 
-    fixed_content = re.sub(r'([^\n])\n\*\s', r'\1\n\n* ', post.content)
+    # 💡 [핵심 수정] AI가 엔터를 안 치고 문장 중간에 '* '를 썼을 때 강제로 줄바꿈(엔터 2번) 해주는 마법의 정규식!
+    fixed_content = re.sub(r'([\.!?:])\s+(\*\s)', r'\1\n\n\2', post.content)
+    fixed_content = re.sub(r'([^\n])\n\*\s', r'\1\n\n* ', fixed_content)
     fixed_content = re.sub(r'([^\n])\n-\s', r'\1\n\n- ', fixed_content)
 
-    content_html = markdown.markdown(post.content, extensions=['tables'])
+    # (버그 수정: post.content 대신 방금 정규식으로 고친 fixed_content를 넣어서 변환합니다)
+    content_html = markdown.markdown(fixed_content, extensions=['tables'])
+    
     return render_template('detail.html', post=post, content=content_html)
 
 @app.route('/content/images/<path:filename>')
