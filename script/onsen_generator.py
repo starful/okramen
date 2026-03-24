@@ -41,11 +41,16 @@ def generate_onsen_md(safe_name, name, lat, lng, address, thumbnail, lang, featu
     prompt = f"""
     You are an elite travel journalist and SEO expert specializing in Japanese Onsens and luxury Ryokans.
     Your task is to write an EXTREMELY comprehensive, deeply detailed, and highly engaging travel guide about the following onsen. 
-    The total length of your response MUST be very long, aiming for 7,000 to 8,000 characters.[Target Onsen Information]
+    The total length of your response MUST be very long, aiming for 7,000 to 8,000 characters.
+
+    [Target Onsen Information]
     - Name: {name}
     - Location: {address}
     - Key Features: {features}
-    - Target Language: {lang} (ko=Korean, en=English)[Instructions]
+    - Target Language: {lang} (ko=Korean, en=English)
+    - Allowed Categories for this language: {allowed_categories}
+
+    [Instructions]
     1. The output MUST be a valid Markdown file containing YAML frontmatter.
     2. Do NOT wrap the output in ```markdown blocks, just output the raw text.
     3. VERY IMPORTANT: You MUST wrap the values for 'title', 'summary', and 'image_prompt' in double quotes (""). Do NOT use line breaks inside the quotes.
@@ -55,7 +60,7 @@ def generate_onsen_md(safe_name, name, lat, lng, address, thumbnail, lang, featu
     title: "Write a highly catchy, emotional, and attractive SEO title here (single line)"
     lat: {lat}
     lng: {lng}
-    categories: [{allowed_categories}]
+    categories: ["Category 1", "Category 2"] 
     thumbnail: "{thumbnail}"
     address: "{address}"
     date: "{current_date}"
@@ -64,9 +69,10 @@ def generate_onsen_md(safe_name, name, lat, lng, address, thumbnail, lang, featu
     image_prompt: "Write a highly detailed Midjourney image generation prompt IN ENGLISH here (single line)"
     ---
 
-    5. After the frontmatter, write the body of the blog post in the Target Language ({lang}).
-    6. VERY IMPORTANT: Translate all 'Key Features' into the Target Language. Do NOT use the original language of the 'Key Features' in the body text.
-    7. To reach the 7,000 - 8,000 character goal, you MUST include the following deeply detailed sections using Markdown headings (##, ###):
+    5. VERY IMPORTANT CATEGORY RULE: For the 'categories' field in the YAML, you MUST select 1 to 3 categories that BEST MATCH the 'Key Features' from the 'Allowed Categories' list provided above. Do NOT use all of them. Do NOT invent new categories.
+    6. After the frontmatter, write the body of the blog post in the Target Language ({lang}).
+    7. VERY IMPORTANT: Translate all 'Key Features' into the Target Language. Do NOT use the original language of the 'Key Features' in the body text.
+    8. To reach the 7,000 - 8,000 character goal, you MUST include the following deeply detailed sections using Markdown headings (##, ###):
        - **Introduction:** Deep dive into the vibe, the first impression, and why this onsen is special.
        - **History & Tradition:** The rich history of the ryokan or the local hot spring town.
        - **Deep Dive into the Baths:** Detailed description of the open-air baths (rotemburo), private baths (kashikiri), water quality, minerals, health benefits, and the exact view from the bath.
@@ -76,11 +82,8 @@ def generate_onsen_md(safe_name, name, lat, lng, address, thumbnail, lang, featu
        - **Access Guide:** Step-by-step instructions on how to get there from major cities or airports.
        - **FAQ & Practical Tips:** Tattoo policy, best season to visit, and booking tips.
        - **Conclusion:** A powerful closing statement.
-       - Use markdown headings (##, ###) and bullet points.
-       - VERY IMPORTANT: When using bullet points (* or -), you MUST start them on a NEW LINE. Never put a bullet point in the middle of a sentence or paragraph.
-       - Add a concluding recommendation.
-       
-    8. Write eloquently, passionately, and informatively. Expand on details rather than repeating the same points. Use bold text for emphasis.
+
+    9. Write eloquently, passionately, and informatively. Expand on details rather than repeating the same points. Use bold text for emphasis.
     """
 
     try:
@@ -205,4 +208,4 @@ if __name__ == "__main__":
     else:
         # 한 번 실행 시 온천 5곳(10개 파일)을 동시에 처리
         # 만약 한 번에 더 많이 만들고 싶다면 limit=10 등으로 수정하시면 됩니다!
-        process_csv_auto(csv_filename="onsens.csv", limit=5)
+        process_csv_auto(csv_filename="onsens.csv", limit=25)
