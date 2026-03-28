@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://okonsen.net/sitemap.xml
+# 사이트맵 위치 지정 (구글 등 검색엔진용)
+Sitemap: https://okramen.net/sitemap.xml

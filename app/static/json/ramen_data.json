@@ -1,0 +1,102 @@
+{
+  "last_updated": "2026.03.28",
+  "total_count": 6,
+  "ramens": [
+    {
+      "id": "ichiran_shinjuku_ko",
+      "lang": "ko",
+      "title": "신주쿠의 심장, 이치란: 완벽한 한 그릇을 향한 돈코츠 라멘의 성지 순례",
+      "lat": 35.6909,
+      "lng": 139.7018,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ichiran_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-03-28",
+      "summary": "도쿄 신주쿠의 심장부에서 만나는 궁극의 돈코츠 라멘, 이치란. 수십 년간 오직 한 그릇의 완벽함을 위해 모든 것을 바친 장인정신과 독특한 '맛 집중 시스템'을 경험해보세요. 이 글은 당신의 이치란 경험을 미식의 경지로 끌어올릴 유일한 가이드입니다.",
+      "link": "/ramen/ichiran_shinjuku_ko"
+    },
+    {
+      "id": "ippudo_ginza_en",
+      "lang": "en",
+      "title": "Ippudo Ginza: The Soul of Hakata's Tonkotsu, Elevated to a Michelin-Caliber Art Form",
+      "lat": 35.6711,
+      "lng": 139.7662,
+      "categories": [
+        "Tonkotsu",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/ippudo_ginza.jpg",
+      "address": "Tokyo, Chuo",
+      "published": "2026-03-28",
+      "summary": "Venture beyond the neon glow of Ginza into a sanctuary dedicated to the art of Hakata ramen. Ippudo Ginza transforms the humble tonkotsu into a sublime, Michelin-worthy experience, a symphony of umami that has captured the hearts of locals and connoisseurs alike. Discover the secrets behind its legendary broth and learn how to order like a true Tokyoite in this definitive guide.",
+      "link": "/ramen/ippudo_ginza_en"
+    },
+    {
+      "id": "afuri_harajuku_en",
+      "lang": "en",
+      "title": "Afuri Harajuku: The Zenith of Yuzu Shoyu Ramen—A Critic's Pilgrimage to Tokyo's Golden Broth",
+      "lat": 35.6715,
+      "lng": 139.7032,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/afuri_harajuku.jpg",
+      "address": "Tokyo, Shibuya",
+      "published": "2026-03-28",
+      "summary": "In the electric heart of Harajuku, Afuri serves a ramen that transcends the genre, a sublime bowl of yuzu-kissed shoyu broth that is both deeply traditional and startlingly modern. This is not just a meal; it is a pilgrimage for connoisseurs seeking the purest expression of Japanese flavor. A true local gem, Afuri is an essential chapter in Tokyo's epic culinary story.",
+      "link": "/ramen/afuri_harajuku_en"
+    },
+    {
+      "id": "afuri_harajuku_ko",
+      "lang": "ko",
+      "title": "하라주쿠의 영혼, 유자향에 잠기다: 아후리(AFURI) 라멘 미식 순례기",
+      "lat": 35.6715,
+      "lng": 139.7032,
+      "categories": [
+        "시오",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/afuri_harajuku.jpg",
+      "address": "Tokyo, Shibuya",
+      "published": "2026-03-28",
+      "summary": "도쿄 하라주쿠 뒷골목에서 발견한 라멘의 신세계, 아후리(AFURI). 상큼한 유자향이 감도는 황금빛 닭육수와 숯불에 구운 차슈가 어우러져 잊을 수 없는 미식 경험을 선사합니다. 이 한 그릇에 담긴 장인정신과 도쿄의 트렌디한 감성을 직접 확인해 보세요.",
+      "link": "/ramen/afuri_harajuku_ko"
+    },
+    {
+      "id": "ichiran_shinjuku_en",
+      "lang": "en",
+      "title": "Ichiran Shinjuku: The Definitive Guide to Tokyo's Tonkotsu Ramen Sanctuary",
+      "lat": 35.6909,
+      "lng": 139.7018,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ichiran_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-03-28",
+      "summary": "Venture into the heart of Shinjuku to discover Ichiran, a temple dedicated to the art of tonkotsu ramen. This guide unveils the secrets behind its legendary broth, customizable bowls, and unique 'Flavor Concentration Booths'. Prepare for a culinary pilgrimage that defines the very essence of Tokyo's ramen culture.",
+      "link": "/ramen/ichiran_shinjuku_en"
+    },
+    {
+      "id": "ippudo_ginza_ko",
+      "lang": "ko",
+      "title": "황금빛 국물의 미학: 미슐랭 평론가가 파헤친 잇푸도 긴자점의 모든 것",
+      "lat": 35.6711,
+      "lng": 139.7662,
+      "categories": [
+        "돈코츠",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/ippudo_ginza.jpg",
+      "address": "Tokyo, Chuo",
+      "published": "2026-03-28",
+      "summary": "도쿄 긴자의 심장부에서 세계적인 명성의 잇푸도 돈코츠 라멘을 경험하세요. 수십 년간의 장인정신이 녹아든 황금빛 국물과 극세면의 완벽한 조화는 단순한 식사를 넘어선 예술의 경지입니다. 미식가라면 반드시 방문해야 할 이곳의 모든 비밀을 지금 공개합니다.",
+      "link": "/ramen/ippudo_ginza_ko"
+    }
+  ]
+}

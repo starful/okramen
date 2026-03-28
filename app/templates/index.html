@@ -1,122 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://maps.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="canonical" href="https://okonsen.net" />
-
-    <title>OKOnsen - Discover Japan's Best Hot Springs & Ryokans</title>
-    <meta name="description" content="Find the perfect Japanese Onsen. Filter by private baths, tattoo-friendly spots, Mount Fuji views, and luxury ryokans on our interactive map.">
-    <meta name="keywords" content="Japan Onsen, Ryokan Map, Hot Spring, Tattoo Friendly Onsen, Private Bath Onsen, Japan Travel Guide">
-    <meta name="author" content="OKOnsen Project">
-    <meta name="theme-color" content="#3498db">
-    
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="OKOnsen">
-    <meta property="og:title" content="OKOnsen - Japan Hot Spring Guide">
-    <meta property="og:description" content="Discover your perfect Onsen and Ryokan in Japan.">
-    <meta property="og:url" content="https://okonsen.net">
-    <meta property="og:image" content="https://okonsen.net/static/images/og_image.png">
-
-    <link rel="icon" href="/static/images/favicons.ico" type="image/x-icon">
+    <title>OKRamen - Japan Guide</title>
     <link rel="stylesheet" href="/static/css/style.css">
-
-    <!-- [이전 코드 삭제 후 아래 코드로 덮어쓰기] -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P8FM8Z36D7"></script>
-    <script>
-      window.dataLayer = window.dataLayer ||[];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-P8FM8Z36D7');
-    </script>
-
-    <script data-noptimize="1" data-cfasync="false" data-wpfc-render="false">
-    (function () {
-        var script = document.createElement("script");
-        script.async = 1;
-        script.src = 'https://emrldtp.cc/NTA5ODA2.js?t=509806';
-        document.head.appendChild(script);
-    })();
-    </script>
-
 </head>
 <body>
-
-    <!-- 구글 번역기 위젯 삭제됨 -->
-
     <header>
         <div class="container">
-            <h1>
-                <a href="/">
-                    <img src="/static/images/logo.png" alt="OKOnsen" class="logo-img" style="height: 100px; width: auto; display: block; margin: 0 auto;">
-                </a>
-            </h1>
-
+            <h1><a href="/"><img src="/static/images/logo.png" alt="OKRamen" class="logo-img"></a></h1>
             <div class="status-bar">
-                <div class="status-badge">
-                    ♨️ <span id="total-onsens">0</span> Onsens Listed
-                </div>
-                <div class="status-badge">
-                    📅 Updated: <span id="last-updated-date">-</span>
-                </div>
-                <div class="status-badge highlight">
-                    🔄 Updating Weekly
-                </div>
+                <div class="status-badge">🍜 <span id="total-ramens">0</span> Shops</div>
+                <div class="status-badge">📅 <span id="last-updated-date">-</span></div>
             </div>
-
             <div class="lang-selector">
                 <button class="lang-btn active" data-lang="en">English</button>
                 <button class="lang-btn" data-lang="ko">한국어</button>
             </div>
-
-            <div class="theme-filter-buttons">
-                <button class="theme-button active" data-theme="all">All <span class="count-badge" id="count-all">0</span></button>
-                <button class="theme-button" data-theme="private">🛁 Private Bath <span class="count-badge" id="count-private">0</span></button>
-                <button class="theme-button" data-theme="tattoo">⭕ Tattoo OK <span class="count-badge" id="count-tattoo">0</span></button>
-                <button class="theme-button" data-theme="view">🗻 Great View <span class="count-badge" id="count-view">0</span></button>
-                <button class="theme-button" data-theme="luxury">✨ Luxury <span class="count-badge" id="count-luxury">0</span></button>
-                <button class="theme-button" data-theme="local">🏮 Local <span class="count-badge" id="count-local">0</span></button>
+            <div class="theme-filter-buttons" data-group="flavor">
+                <button class="theme-button active" data-theme="all">
+                    All <span class="count-badge" id="count-all">0</span>
+                </button>
+                <button class="theme-button" data-theme="tonkotsu">
+                    🐷 Tonkotsu <span class="count-badge" id="count-tonkotsu">0</span>
+                </button>
+                <button class="theme-button" data-theme="shoyu">
+                    🥣 Shoyu <span class="count-badge" id="count-shoyu">0</span>
+                </button>
+                <button class="theme-button" data-theme="miso">
+                    🍲 Miso <span class="count-badge" id="count-miso">0</span>
+                </button>
+                <button class="theme-button" data-theme="shio">
+                    🧂 Shio <span class="count-badge" id="count-shio">0</span>
+                </button>
+                <button class="theme-button" data-theme="chicken">
+                    🐔 Chicken <span class="count-badge" id="count-chicken">0</span>
+                </button>
+                <button class="theme-button" data-theme="tsukemen">
+                    🥢 Tsukemen <span class="count-badge" id="count-tsukemen">0</span>
+                </button>
+                <button class="theme-button" data-theme="vegan">
+                    🥬 Vegan <span class="count-badge" id="count-vegan">0</span>
+                </button>
             </div>
-            
         </div>
     </header>
-    
-    <main>
-        <section class="map-section">
-            <div id="map"></div>
-        </section>
 
-        <div class="content-wrapper">
-            <article class="intro-box">
-                <h2>♨️ Discover Your Perfect Onsen in Japan</h2>
-                <p>
-                    OKOnsen helps you find the best <strong>Hot Springs & Ryokans</strong> across Japan.<br>
-                    Filter by Private Baths, Tattoo policies, or Luxury stays to find your destination.
-                </p>
-            </article>
+    <div id="map" style="width: 100%; height: 500px;"></div>
 
-            <section id="list-section">
-                <h2 class="list-title">🎏 Latest Onsen Guides</h2>
-                <div id="onsen-list" class="onsen-grid"></div>
-                <div id="scroll-sentinel" style="height: 20px; width: 100%;"></div>
-            </section>
-        </div>
-    </main>
-
-    {% include 'footer.html' %}
+    <div class="content-wrapper">
+        <div id="ramen-list" class="onsen-grid"></div>
+    </div>
 
     <script>
     (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
         key: "REDACTED_GOOGLE_API_KEY",
-        v: "beta"
+        v: "beta",
+        map_id: "2938bb3f7f034d7849f653d1" // [추가] 지도 ID를 로더에 포함
     });
     </script>
-    <script type="module" src="/static/js/main.js"></script>
+    <script src="/static/js/main.js"></script>
 </body>
 </html>

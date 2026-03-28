@@ -2,12 +2,12 @@
    1. Variables & Global Settings
    ========================================= */
 :root {
-    --primary-color: #333;
-    --accent-color: #3498db; /* 온천 느낌의 파란색으로 변경 */
-    --accent-hover: #2980b9;
-    --bg-color: #f8f9fa;
+    --primary-color: #2c3e50;    /* 깊은 차콜색 (김, 그릇 느낌) */
+    --accent-color: #e74c3c;     /* 라멘의 상징, 진한 빨간색 */
+    --accent-hover: #c0392b;
+    --bg-color: #fffaf0;        /* 부드러운 미색 (면, 육수 느낌) */
     --card-bg: #ffffff;
-    --text-gray: #666;
+    --text-gray: #555;
     --gap-size: 24px;
 }
 
@@ -17,160 +17,172 @@ body {
     margin: 0;
     color: var(--primary-color);
     background-color: var(--bg-color);
-    background-image: radial-gradient(#e5e5e5 1px, transparent 1px);
-    background-size: 20px 20px;
+    /* 배경에 아주 연한 패턴 추가 */
+    background-image: radial-gradient(#f39c12 0.5px, transparent 0.5px);
+    background-size: 30px 30px;
 }
 
 .container { max-width: 1200px; margin: 0 auto; background-color: transparent; }
-a { text-decoration: none; color: inherit; }
+a { text-decoration: none; color: inherit; transition: color 0.2s; }
 
 /* =========================================
    2. Header & Navigation
    ========================================= */
 header {
-    background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.98); backdrop-filter: blur(10px);
     padding: 20px 0 15px 0; position: sticky; top: 0; z-index: 1000;
-    border-bottom: 1px solid #eaeaea; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    border-bottom: 3px solid var(--accent-color); /* 하단 빨간 포인트 라인 */
+    text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
 h1 { margin: 0; line-height: 1; }
-.logo-img { height: 90px; width: auto; display: block; margin: 0 auto 10px auto; transition: height 0.3s ease; }
+.logo-img { height: 90px; width: auto; display: block; margin: 0 auto 10px auto; transition: transform 0.3s ease; }
+.logo-img:hover { transform: scale(1.05); }
 
 .status-bar { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
 .status-badge {
-    background-color: rgba(51, 51, 51, 0.08); color: #555; padding: 6px 16px;
-    border-radius: 20px; font-size: 0.85rem; font-weight: 600;
-    display: flex; align-items: center; gap: 6px; border: 1px solid rgba(0,0,0,0.05);
+    background-color: #fff; color: #555; padding: 6px 16px;
+    border-radius: 20px; font-size: 0.85rem; font-weight: 700;
+    display: flex; align-items: center; gap: 6px; border: 1.5px solid #eee;
 }
-.status-badge.highlight { background-color: #e1f5fe; color: var(--accent-color); border-color: #b3e5fc; }
+.status-badge.highlight { 
+    background-color: #fff5f5; 
+    color: var(--accent-color); 
+    border-color: #ffc9c9; 
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+}
 
 /* =========================================
-   3. Theme Filters
+   3. Theme Filters (라멘 종류 필터)
    ========================================= */
 .theme-filter-buttons { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding: 0 15px; }
 .theme-button {
-    padding: 8px 16px; font-size: 0.9rem; font-weight: 600; border: 1px solid #ddd;
+    padding: 8px 18px; font-size: 0.9rem; font-weight: 700; border: 2px solid #eee;
     background-color: #fff; color: #555; border-radius: 30px; cursor: pointer;
     transition: all 0.2s ease; display: flex; align-items: center; gap: 6px;
 }
-.theme-button:hover { background-color: #f0f0f0; }
-.theme-button.active { background-color: var(--primary-color); color: white; border-color: var(--primary-color); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.theme-button:hover { background-color: #fff5f5; border-color: var(--accent-color); color: var(--accent-color); }
+.theme-button.active { 
+    background-color: var(--accent-color); 
+    color: white; 
+    border-color: var(--accent-color); 
+    box-shadow: 0 4px 10px rgba(231, 76, 60, 0.3); 
+}
 
-.count-badge { background-color: #eee; color: #666; font-size: 0.75rem; padding: 2px 8px; border-radius: 10px; font-weight: 700; transition: all 0.2s ease; }
+.count-badge { background-color: #eee; color: #666; font-size: 0.75rem; padding: 2px 8px; border-radius: 10px; font-weight: 800; }
 .theme-button.active .count-badge { background-color: rgba(255, 255, 255, 0.3); color: #fff; }
 
 /* =========================================
    4. Map Section & Markers
    ========================================= */
-.map-section { position: relative; width: 100%; height: 60vh; min-height: 400px; background: #eee; margin-bottom: 0; }
+.map-section { width: 100%; height: 60vh; min-height: 400px; background: #ddd; margin-bottom: 0; }
 #map { width: 100%; height: 100%; }
 
-/* 온천 마커로 변경 */
+/* 라멘 마커 스타일 */
 .marker-icon {
-    width: 40px; height: 40px; border-radius: 50%; border: 3px solid #fff;
-    background-color: var(--accent-color); box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    background-image: url('/static/images/onsen_marker.png'); /* [필수] 온천 아이콘 이미지 업로드 필요 */
-    background-size: 24px 24px; background-repeat: no-repeat; background-position: center;
-    box-sizing: border-box; cursor: pointer; transition: transform 0.2s ease;
+    width: 45px; height: 45px; border-radius: 50%; border: 3px solid #fff;
+    background-color: var(--accent-color); box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    background-image: url('/static/images/ramen_marker.png'); /* 라멘 아이콘 필요 */
+    background-size: 28px 28px; background-repeat: no-repeat; background-position: center;
+    cursor: pointer; transition: transform 0.2s ease, z-index 0.1s;
 }
-.marker-icon:hover { transform: scale(1.1); z-index: 999; }
-
-/* InfoWindow Styles */
-.infowindow-content { max-width: 240px; padding: 0; }
-.infowindow-content img { width: 100%; height: 130px; object-fit: cover; border-radius: 6px; margin-bottom: 8px; background-color: #f0f0f0; }
-.infowindow-content h3 { font-size: 16px; margin: 5px 0; color: #333; font-weight: 700; }
-.infowindow-content p { font-size: 13px; color: #666; margin-bottom: 10px; line-height: 1.4; }
-.info-btn-group { display: flex; gap: 5px; }
-.info-btn { flex: 1; text-align: center; padding: 6px 0; border-radius: 4px; font-size: 12px; font-weight: bold; text-decoration: none; cursor: pointer; border: none; }
-.dir-btn { background: #4285F4; color: white !important; }
-.blog-btn { background: #f1f1f1; color: #333 !important; border: 1px solid #ddd; }
+.marker-icon:hover { transform: scale(1.2) rotate(5deg); z-index: 999; }
 
 /* =========================================
    5. Main Content (Grid & Cards)
    ========================================= */
-.content-wrapper { max-width: 1100px; margin: -40px auto 0; padding: 0 20px 40px; position: relative; z-index: 10; }
-.intro-box { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); text-align: center; margin-bottom: 40px; }
-.intro-box h2 { font-size: 1.2rem; color: var(--accent-color); margin-bottom: 10px; }
-.intro-box p { font-size: 0.95rem; color: var(--text-gray); margin: 0; }
-.list-title { text-align: center; font-size: 1.5rem; margin-bottom: 30px; font-weight: 700; position: relative; display: inline-block; width: 100%; }
+.content-wrapper { max-width: 1100px; margin: -50px auto 0; padding: 0 20px 60px; position: relative; z-index: 10; }
 
-.onsen-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 25px; }
+.intro-box { 
+    background: #fff; padding: 30px; border-radius: 15px; 
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1); text-align: center; margin-bottom: 50px;
+    border-top: 5px solid var(--accent-color);
+}
+.intro-box h2 { font-size: 1.4rem; color: var(--accent-color); margin-bottom: 15px; font-weight: 800; }
+.intro-box p { font-size: 1.05rem; color: var(--text-gray); margin: 0; word-break: keep-all; }
+
+.list-title { text-align: center; font-size: 1.8rem; margin-bottom: 35px; font-weight: 800; color: #333; }
+
+.onsen-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; }
 
 .onsen-card {
-    background: #fff; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; border: 1px solid #f0f0f0;
-    animation: fadeIn 0.6s ease-out forwards;
+    background: #fff; border-radius: 15px; overflow: hidden; display: flex; flex-direction: column;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); border: 1px solid #f0f0f0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
-.onsen-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
+.onsen-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.12); }
 
-.card-thumb-link { display: block; position: relative; padding-top: 56.25%; overflow: hidden; }
-.card-thumb { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
-.onsen-card:hover .card-thumb { transform: scale(1.05); }
+.card-thumb-link { display: block; position: relative; padding-top: 60%; overflow: hidden; background: #eee; }
+.card-thumb { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
+.onsen-card:hover .card-thumb { transform: scale(1.1); }
 
-.new-badge {
-    position: absolute; top: 10px; left: 10px; background: #e74c3c; color: white;
-    padding: 4px 10px; border-radius: 20px; font-size: 11px; font-weight: 800; z-index: 5;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-.card-content { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; }
-.card-meta { font-size: 0.8rem; color: #999; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
-.card-title { font-size: 1.15rem; margin: 0 0 10px 0; line-height: 1.4; }
-.card-title a { text-decoration: none; color: var(--primary-color); font-weight: bold; }
+.card-content { padding: 25px; flex-grow: 1; display: flex; flex-direction: column; }
+.card-meta { font-size: 0.85rem; color: #e67e22; font-weight: 700; margin-bottom: 10px; text-transform: uppercase; }
+.card-title { font-size: 1.25rem; margin: 0 0 12px 0; line-height: 1.4; color: #222; font-weight: 800; }
 .card-summary {
-    font-size: 0.95rem; color: var(--text-gray); line-height: 1.6; margin-bottom: 20px; flex-grow: 1;
+    font-size: 0.95rem; color: #666; line-height: 1.7; margin-bottom: 20px;
     display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
 }
 
-.card-footer { border-top: 1px solid #f5f5f5; padding-top: 15px; margin-top: auto; }
-.card-btn { font-size: 0.9rem; color: var(--accent-color); font-weight: 600; text-decoration: none; display: flex; align-items: center; }
-.card-btn:hover { text-decoration: underline; }
+.card-footer { border-top: 1px solid #f9f9f9; padding-top: 15px; margin-top: auto; }
+.card-btn { font-size: 0.95rem; color: var(--accent-color); font-weight: 800; text-decoration: none; display: flex; align-items: center; gap: 5px; }
+.card-btn:after { content: '→'; transition: transform 0.2s; }
+.card-btn:hover:after { transform: translateX(5px); }
 
 /* =========================================
    6. Detail Page & Table Styles
    ========================================= */
-.detail-container { max-width: 800px; margin: 0 auto; padding: 20px; background: #fff; }
+.detail-container { max-width: 850px; margin: 0 auto; padding: 40px; background: #fff; border-radius: 0 0 20px 20px; }
 .detail-header { text-align: center; margin-bottom: 40px; }
-.detail-title { font-size: 2rem; margin-bottom: 10px; color: #333; }
-.detail-meta { color: #666; font-size: 0.9rem; }
-.detail-img { width: 100%; height: auto; border-radius: 10px; margin-bottom: 30px; }
-.detail-content { font-size: 1.1rem; line-height: 1.8; color: #444; }
-.detail-content h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 40px; color: var(--accent-color); }
-.detail-content img { max-width: 100%; height: auto; display: block; margin: 20px auto; border-radius: 5px; }
-.back-btn { display: inline-block; margin-top: 40px; padding: 10px 20px; background: #333; color: white; text-decoration: none; border-radius: 20px; }
+.detail-title { font-size: 2.2rem; margin-bottom: 15px; color: #222; font-weight: 900; line-height: 1.2; word-break: keep-all; }
+.detail-meta { color: #888; font-size: 1rem; font-weight: 600; }
 
-.detail-content table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.95rem; border: 1px solid #ddd; }
-.detail-content th, .detail-content td { padding: 12px 15px; border-bottom: 1px solid #eee; text-align: left; vertical-align: top; }
-.detail-content td:first-child { font-weight: bold; color: #555; background-color: #f9f9f9; width: 30%; border-right: 1px solid #eee; }
+.detail-img { width: 100%; height: auto; border-radius: 15px; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+
+.detail-content { font-size: 1.15rem; line-height: 1.9; color: #333; }
+.detail-content h2 { 
+    border-left: 6px solid var(--accent-color); padding-left: 15px; 
+    margin-top: 50px; margin-bottom: 25px; color: #222; font-weight: 800;
+}
+.detail-content table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 1rem; }
+.detail-content th, .detail-content td { padding: 15px; border: 1px solid #eee; }
+.detail-content td:first-child { background: #fffcf0; font-weight: 800; width: 30%; color: #845c21; }
+
+.back-btn { 
+    display: inline-block; margin-top: 50px; padding: 12px 30px; 
+    background: #333; color: white; font-weight: 700; 
+    border-radius: 30px; transition: background 0.2s;
+}
+.back-btn:hover { background: var(--accent-color); }
 
 /* =========================================
-   7. Footer & UI Elements
+   7. Footer
    ========================================= */
-footer { text-align: center; padding: 40px 20px; color: #888; font-size: 0.9rem; border-top: 1px solid #eaeaea; background: #fff; margin-top: 40px; }
-
-@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+footer { text-align: center; padding: 60px 20px; color: #999; background: #fff; border-top: 1px solid #eee; }
 
 /* =========================================
    8. Mobile Optimizations
    ========================================= */
 @media (max-width: 768px) {
-    header { padding: 10px 0 5px 0; }
-    .logo-img { height: 40px; margin-bottom: 5px; }
-    .status-bar { margin: 5px 0 10px 0; gap: 5px; }
-    .status-badge { padding: 2px 8px; font-size: 0.7rem; }
-    
-    .theme-filter-buttons { padding: 0 10px; gap: 6px; flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding-bottom: 5px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-    .theme-filter-buttons::-webkit-scrollbar { display: none; }
-    .theme-button { padding: 5px 12px; font-size: 0.8rem; flex-shrink: 0; }
-    
-    .map-section { height: 45vh; min-height: 300px; }
-    
-    .detail-container { padding: 25px 20px; margin-top: 0; border-radius: 0; box-shadow: none; }
-    .detail-title { font-size: 1.75rem; font-weight: 800; line-height: 1.3; margin-bottom: 15px; word-break: keep-all; }
-    .detail-content { font-size: 1.125rem; line-height: 1.8; color: #2c3e50; text-align: left; }
-    .detail-content td:first-child { width: 35%; white-space: nowrap; }
+    .logo-img { height: 50px; }
+    .status-badge { font-size: 0.75rem; padding: 4px 12px; }
+    .map-section { height: 40vh; }
+    .detail-container { padding: 25px 20px; }
+    .detail-title { font-size: 1.7rem; }
+    .theme-filter-buttons { justify-content: flex-start; overflow-x: auto; padding-bottom: 10px; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; }
+    .theme-button { flex-shrink: 0; padding: 6px 14px; font-size: 0.8rem; }
 }
 
-.lang-selector { display: flex; justify-content: center; gap: 10px; margin-bottom: 15px; }
-.lang-btn { padding: 6px 18px; font-size: 0.85rem; font-weight: 600; border: 1px solid #ddd; background-color: #fff; color: #777; border-radius: 20px; cursor: pointer; transition: all 0.2s; }
-.lang-btn.active { background-color: var(--accent-color); color: white; border-color: var(--accent-color); box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3); }
+/* 언어 선택기 */
+.lang-selector { display: flex; justify-content: center; gap: 8px; margin-bottom: 15px; }
+.lang-btn { 
+    padding: 5px 15px; font-size: 0.85rem; font-weight: 700; border: 1.5px solid #ddd; 
+    background: #fff; color: #777; border-radius: 20px; cursor: pointer;
+}
+.lang-btn.active { background: #333; color: #fff; border-color: #333; }
