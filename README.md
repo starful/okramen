@@ -1,93 +1,73 @@
-# ♨️ OKOnsen - Japan Hot Spring & Ryokan Discovery Map
+# 🍜 OKRamen - Discover Japan's Best Ramen Shops & Local Gems
 
-An interactive, multi-language web platform designed to help global travelers discover their perfect Japanese Onsen and Ryokan. Filter locations by specific needs (Tattoo-friendly, Private Baths, Luxury) and explore deeply detailed, SEO-optimized guides.
+**OKRamen** is a global interactive map platform designed to help travelers find the soul of Japanese food—Ramen. Beyond a simple list, OKRamen offers deep-dive guides powered by AI and an intuitive filtering system based on broth types and culinary styles.
 
-🔗 **Live Demo:** https://okonsen.net
+🔗 **Live Demo:** [https://okramen.net](https://okramen.net)
 
 ---
 
 ## ✨ Key Features
 
-* **Interactive Map UI**: Explore curated hot springs across Japan using a custom Google Maps interface with interactive markers.
-* **Niche Theme Filtering**: Instantly filter onsens by highly sought-after themes:
-  * 🛁 Private Bath (Kashikiri-buro)
-  * ⭕ Tattoo OK
-  * 🗻 Great View (Mt. Fuji, Ocean, Mountains)
-  * ✨ Luxury Ryokan
-  * 🏮 Local / Hidden Gems
-* **Native Multi-Language Support**: Seamlessly switch between **English** and **Korean** content without relying on widget translators.
-* **AI-Powered Mega Content**: Automated content generation using **Google Gemini 2.5 Flash**, producing 7,000+ character SEO-optimized articles with Midjourney image prompts.
-* **Affiliate Monetization Ready**: Deep link integration for Agoda to maximize booking conversions.
-* **Ultra-Fast Performance**: No traditional databases. Markdown files are compiled into a lightweight JSON file and cached in memory using Flask.
+*   **Interactive Ramen Map**: Explore curated ramen shops across Japan using the **Google Maps JavaScript API** with **Advanced Markers** and a custom **Map ID**.
+*   **Global Flavor Filtering**: Instantly filter shops by 7 primary world-class categories:
+    *   🐷 **Tonkotsu** (Creamy Pork Broth)
+    *   🥣 **Shoyu** (Classic Soy Sauce)
+    *   🍲 **Miso** (Rich Soybean Paste)
+    *   🧂 **Shio** (Light & Clear Salt)
+    *   🐔 **Chicken** (Velvety Tori-Paitan)
+    *   🥢 **Tsukemen** (Dipping Style Noodles)
+    *   🥬 **Vegan** (Plant-based Varieties)
+*   **Smart Multi-Language Mapping**: A unique logic that bridges the language gap. Clicking the English filter `Tonkotsu` automatically retrieves matching Korean data `돈코츠` for a seamless global experience.
+*   **AI-Powered Deep Dive Guides**: Utilizes **Google Gemini 1.5** to generate 7,000+ character SEO-optimized articles covering shop history, broth complexity, and ordering tips.
+*   **Performance First**: No traditional database required. Markdown files are compiled into a lightweight JSON cache, ensuring ultra-fast loading times via **Flask-Compress**.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🛠️ Tech Stack
 
-* **Backend**: Python 3.10, Flask (with `flask-compress` and Gunicorn)
-* **Frontend**: Vanilla JavaScript (ESM), HTML5, CSS3, Google Maps API (Advanced Markers)
-* **Data & Content**: Markdown with YAML Frontmatter compiled to JSON
-* **AI Integration**: `google-genai` (Gemini 2.5 Flash API)
-* **Image Processing**: Pillow (PIL) for automated resizing and compression
-* **Infrastructure**: Docker, Google Cloud Run, Cloud Build
-
----
-
-## 🤖 Powerful Automation Scripts
-
-This project includes highly efficient Python scripts to automate content creation and optimize assets.
-
-### 1. `script/onsen_generator.py`
-Reads `script/csv/onsens.csv` and automatically generates bilingual (EN/KO) Markdown files.
-* Generates 7k-8k character deep-dive articles (History, Water Quality, Kaiseki, Access).
-* Automatically creates Midjourney prompts for fake/conceptual imagery.
-* Handles API rate limits safely (`time.sleep`).
-
-### 2. `script/optimize_images.py`
-Scans the `app/static/images/` directory to compress heavy images.
-* Resizes images to max 800px width.
-* Converts formats to lightweight `.jpg` (quality: 75%).
-* Protects essential UI assets (e.g., `logo.png`, `favicons.ico`).
-
-### 3. `script/build_data.py`
-Compiles all `.md` files in `app/content/` into a single `onsen_data.json` for the frontend.
-* Auto-generates `sitemap.xml` for SEO.
+*   **Backend**: Python 3.10, Flask, Gunicorn
+*   **Frontend**: Vanilla JavaScript (ESM), Google Maps API (Advanced Markers)
+*   **Content Management**: Markdown with YAML Frontmatter
+*   **AI Integration**: Google Gemini 1.5 API (via `google-genai`)
+*   **Image Processing**: Automated resizing/compression via Pillow
+*   **Infrastructure**: Docker, Google Cloud Run, Cloud Build, Artifact Registry
 
 ---
 
-## 🚀 How to Run Locally
+## 🤖 Automation Scripts
+
+This project includes powerful Python scripts to automate content operations:
+
+1.  **`script/ramen_generator.py`**: Reads CSV master lists and uses Gemini AI to generate bilingual (EN/KO) Markdown content automatically.
+2.  **`script/build_data.py`**: Compiles individual `.md` files into a production-ready `ramen_data.json` while cleaning up unnecessary AI tags (e.g., `## yaml` or code blocks).
+3.  **`script/optimize_images.py`**: Compresses high-resolution images into web-optimized JPEGs (800px width, 75% quality).
+
+---
+
+## 🚀 Getting Started
 
 ### 1. Installation
-Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/starful/okonsen.git
-cd okonsen
+git clone https://github.com/starful/okramen.git
+cd okramen
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 ### 2. Set Up Environment Variables
-Create a `.env` file in the root directory and add your Gemini API key:
+Create a `.env` file in the root directory and add your API keys:
 ```env
-GEMINI_API_KEY=your_google_gemini_api_key_here
+GEMINI_API_KEY=your_google_gemini_api_key
 ```
 
-### 3. Generate & Build Data
+### 3. Build & Run
 ```bash
-# 1. Optimize downloaded images
-python script/optimize_images.py
-
-# 2. Generate Markdown files via AI (Reads onsens.csv)
-python script/onsen_generator.py
-
-# 3. Build JSON data and Sitemap
+# Compile Markdown files to JSON
 python script/build_data.py
-```
 
-### 4. Run the Server
-```bash
+# Start the Flask server
 python app/__init__.py
-# or using gunicorn:
-# gunicorn --bind 0.0.0.0:8080 app:app
 ```
 Visit `http://localhost:8080` in your browser.
 
@@ -96,26 +76,26 @@ Visit `http://localhost:8080` in your browser.
 ## 📂 Project Structure
 
 ```text
-okonsen/
+okramen/
 ├── app/
-│   ├── content/                 # Generated Markdown files
-│   ├── static/                  # CSS, JS, Images, JSON
-│   ├── templates/               # HTML Templates
-│   └── __init__.py              # Flask App Entry
+│   ├── content/                 # AI Generated Markdown (.md)
+│   ├── static/
+│   │   ├── css/                 # Custom Ramen UI Theme
+│   │   ├── js/                  # Filtering & Map Engine (main.js)
+│   │   └── json/                # Compiled Production JSON Data
+│   ├── templates/               # HTML Layouts (index, detail, etc.)
+│   └── __init__.py              # Flask App Configuration
 ├── script/
-│   ├── csv/
-│   │   └── onsens.csv           # Master list of Onsens & Agoda Links
-│   ├── build_data.py            # MD to JSON/XML compiler
-│   ├── onsen_generator.py       # Gemini AI Content Bot
-│   └── optimize_images.py       # Image Compressor
-├── .env                         # API Keys (Git Ignored)
-├── Dockerfile                   
-├── cloudbuild.yaml              
-└── requirements.txt             
+│   ├── csv/                     # Master Shop Lists (ramens.csv)
+│   ├── build_data.py            # Data Compiler & Cleaner
+│   └── ramen_generator.py       # Gemini AI Content Bot
+├── Dockerfile                   # Containerization
+└── cloudbuild.yaml              # CI/CD Pipeline for GCP
 ```
 
 ---
 
 ## 🛡️ License
 
-This project is proprietary and maintained by the OKOnsen Project Team.
+© 2026 OKRamen Project. All rights reserved.
+Finding the legendary bowl of Ramen across Japan.
