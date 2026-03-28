@@ -3,79 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ post.title }} - OKOnsen</title>
+    
+    <!-- SEO: 동적 타이틀 및 설명 -->
+    <title>{{ post.title }} - OKRamen Japan Guide</title>
     <meta name="description" content="{{ post.summary }}">
-    <link rel="canonical" href="https://okonsen.net/onsen/{{ post.id }}" />
+    <meta name="keywords" content="Ramen, {{ post.categories|join(', ') }}, {{ post.address }}, Japan Food Guide">
+    
+    <!-- SEO: 표준 URL 및 다국어 관계 설정 -->
+    <link rel="canonical" href="https://okramen.net/ramen/{{ post.id }}" />
+    {% if post.lang == 'en' %}
+    <link rel="alternate" hreflang="ko" href="https://okramen.net/ramen/{{ post.id | replace('_en', '_ko') }}" />
+    {% else %}
+    <link rel="alternate" hreflang="en" href="https://okramen.net/ramen/{{ post.id | replace('_ko', '_en') }}" />
+    {% endif %}
+    <link rel="alternate" hreflang="x-default" href="https://okramen.net/ramen/{{ post.id }}" />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P8FM8Z36D7"></script>
-    <script>
-      window.dataLayer = window.dataLayer ||[];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <!-- SNS 공유 (Open Graph) -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ post.title }}">
+    <meta property="og:description" content="{{ post.summary }}">
+    <meta property="og:image" content="{{ post.thumbnail }}">
+    <meta property="og:url" content="https://okramen.net/ramen/{{ post.id }}">
 
-      gtag('config', 'G-P8FM8Z36D7');
-    </script>
-
-    <script data-noptimize="1" data-cfasync="false" data-wpfc-render="false">
-    (function () {
-        var script = document.createElement("script");
-        script.async = 1;
-        script.src = 'https://emrldtp.cc/NTA5ODA2.js?t=509806';
-        document.head.appendChild(script);
-    })();
+    <!-- 구글 구조화 데이터 (JSON-LD): 검색 결과에 별점/위치 노출 확률 증가 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "{{ post.title }}",
+      "image": "{{ post.thumbnail }}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ post.address }}",
+        "addressCountry": "JP"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": {{ post.lat }},
+        "longitude": {{ post.lng }}
+      },
+      "servesCuisine": "Japanese Ramen, {{ post.categories[0] if post.categories else '' }}",
+      "description": "{{ post.summary }}"
+    }
     </script>
 
     <link rel="stylesheet" href="/static/css/style.css">
-    <style>
-        .detail-container { max-width: 800px; margin: 0 auto; padding: 20px; background: #fff; }
-        .detail-header { text-align: center; margin-bottom: 40px; }
-        .detail-title { font-size: 2rem; margin-bottom: 10px; color: #333; }
-        .detail-meta { color: #666; font-size: 0.9rem; }
-        .detail-img { width: 100%; height: auto; border-radius: 10px; margin-bottom: 30px; }
-        .detail-content { font-size: 1.1rem; line-height: 1.8; color: #444; }
-        .detail-content h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 40px; color: #3498db; }
-        .detail-content img { max-width: 100%; height: auto; display: block; margin: 20px auto; border-radius: 5px; }
-        .back-btn { display: inline-block; margin-top: 40px; padding: 10px 20px; background: #333; color: white; text-decoration: none; border-radius: 20px; }
-    </style>
 </head>
 <body>
-    <div class="container">
-        <header style="padding: 20px;">
+    <header>
+        <div class="container">
             <a href="/">
-                <img src="/static/images/logo.png" alt="OKOnsen" style="height: 60px; display: block; margin: 0 auto;">
+                <img src="/static/images/logo.png" alt="OKRamen Home" class="logo-img" style="height: 50px;">
             </a>
-        </header>
+        </div>
+    </header>
 
-        <article class="detail-container">
-            <div class="detail-header">
-                <h1 class="detail-title">{{ post.title }}</h1>
-                <div class="detail-meta">
-                    📍 {{ post.address }} | 🏷️ {{ post.categories|join(', ') }}
-                </div>
+    <article class="detail-container">
+        <div class="detail-header">
+            <h1 class="detail-title">{{ post.title }}</h1>
+            <div class="detail-meta">
+                📍 {{ post.address }} | 🏷️ {{ post.categories|join(', ') }} | 📅 {{ post.date }}
             </div>
+        </div>
 
-            <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
+        <!-- 이미지 ALT 태그 SEO 최적화 -->
+        <img src="{{ post.thumbnail }}" alt="Ramen at {{ post.title }} in {{ post.address }}" class="detail-img">
 
-            <div class="detail-content">
-                {{ content | safe }}
-            </div>
+        <div class="detail-content">
+            {{ content | safe }}
+        </div>
 
-            {% if post.agoda %}
-            <div style="text-align: center; margin: 20px 0;">
-                <a href="{{ post.agoda }}" target="_blank" rel="nofollow" 
-                style="display: inline-block; background-color: #3498db; color: white; padding: 15px 30px; font-size: 1.2rem; font-weight: bold; border-radius: 30px; text-decoration: none; box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3); transition: transform 0.2s;">
-                ✨ Check Availability & Prices on Agoda
-                </a>
-            </div>
-            {% endif %}
+        <!-- 수익형 링크 (Agoda 등) -->
+        {% if post.agoda %}
+        <div class="booking-box" style="text-align: center; margin: 50px 0; padding: 30px; background: #fff5f5; border-radius: 15px; border: 2px dashed #e74c3c;">
+            <h3>🏨 Stay Near This Ramen Shop</h3>
+            <p>Find the best hotels in {{ post.address }} for your culinary journey.</p>
+            <a href="{{ post.agoda }}" target="_blank" rel="nofollow" 
+               style="display: inline-block; background: #e74c3c; color: white; padding: 15px 30px; font-weight: bold; border-radius: 30px; text-decoration: none;">
+               Check Hotel Deals on Agoda →
+            </a>
+        </div>
+        {% endif %}
 
-            <div style="text-align: center;">
-                <a href="/" class="back-btn">🗺️ Back to Map</a>
-            </div>
-        </article>
-        
-        {% include 'footer.html' %}
-    </div>
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="/" class="back-btn">🗺️ Back to Ramen Map</a>
+        </div>
+    </article>
+    
+    {% include 'footer.html' %}
 </body>
 </html>

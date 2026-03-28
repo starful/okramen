@@ -1,11 +1,11 @@
 {
   "last_updated": "2026.03.28",
-  "total_count": 6,
+  "total_count": 10,
   "ramens": [
     {
       "id": "ichiran_shinjuku_ko",
       "lang": "ko",
-      "title": "신주쿠의 심장, 이치란: 완벽한 한 그릇을 향한 돈코츠 라멘의 성지 순례",
+      "title": "도쿄 신주쿠 최고의 라멘(Best Ramen in Tokyo, Shinjuku): 이치란 신주쿠점에서 만나는 돈코츠의 정점과 미식의 철학",
       "lat": 35.6909,
       "lng": 139.7018,
       "categories": [
@@ -15,13 +15,29 @@
       "thumbnail": "/static/images/ichiran_shinjuku.jpg",
       "address": "Tokyo, Shinjuku",
       "published": "2026-03-28",
-      "summary": "도쿄 신주쿠의 심장부에서 만나는 궁극의 돈코츠 라멘, 이치란. 수십 년간 오직 한 그릇의 완벽함을 위해 모든 것을 바친 장인정신과 독특한 '맛 집중 시스템'을 경험해보세요. 이 글은 당신의 이치란 경험을 미식의 경지로 끌어올릴 유일한 가이드입니다.",
+      "summary": "도쿄의 심장부 신주쿠에서 경험하는 이치란 라멘은 단순한 한 끼를 넘어 일본 돈코츠 라멘의 정수를 보여주는 미식의 성지입니다. 독창적인 '맛 집중 카운터'와 40여 가지 재료가 어우러진 비법 소스는 전 세계 식도락가들을 매료시키는 절대적인 미학을 선사합니다. 엄선된 식재료와 수십 년간 이어온 장인 정신이 빚어낸 이 완벽한 한 그릇은 도쿄 여행에서 반드시 마주해야 할 황홀한 순간입니다.",
       "link": "/ramen/ichiran_shinjuku_ko"
+    },
+    {
+      "id": "ginza_kagari_en",
+      "lang": "en",
+      "title": "The Golden Elixir: Why Ginza Kagari is the Best Ramen in Tokyo, Chuo",
+      "lat": 35.6718,
+      "lng": 139.7634,
+      "categories": [
+        "Chicken",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/ginza_kagari.jpg",
+      "address": "Tokyo, Chuo",
+      "published": "2026-03-28",
+      "summary": "Indulge in the pinnacle of Tori Paitan at Ginza Kagari, where Michelin-recognized craftsmanship meets a rich, velvety chicken broth. Located in the heart of Tokyo's most luxurious district, this shop offers a sophisticated ramen experience that redefines the genre. Discover why discerning gourmands consider this the absolute must-visit destination for premium noodles in Chuo.",
+      "link": "/ramen/ginza_kagari_en"
     },
     {
       "id": "ippudo_ginza_en",
       "lang": "en",
-      "title": "Ippudo Ginza: The Soul of Hakata's Tonkotsu, Elevated to a Michelin-Caliber Art Form",
+      "title": "The Velvet Revolution: Why Ippudo Ginza Defines the Best Ramen in Tokyo, Chuo",
       "lat": 35.6711,
       "lng": 139.7662,
       "categories": [
@@ -29,31 +45,47 @@
         "Premium"
       ],
       "thumbnail": "/static/images/ippudo_ginza.jpg",
-      "address": "Tokyo, Chuo",
+      "address": "4-10-3 Ginza, Chuo City, Tokyo 104-0061, Japan",
       "published": "2026-03-28",
-      "summary": "Venture beyond the neon glow of Ginza into a sanctuary dedicated to the art of Hakata ramen. Ippudo Ginza transforms the humble tonkotsu into a sublime, Michelin-worthy experience, a symphony of umami that has captured the hearts of locals and connoisseurs alike. Discover the secrets behind its legendary broth and learn how to order like a true Tokyoite in this definitive guide.",
+      "summary": "Experience the pinnacle of Hakata-style craftsmanship at the heart of Tokyo's most luxurious district. This guide explores the velvety depths of Ippudo's legendary pork bone broth and its meticulous approach to noodle texture. Discover why this global icon maintains its Michelin-level prestige in the competitive Ginza landscape.",
       "link": "/ramen/ippudo_ginza_en"
+    },
+    {
+      "id": "rokurinsha_tokyo_station_ko",
+      "lang": "ko",
+      "title": "도쿄 치요다구 최고의 라멘 경험(Best Ramen in Tokyo, Chiyoda): 로쿠린샤(Rokurinsha) 도쿄역점에서 만나는 츠케멘의 정점",
+      "lat": 35.6811,
+      "lng": 139.7671,
+      "categories": [
+        "츠케멘",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/rokurinsha_tokyo_station.jpg",
+      "address": "Tokyo, Chiyoda",
+      "published": "2026-03-28",
+      "summary": "도쿄역 '라멘 스트리트'를 상징하는 로쿠린샤는 츠케멘의 역사를 새로 쓴 전설적인 장소로, 압도적인 밀도의 육수와 식감을 자랑합니다. 미식의 도시 도쿄에서 가장 긴 줄을 서야 하는 곳 중 하나지만, 그 기다림 끝에는 장인 정신이 깃든 궁극의 감칠맛이 기다리고 있습니다. 농후한 해산물 돈코츠 베이스와 극태면의 완벽한 하모니는 도쿄 여행에서 절대 놓쳐서는 안 될 미식의 성배입니다.",
+      "link": "/ramen/rokurinsha_tokyo_station_ko"
     },
     {
       "id": "afuri_harajuku_en",
       "lang": "en",
-      "title": "Afuri Harajuku: The Zenith of Yuzu Shoyu Ramen—A Critic's Pilgrimage to Tokyo's Golden Broth",
+      "title": "A Citrus-Infused Masterpiece: Discover the Best Ramen in Tokyo, Shibuya at Afuri Harajuku",
       "lat": 35.6715,
       "lng": 139.7032,
       "categories": [
-        "Shoyu",
-        "Local Gem"
+        "Shio",
+        "Premium"
       ],
       "thumbnail": "/static/images/afuri_harajuku.jpg",
-      "address": "Tokyo, Shibuya",
+      "address": "3-63-1 Sendagaya, Shibuya City, Tokyo 151-0051, Japan",
       "published": "2026-03-28",
-      "summary": "In the electric heart of Harajuku, Afuri serves a ramen that transcends the genre, a sublime bowl of yuzu-kissed shoyu broth that is both deeply traditional and startlingly modern. This is not just a meal; it is a pilgrimage for connoisseurs seeking the purest expression of Japanese flavor. A true local gem, Afuri is an essential chapter in Tokyo's epic culinary story.",
+      "summary": "Experience the pinnacle of refined Japanese craftsmanship at Afuri Harajuku, the definitive destination for Yuzu-infused Shio ramen. This culinary sanctuary blends the purity of Mt. Afuri’s spring water tradition with a modern, sleek aesthetic that defines the Shibuya food scene. For those seeking a sophisticated, lighter alternative to heavy tonkotsu, Afuri offers an unparalleled symphony of citrus, charcoal-grilled pork, and artisanal noodles.",
       "link": "/ramen/afuri_harajuku_en"
     },
     {
       "id": "afuri_harajuku_ko",
       "lang": "ko",
-      "title": "하라주쿠의 영혼, 유자향에 잠기다: 아후리(AFURI) 라멘 미식 순례기",
+      "title": "도쿄 시부야 최고의 라멘(Best Ramen in Tokyo, Shibuya): 아후리 하라주쿠의 유자 시오 라멘 미학",
       "lat": 35.6715,
       "lng": 139.7032,
       "categories": [
@@ -63,29 +95,45 @@
       "thumbnail": "/static/images/afuri_harajuku.jpg",
       "address": "Tokyo, Shibuya",
       "published": "2026-03-28",
-      "summary": "도쿄 하라주쿠 뒷골목에서 발견한 라멘의 신세계, 아후리(AFURI). 상큼한 유자향이 감도는 황금빛 닭육수와 숯불에 구운 차슈가 어우러져 잊을 수 없는 미식 경험을 선사합니다. 이 한 그릇에 담긴 장인정신과 도쿄의 트렌디한 감성을 직접 확인해 보세요.",
+      "summary": "도쿄 하라주쿠의 심장부에서 만나는 아후리(Afuri)는 전통적인 라멘의 틀을 깨고 유자의 산뜻함을 더한 혁신적인 유자 시오 라멘으로 전 세계 미식가들을 매료시킵니다. 엄선된 천연 재료와 가나가와현 아후리산의 맑은 물을 사용하여 빚어낸 황금빛 육수는 도쿄 여행에서 절대 놓쳐서는 안 될 최고의 한 그릇입니다. 세련된 인테리어와 오픈 키친의 역동적인 조리 과정이 더해져 오감을 자극하는 진정한 프리미엄 라멘 경험을 선사합니다.",
       "link": "/ramen/afuri_harajuku_ko"
+    },
+    {
+      "id": "rokurinsha_tokyo_station_en",
+      "lang": "en",
+      "title": "The Alchemical Masterpiece of Tsukemen: Why Rokurinsha is the Uncontested Best Ramen in Tokyo, Chiyoda",
+      "lat": 35.6811,
+      "lng": 139.7671,
+      "categories": [
+        "Tsukemen",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/rokurinsha_tokyo_station.jpg",
+      "address": "Tokyo, Chiyoda",
+      "published": "2026-03-28",
+      "summary": "Experience the legendary 'thick-style' dipping noodles that revolutionized the global ramen scene at Rokurinsha Tokyo Station. This gastronomic pilgrimage offers a masterclass in Tonkotsu-Gyokai broth, pairing industrial-strength umami with artisan-crafted noodles. Discover why this Chiyoda icon remains the definitive destination for serious ramen enthusiasts worldwide.",
+      "link": "/ramen/rokurinsha_tokyo_station_en"
     },
     {
       "id": "ichiran_shinjuku_en",
       "lang": "en",
-      "title": "Ichiran Shinjuku: The Definitive Guide to Tokyo's Tonkotsu Ramen Sanctuary",
+      "title": "The Ultimate Gastronomic Sanctuary: Why Ichiran Shinjuku Offers the Best Ramen in Tokyo, Shinjuku",
       "lat": 35.6909,
       "lng": 139.7018,
       "categories": [
         "Tonkotsu",
-        "Local Gem"
+        "Solo Friendly"
       ],
       "thumbnail": "/static/images/ichiran_shinjuku.jpg",
-      "address": "Tokyo, Shinjuku",
+      "address": "Tokyo, Shinjuku, 3 Chome−34−11, Peace Bldg B1F",
       "published": "2026-03-28",
-      "summary": "Venture into the heart of Shinjuku to discover Ichiran, a temple dedicated to the art of tonkotsu ramen. This guide unveils the secrets behind its legendary broth, customizable bowls, and unique 'Flavor Concentration Booths'. Prepare for a culinary pilgrimage that defines the very essence of Tokyo's ramen culture.",
+      "summary": "Discover the pinnacle of Hakata-style tonkotsu at Ichiran Shinjuku, a world-renowned destination where culinary precision meets individual focus. This guide explores the deep complexity of their 24-hour simmered broth and the legendary 'Flavor Concentration Booths' that redefine the dining experience. Embark on a sensory journey through the most iconic bowl of noodles in Tokyo's most vibrant district.",
       "link": "/ramen/ichiran_shinjuku_en"
     },
     {
       "id": "ippudo_ginza_ko",
       "lang": "ko",
-      "title": "황금빛 국물의 미학: 미슐랭 평론가가 파헤친 잇푸도 긴자점의 모든 것",
+      "title": "긴자에서 만나는 미식의 정점: Best Ramen in Tokyo, Chuo - 잇푸도 긴자점(Ippudo Ginza)의 완벽한 기록",
       "lat": 35.6711,
       "lng": 139.7662,
       "categories": [
@@ -93,10 +141,26 @@
         "프리미엄"
       ],
       "thumbnail": "/static/images/ippudo_ginza.jpg",
+      "address": "Tokyo, Chuo, Ginza 4-10-3",
+      "published": "2026-03-28",
+      "summary": "도쿄 중앙구 긴자의 중심에서 하카타 돈코츠 라멘의 세계적인 기준을 정립한 잇푸도의 프리미엄 미학을 경험하십시오. 수십 년간 다듬어진 장인의 육수와 섬세한 면발이 자아내는 하모니는 단순한 식사를 넘어 하나의 예술 작품과 같습니다. 전 세계 라멘 애호가들이 왜 이곳을 도쿄 최고의 라멘 성지로 꼽는지, 그 깊이 있는 맛의 비밀을 공개합니다.",
+      "link": "/ramen/ippudo_ginza_ko"
+    },
+    {
+      "id": "ginza_kagari_ko",
+      "lang": "ko",
+      "title": "도쿄 중앙구 최고의 라멘, 긴자 카가리(Ginza Kagari): 미슐랭이 인정한 궁극의 토리파이탄 미학",
+      "lat": 35.6718,
+      "lng": 139.7634,
+      "categories": [
+        "치킨라멘",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/ginza_kagari.jpg",
       "address": "Tokyo, Chuo",
       "published": "2026-03-28",
-      "summary": "도쿄 긴자의 심장부에서 세계적인 명성의 잇푸도 돈코츠 라멘을 경험하세요. 수십 년간의 장인정신이 녹아든 황금빛 국물과 극세면의 완벽한 조화는 단순한 식사를 넘어선 예술의 경지입니다. 미식가라면 반드시 방문해야 할 이곳의 모든 비밀을 지금 공개합니다.",
-      "link": "/ramen/ippudo_ginza_ko"
+      "summary": "도쿄의 중심 긴자에서 펼쳐지는 황홀한 미식의 향연, 긴자 카가리는 라멘을 예술의 경지로 끌어올린 토리파이탄의 성지입니다. 크리미한 육수와 세련된 고명이 빚어내는 조화는 전 세계 미식가들을 매료시키기에 충분합니다. 도쿄 여행의 정점이 될 프리미엄 라멘의 진수를 지금 바로 경험해 보십시오.",
+      "link": "/ramen/ginza_kagari_ko"
     }
   ]
 }
