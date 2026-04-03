@@ -1,5 +1,5 @@
 #!/bin/bash
-# 🍜 OKRamen 자동 배포 파이프라인
+# 🍜 OKRamen 자동 배포 파이프라인 (Imagen 3 이미지 생성 포함)
 # 실행: ./deploy.sh
 
 set -e
@@ -31,8 +31,7 @@ print_info "프로젝트 경로: $PROJECT_ROOT"
 [ ! -f ".env" ] && { print_err ".env 없음"; exit 1; }
 print_ok ".env 확인"
 
-grep -q "GOOGLE_PLACES_API_KEY" .env && SKIP_IMAGES=false || { print_warn "GOOGLE_PLACES_API_KEY 없음 → 이미지 수집 건너뜁니다"; SKIP_IMAGES=true; }
-grep -q "GEMINI_API_KEY" .env      || { print_err "GEMINI_API_KEY 없음"; exit 1; }
+grep -q "GEMINI_API_KEY" .env || { print_err "GEMINI_API_KEY 없음"; exit 1; }
 print_ok "API 키 확인"
 
 command -v python3 &>/dev/null || { print_err "python3 없음"; exit 1; }
@@ -47,7 +46,7 @@ CSV_PATH="script/csv/ramens.csv"
 CSV_COUNT=$(( $(wc -l < "$CSV_PATH") - 1 ))
 print_ok "라멘 CSV: 총 ${CSV_COUNT}개"
 
-# ── STEP 1: AI 컨텐츠 생성 ─────────────────
+# ── STEP 1: AI 컨텐츠 생성 (Gemini) ────────
 print_step "STEP 1 / 5  |  AI 컨텐츠 생성 (Gemini API)"
 
 CONTENT_DIR="app/content"
@@ -61,36 +60,39 @@ AFTER_COUNT=$(find "$CONTENT_DIR" -name "*.md" | wc -l | tr -d ' ')
 NEW_COUNT=$(( AFTER_COUNT - BEFORE_COUNT ))
 print_ok "컨텐츠 생성 완료! (총 ${AFTER_COUNT}개, 신규 +${NEW_COUNT}개)"
 
-# ── STEP 2: 이미지 수집 ────────────────────
-print_step "STEP 2 / 5  |  이미지 수집 (Google Places Photos API)"
+# ── STEP 2: AI 이미지 생성 (Imagen 3) ───────
+print_step "STEP 2 / 5  |  AI 이미지 생성 (Google Imagen 3)"
 
+# MD 기준으로 이미지 없는 항목 수 확인
+IMAGES_DIR="app/static/images"
 MISSING=0
-
-if [ "$SKIP_IMAGES" = true ]; then
-    print_warn "건너뜀"
-else
-    IMAGES_DIR="app/static/images"
-    while IFS=',' read -r name lat lng rest; do
-        [ "$name" = "Name" ] && continue
-        safe=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/ /_/g' | tr -d "',")
+if [ -d "$CONTENT_DIR" ]; then
+    for md_file in "$CONTENT_DIR"/*.md; do
+        [ -f "$md_file" ] || continue
+        base=$(basename "$md_file" .md)
+        # _ko, _en suffix 제거
+        safe=${base%_ko}; safe=${safe%_en}; safe=${safe%_ja}
         if [ ! -f "${IMAGES_DIR}/${safe}.jpg" ] && \
            [ ! -f "${IMAGES_DIR}/${safe}.jpeg" ] && \
            [ ! -f "${IMAGES_DIR}/${safe}.png" ]; then
             MISSING=$((MISSING + 1))
         fi
-    done < "$CSV_PATH"
+    done
+    # 중복 제거를 위해 2로 나눔 (ko/en 두 파일이 같은 이미지를 가리키므로)
+    MISSING=$(( MISSING / 2 ))
+fi
 
-    if [ "$MISSING" -eq 0 ]; then
-        print_ok "모든 이미지 존재 → 스킵"
-    else
-        print_info "이미지 없는 라멘집: ${MISSING}개 → 수집 시작"
-        echo ""
-        python3 script/fetch_images.py
-        print_ok "이미지 수집 완료"
-        print_info "이미지 최적화 중..."
-        python3 script/optimize_images.py
-        print_ok "이미지 최적화 완료"
-    fi
+if [ "$MISSING" -eq 0 ]; then
+    print_ok "모든 이미지 존재 → 스킵"
+else
+    print_info "이미지 없는 라멘집: ${MISSING}개 → Imagen 3 생성 시작"
+    print_info "예상 비용: 약 \$$(echo "scale=2; $MISSING * 0.04" | bc)"
+    echo ""
+    python3 script/generate_images.py
+    print_ok "이미지 생성 완료"
+    print_info "이미지 최적화 중..."
+    python3 script/optimize_images.py
+    print_ok "이미지 최적화 완료"
 fi
 
 if [ "$NEW_COUNT" -eq 0 ] && [ "$MISSING" -eq 0 ]; then
@@ -130,7 +132,7 @@ echo ""
 echo -e "${BOLD}${GREEN}  🎉 전체 파이프라인 완료!${NC}"
 echo ""
 echo -e "  ⏱️  총 소요 시간  : $(( ELAPSED / 60 ))분 $(( ELAPSED % 60 ))초"
-echo -e "  🖼️  수집된 이미지 : ${MISSING}개"
+echo -e "  🖼️  생성된 이미지 : ${MISSING}개  (약 \$$(echo "scale=2; $MISSING * 0.04" | bc))"
 echo -e "  📄 전체 컨텐츠   : ${AFTER_COUNT}개 (신규 +${NEW_COUNT}개)"
 echo -e "  🌐 라이브 사이트 : https://okramen.net"
 echo ""
