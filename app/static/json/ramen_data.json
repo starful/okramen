@@ -1,7 +1,391 @@
 {
-  "last_updated": "2026.03.28",
-  "total_count": 10,
+  "last_updated": "2026.04.03",
+  "total_count": 34,
   "ramens": [
+    {
+      "id": "nakiryu_en",
+      "lang": "en",
+      "title": "The Ultimate Guide to the Best Ramen in Tokyo, Toshima: A Michelin-Star Masterclass at Nakiryu",
+      "lat": 35.7322,
+      "lng": 139.7291,
+      "categories": [
+        "Chicken",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/nakiryu.jpg",
+      "address": "Tokyo, Toshima",
+      "published": "2026-04-03",
+      "summary": "Discover the architectural perfection of Nakiryu, a Michelin-starred sanctuary in Toshima renowned for transforming Tantanmen into a world-class culinary experience. This guide explores the intricate layers of their legendary broth, the precision of their house-made noodles, and the serene atmosphere that defines this elite ramen destination. Prepare for a sensory journey where every slurp reveals a new dimension of spice, acidity, and umami-rich depth.",
+      "link": "/ramen/nakiryu_en"
+    },
+    {
+      "id": "hakata_ikkousha_en",
+      "lang": "en",
+      "title": "Hakata Ikkousha: The Ultimate Guide to the Best Ramen in Fukuoka, Hakata – A Pork Bone Revelation",
+      "lat": 33.5891,
+      "lng": 130.4201,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/hakata_ikkousha.jpg",
+      "address": "Fukuoka, Hakata",
+      "published": "2026-04-03",
+      "summary": "Prepare your palate for an unparalleled journey into the heart of Tonkotsu ramen, as Hakata Ikkousha redefines culinary excellence in Fukuoka. Their legendary, creamy broth, simmered for days to extract every ounce of porcine magic, promises a deeply satisfying umami experience. This isn't just a meal; it's an essential pilgrimage for any serious food lover seeking the true soul of Hakata.",
+      "link": "/ramen/hakata_ikkousha_en"
+    },
+    {
+      "id": "honke_daiichi-asahi_ko",
+      "lang": "ko",
+      "title": "교토 시모교구의 영혼을 담은 한 그릇: Best Ramen in Kyoto, Shimogyo, 혼케 다이이치 아사히",
+      "lat": 34.9866,
+      "lng": 135.7611,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/honke_daiichi-asahi.jpg",
+      "address": "Kyoto, Shimogyo",
+      "published": "2026-04-03",
+      "summary": "교토역 인근 시모교구에서 50년 넘게 자리를 지켜온 혼케 다이이치 아사히는 맑지만 깊은 육수의 정점을 보여주는 쇼유 라멘의 성지입니다. 이곳의 라멘은 단순한 음식을 넘어 교토의 역사와 장인 정신을 한 그릇에 담아낸 예술 작품과도 같습니다. 지금 바로 이 전설적인 한 그릇을 경험하기 위한 미식 가이드를 확인해보세요.",
+      "link": "/ramen/honke_daiichi-asahi_ko"
+    },
+    {
+      "id": "tantanmen_sandaime_en",
+      "lang": "en",
+      "title": "Tantanmen Sandaime: A Spicy Revelation and the Best Ramen in Tokyo, Minato for the Discerning Palate",
+      "lat": 35.6611,
+      "lng": 139.7211,
+      "categories": [
+        "Chicken",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/tantanmen_sandaime.jpg",
+      "address": "Tokyo, Minato",
+      "published": "2026-04-03",
+      "summary": "Prepare your senses for an unparalleled culinary journey at Tantanmen Sandaime, where Tokyo's most exquisite Tantanmen awaits. Each spoonful is a vibrant symphony of fiery chili, creamy sesame, and a deeply satisfying umami, redefining what you thought ramen could be. This local secret in Minato is not just a meal, but an unforgettable adventure for the adventurous global palate.",
+      "link": "/ramen/tantanmen_sandaime_en"
+    },
+    {
+      "id": "menya_musashi_shinjuku_ko",
+      "lang": "ko",
+      "title": "신주쿠 최고의 라멘: 미식가의 심장을 울리는 멘야 무사시 신주쿠, 도쿄 라멘의 정점",
+      "lat": 35.6934,
+      "lng": 139.7001,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/menya_musashi_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-04-03",
+      "summary": "도쿄 신주쿠의 골목 어귀, '멘야 무사시 신주쿠'는 단순한 한 그릇의 라멘을 넘어선 미식 경험을 선사합니다. 겹겹이 쌓인 깊고 진한 육수, 완벽하게 조리된 쫄깃한 면발, 그리고 숙련된 장인의 손길로 탄생한 고명들이 조화를 이루며 잊을 수 없는 맛의 향연을 펼칩니다. 당신의 미식 여행에 영원히 각인될 도쿄 최고의 라멘을 지금 바로 경험해 보세요.",
+      "link": "/ramen/menya_musashi_shinjuku_ko"
+    },
+    {
+      "id": "fuunji_shinjuku_ko",
+      "lang": "ko",
+      "title": "도쿄 신주쿠 최고의 라멘: 후운지(Fuunji) – 장인의 혼이 깃든 츠케멘의 정점 (Best Ramen in Tokyo, Shinjuku)",
+      "lat": 35.6875,
+      "lng": 139.6961,
+      "categories": [
+        "츠케멘",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/fuunji_shinjuku.jpg",
+      "address": "2 Chome-14-3 Yoyogi, Shibuya City, Tokyo 151-0053, Japan",
+      "published": "2026-04-03",
+      "summary": "도쿄 신주쿠에서 가장 전설적인 츠케멘 전문점인 후운지의 정수를 심도 있게 분석합니다. 닭 육수와 어패류의 완벽한 하모니가 만들어내는 진하고 크리미한 국물의 비밀을 파헤칩니다. 일본 현지인과 전 세계 미식가들이 줄을 서서 기다리는 이유를 직접 경험해 보세요.",
+      "link": "/ramen/fuunji_shinjuku_ko"
+    },
+    {
+      "id": "konjiki_hototogisu_en",
+      "lang": "en",
+      "title": "The Golden Standard: Why Konjiki Hototogisu is the Best Ramen in Tokyo, Shinjuku",
+      "lat": 35.6888,
+      "lng": 139.7055,
+      "categories": [
+        "Shoyu",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/konjiki_hototogisu.jpg",
+      "address": "2-4-1 Shinjuku, Shinjuku-ku, Tokyo, Japan",
+      "published": "2026-04-03",
+      "summary": "Experience the pinnacle of culinary refinement at Konjiki Hototogisu, a Michelin-starred sanctuary where Hamaguri clams and truffle oil redefine the Shoyu ramen experience. This guide explores why this Shinjuku masterpiece remains the ultimate pilgrimage for gourmands seeking the best ramen in Tokyo. Discover the intricate layers of its world-famous triple-soup base and the artisanal philosophy of Chef Atsushi Yamamoto.",
+      "link": "/ramen/konjiki_hototogisu_en"
+    },
+    {
+      "id": "kyushu_jangara_akihabara_en",
+      "lang": "en",
+      "title": "Unearthing Akihabara's Soul: Kyushu Jangara – The Best Ramen in Tokyo, Chiyoda for Authentic Tonkotsu Excellence",
+      "lat": 35.7022,
+      "lng": 139.7711,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/kyushu_jangara_akihabara.jpg",
+      "address": "Tokyo, Chiyoda",
+      "published": "2026-04-03",
+      "summary": "Journey into the heart of Akihabara to discover Kyushu Jangara, a revered sanctuary for profoundly authentic Tonkotsu ramen that epitomizes Tokyo's vibrant culinary pulse. Each bowl is a symphony of rich, creamy pork broth, meticulously crafted to deliver an unparalleled umami experience that lingers long after the last drop. Prepare for an unforgettable immersion into a local favorite, where traditional Japanese flavors meet a captivating spicy kick, promising a ramen revelation.",
+      "link": "/ramen/kyushu_jangara_akihabara_en"
+    },
+    {
+      "id": "tsuta_en",
+      "lang": "en",
+      "title": "Tsuta: A Symphony of Umami – Discover the Best Ramen in Tokyo, Shibuya",
+      "lat": 35.6644,
+      "lng": 139.6841,
+      "categories": [
+        "Shoyu",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/tsuta.jpg",
+      "address": "Tokyo, Shibuya",
+      "published": "2026-04-03",
+      "summary": "Prepare for an unparalleled culinary journey as Tsuta, the world's first Michelin-starred ramen establishment, invites you to a transcendent bowl of shoyu perfection. Each spoonful is a meticulously crafted symphony of rich broth, exquisite noodles, and premium toppings that will redefine your understanding of ramen. This isn't just a meal; it's an unforgettable gastronomic event, promising to leave you utterly captivated and yearning for more.",
+      "link": "/ramen/tsuta_en"
+    },
+    {
+      "id": "ichiran_fukuoka_main_ko",
+      "lang": "ko",
+      "title": "후쿠오카 하카타 최고의 라멘: 미식의 성지, 이치란 본점에서 돈코츠 라멘의 정수를 만나다",
+      "lat": 33.5931,
+      "lng": 130.4011,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ichiran_fukuoka_main.jpg",
+      "address": "Fukuoka, Hakata",
+      "published": "2026-04-03",
+      "summary": "후쿠오카 하카타의 심장부에서, 이치란 본점은 단순한 라멘을 넘어선 미식 경험을 선사합니다. 깊고 진한 돈코츠 육수의 향연은 첫 모금부터 영혼을 사로잡으며, 완벽하게 조리된 면과 토핑은 잊을 수 없는 감동을 선사합니다. 당신의 미각을 깨울 최고의 한 그릇을 지금 바로 경험해보세요.",
+      "link": "/ramen/ichiran_fukuoka_main_ko"
+    },
+    {
+      "id": "menya_saita_ko",
+      "lang": "ko",
+      "title": "미식가의 심금을 울리는 맛: 삿포로 최고의 라멘, 멘야 사이타를 찾아서",
+      "lat": 43.0611,
+      "lng": 141.3522,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/menya_saita.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-03",
+      "summary": "삿포로의 숨겨진 보석, '멘야 사이타'는 단순한 라멘집이 아닌 미식 경험의 정점입니다. 깊고 농후한 미소 육수와 쫄깃한 면발, 그리고 장인의 손길로 탄생한 환상의 차슈가 어우러져 오감을 황홀하게 합니다. 현지인들이 아끼는 이 작은 공간에서, 당신의 미식 탐험은 비로소 완성될 것입니다.",
+      "link": "/ramen/menya_saita_ko"
+    },
+    {
+      "id": "sumire_sapporo_en",
+      "lang": "en",
+      "title": "A Culinary Revelation: Sumire Sapporo – The Best Miso Ramen in Hokkaido, Sapporo",
+      "lat": 43.0344,
+      "lng": 141.3711,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/sumire_sapporo.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-03",
+      "summary": "Step into Sumire Sapporo and prepare for a transformative culinary journey where the soul of Hokkaido finds expression in every bowl. Their legendary miso ramen, a masterpiece of depth and complexity, promises an umami explosion unlike any other. This is not just a meal; it's an unforgettable encounter with the true spirit of Japanese ramen, leaving an indelible mark on your palate and memory.",
+      "link": "/ramen/sumire_sapporo_en"
+    },
+    {
+      "id": "hakata_shinshin_tenjin_ko",
+      "lang": "ko",
+      "title": "후쿠오카 츄오 최고의 라멘: 하카타 신신 텐진, 그 맛의 심연을 탐하다",
+      "lat": 33.5915,
+      "lng": 130.3988,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/hakata_shinshin_tenjin.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-03",
+      "summary": "후쿠오카의 미식 심장부, 텐진에 위치한 하카타 신신은 단순한 라멘집이 아닙니다. 이곳의 돈코츠 라멘은 깊고 진한 육수와 완벽한 면발, 장인 정신이 깃든 토핑이 어우러져 한 그릇의 예술을 선사합니다. 현지인들이 사랑하는 이 숨겨진 보석에서, 당신의 미각을 깨울 궁극의 라멘 경험을 직접 만나보세요.",
+      "link": "/ramen/hakata_shinshin_tenjin_ko"
+    },
+    {
+      "id": "sumire_sapporo_ko",
+      "lang": "ko",
+      "title": "전설을 맛보다: 홋카이도 삿포로 최고의 라멘, 스미레 삿포로 미소 라멘 가이드",
+      "lat": 43.0344,
+      "lng": 141.3711,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/sumire_sapporo.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-03",
+      "summary": "삿포로의 겨울바람 속, 영혼을 데우는 한 그릇의 미소 라멘을 찾고 계신가요? 스미레 삿포로는 단순한 라멘을 넘어, 깊고 진한 맛의 예술로 미식가들의 마음을 사로잡습니다. 한 입 베어 무는 순간, 미소의 깊은 풍미와 쫄깃한 면발, 그리고 완벽한 차슈가 선사하는 황홀경에 빠져들 준비를 하십시오.",
+      "link": "/ramen/sumire_sapporo_ko"
+    },
+    {
+      "id": "menya_saita_en",
+      "lang": "en",
+      "title": "Menya Saita: Discover the Best Ramen in Hokkaido, Sapporo – An Unforgettable Culinary Journey",
+      "lat": 43.0611,
+      "lng": 141.3522,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/menya_saita.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-03",
+      "summary": "Hidden amidst Sapporo's bustling streets lies Menya Saita, a culinary sanctuary offering an unparalleled ramen experience that transcends mere dining. Prepare to be captivated by their legendary Miso and Tonkotsu broths, each a masterpiece of depth and flavor, promising an adventure for your palate. This is not just a meal; it's an immersion into Hokkaido's soul, leaving an indelible mark on every gourmet traveler.",
+      "link": "/ramen/menya_saita_en"
+    },
+    {
+      "id": "ichiran_fukuoka_main_en",
+      "lang": "en",
+      "title": "Beyond the Velvet Curtain: Unveiling the Best Ramen in Fukuoka, Hakata at Ichiran's Sacred Main Branch",
+      "lat": 33.5931,
+      "lng": 130.4011,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ichiran_fukuoka_main.jpg",
+      "address": "Fukuoka, Hakata",
+      "published": "2026-04-03",
+      "summary": "Prepare for an unparalleled culinary journey as we unveil the very heart of Hakata Tonkotsu ramen at Ichiran's iconic Fukuoka Main Branch. This isn't just a meal; it's a meticulously crafted symphony of rich, creamy broth, perfectly firm noodles, and bespoke toppings designed to transport you to ramen nirvana. Surrender to the sublime, deeply satisfying flavors that define Fukuoka's ramen legacy, leaving an indelible mark on your palate and soul.",
+      "link": "/ramen/ichiran_fukuoka_main_en"
+    },
+    {
+      "id": "tsuta_ko",
+      "lang": "ko",
+      "title": "도쿄 시부야 최고의 라멘: 츠타 – 미슐랭 별이 빛나는 쇼유 라멘의 정점",
+      "lat": 35.6644,
+      "lng": 139.6841,
+      "categories": [
+        "쇼유",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/tsuta.jpg",
+      "address": "Tokyo, Shibuya",
+      "published": "2026-04-03",
+      "summary": "미슐랭 별을 거머쥔 세계 최초의 라멘집, '츠타'는 단순한 한 그릇의 식사가 아닌, 미식의 경지로 끌어올린 쇼유 라멘의 정수를 선사합니다. 트러플 오일이 선사하는 황홀경 속에서 섬세한 육수와 완벽한 면발이 빚어내는 조화는 당신의 미뢰를 완전히 사로잡을 것입니다. 도쿄 시부야의 숨겨진 보석, 츠타에서 잊을 수 없는 라멘 경험을 지금 바로 시작해보세요.",
+      "link": "/ramen/tsuta_ko"
+    },
+    {
+      "id": "hakata_shinshin_tenjin_en",
+      "lang": "en",
+      "title": "Hakata ShinShin Tenjin: Unearthing the Best Ramen in Fukuoka, Chuo – A Tonkotsu Odyssey",
+      "lat": 33.5915,
+      "lng": 130.3988,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/hakata_shinshin_tenjin.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-03",
+      "summary": "In the bustling heart of Fukuoka, Hakata ShinShin Tenjin isn't just a ramen shop; it's a culinary pilgrimage to the soul of Tonkotsu. Prepare your palate for an unparalleled symphony of rich, creamy broth, perfectly firm noodles, and melt-in-your-mouth chashu that defines ramen excellence. This is the authentic taste of Fukuoka, a truly local gem waiting to transform your perception of ramen forever.",
+      "link": "/ramen/hakata_shinshin_tenjin_en"
+    },
+    {
+      "id": "tantanmen_sandaime_ko",
+      "lang": "ko",
+      "title": "도쿄 미나토의 숨겨진 보석: 탄탄멘 산다이메, 당신의 미각을 깨울 Best Ramen in Tokyo, Minato!",
+      "lat": 35.6611,
+      "lng": 139.7211,
+      "categories": [
+        "치킨라멘",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/tantanmen_sandaime.jpg",
+      "address": "Tokyo, Minato",
+      "published": "2026-04-03",
+      "summary": "도쿄 미나토의 한적한 골목, 탄탄멘 산다이메는 단순한 라멘집이 아닙니다. 이국의 향과 압도적인 감칠맛이 폭발하는 국물은 한 입만으로도 미식의 신세계를 선사하죠. 부드러운 면발과 완벽하게 어우러진 비법 양념은 당신의 라멘 경험을 재정의할 것입니다. 지금 당장 이 독보적인 맛의 여정에 동참하세요.",
+      "link": "/ramen/tantanmen_sandaime_ko"
+    },
+    {
+      "id": "hakata_ikkousha_ko",
+      "lang": "ko",
+      "title": "후쿠오카 하카타 최고의 라멘: 이 한 그릇에 담긴 미식의 여정, 하카타 잇코샤",
+      "lat": 33.5891,
+      "lng": 130.4201,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/hakata_ikkousha.jpg",
+      "address": "Fukuoka, Hakata",
+      "published": "2026-04-03",
+      "summary": "후쿠오카 하카타의 숨겨진 보석, 하카타 잇코샤는 단순한 라멘이 아닌, 깊은 역사와 장인의 혼이 담긴 미식 경험을 선사합니다. 한 모금에 펼쳐지는 진한 돈코츠 육수의 향연은 당신의 미각을 깨우고, 잊을 수 없는 감동을 안겨줄 것입니다. 현지인들이 극찬하는 이 진정한 로컬 맛집에서 라멘의 정수를 만나보세요.",
+      "link": "/ramen/hakata_ikkousha_ko"
+    },
+    {
+      "id": "kyushu_jangara_akihabara_ko",
+      "lang": "ko",
+      "title": "아키하바라 돈코츠의 전설: 규슈 장가라, 도쿄 치요다 최고의 라멘을 맛보다",
+      "lat": 35.7022,
+      "lng": 139.7711,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/kyushu_jangara_akihabara.jpg",
+      "address": "Tokyo, Chiyoda",
+      "published": "2026-04-03",
+      "summary": "아키하바라의 번잡함 속에서 찾아낸 미식의 오아시스, 규슈 장가라에서 차원이 다른 돈코츠 라멘을 경험하세요. 깊고 진한 육수의 예술적인 조화와 완벽한 면발, 그리고 입안에서 녹아내리는 차슈는 당신의 미각을 황홀경으로 이끌 것입니다. 도쿄 치요다 여행의 정점을 찍을 이 라멘 한 그릇은 단순한 식사를 넘어 잊을 수 없는 추억으로 남을 것입니다.",
+      "link": "/ramen/kyushu_jangara_akihabara_ko"
+    },
+    {
+      "id": "konjiki_hototogisu_ko",
+      "lang": "ko",
+      "title": "도쿄 신주쿠 최고의 라멘: 미슐랭의 별, 콘지키 호토토기스 쇼유 라멘",
+      "lat": 35.6888,
+      "lng": 139.7055,
+      "categories": [
+        "쇼유",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/konjiki_hototogisu.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-04-03",
+      "summary": "도쿄 신주쿠의 골목, 미식가들의 성지로 불리는 콘지키 호토토기스에서 당신의 미각은 황홀경에 빠질 것입니다. 깊고도 섬세한 쇼유 육수와 완벽한 재료의 조화는 단순한 한 그릇의 라멘을 넘어 예술 작품을 선사합니다. 지금, 전 세계 미식가들이 극찬하는 이 특별한 경험을 직접 만나보세요.",
+      "link": "/ramen/konjiki_hototogisu_ko"
+    },
+    {
+      "id": "fuunji_shinjuku_en",
+      "lang": "en",
+      "title": "The Ultimate Umami Pilgrimage: Why Fuunji is the Best Ramen in Tokyo, Shinjuku",
+      "lat": 35.6875,
+      "lng": 139.6961,
+      "categories": [
+        "Tsukemen",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/fuunji_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-04-03",
+      "summary": "Fuunji represents the pinnacle of Tokyo’s tsukemen culture, blending a creamy chicken-and-seafood broth with theatrical mastery. Under the leadership of the charismatic Miyake-san, this Shinjuku institution offers an explosive umami experience that remains unmatched. For those seeking the definitive dipping noodle, Fuunji is not just a meal; it is a sacred culinary rite of passage.",
+      "link": "/ramen/fuunji_shinjuku_en"
+    },
+    {
+      "id": "menya_musashi_shinjuku_en",
+      "lang": "en",
+      "title": "An Epicurean Odyssey: Menya Musashi Shinjuku, Home to the Best Ramen in Tokyo, Shinjuku",
+      "lat": 35.6934,
+      "lng": 139.7001,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/menya_musashi_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-04-03",
+      "summary": "Step into Menya Musashi Shinjuku, where an unrivaled symphony of rich tonkotsu and vibrant seafood umami awaits to ignite your senses. This legendary 'W-Soup' ramen, a local secret treasured by discerning Tokyoites, promises a bowl so profound, it redefines the very essence of Japanese comfort food. Prepare for an unforgettable culinary journey that will leave you utterly captivated and yearning for more.",
+      "link": "/ramen/menya_musashi_shinjuku_en"
+    },
     {
       "id": "ichiran_shinjuku_ko",
       "lang": "ko",
