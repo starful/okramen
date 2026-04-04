@@ -75,7 +75,13 @@ def generate_ramen_article(safe_name, name, lat, lng, address, lang, features, a
     date: "{datetime.now().strftime('%Y-%m-%d')}"
     agoda: "{agoda}"
     summary: "High-conversion 3-sentence summary (single line)"
-    image_prompt: "Write a single-line Imagen 3 prompt IN ENGLISH for a photorealistic close-up food photo of this ramen bowl. Include: broth color/texture, toppings (chashu, ajitama, nori, menma), steam rising, dark moody restaurant background, shallow depth of field, shot on 85mm lens, professional food photography, high detail"
+    image_prompt: "Write a single-line Imagen prompt IN ENGLISH. 
+        VARY the composition each time — choose ONE of these shots: 
+        [overhead flat-lay / side profile close-up / dramatic top-down / 
+        45-degree angle / steaming macro shot]. 
+        VARY the mood: [dark moody izakaya / bright minimalist / 
+        warm wooden interior / neon-lit late night / rustic counter seat]. 
+        Include the specific broth color/style for {features}."
     ---
 
     [Article Content Structure]
