@@ -2,187 +2,143 @@
    1. Variables & Global Settings
    ========================================= */
 :root {
-    --primary-color: #2c3e50;    /* 깊은 차콜색 (김, 그릇 느낌) */
-    --accent-color: #e74c3c;     /* 라멘의 상징, 진한 빨간색 */
+    --primary-color: #2c3e50;
+    --accent-color: #e74c3c;
     --accent-hover: #c0392b;
-    --bg-color: #fffaf0;        /* 부드러운 미색 (면, 육수 느낌) */
+    --bg-color: #fffaf0;
     --card-bg: #ffffff;
     --text-gray: #555;
-    --gap-size: 24px;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    color: var(--primary-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6; margin: 0; color: var(--primary-color);
     background-color: var(--bg-color);
-    /* 배경에 아주 연한 패턴 추가 */
     background-image: radial-gradient(#f39c12 0.5px, transparent 0.5px);
     background-size: 30px 30px;
 }
 
-.container { max-width: 1200px; margin: 0 auto; background-color: transparent; }
-a { text-decoration: none; color: inherit; transition: color 0.2s; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+a { text-decoration: none; color: inherit; }
 
 /* =========================================
-   2. Header & Navigation
+   2. Header & Navigation (중앙 로고 & 슬림 여백)
    ========================================= */
 header {
     background: rgba(255, 255, 255, 0.98); backdrop-filter: blur(10px);
-    padding: 20px 0 15px 0; position: sticky; top: 0; z-index: 1000;
-    border-bottom: 3px solid var(--accent-color); /* 하단 빨간 포인트 라인 */
-    text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    padding: 10px 0 5px 0; 
+    position: sticky; top: 0; z-index: 1000;
+    border-bottom: 3px solid var(--accent-color);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
-h1 { margin: 0; line-height: 1; }
-.logo-img { height: 90px; width: auto; display: block; margin: 0 auto 10px auto; transition: transform 0.3s ease; }
-.logo-img:hover { transform: scale(1.05); }
-
-.status-bar { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
-.status-badge {
-    background-color: #fff; color: #555; padding: 6px 16px;
-    border-radius: 20px; font-size: 0.85rem; font-weight: 700;
-    display: flex; align-items: center; gap: 6px; border: 1.5px solid #eee;
-}
-.status-badge.highlight { 
-    background-color: #fff5f5; 
-    color: var(--accent-color); 
-    border-color: #ffc9c9; 
-    animation: pulse 2s infinite;
+.header-top {
+    display: flex; 
+    justify-content: center; /* 로고 중앙 정렬 */
+    align-items: center;
+    position: relative;
+    max-width: 1100px; 
+    margin: 0 auto;
+    height: 80px; /* 로고 영역 높이 고정 */
 }
 
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.03); }
-    100% { transform: scale(1); }
+/* 로고 사이즈 크게 확대 */
+.logo-img { 
+    height: 75px; /* PC 로고 사이즈 */
+    width: auto; 
+    display: block;
+    transition: transform 0.3s ease;
 }
 
-/* =========================================
-   3. Theme Filters (라멘 종류 필터)
-   ========================================= */
-.theme-filter-buttons { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding: 0 15px; }
-.theme-button {
-    padding: 8px 18px; font-size: 0.9rem; font-weight: 700; border: 2px solid #eee;
-    background-color: #fff; color: #555; border-radius: 30px; cursor: pointer;
-    transition: all 0.2s ease; display: flex; align-items: center; gap: 6px;
+/* 언어 선택기 우측 끝 고정 */
+.lang-selector { 
+    position: absolute;
+    right: 0; 
+    display: flex; 
+    gap: 5px; 
 }
-.theme-button:hover { background-color: #fff5f5; border-color: var(--accent-color); color: var(--accent-color); }
-.theme-button.active { 
-    background-color: var(--accent-color); 
-    color: white; 
-    border-color: var(--accent-color); 
-    box-shadow: 0 4px 10px rgba(231, 76, 60, 0.3); 
-}
-
-.count-badge { background-color: #eee; color: #666; font-size: 0.75rem; padding: 2px 8px; border-radius: 10px; font-weight: 800; }
-.theme-button.active .count-badge { background-color: rgba(255, 255, 255, 0.3); color: #fff; }
-
-/* =========================================
-   4. Map Section & Markers
-   ========================================= */
-.map-section { width: 100%; height: 60vh; min-height: 400px; background: #ddd; margin-bottom: 0; }
-#map { width: 100%; height: 100%; }
-
-/* 라멘 마커 스타일 */
-.marker-icon {
-    width: 45px; height: 45px; border-radius: 50%; border: 3px solid #fff;
-    background-color: var(--accent-color); box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    background-image: url('/static/images/ramen_marker.png'); /* 라멘 아이콘 필요 */
-    background-size: 28px 28px; background-repeat: no-repeat; background-position: center;
-    cursor: pointer; transition: transform 0.2s ease, z-index 0.1s;
-}
-.marker-icon:hover { transform: scale(1.2) rotate(5deg); z-index: 999; }
-
-/* =========================================
-   5. Main Content (Grid & Cards)
-   ========================================= */
-.content-wrapper { max-width: 1100px; margin: -50px auto 0; padding: 0 20px 60px; position: relative; z-index: 10; }
-
-.intro-box { 
-    background: #fff; padding: 30px; border-radius: 15px; 
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1); text-align: center; margin-bottom: 50px;
-    border-top: 5px solid var(--accent-color);
-}
-.intro-box h2 { font-size: 1.4rem; color: var(--accent-color); margin-bottom: 15px; font-weight: 800; }
-.intro-box p { font-size: 1.05rem; color: var(--text-gray); margin: 0; word-break: keep-all; }
-
-.list-title { text-align: center; font-size: 1.8rem; margin-bottom: 35px; font-weight: 800; color: #333; }
-
-.onsen-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; }
-
-.onsen-card {
-    background: #fff; border-radius: 15px; overflow: hidden; display: flex; flex-direction: column;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); border: 1px solid #f0f0f0;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-}
-.onsen-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.12); }
-
-.card-thumb-link { display: block; position: relative; padding-top: 60%; overflow: hidden; background: #eee; }
-.card-thumb { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
-.onsen-card:hover .card-thumb { transform: scale(1.1); }
-
-.card-content { padding: 25px; flex-grow: 1; display: flex; flex-direction: column; }
-.card-meta { font-size: 0.85rem; color: #e67e22; font-weight: 700; margin-bottom: 10px; text-transform: uppercase; }
-.card-title { font-size: 1.25rem; margin: 0 0 12px 0; line-height: 1.4; color: #222; font-weight: 800; }
-.card-summary {
-    font-size: 0.95rem; color: #666; line-height: 1.7; margin-bottom: 20px;
-    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
-}
-
-.card-footer { border-top: 1px solid #f9f9f9; padding-top: 15px; margin-top: auto; }
-.card-btn { font-size: 0.95rem; color: var(--accent-color); font-weight: 800; text-decoration: none; display: flex; align-items: center; gap: 5px; }
-.card-btn:after { content: '→'; transition: transform 0.2s; }
-.card-btn:hover:after { transform: translateX(5px); }
-
-/* =========================================
-   6. Detail Page & Table Styles
-   ========================================= */
-.detail-container { max-width: 850px; margin: 0 auto; padding: 40px; background: #fff; border-radius: 0 0 20px 20px; }
-.detail-header { text-align: center; margin-bottom: 40px; }
-.detail-title { font-size: 2.2rem; margin-bottom: 15px; color: #222; font-weight: 900; line-height: 1.2; word-break: keep-all; }
-.detail-meta { color: #888; font-size: 1rem; font-weight: 600; }
-
-.detail-img { width: 100%; height: auto; border-radius: 15px; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
-
-.detail-content { font-size: 1.15rem; line-height: 1.9; color: #333; }
-.detail-content h2 { 
-    border-left: 6px solid var(--accent-color); padding-left: 15px; 
-    margin-top: 50px; margin-bottom: 25px; color: #222; font-weight: 800;
-}
-.detail-content table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 1rem; }
-.detail-content th, .detail-content td { padding: 15px; border: 1px solid #eee; }
-.detail-content td:first-child { background: #fffcf0; font-weight: 800; width: 30%; color: #845c21; }
-
-.back-btn { 
-    display: inline-block; margin-top: 50px; padding: 12px 30px; 
-    background: #333; color: white; font-weight: 700; 
-    border-radius: 30px; transition: background 0.2s;
-}
-.back-btn:hover { background: var(--accent-color); }
-
-/* =========================================
-   7. Footer
-   ========================================= */
-footer { text-align: center; padding: 60px 20px; color: #999; background: #fff; border-top: 1px solid #eee; }
-
-/* =========================================
-   8. Mobile Optimizations
-   ========================================= */
-@media (max-width: 768px) {
-    .logo-img { height: 50px; }
-    .status-badge { font-size: 0.75rem; padding: 4px 12px; }
-    .map-section { height: 40vh; }
-    .detail-container { padding: 25px 20px; }
-    .detail-title { font-size: 1.7rem; }
-    .theme-filter-buttons { justify-content: flex-start; overflow-x: auto; padding-bottom: 10px; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; }
-    .theme-button { flex-shrink: 0; padding: 6px 14px; font-size: 0.8rem; }
-}
-
-/* 언어 선택기 */
-.lang-selector { display: flex; justify-content: center; gap: 8px; margin-bottom: 15px; }
 .lang-btn { 
-    padding: 5px 15px; font-size: 0.85rem; font-weight: 700; border: 1.5px solid #ddd; 
+    padding: 5px 10px; font-size: 0.8rem; font-weight: 700; border: 1.5px solid #ddd; 
     background: #fff; color: #777; border-radius: 20px; cursor: pointer;
 }
 .lang-btn.active { background: #333; color: #fff; border-color: #333; }
+
+/* 카테고리 버튼 영역 (PC) */
+.theme-filter-buttons { 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    padding: 10px 0;
+    margin-top: 5px;
+}
+
+.theme-button {
+    padding: 8px 18px; font-size: 0.9rem; font-weight: 700; border: 1.5px solid #eee;
+    background-color: #fff; color: #555; border-radius: 30px; cursor: pointer;
+    transition: all 0.2s; display: flex; align-items: center; gap: 6px;
+    white-space: nowrap;
+}
+.theme-button.active { 
+    background-color: var(--accent-color); color: white; border-color: var(--accent-color); 
+    box-shadow: 0 4px 10px rgba(231, 76, 60, 0.2); 
+}
+.count-badge { background-color: #eee; color: #666; font-size: 0.75rem; padding: 2px 8px; border-radius: 10px; font-weight: 800; }
+
+/* =========================================
+   3. Mobile UX Optimization (Max-width: 768px)
+   ========================================= */
+@media (max-width: 768px) {
+    .container { padding: 0 !important; }
+    header { padding: 5px 0 0px 0 !important; }
+    
+    .header-top { 
+        height: 65px !important; /* 모바일 헤더 높이 압축 */
+        margin-bottom: 0px !important;
+    }
+    
+    /* 모바일 로고 사이즈 키우기 */
+    .logo-img { height: 55px !important; }
+
+    .lang-selector { right: 15px !important; }
+    .lang-btn { padding: 2px 8px !important; font-size: 0.7rem !important; }
+
+    /* [핵심] 카테고리 줄바꿈 금지 및 가로 스크롤 강제 */
+    .theme-filter-buttons {
+        display: flex !important;
+        flex-wrap: nowrap !important; /* 여러 줄 방지 */
+        justify-content: flex-start !important; /* 왼쪽부터 시작 */
+        overflow-x: auto !important; /* 가로 스크롤 활성화 */
+        padding: 5px 15px 12px 15px !important; /* 첫 버튼 안잘리게 왼쪽 패딩 */
+        margin-top: 0px !important;
+        gap: 8px !important;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* 스크롤바 숨기기 */
+    .theme-filter-buttons::-webkit-scrollbar { display: none; }
+    .theme-filter-buttons { -ms-overflow-style: none; scrollbar-width: none; }
+
+    .theme-button { 
+        padding: 6px 14px !important; 
+        font-size: 0.85rem !important;
+        flex-shrink: 0 !important; /* 버튼 형태 보존 */
+    }
+
+    /* 메인 콘텐츠 여백 최적화 */
+    .map-section { height: 50vh !important; }
+    .content-wrapper { margin-top: -15px !important; padding: 0 12px 30px !important; }
+}
+
+/* 이하 기존 Grid/Card/Footer 스타일 동일... */
+.map-section { width: 100%; height: 60vh; min-height: 400px; background: #ddd; }
+#map { width: 100%; height: 100%; }
+.content-wrapper { max-width: 1100px; margin: -40px auto 0; padding: 0 20px 60px; position: relative; z-index: 10; }
+.intro-box { background: #fff; padding: 25px; border-radius: 15px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); text-align: center; margin-bottom: 40px; border-top: 5px solid var(--accent-color); }
+.onsen-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; }
+.onsen-card { background: #fff; border-radius: 15px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.3s ease; border: 1px solid #f0f0f0; }
+.card-thumb { width: 100%; height: 200px; object-fit: cover; }
+.card-content { padding: 20px; flex-grow: 1; }
+footer { text-align: center; padding: 50px 20px; color: #999; background: #fff; border-top: 1px solid #eee; }
+.footer-status { display: flex; justify-content: center; gap: 12px; margin-bottom: 25px; flex-wrap: wrap; }
+.status-badge { background-color: #fff; color: #555; padding: 6px 15px; border-radius: 20px; font-size: 0.8rem; font-weight: 700; display: flex; align-items: center; gap: 6px; border: 1.5px solid #eee; }

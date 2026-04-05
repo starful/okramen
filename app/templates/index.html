@@ -2,79 +2,108 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 파비콘 설정 (경로를 favicon.ico로 통일 추천) -->
-    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
-    <title>OKRamen - Japan Guide</title>
-    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- SEO & Canonical -->
+    <title>OKRamen - Discover Japan's Best Ramen Shops</title>
+    <meta name="description" content="Find the perfect bowl of Japanese Ramen. Filter by Tonkotsu, Shoyu, Chicken, and Vegan ramen on our interactive map.">
+    <link rel="canonical" href="https://okramen.net" />
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KG83DN7X1L"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-KG83DN7X1L');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KG83DN7X1L');
     </script>
 
+    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1><a href="/"><img src="/static/images/logo.png" alt="OKRamen" class="logo-img"></a></h1>
-            <div class="status-bar">
-                <div class="status-badge">🍜 <span id="total-ramens">0</span> Shops</div>
-                <div class="status-badge">📅 <span id="last-updated-date">-</span></div>
+            <!-- [모바일 최적화] 로고와 언어선택기를 한 줄로 배치 -->
+            <div class="header-top">
+                <h1>
+                    <a href="/">
+                        <img src="/static/images/logo.png" alt="OKRamen" class="logo-img">
+                    </a>
+                </h1>
+                <div class="lang-selector">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ko">KO</button>
+                </div>
             </div>
-            <div class="lang-selector">
-                <button class="lang-btn active" data-lang="en">English</button>
-                <button class="lang-btn" data-lang="ko">한국어</button>
-            </div>
-            <div class="theme-filter-buttons" data-group="flavor">
-                <button class="theme-button active" data-theme="all">
-                    All <span class="count-badge" id="count-all">0</span>
-                </button>
-                <button class="theme-button" data-theme="tonkotsu">
-                    🐷 Tonkotsu <span class="count-badge" id="count-tonkotsu">0</span>
-                </button>
-                <button class="theme-button" data-theme="shoyu">
-                    🥣 Shoyu <span class="count-badge" id="count-shoyu">0</span>
-                </button>
-                <button class="theme-button" data-theme="miso">
-                    🍲 Miso <span class="count-badge" id="count-miso">0</span>
-                </button>
-                <button class="theme-button" data-theme="shio">
-                    🧂 Shio <span class="count-badge" id="count-shio">0</span>
-                </button>
-                <button class="theme-button" data-theme="chicken">
-                    🐔 Chicken <span class="count-badge" id="count-chicken">0</span>
-                </button>
-                <button class="theme-button" data-theme="tsukemen">
-                    🥢 Tsukemen <span class="count-badge" id="count-tsukemen">0</span>
-                </button>
-                <button class="theme-button" data-theme="vegan">
-                    🥬 Vegan <span class="count-badge" id="count-vegan">0</span>
-                </button>
-            </div>
+
+            <!-- [모바일 최적화] 카테고리 가로 스크롤 영역 -->
+        <div class="theme-filter-buttons" data-group="flavor">
+            <button class="theme-button active" data-theme="all">All <span class="count-badge" id="count-all">0</span></button>
+            <button class="theme-button" data-theme="tonkotsu">🐷 Tonkotsu <span class="count-badge" id="count-tonkotsu">0</span></button>
+            <button class="theme-button" data-theme="shoyu">🥣 Shoyu <span class="count-badge" id="count-shoyu">0</span></button>
+            <button class="theme-button" data-theme="miso">🍲 Miso <span class="count-badge" id="count-miso">0</span></button>
+            <button class="theme-button" data-theme="shio">🧂 Shio <span class="count-badge" id="count-shio">0</span></button>
+            <button class="theme-button" data-theme="chicken">🐔 Chicken <span class="count-badge" id="count-chicken">0</span></button>
+            <button class="theme-button" data-theme="tsukemen">🥢 Tsukemen <span class="count-badge" id="count-tsukemen">0</span></button>
+            <button class="theme-button" data-theme="vegan">🥬 Vegan <span class="count-badge" id="count-vegan">0</span></button>
+        </div>
         </div>
     </header>
+    
+    <main>
+        <section class="map-section">
+            <div id="map"></div>
+        </section>
 
-    <div id="map" style="width: 100%; height: 500px;"></div>
+        <div class="content-wrapper">
+            <article class="intro-box">
+                <h2>🍜 Discover Your Perfect Bowl in Japan</h2>
+                <p>
+                    OKRamen helps you find the <strong>Best Ramen Shops</strong> across Japan.<br>
+                    Filter by Soup Base, Style, or Diet to find your next legendary meal.
+                </p>
+            </article>
 
-    <div class="content-wrapper">
-        <div id="ramen-list" class="onsen-grid"></div>
-    </div>
+            <section id="list-section">
+                <h2 class="list-title">🎏 Latest Ramen Guides</h2>
+                <div id="ramen-list" class="onsen-grid"></div>
+            </section>
+        </div>
+    </main>
 
+    <!-- [모바일 최적화] 헤더에서 이동해온 메타데이터 상태바 -->
+    <footer>
+        <div class="container">
+            <div class="footer-status">
+                <div class="status-badge">
+                    🍜 <span id="total-ramens">0</span> Ramen Shops
+                </div>
+                <div class="status-badge">
+                    📅 Updated: <span id="last-updated-date">-</span>
+                </div>
+                <div class="status-badge highlight">
+                    🔥 Trending Now
+                </div>
+            </div>
+            <div class="footer-content">
+                <p><strong>OKRamen Project</strong><br>Curating the legendary bowls of Japan.</p>
+                <div class="footer-links">
+                    <a href="/about.html">About & Contact</a> | 
+                    <a href="/privacy.html">Privacy Policy</a>
+                </div>
+                <p class="copyright">&copy; 2026 OKRamen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Google Maps Loader -->
     <script>
     (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
         key: "REDACTED_GOOGLE_API_KEY",
-        v: "beta",
-        map_id: "2938bb3f7f034d7849f653d1" // [추가] 지도 ID를 로더에 포함
+        v: "beta"
     });
     </script>
-    <script src="/static/js/main.js"></script>
+    <script type="module" src="/static/js/main.js"></script>
 </body>
 </html>
