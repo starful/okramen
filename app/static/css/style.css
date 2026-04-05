@@ -129,6 +129,123 @@ header {
     .map-section { height: 50vh !important; }
     .content-wrapper { margin-top: -15px !important; padding: 0 12px 30px !important; }
 }
+/* =========================================
+   4. 상세 페이지 (Detail Page) 스타일 최적화
+   ========================================= */
+
+/* 본문 컨테이너: 가독성을 위해 너비를 제한하고 중앙 정렬 */
+.detail-container {
+    max-width: 850px; 
+    margin: 40px auto; 
+    padding: 40px; 
+    background: #fff; 
+    border-radius: 20px; 
+    box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+}
+
+/* 제목 섹션 */
+.detail-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.detail-title {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    word-break: keep-all; /* 한글 단어 잘림 방지 */
+}
+
+/* 메타 정보 (위치, 태그, 날짜) */
+.detail-meta {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    color: #777;
+    font-size: 0.95rem;
+    padding: 15px;
+    background: #fdfdfd;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+/* 이미지 스타일: 둥근 모서리와 부드러운 그림자 */
+.detail-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 30px 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* 본문 텍스트 가독성 핵심 설정 */
+.detail-content {
+    font-size: 1.15rem;
+    line-height: 1.9; /* 줄 간격을 넓혀서 읽기 편하게 함 */
+    color: #333;
+    letter-spacing: -0.02em;
+}
+
+/* 중제목(H2) 디자인 */
+.detail-content h2 {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 5px solid var(--accent-color);
+    background: linear-gradient(to right, #fff5f5, transparent);
+}
+
+/* 문단 간격 */
+.detail-content p {
+    margin-bottom: 25px;
+}
+
+/* 목록 스타일 */
+.detail-content ul, .detail-content ol {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.detail-content li {
+    margin-bottom: 10px;
+}
+
+/* 하단 버튼 */
+.back-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--primary-color);
+    color: white !important;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+.back-btn:hover {
+    background-color: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+/* 모바일 대응 */
+@media (max-width: 768px) {
+    .detail-container {
+        margin: 0;
+        padding: 25px 20px;
+        border-radius: 0;
+    }
+    .detail-title {
+        font-size: 1.8rem;
+    }
+    .detail-content {
+        font-size: 1.05rem;
+        line-height: 1.8;
+    }
+}
 
 /* 이하 기존 Grid/Card/Footer 스타일 동일... */
 .map-section { width: 100%; height: 60vh; min-height: 400px; background: #ddd; }
