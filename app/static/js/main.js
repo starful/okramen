@@ -1,7 +1,6 @@
 /**
- * OKRamen - Frontend Engine
- * Handles Google Maps (Advanced Markers), Multi-language filtering, 
- * and dynamic UI rendering.
+ * OKRamen - Frontend Engine (Integrated Version)
+ * 필터링 + 다국어 + 마커 팝업(섬네일) 기능 통합
  */
 
 let map;
@@ -9,9 +8,9 @@ let markers = [];
 let allRamens = [];
 let currentLang = 'en';
 let currentTheme = 'all';
+let infoWindow; // 팝업창 객체
 
-// Language to Category Keyword Mapping
-// This ensures that clicking "Tonkotsu" in English also filters "돈코츠" in Korean.
+// 언어별 카테고리 매핑 (한국어 클릭 시에도 영어 데이터와 매칭되도록 함)
 const CATEGORY_MAP = {
     'tonkotsu': { en: 'Tonkotsu', ko: '돈코츠' },
     'shoyu':    { en: 'Shoyu',    ko: '쇼유' },
@@ -23,33 +22,32 @@ const CATEGORY_MAP = {
 };
 
 async function initMap() {
-    // 1. Initialize Map (Advanced Marker requirements: mapId)
     const { Map } = await google.maps.importLibrary("maps");
     const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
 
+    // 팝업창(InfoWindow) 초기화
+    infoWindow = new google.maps.InfoWindow();
+
     const mapOptions = {
-        center: { lat: 36.5, lng: 138.5 }, // Central Japan
+        center: { lat: 36.5, lng: 138.5 }, // 일본 중앙
         zoom: 6,
-        mapId: "OK_RAMEN_MAP_ID", // Required for Advanced Markers
+        mapId: "OK_RAMEN_MAP_ID", // Google Cloud에서 생성한 Map ID 필요
         disableDefaultUI: false,
-        zoomControl: true,
-        streetViewControl: false,
-        mapTypeControl: false,
     };
 
     map = new Map(document.getElementById("map"), mapOptions);
 
-    // 2. Fetch Data
+    // 서버에서 데이터 가져오기
     try {
         const response = await fetch('/api/ramens');
         const data = await response.json();
         allRamens = data.ramens || [];
         
-        // Update Stats in Footer
+        // 하단 상태바 업데이트
         document.getElementById('last-updated-date').textContent = data.last_updated;
         updateBadges();
         
-        // 3. Initial Render
+        // 첫 화면 렌더링
         render();
     } catch (error) {
         console.error("Data fetch failed:", error);
@@ -57,7 +55,7 @@ async function initMap() {
 }
 
 function render() {
-    // Filter data based on Language and Theme
+    // 언어 및 카테고리에 따른 데이터 필터링
     const filtered = allRamens.filter(item => {
         const langMatch = item.lang === currentLang;
         let themeMatch = true;
@@ -75,12 +73,12 @@ function render() {
 }
 
 /**
- * Update Google Map Markers
+ * 지도 마커 업데이트 (섬네일 팝업 포함)
  */
 async function updateMarkers(data) {
     const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
 
-    // Clear existing markers
+    // 기존 마커 제거
     markers.forEach(m => m.map = null);
     markers = [];
 
@@ -89,7 +87,6 @@ async function updateMarkers(data) {
     data.forEach(item => {
         if (!item.lat || !item.lng) return;
 
-        // Custom Pin Style
         const pin = new PinElement({
             background: "#e74c3c",
             borderColor: "#c0392b",
@@ -104,15 +101,27 @@ async function updateMarkers(data) {
             content: pin.element,
         });
 
+        // 마커 클릭 이벤트: 섬네일 팝업 띄우기
         marker.addListener("click", () => {
-            window.location.href = item.link;
+            const contentString = `
+                <div class="info-window-content">
+                    <img src="${item.thumbnail}" alt="${item.title}" style="width:100%; height:120px; object-fit:cover; border-radius:8px;">
+                    <div style="padding:10px 0 5px 0;">
+                        <h4 style="margin:0 0 5px 0; font-size:14px;">${item.title}</h4>
+                        <p style="margin:0 0 10px 0; font-size:12px; color:#666;">${item.address}</p>
+                        <a href="${item.link}" style="display:block; text-align:center; background:#e74c3c; color:white; padding:8px; border-radius:5px; text-decoration:none; font-size:12px; font-weight:bold;">View Details →</a>
+                    </div>
+                </div>
+            `;
+            infoWindow.setContent(contentString);
+            infoWindow.open(map, marker);
         });
 
         markers.push(marker);
         bounds.extend(marker.position);
     });
 
-    // Auto-zoom if markers exist
+    // 마커가 있을 때만 지도 범위 조정
     if (data.length > 0) {
         if (data.length === 1) {
             map.setCenter(markers[0].position);
@@ -124,14 +133,14 @@ async function updateMarkers(data) {
 }
 
 /**
- * Update the Ramen Card List UI
+ * 하단 리스트 카드 업데이트
  */
 function updateList(data) {
     const listContainer = document.getElementById('ramen-list');
     listContainer.innerHTML = '';
 
     if (data.length === 0) {
-        listContainer.innerHTML = `<p style="grid-column: 1/-1; text-align: center; padding: 50px;">No ramen shops found in this category.</p>`;
+        listContainer.innerHTML = `<p style="grid-column:1/-1; text-align:center; padding:50px;">No ramen shops found.</p>`;
         return;
     }
 
@@ -142,12 +151,12 @@ function updateList(data) {
             <a href="${item.link}">
                 <img src="${item.thumbnail}" class="card-thumb" alt="${item.title}" loading="lazy">
                 <div class="card-content">
-                    <span class="status-badge" style="margin-bottom: 8px; font-size: 0.7rem;">
+                    <span class="status-badge" style="margin-bottom:8px; font-size:0.7rem;">
                         ${item.categories.join(' · ')}
                     </span>
-                    <h3 style="margin: 0 0 10px 0; font-size: 1.1rem; line-height: 1.3;">${item.title}</h3>
-                    <p style="font-size: 0.85rem; color: #666; margin-bottom: 15px;">${item.summary}</p>
-                    <div style="font-size: 0.8rem; color: #999;">📍 ${item.address}</div>
+                    <h3 style="margin:0 0 10px 0; font-size:1.1rem; line-height:1.3;">${item.title}</h3>
+                    <p style="font-size:0.85rem; color:#666; margin-bottom:15px;">${item.summary}</p>
+                    <div style="font-size:0.8rem; color:#999;">📍 ${item.address}</div>
                 </div>
             </a>
         `;
@@ -158,11 +167,10 @@ function updateList(data) {
 }
 
 /**
- * Calculate counts for each category badge
+ * 카테고리 버튼 옆의 숫자(Badge) 업데이트
  */
 function updateBadges() {
-    const counts = { all: 0 };
-    Object.keys(CATEGORY_MAP).forEach(key => counts[key] = 0);
+    const counts = { all: 0, tonkotsu: 0, shoyu: 0, miso: 0, shio: 0, chicken: 0, tsukemen: 0, vegan: 0 };
 
     allRamens.filter(r => r.lang === currentLang).forEach(item => {
         counts.all++;
@@ -180,20 +188,21 @@ function updateBadges() {
     });
 }
 
+/**
+ * 현재 활성화된 버튼 UI 표시
+ */
 function updateActiveButtons() {
-    // Theme buttons
     document.querySelectorAll('.theme-button').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.theme === currentTheme);
     });
-    // Lang buttons
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.lang === currentLang);
     });
 }
 
-// Event Listeners
+// 이벤트 바인딩
 document.addEventListener('DOMContentLoaded', () => {
-    // Theme Filter Click
+    // 카테고리 필터 클릭
     document.querySelector('.theme-filter-buttons').addEventListener('click', (e) => {
         const btn = e.target.closest('.theme-button');
         if (!btn) return;
@@ -201,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
         render();
     });
 
-    // Language Toggle Click
+    // 언어 토글 클릭
     document.querySelector('.lang-selector').addEventListener('click', (e) => {
         const btn = e.target.closest('.lang-btn');
         if (!btn) return;
