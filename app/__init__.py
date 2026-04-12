@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, abort, send_from_directory
+from flask import Flask, jsonify, render_template, abort, send_from_directory, redirect
 from flask_compress import Compress
 import json
 import os
@@ -27,6 +27,12 @@ if os.path.exists(DATA_FILE):
     except Exception as e:
         print(f"❌ Data load error: {e}")
         CACHED_DATA = {"ramens":[], "error": "Load failed"}
+
+@app.route('/static/images/<path:filename>')
+def serve_images(filename):
+    import time
+    # ok-project-assets/okramen 폴더를 바라보게 설정
+    return redirect(f"https://storage.googleapis.com/ok-project-assets/okramen/{filename}?v={int(time.time())}")
 
 @app.route('/')
 def index():

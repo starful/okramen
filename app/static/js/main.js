@@ -1,6 +1,9 @@
 /**
- * OKRamen - Frontend Engine (Integrated Version)
- * 필터링 + 다국어 + 마커 팝업(섬네일) 기능 통합
+ * OKRamen Main Engine
+ * - Map ID: 2938bb3f7f034d7849f653d1
+ * - Advanced Markers: Ramen Photos as Markers
+ * - Interaction: Click Marker -> Show InfoWindow -> Go to Detail Page
+ * - Filtering: Bilingual Theme & Language Logic
  */
 
 let map;
@@ -8,139 +11,103 @@ let markers = [];
 let allRamens = [];
 let currentLang = 'en';
 let currentTheme = 'all';
-let infoWindow; // 팝업창 객체
+let infoWindow; // 전역 정보창 (한 번에 하나만 띄우기 위함)
 
-// 언어별 카테고리 매핑 (한국어 클릭 시에도 영어 데이터와 매칭되도록 함)
-const CATEGORY_MAP = {
-    'tonkotsu': { en: 'Tonkotsu', ko: '돈코츠' },
-    'shoyu':    { en: 'Shoyu',    ko: '쇼유' },
-    'miso':     { en: 'Miso',     ko: '미소' },
-    'shio':     { en: 'Shio',     ko: '시오' },
-    'chicken':  { en: 'Chicken',  ko: '치킨라멘' },
-    'tsukemen': { en: 'Tsukemen', ko: '츠케멘' },
-    'vegan':    { en: 'Vegan',    ko: '비건' }
+// [매핑] 영문 필터명과 한국어 카테고리명 연결
+const categoryMap = {
+    'tonkotsu': '돈코츠',
+    'shoyu': '쇼유',
+    'miso': '미소',
+    'shio': '시오',
+    'chicken': '치킨라멘',
+    'tsukemen': '츠케멘',
+    'vegan': '비건'
 };
 
-async function initMap() {
-    const { Map } = await google.maps.importLibrary("maps");
-    const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
-
-    // 팝업창(InfoWindow) 초기화
-    infoWindow = new google.maps.InfoWindow();
-
-    const mapOptions = {
-        center: { lat: 36.5, lng: 138.5 }, // 일본 중앙
-        zoom: 6,
-        mapId: "OK_RAMEN_MAP_ID", // Google Cloud에서 생성한 Map ID 필요
-        disableDefaultUI: false,
-    };
-
-    map = new Map(document.getElementById("map"), mapOptions);
-
-    // 서버에서 데이터 가져오기
+/**
+ * 1. 초기 데이터 로드 및 앱 시작
+ */
+async function initApp() {
     try {
         const response = await fetch('/api/ramens');
         const data = await response.json();
         allRamens = data.ramens || [];
         
-        // 하단 상태바 업데이트
-        document.getElementById('last-updated-date').textContent = data.last_updated;
-        updateBadges();
+        // 푸터 업데이트 정보
+        const updatedDate = document.getElementById('last-updated-date');
+        if (updatedDate) updatedDate.textContent = data.last_updated;
         
-        // 첫 화면 렌더링
-        render();
+        // 구글 지도 및 UI 초기화
+        await initMap();
+        updateUI();
     } catch (error) {
-        console.error("Data fetch failed:", error);
+        console.error("OKRamen loading failed:", error);
     }
 }
 
-function render() {
-    // 언어 및 카테고리에 따른 데이터 필터링
-    const filtered = allRamens.filter(item => {
-        const langMatch = item.lang === currentLang;
-        let themeMatch = true;
+/**
+ * 2. 구글 지도 초기화 (Advanced Markers 필수 설정)
+ */
+async function initMap() {
+    const { Map } = await google.maps.importLibrary("maps");
+    
+    map = new Map(document.getElementById("map"), {
+        center: { lat: 36.2, lng: 138.2 },
+        zoom: 6,
+        mapId: "2938bb3f7f034d7849f653d1", // 사용자 전용 Map ID
+        mapTypeControl: false,
+        streetViewControl: false,
+        fullscreenControl: false,
+    });
 
+    // 정보창 객체 생성
+    infoWindow = new google.maps.InfoWindow();
+}
+
+/**
+ * 3. 화면 업데이트 통합 함수
+ */
+async function updateUI() {
+    const filtered = getFilteredData();
+    
+    renderList(filtered);      // 리스트 렌더링
+    await renderMarkers(filtered);   // 지도 마커 렌더링
+    updateCounts();            // 카테고리 개수 업데이트
+}
+
+/**
+ * 4. 현재 설정(언어, 테마)에 따른 데이터 필터링
+ */
+function getFilteredData() {
+    return allRamens.filter(item => {
+        // 언어 일치 여부
+        const langMatch = item.lang === currentLang;
+        
+        // 테마 일치 여부 (Bilingual 지원)
+        let themeMatch = true;
         if (currentTheme !== 'all') {
-            const targetKeyword = CATEGORY_MAP[currentTheme][currentLang];
-            themeMatch = item.categories.includes(targetKeyword);
+            const korTarget = categoryMap[currentTheme];
+            themeMatch = item.categories.some(cat => 
+                cat.toLowerCase() === currentTheme || cat === korTarget
+            );
         }
+        
         return langMatch && themeMatch;
     });
-
-    updateMarkers(filtered);
-    updateList(filtered);
-    updateActiveButtons();
 }
 
 /**
- * 지도 마커 업데이트 (섬네일 팝업 포함)
+ * 5. 하단 라멘 리스트 렌더링
  */
-async function updateMarkers(data) {
-    const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
-
-    // 기존 마커 제거
-    markers.forEach(m => m.map = null);
-    markers = [];
-
-    const bounds = new google.maps.LatLngBounds();
-
-    data.forEach(item => {
-        if (!item.lat || !item.lng) return;
-
-        const pin = new PinElement({
-            background: "#e74c3c",
-            borderColor: "#c0392b",
-            glyphColor: "white",
-            scale: 0.8
-        });
-
-        const marker = new AdvancedMarkerElement({
-            map: map,
-            position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
-            title: item.title,
-            content: pin.element,
-        });
-
-        // 마커 클릭 이벤트: 섬네일 팝업 띄우기
-        marker.addListener("click", () => {
-            const contentString = `
-                <div class="info-window-content">
-                    <img src="${item.thumbnail}" alt="${item.title}" style="width:100%; height:120px; object-fit:cover; border-radius:8px;">
-                    <div style="padding:10px 0 5px 0;">
-                        <h4 style="margin:0 0 5px 0; font-size:14px;">${item.title}</h4>
-                        <p style="margin:0 0 10px 0; font-size:12px; color:#666;">${item.address}</p>
-                        <a href="${item.link}" style="display:block; text-align:center; background:#e74c3c; color:white; padding:8px; border-radius:5px; text-decoration:none; font-size:12px; font-weight:bold;">View Details →</a>
-                    </div>
-                </div>
-            `;
-            infoWindow.setContent(contentString);
-            infoWindow.open(map, marker);
-        });
-
-        markers.push(marker);
-        bounds.extend(marker.position);
-    });
-
-    // 마커가 있을 때만 지도 범위 조정
-    if (data.length > 0) {
-        if (data.length === 1) {
-            map.setCenter(markers[0].position);
-            map.setZoom(13);
-        } else {
-            map.fitBounds(bounds);
-        }
-    }
-}
-
-/**
- * 하단 리스트 카드 업데이트
- */
-function updateList(data) {
-    const listContainer = document.getElementById('ramen-list');
-    listContainer.innerHTML = '';
+function renderList(data) {
+    const listDiv = document.getElementById('ramen-list');
+    listDiv.innerHTML = '';
 
     if (data.length === 0) {
-        listContainer.innerHTML = `<p style="grid-column:1/-1; text-align:center; padding:50px;">No ramen shops found.</p>`;
+        listDiv.innerHTML = `
+            <div style="grid-column: 1/-1; text-align: center; padding: 100px 0; color: #999;">
+                <p style="font-size: 1.2rem;">🍜 No ramen shops found.</p>
+            </div>`;
         return;
     }
 
@@ -150,74 +117,141 @@ function updateList(data) {
         card.innerHTML = `
             <a href="${item.link}">
                 <img src="${item.thumbnail}" class="card-thumb" alt="${item.title}" loading="lazy">
-                <div class="card-content">
-                    <span class="status-badge" style="margin-bottom:8px; font-size:0.7rem;">
-                        ${item.categories.join(' · ')}
-                    </span>
-                    <h3 style="margin:0 0 10px 0; font-size:1.1rem; line-height:1.3;">${item.title}</h3>
-                    <p style="font-size:0.85rem; color:#666; margin-bottom:15px;">${item.summary}</p>
-                    <div style="font-size:0.8rem; color:#999;">📍 ${item.address}</div>
-                </div>
             </a>
+            <div class="card-content">
+                <h3 class="card-title"><a href="${item.link}">${item.title}</a></h3>
+                <p class="card-summary">${item.summary}</p>
+                <div class="card-meta">
+                    <span>📍 ${item.address}</span>
+                    <span>📅 ${item.published}</span>
+                </div>
+            </div>
         `;
-        listContainer.appendChild(card);
+        listDiv.appendChild(card);
     });
-
-    document.getElementById('total-ramens').textContent = data.length;
 }
 
 /**
- * 카테고리 버튼 옆의 숫자(Badge) 업데이트
+ * 6. 지도 위 커스텀 사진 마커 렌더링 및 클릭 이벤트
  */
-function updateBadges() {
-    const counts = { all: 0, tonkotsu: 0, shoyu: 0, miso: 0, shio: 0, chicken: 0, tsukemen: 0, vegan: 0 };
+async function renderMarkers(data) {
+    const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
-    allRamens.filter(r => r.lang === currentLang).forEach(item => {
-        counts.all++;
-        Object.keys(CATEGORY_MAP).forEach(themeKey => {
-            const keyword = CATEGORY_MAP[themeKey][currentLang];
-            if (item.categories.includes(keyword)) {
-                counts[themeKey]++;
-            }
+    // 기존 마커 메모리 해제 및 삭제
+    markers.forEach(m => m.map = null);
+    markers = [];
+
+    const bounds = new google.maps.LatLngBounds();
+
+    data.forEach(item => {
+        if (!item.lat || !item.lng) return;
+
+        // 마커용 커스텀 HTML 엘리먼트 (라면 사진 원형)
+        const markerTag = document.createElement('div');
+        markerTag.className = 'ramen-marker';
+        markerTag.innerHTML = `<img src="${item.thumbnail}" alt="${item.title}">`;
+
+        // 고급 마커 생성
+        const marker = new AdvancedMarkerElement({
+            map: map,
+            position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
+            title: item.title,
+            content: markerTag,
         });
+
+        // [이벤트] 마커 클릭 시 정보창 띄우기
+        marker.addListener('click', () => {
+            const btnText = currentLang === 'ko' ? '상세 정보 보기' : 'View Details →';
+            
+            const infoContent = `
+                <div class="info-box-content">
+                    <div class="info-box-title">${item.title}</div>
+                    <div class="info-box-address">📍 ${item.address}</div>
+                    <a href="${item.link}" class="info-box-link">${btnText}</a>
+                </div>
+            `;
+            
+            infoWindow.setContent(infoContent);
+            infoWindow.open({
+                anchor: marker,
+                map,
+            });
+        });
+
+        markers.push(marker);
+        bounds.extend(marker.position);
     });
 
-    Object.keys(counts).forEach(key => {
-        const el = document.getElementById(`count-${key}`);
-        if (el) el.textContent = counts[key];
+    // 지도 뷰포트 자동 조정
+    if (data.length > 0 && map) {
+        if (data.length === 1) {
+            map.setCenter(markers[0].position);
+            map.setZoom(14);
+        } else {
+            map.fitBounds(bounds, { padding: 80 });
+        }
+    }
+}
+
+/**
+ * 7. 카테고리 버튼 배지(숫자) 업데이트
+ */
+function updateCounts() {
+    const langData = allRamens.filter(r => r.lang === currentLang);
+    const totalSpan = document.getElementById('total-ramens');
+    const allSpan = document.getElementById('count-all');
+    
+    if (totalSpan) totalSpan.textContent = langData.length;
+    if (allSpan) allSpan.textContent = langData.length;
+
+    Object.keys(categoryMap).forEach(key => {
+        const kor = categoryMap[key];
+        const count = langData.filter(r => 
+            r.categories.some(c => c.toLowerCase() === key || c === kor)
+        ).length;
+        
+        const badge = document.getElementById(`count-${key}`);
+        if (badge) badge.textContent = count;
     });
 }
 
 /**
- * 현재 활성화된 버튼 UI 표시
+ * 8. UI 이벤트 리스너 등록
  */
-function updateActiveButtons() {
-    document.querySelectorAll('.theme-button').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.theme === currentTheme);
-    });
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.lang === currentLang);
-    });
-}
 
-// 이벤트 바인딩
-document.addEventListener('DOMContentLoaded', () => {
-    // 카테고리 필터 클릭
-    document.querySelector('.theme-filter-buttons').addEventListener('click', (e) => {
-        const btn = e.target.closest('.theme-button');
-        if (!btn) return;
-        currentTheme = btn.dataset.theme;
-        render();
-    });
-
-    // 언어 토글 클릭
-    document.querySelector('.lang-selector').addEventListener('click', (e) => {
-        const btn = e.target.closest('.lang-btn');
-        if (!btn) return;
+// 언어 전환 버튼
+document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
         currentLang = btn.dataset.lang;
-        updateBadges();
-        render();
+        
+        // 정보창이 열려있다면 닫기
+        if (infoWindow) infoWindow.close();
+        
+        updateUI();
     });
-
-    initMap();
 });
+
+// 테마 필터 버튼
+document.querySelectorAll('.theme-button').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.theme-button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentTheme = btn.dataset.theme;
+        
+        // 정보창이 열려있다면 닫기
+        if (infoWindow) infoWindow.close();
+        
+        updateUI();
+        
+        // 모바일 스크롤 이동 (지도를 가리지 않게 리스트로 이동)
+        if (window.innerWidth < 768) {
+            const listSection = document.getElementById('list-section');
+            if (listSection) listSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+});
+
+// 앱 실행
+initApp();
