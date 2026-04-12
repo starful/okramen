@@ -127,4 +127,4 @@ def run_generator(limit=10):
             executor.map(lambda p: generate_ramen_article(*p), tasks)
 
 if __name__ == "__main__":
-    run_generator(limit=2)
+    run_generator(limit=20)
