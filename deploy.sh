@@ -117,6 +117,12 @@ else
     print_ok "GitHub push 완료"
 fi
 
+# ── STEP 3.5: GCS 이미지 동기화 ────────────────
+print_step "STEP 3.5 | GCS 이미지 업로드"
+# 로컬의 images 폴더를 GCS 버킷과 동기화 (새로 생긴 파일만 업로드)
+gsutil -m rsync -d app/static/images gs://ok-project-assets/okramen
+print_ok "GCS 업로드 완료"
+
 # ── STEP 4: Cloud Build & Cloud Run ───────
 print_step "STEP 4 / 5  |  Cloud Build & Cloud Run 배포"
 print_info "약 3~5분 소요됩니다..."
