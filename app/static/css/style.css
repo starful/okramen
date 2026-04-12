@@ -90,19 +90,20 @@ header {
    3. Custom Ramen Marker (핵심: 지도 사진 마커)
    ========================================= */
 .ramen-marker {
-    width: 60px;
-    height: 60px;
+    width: 45px;  /* 기존 60px */
+    height: 45px; /* 기존 60px */
     border-radius: 50%;
-    border: 3px solid #fff;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    border: 2px solid #fff; /* 테두리도 약간 얇게 (기존 3px) */
+    box-shadow: 0 3px 10px rgba(0,0,0,0.25);
     overflow: hidden;
     background-color: #fff;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     cursor: pointer;
 }
 
+/* 마우스 올렸을 때(Hover)는 커지게 해서 가독성 확보 */
 .ramen-marker:hover {
-    transform: scale(1.3) translateY(-8px);
+    transform: scale(1.4) translateY(-5px); /* 호버 시에는 충분히 크게 확대 */
     border-color: var(--accent-color);
     z-index: 9999 !important;
 }
@@ -157,6 +158,13 @@ header {
     .map-section { height: 50vh !important; }
     .content-wrapper { margin-top: -15px !important; padding: 0 12px 30px !important; }
     .ramen-marker { width: 48px; height: 48px; }
+
+    .ramen-marker {
+        width: 35px;  /* 기존 48px */
+        height: 35px; /* 기존 48px */
+        border: 1.5px solid #fff;
+    }
+
 }
 
 /* =========================================
