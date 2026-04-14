@@ -278,4 +278,47 @@ footer { text-align: center; padding: 50px 20px; color: #999; background: #fff; 
     background-color: var(--accent-hover);
 }
 
-/* ... (나머지 기존 스타일 유지) ... */
+/* =========================================
+   8. Guide Section Custom Styles
+   ========================================= */
+.guide-highlight-section {
+    border: 3px solid var(--accent-color); /* 빨간색 테두리 */
+    padding: 30px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-bottom: 60px;
+    box-shadow: 0 10px 30px rgba(231, 76, 60, 0.1);
+}
+
+.guide-section-title {
+    color: var(--accent-color) !important;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.view-all-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-view-all {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: var(--accent-color);
+    color: white !important;
+    border-radius: 30px;
+    font-weight: 800;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+}
+
+.btn-view-all:hover {
+    transform: translateY(-3px);
+    background-color: var(--accent-hover);
+    box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+}

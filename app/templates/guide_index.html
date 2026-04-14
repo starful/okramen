@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Ramen Guides - OKRamen</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <div class="content-wrapper" style="margin-top: 40px;">
+        <h2 class="list-title" style="text-align: center;">📖 All Japanese Ramen Guides</h2>
+        
+        <!-- 💡 중앙 언어 선택 버튼 삭제됨 -->
+
+        <div class="onsen-grid">
+            {% for guide in guides.get(lang, []) %}
+            <a href="/guide/{{ guide.id }}" class="onsen-card">
+                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
+                <div class="card-content">
+                    <h3 class="card-title">{{ guide.title }}</h3>
+                    <p class="card-summary">{{ guide.summary }}</p>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="/" class="back-btn">🗺️ Back to Map</a>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+</body>
+</html>

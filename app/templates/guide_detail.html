@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="{{ post.lang if post.lang else 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ post.title }} - OKRamen Guide</title>
+    <meta name="description" content="{{ post.summary }}">
+    <link rel="stylesheet" href="/static/css/style.css">
+    
+    <!-- SEO: Article Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "{{ post.title }}",
+      "image": "https://okramen.net{{ post.thumbnail }}",
+      "datePublished": "{{ post.date }}",
+      "description": "{{ post.summary }}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "OKRamen",
+        "logo": {"@type": "ImageObject", "url": "https://okramen.net/static/images/logo.png"}
+      }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container header-top">
+            <a href="/"><img src="/static/images/logo.png" alt="OKRamen" class="logo-img"></a>
+            <a href="/guide" style="margin-left:auto; font-weight:bold; color:#777;">← Back to Guides</a>
+        </div>
+    </header>
+
+    <article class="detail-container">
+        <div class="detail-header">
+            <h1 class="detail-title">{{ post.title }}</h1>
+            <p style="color:#888;">📅 {{ post.date }}</p>
+        </div>
+
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
+
+        <div class="detail-content">
+            {{ content | safe }}
+        </div>
+        
+        <!-- 읽고 나서 맵으로 유도 -->
+        <div style="text-align: center; margin-top: 50px; padding: 30px; background: var(--bg-color); border-radius: 15px;">
+            <h3>Hungry? Find Ramen near you!</h3>
+            <a href="/" class="back-btn">🗺️ Explore Ramen Map</a>
+        </div>
+    </article>
+    {% include 'footer.html' %}
+</body>
+</html>

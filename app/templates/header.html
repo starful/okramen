@@ -1,0 +1,47 @@
+<header>
+    <div class="container">
+        <div class="header-top">
+            <h1>
+                <a href="/">
+                    <img src="/static/images/logo.png" alt="OKRamen" class="logo-img">
+                </a>
+            </h1>
+            
+            <a href="/guide" style="margin-left:auto; margin-right: 15px; font-weight:bold; color:var(--accent-color);">📖 Guide</a>
+
+            <div class="lang-selector">
+                {% if post %}
+                    <!-- 1. 상세 페이지(가게 또는 가이드)일 때: 반대 언어 글로 이동 -->
+                    <a href="{{ '/ramen/' if 'guide' not in request.path else '/guide/' }}{{ post.id | replace('_ko', '_en') if post.lang == 'ko' else post.id | replace('_en', '_ko') }}" 
+                       class="lang-btn {% if post.lang == 'en' %}active{% endif %}">English</a>
+                    <a href="{{ '/ramen/' if 'guide' not in request.path else '/guide/' }}{{ post.id | replace('_en', '_ko') if post.lang == 'en' else post.id | replace('_ko', '_en') }}" 
+                       class="lang-btn {% if post.lang == 'ko' %}active{% endif %}">한국어</a>
+                
+                {% elif request.path == '/guide' %}
+                    <!-- 2. 가이드 목록 페이지일 때: 쿼리 스트링(?lang=)으로 언어 교체 -->
+                    <a href="/guide?lang=en" class="lang-btn {% if lang == 'en' %}active{% endif %}">English</a>
+                    <a href="/guide?lang=ko" class="lang-btn {% if lang == 'ko' %}active{% endif %}">한국어</a>
+                
+                {% else %}
+                    <!-- 3. 메인 페이지일 때: 기존 JS 토글 방식 유지 -->
+                    <button class="lang-btn active" data-lang="en">English</button>
+                    <button class="lang-btn" data-lang="ko">한국어</button>
+                {% endif %}
+            </div>
+        </div>
+        
+        {% if request.path == '/' %}
+        <div class="theme-filter-buttons" data-group="flavor">
+            <!-- 기존 카테고리 버튼들 유지 -->
+            <button class="theme-button active" data-theme="all">All <span class="count-badge" id="count-all">0</span></button>
+            <button class="theme-button" data-theme="tonkotsu">🐷 Tonkotsu</button>
+            <button class="theme-button" data-theme="shoyu">🥣 Shoyu</button>
+            <button class="theme-button" data-theme="miso">🍲 Miso</button>
+            <button class="theme-button" data-theme="shio">🧂 Shio</button>
+            <button class="theme-button" data-theme="chicken">🐔 Chicken</button>
+            <button class="theme-button" data-theme="tsukemen">🥢 Tsukemen</button>
+            <button class="theme-button" data-theme="vegan">🥬 Vegan</button>
+        </div>
+        {% endif %}
+    </div>
+</header>

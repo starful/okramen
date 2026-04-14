@@ -1,7 +1,695 @@
 {
-  "last_updated": "2026.04.03",
-  "total_count": 34,
+  "last_updated": "2026.04.14",
+  "total_count": 77,
   "ramens": [
+    {
+      "id": "ryukishin_rize_en",
+      "lang": "en",
+      "title": "The Alchemist of Salt: Discovering the Best Ramen in Osaka, Naniwa at Ryukishin RIZE",
+      "lat": 34.6611,
+      "lng": 135.5011,
+      "categories": [
+        "Shio",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/ryukishin_rize.jpg",
+      "address": "Osaka, Naniwa",
+      "published": "2026-04-12",
+      "summary": "Experience the pinnacle of salt-based broth at Ryukishin RIZE, where Michelin-recognized craftsmanship meets the profound umami of the sea. This refined sanctuary in Namba redefines ramen as a luxury art form, offering a clear, multi-layered soup that haunts the palate long after the final slurp. For those seeking the absolute best ramen in Osaka, Naniwa, this is an essential pilgrimage of flavor and elegance.",
+      "link": "/ramen/ryukishin_rize_en"
+    },
+    {
+      "id": "menya_inoichi_en",
+      "lang": "en",
+      "title": "The Golden Standard of Dashi: Why Menya Inoichi is the Best Ramen in Kyoto, Shimogyo",
+      "lat": 35.0011,
+      "lng": 135.7611,
+      "categories": [
+        "Shoyu",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/menya_inoichi.jpg",
+      "address": "Kyoto, Shimogyo",
+      "published": "2026-04-12",
+      "summary": "Experience the zenith of Kyoto-style refinement at Menya Inoichi, where Michelin-recognized dashi meets premium A4 Wagyu in a bowl of pure elegance. This is not merely a meal, but a masterclass in the subtle art of Japanese Shoyu ramen. A must-visit destination for those seeking the ultimate culinary harmony in the heart of Shimogyo.",
+      "link": "/ramen/menya_inoichi_en"
+    },
+    {
+      "id": "ramen_yashichi_en",
+      "lang": "en",
+      "title": "The Velvety Alchemist: Why Yashichi is the Undisputed Best Ramen in Osaka, Kita",
+      "lat": 34.7111,
+      "lng": 135.4988,
+      "categories": [
+        "Chicken",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_yashichi.jpg",
+      "address": "Osaka, Kita",
+      "published": "2026-04-12",
+      "summary": "Discover the creamy poultry perfection of Ramen Yashichi, a legendary Osaka institution where high-pressure chicken reduction meets artisan soy sauce. This guide explores the meticulous craft behind their famous foam-topped broth and the exclusive ticketing system that preserves its local soul. Experience the pinnacle of Tori Paitan craftsmanship in the heart of Toyosaki.",
+      "link": "/ramen/ramen_yashichi_en"
+    },
+    {
+      "id": "hanamaruken_en",
+      "lang": "en",
+      "title": "The Pork Rib Masterpiece: Why Hanamaruken is the Best Ramen in Osaka, Chuo",
+      "lat": 34.6681,
+      "lng": 135.5011,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/hanamaruken.jpg",
+      "address": "Osaka, Chuo",
+      "published": "2026-04-12",
+      "summary": "Indulge in the legendary slow-braised pork rib ramen at Hanamaruken, widely considered the most authentic local gem in Osaka's Chuo district. This deep-dive review explores the complex Tonkotsu-Shoyu broth and the meltingly tender 'Soft Bone' pork that defines the city's culinary soul. Experience why this neon-lit sanctuary remains a pilgrimage site for ramen purists seeking the ultimate bowl of happiness.",
+      "link": "/ramen/hanamaruken_en"
+    },
+    {
+      "id": "kadoya_shokudo_en",
+      "lang": "en",
+      "title": "The Pinnacle of Craftsmanship: Why Kadoya Shokudo is the Best Ramen in Osaka, Nishi",
+      "lat": 34.6755,
+      "lng": 135.4855,
+      "categories": [
+        "Shoyu",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/kadoya_shokudo.jpg",
+      "address": "Osaka, Nishi",
+      "published": "2026-04-12",
+      "summary": "Experience the ultimate expression of artisanal Shoyu ramen at Kadoya Shokudo, a Michelin-recognized sanctuary of flavor in Osaka's Nishi district. This legendary establishment redefines the boundaries of soup and noodles through a relentless pursuit of ingredient purity and traditional technique. From the first sip of its complex, golden broth to the final silk-smooth noodle, this is a masterclass in Japanese culinary excellence.",
+      "link": "/ramen/kadoya_shokudo_en"
+    },
+    {
+      "id": "mouko_tanmen_nakamoto_ko",
+      "lang": "ko",
+      "title": "도쿄 도시마의 붉은 전설: 모우코 탄멘 나카모토, 미각의 한계를 시험하는 궁극의 미학 (Best Ramen in Tokyo, Toshima)",
+      "lat": 35.7315,
+      "lng": 139.7122,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/mouko_tanmen_nakamoto.jpg",
+      "address": "Tokyo, Toshima",
+      "published": "2026-04-12",
+      "summary": "도쿄 도시마구에서 만나는 모우코 탄멘 나카모토는 단순한 라멘을 넘어 일본 매운맛 문화의 정수를 보여주는 성지입니다. 진한 돈코츠 베이스와 비법 미소, 그리고 폭발적인 고춧가루의 조화는 미식가들에게 잊지 못할 강렬한 카타르시스를 선사합니다. 현지인들이 줄을 서서 기다리는 이 공간에서 당신의 미각은 새로운 차원의 미학을 경험하게 될 것입니다.",
+      "link": "/ramen/mouko_tanmen_nakamoto_ko"
+    },
+    {
+      "id": "ganso_nagahamaya_en",
+      "lang": "en",
+      "title": "The Primal Essence of Tonkotsu: Why Ganso Nagahamaya is the Best Ramen in Fukuoka, Chuo",
+      "lat": 33.5955,
+      "lng": 130.3811,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ganso_nagahamaya.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-12",
+      "summary": "Experience the spiritual birthplace of Nagahama ramen, where a thin, soul-piercing pork broth meets the lightning-fast efficiency of Fukuoka's historic fish market docks. This legendary institution offers a masterclass in minimalist perfection, delivering an authentic local flavor that has remained unchanged for generations. From the ritualistic 'Kae-dama' to the rustic harbor atmosphere, it is an essential pilgrimage for any true culinary enthusiast.",
+      "link": "/ramen/ganso_nagahamaya_en"
+    },
+    {
+      "id": "ebisoba_ichigen_ko",
+      "lang": "ko",
+      "title": "[미식 가이드] 홋카이도 삿포로 최고의 라멘(Best Ramen in Hokkaido, Sapporo), 에비소바 이치겐의 예술적 심연",
+      "lat": 43.0511,
+      "lng": 141.3411,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ebisoba_ichigen.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-12",
+      "summary": "홋카이도 대지의 축복과 바다의 정수를 한 그릇에 담아낸 에비소바 이치겐은 삿포로 라멘의 패러다임을 바꾼 독보적인 성지입니다. 수천 마리의 단새우 머리를 우려낸 진득한 육수와 깊은 미소의 풍미가 어우러져 미식가들에게 잊을 수 없는 미각의 충격을 선사합니다. 현지인과 여행객 모두를 매료시킨 이 전설적인 라멘은 단순한 한 끼를 넘어 삿포로가 가진 미식 철학의 정점을 보여줍니다.",
+      "link": "/ramen/ebisoba_ichigen_ko"
+    },
+    {
+      "id": "mennoya_ko",
+      "lang": "ko",
+      "title": "Best Ramen in Osaka, Chuo: 오사카의 심장을 울리는 궁극의 쇼유, 멘노야(Mennoya) 완벽 가이드",
+      "lat": 34.6811,
+      "lng": 135.5111,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/mennoya.jpg",
+      "address": "Osaka, Chuo",
+      "published": "2026-04-12",
+      "summary": "오사카 중앙구의 숨겨진 보석 멘노야는 장인 정신이 깃든 깊은 쇼유 육수로 현지인들의 입맛을 사로잡은 진정한 로컬 맛집입니다. 화려한 기교 대신 원재료의 정점을 찍는 육수와 면의 조화는 미식가들에게 잊지 못할 미학적 경험을 선사합니다. 이곳은 단순한 식사를 넘어 오사카 라멘의 정수를 경험하고자 하는 여행자들에게 필수적인 성지입니다.",
+      "link": "/ramen/mennoya_ko"
+    },
+    {
+      "id": "bankara_ramen_en",
+      "lang": "en",
+      "title": "The Decadent Masterpiece: Discovering the Best Ramen in Tokyo, Toshima at Bankara Ramen",
+      "lat": 35.7311,
+      "lng": 139.7111,
+      "categories": [
+        "Tonkotsu",
+        "Late Night"
+      ],
+      "thumbnail": "/static/images/bankara_ramen.jpg",
+      "address": "Tokyo, Toshima",
+      "published": "2026-04-12",
+      "summary": "An exploration of the rich, lard-infused depths of Bankara’s signature broth that defines the Ikebukuro ramen scene. Experience a masterclass in the balance of sweet pork fat and savory shoyu, served in a high-energy setting that thrives under the moonlight. This is not just a meal; it is a pilgrimage for those who seek the pinnacle of decadent Tokyo comfort food.",
+      "link": "/ramen/bankara_ramen_en"
+    },
+    {
+      "id": "ramen_sen-no-kaze_en",
+      "lang": "en",
+      "title": "The Kyoto Umami Odyssey: Why Ramen Sen-no-kaze is the Best Ramen in Kyoto, Nakagyo",
+      "lat": 35.0033,
+      "lng": 135.7688,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_sen-no-kaze.jpg",
+      "address": "Kyoto, Nakagyo",
+      "published": "2026-04-12",
+      "summary": "Experience the pinnacle of refined Kyoto craftsmanship where creamy tonkotsu meets artistic precision in the heart of Nakagyo. This local gem offers a transformative dining experience that redefines the boundaries of traditional pork-bone broth. Prepare for an unforgettable journey through layers of deep umami and torch-seared perfection.",
+      "link": "/ramen/ramen_sen-no-kaze_en"
+    },
+    {
+      "id": "butayama_ko",
+      "lang": "ko",
+      "title": "도쿄 신주쿠 최고의 라멘(Best Ramen in Tokyo, Shinjuku) - 돼지 고기의 정점, 라멘 부타야마(Butayama)의 미학적 분석",
+      "lat": 35.6944,
+      "lng": 139.7022,
+      "categories": [
+        "돈코츠",
+        "혼밥성지"
+      ],
+      "thumbnail": "/static/images/butayama.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-04-12",
+      "summary": "신주쿠 한복판에서 만나는 지로계 라멘의 정수, 부타야마는 압도적인 비주얼과 깊은 돈코츠 베이스의 풍미로 미식가들을 사로잡습니다. 두툼한 차슈와 산더미 같은 채소, 그리고 강렬한 마늘의 조화는 단순한 한 끼를 넘어선 강렬한 미식 경험을 선사합니다. 혼자서도 완벽하게 몰입할 수 있는 이곳에서 도쿄 최고의 돈코츠 라멘을 직접 확인해보시기 바랍니다.",
+      "link": "/ramen/butayama_ko"
+    },
+    {
+      "id": "ippudo_daimyo_en",
+      "lang": "en",
+      "title": "The Genesis of Tonkotsu Perfection: Why Ippudo Daimyo is the Best Ramen in Fukuoka, Chuo",
+      "lat": 33.5877,
+      "lng": 130.3944,
+      "categories": [
+        "Tonkotsu",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/ippudo_daimyo.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-12",
+      "summary": "Ippudo Daimyo stands as the hallowed ancestral home of a global culinary empire, offering a refined and artisanal Tonkotsu experience that transcends its international counterparts. This flagship location delivers a masterclass in balance, pairing a velvet-textured pork bone broth with precision-crafted noodles that define the Hakata spirit. For those seeking the ultimate gastronomic pilgrimage, this is the definitive destination for the best ramen in Fukuoka, Chuo.",
+      "link": "/ramen/ippudo_daimyo_en"
+    },
+    {
+      "id": "jinrui_mina_menrui_en",
+      "lang": "en",
+      "title": "The Orchestration of Umami: Why Jinrui Mina Menrui is the Absolute Best Ramen in Osaka, Yodogawa",
+      "lat": 34.7311,
+      "lng": 135.4911,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/jinrui_mina_menrui.jpg",
+      "address": "Osaka, Yodogawa",
+      "published": "2026-04-12",
+      "summary": "A masterclass in modern shoyu ramen, Jinrui Mina Menrui redefines Osaka’s culinary landscape through its legendary clam-infused broth and melt-in-your-mouth chashu. Nestled in the heart of Yodogawa, this shop bridges the gap between artisanal innovation and local comfort, making it an essential pilgrimage for every serious noodle enthusiast. Experience the harmony of flavor and melody in a bowl that captures the very soul of Kansai.",
+      "link": "/ramen/jinrui_mina_menrui_en"
+    },
+    {
+      "id": "ramen_jiro_mita_en",
+      "lang": "en",
+      "title": "The Alchemical Masterpiece of Pork: Finding the Best Ramen in Tokyo, Minato at Ramen Jiro Mita",
+      "lat": 35.6481,
+      "lng": 139.7411,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_jiro_mita.jpg",
+      "address": "Tokyo, Minato",
+      "published": "2026-04-12",
+      "summary": "Discover the legendary birthplace of the 'Jirorian' cult at Ramen Jiro Mita Honten, where raw culinary power meets the ultimate pork-fat obsession. This is more than a meal; it is a high-salinity, high-calorie pilgrimage to the very heart of Tokyo's most visceral food subculture. Prepare for an unapologetic sensory assault that redefines the boundaries of the Tonkotsu genre in the shadow of Keio University.",
+      "link": "/ramen/ramen_jiro_mita_en"
+    },
+    {
+      "id": "muteppou_kyoto_ko",
+      "lang": "ko",
+      "title": "교토 키즈가와의 정점: 무테포(無鉄砲) - 인생 최고의 돈코츠 라멘을 만나는 성지 (Best Ramen in Kyoto, Kizugawa)",
+      "lat": 34.7522,
+      "lng": 135.8311,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/muteppou_kyoto.jpg",
+      "address": "Kyoto, Kizugawa",
+      "published": "2026-04-12",
+      "summary": "교토 키즈가와에 위치한 무테포는 오직 돼지 뼈와 물만으로 끓여낸 초고농축 돈코츠 라멘의 정점을 보여주는 전설적인 현지인 맛집입니다. 미슐랭 가이드급의 깊이 있는 육수와 장인 정신이 깃든 면발의 조화는 단순한 식사를 넘어선 미식의 감동을 선사합니다. 라멘 마니아라면 반드시 방문해야 할 이곳에서 타협 없는 진정한 로컬의 맛을 경험해 보시기 바랍니다.",
+      "link": "/ramen/muteppou_kyoto_ko"
+    },
+    {
+      "id": "goryo_ramen_en",
+      "lang": "en",
+      "title": "The Liquid Gold of Nakagyo: Why Goryo Ramen is the Best Ramen in Kyoto, Nakagyo",
+      "lat": 35.0116,
+      "lng": 135.7595,
+      "categories": [
+        "Shoyu",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/goryo_ramen.jpg",
+      "address": "Kyoto, Nakagyo",
+      "published": "2026-04-12",
+      "summary": "An exquisite exploration of refined Shoyu ramen that captures the historic soul of Kyoto through artisan ingredients and a high-end, minimalist aesthetic. This hidden gem in Nakagyo represents the pinnacle of premium noodle craft, offering a sensory journey through layers of umami and sophisticated elegance. Experience the definitive local favorite where traditional dashi meets modern culinary precision in every golden drop.",
+      "link": "/ramen/goryo_ramen_en"
+    },
+    {
+      "id": "aji_no_kura_ko",
+      "lang": "ko",
+      "title": "후쿠오카 하카타 최고의 라멘(Best Ramen in Fukuoka, Hakata): 아지노쿠라의 깊고 매혹적인 미학",
+      "lat": 33.5911,
+      "lng": 130.4111,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/aji_no_kura.jpg",
+      "address": "Fukuoka, Hakata",
+      "published": "2026-04-12",
+      "summary": "후쿠오카 하카타의 정수를 담아낸 아지노쿠라는 깊은 풍미의 돈코츠 베이스와 정교한 매운맛이 어우러진 미식의 성지입니다. 현지인들이 신뢰하는 이 숨은 보석은 장인 정신이 깃든 육수와 완벽한 면발의 조화로 당신의 미각을 깨울 것입니다. 하카타 라멘의 진정한 영혼을 경험하고 싶다면 아지노쿠라는 선택이 아닌 필수입니다.",
+      "link": "/ramen/aji_no_kura_ko"
+    },
+    {
+      "id": "hokkaido_ramen_santouka_ko",
+      "lang": "ko",
+      "title": "홋카이도 아사히카와의 정점, 전설적인 시오 라멘의 성지 '산토카(Santouka)': Best Ramen in Hokkaido, Asahikawa",
+      "lat": 43.7681,
+      "lng": 142.3522,
+      "categories": [
+        "시오",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/hokkaido_ramen_santouka.jpg",
+      "address": "Hokkaido, Asahikawa",
+      "published": "2026-04-12",
+      "summary": "아사히카와 본점에서만 만날 수 있는 진한 돈코츠 베이스의 시오 라멘은 미식의 한계를 뛰어넘는 깊은 풍미를 자랑합니다. 1988년부터 이어져 온 산토카의 철학이 담긴 하얀 국물과 입안에서 녹아내리는 토로니쿠 차슈의 조화는 가히 압도적입니다. 전 세계를 매료시킨 전설의 시작점, 홋카이도 최고의 라멘을 맛보는 미식 여행의 정수를 경험해 보시기 바랍니다.",
+      "link": "/ramen/hokkaido_ramen_santouka_ko"
+    },
+    {
+      "id": "zundoya_osaka_ko",
+      "lang": "ko",
+      "title": "오사카 츄오구 최고의 라멘 (Best Ramen in Osaka, Chuo): 즈도야(Zundoya)가 선사하는 강렬한 돈코츠의 미학",
+      "lat": 34.6711,
+      "lng": 135.5011,
+      "categories": [
+        "돈코츠",
+        "심야영업"
+      ],
+      "thumbnail": "/static/images/zundoya_osaka.jpg",
+      "address": "Osaka, Chuo",
+      "published": "2026-04-12",
+      "summary": "오사카 츄오구의 중심에서 24시간 불을 밝히는 즈도야는 20시간 이상 고아낸 농밀한 돼지 사골 육수와 중독적인 매운맛의 정수를 보여주는 돈코츠 라멘의 성지입니다. 이곳은 단순한 한 끼를 넘어 오사카 심야 미식 문화의 정점을 경험하게 하며, 육중한 무게감의 육수와 정교한 면의 조화로 미식가들의 찬사를 받습니다.",
+      "link": "/ramen/zundoya_osaka_ko"
+    },
+    {
+      "id": "muteppou_kyoto_en",
+      "lang": "en",
+      "title": "The Viscosity of Obsession: Why Muteppou is the Undisputed Best Ramen in Kyoto, Kizugawa",
+      "lat": 34.7522,
+      "lng": 135.8311,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/muteppou_kyoto.jpg",
+      "address": "Kyoto, Kizugawa",
+      "published": "2026-04-12",
+      "summary": "Muteppou Kyoto stands as a gargantuan pillar of the ramen world, offering a pork-bone elixir so concentrated it redefines the very essence of 'Kotteri' soup. This Kizugawa institution eschews modern shortcuts, utilizing hundreds of kilograms of bones to create a broth that is more an experience of gravity than a mere meal. For those seeking the ultimate expression of Tonkotsu, this is the definitive pilgrimage site that transcends culinary norms.",
+      "link": "/ramen/muteppou_kyoto_en"
+    },
+    {
+      "id": "ramen_jiro_mita_ko",
+      "lang": "ko",
+      "title": "도쿄 미나토구 최고의 라멘(Best Ramen in Tokyo, Minato) - 라멘 지로 미타 본점: 전설의 시작과 지로리언의 성지",
+      "lat": 35.6481,
+      "lng": 139.7411,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_jiro_mita.jpg",
+      "address": "Tokyo, Minato",
+      "published": "2026-04-12",
+      "summary": "라멘 지로 미타 본점은 전설적인 '지로리언' 문화의 발상지이자, 압도적인 양과 강렬한 돈코츠 육수의 정수를 보여주는 도쿄 최고의 미식 성지입니다. 이곳은 단순한 식당을 넘어 하나의 철학이자 도전이며, 투박하지만 깊이 있는 맛으로 전 세계 미식가들을 매료시키는 특별한 경험을 선사합니다. 세월의 흔적이 묻어나는 노포의 분위기 속에서 펼쳐지는 거대한 라멘 한 그릇은 당신의 미식 세계관을 완전히 뒤바꿔 놓을 것입니다.",
+      "link": "/ramen/ramen_jiro_mita_ko"
+    },
+    {
+      "id": "zundoya_osaka_en",
+      "lang": "en",
+      "title": "The Alchemical Pursuit of Pork: Why Zundoya is the Best Ramen in Osaka, Chuo",
+      "lat": 34.6711,
+      "lng": 135.5011,
+      "categories": [
+        "Tonkotsu",
+        "Late Night"
+      ],
+      "thumbnail": "/static/images/zundoya_osaka.jpg",
+      "address": "Osaka, Chuo",
+      "published": "2026-04-12",
+      "summary": "Experience the pinnacle of Himeji-style tonkotsu at Zundoya, a sanctuary for those seeking a rich, velvety broth in the heart of Osaka. From customizable back-fat levels to the fiery depth of their signature spices, every bowl is a masterclass in culinary intensity. This is more than a meal; it is a late-night pilgrimage for the world's most discerning palates.",
+      "link": "/ramen/zundoya_osaka_en"
+    },
+    {
+      "id": "hokkaido_ramen_santouka_en",
+      "lang": "en",
+      "title": "The Ultimate Asahikawa Pilgrimage: Discovering the Best Ramen in Hokkaido, Asahikawa at Santouka",
+      "lat": 43.7681,
+      "lng": 142.3522,
+      "categories": [
+        "Shio",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/hokkaido_ramen_santouka.jpg",
+      "address": "Hokkaido, Asahikawa",
+      "published": "2026-04-12",
+      "summary": "A masterclass in culinary balance, Santouka’s legendary white tonkotsu shio broth offers a creamy, soul-warming experience that defines the Asahikawa ramen landscape.",
+      "link": "/ramen/hokkaido_ramen_santouka_en"
+    },
+    {
+      "id": "aji_no_kura_en",
+      "lang": "en",
+      "title": "The Alchemist’s Cauldron: Why Aji no Kura is the Best Ramen in Fukuoka, Hakata for True Connoisseurs",
+      "lat": 33.5911,
+      "lng": 130.4111,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/aji_no_kura.jpg",
+      "address": "Fukuoka, Hakata",
+      "published": "2026-04-12",
+      "summary": "Discover the pinnacle of Hakata craftsmanship at Aji no Kura, where traditional tonkotsu meets a modern spicy evolution in a setting that breathes local authenticity. This masterclass in broth extraction and noodle texture offers a sensory journey through the very soul of Fukuoka's culinary heritage. A must-visit destination for those seeking the perfect balance of creamy pork marrow richness and fiery, aromatic depth.",
+      "link": "/ramen/aji_no_kura_en"
+    },
+    {
+      "id": "goryo_ramen_ko",
+      "lang": "ko",
+      "title": "[Best Ramen in Kyoto, Nakagyo] 고료 라멘(Goryo Ramen): 교토 나카교구에서 만나는 미식의 정점, 장인 정신이 깃든 쇼유 라멘의 걸작",
+      "lat": 35.0116,
+      "lng": 135.7596,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/goryo_ramen.jpg",
+      "address": "Kyoto, Nakagyo",
+      "published": "2026-04-12",
+      "summary": "교토 나카교구의 숨은 보석 고료 라멘은 최상급 간장 블렌딩과 정교한 육수의 조화로 쇼유 라멘의 새로운 지평을 열었습니다. 현지인들이 극찬하는 이곳은 단순한 한 끼를 넘어 교토의 미학을 한 그릇에 담아낸 미식의 성지입니다. 장인의 고집이 느껴지는 자가제면과 수비드 차슈의 완벽한 밸런스를 지금 경험해 보세요.",
+      "link": "/ramen/goryo_ramen_ko"
+    },
+    {
+      "id": "mouko_tanmen_nakamoto_en",
+      "lang": "en",
+      "title": "The Alchemist of Fire: Discover the Best Ramen in Tokyo, Toshima at Mouko Tanmen Nakamoto",
+      "lat": 35.7315,
+      "lng": 139.7122,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/mouko_tanmen_nakamoto.jpg",
+      "address": "Tokyo, Toshima",
+      "published": "2026-04-12",
+      "summary": "Experience the legendary heat and profound umami of Tokyo's most iconic spicy miso ramen at Mouko Tanmen Nakamoto in Toshima. This culinary destination masterfully balances a rich tonkotsu-miso base with a signature mapo tofu topping that has captivated locals for decades. Prepare for a gastronomic challenge that rewards the brave with layers of complex flavor found nowhere else in the world.",
+      "link": "/ramen/mouko_tanmen_nakamoto_en"
+    },
+    {
+      "id": "kadoya_shokudo_ko",
+      "lang": "ko",
+      "title": "[오사카 니시구] 궁극의 쇼유 라멘, 미슐랭이 인정한 Best Ramen in Osaka, Nishi: 카도야 식당(カドヤ食堂)",
+      "lat": 34.6755,
+      "lng": 135.4855,
+      "categories": [
+        "쇼유",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/kadoya_shokudo.jpg",
+      "address": "Osaka, Nishi",
+      "published": "2026-04-12",
+      "summary": "오사카 니시구의 전설적인 라멘 명소, 카도야 식당에서 펼쳐지는 미식의 향연을 소개합니다. 엄선된 천연 재료와 마스터의 장인 정신이 빚어낸 쇼유 라멘의 정수를 경험해보세요. 미슐랭 가이드가 극찬한 이 시대 최고의 라멘을 향한 심도 깊은 분석을 지금 바로 확인하시길 바랍니다.",
+      "link": "/ramen/kadoya_shokudo_ko"
+    },
+    {
+      "id": "hanamaruken_ko",
+      "lang": "ko",
+      "title": "Best Ramen in Osaka, Chuo: 하나마루켄, 오사카의 영혼을 담은 궁극의 돈코츠 쇼유 라멘 가이드",
+      "lat": 34.6681,
+      "lng": 135.5011,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/hanamaruken.jpg",
+      "address": "Osaka, Chuo-ku, Namba, 1 Chome−2−1",
+      "published": "2026-04-12",
+      "summary": "오사카 난바의 중심에서 24시간 잠들지 않는 행복을 선사하는 하나마루켄은 진한 돈코츠와 풍미 깊은 쇼유의 완벽한 조화를 선보입니다. 입안에서 녹아내리는 거대한 연골 차슈 '토로코츠'는 이곳이 왜 현지인들에게 수십 년간 사랑받아온 성지인지를 증명하는 독보적인 맛의 정점입니다. 미슐랭 가이드급의 깊이 있는 미식 경험을 통해 진정한 오사카의 소울 푸드를 만나보시길 바랍니다.",
+      "link": "/ramen/hanamaruken_ko"
+    },
+    {
+      "id": "menya_inoichi_ko",
+      "lang": "ko",
+      "title": "교토 시모교구의 보석: Menya Inoichi에서 만나는 인생 최고의 쇼유 라멘 (Best Ramen in Kyoto, Shimogyo)",
+      "lat": 35.0011,
+      "lng": 135.7611,
+      "categories": [
+        "쇼유",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/menya_inoichi.jpg",
+      "address": "Kyoto, Shimogyo",
+      "published": "2026-04-12",
+      "summary": "교토 시모교구의 정수를 담은 멘야 이노이치는 미슐랭이 인정한 최고의 쇼유 라멘을 선보이는 예술적인 공간으로, 맑고 깊은 육수의 풍미가 일품입니다. 엄선된 식재료와 장인 정신이 깃든 이 프리미엄 라멘은 단순한 식사를 넘어선 미식의 절정을 선사합니다. 교토 여행에서 진정한 미식의 감동을 느끼고 싶다면 반드시 방문해야 할 필수 코스로 추천합니다.",
+      "link": "/ramen/menya_inoichi_ko"
+    },
+    {
+      "id": "ramen_yashichi_ko",
+      "lang": "ko",
+      "title": "[오사카 키타구 최고의 라멘] 라멘 야시치(Ramen Yashichi) - 미식의 정점에 선 토리파이탄의 전설 (Best Ramen in Osaka, Kita)",
+      "lat": 34.7111,
+      "lng": 135.4988,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_yashichi.jpg",
+      "address": "Osaka, Kita",
+      "published": "2026-04-12",
+      "summary": "오사카 키타구 토요사키의 골목길에 숨겨진 '라멘 야시치'는 압도적인 농밀함을 자랑하는 토리파이탄 쇼유 라멘으로 전국의 식도락가들을 불러모으는 성지입니다. 장인 정신이 깃든 자가제면과 거품처럼 부드러운 육수의 조화는 한 번의 식사를 넘어선 경이로운 미식 경험을 선사합니다. 예약 번호표 시스템을 통해서만 맛볼 수 있는 이 희소성 높은 라멘은 진정한 현지인 맛집의 품격을 보여줍니다.",
+      "link": "/ramen/ramen_yashichi_ko"
+    },
+    {
+      "id": "ryukishin_rize_ko",
+      "lang": "ko",
+      "title": "오사카 난바의 정점, 류키신 RIZE: 미슐랭이 인정한 궁극의 시오 라멘 투어 (Best Ramen in Osaka, Naniwa)",
+      "lat": 34.6611,
+      "lng": 135.5011,
+      "categories": [
+        "시오",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/ryukishin_rize.jpg",
+      "address": "Osaka, Naniwa",
+      "published": "2026-04-12",
+      "summary": "오사카 난바의 중심에서 미슐랭의 찬사를 받은 류키신 RIZE는 소금 라멘의 본질을 예술적 경지로 끌어올린 프리미엄 미식 공간입니다. 투명하게 빛나는 황금빛 육수와 장인 정신이 깃든 면발은 단순한 식사를 넘어 감동적인 미각의 서사를 선사합니다. 세련된 인테리어와 완벽한 조화를 이루는 이곳의 시오 라멘은 오사카 여행에서 반드시 경험해야 할 최고의 미식 성지입니다.",
+      "link": "/ramen/ryukishin_rize_ko"
+    },
+    {
+      "id": "jinrui_mina_menrui_ko",
+      "lang": "ko",
+      "title": "Best Ramen in Osaka, Yodogawa: 인류미나면류(Jinrui Mina Menrui) - 오사카 쇼유 라멘의 정점에 서다",
+      "lat": 34.7311,
+      "lng": 135.4911,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/jinrui_mina_menrui.jpg",
+      "address": "Osaka, Yodogawa",
+      "published": "2026-04-12",
+      "summary": "오사카 요도가와구 니시나카지마의 전설적인 쇼유 라멘 성지, 인류미나면류를 미쉐린 스타급 시선으로 분석합니다. 조개 베이스의 깊은 감칠맛과 압도적인 두께의 차슈가 선사하는 미학적 성취를 경험해 보세요. 현지인들이 줄을 서서 기다리는 이 시대 최고의 로컬 라멘 가이드입니다.",
+      "link": "/ramen/jinrui_mina_menrui_ko"
+    },
+    {
+      "id": "ippudo_daimyo_ko",
+      "lang": "ko",
+      "title": "후쿠오카의 영혼을 담은 한 그릇: Best Ramen in Fukuoka, Chuo - 잇푸도 대명 본점(Ippudo Daimyo) 미식 가이드",
+      "lat": 33.5877,
+      "lng": 130.3944,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ippudo_daimyo.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-12",
+      "summary": "전 세계 돈코츠 라멘의 기준을 세운 잇푸도의 발상지, 대명 본점에서 경험하는 원조의 품격과 깊이 있는 육수의 향연을 소개합니다. 이곳에서만 맛볼 수 있는 한정 메뉴와 40년 역사가 빚어낸 장인 정신은 단순한 식사를 넘어선 미학적 감동을 선사합니다. 하카타 라멘의 성지에서 진정한 '돈코츠의 정수'를 만끽하며 후쿠오카 미식 여행의 정점을 찍어보시기 바랍니다.",
+      "link": "/ramen/ippudo_daimyo_ko"
+    },
+    {
+      "id": "butayama_en",
+      "lang": "en",
+      "title": "The Unrivaled Peak of Jirorian Decadence: Why Butayama is the Best Ramen in Tokyo, Shinjuku",
+      "lat": 35.6944,
+      "lng": 139.7022,
+      "categories": [
+        "Tonkotsu",
+        "Solo Friendly"
+      ],
+      "thumbnail": "/static/images/butayama.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-04-12",
+      "summary": "Discover the architectural marvel of pork and garlic at Butayama, a sanctuary for those seeking the most intense Jiro-style experience in the heart of Shinjuku. This is not merely a meal, but a visceral journey through mountains of succulent chashu and a broth that redefines the limits of tonkotsu depth. Whether you crave the classic rich soy-pork fusion or the searing heat of their spicy variant, Butayama stands as the ultimate destination for the solo connoisseur.",
+      "link": "/ramen/butayama_en"
+    },
+    {
+      "id": "ramen_sen-no-kaze_ko",
+      "lang": "ko",
+      "title": "교토 나카교구 최고의 라멘(Best Ramen in Kyoto, Nakagyo), 라멘 센노카제에서 만난 천 개의 바람",
+      "lat": 35.0033,
+      "lng": 135.7688,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_sen-no-kaze.jpg",
+      "address": "Kyoto, Nakagyo",
+      "published": "2026-04-12",
+      "summary": "교토 나카교구의 숨은 보석이자 현지인이 사랑하는 라멘 센노카제는 부드럽고 깊은 풍미의 돈코츠 육수로 미식가들에게 잊지 못할 미식 경험을 선사합니다.",
+      "link": "/ramen/ramen_sen-no-kaze_ko"
+    },
+    {
+      "id": "bankara_ramen_ko",
+      "lang": "ko",
+      "title": "도쿄 토시마 최고의 라멘(Best Ramen in Tokyo, Toshima): 반카라 라멘(Bankara Ramen) – 탐닉의 끝에서 만난 세아부라의 미학",
+      "lat": 35.7311,
+      "lng": 139.7111,
+      "categories": [
+        "돈코츠",
+        "심야영업"
+      ],
+      "thumbnail": "/static/images/bankara_ramen.jpg",
+      "address": "Tokyo, Toshima",
+      "published": "2026-04-12",
+      "summary": "도쿄 토시마의 심장을 울리는 반카라 라멘은 강렬한 세아부라와 깊은 간장 베이스가 어우러진 도쿄 스타일 돈코츠의 극치를 보여주며, 미식가들에게 잊지 못할 강렬한 경험을 선사합니다. 장인의 집념이 담긴 진득한 육수와 쫄깃한 면발의 조화는 늦은 밤까지 이어지는 활기찬 분위기 속에서 일본 라멘의 진정한 소울을 경험하게 합니다. 고농축 우마미의 정수를 느끼고 싶은 이들을 위한 이 시대 진정한 라멘의 성지이자 밤의 안식처입니다.",
+      "link": "/ramen/bankara_ramen_ko"
+    },
+    {
+      "id": "mennoya_en",
+      "lang": "en",
+      "title": "The Umami Architecture: Why Mennoya is the Best Ramen in Osaka, Chuo",
+      "lat": 34.6811,
+      "lng": 135.5111,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/mennoya.jpg",
+      "address": "Osaka, Chuo",
+      "published": "2026-04-12",
+      "summary": "Experience the pinnacle of artisanal Shoyu ramen at Mennoya, a hidden sanctuary where traditional craftsmanship meets modern culinary precision. This local gem in Chuo-ku offers a masterclass in broth depth and noodle texture, earning its reputation as a must-visit for serious gourmands. Discover why this unassuming shop defines the soulful excellence of Osaka’s vibrant ramen landscape.",
+      "link": "/ramen/mennoya_en"
+    },
+    {
+      "id": "ebisoba_ichigen_en",
+      "lang": "en",
+      "title": "The Crustacean Masterpiece: Why Ebisoba Ichigen is the Absolute Best Ramen in Hokkaido, Sapporo",
+      "lat": 43.0511,
+      "lng": 141.3411,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ebisoba_ichigen.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-12",
+      "summary": "Discover the transcendental power of sweet shrimp heads transformed into a legendary broth that redefines the Sapporo ramen landscape. This culinary pilgrimage offers an unparalleled umami explosion, blending traditional miso techniques with a modern maritime soul. Prepare for a sensory voyage where every spoonful captures the essence of Hokkaido's pristine northern waters.",
+      "link": "/ramen/ebisoba_ichigen_en"
+    },
+    {
+      "id": "ganso_nagahamaya_ko",
+      "lang": "ko",
+      "title": "[후쿠오카 중앙구 최고의 라멘] 원조 나가하마야: 70년 세월을 끓여낸 하카타의 진정한 소울푸드이자 돈코츠의 원형",
+      "lat": 33.5955,
+      "lng": 130.3811,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ganso_nagahamaya.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-12",
+      "summary": "후쿠오카 중앙구 나가하마에서 시작된 70년 전통의 '원조 나가하마야'는 현대 돈코츠 라멘의 근간인 '카에다마' 문화의 발상지입니다. 시장 상인들의 허기를 달래주던 투박하지만 깊은 풍미의 육수와 초속으로 제공되는 극세면의 조화는 미식가들에게 잊을 수 없는 로컬 경험을 선사합니다. 단순한 한 끼를 넘어 하카타의 역사와 생동감을 한 그릇에 담아낸 이곳은 후쿠오카 방문 시 반드시 거쳐야 할 성지입니다.",
+      "link": "/ramen/ganso_nagahamaya_ko"
+    },
+    {
+      "id": "yoshimuraya_en",
+      "lang": "en",
+      "title": "The Genesis of Iekei: Why Yoshimuraya Remains the Best Ramen in Kanagawa, Yokohama",
+      "lat": 35.4644,
+      "lng": 139.6188,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/yoshimuraya.jpg",
+      "address": "2-12-6 Minamisaiwai, Nishi-ku, Yokohama, Kanagawa",
+      "published": "2026-04-05",
+      "summary": "Discover the legendary birthplace of Iekei ramen at Yoshimuraya, where a masterfully balanced smoky shoyu-tonkotsu broth meets world-class craftsmanship. This pilgrimage site for noodle enthusiasts offers a visceral, high-tension dining experience that defines the culinary landscape of Yokohama. Experience the original, uncompromising flavor that has spawned thousands of disciples across the globe.",
+      "link": "/ramen/yoshimuraya_en"
+    },
+    {
+      "id": "yoshimuraya_ko",
+      "lang": "ko",
+      "title": "요코하마의 전설을 맛보다: Best Ramen in Kanagawa, Yokohama, 요시무라야(吉村家) 완전정복 가이드",
+      "lat": 35.4644,
+      "lng": 139.6188,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/yoshimuraya.jpg",
+      "address": "Kanagawa, Yokohama",
+      "published": "2026-04-05",
+      "summary": "요코하마 이에케이 라멘의 발상지이자 정점인 요시무라야에서 경험하는 압도적인 육수의 풍미와 훈연 차슈의 예술을 소개합니다. 50년 역사를 간직한 장인의 철학이 담긴 한 그릇은 단순한 음식을 넘어 일본 식문화의 정수를 보여주는 미식의 성지입니다. 이곳에서만 느낄 수 있는 진한 쇼유 돈코츠의 조화와 완벽한 면의 식감을 통해 진정한 일본 현지인 맛집의 깊이를 탐구해보시기 바랍니다.",
+      "link": "/ramen/yoshimuraya_ko"
+    },
+    {
+      "id": "honke_daiichi-asahi_en",
+      "lang": "en",
+      "title": "The Liquid Gold of Kyoto: Why Honke Daiichi-asahi is the Best Ramen in Kyoto, Shimogyo",
+      "lat": 34.9866,
+      "lng": 135.7611,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/honke_daiichi-asahi.jpg",
+      "address": "Kyoto, Shimogyo",
+      "published": "2026-04-05",
+      "summary": "Discover the 70-year legacy of Honke Daiichi-asahi, an undisputed titan of Kyoto's culinary landscape offering a soul-stirring bowl of pork-based shoyu ramen. This local gem near Kyoto Station serves a masterclass in balance, featuring artisanal noodles and the famed Kujo negi. Experience the authentic heart of Shimogyo through a bowl that has defined Japanese comfort food for generations.",
+      "link": "/ramen/honke_daiichi-asahi_en"
+    },
     {
       "id": "nakiryu_en",
       "lang": "en",

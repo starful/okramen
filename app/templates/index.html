@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
     <!-- SEO & Canonical -->
-    <title>OKRamen - Discover Japan's Best Ramen Shops</title>
-    <meta name="description" content="Find the perfect bowl of Japanese Ramen. Filter by Tonkotsu, Shoyu, Chicken, and Vegan ramen on our interactive map.">
+    <title>OKRamen - Discover Japan's Best Ramen Shops & Guides</title>
+    <meta name="description" content="Find the perfect bowl of Japanese Ramen. Read our comprehensive ramen guides and filter by Tonkotsu, Shoyu, Chicken, and Vegan on our interactive map.">
     <link rel="canonical" href="https://okramen.net" />
 
     <!-- Google Analytics -->
@@ -22,40 +22,13 @@
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <!-- [모바일 최적화] 로고와 언어선택기를 한 줄로 배치 -->
-            <div class="header-top">
-                <h1>
-                    <a href="/">
-                        <img src="/static/images/logo.png" alt="OKRamen" class="logo-img">
-                    </a>
-                </h1>
-                <div class="lang-selector">
-                    <button class="lang-btn active" data-lang="en">English</button>
-                    <button class="lang-btn" data-lang="ko">한국어</button>
-                </div>
-            </div>
-
-            <!-- [모바일 최적화] 카테고리 가로 스크롤 영역 -->
-        <div class="theme-filter-buttons" data-group="flavor">
-            <button class="theme-button active" data-theme="all">All <span class="count-badge" id="count-all">0</span></button>
-            <button class="theme-button" data-theme="tonkotsu">🐷 Tonkotsu <span class="count-badge" id="count-tonkotsu">0</span></button>
-            <button class="theme-button" data-theme="shoyu">🥣 Shoyu <span class="count-badge" id="count-shoyu">0</span></button>
-            <button class="theme-button" data-theme="miso">🍲 Miso <span class="count-badge" id="count-miso">0</span></button>
-            <button class="theme-button" data-theme="shio">🧂 Shio <span class="count-badge" id="count-shio">0</span></button>
-            <button class="theme-button" data-theme="chicken">🐔 Chicken <span class="count-badge" id="count-chicken">0</span></button>
-            <button class="theme-button" data-theme="tsukemen">🥢 Tsukemen <span class="count-badge" id="count-tsukemen">0</span></button>
-            <button class="theme-button" data-theme="vegan">🥬 Vegan <span class="count-badge" id="count-vegan">0</span></button>
-        </div>
-        </div>
-    </header>
-    
+        {% include 'header.html' %}
     <main>
         <section class="map-section">
             <div id="map"></div>
         </section>
 
+<!-- ... (상단 생략) ... -->
         <div class="content-wrapper">
             <article class="intro-box">
                 <h2>🍜 Discover Your Perfect Bowl in Japan</h2>
@@ -65,14 +38,47 @@
                 </p>
             </article>
 
+            <!-- 💡 가이드 섹션 노출 개수 수정 (index.html 내) -->
+            <section class="guide-highlight-section">
+                <h2 class="guide-section-title">📖 Japanese Ramen Guides</h2>
+                <div class="onsen-grid" id="guide-list">
+                    
+                    <!-- 영어 가이드 (최대 3개) -->
+                    {% for guide in guides.get('en', [])[:3] %}
+                    <a href="/guide/{{ guide.id }}" class="onsen-card guide-card guide-en">
+                        <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
+                        <div class="card-content">
+                            <h3 class="card-title">{{ guide.title }}</h3>
+                            <p class="card-summary">{{ guide.summary }}</p>
+                        </div>
+                    </a>
+                    {% endfor %}
+
+                    <!-- 한국어 가이드 (최대 3개, 기본 숨김) -->
+                    {% for guide in guides.get('ko', [])[:3] %}
+                    <a href="/guide/{{ guide.id }}" class="onsen-card guide-card guide-ko" style="display: none;">
+                        <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
+                        <div class="card-content">
+                            <h3 class="card-title">{{ guide.title }}</h3>
+                            <p class="card-summary">{{ guide.summary }}</p>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+
+                <!-- 전체보기 버튼은 그대로 유지하여 나머지 17개를 볼 수 있게 함 -->
+                <div class="view-all-container">
+                    <a href="/guide" class="btn-view-all">View All Guides / 가이드 전체보기</a>
+                </div>
+            </section>
+
             <section id="list-section">
-                <h2 class="list-title">🎏 Latest Ramen Guides</h2>
+                <h2 class="list-title">🎏 Latest Ramen Shops</h2>
                 <div id="ramen-list" class="onsen-grid"></div>
             </section>
         </div>
     </main>
 
-    <!-- [모바일 최적화] 헤더에서 이동해온 메타데이터 상태바 -->
     <footer>
         <div class="container">
             <div class="footer-status">
@@ -96,6 +102,28 @@
             </div>
         </div>
     </footer>
+
+    <!-- 언어 변경에 맞춰 가이드 카드 표시 전환 (기존 main.js와 충돌 방지) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const langBtns = document.querySelectorAll('.lang-btn');
+            langBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const lang = e.target.getAttribute('data-lang');
+                    
+                    // 모든 가이드 카드 숨기기
+                    document.querySelectorAll('.guide-card').forEach(el => {
+                        el.style.display = 'none';
+                    });
+                    
+                    // 선택된 언어의 가이드 카드만 보이기 (flex로 설정해야 카드 UI 유지됨)
+                    document.querySelectorAll('.guide-' + lang).forEach(el => {
+                        el.style.display = 'flex';
+                    });
+                });
+            });
+        });
+    </script>
 
     <!-- Google Maps Loader -->
     <script>
