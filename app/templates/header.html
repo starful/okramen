@@ -10,20 +10,21 @@
             <a href="/guide" style="margin-left:auto; margin-right: 15px; font-weight:bold; color:var(--accent-color);">📖 Guide</a>
 
             <div class="lang-selector">
-                {% if post %}
-                    <!-- 1. 상세 페이지(가게 또는 가이드)일 때: 반대 언어 글로 이동 -->
-                    <a href="{{ '/ramen/' if 'guide' not in request.path else '/guide/' }}{{ post.id | replace('_ko', '_en') if post.lang == 'ko' else post.id | replace('_en', '_ko') }}" 
+                {% if post and post.id %}
+                    <!-- 1. 상세 페이지일 때: 현재 ID에서 언어 코드를 떼고 다시 붙임 -->
+                    {% set base_id = post.id.rsplit('_', 1)[0] %}
+                    <a href="{{ '/guide/' if 'guide' in request.path else '/ramen/' }}{{ base_id }}_en" 
                        class="lang-btn {% if post.lang == 'en' %}active{% endif %}">English</a>
-                    <a href="{{ '/ramen/' if 'guide' not in request.path else '/guide/' }}{{ post.id | replace('_en', '_ko') if post.lang == 'en' else post.id | replace('_ko', '_en') }}" 
+                    <a href="{{ '/guide/' if 'guide' in request.path else '/ramen/' }}{{ base_id }}_ko" 
                        class="lang-btn {% if post.lang == 'ko' %}active{% endif %}">한국어</a>
                 
                 {% elif request.path == '/guide' %}
-                    <!-- 2. 가이드 목록 페이지일 때: 쿼리 스트링(?lang=)으로 언어 교체 -->
+                    <!-- 2. 가이드 목록 페이지일 때 -->
                     <a href="/guide?lang=en" class="lang-btn {% if lang == 'en' %}active{% endif %}">English</a>
                     <a href="/guide?lang=ko" class="lang-btn {% if lang == 'ko' %}active{% endif %}">한국어</a>
                 
                 {% else %}
-                    <!-- 3. 메인 페이지일 때: 기존 JS 토글 방식 유지 -->
+                    <!-- 3. 메인 페이지일 때 -->
                     <button class="lang-btn active" data-lang="en">English</button>
                     <button class="lang-btn" data-lang="ko">한국어</button>
                 {% endif %}
@@ -32,7 +33,6 @@
         
         {% if request.path == '/' %}
         <div class="theme-filter-buttons" data-group="flavor">
-            <!-- 기존 카테고리 버튼들 유지 -->
             <button class="theme-button active" data-theme="all">All <span class="count-badge" id="count-all">0</span></button>
             <button class="theme-button" data-theme="tonkotsu">🐷 Tonkotsu</button>
             <button class="theme-button" data-theme="shoyu">🥣 Shoyu</button>

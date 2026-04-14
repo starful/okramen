@@ -31,9 +31,10 @@ UNSPLASH_GUIDE_IMAGES = [
     "https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=800&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?q=80&w=800&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1525755662778-989d0524087e?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1591814441348-73546747d96a?q=80&w=800&auto=format&fit=crop"
 ]
 
-# [캐싱] 라멘 가게 정보 로드
+# 1. 라멘 가게 정보 캐싱
 CACHED_DATA = {}
 if os.path.exists(DATA_FILE):
     try:
@@ -42,9 +43,8 @@ if os.path.exists(DATA_FILE):
     except:
         CACHED_DATA = {"ramens":[]}
 
-# [캐싱] 가이드 데이터 동적 로드 (날짜순 정렬 및 이미지 배정)
+# 2. 가이드 데이터 캐싱 (날짜순 정렬 및 이미지 배정)
 CACHED_GUIDES = {'en': [], 'ko': []}
-
 def load_guides():
     if not os.path.exists(GUIDE_DIR): return
     
@@ -54,7 +54,7 @@ def load_guides():
         try:
             with open(fpath, 'r', encoding='utf-8') as f:
                 post = frontmatter.load(f)
-                base_id = os.path.basename(fpath).split('_')[0]
+                base_id = os.path.basename(fpath).rsplit('_', 1)[0]
                 lang = 'en' if '_en.md' in fpath else 'ko'
                 all_raw.append({
                     'base_id': base_id,
@@ -66,7 +66,7 @@ def load_guides():
                 })
         except: continue
 
-    # 날짜순으로 정렬하여 이미지 인덱스 고정 (최신글이 0번 이미지)
+    # 날짜순 정렬 기반 이미지 인덱싱
     ref_en = sorted([g for g in all_raw if g['lang'] == 'en'], key=lambda x: x['published'], reverse=True)
     id_to_img = {g['base_id']: UNSPLASH_GUIDE_IMAGES[i % len(UNSPLASH_GUIDE_IMAGES)] for i, g in enumerate(ref_en)}
 
@@ -92,7 +92,6 @@ load_guides()
 
 @app.route('/')
 def index():
-    # 메인 페이지 (템플릿에서 가이드 최신 3개만 슬라이싱해서 보여줌)
     return render_template('index.html', guides=CACHED_GUIDES)
 
 @app.route('/api/ramens')
@@ -101,18 +100,19 @@ def api_ramens():
 
 @app.route('/guide')
 def guide_list_all():
-    lang = request.args.get('lang', 'en') # URL에서 ?lang= 추출
+    lang = request.args.get('lang', 'en')
     return render_template('guide_index.html', guides=CACHED_GUIDES, lang=lang)
 
 @app.route('/guide/<guide_id>')
 def guide_detail(guide_id):
     md_path = os.path.join(GUIDE_DIR, f"{guide_id}.md")
-    if not os.path.exists(md_path): abort(404)
-    
+    if not os.path.exists(md_path):
+        return redirect('/guide')
+        
     with open(md_path, 'r', encoding='utf-8') as f:
         raw_text = f.read().strip()
 
-    # Markdown 청소 로직
+    # Markdown 청소
     raw_text = re.sub(r'^```[a-z]*\n', '', raw_text)
     raw_text = re.sub(r'\n```$', '', raw_text)
     raw_text = re.sub(r'^(##\s*)?yaml\n', '', raw_text, flags=re.IGNORECASE)
@@ -121,13 +121,16 @@ def guide_detail(guide_id):
 
     post = frontmatter.loads(raw_text)
     
-    # 이미지 동적 매칭 (목록과 동일한 인덱스 계산)
-    base_id = guide_id.split('_')[0]
+    # 💡 [핵심] 언어 전환 버튼을 위해 id를 강제 주입
+    post['id'] = guide_id 
+    
+    # 이미지 동적 할당
+    base_id = guide_id.rsplit('_', 1)[0]
     all_en = []
     for f in glob.glob(os.path.join(GUIDE_DIR, '*_en.md')):
         with open(f, 'r', encoding='utf-8') as tf:
             tp = frontmatter.load(tf)
-            all_en.append({'bid': os.path.basename(f).split('_')[0], 'd': str(tp.get('date', '2026-01-01'))})
+            all_en.append({'bid': os.path.basename(f).rsplit('_', 1)[0], 'd': str(tp.get('date', '2026-01-01'))})
     
     sorted_ids = [x['bid'] for x in sorted(all_en, key=lambda x: x['d'], reverse=True)]
     try:
@@ -154,6 +157,10 @@ def ramen_detail(ramen_id):
         raw_text = '---' + raw_text.split('---', 1)[1]
 
     post = frontmatter.loads(raw_text)
+    
+    # 💡 [핵심] 언어 전환 버튼을 위해 id를 강제 주입
+    post['id'] = ramen_id 
+
     if isinstance(post.get('categories'), str):
         post['categories'] = [c.strip() for c in post['categories'].split(',')]
 
