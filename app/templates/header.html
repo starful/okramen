@@ -1,46 +1,48 @@
 <header>
     <div class="container">
+        <!-- 상단 영역: 로고 중앙 정렬 구조 -->
         <div class="header-top">
+            <!-- 왼쪽: 가이드 버튼 -->
+            <div class="header-left">
+                <a href="/guide" style="font-weight:bold; color:var(--accent-color); font-size: 0.95rem;">📖 Guide</a>
+            </div>
+
+            <!-- 중앙: 로고 -->
             <h1>
                 <a href="/">
                     <img src="/static/images/logo.png" alt="OKRamen" class="logo-img">
                 </a>
             </h1>
             
-            <a href="/guide" style="margin-left:auto; margin-right: 15px; font-weight:bold; color:var(--accent-color);">📖 Guide</a>
-
+            <!-- 오른쪽: 언어 선택기 -->
             <div class="lang-selector">
                 {% if post and post.id %}
-                    <!-- 1. 상세 페이지일 때: 현재 ID에서 언어 코드를 떼고 다시 붙임 -->
                     {% set base_id = post.id.rsplit('_', 1)[0] %}
                     <a href="{{ '/guide/' if 'guide' in request.path else '/ramen/' }}{{ base_id }}_en" 
                        class="lang-btn {% if post.lang == 'en' %}active{% endif %}">English</a>
                     <a href="{{ '/guide/' if 'guide' in request.path else '/ramen/' }}{{ base_id }}_ko" 
                        class="lang-btn {% if post.lang == 'ko' %}active{% endif %}">한국어</a>
-                
                 {% elif request.path == '/guide' %}
-                    <!-- 2. 가이드 목록 페이지일 때 -->
                     <a href="/guide?lang=en" class="lang-btn {% if lang == 'en' %}active{% endif %}">English</a>
                     <a href="/guide?lang=ko" class="lang-btn {% if lang == 'ko' %}active{% endif %}">한국어</a>
-                
                 {% else %}
-                    <!-- 3. 메인 페이지일 때 -->
                     <button class="lang-btn active" data-lang="en">English</button>
                     <button class="lang-btn" data-lang="ko">한국어</button>
                 {% endif %}
             </div>
         </div>
         
+        <!-- 하단 영역: 카테고리 필터 (숫자 배지 포함) -->
         {% if request.path == '/' %}
         <div class="theme-filter-buttons" data-group="flavor">
             <button class="theme-button active" data-theme="all">All <span class="count-badge" id="count-all">0</span></button>
-            <button class="theme-button" data-theme="tonkotsu">🐷 Tonkotsu</button>
-            <button class="theme-button" data-theme="shoyu">🥣 Shoyu</button>
-            <button class="theme-button" data-theme="miso">🍲 Miso</button>
-            <button class="theme-button" data-theme="shio">🧂 Shio</button>
-            <button class="theme-button" data-theme="chicken">🐔 Chicken</button>
-            <button class="theme-button" data-theme="tsukemen">🥢 Tsukemen</button>
-            <button class="theme-button" data-theme="vegan">🥬 Vegan</button>
+            <button class="theme-button" data-theme="tonkotsu">🐷 Tonkotsu <span class="count-badge" id="count-tonkotsu">0</span></button>
+            <button class="theme-button" data-theme="shoyu">🥣 Shoyu <span class="count-badge" id="count-shoyu">0</span></button>
+            <button class="theme-button" data-theme="miso">🍲 Miso <span class="count-badge" id="count-miso">0</span></button>
+            <button class="theme-button" data-theme="shio">🧂 Shio <span class="count-badge" id="count-shio">0</span></button>
+            <button class="theme-button" data-theme="chicken">🐔 Chicken <span class="count-badge" id="count-chicken">0</span></button>
+            <button class="theme-button" data-theme="tsukemen">🥢 Tsukemen <span class="count-badge" id="count-tsukemen">0</span></button>
+            <button class="theme-button" data-theme="vegan">🥬 Vegan <span class="count-badge" id="count-vegan">0</span></button>
         </div>
         {% endif %}
     </div>
