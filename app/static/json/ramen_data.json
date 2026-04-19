@@ -1,7 +1,391 @@
 {
-  "last_updated": "2026.04.14",
-  "total_count": 112,
+  "last_updated": "2026.04.19",
+  "total_count": 135,
   "ramens": [
+    {
+      "id": "nakiryu_en",
+      "lang": "en",
+      "title": "A Symphony of Spice and Soul: Why Nakiryu is the Best Ramen in Tokyo, Toshima",
+      "lat": 35.7322,
+      "lng": 139.7291,
+      "categories": [
+        "Chicken",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/nakiryu.jpg",
+      "address": "Tokyo, Toshima",
+      "published": "2026-04-19",
+      "summary": "Indulge in the legendary Michelin-starred Tantanmen at Nakiryu, a culinary masterpiece where fiery Sichuan spice meets sophisticated Japanese precision. This definitive guide explores the complex broth and artisanal craftsmanship that makes it the ultimate dining destination in Toshima. Discover why this humble Otsuka shop remains the gold standard for ramen connoisseurs worldwide.",
+      "link": "/ramen/nakiryu_en"
+    },
+    {
+      "id": "ramen_kairyu_en",
+      "lang": "en",
+      "title": "The Primal Roar of Tonkotsu: Why Ramen Kairyu is the Best Ramen in Fukuoka, Kitakyushu",
+      "lat": 33.8811,
+      "lng": 130.8811,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_kairyu.jpg",
+      "address": "Fukuoka, Kitakyushu",
+      "published": "2026-04-19",
+      "summary": "Indulge in the visceral power of Ramen Kairyu, where the legendary 'yobimodoshi' broth technique creates an unparalleled depth of pork-bone intensity. As a crown jewel of Kitakyushu’s culinary scene, this shop offers an unapologetic, soul-stirring bowl that defines the essence of Kyushu tonkotsu. This is more than a meal; it is a pilgrimage for the true ramen connoisseur seeking the most authentic flavors in Southern Japan.",
+      "link": "/ramen/ramen_kairyu_en"
+    },
+    {
+      "id": "tairyo_ramen_ko",
+      "lang": "ko",
+      "title": "후쿠오카 하카타 최고의 라멘(Best Ramen in Fukuoka, Hakata): 대어라멘(Tairyo Ramen) - 현지인의 숨은 보석을 파헤치다",
+      "lat": 33.6011,
+      "lng": 130.4111,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/tairyo_ramen.jpg",
+      "address": "Fukuoka, Hakata",
+      "published": "2026-04-19",
+      "summary": "후쿠오카 하카타의 골목 속에 숨겨진 '대어라멘'은 관광객의 발길이 닿지 않는 진정한 로컬 돈코츠의 정수를 보여주는 성지입니다. 48시간 동안 우려낸 진득한 육수와 초극세면의 조화는 단순한 식사를 넘어 하카타 라멘의 역사와 장인 정신을 온몸으로 체험하게 합니다. 미식의 정점에 서 있는 이들에게 이곳은 후쿠오카 여행에서 반드시 방문해야 할 단 하나의 라멘 목적지가 될 것입니다.",
+      "link": "/ramen/tairyo_ramen_ko"
+    },
+    {
+      "id": "kurume_taiho_ramen_en",
+      "lang": "en",
+      "title": "The Alchemical Perfection of Yobimodoshi: Why Kurume Taiho Ramen is the Absolute Best Ramen in Fukuoka, Kurume",
+      "lat": 33.3111,
+      "lng": 130.5111,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/kurume_taiho_ramen.jpg",
+      "address": "11-8 Hiyoshimachi, Kurume, Fukuoka 830-0031, Japan",
+      "published": "2026-04-19",
+      "summary": "Experience the birthplace of Tonkotsu through the legendary 'Yobimodoshi' method at Kurume Taiho Ramen, a culinary pilgrimage for those seeking the deepest pork broth on earth. This historic institution offers a masterclass in umami, blending seven decades of continuous fermentation into a single, soul-stirring bowl. It is not merely a meal, but a profound encounter with the very DNA of Japanese ramen culture.",
+      "link": "/ramen/kurume_taiho_ramen_en"
+    },
+    {
+      "id": "ramen_zen_fukuoka_ko",
+      "lang": "ko",
+      "title": "[후쿠오카 츄오구 최고의 라멘] 라멘 젠(Ramen Zen): 하카타의 자부심을 잇는 가성비와 미학의 정점",
+      "lat": 33.5911,
+      "lng": 130.4011,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_zen_fukuoka.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "후쿠오카 츄오구의 심장부에서 만나는 '라멘 젠'은 단돈 수백 엔으로 하카타의 진정한 영혼을 맛볼 수 있는 경이로운 공간입니다. 미슐랭 스타급 미식가의 시선으로 분석한 이곳의 돈코츠 육수는 압도적인 가성비를 넘어선 깊은 미학적 깊이를 선사합니다. 현지인들이 줄을 서서 기다리는 이 로컬 성지에서 당신의 인생 라멘을 정의하는 새로운 기준을 발견하게 될 것입니다.",
+      "link": "/ramen/ramen_zen_fukuoka_ko"
+    },
+    {
+      "id": "ganso_ramen_nagahama-ya_en",
+      "lang": "en",
+      "title": "The Unyielding Legacy of Fukuoka's Soul: Why Ganso Ramen Nagahama-ya is the Best Ramen in Fukuoka, Chuo",
+      "lat": 33.5925,
+      "lng": 130.3855,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ganso_ramen_nagahama-ya.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "Discover the historic cradle of Nagahama Tonkotsu where simplicity meets culinary mastery in a bowl unchanged for decades. This local legend offers an authentic, high-speed dining experience that defines the very essence of Fukuoka's vibrant food culture. From its revolutionary noodle refills to its uniquely savory broth, this is a pilgrimage every true ramen aficionado must undertake.",
+      "link": "/ramen/ganso_ramen_nagahama-ya_en"
+    },
+    {
+      "id": "nagahama_no.1_en",
+      "lang": "en",
+      "title": "Nagahama No.1: The Definitive Tonkotsu Pilgrimage – Best Ramen in Fukuoka, Chuo",
+      "lat": 33.5911,
+      "lng": 130.3811,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/nagahama_no.1.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "Discover the raw, unfiltered essence of Hakata’s culinary heritage at Nagahama No.1, where the broth is a creamy masterwork of porcine depth. This legendary local gem in Fukuoka, Chuo, transcends mere dining, offering a soul-stirring bowl that defines the very standard of authentic Tonkotsu. A must-visit for any serious connoisseur seeking the true heartbeat of the historic Nagahama ramen culture.",
+      "link": "/ramen/nagahama_no.1_en"
+    },
+    {
+      "id": "oreshiki_jun_ko",
+      "lang": "ko",
+      "title": "[도쿄 치요다구 최고의 라멘] 오레시키 준(Oreshiki Jun): 장인 정신으로 빚어낸 돈코츠의 미학 (Best Ramen in Tokyo, Chiyoda)",
+      "lat": 35.6811,
+      "lng": 139.7671,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/oreshiki_jun.jpg",
+      "address": "Tokyo, Chiyoda",
+      "published": "2026-04-19",
+      "summary": "도쿄역의 번잡함 속에서 찾아낸 진정한 돈코츠의 성지, 오레시키 준은 깊고 진한 육수와 완벽한 면의 조화로 미식가들을 사로잡습니다. 현지인들이 줄 서서 기다리는 이곳은 단순한 한 끼를 넘어 일본 라멘 철학의 정수를 보여주는 공간입니다. 치요다구에서 가장 세련되면서도 본질에 충실한 라멘을 경험하고 싶다면 단연코 이곳을 방문해야 합니다.",
+      "link": "/ramen/oreshiki_jun_ko"
+    },
+    {
+      "id": "yatai_ramen_mamigichan_ko",
+      "lang": "ko",
+      "title": "후쿠오카 츄오구 최고의 라멘(Best Ramen in Fukuoka, Chuo) - 야타이 라멘 마미기쨩: 밤공기를 가르는 장인의 돈코츠 미학",
+      "lat": 33.5911,
+      "lng": 130.3911,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/yatai_ramen_mamigichan.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "후쿠오카 츄오구의 밤을 상징하는 야타이 라멘 마미기쨩은 정통 돈코츠의 깊은 풍미와 포장마차 특유의 낭만을 완벽하게 결합한 미식의 성지입니다. 수십 년간 이어온 비법 육수는 묵직한 바디감과 깔끔한 뒷맛을 동시에 선사하며, 현지인들이 줄을 서서 기다리는 진정한 로컬 맛집의 위용을 자랑합니다. 화려한 도심의 조명 아래 펼쳐지는 이 한 그릇의 라멘은 여행자에게는 잊지 못할 추억을, 미식가에게는 궁극의 카타르시스를 제공합니다.",
+      "link": "/ramen/yatai_ramen_mamigichan_ko"
+    },
+    {
+      "id": "hakata_daruma_en",
+      "lang": "en",
+      "title": "The Ultimate Umami Odyssey: Why Hakata Daruma is the Best Ramen in Fukuoka, Chuo",
+      "lat": 33.5855,
+      "lng": 130.4011,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/hakata_daruma.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "Experience the visceral power of authentic Hakata tonkotsu at Hakata Daruma, a 1963-founded institution where the broth is a living, breathing history of Fukuoka. This is not just a meal; it is a pilgrimage for those seeking the unapologetic, heavy-bodied soul of local ramen culture.",
+      "link": "/ramen/hakata_daruma_en"
+    },
+    {
+      "id": "hakata_isshou_ko",
+      "lang": "ko",
+      "title": "후쿠오카 하카타 최고의 라멘: 돈코츠의 정점, 하카타 잇쇼(Hakata Isshou) 완벽 가이드",
+      "lat": 33.5922,
+      "lng": 130.4211,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/hakata_isshou.jpg",
+      "address": "Fukuoka, Hakata",
+      "published": "2026-04-19",
+      "summary": "후쿠오카 하카타역 인근에서 전설적인 '돈코츠 카푸치노'를 선보이는 하카타 잇쇼는 농밀한 육수와 완벽한 면의 조화로 로컬들의 압도적인 지지를 받는 곳입니다. 미쉐린 스타급 미식가가 분석한 깊은 맛의 철학과 대기 팁을 통해 진정한 하카타 소울 푸드의 진수를 경험해 보시기 바랍니다.",
+      "link": "/ramen/hakata_isshou_ko"
+    },
+    {
+      "id": "menya_masamoto_en",
+      "lang": "en",
+      "title": "The Alchemist of Spice: Discovering the Best Ramen in Fukuoka, Chuo at Menya Masamoto",
+      "lat": 33.5911,
+      "lng": 130.4011,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/menya_masamoto.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "Indulge in the fiery soul of Fukuoka at Menya Masamoto, where the city's best Tantanmen meets artisanal precision and local grit. A mandatory pilgrimage for spice seekers and ramen purists alike.",
+      "link": "/ramen/menya_masamoto_en"
+    },
+    {
+      "id": "ramen_zen_fukuoka_en",
+      "lang": "en",
+      "title": "The Epiphany of Pork: Why Ramen Zen is the Best Ramen in Fukuoka, Chuo",
+      "lat": 33.5911,
+      "lng": 130.4011,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_zen_fukuoka.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "Discover the architectural beauty of a 320-yen masterpiece at Ramen Zen, where the essence of Hakata Tonkotsu is distilled into a bowl of creamy, collagen-rich perfection that defies its humble price point.",
+      "link": "/ramen/ramen_zen_fukuoka_en"
+    },
+    {
+      "id": "menya_masamoto_ko",
+      "lang": "ko",
+      "title": "후쿠오카 츄오구 최고의 라멘, 멘야 마사모토(Menya Masamoto): 탄탄멘의 정점에 도달한 미식의 성지",
+      "lat": 33.5911,
+      "lng": 130.4011,
+      "categories": [
+        "치킨라멘",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/menya_masamoto.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "후쿠오카 츄오구의 숨은 보석, 멘야 마사모토에서 펼쳐지는 강렬한 탄탄멘의 향연과 깊이 있는 육수의 미학을 경험하십시오.",
+      "link": "/ramen/menya_masamoto_ko"
+    },
+    {
+      "id": "hakata_isshou_en",
+      "lang": "en",
+      "title": "The Unrivaled King of Froth: Why Hakata Isshou is the Best Ramen in Fukuoka, Hakata",
+      "lat": 33.5922,
+      "lng": 130.4211,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/hakata_isshou.jpg",
+      "address": "3-1-6 Hakataekihigashi, Hakata-ku, Fukuoka, Japan",
+      "published": "2026-04-19",
+      "summary": "Experience the legendary 'Pork Bone Cappuccino' that has redefined the standards of Hakata tonkotsu for a new generation of gourmands. This local gem offers a sensory explosion of creamy, frothy broth and artisan noodles that justifies every minute spent in its famous queue. Discover why Hakata Isshou remains the undisputed pilgrimage site for those seeking the most authentic and intense ramen experience in Fukuoka.",
+      "link": "/ramen/hakata_isshou_en"
+    },
+    {
+      "id": "hakata_daruma_ko",
+      "lang": "ko",
+      "title": "후쿠오카의 전설, 하카타 다루마: Best Ramen in Fukuoka, Chuo에서 만나는 진정한 돈코츠의 미학",
+      "lat": 33.5855,
+      "lng": 130.4011,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/hakata_daruma.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "60년 전통의 하카타 다루마는 강렬한 풍미의 돈코츠 육수와 초극세면이 조화를 이루는 후쿠오카 라멘의 살아있는 전설입니다. 시간이 빚어낸 농밀한 국물과 장인 정신이 깃든 고명은 미식가들에게 잊을 수 없는 감동을 선사합니다. 후쿠오카 중앙구에서 진정한 현지의 맛을 찾는다면 반드시 방문해야 할 성지입니다.",
+      "link": "/ramen/hakata_daruma_ko"
+    },
+    {
+      "id": "yatai_ramen_mamigichan_en",
+      "lang": "en",
+      "title": "Chasing the Ghost of Umami: Why Yatai Ramen Mamigichan is the Best Ramen in Fukuoka, Chuo",
+      "lat": 33.5911,
+      "lng": 130.3911,
+      "categories": [
+        "Tonkotsu",
+        "Late Night"
+      ],
+      "thumbnail": "/static/images/yatai_ramen_mamigichan.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "Discover the pinnacle of Hakata street food at Yatai Ramen Mamigichan, where traditional Tonkotsu craftsmanship meets the vibrant late-night energy of Fukuoka. This guide explores the velvety broth, artisanal noodles, and the soul-stirring atmosphere of the city's most authentic outdoor stall.",
+      "link": "/ramen/yatai_ramen_mamigichan_en"
+    },
+    {
+      "id": "oreshiki_jun_en",
+      "lang": "en",
+      "title": "The Silken Porcine Masterpiece: Why Oreshiki Jun is the Best Ramen in Tokyo, Chiyoda",
+      "lat": 35.6811,
+      "lng": 139.7671,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/oreshiki_jun.jpg",
+      "address": "Tokyo, Chiyoda",
+      "published": "2026-04-19",
+      "summary": "Indulge in the refined complexity of Oreshiki Jun, a sanctuary of creamy tonkotsu perfection that redefines the Chiyoda ramen landscape. This masterful guide explores the technical brilliance and soulful craftsmanship behind one of Tokyo’s most elusive and sophisticated bowls. Experience a gastronomic journey where artisan noodles meet a 24-hour emulsified broth in the heart of the city.",
+      "link": "/ramen/oreshiki_jun_en"
+    },
+    {
+      "id": "nagahama_no.1_ko",
+      "lang": "ko",
+      "title": "후쿠오카 츄오구의 정점: 하카타 소울푸드의 정수, 나가하마 넘버원(Nagahama No.1) - Best Ramen in Fukuoka, Chuo",
+      "lat": 33.5911,
+      "lng": 130.3811,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/nagahama_no.1.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "후쿠오카 정통 돈코츠의 원형을 보존하며 현지인들의 압도적인 지지를 받는 나가하마 넘버원은 투박함 속에 숨겨진 깊은 감칠맛의 정수를 보여줍니다. 50년 넘는 세월 동안 변함없이 자리를 지켜온 이곳의 육수는 단순한 음식을 넘어 도시의 역사를 담아낸 하나의 예술 작품과도 같습니다. 세밀하게 조율된 극세면과 진한 돈코츠 육수의 완벽한 조화는 미식가들에게 잊지 못할 강렬한 여운을 선사합니다.",
+      "link": "/ramen/nagahama_no.1_ko"
+    },
+    {
+      "id": "ganso_ramen_nagahama-ya_ko",
+      "lang": "ko",
+      "title": "후쿠오카 츄오구 최고의 라멘(Best Ramen in Fukuoka, Chuo)을 찾아서: 간소 라멘 나가하마야의 70년 정통 미학",
+      "lat": 33.5925,
+      "lng": 130.3855,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ganso_ramen_nagahama-ya.jpg",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-04-19",
+      "summary": "후쿠오카 라멘의 근간이자 '면 추가' 문화의 발상지인 간소 라멘 나가하마야를 미슐랭 스타 비평가의 시선으로 정밀 분석한 미식 가이드입니다. 화려함을 걷어내고 본질에 집중한 투박한 돈코츠 국물과 새벽 시장의 활기를 머금은 이곳은 진정한 현지인 맛집의 정점을 보여줍니다. 단순한 한 그릇을 넘어 큐슈 미식의 역사를 맛보고 싶은 여행자라면 반드시 거쳐야 할 성지입니다.",
+      "link": "/ramen/ganso_ramen_nagahama-ya_ko"
+    },
+    {
+      "id": "nakiryu_ko",
+      "lang": "ko",
+      "title": "도쿄 미슐랭의 정점, Toshima의 자부심: Nakiryu(나키류) Best Ramen in Tokyo, Toshima",
+      "lat": 35.7322,
+      "lng": 139.7291,
+      "categories": [
+        "치킨라멘",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/nakiryu.jpg",
+      "address": "Tokyo, Toshima",
+      "published": "2026-04-19",
+      "summary": "미슐랭 1스타의 영예를 안은 나키류의 탄탄멘은 단순한 음식을 넘어 예술의 경지에 도달한 도쿄 최고의 라멘입니다. 층층이 쌓인 깊은 육수의 풍미와 수제 면의 완벽한 조화는 미식가들에게 잊지 못할 강렬한 경험을 선사합니다. Toshima구 오츠카의 조용한 골목에서 펼쳐지는 이 특별한 미식 여정은 당신의 라멘에 대한 정의를 완전히 바꿔놓을 것입니다.",
+      "link": "/ramen/nakiryu_ko"
+    },
+    {
+      "id": "kurume_taiho_ramen_ko",
+      "lang": "ko",
+      "title": "후쿠오카 쿠루메 최고의 라멘(Best Ramen in Fukuoka, Kurume): 돈코츠의 발상지, 타이호 라멘의 요비모도시 미학",
+      "lat": 33.3111,
+      "lng": 130.5111,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/kurume_taiho_ramen.jpg",
+      "address": "Fukuoka, Kurume",
+      "published": "2026-04-19",
+      "summary": "돈코츠 라멘의 기원지 쿠루메에서 70년 넘게 꺼지지 않는 불꽃으로 끓여낸 '요비모도시' 육수의 정수를 경험하십시오. 단순한 식사를 넘어 일본 식문화의 유산이자 살아있는 역사를 맛보는 압도적인 미식의 성지입니다. 현지인들이 생애 최고의 라멘으로 꼽는 이곳에서 진정한 돼지사골의 심연을 마주하게 될 것입니다.",
+      "link": "/ramen/kurume_taiho_ramen_ko"
+    },
+    {
+      "id": "tairyo_ramen_en",
+      "lang": "en",
+      "title": "The Ultimate Umami Pilgrimage: Finding the Best Ramen in Fukuoka, Hakata at Tairyo Ramen",
+      "lat": 33.6011,
+      "lng": 130.4111,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/tairyo_ramen.jpg",
+      "address": "Fukuoka, Hakata",
+      "published": "2026-04-19",
+      "summary": "Discover the raw, authentic heart of Hakata at Tairyo Ramen, a local gem where the pork bone broth is a masterclass in creamy complexity and traditional soul. This is not just a meal; it is a profound sensory journey into the heritage of Fukuoka’s most legendary noodle style. Experience the pinnacle of Tonkotsu craftsmanship in a setting that breathes the true spirit of a local Fukuoka haunt.",
+      "link": "/ramen/tairyo_ramen_en"
+    },
+    {
+      "id": "ramen_kairyu_ko",
+      "lang": "ko",
+      "title": "후쿠오카 기타큐슈의 영혼을 담은 한 그릇: Best Ramen in Fukuoka, Kitakyushu, '라면 카이류(Ramen Kairyu)'의 경이로운 여정",
+      "lat": 33.8811,
+      "lng": 130.8811,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_kairyu.jpg",
+      "address": "Fukuoka, Kitakyushu",
+      "published": "2026-04-19",
+      "summary": "기타큐슈의 전설적인 쿠루메 스타일 돈코츠 라멘인 라면 카이류는 수십 년간 이어온 '요비모도시' 공법의 정수를 보여주는 진정한 현지인 맛집입니다. 강렬한 육수의 향과 깊이 있는 감칠맛은 미식가들에게 잊을 수 없는 충격을 선사하며, 투박하지만 진심 어린 장인 정신이 그릇마다 가득 담겨 있습니다. 후쿠오카 여행의 정점을 찍을 이 특별한 미식 경험은 당신의 라멘에 대한 정의를 완전히 바꾸어 놓을 것입니다.",
+      "link": "/ramen/ramen_kairyu_ko"
+    },
     {
       "id": "ramen_takahashi_ko",
       "lang": "ko",
@@ -1249,22 +1633,6 @@
       "published": "2026-04-05",
       "summary": "Discover the 70-year legacy of Honke Daiichi-asahi, an undisputed titan of Kyoto's culinary landscape offering a soul-stirring bowl of pork-based shoyu ramen. This local gem near Kyoto Station serves a masterclass in balance, featuring artisanal noodles and the famed Kujo negi. Experience the authentic heart of Shimogyo through a bowl that has defined Japanese comfort food for generations.",
       "link": "/ramen/honke_daiichi-asahi_en"
-    },
-    {
-      "id": "nakiryu_en",
-      "lang": "en",
-      "title": "The Ultimate Guide to the Best Ramen in Tokyo, Toshima: A Michelin-Star Masterclass at Nakiryu",
-      "lat": 35.7322,
-      "lng": 139.7291,
-      "categories": [
-        "Chicken",
-        "Premium"
-      ],
-      "thumbnail": "/static/images/nakiryu.jpg",
-      "address": "Tokyo, Toshima",
-      "published": "2026-04-03",
-      "summary": "Discover the architectural perfection of Nakiryu, a Michelin-starred sanctuary in Toshima renowned for transforming Tantanmen into a world-class culinary experience. This guide explores the intricate layers of their legendary broth, the precision of their house-made noodles, and the serene atmosphere that defines this elite ramen destination. Prepare for a sensory journey where every slurp reveals a new dimension of spice, acidity, and umami-rich depth.",
-      "link": "/ramen/nakiryu_en"
     },
     {
       "id": "hakata_ikkousha_en",
