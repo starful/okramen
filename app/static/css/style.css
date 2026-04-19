@@ -1,35 +1,39 @@
 /* =========================================
-   1. Variables & Global Settings
+   1. Variables & Global Settings (라멘 테마 컬러)
    ========================================= */
 :root {
-    --primary-color: #2c3e50;
-    --accent-color: #e74c3c;
-    --accent-hover: #c0392b;
-    --bg-color: #fffaf0;
+    --primary-color: #3e2723;   /* 진한 육수 브라운 (텍스트/헤더) */
+    --accent-color: #f39c12;    /* 노른자 황금색 (포인트/버튼) */
+    --accent-hover: #e67e22;    /* 구워진 차슈 오렌지 (호버) */
+    --guide-border: #a1887f;    /* 가이드 전용 우드 브라운 */
+    --bg-color: #fffaf0;        /* 돈코츠 크림색 (전체 배경) */
     --card-bg: #ffffff;
-    --text-gray: #555;
+    --text-gray: #5d4037;
+    --light-border: #efebe9;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     line-height: 1.6; margin: 0; color: var(--primary-color);
     background-color: var(--bg-color);
-    background-image: radial-gradient(#f39c12 0.5px, transparent 0.5px);
+    /* 배경 점무늬 패턴 */
+    background-image: radial-gradient(var(--accent-color) 0.5px, transparent 0.5px);
     background-size: 30px 30px;
+    word-break: keep-all;
 }
 
 .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-a { text-decoration: none; color: inherit; }
+a { text-decoration: none; color: inherit; transition: all 0.2s; }
 
 /* =========================================
-   2. Header & Navigation (로고 중앙 정렬 및 구조)
+   2. Header & Navigation (중앙 로고 정렬)
    ========================================= */
 header {
     background: rgba(255, 255, 255, 0.98); backdrop-filter: blur(10px);
     padding: 10px 0 5px 0; 
     position: sticky; top: 0; z-index: 1000;
     border-bottom: 3px solid var(--accent-color);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 15px rgba(62, 39, 35, 0.05);
 }
 
 .header-top {
@@ -45,181 +49,194 @@ header {
 /* 왼쪽 가이드 버튼 */
 .header-left {
     position: absolute;
-    left: 10px;
+    left: 15px;
     z-index: 10;
 }
+.header-left a { 
+    font-weight: 800; color: var(--guide-border) !important; 
+    font-size: 0.95rem; border-bottom: 2px solid transparent;
+}
+.header-left a:hover { color: var(--primary-color) !important; border-bottom: 2px solid var(--accent-color); }
 
 /* 중앙 로고 */
 .logo-img { 
-    height: 70px; 
-    width: auto; 
-    display: block;
-    transition: transform 0.3s ease;
+    height: 70px; width: auto; display: block;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+.logo-img:hover { transform: scale(1.05); }
 
 /* 오른쪽 언어 선택기 */
 .lang-selector { 
     position: absolute;
-    right: 10px; 
+    right: 15px; 
     display: flex; 
-    gap: 5px; 
+    gap: 6px; 
     z-index: 10;
 }
 
 .lang-btn { 
-    padding: 5px 12px; font-size: 0.8rem; font-weight: 700; border: 1.5px solid #ddd; 
-    background: #fff; color: #777; border-radius: 20px; cursor: pointer;
-    text-decoration: none;
+    padding: 5px 12px; font-size: 0.8rem; font-weight: 700; border: 1.5px solid var(--light-border); 
+    background: #fff; color: #8d6e63; border-radius: 20px; cursor: pointer;
+    text-decoration: none; display: inline-block;
 }
-.lang-btn.active { background: #333; color: #fff; border-color: #333; }
+.lang-btn.active { background: var(--primary-color); color: #fff; border-color: var(--primary-color); }
+.lang-btn:hover:not(.active) { background: #fdfaf9; border-color: var(--accent-color); }
 
-/* 카테고리 버튼 영역 */
+/* 카테고리 필터 버튼 */
 .theme-filter-buttons { 
     display: flex; 
     justify-content: center; 
     flex-wrap: wrap; 
     gap: 10px; 
-    padding: 10px 0;
+    padding: 12px 0 8px 0;
     margin-top: 5px;
 }
 
 .theme-button {
-    padding: 8px 18px; font-size: 0.9rem; font-weight: 700; border: 1.5px solid #eee;
-    background-color: #fff; color: #555; border-radius: 30px; cursor: pointer;
-    transition: all 0.2s; display: flex; align-items: center; gap: 6px;
+    padding: 8px 18px; font-size: 0.9rem; font-weight: 700; border: 1.5px solid var(--light-border);
+    background-color: #fff; color: var(--text-gray); border-radius: 30px; cursor: pointer;
+    transition: all 0.2s ease; display: flex; align-items: center; gap: 6px;
     white-space: nowrap;
 }
+.theme-button:hover { border-color: var(--accent-color); color: var(--accent-color); }
 .theme-button.active { 
     background-color: var(--accent-color); color: white; border-color: var(--accent-color); 
-    box-shadow: 0 4px 10px rgba(231, 76, 60, 0.2); 
+    box-shadow: 0 4px 12px rgba(243, 156, 18, 0.25); 
 }
 
-/* 🔢 카테고리 숫자 배지 */
+/* 🔢 숫자 배지 */
 .count-badge { 
-    background-color: #eee; color: #666; font-size: 0.75rem; 
+    background-color: var(--light-border); color: #8d6e63; font-size: 0.75rem; 
     padding: 2px 8px; border-radius: 10px; font-weight: 800; 
 }
 .theme-button.active .count-badge { background: rgba(255,255,255,0.3); color: #fff; }
 
 /* =========================================
-   3. Custom Ramen Marker (지도 사진 마커)
+   3. Custom Ramen Marker (지도 마커)
    ========================================= */
 .ramen-marker {
-    width: 45px; height: 45px; border-radius: 50%; border: 2px solid #fff; 
-    box-shadow: 0 3px 10px rgba(0,0,0,0.25); overflow: hidden; background-color: #fff;
+    width: 45px; height: 45px; border-radius: 50%; border: 2.5px solid #fff; 
+    box-shadow: 0 3px 12px rgba(62, 39, 35, 0.3); overflow: hidden; background-color: #fff;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;
 }
 .ramen-marker:hover { transform: scale(1.4) translateY(-5px); border-color: var(--accent-color); z-index: 9999 !important; }
 .ramen-marker img { width: 100%; height: 100%; object-fit: cover; }
 
 /* =========================================
-   4. Guide Section (빨간 테두리 강조 섹션)
+   4. Guide Section (빨간색 -> 브라운 테두리 강조)
    ========================================= */
 .guide-highlight-section {
-    border: 3px solid var(--accent-color); 
-    padding: 30px 20px;
-    border-radius: 20px;
+    border: 3px solid var(--guide-border); 
+    padding: 35px 25px;
+    border-radius: 25px;
     background-color: #fff;
-    margin-bottom: 50px;
-    box-shadow: 0 10px 30px rgba(231, 76, 60, 0.1);
+    margin-bottom: 60px;
+    box-shadow: 0 12px 40px rgba(161, 136, 127, 0.12);
 }
 
 .guide-section-title {
-    color: var(--accent-color) !important;
-    font-size: 1.8rem; margin-bottom: 25px; text-align: center;
-    display: flex; align-items: center; justify-content: center; gap: 10px;
+    color: var(--guide-border) !important;
+    font-size: 1.85rem; margin-bottom: 30px; text-align: center;
+    display: flex; align-items: center; justify-content: center; gap: 12px;
     font-weight: 900;
 }
 
-.view-all-container { text-align: center; margin-top: 30px; }
+.view-all-container { text-align: center; margin-top: 35px; }
 .btn-view-all {
-    display: inline-block; padding: 12px 35px; background-color: var(--accent-color);
-    color: white !important; border-radius: 30px; font-weight: 800; transition: all 0.3s;
-    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+    display: inline-block; padding: 13px 38px; background-color: var(--guide-border);
+    color: white !important; border-radius: 35px; font-weight: 800; transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(161, 136, 127, 0.3);
 }
-.btn-view-all:hover { transform: translateY(-3px); background-color: var(--accent-hover); }
+.btn-view-all:hover { transform: translateY(-3px); background-color: var(--primary-color); box-shadow: 0 6px 20px rgba(62, 39, 35, 0.2); }
 
 /* =========================================
    5. Grid/Card 스타일
    ========================================= */
-.map-section { width: 100%; height: 60vh; min-height: 400px; background: #ddd; }
+.map-section { width: 100%; height: 62vh; min-height: 450px; background: #d7ccc8; }
 #map { width: 100%; height: 100%; }
-.content-wrapper { max-width: 1100px; margin: -40px auto 0; padding: 0 20px 60px; position: relative; z-index: 10; }
+.content-wrapper { max-width: 1100px; margin: -45px auto 0; padding: 0 20px 70px; position: relative; z-index: 10; }
 
 .intro-box { 
-    background: #fff; padding: 25px; border-radius: 15px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); 
-    text-align: center; margin-bottom: 40px; border-top: 5px solid var(--accent-color); 
+    background: #fff; padding: 30px; border-radius: 18px; box-shadow: 0 15px 40px rgba(62, 39, 35, 0.1); 
+    text-align: center; margin-bottom: 50px; border-top: 6px solid var(--accent-color); 
 }
 
-.onsen-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; }
+.onsen-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 30px; }
 .onsen-card { 
-    background: #fff; border-radius: 15px; overflow: hidden; display: flex; flex-direction: column; 
-    transition: all 0.3s ease; border: 1px solid #f0f0f0; 
+    background: #fff; border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; 
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); border: 1px solid var(--light-border); 
 }
-.onsen-card:hover { transform: translateY(-8px); box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+.onsen-card:hover { transform: translateY(-10px); box-shadow: 0 15px 35px rgba(62, 39, 35, 0.12); border-color: var(--accent-color); }
 
-.card-thumb { width: 100%; height: 210px; object-fit: cover; }
-.card-content { padding: 20px; flex-grow: 1; }
-.card-title { font-size: 1.25rem; margin: 0 0 12px 0; line-height: 1.4; color: var(--primary-color); font-weight: 800; }
-.card-summary { font-size: 0.95rem; color: #666; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 15px; }
+.card-thumb { width: 100%; height: 215px; object-fit: cover; }
+.card-content { padding: 22px; flex-grow: 1; }
+.card-title { font-size: 1.3rem; margin: 0 0 12px 0; line-height: 1.4; color: var(--primary-color); font-weight: 800; }
+.card-summary { font-size: 0.95rem; color: #6d4c41; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.7; }
 
 /* =========================================
-   6. Mobile UX Optimization
+   6. Mobile UX Optimization (반응형 코드 전체)
    ========================================= */
 @media (max-width: 768px) {
     .container { padding: 0 !important; }
     header { padding: 5px 0 0px 0 !important; }
-    .header-top { height: 65px !important; }
+    .header-top { height: 68px !important; }
     .header-left { display: none; }
     .logo-img { height: 50px !important; }
-    .lang-selector { right: 10px !important; }
+    .lang-selector { right: 12px !important; }
 
     .theme-filter-buttons {
         display: flex !important; flex-wrap: nowrap !important; justify-content: flex-start !important;
-        overflow-x: auto !important; padding: 5px 15px 12px 15px !important; -webkit-overflow-scrolling: touch;
+        overflow-x: auto !important; padding: 10px 15px 18px 15px !important; gap: 8px !important;
+        -webkit-overflow-scrolling: touch;
     }
     .theme-filter-buttons::-webkit-scrollbar { display: none; }
     .theme-filter-buttons { -ms-overflow-style: none; scrollbar-width: none; }
 
-    .map-section { height: 50vh !important; }
-    .content-wrapper { margin-top: -15px !important; padding: 0 12px 30px !important; }
-    .guide-highlight-section { padding: 20px 15px; }
+    .map-section { height: 52vh !important; }
+    .content-wrapper { margin-top: -20px !important; padding: 0 15px 50px !important; }
+    .guide-highlight-section { padding: 25px 15px; border-width: 2px; }
+    .guide-section-title { font-size: 1.5rem; }
+    .onsen-grid { gap: 20px; }
 }
 
 /* =========================================
    7. 상세 페이지 (Detail Page) 스타일 
    ========================================= */
 .detail-container {
-    max-width: 850px; margin: 40px auto; padding: 40px; 
-    background: #fff; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+    max-width: 850px; margin: 40px auto; padding: 50px 40px; 
+    background: #fff; border-radius: 25px; box-shadow: 0 15px 50px rgba(62, 39, 35, 0.06);
 }
-.detail-header { text-align: center; margin-bottom: 40px; }
-.detail-title { font-size: 2.4rem; line-height: 1.2; color: var(--primary-color); margin-bottom: 20px; word-break: keep-all; }
+.detail-header { text-align: center; margin-bottom: 45px; }
+.detail-title { font-size: 2.6rem; line-height: 1.2; color: var(--primary-color); margin-bottom: 25px; font-weight: 900; }
 .detail-meta {
-    display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; color: #777;
-    font-size: 0.95rem; padding: 15px; background: #fdfdfd; border-top: 1px solid #eee; border-bottom: 1px solid #eee;
+    display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; color: #8d6e63;
+    font-size: 0.95rem; padding: 18px; background: #fffcfb; border-top: 1px solid var(--light-border); border-bottom: 1px solid var(--light-border);
 }
-.detail-img { width: 100%; height: auto; border-radius: 15px; margin: 30px 0; box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
-.detail-content { font-size: 1.15rem; line-height: 1.9; color: #333; letter-spacing: -0.02em; }
+.detail-img { width: 100%; height: auto; border-radius: 20px; margin: 35px 0; box-shadow: 0 8px 25px rgba(62, 39, 35, 0.1); }
+.detail-content { font-size: 1.18rem; line-height: 1.95; color: #3e2723; letter-spacing: -0.01em; }
 .detail-content h2 {
-    font-size: 1.6rem; color: var(--primary-color); margin-top: 50px; margin-bottom: 20px;
-    padding-left: 15px; border-left: 5px solid var(--accent-color);
-    background: linear-gradient(to right, #fff5f5, transparent);
+    font-size: 1.7rem; color: var(--primary-color); margin-top: 60px; margin-bottom: 25px;
+    padding-left: 18px; border-left: 6px solid var(--accent-color);
+    background: linear-gradient(to right, #fffde7, transparent);
 }
-.back-btn { display: inline-block; padding: 12px 30px; background-color: var(--primary-color); color: white !important; border-radius: 30px; font-weight: bold; margin-top: 20px; }
+.back-btn { display: inline-block; padding: 14px 35px; background-color: var(--primary-color); color: white !important; border-radius: 35px; font-weight: bold; margin-top: 30px; }
+.back-btn:hover { background-color: #000; transform: scale(1.05); }
 
 /* =========================================
-   8. InfoWindow & Footer
+   8. InfoWindow & Footer 스타일
    ========================================= */
-.info-box-content { padding: 10px; max-width: 220px; }
-.info-box-title { font-size: 1.1rem; font-weight: 800; color: var(--primary-color); margin-bottom: 5px; }
-.info-box-address { font-size: 0.85rem; color: #777; margin-bottom: 12px; }
-.info-box-link { display: block; background-color: var(--accent-color); color: white !important; text-align: center; padding: 8px 0; border-radius: 8px; font-weight: bold; }
-
-footer { text-align: center; padding: 50px 20px; color: #999; background: #fff; border-top: 1px solid #eee; }
-.footer-status { display: flex; justify-content: center; gap: 12px; margin-bottom: 25px; flex-wrap: wrap; }
-.status-badge { 
-    background-color: #fff; color: #555; padding: 6px 15px; border-radius: 20px; 
-    font-size: 0.8rem; font-weight: 700; display: flex; align-items: center; gap: 6px; border: 1.5px solid #eee; 
+.info-box-content { padding: 12px; max-width: 230px; }
+.info-box-title { font-size: 1.15rem; font-weight: 900; color: var(--primary-color); margin-bottom: 6px; }
+.info-box-address { font-size: 0.88rem; color: #6d4c41; margin-bottom: 14px; }
+.info-box-link { 
+    display: block; background-color: var(--accent-color); color: white !important; 
+    text-align: center; padding: 10px 0; border-radius: 10px; font-weight: 800; font-size: 0.95rem;
 }
-.status-badge.highlight { border-color: var(--accent-color); color: var(--accent-color); }
+
+footer { text-align: center; padding: 60px 20px; color: #8d6e63; background: #fff; border-top: 1px solid var(--light-border); }
+.footer-status { display: flex; justify-content: center; gap: 15px; margin-bottom: 30px; flex-wrap: wrap; }
+.status-badge { 
+    background-color: #fff; color: #5d4037; padding: 8px 18px; border-radius: 25px; 
+    font-size: 0.85rem; font-weight: 700; display: flex; align-items: center; gap: 8px; border: 1.5px solid var(--light-border); 
+}
+.status-badge.highlight { border-color: var(--accent-color); color: var(--accent-hover); box-shadow: 0 4px 10px rgba(243, 156, 18, 0.15); }
