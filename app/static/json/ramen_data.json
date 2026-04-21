@@ -1,7 +1,327 @@
 {
-  "last_updated": "2026.04.19",
-  "total_count": 135,
+  "last_updated": "2026.04.21",
+  "total_count": 155,
   "ramens": [
+    {
+      "id": "hokkai_ramen_ko",
+      "lang": "ko",
+      "title": "[Best Ramen in Hokkaido, Sapporo] 삿포로의 영혼을 담다: 미소 라멘의 정점, '홋카이 라멘(Hokkai Ramen)' 완벽 미식 가이드",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/hokkai_ramen.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "삿포로 현지인의 발길이 끊이지 않는 홋카이 라멘은 깊은 풍미의 미소 베이스와 불맛이 조화를 이루는 최고의 로컬 맛집입니다. 장인의 철학이 깃든 진한 육수와 탄력 있는 면발은 여행자에게 잊지 못할 미식 경험을 선사할 것입니다. 삿포로 미소 라멘의 정수를 느끼고 싶다면 반드시 방문해야 할 필수 코스입니다.",
+      "link": "/ramen/hokkai_ramen_ko"
+    },
+    {
+      "id": "yamei_ramen_en",
+      "lang": "en",
+      "title": "The Unrivaled King of Porcine Perfection: Why Yamei Ramen is the Best Ramen in Hokkaido, Sapporo",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/yamei_ramen.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "Yamei Ramen stands as a clandestine titan in Sapporo’s competitive culinary landscape, offering a masterclass in rich, velvet-textured Tonkotsu that defies the city's traditional miso-heavy expectations. This local sanctuary elevates porcine broth to a spiritual experience, blending rustic Hokkaido charm with the precision of high-end gastronomy. For those seeking the pinnacle of authentic noodle craftsmanship away from the tourist trails, this is an unmissable pilgrimage for the palate.",
+      "link": "/ramen/yamei_ramen_en"
+    },
+    {
+      "id": "aji_no_sanpei_ko",
+      "lang": "ko",
+      "title": "삿포로의 영혼이 깃든 한 그릇, Best Ramen in Hokkaido, Sapporo - 아지노 산페이(味の三平) 미소라멘의 기원을 찾아서",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/aji_no_sanpei.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "미소라멘의 발상지로서 70년 넘는 역사를 지킨 아지노 산페이는 삿포로 라멘의 정점이자 살아있는 전설입니다. 볶은 채소의 풍미가 녹아든 깊은 미소 육수와 노란 치지레면의 조화는 단순한 식사를 넘어선 미학적 경험을 선사합니다. 홋카이도의 추위를 녹이는 가장 따뜻하고 진실된 한 그릇을 찾는 미식가들에게 이곳은 성지와도 같습니다.",
+      "link": "/ramen/aji_no_sanpei_ko"
+    },
+    {
+      "id": "ramen_sora_ko",
+      "lang": "ko",
+      "title": "The Ultimate Guide to Best Ramen in Hokkaido, Sapporo: Ramen Sora's Miso Masterpiece",
+      "lat": 43.0511,
+      "lng": 141.3511,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_sora.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "삿포로 라멘의 정점에 서 있는 '라멘 소라'는 깊고 진한 미소 베이스에 생강의 변주를 더해 전 세계 미식가들을 사로잡은 진정한 현지인 맛집입니다. 홋카이도 여행에서 절대 놓쳐서는 안 될 이 미식의 성지는 전통적인 삿포로 스타일을 현대적으로 재해석하여 입안 가득 감동을 선사합니다. 최상급 차슈와 쫄깃한 면발이 만들어내는 완벽한 하모니를 미슐랭 가이드급 시선으로 분석한 심층 리뷰를 확인해 보세요.",
+      "link": "/ramen/ramen_sora_ko"
+    },
+    {
+      "id": "ramen_mutsumiya_ko",
+      "lang": "ko",
+      "title": "Best Ramen in Hokkaido, Sapporo: 전설의 미소 라멘, '라멘 무츠미야'에 대한 미식적 경의",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_mutsumiya.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "홋카이도 라멘의 정점으로 불리는 라멘 무츠미야에서 장인 정신이 깃든 궁극의 미소 라멘을 경험하십시오. 현지인들이 아끼는 이 보석 같은 맛집은 깊은 풍미의 육수와 예술적인 면발의 조화로 당신의 미각을 깨울 것입니다. 삿포로 여행의 완성은 바로 이곳, 무츠미야의 한 그릇에서 시작됩니다.",
+      "link": "/ramen/ramen_mutsumiya_ko"
+    },
+    {
+      "id": "hirugao_tokyo_ko",
+      "lang": "ko",
+      "title": "도쿄 치요다구 최고의 라멘, 히루가오(Hirugao) - 시오 라멘의 정점을 찍다 (Best Ramen in Tokyo, Chiyoda)",
+      "lat": 35.6811,
+      "lng": 139.7671,
+      "categories": [
+        "시오",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/hirugao_tokyo.jpg",
+      "address": "Tokyo, Chiyoda",
+      "published": "2026-04-21",
+      "summary": "도쿄역 라멘 스트리트의 보석 같은 존재인 히루가오는 가리비와 닭 육수의 완벽한 조화로 시오 라멘의 새로운 지평을 열었으며, 현지 미식가들이 인정하는 압도적인 감칠맛을 자랑합니다.",
+      "link": "/ramen/hirugao_tokyo_ko"
+    },
+    {
+      "id": "teshikaga_ramen_en",
+      "lang": "en",
+      "title": "The Liquid Gold of Lake Mashu: Why Teshikaga Ramen is the Best Ramen in Hokkaido, Sapporo",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/teshikaga_ramen.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "Experience the pinnacle of northern craftsmanship at Teshikaga Ramen, where pristine mountain water and aged soy sauce create the best ramen in Hokkaido, Sapporo. This local gem masterfully blends traditional Shoyu heritage with artisanal toppings for an unforgettable culinary journey. A must-visit destination for those seeking the authentic soul of Hokkaido's ramen culture.",
+      "link": "/ramen/teshikaga_ramen_en"
+    },
+    {
+      "id": "ganso_sapporo_ramen_yokocho_ko",
+      "lang": "ko",
+      "title": "The Ultimate Masterpiece: Best Ramen in Hokkaido, Sapporo - 원조 삿포로 라멘 요코초의 미학적 탐구",
+      "lat": 43.0541,
+      "lng": 141.3541,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ganso_sapporo_ramen_yokocho.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "홋카이도 미식의 심장, 삿포로 스스키노의 좁은 골목에 숨겨진 '원조 삿포로 라멘 요코초'에서 펼쳐지는 궁극의 미소 라멘 대서사시를 미슐랭 스타 비평가의 시선으로 해부합니다. 1951년부터 이어져 온 역사적 장소에서 진정한 장인 정신이 깃든 국물과 면발의 완벽한 하모니를 경험하며, 삿포로 로컬들이 사랑하는 진정한 맛의 정점을 발견하십시오.",
+      "link": "/ramen/ganso_sapporo_ramen_yokocho_ko"
+    },
+    {
+      "id": "ikaruga_tokyo_ko",
+      "lang": "ko",
+      "title": "도쿄 치요다구 최고의 라멘(Best Ramen in Tokyo, Chiyoda): ‘이카루가(Ikaruga)’가 선사하는 미학적 미식의 정점",
+      "lat": 35.6811,
+      "lng": 139.7671,
+      "categories": [
+        "쇼유",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/ikaruga_tokyo.jpg",
+      "address": "Tokyo, Chiyoda",
+      "published": "2026-04-21",
+      "summary": "도쿄역 이치방가 라멘 스트리트에서 가장 우아한 미식 경험을 제공하는 이카루가는 돈코츠와 어패류 육수의 완벽한 화합을 보여주는 'W-수프'의 선구자입니다. 미슐랭 가이드급의 세련된 인테리어와 한 그릇의 예술 작품 같은 라멘은 단순한 식사를 넘어선 감동을 선사합니다. 치요다구의 심장부에서 만나는 이 프리미엄 쇼유 라멘은 도쿄 여행의 가장 빛나는 순간이 될 것입니다.",
+      "link": "/ramen/ikaruga_tokyo_ko"
+    },
+    {
+      "id": "ramen_sapporo_ichiryu_en",
+      "lang": "en",
+      "title": "The Golden Standard of Umami: Why Ramen Sapporo Ichiryu is the Best Ramen in Hokkaido, Sapporo",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_sapporo_ichiryu.jpg",
+      "address": "5-chome-20-2 Minami 4 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0804, Japan",
+      "published": "2026-04-21",
+      "summary": "Discover the pinnacle of fermented excellence at Ramen Sapporo Ichiryu, where wok-fired miso meets a sophisticated spicy kick. This local gem offers a masterclass in Hokkaido’s culinary heritage, delivering a broth of unparalleled depth and complexity. Prepare for a sensory journey that redefines what a bowl of noodles can achieve in the heart of Susukino.",
+      "link": "/ramen/ramen_sapporo_ichiryu_en"
+    },
+    {
+      "id": "ramen_mutsumiya_en",
+      "lang": "en",
+      "title": "The Golden Standard of Miso: Why Ramen Mutsumiya is the Best Ramen in Hokkaido, Sapporo for Local Connoisseurs",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_mutsumiya.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "Discover the artisanal soul of Hokkaido through the legendary miso broth at Ramen Mutsumiya, a sanctuary for those seeking authentic local flavors. This masterclass in ramen craftsmanship combines decades of tradition with a complex, multi-layered soup profile that defines the Sapporo culinary landscape. For the discerning traveler, it remains the ultimate destination to experience the warmth and depth of Japan's northernmost prefecture in every steaming bowl.",
+      "link": "/ramen/ramen_mutsumiya_en"
+    },
+    {
+      "id": "ramen_sapporo_ichiryu_ko",
+      "lang": "ko",
+      "title": "삿포로의 진정한 혼을 담은 미학, 라멘 삿포로 이치류(Ramen Sapporo Ichiryu): Best Ramen in Hokkaido, Sapporo",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_sapporo_ichiryu.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "홋카이도 대지의 축복과 장인의 고집이 빚어낸 라멘 삿포로 이치류는 미소 라멘의 새로운 지평을 여는 성지입니다. 중독성 강한 매콤한 육수와 쫄깃한 면발의 조화는 단순한 식사를 넘어 삿포로의 겨울을 녹이는 따뜻한 위로를 선사합니다. 현지인들이 줄을 서서 기다리는 이 숨은 보석에서 진정한 북해도의 맛을 경험해 보시기 바랍니다.",
+      "link": "/ramen/ramen_sapporo_ichiryu_ko"
+    },
+    {
+      "id": "ikaruga_tokyo_en",
+      "lang": "en",
+      "title": "The Symphony of Umami: Why Ikaruga is the Best Ramen in Tokyo, Chiyoda",
+      "lat": 35.6811,
+      "lng": 139.7671,
+      "categories": [
+        "Shoyu",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/ikaruga_tokyo.jpg",
+      "address": "Tokyo, Chiyoda, Marunouchi 1-9-1, Tokyo Station Ichibangai B1F",
+      "published": "2026-04-21",
+      "summary": "Discover the pinnacle of refined 'W-Soup' craftsmanship at Ikaruga, where fashion-forward aesthetics meet centuries of culinary tradition in the heart of Chiyoda. This guide explores the complex marriage of seafood and pork bone broths that defines the legendary Tokyo Ramen Street experience. Prepare for a sensory journey through one of Japan's most sophisticated and accessible gourmet ramen destinations.",
+      "link": "/ramen/ikaruga_tokyo_en"
+    },
+    {
+      "id": "ganso_sapporo_ramen_yokocho_en",
+      "lang": "en",
+      "title": "The Alchemist’s Cauldron: Why Ganso Sapporo Ramen Yokocho Still Serves the Best Ramen in Hokkaido, Sapporo",
+      "lat": 43.0541,
+      "lng": 141.3541,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ganso_sapporo_ramen_yokocho.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "Discover the legendary birthplace of miso ramen in the heart of Susukino, where narrow alleyways house the most profound culinary secrets of the north. This definitive guide explores the complex umami profiles and historic craftsmanship that make Ganso Sapporo Ramen Yokocho an essential pilgrimage for global gourmands. Experience the authentic soul of Hokkaido through a steaming bowl of perfection, meticulously reviewed by a Michelin-standard lens.",
+      "link": "/ramen/ganso_sapporo_ramen_yokocho_en"
+    },
+    {
+      "id": "teshikaga_ramen_ko",
+      "lang": "ko",
+      "title": "홋카이도 최고의 미식 경험: 삿포로 쇼유 라멘의 정점, 테시카가 라멘 (Best Ramen in Hokkaido, Sapporo)",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/teshikaga_ramen.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "홋카이도의 맑은 정기와 엄선된 대지의 식재료가 빚어낸 테시카가 라멘은 단순한 한 그릇을 넘어선 미학적 완성도를 자랑합니다. 깊고 진한 어패류 쇼유 베이스와 숯불 향 가득한 차슈의 조화는 삿포로 미식 여행의 정점을 찍기에 부족함이 없습니다. 현지인들이 줄을 서서 기다리는 이 진정한 로컬 맛집에서 라멘의 철학을 직접 확인해 보십시오.",
+      "link": "/ramen/teshikaga_ramen_ko"
+    },
+    {
+      "id": "hirugao_tokyo_en",
+      "lang": "en",
+      "title": "The Golden Alchemy of Salt: Why Hirugao Tokyo Offers the Best Ramen in Tokyo, Chiyoda for the Discerning Local",
+      "lat": 35.6811,
+      "lng": 139.7671,
+      "categories": [
+        "Shio",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/hirugao_tokyo.jpg",
+      "address": "Tokyo, Chiyoda",
+      "published": "2026-04-21",
+      "summary": "Discover the ethereal brilliance of Hirugao, a sanctuary of Shio ramen that stands as a testament to culinary precision in the heart of Chiyoda. By blending rare seafood essences with a mineral-rich salt profile, this local gem delivers an unrivaled sensory journey through Japan's most refined broth. For those seeking the absolute best ramen in Tokyo, Chiyoda, Hirugao offers a masterclass in balance, elegance, and pure umami.",
+      "link": "/ramen/hirugao_tokyo_en"
+    },
+    {
+      "id": "hokkai_ramen_en",
+      "lang": "en",
+      "title": "The Umami Architecture of Sapporo: Why Hokkai Ramen is the Uncontested Best Ramen in Hokkaido, Sapporo",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/hokkai_ramen.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "Experience the pinnacle of Hokkaido soul food at Hokkai Ramen, where a masterfully charred miso broth meets artisan wavy noodles in a setting that defines the local gem experience. This culinary sanctuary offers a visceral journey through Sapporo's rich gastronomic heritage, delivering a bowl that transcends mere sustenance to become a work of art.",
+      "link": "/ramen/hokkai_ramen_en"
+    },
+    {
+      "id": "ramen_sora_en",
+      "lang": "en",
+      "title": "The Alchemist of Susukino: Why Ramen Sora is the Definitive Best Ramen in Hokkaido, Sapporo",
+      "lat": 43.0511,
+      "lng": 141.3511,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_sora.jpg",
+      "address": "Hokkaido, Sapporo, Chuo Ward, Minami 3 Jonishi, 7 Chome−5-2",
+      "published": "2026-04-21",
+      "summary": "Experience the pinnacle of Hokkaido soul food at Ramen Sora, where fire-seared miso meets artisanal craftsmanship in the heart of Susukino. This legendary local gem offers a complex, ginger-infused broth that redefines the Sapporo style for the modern palate. Discover why discerning locals and international gourmands alike consider this the absolute best ramen in Hokkaido, Sapporo.",
+      "link": "/ramen/ramen_sora_en"
+    },
+    {
+      "id": "aji_no_sanpei_en",
+      "lang": "en",
+      "title": "The Genesis of Umami: Why Aji no Sanpei is the Best Ramen in Hokkaido, Sapporo",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/aji_no_sanpei.jpg",
+      "address": "Hokkaido, Sapporo, Chuo Ward, Minami 1 Jonishi, 3 Chome−2, Daimaru Fujii Central 4F",
+      "published": "2026-04-21",
+      "summary": "Discover the hallowed birthplace of Miso ramen where history and flavor collide in a single, steaming bowl of perfection. Aji no Sanpei offers a transcendent culinary journey through Hokkaido's rich heritage, serving a rustic broth that remains the gold standard for enthusiasts worldwide. This is more than a meal; it is a pilgrimage to the soul of Sapporo’s legendary noodle culture.",
+      "link": "/ramen/aji_no_sanpei_en"
+    },
+    {
+      "id": "yamei_ramen_ko",
+      "lang": "ko",
+      "title": "최고의 삿포로 라멘을 찾아서: Best Ramen in Hokkaido, Sapporo '야메이 라멘(Yamei Ramen)' 미식 가이드",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/yamei_ramen.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-04-21",
+      "summary": "홋카이도 삿포로의 숨은 보석 야메이 라멘은 깊고 진한 돈코츠 육수의 정수를 선보이며 현지인들 사이에서 독보적인 지지를 받는 진정한 맛의 성지입니다. 장인 정신이 깃든 자가제면과 입안에서 녹아내리는 차슈의 조화는 미식가들에게 잊지 못할 미각의 향연을 선사합니다. 관광객의 발길이 닿지 않는 골목 끝에서 만나는 이 특별한 라멘 한 그릇은 당신의 삿포로 여행을 완성하는 완벽한 선택이 될 것입니다.",
+      "link": "/ramen/yamei_ramen_ko"
+    },
     {
       "id": "nakiryu_en",
       "lang": "en",

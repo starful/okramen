@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, render_template, abort, send_from_directory, redirect, request
 from flask_compress import Compress
+from flask import make_response
 import json
 import os
 import frontmatter
@@ -178,7 +179,28 @@ def robots_txt():
 
 @app.route('/sitemap.xml')
 def sitemap_xml():
-    return send_from_directory(STATIC_DIR, 'sitemap.xml')
+    """가게와 가이드 목록을 포함한 동적 사이트맵 생성"""
+    host = "https://okramen.net" # 실제 도메인으로 수정
+    pages = []
+
+    # 메인 및 정적 페이지
+    pages.append({"loc": f"{host}/", "priority": "1.0"})
+    pages.append({"loc": f"{host}/guide", "priority": "0.8"})
+
+    # 라멘 가게 페이지 (CACHED_DATA 기준)
+    if 'ramens' in CACHED_DATA:
+        for ramen in CACHED_DATA['ramens']:
+            pages.append({"loc": f"{host}{ramen['link']}", "priority": "0.7"})
+
+    # 가이드 페이지 (CACHED_GUIDES 기준)
+    for lang in ['en', 'ko']:
+        for guide in CACHED_GUIDES[lang]:
+            pages.append({"loc": f"{host}/guide/{guide['id']}", "priority": "0.9"})
+
+    sitemap_xml = render_template('sitemap_template.xml', pages=pages)
+    response = make_response(sitemap_xml)
+    response.headers["Content-Type"] = "application/xml"
+    return response
 
 @app.route('/about.html')
 def about():
