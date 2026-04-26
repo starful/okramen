@@ -1,101 +1,136 @@
-# 🍜 OKRamen - Discover Japan's Best Ramen Shops & Local Gems
+# OKRamen
 
-**OKRamen** is a global interactive map platform designed to help travelers find the soul of Japanese food—Ramen. Beyond a simple list, OKRamen offers deep-dive guides powered by AI and an intuitive filtering system based on broth types and culinary styles.
+Interactive ramen discovery platform for Japan with map-based browsing, bilingual content, and markdown-first publishing.
 
-🔗 **Live Demo:** [https://okramen.net](https://okramen.net)
+Live: [https://okramen.net](https://okramen.net)
 
----
+## What This Project Does
 
-## ✨ Key Features
+- Serves ramen shop data through a Flask API and renders an interactive Google Map on the homepage.
+- Supports bilingual ramen and guide content (`en` / `ko`) with language-aware links.
+- Uses markdown files with frontmatter as the source of truth (no database).
+- Builds static JSON (`app/static/json/ramen_data.json`) from markdown for fast read performance.
+- Provides operational scripts for AI content generation, image generation/fetch/optimization, and deployment.
 
-*   **Interactive Ramen Map**: Explore curated ramen shops across Japan using the **Google Maps JavaScript API** with **Advanced Markers** and a custom **Map ID**.
-*   **Global Flavor Filtering**: Instantly filter shops by 7 primary world-class categories:
-    *   🐷 **Tonkotsu** (Creamy Pork Broth)
-    *   🥣 **Shoyu** (Classic Soy Sauce)
-    *   🍲 **Miso** (Rich Soybean Paste)
-    *   🧂 **Shio** (Light & Clear Salt)
-    *   🐔 **Chicken** (Velvety Tori-Paitan)
-    *   🥢 **Tsukemen** (Dipping Style Noodles)
-    *   🥬 **Vegan** (Plant-based Varieties)
-*   **Smart Multi-Language Mapping**: A unique logic that bridges the language gap. Clicking the English filter `Tonkotsu` automatically retrieves matching Korean data `돈코츠` for a seamless global experience.
-*   **AI-Powered Deep Dive Guides**: Utilizes **Google Gemini 1.5** to generate 7,000+ character SEO-optimized articles covering shop history, broth complexity, and ordering tips.
-*   **Performance First**: No traditional database required. Markdown files are compiled into a lightweight JSON cache, ensuring ultra-fast loading times via **Flask-Compress**.
+## Tech Stack
 
----
+- Backend: Python, Flask, Gunicorn, Flask-Compress
+- Frontend: Jinja templates + Vanilla JavaScript (ES modules)
+- Content: Markdown + YAML frontmatter
+- AI tooling: Gemini-based generation scripts
+- Infra: Docker, Google Cloud Build, Cloud Run
 
-## 🛠️ Tech Stack
+## Quick Start
 
-*   **Backend**: Python 3.10, Flask, Gunicorn
-*   **Frontend**: Vanilla JavaScript (ESM), Google Maps API (Advanced Markers)
-*   **Content Management**: Markdown with YAML Frontmatter
-*   **AI Integration**: Google Gemini 1.5 API (via `google-genai`)
-*   **Image Processing**: Automated resizing/compression via Pillow
-*   **Infrastructure**: Docker, Google Cloud Run, Cloud Build, Artifact Registry
+### 1) Install
 
----
-
-## 🤖 Automation Scripts
-
-This project includes powerful Python scripts to automate content operations:
-
-1.  **`script/ramen_generator.py`**: Reads CSV master lists and uses Gemini AI to generate bilingual (EN/KO) Markdown content automatically.
-2.  **`script/build_data.py`**: Compiles individual `.md` files into a production-ready `ramen_data.json` while cleaning up unnecessary AI tags (e.g., `## yaml` or code blocks).
-3.  **`script/optimize_images.py`**: Compresses high-resolution images into web-optimized JPEGs (800px width, 75% quality).
-
----
-
-## 🚀 Getting Started
-
-### 1. Installation
 ```bash
 git clone https://github.com/starful/okramen.git
 cd okramen
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Set Up Environment Variables
-Create a `.env` file in the root directory and add your API keys:
+### 2) Configure Environment Variables
+
+Create `.env` in repository root:
+
 ```env
-GEMINI_API_KEY=your_google_gemini_api_key
+GEMINI_API_KEY=your_gemini_api_key
+GOOGLE_MAPS_API_KEY=your_google_maps_js_api_key
+SITE_URL=https://okramen.net
+PORT=8080
 ```
 
-### 3. Build & Run
-```bash
-# Compile Markdown files to JSON
-python script/build_data.py
+Notes:
+- `GOOGLE_MAPS_API_KEY` is required for map rendering on `/`.
+- `SITE_URL` is used by the dynamic sitemap endpoint (`/sitemap.xml`).
+- `PORT` defaults to `8080` if not set.
 
-# Start the Flask server
+### 3) Build Data + Run App
+
+```bash
+python script/build_data.py
 python app/__init__.py
 ```
-Visit `http://localhost:8080` in your browser.
 
----
+Open `http://localhost:8080`.
 
-## 📂 Project Structure
+### 4) Run Tests
 
-```text
-okramen/
-├── app/
-│   ├── content/                 # AI Generated Markdown (.md)
-│   ├── static/
-│   │   ├── css/                 # Custom Ramen UI Theme
-│   │   ├── js/                  # Filtering & Map Engine (main.js)
-│   │   └── json/                # Compiled Production JSON Data
-│   ├── templates/               # HTML Layouts (index, detail, etc.)
-│   └── __init__.py              # Flask App Configuration
-├── script/
-│   ├── csv/                     # Master Shop Lists (ramens.csv)
-│   ├── build_data.py            # Data Compiler & Cleaner
-│   └── ramen_generator.py       # Gemini AI Content Bot
-├── Dockerfile                   # Containerization
-└── cloudbuild.yaml              # CI/CD Pipeline for GCP
+```bash
+pytest -q
 ```
 
----
+## Main Runtime Flow
 
-## 🛡️ License
+1. Markdown files are stored in `app/content`.
+2. `script/build_data.py` compiles ramen markdown into `app/static/json/ramen_data.json`.
+3. Flask loads cached ramen/guide data at startup (`app/__init__.py`).
+4. Frontend requests `/api/ramens` and renders map/list via `app/static/js/main.js`.
+5. SEO/Index routes are exposed through `robots.txt` and dynamic `sitemap.xml`.
+
+## Key Directories
+
+```text
+app/
+  __init__.py              Flask app, routes, caching, sitemap
+  content/                 Markdown source content (ramen + guides)
+  static/
+    css/                   Styles
+    images/                Static image assets
+    js/main.js             Frontend app logic
+    json/ramen_data.json   Built data file
+    robots.txt             Crawl policy
+  templates/               Jinja templates
+script/
+  build_data.py            Markdown -> JSON compiler
+  ramen_generator.py       Ramen markdown generation
+  guide_generator.py       Guide markdown generation
+  generate_images.py       AI image generation
+  fetch_images.py          Remote image fetching helpers
+  optimize_images.py       Compression/resize pipeline
+Dockerfile                 Container runtime config
+cloudbuild.yaml            Cloud Build pipeline
+deploy.sh                  Deployment helper script
+```
+
+## Useful Commands
+
+```bash
+# Rebuild ramen JSON from markdown
+python script/build_data.py
+
+# Run local server
+python app/__init__.py
+
+# Run tests
+pytest -q
+```
+
+## Deployment
+
+- Production runtime uses `gunicorn` in `Dockerfile`.
+- Cloud deployment is configured via `cloudbuild.yaml` (Cloud Build -> Cloud Run).
+- `deploy.sh` contains project-specific automation flow.
+
+Before deploy:
+- Ensure `GOOGLE_MAPS_API_KEY` and `SITE_URL` are set in runtime environment.
+- Rebuild JSON (`python script/build_data.py`) if content changed.
+
+## SEO and Indexing
+
+- `app/static/robots.txt` points crawlers to `/sitemap.xml`.
+- `/sitemap.xml` is dynamically generated from cached ramen and guide data.
+- Templates include canonical and robots metadata for primary pages.
+
+## Development Notes
+
+- The app currently relies on startup-time in-memory caches.
+- If markdown content changes while server is running, restart the app to refresh caches.
+- Keep markdown frontmatter consistent (`id`, `lang`, `title`, `summary`, etc.) for stable rendering.
+
+## License
 
 © 2026 OKRamen Project. All rights reserved.
-Finding the legendary bowl of Ramen across Japan.

@@ -5,3 +5,4 @@ gunicorn
 flask-compress
 python-frontmatter
 markdown
+pytest

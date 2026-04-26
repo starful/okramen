@@ -7,9 +7,14 @@ import frontmatter
 import markdown
 import re
 import glob
+import logging
+from datetime import datetime, timezone
+from xml.sax.saxutils import escape
 
 app = Flask(__name__)
 Compress(app)
+logger = logging.getLogger(__name__)
+SITE_URL = os.environ.get("SITE_URL", "https://okramen.net").rstrip("/")
 
 # [설정] 경로 설정
 BASE_DIR = app.root_path
@@ -41,13 +46,16 @@ if os.path.exists(DATA_FILE):
     try:
         with open(DATA_FILE, 'r', encoding='utf-8') as f:
             CACHED_DATA = json.load(f)
-    except:
+    except (OSError, json.JSONDecodeError) as exc:
+        logger.exception("Failed to load cached ramen data: %s", exc)
         CACHED_DATA = {"ramens":[]}
 
 # 2. 가이드 데이터 캐싱 (날짜순 정렬 및 이미지 배정)
 CACHED_GUIDES = {'en': [], 'ko': []}
 def load_guides():
-    if not os.path.exists(GUIDE_DIR): return
+    if not os.path.exists(GUIDE_DIR):
+        logger.warning("Guide directory does not exist: %s", GUIDE_DIR)
+        return
     
     all_raw = []
     files = glob.glob(os.path.join(GUIDE_DIR, '*.md'))
@@ -65,7 +73,9 @@ def load_guides():
                     'summary': post.get('summary', ''),
                     'published': str(post.get('date', '2026-01-01'))
                 })
-        except: continue
+        except (OSError, ValueError) as exc:
+            logger.warning("Failed to parse guide file %s: %s", fpath, exc)
+            continue
 
     # 날짜순 정렬 기반 이미지 인덱싱
     ref_en = sorted([g for g in all_raw if g['lang'] == 'en'], key=lambda x: x['published'], reverse=True)
@@ -89,15 +99,59 @@ def load_guides():
 
 load_guides()
 
+
+def _safe_iso_date(value, fallback):
+    """Normalize date-like values to YYYY-MM-DD for sitemap lastmod."""
+    if not value:
+        return fallback
+    text = str(value).strip()
+    for fmt in ("%Y-%m-%d", "%Y.%m.%d"):
+        try:
+            return datetime.strptime(text[:10], fmt).date().isoformat()
+        except ValueError:
+            continue
+    return fallback
+
+
+def _file_lastmod(path, fallback):
+    if not os.path.exists(path):
+        return fallback
+    ts = os.path.getmtime(path)
+    return datetime.fromtimestamp(ts, tz=timezone.utc).date().isoformat()
+
+
+def _truncate_text(value, max_len):
+    text = " ".join(str(value or "").split())
+    if len(text) <= max_len:
+        return text
+    return text[: max_len - 1].rstrip() + "…"
+
+
+def _attach_seo_fields(post, suffix):
+    title = str(post.get("title", "")).strip()
+    summary = str(post.get("summary", "")).strip()
+    post["seo_title"] = _truncate_text(f"{title} - {suffix}", 65) if title else suffix
+    post["seo_description"] = _truncate_text(summary or title, 155)
+    return post
+
+
+@app.context_processor
+def inject_site_url():
+    return {"site_url": SITE_URL}
+
 # --- Routes ---
 
 @app.route('/')
 def index():
-    return render_template('index.html', guides=CACHED_GUIDES)
+    maps_api_key = os.environ.get("GOOGLE_MAPS_API_KEY", "").strip()
+    return render_template('index.html', guides=CACHED_GUIDES, maps_api_key=maps_api_key)
 
 @app.route('/api/ramens')
 def api_ramens():
-    return jsonify(CACHED_DATA)
+    response = jsonify(CACHED_DATA)
+    # Prevent raw API endpoints from being indexed as content pages.
+    response.headers["X-Robots-Tag"] = "noindex, nofollow"
+    return response
 
 @app.route('/guide')
 def guide_list_all():
@@ -124,6 +178,7 @@ def guide_detail(guide_id):
     
     # 💡 [핵심] 언어 전환 버튼을 위해 id를 강제 주입
     post['id'] = guide_id 
+    post = _attach_seo_fields(post, "OKRamen Guide")
     
     # 이미지 동적 할당
     base_id = guide_id.rsplit('_', 1)[0]
@@ -137,11 +192,11 @@ def guide_detail(guide_id):
     try:
         img_idx = sorted_ids.index(base_id) % len(UNSPLASH_GUIDE_IMAGES)
         post['thumbnail'] = UNSPLASH_GUIDE_IMAGES[img_idx]
-    except:
+    except ValueError:
         post['thumbnail'] = UNSPLASH_GUIDE_IMAGES[0]
 
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])
-    return render_template('detail.html', post=post, content=content_html)
+    return render_template('guide_detail.html', post=post, content=content_html)
 
 @app.route('/ramen/<ramen_id>')
 def ramen_detail(ramen_id):
@@ -161,6 +216,7 @@ def ramen_detail(ramen_id):
     
     # 💡 [핵심] 언어 전환 버튼을 위해 id를 강제 주입
     post['id'] = ramen_id 
+    post = _attach_seo_fields(post, "OKRamen Japan Guide")
 
     if isinstance(post.get('categories'), str):
         post['categories'] = [c.strip() for c in post['categories'].split(',')]
@@ -179,26 +235,51 @@ def robots_txt():
 
 @app.route('/sitemap.xml')
 def sitemap_xml():
-    """가게와 가이드 목록을 포함한 동적 사이트맵 생성"""
-    host = "https://okramen.net" # 실제 도메인으로 수정
+    """라멘/가이드 URL을 반영한 동적 사이트맵 생성."""
+    host = SITE_URL
     pages = []
+    now_iso = datetime.now(timezone.utc).date().isoformat()
+    about_lastmod = _file_lastmod(os.path.join(BASE_DIR, "templates", "about.html"), now_iso)
+    privacy_lastmod = _file_lastmod(os.path.join(BASE_DIR, "templates", "privacy.html"), now_iso)
 
     # 메인 및 정적 페이지
-    pages.append({"loc": f"{host}/", "priority": "1.0"})
-    pages.append({"loc": f"{host}/guide", "priority": "0.8"})
+    pages.append({"loc": f"{host}/", "priority": "1.0", "changefreq": "daily", "lastmod": now_iso})
+    pages.append({"loc": f"{host}/guide", "priority": "0.8", "changefreq": "daily", "lastmod": now_iso})
+    pages.append({"loc": f"{host}/guide?lang=en", "priority": "0.6", "changefreq": "daily", "lastmod": now_iso})
+    pages.append({"loc": f"{host}/guide?lang=ko", "priority": "0.6", "changefreq": "daily", "lastmod": now_iso})
+    pages.append({"loc": f"{host}/about.html", "priority": "0.4", "changefreq": "monthly", "lastmod": about_lastmod})
+    pages.append({"loc": f"{host}/privacy.html", "priority": "0.3", "changefreq": "yearly", "lastmod": privacy_lastmod})
 
     # 라멘 가게 페이지 (CACHED_DATA 기준)
     if 'ramens' in CACHED_DATA:
         for ramen in CACHED_DATA['ramens']:
-            pages.append({"loc": f"{host}{ramen['link']}", "priority": "0.7"})
+            link = ramen.get('link')
+            if not link:
+                continue
+            ramen_lastmod = _safe_iso_date(ramen.get("published"), now_iso)
+            pages.append({"loc": f"{host}{link}", "priority": "0.7", "changefreq": "weekly", "lastmod": ramen_lastmod})
 
     # 가이드 페이지 (CACHED_GUIDES 기준)
     for lang in ['en', 'ko']:
-        for guide in CACHED_GUIDES[lang]:
-            pages.append({"loc": f"{host}/guide/{guide['id']}", "priority": "0.9"})
+        for guide in CACHED_GUIDES.get(lang, []):
+            guide_id = guide.get('id')
+            if not guide_id:
+                continue
+            guide_lastmod = _safe_iso_date(guide.get("published"), now_iso)
+            pages.append({"loc": f"{host}/guide/{guide_id}", "priority": "0.9", "changefreq": "weekly", "lastmod": guide_lastmod})
 
-    sitemap_xml = render_template('sitemap_template.xml', pages=pages)
-    response = make_response(sitemap_xml)
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for page in pages:
+        lines.extend([
+            "  <url>",
+            f"    <loc>{escape(page['loc'])}</loc>",
+            f"    <lastmod>{page['lastmod']}</lastmod>",
+            f"    <changefreq>{page['changefreq']}</changefreq>",
+            f"    <priority>{page['priority']}</priority>",
+            "  </url>",
+        ])
+    lines.append("</urlset>")
+    response = make_response("\n".join(lines))
     response.headers["Content-Type"] = "application/xml"
     return response
 

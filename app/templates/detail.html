@@ -19,25 +19,30 @@
     </script>
 
     <!-- SEO: 동적 타이틀 및 설명 -->
-    <title>{{ post.title }} - OKRamen Japan Guide</title>
-    <meta name="description" content="{{ post.summary }}">
+    <title>{{ post.seo_title }}</title>
+    <meta name="description" content="{{ post.seo_description }}">
+    <meta name="robots" content="index,follow,max-image-preview:large">
     <meta name="keywords" content="Ramen, {{ post.categories|join(', ') }}, {{ post.address }}, Japan Food Guide">
     
     <!-- SEO: 표준 URL 및 다국어 관계 설정 -->
-    <link rel="canonical" href="https://okramen.net/ramen/{{ post.id }}" />
+    <link rel="canonical" href="{{ site_url }}/ramen/{{ post.id }}" />
     {% if post.lang == 'en' %}
-    <link rel="alternate" hreflang="ko" href="https://okramen.net/ramen/{{ post.id | replace('_en', '_ko') }}" />
+    <link rel="alternate" hreflang="ko" href="{{ site_url }}/ramen/{{ post.id | replace('_en', '_ko') }}" />
     {% else %}
-    <link rel="alternate" hreflang="en" href="https://okramen.net/ramen/{{ post.id | replace('_ko', '_en') }}" />
+    <link rel="alternate" hreflang="en" href="{{ site_url }}/ramen/{{ post.id | replace('_ko', '_en') }}" />
     {% endif %}
-    <link rel="alternate" hreflang="x-default" href="https://okramen.net/ramen/{{ post.id }}" />
+    <link rel="alternate" hreflang="x-default" href="{{ site_url }}/ramen/{{ post.id }}" />
 
     <!-- SNS 공유 (Open Graph) -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ post.title }}">
-    <meta property="og:description" content="{{ post.summary }}">
+    <meta property="og:title" content="{{ post.seo_title }}">
+    <meta property="og:description" content="{{ post.seo_description }}">
     <meta property="og:image" content="{{ post.thumbnail }}">
-    <meta property="og:url" content="https://okramen.net/ramen/{{ post.id }}">
+    <meta property="og:url" content="{{ site_url }}/ramen/{{ post.id }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ post.seo_title }}">
+    <meta name="twitter:description" content="{{ post.seo_description }}">
+    <meta name="twitter:image" content="{{ post.thumbnail }}">
 
     <!-- 구글 구조화 데이터 (JSON-LD): 검색 결과에 별점/위치 노출 확률 증가 -->
     <script type="application/ld+json">

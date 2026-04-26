@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ post.title }} - OKRamen Guide</title>
-    <meta name="description" content="{{ post.summary }}">
+    <title>{{ post.seo_title }}</title>
+    <meta name="description" content="{{ post.seo_description }}">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="{{ site_url }}/guide/{{ post.id }}" />
+    {% if post.lang == 'en' %}
+    <link rel="alternate" hreflang="ko" href="{{ site_url }}/guide/{{ post.id | replace('_en', '_ko') }}" />
+    {% else %}
+    <link rel="alternate" hreflang="en" href="{{ site_url }}/guide/{{ post.id | replace('_ko', '_en') }}" />
+    {% endif %}
+    <link rel="alternate" hreflang="x-default" href="{{ site_url }}/guide/{{ post.id }}" />
     <link rel="stylesheet" href="/static/css/style.css">
     
     <!-- SEO: Article Schema -->
@@ -13,24 +21,28 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "{{ post.title }}",
-      "image": "https://okramen.net{{ post.thumbnail }}",
+      "image": "{{ post.thumbnail if post.thumbnail.startswith('http') else site_url ~ post.thumbnail }}",
       "datePublished": "{{ post.date }}",
       "description": "{{ post.summary }}",
       "publisher": {
         "@type": "Organization",
         "name": "OKRamen",
-        "logo": {"@type": "ImageObject", "url": "https://okramen.net/static/images/logo.png"}
+        "logo": {"@type": "ImageObject", "url": "{{ site_url }}/static/images/logo.png"}
       }
     }
     </script>
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ post.seo_title }}">
+    <meta property="og:description" content="{{ post.seo_description }}">
+    <meta property="og:image" content="{{ post.thumbnail if post.thumbnail.startswith('http') else site_url ~ post.thumbnail }}">
+    <meta property="og:url" content="{{ site_url }}/guide/{{ post.id }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ post.seo_title }}">
+    <meta name="twitter:description" content="{{ post.seo_description }}">
+    <meta name="twitter:image" content="{{ post.thumbnail if post.thumbnail.startswith('http') else site_url ~ post.thumbnail }}">
 </head>
 <body>
-    <header>
-        <div class="container header-top">
-            <a href="/"><img src="/static/images/logo.png" alt="OKRamen" class="logo-img"></a>
-            <a href="/guide" style="margin-left:auto; font-weight:bold; color:#777;">← Back to Guides</a>
-        </div>
-    </header>
+    {% include 'header.html' %}
 
     <article class="detail-container">
         <div class="detail-header">
