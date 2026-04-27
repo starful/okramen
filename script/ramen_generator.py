@@ -1,6 +1,7 @@
 import os
 import csv
 import re
+import sys
 import concurrent.futures
 from datetime import datetime
 from google import genai
@@ -127,4 +128,10 @@ def run_generator(limit=10):
             executor.map(lambda p: generate_ramen_article(*p), tasks)
 
 if __name__ == "__main__":
-    run_generator(limit=10)
+    env_limit = os.environ.get("CONTENT_LIMIT")
+    arg_limit = sys.argv[1] if len(sys.argv) > 1 else None
+    try:
+        run_limit = int(arg_limit or env_limit or 10)
+    except ValueError:
+        run_limit = 10
+    run_generator(limit=run_limit)

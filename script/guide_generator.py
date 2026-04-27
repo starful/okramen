@@ -1,6 +1,7 @@
 import os
 import csv
 import re
+import sys
 import concurrent.futures
 from datetime import datetime
 from google import genai
@@ -114,5 +115,11 @@ def run_guide_generator(limit=3):
         executor.map(lambda p: generate_guide_article(*p), tasks)
 
 if __name__ == "__main__":
-    # 한 번 실행 시 3개의 주제(영어+한국어 총 6개 파일)만 생성
-    run_guide_generator(limit=3)
+    # 기본 3개 주제(영어+한국어 총 6개 파일), 인자/환경변수로 오버라이드 가능
+    env_limit = os.environ.get("GUIDE_LIMIT")
+    arg_limit = sys.argv[1] if len(sys.argv) > 1 else None
+    try:
+        run_limit = int(arg_limit or env_limit or 3)
+    except ValueError:
+        run_limit = 3
+    run_guide_generator(limit=run_limit)

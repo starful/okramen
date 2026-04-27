@@ -15,6 +15,8 @@ GCP_PROJECT_ID="${GCP_PROJECT_ID:-starful-258005}"
 MODE="full"
 DO_GIT=false
 DO_CLOUD_DEPLOY=false
+CONTENT_LIMIT="${CONTENT_LIMIT:-10}"
+GUIDE_LIMIT="${GUIDE_LIMIT:-3}"
 
 CONTENT_DIR="app/content"
 GUIDE_DIR="app/content/guides"
@@ -45,6 +47,8 @@ Options
 Environment overrides
   BUCKET_URL       Default: gs://ok-project-assets/okramen
   GCP_PROJECT_ID   Default: starful-258005
+  CONTENT_LIMIT    Default: 10
+  GUIDE_LIMIT      Default: 3
 EOF
 }
 
@@ -76,7 +80,7 @@ generate_content() {
     local r_before_count=0
     [ -d "$CONTENT_DIR" ] && r_before_count=$(find "$CONTENT_DIR" -maxdepth 1 -name "*.md" | wc -l | tr -d ' ')
     print_info "생성 전 가게 컨텐츠: ${r_before_count}개"
-    python3 script/ramen_generator.py
+    python3 script/ramen_generator.py "$CONTENT_LIMIT"
     local r_after_count
     r_after_count=$(find "$CONTENT_DIR" -maxdepth 1 -name "*.md" | wc -l | tr -d ' ')
     R_NEW_COUNT=$(( r_after_count - r_before_count ))
@@ -86,7 +90,7 @@ generate_content() {
     local g_before_count
     g_before_count=$(find "$GUIDE_DIR" -name "*.md" | wc -l | tr -d ' ')
     print_info "생성 전 가이드: ${g_before_count}개"
-    python3 script/guide_generator.py
+    python3 script/guide_generator.py "$GUIDE_LIMIT"
     local g_after_count
     g_after_count=$(find "$GUIDE_DIR" -name "*.md" | wc -l | tr -d ' ')
     G_NEW_COUNT=$(( g_after_count - g_before_count ))
@@ -181,6 +185,7 @@ echo ""
 print_info "Mode: $MODE"
 print_info "Bucket: $BUCKET_URL"
 print_info "Project: $GCP_PROJECT_ID"
+print_info "Limits: content=${CONTENT_LIMIT}, guide=${GUIDE_LIMIT}"
 
 check_env
 require_cmd python3
