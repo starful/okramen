@@ -228,6 +228,6 @@ echo -e "  🖼️  새로 생성된 AI 이미지 : ${MISSING}개"
 echo -e "  🌐 라이브 사이트  : https://okramen.net"
 echo ""
 
-if [[ "$OSTYPE" == "darwin"* ]]; then
+if [[ "$OSTYPE" == "darwin"* ]] && [[ "${AUTO_REGISTER_RUN:-0}" != "1" ]]; then
     osascript -e 'display notification "배포 완료!" with title "OKRamen Deploy"' 2>/dev/null || true
 fi
