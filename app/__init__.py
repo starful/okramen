@@ -128,10 +128,37 @@ def _truncate_text(value, max_len):
 
 
 def _attach_seo_fields(post, suffix):
+    """SERP-friendly title/description: scannable hooks + CTA without changing on-page H1."""
     title = str(post.get("title", "")).strip()
     summary = str(post.get("summary", "")).strip()
-    post["seo_title"] = _truncate_text(f"{title} - {suffix}", 65) if title else suffix
-    post["seo_description"] = _truncate_text(summary or title, 155)
+    lang = str(post.get("lang", "en") or "en").lower()
+    is_ramen_page = "Japan Guide" in suffix
+
+    if lang == "ko":
+        hook = "지도·영업·추천 메뉴" if is_ramen_page else "핵심만 정리한 가이드"
+        tail = (
+            " OKRamen 지도에서 위치·영업·추천 메뉴를 바로 확인하세요."
+            if is_ramen_page
+            else " OKRamen에서 팁과 링크만 골라 읽고 일정에 넣으세요."
+        )
+        if title:
+            post["seo_title"] = _truncate_text(f"{title} | {hook} | OKRamen", 60)
+        else:
+            post["seo_title"] = _truncate_text(suffix, 60)
+    else:
+        hook = "map, hours & what to order" if is_ramen_page else "plain-English tips"
+        tail = (
+            " Open OKRamen for the map, hours, and what to order before you go."
+            if is_ramen_page
+            else " Skim OKRamen for maps, ordering tips, and links before your trip."
+        )
+        if title:
+            post["seo_title"] = _truncate_text(f"{title} | {hook} | OKRamen", 60)
+        else:
+            post["seo_title"] = _truncate_text(suffix, 60)
+
+    core = (summary or title).strip()
+    post["seo_description"] = _truncate_text(f"{core}{tail}", 155)
     return post
 
 
