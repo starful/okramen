@@ -43,7 +43,7 @@ header {
     position: relative;
     max-width: 1100px; 
     margin: 0 auto;
-    height: 92px; 
+    height: 80px; 
 }
 
 /* 왼쪽 가이드 버튼 */
@@ -60,7 +60,7 @@ header {
 
 /* 중앙 로고 */
 .logo-img { 
-    height: 84px; width: auto; display: block;
+    height: 56px; width: auto; display: block;
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .logo-img:hover { transform: scale(1.05); }
@@ -179,11 +179,34 @@ header {
 @media (max-width: 768px) {
     .container { padding: 0 !important; }
     header { padding: 5px 0 0px 0 !important; }
-    .header-top { height: 74px !important; }
-    .header-left { left: 10px !important; display: block; }
-    .header-left a { font-size: 0.82rem !important; }
-    .logo-img { height: 62px !important; }
-    .lang-selector { right: 12px !important; }
+    .header-top {
+        height: auto !important;
+        min-height: 74px;
+        padding: 8px 8px 6px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+          "logo logo"
+          "guide lang";
+        row-gap: 8px;
+    }
+    .header-top h1 { grid-area: logo; margin: 0; justify-self: center; }
+    .header-left {
+        grid-area: guide;
+        position: static;
+        left: auto !important;
+        display: block;
+        align-self: center;
+    }
+    .header-left a { font-size: 0.8rem !important; }
+    .logo-img { height: 38px !important; max-width: 62vw; object-fit: contain; }
+    .lang-selector {
+        grid-area: lang;
+        position: static;
+        right: auto !important;
+        justify-self: end;
+        align-self: center;
+    }
     .lang-btn { padding: 5px 10px; font-size: 0.76rem; }
 
     .theme-filter-buttons {
@@ -231,8 +254,8 @@ header {
 }
 
 @media (max-width: 480px) {
-    .header-top { height: 68px !important; }
-    .logo-img { height: 56px !important; }
+    .header-top { min-height: 68px; row-gap: 6px; padding: 8px 6px 6px; }
+    .logo-img { height: 32px !important; max-width: 68vw; }
     .header-left a { font-size: 0.74rem !important; }
     .lang-btn { padding: 4px 8px; font-size: 0.72rem; }
     .theme-filter-buttons { padding: 8px 12px 14px 12px !important; }
