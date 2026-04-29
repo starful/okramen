@@ -177,7 +177,8 @@ done
 cd "$PROJECT_ROOT"
 START_TIME=$SECONDS
 
-clear
+# Non-TTY (e.g. launchd + log redirect): `clear` exits 1 and aborts under set -e
+if [ -t 1 ]; then clear; fi
 echo ""
 echo -e "${BOLD}${CYAN}  🍜  OKRamen 옵션형 배포 파이프라인${NC}"
 echo -e "  $(date '+%Y년 %m월 %d일 %H:%M:%S') 시작"
