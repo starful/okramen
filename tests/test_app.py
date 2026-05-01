@@ -41,3 +41,12 @@ def test_index_does_not_embed_hardcoded_google_maps_key(client):
     assert response.status_code == 200
     html = response.get_data(as_text=True)
     assert "AIza" not in html
+
+
+def test_ramen_detail_parses_frontmatter_without_closing_delimiter(client):
+    """Regression: some *.md omit the closing --- before the first ## heading."""
+    response = client.get("/ramen/tenkaippin_main_shop_en")
+    assert response.status_code == 200
+    html = response.get_data(as_text=True)
+    assert "Tenkaippin Main Shop" in html
+    assert 'src="/static/images/tenkaippin_main_shop.jpg"' in html

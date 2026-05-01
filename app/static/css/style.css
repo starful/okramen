@@ -277,6 +277,13 @@ header {
     display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; color: #8d6e63;
     font-size: 0.95rem; padding: 18px; background: #fffcfb; border-top: 1px solid var(--light-border); border-bottom: 1px solid var(--light-border);
 }
+.detail-maps { margin: 10px 0 6px; font-size: 0.95rem; }
+.detail-maps a { color: var(--accent-color); text-decoration: underline; font-weight: 600; }
+.detail-trust-note {
+    font-size: 0.88rem; color: var(--text-gray); line-height: 1.55; margin: 6px 0;
+    padding: 10px 12px; background: rgba(255, 250, 240, 0.9); border-radius: 8px; border: 1px solid var(--light-border);
+}
+.detail-trust-note--muted { font-size: 0.84rem; color: #7a6b5e; background: rgba(255, 250, 240, 0.6); }
 .detail-img { width: 100%; height: auto; border-radius: 20px; margin: 35px 0; box-shadow: 0 8px 25px rgba(62, 39, 35, 0.1); }
 .detail-content { font-size: 1.18rem; line-height: 1.95; color: #3e2723; letter-spacing: -0.01em; }
 .detail-content h2 {

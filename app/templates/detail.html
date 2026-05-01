@@ -22,7 +22,7 @@
     <title>{{ post.seo_title }}</title>
     <meta name="description" content="{{ post.seo_description }}">
     <meta name="robots" content="index,follow,max-image-preview:large">
-    <meta name="keywords" content="Ramen, {{ post.categories|join(', ') }}, {{ post.address }}, Japan Food Guide">
+    <meta name="keywords" content="Ramen, {{ (post.categories or [])|join(', ') }}, {{ post.address }}, Japan Food Guide">
     
     <!-- SEO: 표준 URL 및 다국어 관계 설정 -->
     <link rel="canonical" href="{{ site_url }}/ramen/{{ post.id }}" />
@@ -58,8 +58,8 @@
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": {{ post.lat }},
-        "longitude": {{ post.lng }}
+        "latitude": {{ post.lat|default(0) }},
+        "longitude": {{ post.lng|default(0) }}
       },
       "servesCuisine": "Japanese Ramen, {{ post.categories[0] if post.categories else '' }}",
       "description": "{{ post.summary }}"
@@ -75,8 +75,21 @@
         <div class="detail-header">
             <h1 class="detail-title">{{ post.title }}</h1>
             <div class="detail-meta">
-                📍 {{ post.address }} | 🏷️ {{ post.categories|join(', ') }} | 📅 {{ post.date }}
+                📍 {{ post.address }} | 🏷️ {{ (post.categories or [])|join(', ') }} | 📅 {{ post.date }}
             </div>
+            {% if post.maps_url %}
+            <p class="detail-maps">
+                <a href="{{ post.maps_url }}" target="_blank" rel="noopener noreferrer">
+                    {% if post.lang == 'ko' %}Google 지도에서 열기 (검색){% else %}Open in Google Maps (search){% endif %}
+                </a>
+            </p>
+            {% endif %}
+            {% if post.editorial_note %}
+            <p class="detail-trust-note">{{ post.editorial_note }}</p>
+            {% endif %}
+            {% if post.illustration_note %}
+            <p class="detail-trust-note detail-trust-note--muted">{{ post.illustration_note }}</p>
+            {% endif %}
         </div>
 
         <!-- 이미지 ALT 태그 SEO 최적화 -->

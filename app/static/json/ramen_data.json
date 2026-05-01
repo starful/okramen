@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026.04.21",
-  "total_count": 155,
+  "last_updated": "2026.05.01",
+  "total_count": 162,
   "ramens": [
     {
       "id": "hokkai_ramen_ko",
@@ -755,6 +755,22 @@
       "link": "/ramen/inoichi_hanare_ko"
     },
     {
+      "id": "onomichi_ramen_shuyu_ko",
+      "lang": "ko",
+      "title": "히로시마 오노미치 최고의 라멘(Best Ramen in Hiroshima, Onomichi), ‘오노미치 라멘 슈유’에서 만난 장인 정신의 정점",
+      "lat": 34.4081,
+      "lng": 133.2011,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/onomichi_ramen_shuyu.jpg",
+      "address": "Hiroshima, Onomichi",
+      "published": "2026-04-14",
+      "summary": "오노미치의 정수를 담아낸 깊고 진한 쇼유 베이스와 대형 등지방의 고소함이 어우러진 최고의 로컬 맛집을 소개합니다. 관광객의 발길이 닿기 전 현지인들이 아껴온 이 공간은 단순한 한 끼를 넘어 오노미치의 역사와 바다의 감칠맛을 동시에 선사합니다. 미쉐린 스타 평론가의 시선으로 분석한 슈유의 완벽한 밸런스를 지금 확인해 보세요.",
+      "link": "/ramen/onomichi_ramen_shuyu_ko"
+    },
+    {
       "id": "ramen_kuryu_en",
       "lang": "en",
       "title": "The Golden Standard: Discovering Ramen Kuryu, the Best Ramen in Hokkaido, Sapporo for Local Connoisseurs",
@@ -801,6 +817,22 @@
       "published": "2026-04-14",
       "summary": "1947년부터 이어져 온 아사히카와 라멘의 전설, 아오바에서 맛보는 쇼유 라멘은 해산물과 육류의 완벽한 조화를 선사합니다. 혹독한 추위를 녹여주는 두꺼운 라드 층과 깊은 감칠맛의 육수는 평생 잊지 못할 미식 경험을 제공할 것입니다. 홋카이도 여행에서 절대 놓쳐선 안 될 진정한 현지인 맛집의 정수를 직접 확인해 보세요.",
       "link": "/ramen/asahikawa_ramen_aoba_ko"
+    },
+    {
+      "id": "ramen_nagi_shinjuku_ko",
+      "lang": "ko",
+      "title": "[도쿄 신주쿠 최고의 라멘] 라멘 나기 신주쿠: 멸치의 혼을 담은 골든가이의 전설 (Best Ramen in Tokyo, Shinjuku)",
+      "lat": 35.6941,
+      "lng": 139.7044,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_nagi_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-04-14",
+      "summary": "신주쿠 골든가이의 좁은 계단 끝에 숨겨진 '라멘 나기'는 강렬한 멸치 육수의 진수를 보여주는 도쿄 최고의 쇼유 라멘 성지입니다. 20여 종의 멸치를 블렌딩한 압도적인 감칠맛과 독창적인 광폭 면발은 미식가들에게 잊지 못할 미각적 충격을 선사합니다. 24시간 잠들지 않는 신주쿠의 심장에서 전설적인 니보시 라멘의 정점을 경험해 보시기 바랍니다.",
+      "link": "/ramen/ramen_nagi_shinjuku_ko"
     },
     {
       "id": "tsujita_tokyo_ko",
@@ -979,6 +1011,22 @@
       "link": "/ramen/ramen_tatsunoya_en"
     },
     {
+      "id": "hakodate_ramen_ajisai_en",
+      "lang": "en",
+      "title": "The Ethereal Transparency: Why Hakodate Ramen Ajisai is the Best Ramen in Hokkaido, Hakodate",
+      "lat": 41.7944,
+      "lng": 140.7511,
+      "categories": [
+        "Shio",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/hakodate_ramen_ajisai.jpg",
+      "address": "Hokkaido, Hakodate",
+      "published": "2026-04-14",
+      "summary": "Experience the pinnacle of Japanese maritime culinary heritage with a bowl of crystal-clear Shio ramen that defines the coastal identity of Hokkaido. Hakodate Ramen Ajisai offers an unparalleled depth of flavor through its meticulously aged broth and artisanal noodles, making it a mandatory pilgrimage for any serious gastronome. This legendary institution serves as a masterclass in balance, transparency, and the soulful expression of local northern ingredients.",
+      "link": "/ramen/hakodate_ramen_ajisai_en"
+    },
+    {
       "id": "soranoiro_tokyo_ko",
       "lang": "ko",
       "title": "도쿄 미식의 정점: 치요다구 최고의 라멘(Best Ramen in Tokyo, Chiyoda), 소라노이로 도쿄(Soranoiro Tokyo)의 비건 미학",
@@ -1025,6 +1073,22 @@
       "published": "2026-04-14",
       "summary": "Kikanbo Shinjuku delivers a visceral masterclass in spice and numbing heat, blending a rich miso base with the complex aromatics of Sichuan peppercorns. This solo-friendly destination is not merely a meal, but a sensory odyssey through the depths of umami and fire. For those seeking the absolute peak of specialized miso ramen, this is the undisputed champion of the Shinjuku district.",
       "link": "/ramen/kikanbo_shinjuku_en"
+    },
+    {
+      "id": "kitakata_ramen_bannai_en",
+      "lang": "en",
+      "title": "The Golden Standard of Clarity: Why Kitakata Ramen Bannai is the Best Ramen in Fukushima, Kitakata",
+      "lat": 37.6511,
+      "lng": 139.8811,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/kitakata_ramen_bannai.jpg",
+      "address": "Fukushima, Kitakata",
+      "published": "2026-04-14",
+      "summary": "Experience the legendary 'Asara' morning ramen culture through a bowl of translucent pork-shoyu broth and hand-massaged wavy noodles. Kitakata Ramen Bannai defines the soul of Fukushima's culinary heritage with its melt-in-your-mouth toro-chashu that has captivated locals for generations. This is more than a meal; it is a pilgrimage to the heart of Japan’s most comforting noodle tradition.",
+      "link": "/ramen/kitakata_ramen_bannai_en"
     },
     {
       "id": "ide_shoten_ko",
@@ -1137,6 +1201,22 @@
       "published": "2026-04-14",
       "summary": "삿포로 미소 라멘의 정수를 보여주는 '라멘 구류'는 강렬한 불맛과 깊은 육수의 풍미가 어우러진 홋카이도 최고의 로컬 맛집으로, 미식가들 사이에서 전설적인 곳입니다. 이곳의 육수는 단순한 국물이 아니라 삿포로의 겨울을 녹여내는 예술 작품이며, 쫄깃한 면발과 환상적인 차슈는 완벽한 미식의 조화를 선사합니다. 현지인의 숨결이 느껴지는 이곳에서 진정한 라멘의 철학을 경험하며 당신의 인생 라멘을 발견해보시길 바랍니다.",
       "link": "/ramen/ramen_kuryu_ko"
+    },
+    {
+      "id": "onomichi_ramen_shuyu_en",
+      "lang": "en",
+      "title": "The Liquid Gold of the Seto Inland Sea: Discovering the Best Ramen in Hiroshima, Onomichi at Shuyu",
+      "lat": 34.4081,
+      "lng": 133.2011,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/onomichi_ramen_shuyu.jpg",
+      "address": "Hiroshima, Onomichi",
+      "published": "2026-04-14",
+      "summary": "A masterclass in coastal umami, Onomichi Ramen Shuyu redefines the shoyu genre with its intricate seafood broth and signature melt-in-your-mouth back fat. This local sanctuary offers an unparalleled sensory journey through the heart of Hiroshima’s ramen heritage. Experience the soul of Onomichi in a bowl that balances rustic tradition with Michelin-level precision.",
+      "link": "/ramen/onomichi_ramen_shuyu_en"
     },
     {
       "id": "inoichi_hanare_en",
@@ -1923,6 +2003,22 @@
       "link": "/ramen/yoshimuraya_en"
     },
     {
+      "id": "tenkaippin_main_shop_ko",
+      "lang": "ko",
+      "title": "교토 사쿄구 최고의 라멘, 텐카이핀 총본점에서 경험하는 걸쭉한 생명의 정수 (Best Ramen in Kyoto, Sakyo)",
+      "lat": 35.0355,
+      "lng": 135.7811,
+      "categories": [
+        "치킨라멘",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/tenkaippin_main_shop.jpg",
+      "address": "Kyoto, Sakyo",
+      "published": "2026-04-05",
+      "summary": "교토 사쿄구의 전설적인 성지, 텐카이핀 총본점에서 오직 이곳에서만 느낄 수 있는 궁극의 '코테리' 육수를 탐구합니다. 수십 년간 이어온 장인 정신이 깃든 토리파이탄의 정점을 미쉐린 스타 비평가의 시선으로 세밀하게 분석했습니다.",
+      "link": "/ramen/tenkaippin_main_shop_ko"
+    },
+    {
       "id": "yoshimuraya_ko",
       "lang": "ko",
       "title": "요코하마의 전설을 맛보다: Best Ramen in Kanagawa, Yokohama, 요시무라야(吉村家) 완전정복 가이드",
@@ -2305,6 +2401,22 @@
       "published": "2026-04-03",
       "summary": "Fuunji represents the pinnacle of Tokyo’s tsukemen culture, blending a creamy chicken-and-seafood broth with theatrical mastery. Under the leadership of the charismatic Miyake-san, this Shinjuku institution offers an explosive umami experience that remains unmatched. For those seeking the definitive dipping noodle, Fuunji is not just a meal; it is a sacred culinary rite of passage.",
       "link": "/ramen/fuunji_shinjuku_en"
+    },
+    {
+      "id": "tenkaippin_main_shop_en",
+      "lang": "en",
+      "title": "The Viscous Legend of Ichijoji: Why Tenkaippin Main Shop is the Best Ramen in Kyoto, Sakyo",
+      "lat": 35.0355,
+      "lng": 135.7811,
+      "categories": [
+        "Chicken",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/tenkaippin_main_shop.jpg",
+      "address": "Kyoto, Sakyo",
+      "published": "2026-04-03",
+      "summary": "Experience the legendary 'Kotteri' broth at the flagship location where a global ramen phenomenon began. This isn't just soup; it is a rich, collagen-heavy masterpiece that defines the soul of Kyoto's soul food. A pilgrimage to Tenkaippin Main Shop is a mandatory rite of passage for every serious gastronome visiting the Sakyo district.",
+      "link": "/ramen/tenkaippin_main_shop_en"
     },
     {
       "id": "menya_musashi_shinjuku_en",

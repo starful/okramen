@@ -1,18 +1,18 @@
-import os, json, frontmatter, re
+import os
+import sys
+import json
+import re
 from datetime import datetime
 
 BASE_DIR     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_DIR  = os.path.join(BASE_DIR, 'app', 'content')
 OUTPUT_PATH  = os.path.join(BASE_DIR, 'app', 'static', 'json', 'ramen_data.json')
 
-def clean_markdown_content(text):
-    text = text.strip()
-    text = re.sub(r'^```[a-z]*\n', '', text)
-    text = re.sub(r'\n```$', '', text)
-    text = re.sub(r'^(##\s*)?yaml\n', '', text, flags=re.IGNORECASE)
-    if '---' in text and not text.startswith('---'):
-        text = '---' + text.split('---', 1)[1]
-    return text
+APP_DIR = os.path.join(BASE_DIR, 'app')
+if APP_DIR not in sys.path:
+    sys.path.insert(0, APP_DIR)
+
+from ramen_md import loads_ramen_post  # noqa: E402
 
 def main():
     print("🔨 Building OKRamen Production Data...")
@@ -30,11 +30,10 @@ def main():
             with open(os.path.join(CONTENT_DIR, filename), 'r', encoding='utf-8') as f:
                 raw_text = f.read()
 
-            cleaned_text = clean_markdown_content(raw_text)
-            post = frontmatter.loads(cleaned_text)
+            post = loads_ramen_post(raw_text)
 
             # 카테고리 정규화
-            cats = post.get('categories', [])
+            cats = post.get('categories') or []
             if isinstance(cats, str):
                 cats = [c.strip() for c in cats.split(',')]
 

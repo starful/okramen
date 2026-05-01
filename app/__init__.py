@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, abort, send_from_directory, redirect, request
+from flask import Flask, jsonify, render_template, abort, send_from_directory, send_file, redirect, request
 from flask_compress import Compress
 from flask import make_response
 import json
@@ -10,6 +10,15 @@ import glob
 import logging
 from datetime import datetime, timezone
 from xml.sax.saxutils import escape
+import urllib.parse
+from werkzeug.utils import safe_join
+
+try:
+    # Cloud Run / gunicorn package import path (app.__init__)
+    from .ramen_md import loads_ramen_post
+except ImportError:
+    # Local script execution path (python app/__init__.py)
+    from ramen_md import loads_ramen_post
 
 app = Flask(__name__)
 Compress(app)
@@ -178,6 +187,51 @@ def _attach_seo_fields(post, suffix):
     return post
 
 
+def build_maps_search_url(lat: float, lng: float, label: str = "") -> str:
+    """Open Google Maps search near coordinates (not an official place permalink)."""
+    label = (label or "").strip()
+    if label:
+        q = f"{label} @ {lat},{lng}"
+    else:
+        q = f"{lat},{lng}"
+    return "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(q, safe="")
+
+
+def _detail_trust_copy(lang: str) -> tuple[str, str]:
+    """(editorial_note, illustration_note) — aligned with okcafejp item_generator."""
+    if str(lang or "en").lower() == "ko":
+        return (
+            "본 글은 여행 계획용 에디토리얼 콘텐츠입니다. 매장 공식 페이지가 아니므로 영업 시간·위치·메뉴·가격은 방문 전 지도 링크 또는 현지에서 반드시 확인해 주세요.",
+            "상단 이미지는 이해를 돕기 위한 AI 생성 예시 이미지이며, 실제 매장의 인테리어·메뉴와 다를 수 있습니다.",
+        )
+    return (
+        "This page is editorial trip-planning content, not the venue's official site. Always confirm hours, access, menus, and prices on site or via Maps before visiting.",
+        "The lead image is an AI-generated illustration and may not show this venue's real interior or offerings.",
+    )
+
+
+def _enrich_ramen_detail_post(post) -> None:
+    """Ensure maps_url and transparency notes (okcafe-style) without requiring frontmatter on every file."""
+    lang = str(post.get("lang") or "en")
+    if not post.get("editorial_note") or not post.get("illustration_note"):
+        ed, ill = _detail_trust_copy(lang)
+        if not post.get("editorial_note"):
+            post["editorial_note"] = ed
+        if not post.get("illustration_note"):
+            post["illustration_note"] = ill
+    if post.get("maps_url"):
+        return
+    try:
+        lat = float(post.get("lat") or 0)
+        lng = float(post.get("lng") or 0)
+    except (TypeError, ValueError):
+        lat, lng = 0.0, 0.0
+    if lat == 0.0 and lng == 0.0:
+        return
+    label = str(post.get("title") or "").strip()
+    post["maps_url"] = build_maps_search_url(lat, lng, label)
+
+
 @app.context_processor
 def inject_site_url():
     return {"site_url": SITE_URL}
@@ -247,22 +301,21 @@ def ramen_detail(ramen_id):
     if not os.path.exists(md_path): abort(404)
     
     with open(md_path, 'r', encoding='utf-8') as f:
-        raw_text = f.read().strip()
+        raw_text = f.read()
 
-    raw_text = re.sub(r'^```[a-z]*\n', '', raw_text)
-    raw_text = re.sub(r'\n```$', '', raw_text)
-    raw_text = re.sub(r'^(##\s*)?yaml\n', '', raw_text, flags=re.IGNORECASE)
-    if '---' in raw_text and not raw_text.startswith('---'):
-        raw_text = '---' + raw_text.split('---', 1)[1]
-
-    post = frontmatter.loads(raw_text)
+    post = loads_ramen_post(raw_text)
     
     # 💡 [핵심] 언어 전환 버튼을 위해 id를 강제 주입
     post['id'] = ramen_id 
     post = _attach_seo_fields(post, "OKRamen Japan Guide")
 
-    if isinstance(post.get('categories'), str):
-        post['categories'] = [c.strip() for c in post['categories'].split(',')]
+    cats = post.get('categories')
+    if cats is None:
+        post['categories'] = []
+    elif isinstance(cats, str):
+        post['categories'] = [c.strip() for c in cats.split(',')]
+
+    _enrich_ramen_detail_post(post)
 
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])
     return render_template('detail.html', post=post, content=content_html)
@@ -270,6 +323,14 @@ def ramen_detail(ramen_id):
 @app.route('/static/images/<path:filename>')
 def serve_images(filename):
     import time
+
+    images_root = os.path.join(STATIC_DIR, 'images')
+    try:
+        local_path = safe_join(images_root, filename)
+    except ValueError:
+        abort(404)
+    if local_path and os.path.isfile(local_path):
+        return send_file(local_path)
     return redirect(f"https://storage.googleapis.com/ok-project-assets/okramen/{filename}?v={int(time.time())}")
 
 @app.route('/robots.txt')

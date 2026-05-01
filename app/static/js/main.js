@@ -38,8 +38,14 @@ async function initApp() {
         if (updatedDate) updatedDate.textContent = data.last_updated;
         
         // 구글 지도 및 UI 초기화
-        await initMap();
-        updateUI();
+        // 지도 로드 실패 시에도 리스트/카운트는 동작해야 한다.
+        try {
+            await initMap();
+        } catch (mapError) {
+            console.error("Google Maps initialization failed:", mapError);
+            map = null;
+        }
+        await updateUI();
     } catch (error) {
         console.error("OKRamen loading failed:", error);
     }
@@ -71,7 +77,9 @@ async function updateUI() {
     const filtered = getFilteredData();
     
     renderList(filtered);      // 리스트 렌더링
-    await renderMarkers(filtered);   // 지도 마커 렌더링
+    if (map && window.google?.maps) {
+        await renderMarkers(filtered);   // 지도 마커 렌더링
+    }
     updateCounts();            // 카테고리 개수 업데이트
 }
 
