@@ -100,6 +100,22 @@ def load_guides():
 load_guides()
 
 
+@app.before_request
+def seo_url_normalization():
+    if request.method != "GET":
+        return None
+    p = request.path
+    if p.startswith("/static/") or p.startswith("/api/"):
+        return None
+    if request.headers.get("X-Forwarded-Proto", "").lower() == "http":
+        return redirect(request.url.replace("http://", "https://", 1), code=301)
+    args = request.args
+    keys = set(args.keys())
+    if p == "/guide" and keys == {"lang"} and args.get("lang") == "en":
+        return redirect("/guide", code=301)
+    return None
+
+
 def _safe_iso_date(value, fallback):
     """Normalize date-like values to YYYY-MM-DD for sitemap lastmod."""
     if not value:
@@ -272,7 +288,6 @@ def sitemap_xml():
     # 메인 및 정적 페이지
     pages.append({"loc": f"{host}/", "priority": "1.0", "changefreq": "daily", "lastmod": now_iso})
     pages.append({"loc": f"{host}/guide", "priority": "0.8", "changefreq": "daily", "lastmod": now_iso})
-    pages.append({"loc": f"{host}/guide?lang=en", "priority": "0.6", "changefreq": "daily", "lastmod": now_iso})
     pages.append({"loc": f"{host}/guide?lang=ko", "priority": "0.6", "changefreq": "daily", "lastmod": now_iso})
     pages.append({"loc": f"{host}/about.html", "priority": "0.4", "changefreq": "monthly", "lastmod": about_lastmod})
     pages.append({"loc": f"{host}/privacy.html", "priority": "0.3", "changefreq": "yearly", "lastmod": privacy_lastmod})

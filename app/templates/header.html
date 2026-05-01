@@ -23,7 +23,7 @@
                     <a href="{{ '/guide/' if 'guide' in request.path else '/ramen/' }}{{ base_id }}_ko" 
                        class="lang-btn {% if post.lang == 'ko' %}active{% endif %}">한국어</a>
                 {% elif request.path == '/guide' %}
-                    <a href="/guide?lang=en" class="lang-btn {% if lang == 'en' %}active{% endif %}">English</a>
+                    <a href="/guide" class="lang-btn {% if lang == 'en' %}active{% endif %}">English</a>
                     <a href="/guide?lang=ko" class="lang-btn {% if lang == 'ko' %}active{% endif %}">한국어</a>
                 {% else %}
                     <button class="lang-btn active" data-lang="en">English</button>
