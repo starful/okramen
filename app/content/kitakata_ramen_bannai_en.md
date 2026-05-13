@@ -9,6 +9,8 @@ address: "Fukushima, Kitakata"
 date: "2026-04-14"
 agoda: ""
 summary: "Experience the legendary 'Asara' morning ramen culture through a bowl of translucent pork-shoyu broth and hand-massaged wavy noodles. Kitakata Ramen Bannai defines the soul of Fukushima's culinary heritage with its melt-in-your-mouth toro-chashu that has captivated locals for generations. This is more than a meal; it is a pilgrimage to the heart of Japan’s most comforting noodle tradition."
+seo_title: "Kitakata Ramen Bannai — Fukushima clear shoyu | OKRamen"
+seo_description: "Kitakata Ramen Bannai: clear pork-shoyu broth and hand-rubbed wavy noodles in Fukushima — opens early for asa-ra (morning ramen). Map, hours, what to order."
 image_prompt: "A steaming macro shot at a 45-degree angle of a Kitakata Ramen Bannai bowl, showing translucent golden shoyu broth, thick hand-massaged wavy noodles emerging from the surface, and a generous layer of succulent pork belly chashu, set against a rustic counter seat with warm wooden textures."
 
 ## The Soul of the Shop: History and Philosophy.

@@ -9,6 +9,8 @@ address: "Tokyo, Toshima"
 date: "2026-04-12"
 agoda: ""
 summary: "An exploration of the rich, lard-infused depths of Bankara’s signature broth that defines the Ikebukuro ramen scene. Experience a masterclass in the balance of sweet pork fat and savory shoyu, served in a high-energy setting that thrives under the moonlight. This is not just a meal; it is a pilgrimage for those who seek the pinnacle of decadent Tokyo comfort food."
+seo_title: "Bankara Ramen Ikebukuro — late-night tonkotsu | OKRamen"
+seo_description: "Bankara Ramen, Ikebukuro: Tokyo tonkotsu with kakuni-style braised pork and late-night hours. Map, current opening times, and what to order before you visit."
 image_prompt: "A 45-degree angle steaming macro shot of Bankara's signature Tonkotsu ramen with glistening seabura and thick braised pork belly, set in a neon-lit late night izakaya atmosphere with soft lens blur, highlighting the rich milky-brown broth and golden noodles."
 ---
 

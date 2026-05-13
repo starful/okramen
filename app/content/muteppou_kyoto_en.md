@@ -9,6 +9,8 @@ address: "Kyoto, Kizugawa"
 date: "2026-04-12"
 agoda: ""
 summary: "Muteppou Kyoto stands as a gargantuan pillar of the ramen world, offering a pork-bone elixir so concentrated it redefines the very essence of 'Kotteri' soup. This Kizugawa institution eschews modern shortcuts, utilizing hundreds of kilograms of bones to create a broth that is more an experience of gravity than a mere meal. For those seeking the ultimate expression of Tonkotsu, this is the definitive pilgrimage site that transcends culinary norms."
+seo_title: "Muteppou Kyoto — ultra-thick tonkotsu, Kizugawa | OKRamen"
+seo_description: "Muteppou Kyoto serves a famously thick pork-bone (kotteri) tonkotsu in Kizugawa. Map, hours, access from Kyoto, and what to order before you visit."
 image_prompt: "A 45-degree angle close-up of a bowl of Muteppou tonkotsu ramen on a rustic wooden counter, showing the incredibly thick, chocolate-brown pork bone broth with visible collagen, topped with thin slices of chashu and a mountain of green onions, steam rising in a warm, dimly lit traditional Japanese ramen shop atmosphere."
 ---
 

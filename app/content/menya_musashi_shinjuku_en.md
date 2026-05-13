@@ -9,6 +9,8 @@ address: "Tokyo, Shinjuku"
 date: "2026-04-03"
 agoda: ""
 summary: "Step into Menya Musashi Shinjuku, where an unrivaled symphony of rich tonkotsu and vibrant seafood umami awaits to ignite your senses. This legendary 'W-Soup' ramen, a local secret treasured by discerning Tokyoites, promises a bowl so profound, it redefines the very essence of Japanese comfort food. Prepare for an unforgettable culinary journey that will leave you utterly captivated and yearning for more."
+seo_title: "Menya Musashi Shinjuku — W-soup tonkotsu ramen | OKRamen"
+seo_description: "Menya Musashi Shinjuku: pork-bone + bonito W-soup ramen near Shinjuku Station. Ticket-machine tips, queue times, map, hours, and what to order before you visit."
 ---
 
 ## Philosophy & Soul: A Warrior's Pursuit of Ramen Perfection

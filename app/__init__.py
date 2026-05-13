@@ -153,11 +153,20 @@ def _truncate_text(value, max_len):
 
 
 def _attach_seo_fields(post, suffix):
-    """SERP-friendly title/description: scannable hooks + CTA without changing on-page H1."""
+    """SERP-friendly title/description: scannable hooks + CTA without changing on-page H1.
+
+    Per-file overrides: if the markdown frontmatter already declares ``seo_title`` or
+    ``seo_description`` we keep those verbatim. This lets us tune SERP snippets for
+    individual high-impression / low-CTR pages without affecting pages that already
+    perform well in Search Console.
+    """
     title = str(post.get("title", "")).strip()
     summary = str(post.get("summary", "")).strip()
     lang = str(post.get("lang", "en") or "en").lower()
     is_ramen_page = "Japan Guide" in suffix
+
+    override_title = str(post.get("seo_title", "") or "").strip()
+    override_desc = str(post.get("seo_description", "") or "").strip()
 
     if lang == "ko":
         hook = "지도·영업·추천 메뉴" if is_ramen_page else "핵심만 정리한 가이드"
@@ -166,10 +175,11 @@ def _attach_seo_fields(post, suffix):
             if is_ramen_page
             else " OKRamen에서 팁과 링크만 골라 읽고 일정에 넣으세요."
         )
-        if title:
-            post["seo_title"] = _truncate_text(f"{title} | {hook} | OKRamen", 60)
-        else:
-            post["seo_title"] = _truncate_text(suffix, 60)
+        default_title = (
+            _truncate_text(f"{title} | {hook} | OKRamen", 60)
+            if title
+            else _truncate_text(suffix, 60)
+        )
     else:
         hook = "map, hours & what to order" if is_ramen_page else "plain-English tips"
         tail = (
@@ -177,13 +187,19 @@ def _attach_seo_fields(post, suffix):
             if is_ramen_page
             else " Skim OKRamen for maps, ordering tips, and links before your trip."
         )
-        if title:
-            post["seo_title"] = _truncate_text(f"{title} | {hook} | OKRamen", 60)
-        else:
-            post["seo_title"] = _truncate_text(suffix, 60)
+        default_title = (
+            _truncate_text(f"{title} | {hook} | OKRamen", 60)
+            if title
+            else _truncate_text(suffix, 60)
+        )
 
-    core = (summary or title).strip()
-    post["seo_description"] = _truncate_text(f"{core}{tail}", 155)
+    post["seo_title"] = _truncate_text(override_title, 60) if override_title else default_title
+
+    if override_desc:
+        post["seo_description"] = _truncate_text(override_desc, 160)
+    else:
+        core = (summary or title).strip()
+        post["seo_description"] = _truncate_text(f"{core}{tail}", 155)
     return post
 
 
@@ -336,6 +352,10 @@ def serve_images(filename):
 @app.route('/robots.txt')
 def robots_txt():
     return send_from_directory(STATIC_DIR, 'robots.txt')
+
+@app.route('/ads.txt')
+def ads_txt():
+    return send_from_directory(STATIC_DIR, 'ads.txt', mimetype='text/plain')
 
 @app.route('/sitemap.xml')
 def sitemap_xml():

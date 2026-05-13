@@ -9,6 +9,8 @@ address: "Kyoto, Shimogyo"
 date: "2026-04-05"
 agoda: ""
 summary: "Discover the 70-year legacy of Honke Daiichi-asahi, an undisputed titan of Kyoto's culinary landscape offering a soul-stirring bowl of pork-based shoyu ramen. This local gem near Kyoto Station serves a masterclass in balance, featuring artisanal noodles and the famed Kujo negi. Experience the authentic heart of Shimogyo through a bowl that has defined Japanese comfort food for generations."
+seo_title: "Honke Daiichi-asahi — Kyoto shoyu ramen near JR | OKRamen"
+seo_description: "Honke Daiichi-asahi: old-school Kyoto pork-shoyu ramen near Kyoto Station with Kondo noodles and kujo negi. Map, hours, and what to order before you go."
 image_prompt: "A 45-degree angle steaming macro shot of Honke Daiichi-asahi ramen, featuring a clear yet dark shoyu broth topped with a mountain of vibrant Kujo green onions and thin slices of tender pork chashu, set against a warm wooden interior of a rustic counter seat."
 ---
 
