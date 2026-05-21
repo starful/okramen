@@ -145,6 +145,114 @@ def _file_lastmod(path, fallback):
     return datetime.fromtimestamp(ts, tz=timezone.utc).date().isoformat()
 
 
+# GSC priority shops: internal linking + homepage spotlight (P1/P4)
+FEATURED_RAMEN_IDS = [
+    "honke_daiichi-asahi_en",
+    "menya_musashi_shinjuku_en",
+    "ramen_shingen_en",
+    "bankara_ramen_en",
+    "muteppou_kyoto_en",
+    "fuunji_shinjuku_en",
+]
+
+GUIDE_RELATED_SHOPS = {
+    "regional_ramen_en": [
+        "honke_daiichi-asahi_en",
+        "ramen_shingen_en",
+        "kitakata_ramen_bannai_en",
+        "menya_musashi_shinjuku_en",
+    ],
+    "regional_ramen_ko": [
+        "honke_daiichi-asahi_ko",
+        "ramen_shingen_ko",
+        "kitakata_ramen_bannai_ko",
+    ],
+    "tonkotsu_intensity_en": [
+        "muteppou_kyoto_en",
+        "menya_musashi_shinjuku_en",
+        "bankara_ramen_en",
+    ],
+    "tonkotsu_intensity_ko": ["muteppou_kyoto_ko", "bankara_ramen_ko"],
+    "tsukemen_art_en": ["fuunji_shinjuku_en"],
+    "tsukemen_art_ko": ["fuunji_shinjuku_ko"],
+    "ramen_etiquette_en": ["fuunji_shinjuku_en", "menya_musashi_shinjuku_en"],
+    "chashu_styles_en": ["honke_daiichi-asahi_en", "bankara_ramen_en"],
+}
+
+
+def _ramen_index_by_id():
+    return {r["id"]: r for r in CACHED_DATA.get("ramens", []) if r.get("id")}
+
+
+def _ramen_cards(ramen_ids):
+    """Lightweight card dicts for templates (title truncated for UI)."""
+    by_id = _ramen_index_by_id()
+    cards = []
+    for rid in ramen_ids:
+        r = by_id.get(rid)
+        if not r:
+            continue
+        title = str(r.get("title") or rid)
+        cards.append(
+            {
+                "id": r["id"],
+                "link": r.get("link") or f"/ramen/{r['id']}",
+                "title": title,
+                "short_title": _truncate_text(title, 72),
+                "address": r.get("address", ""),
+                "thumbnail": r.get("thumbnail", ""),
+            }
+        )
+    return cards
+
+
+def _crawl_ramen_links(limit=60, lang="en"):
+    """SSR link list for crawlers (homepage); priority IDs first, then newest EN."""
+    by_id = _ramen_index_by_id()
+    ordered_ids = []
+    for rid in FEATURED_RAMEN_IDS:
+        r = by_id.get(rid)
+        if r and r.get("lang") == lang:
+            ordered_ids.append(rid)
+    newest = sorted(
+        [r for r in CACHED_DATA.get("ramens", []) if r.get("lang") == lang and r.get("link")],
+        key=lambda x: str(x.get("published", "")),
+        reverse=True,
+    )
+    for r in newest:
+        if r["id"] not in ordered_ids:
+            ordered_ids.append(r["id"])
+    links = []
+    for rid in ordered_ids[:limit]:
+        r = by_id[rid]
+        links.append(
+            {
+                "link": r.get("link"),
+                "label": _truncate_text(str(r.get("title") or rid), 55),
+            }
+        )
+    return links
+
+
+def _related_ramens_for_post(post, limit=4):
+    """Same-language shops in the same region (address prefix) for detail cross-links."""
+    lang = str(post.get("lang") or "en")
+    pid = str(post.get("id") or "")
+    addr = str(post.get("address") or "")
+    region = addr.split(",")[0].strip() if addr else ""
+    if not region:
+        return []
+    matches = []
+    for r in CACHED_DATA.get("ramens", []):
+        if r.get("lang") != lang or r.get("id") == pid:
+            continue
+        if region not in str(r.get("address") or ""):
+            continue
+        matches.append(r)
+    matches.sort(key=lambda x: str(x.get("published", "")), reverse=True)
+    return _ramen_cards([r["id"] for r in matches[:limit]])
+
+
 def _truncate_text(value, max_len):
     text = " ".join(str(value or "").split())
     if len(text) <= max_len:
@@ -257,7 +365,13 @@ def inject_site_url():
 @app.route('/')
 def index():
     maps_api_key = os.environ.get("GOOGLE_MAPS_API_KEY", "").strip()
-    return render_template('index.html', guides=CACHED_GUIDES, maps_api_key=maps_api_key)
+    return render_template(
+        "index.html",
+        guides=CACHED_GUIDES,
+        maps_api_key=maps_api_key,
+        featured_ramens=_ramen_cards(FEATURED_RAMEN_IDS),
+        crawl_ramen_links=_crawl_ramen_links(limit=60, lang="en"),
+    )
 
 @app.route('/api/ramens')
 def api_ramens():
@@ -309,7 +423,10 @@ def guide_detail(guide_id):
         post['thumbnail'] = UNSPLASH_GUIDE_IMAGES[0]
 
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])
-    return render_template('guide_detail.html', post=post, content=content_html)
+    related_shops = _ramen_cards(GUIDE_RELATED_SHOPS.get(guide_id, []))
+    return render_template(
+        "guide_detail.html", post=post, content=content_html, related_shops=related_shops
+    )
 
 @app.route('/ramen/<ramen_id>')
 def ramen_detail(ramen_id):
@@ -334,7 +451,10 @@ def ramen_detail(ramen_id):
     _enrich_ramen_detail_post(post)
 
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])
-    return render_template('detail.html', post=post, content=content_html)
+    related_ramens = _related_ramens_for_post(post, limit=4)
+    return render_template(
+        "detail.html", post=post, content=content_html, related_ramens=related_ramens
+    )
 
 @app.route('/static/images/<path:filename>')
 def serve_images(filename):
@@ -373,14 +493,23 @@ def sitemap_xml():
     pages.append({"loc": f"{host}/about.html", "priority": "0.4", "changefreq": "monthly", "lastmod": about_lastmod})
     pages.append({"loc": f"{host}/privacy.html", "priority": "0.3", "changefreq": "yearly", "lastmod": privacy_lastmod})
 
-    # 라멘 가게 페이지 (CACHED_DATA 기준)
+    # 라멘 가게 페이지 (CACHED_DATA 기준; lastmod = md file mtime when present)
     if 'ramens' in CACHED_DATA:
         for ramen in CACHED_DATA['ramens']:
             link = ramen.get('link')
             if not link:
                 continue
-            ramen_lastmod = _safe_iso_date(ramen.get("published"), now_iso)
-            pages.append({"loc": f"{host}{link}", "priority": "0.7", "changefreq": "weekly", "lastmod": ramen_lastmod})
+            ramen_id = ramen.get("id") or ""
+            md_path = os.path.join(CONTENT_DIR, f"{ramen_id}.md") if ramen_id else ""
+            fallback = _safe_iso_date(ramen.get("published"), now_iso)
+            ramen_lastmod = _file_lastmod(md_path, fallback) if md_path else fallback
+            priority = "0.85" if ramen_id in FEATURED_RAMEN_IDS else "0.7"
+            pages.append({
+                "loc": f"{host}{link}",
+                "priority": priority,
+                "changefreq": "weekly",
+                "lastmod": ramen_lastmod,
+            })
 
     # 가이드 페이지 (CACHED_GUIDES 기준)
     for lang in ['en', 'ko']:
@@ -388,7 +517,9 @@ def sitemap_xml():
             guide_id = guide.get('id')
             if not guide_id:
                 continue
-            guide_lastmod = _safe_iso_date(guide.get("published"), now_iso)
+            md_path = os.path.join(GUIDE_DIR, f"{guide_id}.md")
+            fallback = _safe_iso_date(guide.get("published"), now_iso)
+            guide_lastmod = _file_lastmod(md_path, fallback)
             pages.append({"loc": f"{host}/guide/{guide_id}", "priority": "0.9", "changefreq": "weekly", "lastmod": guide_lastmod})
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

@@ -99,6 +99,19 @@
             {{ content | safe }}
         </div>
 
+        {% if related_ramens %}
+        <section class="related-shops" aria-labelledby="related-ramen-heading">
+            <h2 id="related-ramen-heading">
+                {% if post.lang == 'ko' %}같은 지역 라멘 가이드{% else %}More ramen guides nearby{% endif %}
+            </h2>
+            <ul class="related-shops__list">
+                {% for shop in related_ramens %}
+                <li><a href="{{ shop.link }}">{{ shop.short_title }}</a> — {{ shop.address }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
         <!-- 수익형 링크 (Agoda 등) -->
         {% if post.agoda %}
         <div class="booking-box" style="text-align: center; margin: 50px 0; padding: 30px; background: #fff5f5; border-radius: 15px; border: 2px dashed #e74c3c;">

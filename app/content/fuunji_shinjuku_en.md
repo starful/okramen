@@ -9,8 +9,8 @@ address: "Tokyo, Shinjuku"
 date: "2026-04-03"
 agoda: ""
 summary: "Fuunji represents the pinnacle of Tokyo’s tsukemen culture, blending a creamy chicken-and-seafood broth with theatrical mastery. Under the leadership of the charismatic Miyake-san, this Shinjuku institution offers an explosive umami experience that remains unmatched. For those seeking the definitive dipping noodle, Fuunji is not just a meal; it is a sacred culinary rite of passage."
-seo_title: "Fuunji Shinjuku — Tokyo tsukemen (chicken + fish) | OKRamen"
-seo_description: "Fuunji Shinjuku tsukemen: chicken-paitan and niboshi dipping broth, chewy noodles, gyofun finish. Map, ticket-machine tips, queue times, and what to order."
+seo_title: "Fuunji Shinjuku Tsukemen — Chicken & Fish Dip | OKRamen"
+seo_description: "Fuunji (Shinjuku) tsukemen: chicken-paitan + niboshi dip, gyofun topping, soup-wari finish. Map, ticket tips, queues, what to order."
 ---
 
 ## The Soul of the Shop: History and Philosophy.

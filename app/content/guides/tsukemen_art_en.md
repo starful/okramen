@@ -108,4 +108,8 @@ Tsukemen is more than just a meal; it's an experience. It’s an exploration of 
 
 Now armed with this definitive **Tsukemen guide**, you are ready to approach this incredible dish with confidence and appreciation. So go forth, gather your chopsticks, and prepare to embark on a truly unique and delicious adventure.
 
-Ready to embark on your own Tsukemen journey? Check our curated map for the best Tsukemen shops in Japan and beyond, and find your next unforgettable dipping noodle experience!
+<h3>Tsukemen shop guide</h3>
+<ul>
+<li><a href="/ramen/fuunji_shinjuku_en">Fuunji Shinjuku</a> — chicken + seafood dipping broth (Tokyo)</li>
+</ul>
+<p>Find more bowls on the <a href="/">OKRamen Japan ramen map</a>.</p>

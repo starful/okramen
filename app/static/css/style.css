@@ -162,6 +162,32 @@ header {
 }
 
 .onsen-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 30px; }
+.editor-picks-section { margin: 2rem 0 2.5rem; }
+.editor-picks-lead { color: var(--text-gray); font-size: 0.95rem; margin: -0.5rem 0 1rem; }
+.editor-picks-grid .card-title { font-size: 0.95rem; line-height: 1.35; }
+
+.ramen-crawl-nav {
+    margin: 0 0 1.25rem; padding: 1rem 1.1rem;
+    background: var(--card-bg); border: 1px solid var(--light-border);
+    border-radius: 12px; max-height: 220px; overflow-y: auto;
+}
+.ramen-crawl-nav__label { margin: 0 0 0.6rem; font-size: 0.85rem; color: var(--text-gray); font-weight: 600; }
+.ramen-crawl-nav__list {
+    margin: 0; padding: 0; list-style: none;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.35rem 1rem; font-size: 0.8rem;
+}
+.ramen-crawl-nav__list a { color: var(--primary-color); text-decoration: underline; text-underline-offset: 2px; }
+.ramen-crawl-nav__list a:hover { color: var(--accent-hover); }
+
+.related-shops {
+    margin: 2.5rem 0 1rem; padding: 1.25rem 1.5rem;
+    background: var(--card-bg); border-radius: 12px; border: 1px solid var(--light-border);
+}
+.related-shops h2 { font-size: 1.15rem; margin: 0 0 0.75rem; color: var(--primary-color); }
+.related-shops__list { margin: 0; padding-left: 1.2rem; line-height: 1.7; }
+.related-shops__list a { color: #c0392b; font-weight: 600; }
+
 .onsen-card { 
     background: #fff; border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; 
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); border: 1px solid var(--light-border); 

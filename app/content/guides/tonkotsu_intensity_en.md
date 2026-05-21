@@ -135,4 +135,10 @@ From its humble beginnings in Kyushu to its current status as a global culinary 
 
 Whether you prefer the refined elegance of Hakata, the robust intensity of Kurume, or a modern, customized creation, the essence of **Tonkotsu ramen** remains the same: a soul-warming broth born from patience and passion. So, go forth and explore! Let the rich aroma and creamy texture of **Tonkotsu ramen** transport you, and discover why this pork bone elixir continues to captivate hearts (and palates) worldwide. Your next unforgettable culinary adventure awaits.
 
-Ready to find your perfect bowl of **Tonkotsu ramen**? Explore our interactive map to discover top-rated **ramen** shops near you! [Link to Our Map]
+<h3>Heavy tonkotsu shops on OKRamen</h3>
+<ul>
+<li><a href="/ramen/muteppou_kyoto_en">Muteppou Kyoto</a> — kotteri pork-bone (Kizugawa)</li>
+<li><a href="/ramen/menya_musashi_shinjuku_en">Menya Musashi Shinjuku</a> — W-soup tonkotsu</li>
+<li><a href="/ramen/bankara_ramen_en">Bankara Ramen Ikebukuro</a> — late-night Tokyo tonkotsu</li>
+</ul>
+<p>Browse more on the <a href="/">OKRamen map</a>.</p>

@@ -3,8 +3,8 @@ lang: en
 title: "The Art of the Slurp: A Definitive Guide to Japanese Ramen Manners & Etiquette"
 date: "2026-04-14"
 summary: "Master the unspoken rules of the ramen shop and elevate your dining experience from a meal to a cultural immersion. Discover why slurping is a compliment and how to navigate true Japanese ramen manners like a seasoned local."
-seo_title: "Japanese ramen etiquette: slurp + chopsticks 101 | OKRamen"
-seo_description: "Why slurping is polite, how to handle chopsticks, tipping rules, and queue manners — a one-page Japanese ramen etiquette guide for first-time visitors."
+seo_title: "Ramen Manners Japan: Slurp, Queue & Tips | OKRamen"
+seo_description: "Japanese ramen manners: why slurping is OK, chopstick rules, no tipping, ticket machines & queues. Short guide + links to Tokyo/Kyoto shops."
 ---
 
 ## Introduction: Beyond the Bowl – The Soul of Japanese Ramen

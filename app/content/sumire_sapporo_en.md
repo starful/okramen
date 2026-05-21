@@ -9,8 +9,8 @@ address: "Hokkaido, Sapporo"
 date: "2026-04-03"
 agoda: ""
 summary: "Step into Sumire Sapporo and prepare for a transformative culinary journey where the soul of Hokkaido finds expression in every bowl. Their legendary miso ramen, a masterpiece of depth and complexity, promises an umami explosion unlike any other. This is not just a meal; it's an unforgettable encounter with the true spirit of Japanese ramen, leaving an indelible mark on your palate and memory."
-seo_title: "Sumire Sapporo — classic Sapporo miso ramen | OKRamen"
-seo_description: "Sumire Sapporo: classic Hokkaido miso ramen with lard cap, ginger, and yellow wavy noodles. Map, hours, branches in Sapporo, and what to order before you go."
+seo_title: "Sumire Ramen Sapporo — Hokkaido Miso Classic | OKRamen"
+seo_description: "Sumire Sapporo: classic Hokkaido miso ramen (lard, ginger, wavy noodles). Branches, map, hours, and what to order — OKRamen trip guide."
 ---
 
 ## Philosophy & Soul: A Legacy Steeped in Miso Mastery

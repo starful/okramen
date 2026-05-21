@@ -60,6 +60,26 @@
                 </p>
             </article>
 
+            {% if featured_ramens %}
+            <section class="editor-picks-section" aria-labelledby="editor-picks-heading">
+                <h2 id="editor-picks-heading" class="list-title">⭐ Popular shop guides</h2>
+                <p class="editor-picks-lead">Trip-planning pages with maps, hours, and what to order — updated for search travelers.</p>
+                <div class="onsen-grid editor-picks-grid">
+                    {% for shop in featured_ramens %}
+                    <a href="{{ shop.link }}" class="onsen-card">
+                        {% if shop.thumbnail %}
+                        <img src="{{ shop.thumbnail }}" alt="{{ shop.short_title }}" class="card-thumb" loading="lazy">
+                        {% endif %}
+                        <div class="card-content">
+                            <h3 class="card-title">{{ shop.short_title }}</h3>
+                            <p class="card-summary">📍 {{ shop.address }}</p>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+            </section>
+            {% endif %}
+
             <!-- 💡 가이드 섹션 노출 개수 수정 (index.html 내) -->
             <section class="guide-highlight-section">
                 <h2 class="guide-section-title">📖 Japanese Ramen Guides</h2>
@@ -96,6 +116,16 @@
 
             <section id="list-section">
                 <h2 class="list-title">🎏 Latest Ramen Shops</h2>
+                {% if crawl_ramen_links %}
+                <nav class="ramen-crawl-nav" aria-label="Ramen shop index (English)">
+                    <p class="ramen-crawl-nav__label">Browse shops on the map ({{ crawl_ramen_links|length }}+ listed):</p>
+                    <ul class="ramen-crawl-nav__list">
+                        {% for item in crawl_ramen_links %}
+                        <li><a href="{{ item.link }}">{{ item.label }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+                {% endif %}
                 <div id="ramen-list" class="onsen-grid"></div>
             </section>
         </div>

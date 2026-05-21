@@ -9,8 +9,8 @@ address: "Hokkaido, Sapporo"
 date: "2026-04-14"
 agoda: ""
 summary: "Experience the pinnacle of Hokkaido soul food at Ramen Shingen, where the legendary Ishikari miso broth offers an unparalleled creamy complexity. This local gem transcends typical tourist traps, providing a masterclass in balance between chewy alkaline noodles and melt-in-your-mouth chashu. A pilgrimage to this Susukino landmark is an essential rite of passage for any serious culinary enthusiast visiting Sapporo."
-seo_title: "Ramen Shingen — Sapporo miso ramen, Susukino | OKRamen"
-seo_description: "Ramen Shingen, Susukino: Sapporo miso ramen with a rich pork-bone broth and chewy yellow noodles. Map, hours, queue tips, and what to order before you go."
+seo_title: "Ramen Shingen Sapporo — Miso Ramen, Susukino | OKRamen"
+seo_description: "Ramen Shingen (Sapporo / Susukino): Ishikari-style miso, pork broth, yellow noodles. Map, hours, queues, and what to order before your trip."
 image_prompt: "A 45-degree angle close-up shot of a steaming bowl of Ishikari Miso Ramen at Ramen Shingen, showcasing the creamy golden-yellow broth, thick wavy yellow noodles, and a large slice of tender chashu, set against a warm rustic wooden counter in a cozy, dimly lit traditional Japanese ramen shop atmosphere."
 ---
 

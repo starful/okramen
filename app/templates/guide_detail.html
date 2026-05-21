@@ -55,6 +55,17 @@
         <div class="detail-content">
             {{ content | safe }}
         </div>
+
+        {% if related_shops %}
+        <section class="related-shops" aria-labelledby="related-shops-heading">
+            <h2 id="related-shops-heading">🍜 Shop guides on OKRamen</h2>
+            <ul class="related-shops__list">
+                {% for shop in related_shops %}
+                <li><a href="{{ shop.link }}">{{ shop.short_title }}</a> — {{ shop.address }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
         
         <!-- 읽고 나서 맵으로 유도 -->
         <div style="text-align: center; margin-top: 50px; padding: 30px; background: var(--bg-color); border-radius: 15px;">
