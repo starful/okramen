@@ -465,7 +465,7 @@ def serve_images(filename):
         local_path = safe_join(images_root, filename)
     except ValueError:
         abort(404)
-    if local_path and os.path.isfile(local_path):
+    if local_path and os.path.isfile(local_path) and os.path.getsize(local_path) > 0:
         return send_file(local_path)
     return redirect(f"https://storage.googleapis.com/ok-project-assets/okramen/{filename}?v={int(time.time())}")
 
