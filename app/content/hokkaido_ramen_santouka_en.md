@@ -1,15 +1,24 @@
 ---
+address: Hokkaido, Asahikawa
+agoda: ''
+categories:
+- Shio
+- Local Gem
+date: '2026-04-12'
+image_prompt: A dramatic 45-degree angle close-up of a Santouka Shio Ramen bowl in
+  a rustic counter seat setting, showcasing the opaque white creamy tonkotsu broth,
+  a single bright red umeboshi plum in the center, delicate slices of chashu, and
+  rising steam in a warm wooden interior.
 lang: en
-title: "The Ultimate Asahikawa Pilgrimage: Discovering the Best Ramen in Hokkaido, Asahikawa at Santouka"
 lat: 43.7681
 lng: 142.3522
-categories: ["Shio", "Local Gem"]
-thumbnail: "/static/images/hokkaido_ramen_santouka.jpg"
-address: "Hokkaido, Asahikawa"
-date: "2026-04-12"
-agoda: ""
-summary: "A masterclass in culinary balance, Santouka’s legendary white tonkotsu shio broth offers a creamy, soul-warming experience that defines the Asahikawa ramen landscape."
-image_prompt: "A dramatic 45-degree angle close-up of a Santouka Shio Ramen bowl in a rustic counter seat setting, showcasing the opaque white creamy tonkotsu broth, a single bright red umeboshi plum in the center, delicate slices of chashu, and rising steam in a warm wooden interior."
+shop_name: Hokkaido Ramen Santouka
+summary: A masterclass in culinary balance, Santouka’s legendary white tonkotsu shio
+  broth offers a creamy, soul-warming experience that defines the Asahikawa ramen
+  landscape.
+thumbnail: /static/images/hokkaido_ramen_santouka.jpg
+title: 'The Ultimate Asahikawa Pilgrimage: Discovering the Best Ramen in Hokkaido,
+  Asahikawa at Santouka'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

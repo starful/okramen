@@ -1,14 +1,18 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-03'
 lang: ko
-title: "미식가의 심금을 울리는 맛: 삿포로 최고의 라멘, 멘야 사이타를 찾아서"
 lat: 43.0611
 lng: 141.3522
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/menya_saita.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-03"
-agoda: ""
-summary: "삿포로의 숨겨진 보석, '멘야 사이타'는 단순한 라멘집이 아닌 미식 경험의 정점입니다. 깊고 농후한 미소 육수와 쫄깃한 면발, 그리고 장인의 손길로 탄생한 환상의 차슈가 어우러져 오감을 황홀하게 합니다. 현지인들이 아끼는 이 작은 공간에서, 당신의 미식 탐험은 비로소 완성될 것입니다."
+shop_name: Menya Saita
+summary: 삿포로의 숨겨진 보석, '멘야 사이타'는 단순한 라멘집이 아닌 미식 경험의 정점입니다. 깊고 농후한 미소 육수와 쫄깃한 면발, 그리고
+  장인의 손길로 탄생한 환상의 차슈가 어우러져 오감을 황홀하게 합니다. 현지인들이 아끼는 이 작은 공간에서, 당신의 미식 탐험은 비로소 완성될 것입니다.
+thumbnail: /static/images/menya_saita.jpg
+title: '미식가의 심금을 울리는 맛: 삿포로 최고의 라멘, 멘야 사이타를 찾아서'
 ---
 
 ## Philosophy & Soul: 깊은 맛의 근원, 장인의 영혼

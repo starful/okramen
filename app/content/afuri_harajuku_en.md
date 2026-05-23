@@ -1,4 +1,5 @@
 ---
+shop_name: "Afuri Harajuku"
 lang: en
 title: "A Citrus-Infused Masterpiece: Discover the Best Ramen in Tokyo, Shibuya at Afuri Harajuku"
 lat: 35.6715

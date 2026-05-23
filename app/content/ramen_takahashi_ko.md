@@ -1,15 +1,23 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- 쇼유
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A steaming macro shot of a Shoyu ramen bowl from Ramen Takahashi, featuring
+  a rich golden-brown broth with glistening oil pearls, thin wavy noodles, two slices
+  of pink chashu, and a perfectly soft-boiled ajitama, set against a warm wooden interior
+  of a traditional Japanese counter.
 lang: ko
-title: "[인생 라멘] 도쿄 신주쿠 최고의 쇼유 라멘 맛집: '라멘 타카하시'의 완벽한 미학 (Best Ramen in Tokyo, Shinjuku)"
 lat: 35.6955
 lng: 139.7011
-categories: ["쇼유", "현지인맛집"]
-thumbnail: "/static/images/ramen_takahashi.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-14"
-agoda: ""
-summary: "도쿄 신주쿠의 심장부에서 만나는 '라멘 타카하시'는 구운 날치의 깊은 풍미를 담아낸 쇼유 라멘의 정점으로, 현지 미식가들 사이에서 독보적인 위상을 차지하고 있습니다. 정교하게 설계된 육수의 레이어와 장인 정신이 깃든 면발의 조화는 단순한 한 끼를 넘어 예술적인 미식 경험을 제공합니다. 신주쿠 최고의 라멘을 찾는 당신을 위해, 이 전설적인 가게의 모든 비밀을 미슐랭 스타 비평가의 시선으로 파헤칩니다."
-image_prompt: "A steaming macro shot of a Shoyu ramen bowl from Ramen Takahashi, featuring a rich golden-brown broth with glistening oil pearls, thin wavy noodles, two slices of pink chashu, and a perfectly soft-boiled ajitama, set against a warm wooden interior of a traditional Japanese counter."
+shop_name: Ramen Takahashi
+summary: 도쿄 신주쿠의 심장부에서 만나는 '라멘 타카하시'는 구운 날치의 깊은 풍미를 담아낸 쇼유 라멘의 정점으로, 현지 미식가들 사이에서
+  독보적인 위상을 차지하고 있습니다. 정교하게 설계된 육수의 레이어와 장인 정신이 깃든 면발의 조화는 단순한 한 끼를 넘어 예술적인 미식 경험을
+  제공합니다. 신주쿠 최고의 라멘을 찾는 당신을 위해, 이 전설적인 가게의 모든 비밀을 미슐랭 스타 비평가의 시선으로 파헤칩니다.
+thumbnail: /static/images/ramen_takahashi.jpg
+title: '[인생 라멘] 도쿄 신주쿠 최고의 쇼유 라멘 맛집: ''라멘 타카하시''의 완벽한 미학 (Best Ramen in Tokyo, Shinjuku)'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

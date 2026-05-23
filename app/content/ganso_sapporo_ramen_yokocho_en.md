@@ -1,15 +1,28 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-21'
+image_prompt: A steaming macro shot at a 45-degree angle of a bowl of authentic Sapporo
+  miso ramen in a rustic counter seat at Ganso Sapporo Ramen Yokocho, the deep orange-brown
+  broth topped with a knob of melting butter and sweet corn, swirling steam rising
+  under warm amber lighting, vibrant green scallions and tender chashu pork visible,
+  8k resolution, cinematic food photography.
 lang: en
-title: "The Alchemist’s Cauldron: Why Ganso Sapporo Ramen Yokocho Still Serves the Best Ramen in Hokkaido, Sapporo"
 lat: 43.0541
 lng: 141.3541
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/ganso_sapporo_ramen_yokocho.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "Discover the legendary birthplace of miso ramen in the heart of Susukino, where narrow alleyways house the most profound culinary secrets of the north. This definitive guide explores the complex umami profiles and historic craftsmanship that make Ganso Sapporo Ramen Yokocho an essential pilgrimage for global gourmands. Experience the authentic soul of Hokkaido through a steaming bowl of perfection, meticulously reviewed by a Michelin-standard lens."
-image_prompt: "A steaming macro shot at a 45-degree angle of a bowl of authentic Sapporo miso ramen in a rustic counter seat at Ganso Sapporo Ramen Yokocho, the deep orange-brown broth topped with a knob of melting butter and sweet corn, swirling steam rising under warm amber lighting, vibrant green scallions and tender chashu pork visible, 8k resolution, cinematic food photography."
+shop_name: Ganso Sapporo Ramen Yokocho
+summary: Discover the legendary birthplace of miso ramen in the heart of Susukino,
+  where narrow alleyways house the most profound culinary secrets of the north. This
+  definitive guide explores the complex umami profiles and historic craftsmanship
+  that make Ganso Sapporo Ramen Yokocho an essential pilgrimage for global gourmands.
+  Experience the authentic soul of Hokkaido through a steaming bowl of perfection,
+  meticulously reviewed by a Michelin-standard lens.
+thumbnail: /static/images/ganso_sapporo_ramen_yokocho.jpg
+title: 'The Alchemist’s Cauldron: Why Ganso Sapporo Ramen Yokocho Still Serves the
+  Best Ramen in Hokkaido, Sapporo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

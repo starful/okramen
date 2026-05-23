@@ -1,14 +1,23 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-03'
 lang: en
-title: "Menya Saita: Discover the Best Ramen in Hokkaido, Sapporo – An Unforgettable Culinary Journey"
 lat: 43.0611
 lng: 141.3522
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/menya_saita.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-03"
-agoda: ""
-summary: "Hidden amidst Sapporo's bustling streets lies Menya Saita, a culinary sanctuary offering an unparalleled ramen experience that transcends mere dining. Prepare to be captivated by their legendary Miso and Tonkotsu broths, each a masterpiece of depth and flavor, promising an adventure for your palate. This is not just a meal; it's an immersion into Hokkaido's soul, leaving an indelible mark on every gourmet traveler."
+shop_name: Menya Saita
+summary: Hidden amidst Sapporo's bustling streets lies Menya Saita, a culinary sanctuary
+  offering an unparalleled ramen experience that transcends mere dining. Prepare to
+  be captivated by their legendary Miso and Tonkotsu broths, each a masterpiece of
+  depth and flavor, promising an adventure for your palate. This is not just a meal;
+  it's an immersion into Hokkaido's soul, leaving an indelible mark on every gourmet
+  traveler.
+thumbnail: /static/images/menya_saita.jpg
+title: 'Menya Saita: Discover the Best Ramen in Hokkaido, Sapporo – An Unforgettable
+  Culinary Journey'
 ---
 
 ## Philosophy & Soul: The Heartbeat of Sapporo Ramen

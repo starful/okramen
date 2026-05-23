@@ -1,15 +1,25 @@
 ---
+address: Osaka, Chuo
+agoda: ''
+categories:
+- Tonkotsu
+- Late Night
+date: '2026-04-12'
+image_prompt: A 45-degree angle close-up of a steaming bowl of spicy red Zundoya tonkotsu
+  ramen, featuring a deep crimson broth with visible droplets of pork fat, thick seared
+  chashu slices, and a perfectly soft-boiled ajitama egg, set within a neon-lit late
+  night Osaka izakaya atmosphere with soft bokeh of red lanterns in the background.
 lang: en
-title: "The Alchemical Pursuit of Pork: Why Zundoya is the Best Ramen in Osaka, Chuo"
 lat: 34.6711
 lng: 135.5011
-categories: ["Tonkotsu", "Late Night"]
-thumbnail: "/static/images/zundoya_osaka.jpg"
-address: "Osaka, Chuo"
-date: "2026-04-12"
-agoda: ""
-summary: "Experience the pinnacle of Himeji-style tonkotsu at Zundoya, a sanctuary for those seeking a rich, velvety broth in the heart of Osaka. From customizable back-fat levels to the fiery depth of their signature spices, every bowl is a masterclass in culinary intensity. This is more than a meal; it is a late-night pilgrimage for the world's most discerning palates."
-image_prompt: "A 45-degree angle close-up of a steaming bowl of spicy red Zundoya tonkotsu ramen, featuring a deep crimson broth with visible droplets of pork fat, thick seared chashu slices, and a perfectly soft-boiled ajitama egg, set within a neon-lit late night Osaka izakaya atmosphere with soft bokeh of red lanterns in the background."
+shop_name: Zundoya Osaka
+summary: Experience the pinnacle of Himeji-style tonkotsu at Zundoya, a sanctuary
+  for those seeking a rich, velvety broth in the heart of Osaka. From customizable
+  back-fat levels to the fiery depth of their signature spices, every bowl is a masterclass
+  in culinary intensity. This is more than a meal; it is a late-night pilgrimage for
+  the world's most discerning palates.
+thumbnail: /static/images/zundoya_osaka.jpg
+title: 'The Alchemical Pursuit of Pork: Why Zundoya is the Best Ramen in Osaka, Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

@@ -1,14 +1,18 @@
 ---
+address: Fukuoka, Hakata
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-03'
 lang: ko
-title: "후쿠오카 하카타 최고의 라멘: 미식의 성지, 이치란 본점에서 돈코츠 라멘의 정수를 만나다"
 lat: 33.5931
 lng: 130.4011
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ichiran_fukuoka_main.jpg"
-address: "Fukuoka, Hakata"
-date: "2026-04-03"
-agoda: ""
-summary: "후쿠오카 하카타의 심장부에서, 이치란 본점은 단순한 라멘을 넘어선 미식 경험을 선사합니다. 깊고 진한 돈코츠 육수의 향연은 첫 모금부터 영혼을 사로잡으며, 완벽하게 조리된 면과 토핑은 잊을 수 없는 감동을 선사합니다. 당신의 미각을 깨울 최고의 한 그릇을 지금 바로 경험해보세요."
+shop_name: Ichiran Fukuoka Main
+summary: 후쿠오카 하카타의 심장부에서, 이치란 본점은 단순한 라멘을 넘어선 미식 경험을 선사합니다. 깊고 진한 돈코츠 육수의 향연은 첫 모금부터
+  영혼을 사로잡으며, 완벽하게 조리된 면과 토핑은 잊을 수 없는 감동을 선사합니다. 당신의 미각을 깨울 최고의 한 그릇을 지금 바로 경험해보세요.
+thumbnail: /static/images/ichiran_fukuoka_main.jpg
+title: '후쿠오카 하카타 최고의 라멘: 미식의 성지, 이치란 본점에서 돈코츠 라멘의 정수를 만나다'
 ---
 
 ## Philosophy & Soul: 깊이를 향한 고독한 여정

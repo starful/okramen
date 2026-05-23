@@ -1,15 +1,23 @@
 ---
+address: Osaka, Chuo
+agoda: ''
+categories:
+- 쇼유
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A side profile close-up of a steaming bowl of premium Shoyu ramen at
+  Mennoya, featuring a rich dark amber broth with shimmering chicken oil, thin straight
+  noodles, tender pork chashu, and a perfectly soft-boiled egg, set against a warm
+  wooden counter in a minimalist Japanese interior, cinematic lighting, 8k resolution.
 lang: ko
-title: "Best Ramen in Osaka, Chuo: 오사카의 심장을 울리는 궁극의 쇼유, 멘노야(Mennoya) 완벽 가이드"
 lat: 34.6811
 lng: 135.5111
-categories: ["쇼유", "현지인맛집"]
-thumbnail: "/static/images/mennoya.jpg"
-address: "Osaka, Chuo"
-date: "2026-04-12"
-agoda: ""
-summary: "오사카 중앙구의 숨겨진 보석 멘노야는 장인 정신이 깃든 깊은 쇼유 육수로 현지인들의 입맛을 사로잡은 진정한 로컬 맛집입니다. 화려한 기교 대신 원재료의 정점을 찍는 육수와 면의 조화는 미식가들에게 잊지 못할 미학적 경험을 선사합니다. 이곳은 단순한 식사를 넘어 오사카 라멘의 정수를 경험하고자 하는 여행자들에게 필수적인 성지입니다."
-image_prompt: "A side profile close-up of a steaming bowl of premium Shoyu ramen at Mennoya, featuring a rich dark amber broth with shimmering chicken oil, thin straight noodles, tender pork chashu, and a perfectly soft-boiled egg, set against a warm wooden counter in a minimalist Japanese interior, cinematic lighting, 8k resolution."
+shop_name: Mennoya
+summary: 오사카 중앙구의 숨겨진 보석 멘노야는 장인 정신이 깃든 깊은 쇼유 육수로 현지인들의 입맛을 사로잡은 진정한 로컬 맛집입니다. 화려한
+  기교 대신 원재료의 정점을 찍는 육수와 면의 조화는 미식가들에게 잊지 못할 미학적 경험을 선사합니다. 이곳은 단순한 식사를 넘어 오사카 라멘의
+  정수를 경험하고자 하는 여행자들에게 필수적인 성지입니다.
+thumbnail: /static/images/mennoya.jpg
+title: 'Best Ramen in Osaka, Chuo: 오사카의 심장을 울리는 궁극의 쇼유, 멘노야(Mennoya) 완벽 가이드'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

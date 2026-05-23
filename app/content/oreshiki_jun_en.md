@@ -1,15 +1,26 @@
 ---
+address: Tokyo, Chiyoda
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-19'
+image_prompt: A dramatic 45-degree angle shot of a bowl of creamy tonkotsu ramen at
+  Oreshiki Jun, featuring a rich, frothy ivory broth, thin straight noodles, a perfectly
+  soft-boiled egg, and succulent chashu, set against a warm wooden counter in a refined,
+  minimalist Japanese interior, with soft steam rising elegantly under warm spotlighting.
 lang: en
-title: "The Silken Porcine Masterpiece: Why Oreshiki Jun is the Best Ramen in Tokyo, Chiyoda"
 lat: 35.6811
 lng: 139.7671
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/oreshiki_jun.jpg"
-address: "Tokyo, Chiyoda"
-date: "2026-04-19"
-agoda: ""
-summary: "Indulge in the refined complexity of Oreshiki Jun, a sanctuary of creamy tonkotsu perfection that redefines the Chiyoda ramen landscape. This masterful guide explores the technical brilliance and soulful craftsmanship behind one of Tokyo’s most elusive and sophisticated bowls. Experience a gastronomic journey where artisan noodles meet a 24-hour emulsified broth in the heart of the city."
-image_prompt: "A dramatic 45-degree angle shot of a bowl of creamy tonkotsu ramen at Oreshiki Jun, featuring a rich, frothy ivory broth, thin straight noodles, a perfectly soft-boiled egg, and succulent chashu, set against a warm wooden counter in a refined, minimalist Japanese interior, with soft steam rising elegantly under warm spotlighting."
+shop_name: Oreshiki JUN
+summary: Indulge in the refined complexity of Oreshiki Jun, a sanctuary of creamy
+  tonkotsu perfection that redefines the Chiyoda ramen landscape. This masterful guide
+  explores the technical brilliance and soulful craftsmanship behind one of Tokyo’s
+  most elusive and sophisticated bowls. Experience a gastronomic journey where artisan
+  noodles meet a 24-hour emulsified broth in the heart of the city.
+thumbnail: /static/images/oreshiki_jun.jpg
+title: 'The Silken Porcine Masterpiece: Why Oreshiki Jun is the Best Ramen in Tokyo,
+  Chiyoda'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

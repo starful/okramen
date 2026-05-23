@@ -1,16 +1,25 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-03'
 lang: en
-title: "An Epicurean Odyssey: Menya Musashi Shinjuku, Home to the Best Ramen in Tokyo, Shinjuku"
 lat: 35.6934
 lng: 139.7001
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/menya_musashi_shinjuku.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-03"
-agoda: ""
-summary: "Step into Menya Musashi Shinjuku, where an unrivaled symphony of rich tonkotsu and vibrant seafood umami awaits to ignite your senses. This legendary 'W-Soup' ramen, a local secret treasured by discerning Tokyoites, promises a bowl so profound, it redefines the very essence of Japanese comfort food. Prepare for an unforgettable culinary journey that will leave you utterly captivated and yearning for more."
-seo_title: "Menya Musashi Shinjuku Ramen — W-Soup Tonkotsu | OKRamen"
-seo_description: "Menya Musashi Shinjuku: famous W-soup (pork + seafood dashi) near Shinjuku Station. Ticket machine, queues, map link, hours, what to order."
+seo_description: 'Menya Musashi Shinjuku: famous W-soup (pork + seafood dashi) near
+  Shinjuku Station. Ticket machine, queues, map link, hours, what to order.'
+seo_title: Menya Musashi Shinjuku Ramen — W-Soup Tonkotsu | OKRamen
+shop_name: Menya Musashi Shinjuku
+summary: Step into Menya Musashi Shinjuku, where an unrivaled symphony of rich tonkotsu
+  and vibrant seafood umami awaits to ignite your senses. This legendary 'W-Soup'
+  ramen, a local secret treasured by discerning Tokyoites, promises a bowl so profound,
+  it redefines the very essence of Japanese comfort food. Prepare for an unforgettable
+  culinary journey that will leave you utterly captivated and yearning for more.
+thumbnail: /static/images/menya_musashi_shinjuku.jpg
+title: 'An Epicurean Odyssey: Menya Musashi Shinjuku, Home to the Best Ramen in Tokyo,
+  Shinjuku'
 ---
 
 ## Philosophy & Soul: A Warrior's Pursuit of Ramen Perfection

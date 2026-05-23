@@ -1,15 +1,24 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-19'
+image_prompt: A 45-degree angle steaming macro shot of a bowl of authentic Nagahama-style
+  Tonkotsu ramen at Ramen Zen Fukuoka, showcasing milky white broth with thin ripples
+  of oil, thin straight white noodles, lean chashu slices, and green scallions, set
+  against a warm wooden counter in a cozy local Fukuoka eatery, cinematic lighting,
+  8k resolution.
 lang: ko
-title: "[후쿠오카 츄오구 최고의 라멘] 라멘 젠(Ramen Zen): 하카타의 자부심을 잇는 가성비와 미학의 정점"
 lat: 33.5911
 lng: 130.4011
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ramen_zen_fukuoka.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "후쿠오카 츄오구의 심장부에서 만나는 '라멘 젠'은 단돈 수백 엔으로 하카타의 진정한 영혼을 맛볼 수 있는 경이로운 공간입니다. 미슐랭 스타급 미식가의 시선으로 분석한 이곳의 돈코츠 육수는 압도적인 가성비를 넘어선 깊은 미학적 깊이를 선사합니다. 현지인들이 줄을 서서 기다리는 이 로컬 성지에서 당신의 인생 라멘을 정의하는 새로운 기준을 발견하게 될 것입니다."
-image_prompt: "A 45-degree angle steaming macro shot of a bowl of authentic Nagahama-style Tonkotsu ramen at Ramen Zen Fukuoka, showcasing milky white broth with thin ripples of oil, thin straight white noodles, lean chashu slices, and green scallions, set against a warm wooden counter in a cozy local Fukuoka eatery, cinematic lighting, 8k resolution."
+shop_name: Ramen ZEN Fukuoka
+summary: 후쿠오카 츄오구의 심장부에서 만나는 '라멘 젠'은 단돈 수백 엔으로 하카타의 진정한 영혼을 맛볼 수 있는 경이로운 공간입니다. 미슐랭
+  스타급 미식가의 시선으로 분석한 이곳의 돈코츠 육수는 압도적인 가성비를 넘어선 깊은 미학적 깊이를 선사합니다. 현지인들이 줄을 서서 기다리는 이
+  로컬 성지에서 당신의 인생 라멘을 정의하는 새로운 기준을 발견하게 될 것입니다.
+thumbnail: /static/images/ramen_zen_fukuoka.jpg
+title: '[후쿠오카 츄오구 최고의 라멘] 라멘 젠(Ramen Zen): 하카타의 자부심을 잇는 가성비와 미학의 정점'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

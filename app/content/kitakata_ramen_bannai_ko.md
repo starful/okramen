@@ -1,15 +1,24 @@
 ---
+address: Fukushima, Kitakata
+agoda: ''
+categories:
+- 쇼유
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A steaming macro shot of Kitakata Shoyu Ramen from Bannai Shokudo, clear
+  golden-brown broth with ripples of oil, thick wavy hand-kneaded noodles emerging,
+  topped with a dense layer of succulent melt-in-your-mouth pork belly chashu, warm
+  wooden interior of a traditional Japanese eatery, soft natural light, 8k resolution,
+  cinematic food photography.
 lang: ko
-title: "미식의 정점에 선 후쿠시마의 자부심: 키타카타 라멘 반나이(Kitakata Ramen Bannai) 완전 정복 - Best Ramen in Fukushima, Kitakata"
 lat: 37.6511
 lng: 139.8811
-categories: ["쇼유", "현지인맛집"]
-thumbnail: "/static/images/kitakata_ramen_bannai.jpg"
-address: "Fukushima, Kitakata"
-date: "2026-04-14"
-agoda: ""
-summary: "일본 3대 라멘 중 하나인 키타카타 라멘의 본산, 반나이 식당에서 펼쳐지는 황금빛 쇼유 육수와 입안에서 녹아내리는 토로 차슈의 경이로운 조화를 경험해 보십시오."
-image_prompt: "A steaming macro shot of Kitakata Shoyu Ramen from Bannai Shokudo, clear golden-brown broth with ripples of oil, thick wavy hand-kneaded noodles emerging, topped with a dense layer of succulent melt-in-your-mouth pork belly chashu, warm wooden interior of a traditional Japanese eatery, soft natural light, 8k resolution, cinematic food photography."
+shop_name: Kitakata Ramen Bannai
+summary: 일본 3대 라멘 중 하나인 키타카타 라멘의 본산, 반나이 식당에서 펼쳐지는 황금빛 쇼유 육수와 입안에서 녹아내리는 토로 차슈의 경이로운
+  조화를 경험해 보십시오.
+thumbnail: /static/images/kitakata_ramen_bannai.jpg
+title: '미식의 정점에 선 후쿠시마의 자부심: 키타카타 라멘 반나이(Kitakata Ramen Bannai) 완전 정복 - Best Ramen
+  in Fukushima, Kitakata'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

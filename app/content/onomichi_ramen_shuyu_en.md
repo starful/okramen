@@ -1,4 +1,5 @@
 ---
+shop_name: "Onomichi Ramen Shuyu"
 lang: en
 title: "The Liquid Gold of the Seto Inland Sea: Discovering the Best Ramen in Hiroshima, Onomichi at Shuyu"
 lat: 34.4081

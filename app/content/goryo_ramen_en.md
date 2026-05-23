@@ -1,15 +1,27 @@
 ---
+address: Kyoto, Nakagyo
+agoda: ''
+categories:
+- Shoyu
+- Premium
+date: '2026-04-12'
+image_prompt: A side profile close-up of a deep mahogany shoyu ramen bowl resting
+  on a warm, polished wooden counter, thin noodles perfectly folded in a circular
+  motion, topped with translucent pink sous-vide chashu and a glossy, deep-orange
+  ajitama, delicate steam rising in a minimalist, dimly lit Kyoto-style interior,
+  high-end cinematic lighting, 8k resolution.
 lang: en
-title: "The Liquid Gold of Nakagyo: Why Goryo Ramen is the Best Ramen in Kyoto, Nakagyo"
 lat: 35.0116
 lng: 135.7595
-categories: ["Shoyu", "Premium"]
-thumbnail: "/static/images/goryo_ramen.jpg"
-address: "Kyoto, Nakagyo"
-date: "2026-04-12"
-agoda: ""
-summary: "An exquisite exploration of refined Shoyu ramen that captures the historic soul of Kyoto through artisan ingredients and a high-end, minimalist aesthetic. This hidden gem in Nakagyo represents the pinnacle of premium noodle craft, offering a sensory journey through layers of umami and sophisticated elegance. Experience the definitive local favorite where traditional dashi meets modern culinary precision in every golden drop."
-image_prompt: "A side profile close-up of a deep mahogany shoyu ramen bowl resting on a warm, polished wooden counter, thin noodles perfectly folded in a circular motion, topped with translucent pink sous-vide chashu and a glossy, deep-orange ajitama, delicate steam rising in a minimalist, dimly lit Kyoto-style interior, high-end cinematic lighting, 8k resolution."
+shop_name: Goryo Ramen
+summary: An exquisite exploration of refined Shoyu ramen that captures the historic
+  soul of Kyoto through artisan ingredients and a high-end, minimalist aesthetic.
+  This hidden gem in Nakagyo represents the pinnacle of premium noodle craft, offering
+  a sensory journey through layers of umami and sophisticated elegance. Experience
+  the definitive local favorite where traditional dashi meets modern culinary precision
+  in every golden drop.
+thumbnail: /static/images/goryo_ramen.jpg
+title: 'The Liquid Gold of Nakagyo: Why Goryo Ramen is the Best Ramen in Kyoto, Nakagyo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

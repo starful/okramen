@@ -1,14 +1,22 @@
 ---
+address: Tokyo, Chiyoda
+agoda: ''
+categories:
+- Tsukemen
+- Local Gem
+date: '2026-03-28'
 lang: en
-title: "The Alchemical Masterpiece of Tsukemen: Why Rokurinsha is the Uncontested Best Ramen in Tokyo, Chiyoda"
 lat: 35.6811
 lng: 139.7671
-categories: ["Tsukemen", "Local Gem"]
-thumbnail: "/static/images/rokurinsha_tokyo_station.jpg"
-address: "Tokyo, Chiyoda"
-date: "2026-03-28"
-agoda: ""
-summary: "Experience the legendary 'thick-style' dipping noodles that revolutionized the global ramen scene at Rokurinsha Tokyo Station. This gastronomic pilgrimage offers a masterclass in Tonkotsu-Gyokai broth, pairing industrial-strength umami with artisan-crafted noodles. Discover why this Chiyoda icon remains the definitive destination for serious ramen enthusiasts worldwide."
+shop_name: Rokurinsha Tokyo Station
+summary: Experience the legendary 'thick-style' dipping noodles that revolutionized
+  the global ramen scene at Rokurinsha Tokyo Station. This gastronomic pilgrimage
+  offers a masterclass in Tonkotsu-Gyokai broth, pairing industrial-strength umami
+  with artisan-crafted noodles. Discover why this Chiyoda icon remains the definitive
+  destination for serious ramen enthusiasts worldwide.
+thumbnail: /static/images/rokurinsha_tokyo_station.jpg
+title: 'The Alchemical Masterpiece of Tsukemen: Why Rokurinsha is the Uncontested
+  Best Ramen in Tokyo, Chiyoda'
 ---
 
 ## The Soul of the Shop: History and Philosophy

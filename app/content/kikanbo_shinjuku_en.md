@@ -1,15 +1,25 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- Miso
+- Solo Friendly
+date: '2026-04-14'
+image_prompt: A steaming macro shot of Kikanbo's deep crimson Karashibi Miso ramen,
+  showing glistening droplets of chili oil and a dusting of Sichuan peppercorn powder
+  on the thick broth surface, set in a dark moody izakaya atmosphere with subtle red
+  lighting.
 lang: en
-title: "Descent into the Oni’s Lair: Why Kikanbo is the Best Ramen in Tokyo, Shinjuku"
 lat: 35.6915
 lng: 139.7011
-categories: ["Miso", "Solo Friendly"]
-thumbnail: "/static/images/kikanbo_shinjuku.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-14"
-agoda: ""
-summary: "Kikanbo Shinjuku delivers a visceral masterclass in spice and numbing heat, blending a rich miso base with the complex aromatics of Sichuan peppercorns. This solo-friendly destination is not merely a meal, but a sensory odyssey through the depths of umami and fire. For those seeking the absolute peak of specialized miso ramen, this is the undisputed champion of the Shinjuku district."
-image_prompt: "A steaming macro shot of Kikanbo's deep crimson Karashibi Miso ramen, showing glistening droplets of chili oil and a dusting of Sichuan peppercorn powder on the thick broth surface, set in a dark moody izakaya atmosphere with subtle red lighting."
+shop_name: Kikanbo Shinjuku
+summary: Kikanbo Shinjuku delivers a visceral masterclass in spice and numbing heat,
+  blending a rich miso base with the complex aromatics of Sichuan peppercorns. This
+  solo-friendly destination is not merely a meal, but a sensory odyssey through the
+  depths of umami and fire. For those seeking the absolute peak of specialized miso
+  ramen, this is the undisputed champion of the Shinjuku district.
+thumbnail: /static/images/kikanbo_shinjuku.jpg
+title: 'Descent into the Oni’s Lair: Why Kikanbo is the Best Ramen in Tokyo, Shinjuku'
 ---
 
 ## The Soul of the Shop: History and Philosophy

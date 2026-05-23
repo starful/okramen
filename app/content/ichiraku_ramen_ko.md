@@ -1,15 +1,23 @@
 ---
+address: Fukuoka, Fukuoka
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A 45-degree angle shot of a steaming bowl of authentic Hakata Tonkotsu
+  ramen at Ichiraku Ramen, featuring a milky white pork bone broth, thin straight
+  noodles, fatty chashu slices, and a spiral narutomaki, set against a warm wooden
+  counter in a rustic Japanese ramen shop with soft ambient lighting.
 lang: ko
-title: "후쿠오카 현지인들이 숨겨둔 정점의 맛, 'Ichiraku Ramen' – Best Ramen in Fukuoka, Fukuoka"
 lat: 33.6611
 lng: 130.4411
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ichiraku_ramen.jpg"
-address: "Fukuoka, Fukuoka"
-date: "2026-04-14"
-agoda: ""
-summary: "애니메이션의 낭만을 넘어 후쿠오카 돈코츠 라멘의 진수를 보여주는 이치라쿠 라멘은 수십 년간 다져온 깊은 육수의 풍미로 미식가들을 사로잡습니다. 하카타 전통의 미학이 깃든 유백색 육수와 완벽한 면발의 조화는 단순한 식사를 넘어선 하나의 예술적 경험을 선사합니다. 현지인들이 사랑하는 이 소박한 성지에서 장인 정신이 빚어낸 궁극의 한 그릇을 만나보십시오."
-image_prompt: "A 45-degree angle shot of a steaming bowl of authentic Hakata Tonkotsu ramen at Ichiraku Ramen, featuring a milky white pork bone broth, thin straight noodles, fatty chashu slices, and a spiral narutomaki, set against a warm wooden counter in a rustic Japanese ramen shop with soft ambient lighting."
+shop_name: Ichiraku Ramen
+summary: 애니메이션의 낭만을 넘어 후쿠오카 돈코츠 라멘의 진수를 보여주는 이치라쿠 라멘은 수십 년간 다져온 깊은 육수의 풍미로 미식가들을 사로잡습니다.
+  하카타 전통의 미학이 깃든 유백색 육수와 완벽한 면발의 조화는 단순한 식사를 넘어선 하나의 예술적 경험을 선사합니다. 현지인들이 사랑하는 이 소박한
+  성지에서 장인 정신이 빚어낸 궁극의 한 그릇을 만나보십시오.
+thumbnail: /static/images/ichiraku_ramen.jpg
+title: 후쿠오카 현지인들이 숨겨둔 정점의 맛, 'Ichiraku Ramen' – Best Ramen in Fukuoka, Fukuoka
 ---
 
 ## The Soul of the Shop: History and Philosophy.

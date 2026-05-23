@@ -1,15 +1,24 @@
 ---
+address: Kyoto, Shimogyo
+agoda: ''
+categories:
+- 쇼유
+- 프리미엄
+date: '2026-04-14'
+image_prompt: A 45-degree angle close-up of Inoichi Hanare's clear Shoyu ramen in
+  a premium white ceramic bowl, showcasing transparent golden broth, thin straight
+  silky noodles, and delicate toppings like rare-cooked chashu and finely slivered
+  leeks, set in a warm wooden minimalist interior with soft ambient lighting, high-end
+  culinary photography style.
 lang: ko
-title: "[교토 시모교구 인생 라멘] 미슐랭이 선택한 궁극의 미학, 이노이치 하나레(Inoichi Hanare) 완벽 가이드"
 lat: 35.0022
 lng: 135.7622
-categories: ["쇼유", "프리미엄"]
-thumbnail: "/static/images/inoichi_hanare.jpg"
-address: "Kyoto, Shimogyo"
-date: "2026-04-14"
-agoda: ""
-summary: "교토 시모교구의 보석 같은 명소 '이노이치 하나레'는 전통 다시 공법과 현대적 세련미가 결합된 프리미엄 쇼유 라멘의 정점을 보여주는 곳입니다. 미슐랭의 인정을 받은 이곳은 단순한 한 끼를 넘어 교토의 미식 철학을 담아낸 예술 작품과도 같은 한 그릇을 선사합니다. 정제된 육수의 깊은 감칠맛과 엄선된 재료들의 완벽한 조화를 통해 진정한 교토식 라멘의 진수를 경험해 보시기 바랍니다."
-image_prompt: "A 45-degree angle close-up of Inoichi Hanare's clear Shoyu ramen in a premium white ceramic bowl, showcasing transparent golden broth, thin straight silky noodles, and delicate toppings like rare-cooked chashu and finely slivered leeks, set in a warm wooden minimalist interior with soft ambient lighting, high-end culinary photography style."
+shop_name: Inoichi Hanare
+summary: 교토 시모교구의 보석 같은 명소 '이노이치 하나레'는 전통 다시 공법과 현대적 세련미가 결합된 프리미엄 쇼유 라멘의 정점을 보여주는
+  곳입니다. 미슐랭의 인정을 받은 이곳은 단순한 한 끼를 넘어 교토의 미식 철학을 담아낸 예술 작품과도 같은 한 그릇을 선사합니다. 정제된 육수의
+  깊은 감칠맛과 엄선된 재료들의 완벽한 조화를 통해 진정한 교토식 라멘의 진수를 경험해 보시기 바랍니다.
+thumbnail: /static/images/inoichi_hanare.jpg
+title: '[교토 시모교구 인생 라멘] 미슐랭이 선택한 궁극의 미학, 이노이치 하나레(Inoichi Hanare) 완벽 가이드'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

@@ -1,15 +1,22 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-19'
+image_prompt: A dramatic top-down shot of a steaming bowl of Ramen Zen's signature
+  creamy white Tonkotsu broth, topped with thin slices of chashu and vibrant green
+  scallions, set against a rustic wooden counter in a warm, steam-filled local shop.
 lang: en
-title: "The Epiphany of Pork: Why Ramen Zen is the Best Ramen in Fukuoka, Chuo"
 lat: 33.5911
 lng: 130.4011
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/ramen_zen_fukuoka.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "Discover the architectural beauty of a 320-yen masterpiece at Ramen Zen, where the essence of Hakata Tonkotsu is distilled into a bowl of creamy, collagen-rich perfection that defies its humble price point."
-image_prompt: "A dramatic top-down shot of a steaming bowl of Ramen Zen's signature creamy white Tonkotsu broth, topped with thin slices of chashu and vibrant green scallions, set against a rustic wooden counter in a warm, steam-filled local shop."
+shop_name: Ramen ZEN Fukuoka
+summary: Discover the architectural beauty of a 320-yen masterpiece at Ramen Zen,
+  where the essence of Hakata Tonkotsu is distilled into a bowl of creamy, collagen-rich
+  perfection that defies its humble price point.
+thumbnail: /static/images/ramen_zen_fukuoka.jpg
+title: 'The Epiphany of Pork: Why Ramen Zen is the Best Ramen in Fukuoka, Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

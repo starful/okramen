@@ -1,15 +1,23 @@
 ---
+address: Fukuoka, Hakata
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-19'
+image_prompt: A 45-degree angle close-up shot of Hakata Isshou's signature tonkotsu
+  ramen with its iconic frothy 'cappuccino' brown broth, thin straight noodles being
+  lifted by wooden chopsticks, topped with tender chashu and wood ear mushrooms, set
+  in a warm wooden interior counter with soft steam rising, professional food photography
+  style.
 lang: ko
-title: "후쿠오카 하카타 최고의 라멘: 돈코츠의 정점, 하카타 잇쇼(Hakata Isshou) 완벽 가이드"
 lat: 33.5922
 lng: 130.4211
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/hakata_isshou.jpg"
-address: "Fukuoka, Hakata"
-date: "2026-04-19"
-agoda: ""
-summary: "후쿠오카 하카타역 인근에서 전설적인 '돈코츠 카푸치노'를 선보이는 하카타 잇쇼는 농밀한 육수와 완벽한 면의 조화로 로컬들의 압도적인 지지를 받는 곳입니다. 미쉐린 스타급 미식가가 분석한 깊은 맛의 철학과 대기 팁을 통해 진정한 하카타 소울 푸드의 진수를 경험해 보시기 바랍니다."
-image_prompt: "A 45-degree angle close-up shot of Hakata Isshou's signature tonkotsu ramen with its iconic frothy 'cappuccino' brown broth, thin straight noodles being lifted by wooden chopsticks, topped with tender chashu and wood ear mushrooms, set in a warm wooden interior counter with soft steam rising, professional food photography style."
+shop_name: Hakata Isshou
+summary: 후쿠오카 하카타역 인근에서 전설적인 '돈코츠 카푸치노'를 선보이는 하카타 잇쇼는 농밀한 육수와 완벽한 면의 조화로 로컬들의 압도적인
+  지지를 받는 곳입니다. 미쉐린 스타급 미식가가 분석한 깊은 맛의 철학과 대기 팁을 통해 진정한 하카타 소울 푸드의 진수를 경험해 보시기 바랍니다.
+thumbnail: /static/images/hakata_isshou.jpg
+title: '후쿠오카 하카타 최고의 라멘: 돈코츠의 정점, 하카타 잇쇼(Hakata Isshou) 완벽 가이드'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

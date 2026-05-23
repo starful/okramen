@@ -1,17 +1,29 @@
 ---
+address: Kyoto, Shimogyo
+agoda: ''
+categories:
+- Shoyu
+- Local Gem
+date: '2026-04-05'
+image_prompt: A 45-degree angle steaming macro shot of Honke Daiichi-asahi ramen,
+  featuring a clear yet dark shoyu broth topped with a mountain of vibrant Kujo green
+  onions and thin slices of tender pork chashu, set against a warm wooden interior
+  of a rustic counter seat.
 lang: en
-title: "The Liquid Gold of Kyoto: Why Honke Daiichi-asahi is the Best Ramen in Kyoto, Shimogyo"
 lat: 34.9866
 lng: 135.7611
-categories: ["Shoyu", "Local Gem"]
-thumbnail: "/static/images/honke_daiichi-asahi.jpg"
-address: "Kyoto, Shimogyo"
-date: "2026-04-05"
-agoda: ""
-summary: "Discover the 70-year legacy of Honke Daiichi-asahi, an undisputed titan of Kyoto's culinary landscape offering a soul-stirring bowl of pork-based shoyu ramen. This local gem near Kyoto Station serves a masterclass in balance, featuring artisanal noodles and the famed Kujo negi. Experience the authentic heart of Shimogyo through a bowl that has defined Japanese comfort food for generations."
-seo_title: "Honke Daiichi Asahi Kyoto Station — Shoyu Ramen | OKRamen"
-seo_description: "Honke Daiichi Asahi (Kyoto Station): pork-shoyu ramen since 1947, Kujo negi, Kondo noodles. Map, hours, queue tips — plan before you visit."
-image_prompt: "A 45-degree angle steaming macro shot of Honke Daiichi-asahi ramen, featuring a clear yet dark shoyu broth topped with a mountain of vibrant Kujo green onions and thin slices of tender pork chashu, set against a warm wooden interior of a rustic counter seat."
+seo_description: 'Honke Daiichi Asahi (Kyoto Station): pork-shoyu ramen since 1947,
+  Kujo negi, Kondo noodles. Map, hours, queue tips — plan before you visit.'
+seo_title: Honke Daiichi Asahi Kyoto Station — Shoyu Ramen | OKRamen
+shop_name: Honke Daiichi Asahi
+summary: Discover the 70-year legacy of Honke Daiichi-asahi, an undisputed titan of
+  Kyoto's culinary landscape offering a soul-stirring bowl of pork-based shoyu ramen.
+  This local gem near Kyoto Station serves a masterclass in balance, featuring artisanal
+  noodles and the famed Kujo negi. Experience the authentic heart of Shimogyo through
+  a bowl that has defined Japanese comfort food for generations.
+thumbnail: /static/images/honke_daiichi-asahi.jpg
+title: 'The Liquid Gold of Kyoto: Why Honke Daiichi-asahi is the Best Ramen in Kyoto,
+  Shimogyo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

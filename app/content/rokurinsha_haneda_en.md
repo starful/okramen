@@ -1,15 +1,26 @@
 ---
+address: Tokyo, Ota
+agoda: ''
+categories:
+- Tsukemen
+- Local Gem
+date: '2026-04-14'
+image_prompt: A side profile close-up shot of Rokurinsha's signature tsukemen, featuring
+  a bowl of thick, glistening golden noodles next to a deep, dark brown steaming shoyu-tonkotsu
+  dipping broth topped with a square of nori and a mountain of fish powder, set against
+  a warm wooden interior of a traditional Japanese counter seat.
 lang: en
-title: "The Gastronomic Gateway: Why Rokurinsha Haneda Offers the Best Ramen in Tokyo, Ota"
 lat: 35.5491
 lng: 139.7811
-categories: ["Tsukemen", "Local Gem"]
-thumbnail: "/static/images/rokurinsha_haneda.jpg"
-address: "Tokyo, Ota"
-date: "2026-04-14"
-agoda: ""
-summary: "Discover the legendary rich-broth mastery of Rokurinsha Haneda, a culinary titan serving the most soul-stirring tsukemen in Tokyo's gateway. This guide explores the intricate W-soup philosophy and the chewy, artisanal noodles that define a Michelin-level experience for every traveler. Prepare for an olfactory journey that transcends the typical airport meal, cementing its status as the best ramen in Tokyo, Ota."
-image_prompt: "A side profile close-up shot of Rokurinsha's signature tsukemen, featuring a bowl of thick, glistening golden noodles next to a deep, dark brown steaming shoyu-tonkotsu dipping broth topped with a square of nori and a mountain of fish powder, set against a warm wooden interior of a traditional Japanese counter seat."
+shop_name: Rokurinsha Haneda
+summary: Discover the legendary rich-broth mastery of Rokurinsha Haneda, a culinary
+  titan serving the most soul-stirring tsukemen in Tokyo's gateway. This guide explores
+  the intricate W-soup philosophy and the chewy, artisanal noodles that define a Michelin-level
+  experience for every traveler. Prepare for an olfactory journey that transcends
+  the typical airport meal, cementing its status as the best ramen in Tokyo, Ota.
+thumbnail: /static/images/rokurinsha_haneda.jpg
+title: 'The Gastronomic Gateway: Why Rokurinsha Haneda Offers the Best Ramen in Tokyo,
+  Ota'
 ---
 
 ## The Soul of the Shop: History and Philosophy

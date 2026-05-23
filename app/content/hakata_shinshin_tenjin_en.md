@@ -1,14 +1,22 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-03'
 lang: en
-title: "Hakata ShinShin Tenjin: Unearthing the Best Ramen in Fukuoka, Chuo – A Tonkotsu Odyssey"
 lat: 33.5915
 lng: 130.3988
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/hakata_shinshin_tenjin.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-03"
-agoda: ""
-summary: "In the bustling heart of Fukuoka, Hakata ShinShin Tenjin isn't just a ramen shop; it's a culinary pilgrimage to the soul of Tonkotsu. Prepare your palate for an unparalleled symphony of rich, creamy broth, perfectly firm noodles, and melt-in-your-mouth chashu that defines ramen excellence. This is the authentic taste of Fukuoka, a truly local gem waiting to transform your perception of ramen forever."
+shop_name: Hakata Shinshin Tenjin
+summary: In the bustling heart of Fukuoka, Hakata ShinShin Tenjin isn't just a ramen
+  shop; it's a culinary pilgrimage to the soul of Tonkotsu. Prepare your palate for
+  an unparalleled symphony of rich, creamy broth, perfectly firm noodles, and melt-in-your-mouth
+  chashu that defines ramen excellence. This is the authentic taste of Fukuoka, a
+  truly local gem waiting to transform your perception of ramen forever.
+thumbnail: /static/images/hakata_shinshin_tenjin.jpg
+title: 'Hakata ShinShin Tenjin: Unearthing the Best Ramen in Fukuoka, Chuo – A Tonkotsu
+  Odyssey'
 ---
 
 ## Philosophy & Soul: The Heartbeat of Hakata Tonkotsu

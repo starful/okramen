@@ -1,15 +1,26 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-14'
+image_prompt: A steaming macro shot of a rich, dark golden Sapporo miso ramen at Ramen
+  Kuryu, showcasing a thick layer of glistening lard on top, charred bean sprouts,
+  a dollop of fresh ginger, and thick curly yellow noodles peeking through, set against
+  a warm wooden interior of a traditional Hokkaido counter seat.
 lang: en
-title: "The Golden Standard: Discovering Ramen Kuryu, the Best Ramen in Hokkaido, Sapporo for Local Connoisseurs"
 lat: 43.0622
 lng: 141.3544
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/ramen_kuryu.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience the pinnacle of Hokkaido’s culinary heritage at Ramen Kuryu, a hidden sanctuary where fire-kissed miso meets artisanal precision. This local gem redefines the Sapporo ramen landscape with a broth of unparalleled depth and a texture that dances on the palate. For those seeking the authentic soul of Northern Japan, Kuryu offers an unforgettable, steaming bowl of perfection."
-image_prompt: "A steaming macro shot of a rich, dark golden Sapporo miso ramen at Ramen Kuryu, showcasing a thick layer of glistening lard on top, charred bean sprouts, a dollop of fresh ginger, and thick curly yellow noodles peeking through, set against a warm wooden interior of a traditional Hokkaido counter seat."
+shop_name: Ramen Kuryu
+summary: Experience the pinnacle of Hokkaido’s culinary heritage at Ramen Kuryu, a
+  hidden sanctuary where fire-kissed miso meets artisanal precision. This local gem
+  redefines the Sapporo ramen landscape with a broth of unparalleled depth and a texture
+  that dances on the palate. For those seeking the authentic soul of Northern Japan,
+  Kuryu offers an unforgettable, steaming bowl of perfection.
+thumbnail: /static/images/ramen_kuryu.jpg
+title: 'The Golden Standard: Discovering Ramen Kuryu, the Best Ramen in Hokkaido,
+  Sapporo for Local Connoisseurs'
 ---
 
 ## The Soul of the Shop: History and Philosophy

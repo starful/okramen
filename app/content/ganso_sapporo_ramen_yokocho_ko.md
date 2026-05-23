@@ -1,15 +1,24 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-21'
+image_prompt: A steaming macro shot of a rich Sapporo miso ramen at a 45-degree angle,
+  featuring a glistening layer of lard, charred pork chashu, sweet corn, and a melting
+  golden butter square, set against a warm wooden counter in a narrow neon-lit late
+  night alley atmosphere.
 lang: ko
-title: "The Ultimate Masterpiece: Best Ramen in Hokkaido, Sapporo - 원조 삿포로 라멘 요코초의 미학적 탐구"
 lat: 43.0541
 lng: 141.3541
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/ganso_sapporo_ramen_yokocho.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "홋카이도 미식의 심장, 삿포로 스스키노의 좁은 골목에 숨겨진 '원조 삿포로 라멘 요코초'에서 펼쳐지는 궁극의 미소 라멘 대서사시를 미슐랭 스타 비평가의 시선으로 해부합니다. 1951년부터 이어져 온 역사적 장소에서 진정한 장인 정신이 깃든 국물과 면발의 완벽한 하모니를 경험하며, 삿포로 로컬들이 사랑하는 진정한 맛의 정점을 발견하십시오."
-image_prompt: "A steaming macro shot of a rich Sapporo miso ramen at a 45-degree angle, featuring a glistening layer of lard, charred pork chashu, sweet corn, and a melting golden butter square, set against a warm wooden counter in a narrow neon-lit late night alley atmosphere."
+shop_name: Ganso Sapporo Ramen Yokocho
+summary: 홋카이도 미식의 심장, 삿포로 스스키노의 좁은 골목에 숨겨진 '원조 삿포로 라멘 요코초'에서 펼쳐지는 궁극의 미소 라멘 대서사시를
+  미슐랭 스타 비평가의 시선으로 해부합니다. 1951년부터 이어져 온 역사적 장소에서 진정한 장인 정신이 깃든 국물과 면발의 완벽한 하모니를 경험하며,
+  삿포로 로컬들이 사랑하는 진정한 맛의 정점을 발견하십시오.
+thumbnail: /static/images/ganso_sapporo_ramen_yokocho.jpg
+title: 'The Ultimate Masterpiece: Best Ramen in Hokkaido, Sapporo - 원조 삿포로 라멘 요코초의
+  미학적 탐구'
 ---
 
 ## The Soul of the Shop: History and Philosophy (원조 삿포로 라멘 요코초의 기원과 철학)

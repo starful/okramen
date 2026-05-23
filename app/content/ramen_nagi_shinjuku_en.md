@@ -1,15 +1,27 @@
 ---
+address: 1-1-10 Kabukicho, Shinjuku City, Tokyo 160-0021, Japan
+agoda: ''
+categories:
+- Shoyu
+- Local Gem
+date: '2026-04-14'
+image_prompt: A dramatic 45-degree angle close-up of a bowl of Ramen Nagi niboshi
+  shoyu ramen, featuring dark, rich broth with a silvery sheen of sardine oil, thick
+  hand-rolled crinkly noodles, a wide silk-like flat noodle, and a perfectly jammy
+  marinated egg, set within a dark moody izakaya interior with soft amber lighting
+  and rustic wooden textures.
 lang: en
-title: "The Alchemist of Sardines: Why Ramen Nagi is the Absolute Best Ramen in Tokyo, Shinjuku"
 lat: 35.6941
 lng: 139.7044
-categories: ["Shoyu", "Local Gem"]
-thumbnail: "/static/images/ramen_nagi_shinjuku.jpg"
-address: "1-1-10 Kabukicho, Shinjuku City, Tokyo 160-0021, Japan"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience a transcendent bowl of intense niboshi ramen hidden within the narrow, historic alleys of Shinjuku’s legendary Golden Gai. Ramen Nagi defies convention with its proprietary blend of over twenty varieties of dried sardines and signature wide-belt noodles. This is more than a meal; it is a profound immersion into the soul of Tokyo’s late-night culinary underground."
-image_prompt: "A dramatic 45-degree angle close-up of a bowl of Ramen Nagi niboshi shoyu ramen, featuring dark, rich broth with a silvery sheen of sardine oil, thick hand-rolled crinkly noodles, a wide silk-like flat noodle, and a perfectly jammy marinated egg, set within a dark moody izakaya interior with soft amber lighting and rustic wooden textures."
+shop_name: Ramen Nagi Shinjuku
+summary: Experience a transcendent bowl of intense niboshi ramen hidden within the
+  narrow, historic alleys of Shinjuku’s legendary Golden Gai. Ramen Nagi defies convention
+  with its proprietary blend of over twenty varieties of dried sardines and signature
+  wide-belt noodles. This is more than a meal; it is a profound immersion into the
+  soul of Tokyo’s late-night culinary underground.
+thumbnail: /static/images/ramen_nagi_shinjuku.jpg
+title: 'The Alchemist of Sardines: Why Ramen Nagi is the Absolute Best Ramen in Tokyo,
+  Shinjuku'
 ---
 
 ## The Soul of the Shop: History and Philosophy

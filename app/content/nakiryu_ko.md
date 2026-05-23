@@ -1,15 +1,23 @@
 ---
+address: Tokyo, Toshima
+agoda: ''
+categories:
+- 치킨라멘
+- 프리미엄
+date: '2026-04-19'
+image_prompt: A steaming macro shot of Nakiryu's signature Tantanmen in a warm wooden
+  interior, showcasing the vibrant creamy orange broth topped with red chili oil,
+  finely minced pork, and fresh green scallions, captured with extreme detail to the
+  surface tension of the soup.
 lang: ko
-title: "도쿄 미슐랭의 정점, Toshima의 자부심: Nakiryu(나키류) Best Ramen in Tokyo, Toshima"
 lat: 35.7322
 lng: 139.7291
-categories: ["치킨라멘", "프리미엄"]
-thumbnail: "/static/images/nakiryu.jpg"
-address: "Tokyo, Toshima"
-date: "2026-04-19"
-agoda: ""
-summary: "미슐랭 1스타의 영예를 안은 나키류의 탄탄멘은 단순한 음식을 넘어 예술의 경지에 도달한 도쿄 최고의 라멘입니다. 층층이 쌓인 깊은 육수의 풍미와 수제 면의 완벽한 조화는 미식가들에게 잊지 못할 강렬한 경험을 선사합니다. Toshima구 오츠카의 조용한 골목에서 펼쳐지는 이 특별한 미식 여정은 당신의 라멘에 대한 정의를 완전히 바꿔놓을 것입니다."
-image_prompt: "A steaming macro shot of Nakiryu's signature Tantanmen in a warm wooden interior, showcasing the vibrant creamy orange broth topped with red chili oil, finely minced pork, and fresh green scallions, captured with extreme detail to the surface tension of the soup."
+shop_name: Nakiryu
+summary: 미슐랭 1스타의 영예를 안은 나키류의 탄탄멘은 단순한 음식을 넘어 예술의 경지에 도달한 도쿄 최고의 라멘입니다. 층층이 쌓인 깊은
+  육수의 풍미와 수제 면의 완벽한 조화는 미식가들에게 잊지 못할 강렬한 경험을 선사합니다. Toshima구 오츠카의 조용한 골목에서 펼쳐지는 이
+  특별한 미식 여정은 당신의 라멘에 대한 정의를 완전히 바꿔놓을 것입니다.
+thumbnail: /static/images/nakiryu.jpg
+title: '도쿄 미슐랭의 정점, Toshima의 자부심: Nakiryu(나키류) Best Ramen in Tokyo, Toshima'
 ---
 
 ## The Soul of the Shop: History and Philosophy

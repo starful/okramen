@@ -1,14 +1,23 @@
 ---
+address: Tokyo, Chiyoda
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-03'
 lang: en
-title: "Unearthing Akihabara's Soul: Kyushu Jangara – The Best Ramen in Tokyo, Chiyoda for Authentic Tonkotsu Excellence"
 lat: 35.7022
 lng: 139.7711
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/kyushu_jangara_akihabara.jpg"
-address: "Tokyo, Chiyoda"
-date: "2026-04-03"
-agoda: ""
-summary: "Journey into the heart of Akihabara to discover Kyushu Jangara, a revered sanctuary for profoundly authentic Tonkotsu ramen that epitomizes Tokyo's vibrant culinary pulse. Each bowl is a symphony of rich, creamy pork broth, meticulously crafted to deliver an unparalleled umami experience that lingers long after the last drop. Prepare for an unforgettable immersion into a local favorite, where traditional Japanese flavors meet a captivating spicy kick, promising a ramen revelation."
+shop_name: Kyushu Jangara Akihabara
+summary: Journey into the heart of Akihabara to discover Kyushu Jangara, a revered
+  sanctuary for profoundly authentic Tonkotsu ramen that epitomizes Tokyo's vibrant
+  culinary pulse. Each bowl is a symphony of rich, creamy pork broth, meticulously
+  crafted to deliver an unparalleled umami experience that lingers long after the
+  last drop. Prepare for an unforgettable immersion into a local favorite, where traditional
+  Japanese flavors meet a captivating spicy kick, promising a ramen revelation.
+thumbnail: /static/images/kyushu_jangara_akihabara.jpg
+title: 'Unearthing Akihabara''s Soul: Kyushu Jangara – The Best Ramen in Tokyo, Chiyoda
+  for Authentic Tonkotsu Excellence'
 ---
 
 ## Philosophy & Soul: A Legacy Steeped in Kyushu Tradition, Forged in Akihabara

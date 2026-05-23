@@ -1,15 +1,22 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A dramatic 45-degree angle shot of a bowl of Kikanbo Karashibi Miso
+  Ramen in a dark moody izakaya setting, showcasing the deep red-orange spicy broth
+  topped with bright green baby corn, thick-cut charred chashu, and a sprinkle of
+  sansho pepper, steam rising elegantly under warm spotlight.
 lang: ko
-title: "Best Ramen in Tokyo, Shinjuku: 오감을 뒤흔드는 미학적 매운맛의 정점, 키칸보(Kikanbo) 신주쿠점 완전 정복"
 lat: 35.6915
 lng: 139.7011
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/kikanbo_shinjuku.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-14"
-agoda: ""
-summary: "도쿄 신주쿠에서 가장 강렬한 미식 경험을 선사하는 키칸보의 카라시비 미소 라멘은 매운맛과 얼얼함의 완벽한 조화를 보여주는 예술작품입니다."
-image_prompt: "A dramatic 45-degree angle shot of a bowl of Kikanbo Karashibi Miso Ramen in a dark moody izakaya setting, showcasing the deep red-orange spicy broth topped with bright green baby corn, thick-cut charred chashu, and a sprinkle of sansho pepper, steam rising elegantly under warm spotlight."
+shop_name: Kikanbo Shinjuku
+summary: 도쿄 신주쿠에서 가장 강렬한 미식 경험을 선사하는 키칸보의 카라시비 미소 라멘은 매운맛과 얼얼함의 완벽한 조화를 보여주는 예술작품입니다.
+thumbnail: /static/images/kikanbo_shinjuku.jpg
+title: 'Best Ramen in Tokyo, Shinjuku: 오감을 뒤흔드는 미학적 매운맛의 정점, 키칸보(Kikanbo) 신주쿠점 완전
+  정복'
 ---
 
 ## The Soul of the Shop: History and Philosophy

@@ -1,15 +1,25 @@
 ---
+address: Osaka, Chuo-ku, Namba, 1 Chome−2−1
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A dramatic 45-degree angle close-up shot of Hanamaruken's signature
+  Shiawase Ramen in a dark moody izakaya setting, featuring a massive glistening slow-cooked
+  pork rib, rich golden-brown shoyu-tonkotsu broth with visible oil droplets, medium-thin
+  noodles being lifted by chopsticks, topped with a piece of nori with white printed
+  characters and a soft-boiled ajitama egg, warm steam rising, rustic wooden counter
+  background.
 lang: ko
-title: "Best Ramen in Osaka, Chuo: 하나마루켄, 오사카의 영혼을 담은 궁극의 돈코츠 쇼유 라멘 가이드"
 lat: 34.6681
 lng: 135.5011
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/hanamaruken.jpg"
-address: "Osaka, Chuo-ku, Namba, 1 Chome−2−1"
-date: "2026-04-12"
-agoda: ""
-summary: "오사카 난바의 중심에서 24시간 잠들지 않는 행복을 선사하는 하나마루켄은 진한 돈코츠와 풍미 깊은 쇼유의 완벽한 조화를 선보입니다. 입안에서 녹아내리는 거대한 연골 차슈 '토로코츠'는 이곳이 왜 현지인들에게 수십 년간 사랑받아온 성지인지를 증명하는 독보적인 맛의 정점입니다. 미슐랭 가이드급의 깊이 있는 미식 경험을 통해 진정한 오사카의 소울 푸드를 만나보시길 바랍니다."
-image_prompt: "A dramatic 45-degree angle close-up shot of Hanamaruken's signature Shiawase Ramen in a dark moody izakaya setting, featuring a massive glistening slow-cooked pork rib, rich golden-brown shoyu-tonkotsu broth with visible oil droplets, medium-thin noodles being lifted by chopsticks, topped with a piece of nori with white printed characters and a soft-boiled ajitama egg, warm steam rising, rustic wooden counter background."
+shop_name: Hanamaruken
+summary: 오사카 난바의 중심에서 24시간 잠들지 않는 행복을 선사하는 하나마루켄은 진한 돈코츠와 풍미 깊은 쇼유의 완벽한 조화를 선보입니다.
+  입안에서 녹아내리는 거대한 연골 차슈 '토로코츠'는 이곳이 왜 현지인들에게 수십 년간 사랑받아온 성지인지를 증명하는 독보적인 맛의 정점입니다.
+  미슐랭 가이드급의 깊이 있는 미식 경험을 통해 진정한 오사카의 소울 푸드를 만나보시길 바랍니다.
+thumbnail: /static/images/hanamaruken.jpg
+title: 'Best Ramen in Osaka, Chuo: 하나마루켄, 오사카의 영혼을 담은 궁극의 돈코츠 쇼유 라멘 가이드'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

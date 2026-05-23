@@ -1,15 +1,26 @@
 ---
+address: Tokyo, Chiyoda
+agoda: ''
+categories:
+- Vegan
+- Premium
+date: '2026-04-14'
+image_prompt: A stunning overhead flat-lay of Soranoiro's signature Veggie Soba, featuring
+  a vibrant orange-hued vegetable broth, bright green broccoli, red roasted tomatoes,
+  and orange paprika-infused noodles, set against a bright minimalist wooden table
+  in a premium Tokyo aesthetic.
 lang: en
-title: "The Gastronomic Alchemy of Soranoiro: Discovering the Best Ramen in Tokyo, Chiyoda"
 lat: 35.6811
 lng: 139.7671
-categories: ["Vegan", "Premium"]
-thumbnail: "/static/images/soranoiro_tokyo.jpg"
-address: "Tokyo, Chiyoda"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience a revolutionary shift in Japanese culinary tradition with Soranoiro’s Michelin-recognized vegan masterpieces that redefine the essence of broth. Located in the heart of Chiyoda, this high-end ramen destination proves that plant-based ingredients can achieve a depth of umami rivaling any pork-based tonkotsu. It is an essential pilgrimage for any serious gourmet visiting Tokyo Station."
-image_prompt: "A stunning overhead flat-lay of Soranoiro's signature Veggie Soba, featuring a vibrant orange-hued vegetable broth, bright green broccoli, red roasted tomatoes, and orange paprika-infused noodles, set against a bright minimalist wooden table in a premium Tokyo aesthetic."
+shop_name: Soranoiro Tokyo
+summary: Experience a revolutionary shift in Japanese culinary tradition with Soranoiro’s
+  Michelin-recognized vegan masterpieces that redefine the essence of broth. Located
+  in the heart of Chiyoda, this high-end ramen destination proves that plant-based
+  ingredients can achieve a depth of umami rivaling any pork-based tonkotsu. It is
+  an essential pilgrimage for any serious gourmet visiting Tokyo Station.
+thumbnail: /static/images/soranoiro_tokyo.jpg
+title: 'The Gastronomic Alchemy of Soranoiro: Discovering the Best Ramen in Tokyo,
+  Chiyoda'
 ---
 
 ## The Soul of the Shop: History and Philosophy

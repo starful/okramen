@@ -1,15 +1,23 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-19'
+image_prompt: 'A side profile close-up of a steaming bowl of Nagahama-style tonkotsu
+  ramen at a rustic wooden counter seat, featuring light-colored cloudy pork broth,
+  ultra-thin straight noodles, salty shredded pork toppings, and bright green scallions,
+  captured in a warm, nostalgic morning light with visible steam rising. '
 lang: ko
-title: "후쿠오카 츄오구 최고의 라멘(Best Ramen in Fukuoka, Chuo)을 찾아서: 간소 라멘 나가하마야의 70년 정통 미학"
 lat: 33.5925
 lng: 130.3855
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ganso_ramen_nagahama-ya.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "후쿠오카 라멘의 근간이자 '면 추가' 문화의 발상지인 간소 라멘 나가하마야를 미슐랭 스타 비평가의 시선으로 정밀 분석한 미식 가이드입니다. 화려함을 걷어내고 본질에 집중한 투박한 돈코츠 국물과 새벽 시장의 활기를 머금은 이곳은 진정한 현지인 맛집의 정점을 보여줍니다. 단순한 한 그릇을 넘어 큐슈 미식의 역사를 맛보고 싶은 여행자라면 반드시 거쳐야 할 성지입니다."
-image_prompt: "A side profile close-up of a steaming bowl of Nagahama-style tonkotsu ramen at a rustic wooden counter seat, featuring light-colored cloudy pork broth, ultra-thin straight noodles, salty shredded pork toppings, and bright green scallions, captured in a warm, nostalgic morning light with visible steam rising. "
+shop_name: Ganso Ramen Nagahama YA
+summary: 후쿠오카 라멘의 근간이자 '면 추가' 문화의 발상지인 간소 라멘 나가하마야를 미슐랭 스타 비평가의 시선으로 정밀 분석한 미식 가이드입니다.
+  화려함을 걷어내고 본질에 집중한 투박한 돈코츠 국물과 새벽 시장의 활기를 머금은 이곳은 진정한 현지인 맛집의 정점을 보여줍니다. 단순한 한 그릇을
+  넘어 큐슈 미식의 역사를 맛보고 싶은 여행자라면 반드시 거쳐야 할 성지입니다.
+thumbnail: /static/images/ganso_ramen_nagahama-ya.jpg
+title: '후쿠오카 츄오구 최고의 라멘(Best Ramen in Fukuoka, Chuo)을 찾아서: 간소 라멘 나가하마야의 70년 정통 미학'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

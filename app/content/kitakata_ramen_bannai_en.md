@@ -1,4 +1,5 @@
 ---
+shop_name: "Kitakata Ramen Bannai"
 lang: en
 title: "The Golden Standard of Clarity: Why Kitakata Ramen Bannai is the Best Ramen in Fukushima, Kitakata"
 lat: 37.6511

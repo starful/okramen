@@ -1,15 +1,27 @@
 ---
+address: Fukuoka, Fukuoka
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-14'
+image_prompt: A 45-degree angle shot of a steaming bowl of Ichiraku Tonkotsu ramen
+  on a rustic wooden counter, featuring a creamy white opaque broth, thin straight
+  noodles, a vibrant pink-swirled narutomaki, and charred chashu slices, set within
+  a warm wooden interior with soft golden lighting and rising steam.
 lang: en
-title: "The Culinary Pilgrimage: Why Ichiraku Ramen is the Best Ramen in Fukuoka, Fukuoka"
 lat: 33.6611
 lng: 130.4411
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/ichiraku_ramen.jpg"
-address: "Fukuoka, Fukuoka"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience the legendary soul of Hakata through a bowl that transcends pop culture to deliver a masterclass in pork-bone emulsification. Ichiraku Ramen offers a profound sensory journey into the heart of Fukuoka’s local culinary heritage, balancing creamy depth with a nostalgic, rustic charm. This is more than a meal; it is an essential rite of passage for every serious gastronome visiting the birthplace of Tonkotsu."
-image_prompt: "A 45-degree angle shot of a steaming bowl of Ichiraku Tonkotsu ramen on a rustic wooden counter, featuring a creamy white opaque broth, thin straight noodles, a vibrant pink-swirled narutomaki, and charred chashu slices, set within a warm wooden interior with soft golden lighting and rising steam."
+shop_name: Ichiraku Ramen
+summary: Experience the legendary soul of Hakata through a bowl that transcends pop
+  culture to deliver a masterclass in pork-bone emulsification. Ichiraku Ramen offers
+  a profound sensory journey into the heart of Fukuoka’s local culinary heritage,
+  balancing creamy depth with a nostalgic, rustic charm. This is more than a meal;
+  it is an essential rite of passage for every serious gastronome visiting the birthplace
+  of Tonkotsu.
+thumbnail: /static/images/ichiraku_ramen.jpg
+title: 'The Culinary Pilgrimage: Why Ichiraku Ramen is the Best Ramen in Fukuoka,
+  Fukuoka'
 ---
 
 ## The Soul of the Shop: History and Philosophy

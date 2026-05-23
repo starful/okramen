@@ -1,15 +1,24 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- 쇼유
+- 현지인맛집
+date: '2026-04-21'
+image_prompt: A side profile close-up of a steaming bowl of Teshikaga Shoyu Ramen,
+  featuring a deep dark-brown soy broth with golden oil droplets, thick-cut charred
+  aburi chashu, a perfectly jammy soft-boiled egg, and delicate bamboo shoots, set
+  in a warm wooden interior of a traditional Sapporo ramen shop with soft ambient
+  lighting, 8k resolution, cinematic food photography.
 lang: ko
-title: "홋카이도 최고의 미식 경험: 삿포로 쇼유 라멘의 정점, 테시카가 라멘 (Best Ramen in Hokkaido, Sapporo)"
 lat: 43.0611
 lng: 141.3511
-categories: ["쇼유", "현지인맛집"]
-thumbnail: "/static/images/teshikaga_ramen.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "홋카이도의 맑은 정기와 엄선된 대지의 식재료가 빚어낸 테시카가 라멘은 단순한 한 그릇을 넘어선 미학적 완성도를 자랑합니다. 깊고 진한 어패류 쇼유 베이스와 숯불 향 가득한 차슈의 조화는 삿포로 미식 여행의 정점을 찍기에 부족함이 없습니다. 현지인들이 줄을 서서 기다리는 이 진정한 로컬 맛집에서 라멘의 철학을 직접 확인해 보십시오."
-image_prompt: "A side profile close-up of a steaming bowl of Teshikaga Shoyu Ramen, featuring a deep dark-brown soy broth with golden oil droplets, thick-cut charred aburi chashu, a perfectly jammy soft-boiled egg, and delicate bamboo shoots, set in a warm wooden interior of a traditional Sapporo ramen shop with soft ambient lighting, 8k resolution, cinematic food photography."
+shop_name: Teshikaga Ramen
+summary: 홋카이도의 맑은 정기와 엄선된 대지의 식재료가 빚어낸 테시카가 라멘은 단순한 한 그릇을 넘어선 미학적 완성도를 자랑합니다. 깊고 진한
+  어패류 쇼유 베이스와 숯불 향 가득한 차슈의 조화는 삿포로 미식 여행의 정점을 찍기에 부족함이 없습니다. 현지인들이 줄을 서서 기다리는 이 진정한
+  로컬 맛집에서 라멘의 철학을 직접 확인해 보십시오.
+thumbnail: /static/images/teshikaga_ramen.jpg
+title: '홋카이도 최고의 미식 경험: 삿포로 쇼유 라멘의 정점, 테시카가 라멘 (Best Ramen in Hokkaido, Sapporo)'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

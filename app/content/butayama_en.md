@@ -1,15 +1,29 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- Tonkotsu
+- Solo Friendly
+date: '2026-04-12'
+image_prompt: A dramatic 45-degree angle shot of a massive Butayama ramen bowl set
+  against a neon-lit late night Shinjuku backdrop, featuring a towering mountain of
+  blanched bean sprouts, three thick slabs of braised pork chashu, a pool of deep
+  crimson spicy chili oil swirling into a creamy brown tonkotsu broth, and a generous
+  mound of minced raw garlic, captured in a dark moody izakaya setting with steam
+  rising elegantly.
 lang: en
-title: "The Unrivaled Peak of Jirorian Decadence: Why Butayama is the Best Ramen in Tokyo, Shinjuku"
 lat: 35.6944
 lng: 139.7022
-categories: ["Tonkotsu", "Solo Friendly"]
-thumbnail: "/static/images/butayama.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-12"
-agoda: ""
-summary: "Discover the architectural marvel of pork and garlic at Butayama, a sanctuary for those seeking the most intense Jiro-style experience in the heart of Shinjuku. This is not merely a meal, but a visceral journey through mountains of succulent chashu and a broth that redefines the limits of tonkotsu depth. Whether you crave the classic rich soy-pork fusion or the searing heat of their spicy variant, Butayama stands as the ultimate destination for the solo connoisseur."
-image_prompt: "A dramatic 45-degree angle shot of a massive Butayama ramen bowl set against a neon-lit late night Shinjuku backdrop, featuring a towering mountain of blanched bean sprouts, three thick slabs of braised pork chashu, a pool of deep crimson spicy chili oil swirling into a creamy brown tonkotsu broth, and a generous mound of minced raw garlic, captured in a dark moody izakaya setting with steam rising elegantly."
+shop_name: Butayama
+summary: Discover the architectural marvel of pork and garlic at Butayama, a sanctuary
+  for those seeking the most intense Jiro-style experience in the heart of Shinjuku.
+  This is not merely a meal, but a visceral journey through mountains of succulent
+  chashu and a broth that redefines the limits of tonkotsu depth. Whether you crave
+  the classic rich soy-pork fusion or the searing heat of their spicy variant, Butayama
+  stands as the ultimate destination for the solo connoisseur.
+thumbnail: /static/images/butayama.jpg
+title: 'The Unrivaled Peak of Jirorian Decadence: Why Butayama is the Best Ramen in
+  Tokyo, Shinjuku'
 ---
 
 ## The Soul of the Shop: History and Philosophy

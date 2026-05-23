@@ -1,15 +1,24 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-21'
+image_prompt: Side profile close-up of a steaming bowl of Sapporo miso ramen at Hokkai
+  Ramen, rich golden-brown broth with a layer of glistening lard, thick yellow wavy
+  noodles, charred chashu, and sautéed bean sprouts, set in a warm wooden rustic counter
+  seat with soft steam rising, cinematic lighting, 8k resolution.
 lang: ko
-title: "[Best Ramen in Hokkaido, Sapporo] 삿포로의 영혼을 담다: 미소 라멘의 정점, '홋카이 라멘(Hokkai Ramen)' 완벽 미식 가이드"
 lat: 43.0611
 lng: 141.3511
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/hokkai_ramen.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "삿포로 현지인의 발길이 끊이지 않는 홋카이 라멘은 깊은 풍미의 미소 베이스와 불맛이 조화를 이루는 최고의 로컬 맛집입니다. 장인의 철학이 깃든 진한 육수와 탄력 있는 면발은 여행자에게 잊지 못할 미식 경험을 선사할 것입니다. 삿포로 미소 라멘의 정수를 느끼고 싶다면 반드시 방문해야 할 필수 코스입니다."
-image_prompt: "Side profile close-up of a steaming bowl of Sapporo miso ramen at Hokkai Ramen, rich golden-brown broth with a layer of glistening lard, thick yellow wavy noodles, charred chashu, and sautéed bean sprouts, set in a warm wooden rustic counter seat with soft steam rising, cinematic lighting, 8k resolution."
+shop_name: Hokkai Ramen
+summary: 삿포로 현지인의 발길이 끊이지 않는 홋카이 라멘은 깊은 풍미의 미소 베이스와 불맛이 조화를 이루는 최고의 로컬 맛집입니다. 장인의
+  철학이 깃든 진한 육수와 탄력 있는 면발은 여행자에게 잊지 못할 미식 경험을 선사할 것입니다. 삿포로 미소 라멘의 정수를 느끼고 싶다면 반드시
+  방문해야 할 필수 코스입니다.
+thumbnail: /static/images/hokkai_ramen.jpg
+title: '[Best Ramen in Hokkaido, Sapporo] 삿포로의 영혼을 담다: 미소 라멘의 정점, ''홋카이 라멘(Hokkai
+  Ramen)'' 완벽 미식 가이드'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

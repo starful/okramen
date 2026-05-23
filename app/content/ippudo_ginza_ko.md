@@ -1,14 +1,19 @@
 ---
+address: Tokyo, Chuo, Ginza 4-10-3
+agoda: ''
+categories:
+- 돈코츠
+- 프리미엄
+date: '2026-03-28'
 lang: ko
-title: "긴자에서 만나는 미식의 정점: Best Ramen in Tokyo, Chuo - 잇푸도 긴자점(Ippudo Ginza)의 완벽한 기록"
 lat: 35.6711
 lng: 139.7662
-categories: ["돈코츠", "프리미엄"]
-thumbnail: "/static/images/ippudo_ginza.jpg"
-address: "Tokyo, Chuo, Ginza 4-10-3"
-date: "2026-03-28"
-agoda: ""
-summary: "도쿄 중앙구 긴자의 중심에서 하카타 돈코츠 라멘의 세계적인 기준을 정립한 잇푸도의 프리미엄 미학을 경험하십시오. 수십 년간 다듬어진 장인의 육수와 섬세한 면발이 자아내는 하모니는 단순한 식사를 넘어 하나의 예술 작품과 같습니다. 전 세계 라멘 애호가들이 왜 이곳을 도쿄 최고의 라멘 성지로 꼽는지, 그 깊이 있는 맛의 비밀을 공개합니다."
+shop_name: Ippudo Ginza
+summary: 도쿄 중앙구 긴자의 중심에서 하카타 돈코츠 라멘의 세계적인 기준을 정립한 잇푸도의 프리미엄 미학을 경험하십시오. 수십 년간 다듬어진
+  장인의 육수와 섬세한 면발이 자아내는 하모니는 단순한 식사를 넘어 하나의 예술 작품과 같습니다. 전 세계 라멘 애호가들이 왜 이곳을 도쿄 최고의
+  라멘 성지로 꼽는지, 그 깊이 있는 맛의 비밀을 공개합니다.
+thumbnail: /static/images/ippudo_ginza.jpg
+title: '긴자에서 만나는 미식의 정점: Best Ramen in Tokyo, Chuo - 잇푸도 긴자점(Ippudo Ginza)의 완벽한 기록'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

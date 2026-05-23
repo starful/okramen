@@ -1,14 +1,22 @@
 ---
+address: Fukuoka, Hakata
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-03'
 lang: en
-title: "Hakata Ikkousha: The Ultimate Guide to the Best Ramen in Fukuoka, Hakata – A Pork Bone Revelation"
 lat: 33.5891
 lng: 130.4201
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/hakata_ikkousha.jpg"
-address: "Fukuoka, Hakata"
-date: "2026-04-03"
-agoda: ""
-summary: "Prepare your palate for an unparalleled journey into the heart of Tonkotsu ramen, as Hakata Ikkousha redefines culinary excellence in Fukuoka. Their legendary, creamy broth, simmered for days to extract every ounce of porcine magic, promises a deeply satisfying umami experience. This isn't just a meal; it's an essential pilgrimage for any serious food lover seeking the true soul of Hakata."
+shop_name: Hakata Ikkousha
+summary: Prepare your palate for an unparalleled journey into the heart of Tonkotsu
+  ramen, as Hakata Ikkousha redefines culinary excellence in Fukuoka. Their legendary,
+  creamy broth, simmered for days to extract every ounce of porcine magic, promises
+  a deeply satisfying umami experience. This isn't just a meal; it's an essential
+  pilgrimage for any serious food lover seeking the true soul of Hakata.
+thumbnail: /static/images/hakata_ikkousha.jpg
+title: 'Hakata Ikkousha: The Ultimate Guide to the Best Ramen in Fukuoka, Hakata –
+  A Pork Bone Revelation'
 ---
 
 ## Philosophy & Soul: A Master's Unyielding Dedication

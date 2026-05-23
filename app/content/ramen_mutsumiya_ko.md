@@ -1,15 +1,23 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-21'
+image_prompt: A side profile close-up of a steaming bowl of premium Hokkaido miso
+  ramen at Ramen Mutsumiya, featuring a rich and creamy golden-brown broth, thick
+  wavy yellow noodles being lifted by chopsticks, a large slice of tender torochashu,
+  a perfectly soft-boiled ajitama egg, and fresh scallions, set against a warm wooden
+  interior of a traditional Japanese ramen shop with soft cinematic lighting.
 lang: ko
-title: "Best Ramen in Hokkaido, Sapporo: 전설의 미소 라멘, '라멘 무츠미야'에 대한 미식적 경의"
 lat: 43.0611
 lng: 141.3511
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/ramen_mutsumiya.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "홋카이도 라멘의 정점으로 불리는 라멘 무츠미야에서 장인 정신이 깃든 궁극의 미소 라멘을 경험하십시오. 현지인들이 아끼는 이 보석 같은 맛집은 깊은 풍미의 육수와 예술적인 면발의 조화로 당신의 미각을 깨울 것입니다. 삿포로 여행의 완성은 바로 이곳, 무츠미야의 한 그릇에서 시작됩니다."
-image_prompt: "A side profile close-up of a steaming bowl of premium Hokkaido miso ramen at Ramen Mutsumiya, featuring a rich and creamy golden-brown broth, thick wavy yellow noodles being lifted by chopsticks, a large slice of tender torochashu, a perfectly soft-boiled ajitama egg, and fresh scallions, set against a warm wooden interior of a traditional Japanese ramen shop with soft cinematic lighting."
+shop_name: Ramen Mutsumiya
+summary: 홋카이도 라멘의 정점으로 불리는 라멘 무츠미야에서 장인 정신이 깃든 궁극의 미소 라멘을 경험하십시오. 현지인들이 아끼는 이 보석 같은
+  맛집은 깊은 풍미의 육수와 예술적인 면발의 조화로 당신의 미각을 깨울 것입니다. 삿포로 여행의 완성은 바로 이곳, 무츠미야의 한 그릇에서 시작됩니다.
+thumbnail: /static/images/ramen_mutsumiya.jpg
+title: 'Best Ramen in Hokkaido, Sapporo: 전설의 미소 라멘, ''라멘 무츠미야''에 대한 미식적 경의'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

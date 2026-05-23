@@ -1,15 +1,25 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-21'
+image_prompt: A steaming macro shot of Ramen Sora's signature Miso Ramen, showcasing
+  a rich golden-brown broth with a glistening layer of oil, topped with tender pork
+  chashu featuring a dollop of fresh grated ginger, yellow curly noodles lifting from
+  the bowl, set against a dark moody izakaya background with warm soft lighting, 8k
+  resolution, cinematic food photography.
 lang: ko
-title: "The Ultimate Guide to Best Ramen in Hokkaido, Sapporo: Ramen Sora's Miso Masterpiece"
 lat: 43.0511
 lng: 141.3511
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/ramen_sora.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "삿포로 라멘의 정점에 서 있는 '라멘 소라'는 깊고 진한 미소 베이스에 생강의 변주를 더해 전 세계 미식가들을 사로잡은 진정한 현지인 맛집입니다. 홋카이도 여행에서 절대 놓쳐서는 안 될 이 미식의 성지는 전통적인 삿포로 스타일을 현대적으로 재해석하여 입안 가득 감동을 선사합니다. 최상급 차슈와 쫄깃한 면발이 만들어내는 완벽한 하모니를 미슐랭 가이드급 시선으로 분석한 심층 리뷰를 확인해 보세요."
-image_prompt: "A steaming macro shot of Ramen Sora's signature Miso Ramen, showcasing a rich golden-brown broth with a glistening layer of oil, topped with tender pork chashu featuring a dollop of fresh grated ginger, yellow curly noodles lifting from the bowl, set against a dark moody izakaya background with warm soft lighting, 8k resolution, cinematic food photography."
+shop_name: Ramen Sora
+summary: 삿포로 라멘의 정점에 서 있는 '라멘 소라'는 깊고 진한 미소 베이스에 생강의 변주를 더해 전 세계 미식가들을 사로잡은 진정한 현지인
+  맛집입니다. 홋카이도 여행에서 절대 놓쳐서는 안 될 이 미식의 성지는 전통적인 삿포로 스타일을 현대적으로 재해석하여 입안 가득 감동을 선사합니다.
+  최상급 차슈와 쫄깃한 면발이 만들어내는 완벽한 하모니를 미슐랭 가이드급 시선으로 분석한 심층 리뷰를 확인해 보세요.
+thumbnail: /static/images/ramen_sora.jpg
+title: 'The Ultimate Guide to Best Ramen in Hokkaido, Sapporo: Ramen Sora''s Miso
+  Masterpiece'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

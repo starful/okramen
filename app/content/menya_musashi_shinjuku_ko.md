@@ -1,14 +1,19 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-03'
 lang: ko
-title: "신주쿠 최고의 라멘: 미식가의 심장을 울리는 멘야 무사시 신주쿠, 도쿄 라멘의 정점"
 lat: 35.6934
 lng: 139.7001
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/menya_musashi_shinjuku.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-03"
-agoda: ""
-summary: "도쿄 신주쿠의 골목 어귀, '멘야 무사시 신주쿠'는 단순한 한 그릇의 라멘을 넘어선 미식 경험을 선사합니다. 겹겹이 쌓인 깊고 진한 육수, 완벽하게 조리된 쫄깃한 면발, 그리고 숙련된 장인의 손길로 탄생한 고명들이 조화를 이루며 잊을 수 없는 맛의 향연을 펼칩니다. 당신의 미식 여행에 영원히 각인될 도쿄 최고의 라멘을 지금 바로 경험해 보세요."
+shop_name: Menya Musashi Shinjuku
+summary: 도쿄 신주쿠의 골목 어귀, '멘야 무사시 신주쿠'는 단순한 한 그릇의 라멘을 넘어선 미식 경험을 선사합니다. 겹겹이 쌓인 깊고 진한
+  육수, 완벽하게 조리된 쫄깃한 면발, 그리고 숙련된 장인의 손길로 탄생한 고명들이 조화를 이루며 잊을 수 없는 맛의 향연을 펼칩니다. 당신의 미식
+  여행에 영원히 각인될 도쿄 최고의 라멘을 지금 바로 경험해 보세요.
+thumbnail: /static/images/menya_musashi_shinjuku.jpg
+title: '신주쿠 최고의 라멘: 미식가의 심장을 울리는 멘야 무사시 신주쿠, 도쿄 라멘의 정점'
 ---
 
 ## Philosophy & Soul: 장인의 정신, 한 그릇에 담다

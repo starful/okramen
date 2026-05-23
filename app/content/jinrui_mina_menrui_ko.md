@@ -1,15 +1,24 @@
 ---
+address: Osaka, Yodogawa
+agoda: ''
+categories:
+- 쇼유
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A side profile close-up of a steaming bowl of Macro Ramen at Jinrui
+  Mina Menrui, featuring a dark amber shoyu broth with visible oil droplets, an incredibly
+  thick and glazed braised chashu pork belly block, thick whole-wheat noodles peeking
+  through, and a massive bamboo shoot, set in a warm wooden interior with soft golden
+  lighting, 8k resolution, cinematic food photography.
 lang: ko
-title: "Best Ramen in Osaka, Yodogawa: 인류미나면류(Jinrui Mina Menrui) - 오사카 쇼유 라멘의 정점에 서다"
 lat: 34.7311
 lng: 135.4911
-categories: ["쇼유", "현지인맛집"]
-thumbnail: "/static/images/jinrui_mina_menrui.jpg"
-address: "Osaka, Yodogawa"
-date: "2026-04-12"
-agoda: ""
-summary: "오사카 요도가와구 니시나카지마의 전설적인 쇼유 라멘 성지, 인류미나면류를 미쉐린 스타급 시선으로 분석합니다. 조개 베이스의 깊은 감칠맛과 압도적인 두께의 차슈가 선사하는 미학적 성취를 경험해 보세요. 현지인들이 줄을 서서 기다리는 이 시대 최고의 로컬 라멘 가이드입니다."
-image_prompt: "A side profile close-up of a steaming bowl of Macro Ramen at Jinrui Mina Menrui, featuring a dark amber shoyu broth with visible oil droplets, an incredibly thick and glazed braised chashu pork belly block, thick whole-wheat noodles peeking through, and a massive bamboo shoot, set in a warm wooden interior with soft golden lighting, 8k resolution, cinematic food photography."
+shop_name: Jinrui Mina Menrui
+summary: 오사카 요도가와구 니시나카지마의 전설적인 쇼유 라멘 성지, 인류미나면류를 미쉐린 스타급 시선으로 분석합니다. 조개 베이스의 깊은 감칠맛과
+  압도적인 두께의 차슈가 선사하는 미학적 성취를 경험해 보세요. 현지인들이 줄을 서서 기다리는 이 시대 최고의 로컬 라멘 가이드입니다.
+thumbnail: /static/images/jinrui_mina_menrui.jpg
+title: 'Best Ramen in Osaka, Yodogawa: 인류미나면류(Jinrui Mina Menrui) - 오사카 쇼유 라멘의 정점에
+  서다'
 ---
 
 ## The Soul of the Shop: History and Philosophy

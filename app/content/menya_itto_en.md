@@ -1,15 +1,26 @@
 ---
+address: Tokyo, Katsushika
+agoda: ''
+categories:
+- Tsukemen
+- Premium
+date: '2026-04-14'
+image_prompt: A 45-degree angle professional food photography shot of Menya Itto's
+  signature Tsukemen set on a warm wooden counter, featuring a bowl of thick golden-brown
+  seafood-chicken dipping broth and a separate plate of perfectly aligned thick noodles
+  topped with three types of pink sous-vide chashu, bright minimalist lighting, steaming
+  macro details highlighting the glossy texture of the soup.
 lang: en
-title: "The Pinnacle of Tsukemen: Why Menya Itto is the Best Ramen in Tokyo, Katsushika"
 lat: 35.7155
 lng: 139.8588
-categories: ["Tsukemen", "Premium"]
-thumbnail: "/static/images/menya_itto.jpg"
-address: "Tokyo, Katsushika"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience the legendary Tsukemen that redefined Tokyo’s culinary landscape through an obsessive pursuit of poultry and seafood perfection. This Michelin-recognized destination in Katsushika offers a masterclass in sous-vide chashu and complex, collagen-rich broths. Secure your seat at the world's highest-rated ramen pilgrimage site for an unforgettable gastronomic journey."
-image_prompt: "A 45-degree angle professional food photography shot of Menya Itto's signature Tsukemen set on a warm wooden counter, featuring a bowl of thick golden-brown seafood-chicken dipping broth and a separate plate of perfectly aligned thick noodles topped with three types of pink sous-vide chashu, bright minimalist lighting, steaming macro details highlighting the glossy texture of the soup."
+shop_name: Menya Itto
+summary: Experience the legendary Tsukemen that redefined Tokyo’s culinary landscape
+  through an obsessive pursuit of poultry and seafood perfection. This Michelin-recognized
+  destination in Katsushika offers a masterclass in sous-vide chashu and complex,
+  collagen-rich broths. Secure your seat at the world's highest-rated ramen pilgrimage
+  site for an unforgettable gastronomic journey.
+thumbnail: /static/images/menya_itto.jpg
+title: 'The Pinnacle of Tsukemen: Why Menya Itto is the Best Ramen in Tokyo, Katsushika'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

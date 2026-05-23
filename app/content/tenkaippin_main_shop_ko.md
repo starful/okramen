@@ -1,4 +1,5 @@
 ---
+shop_name: "Tenkaippin Main Shop"
 lang: ko
 title: "교토 사쿄구 최고의 라멘, 텐카이핀 총본점에서 경험하는 걸쭉한 생명의 정수 (Best Ramen in Kyoto, Sakyo)"
 lat: 35.0355

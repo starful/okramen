@@ -1,14 +1,21 @@
 ---
+address: Tokyo, Chuo
+agoda: ''
+categories:
+- Chicken
+- Premium
+date: '2026-03-28'
 lang: en
-title: "The Golden Elixir: Why Ginza Kagari is the Best Ramen in Tokyo, Chuo"
 lat: 35.6718
 lng: 139.7634
-categories: ["Chicken", "Premium"]
-thumbnail: "/static/images/ginza_kagari.jpg"
-address: "Tokyo, Chuo"
-date: "2026-03-28"
-agoda: ""
-summary: "Indulge in the pinnacle of Tori Paitan at Ginza Kagari, where Michelin-recognized craftsmanship meets a rich, velvety chicken broth. Located in the heart of Tokyo's most luxurious district, this shop offers a sophisticated ramen experience that redefines the genre. Discover why discerning gourmands consider this the absolute must-visit destination for premium noodles in Chuo."
+shop_name: Ginza Kagari
+summary: Indulge in the pinnacle of Tori Paitan at Ginza Kagari, where Michelin-recognized
+  craftsmanship meets a rich, velvety chicken broth. Located in the heart of Tokyo's
+  most luxurious district, this shop offers a sophisticated ramen experience that
+  redefines the genre. Discover why discerning gourmands consider this the absolute
+  must-visit destination for premium noodles in Chuo.
+thumbnail: /static/images/ginza_kagari.jpg
+title: 'The Golden Elixir: Why Ginza Kagari is the Best Ramen in Tokyo, Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

@@ -188,6 +188,34 @@ header {
 .related-shops__list { margin: 0; padding-left: 1.2rem; line-height: 1.7; }
 .related-shops__list a { color: #c0392b; font-weight: 600; }
 
+.detail-one-liner {
+    font-size: 1.05rem; color: var(--text-gray); margin: 0.5rem 0 1rem; line-height: 1.55;
+}
+.practical-guide {
+    margin: 1.5rem 0; padding: 1.25rem 1.5rem;
+    background: #fff; border: 2px solid var(--accent-color); border-radius: 12px;
+}
+.practical-guide h2 { margin: 0 0 1rem; font-size: 1.25rem; color: var(--primary-color); }
+.practical-guide__dl {
+    display: grid; grid-template-columns: minmax(7rem, 9rem) 1fr;
+    gap: 0.5rem 1rem; margin: 0 0 1rem;
+}
+.practical-guide__dl dt { font-weight: 700; color: var(--text-gray); margin: 0; }
+.practical-guide__dl dd { margin: 0; }
+.practical-guide__sub { font-size: 1rem; margin: 0.75rem 0 0.5rem; }
+.practical-guide__tips { margin: 0; padding-left: 1.2rem; }
+.detail-article-fold {
+    margin: 1.5rem 0; border: 1px solid var(--light-border); border-radius: 12px;
+    background: #fff; overflow: hidden;
+}
+.detail-article-fold summary {
+    cursor: pointer; padding: 1rem 1.25rem; font-weight: 700;
+    background: var(--bg-color); list-style-position: inside;
+}
+.detail-article-fold .detail-content { padding: 0 1.25rem 1.25rem; }
+.detail-footer-links { font-size: 0.9rem; color: var(--text-gray); }
+.detail-footer-links a { color: #c0392b; }
+
 .onsen-card { 
     background: #fff; border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; 
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); border: 1px solid var(--light-border); 

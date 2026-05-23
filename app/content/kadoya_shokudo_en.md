@@ -1,15 +1,27 @@
 ---
+address: Osaka, Nishi
+agoda: ''
+categories:
+- Shoyu
+- Premium
+date: '2026-04-12'
+image_prompt: A 45-degree angle close-up shot of a steaming bowl of premium Shoyu
+  ramen at Kadoya Shokudo, featuring a clear golden-amber broth, perfectly aligned
+  thin noodles, and a slice of pink-centered chashu, set against a bright minimalist
+  wooden counter in a quiet, high-end Osaka shop.
 lang: en
-title: "The Pinnacle of Craftsmanship: Why Kadoya Shokudo is the Best Ramen in Osaka, Nishi"
 lat: 34.6755
 lng: 135.4855
-categories: ["Shoyu", "Premium"]
-thumbnail: "/static/images/kadoya_shokudo.jpg"
-address: "Osaka, Nishi"
-date: "2026-04-12"
-agoda: ""
-summary: "Experience the ultimate expression of artisanal Shoyu ramen at Kadoya Shokudo, a Michelin-recognized sanctuary of flavor in Osaka's Nishi district. This legendary establishment redefines the boundaries of soup and noodles through a relentless pursuit of ingredient purity and traditional technique. From the first sip of its complex, golden broth to the final silk-smooth noodle, this is a masterclass in Japanese culinary excellence."
-image_prompt: "A 45-degree angle close-up shot of a steaming bowl of premium Shoyu ramen at Kadoya Shokudo, featuring a clear golden-amber broth, perfectly aligned thin noodles, and a slice of pink-centered chashu, set against a bright minimalist wooden counter in a quiet, high-end Osaka shop."
+shop_name: Kadoya Shokudo
+summary: Experience the ultimate expression of artisanal Shoyu ramen at Kadoya Shokudo,
+  a Michelin-recognized sanctuary of flavor in Osaka's Nishi district. This legendary
+  establishment redefines the boundaries of soup and noodles through a relentless
+  pursuit of ingredient purity and traditional technique. From the first sip of its
+  complex, golden broth to the final silk-smooth noodle, this is a masterclass in
+  Japanese culinary excellence.
+thumbnail: /static/images/kadoya_shokudo.jpg
+title: 'The Pinnacle of Craftsmanship: Why Kadoya Shokudo is the Best Ramen in Osaka,
+  Nishi'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

@@ -1,15 +1,27 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-12'
+image_prompt: A dramatic 45-degree angle close-up of a steaming bowl of Ebisoba Ichigen
+  ramen, showcasing a vibrant orange-hued shrimp miso broth, topped with a distinctive
+  pile of red-tinted shrimp tempura flakes, green scallions, and a perfectly soft-boiled
+  egg, set against a warm rustic wooden counter with soft bokeh of a busy local kitchen
+  in the background.
 lang: en
-title: "The Crustacean Masterpiece: Why Ebisoba Ichigen is the Absolute Best Ramen in Hokkaido, Sapporo"
 lat: 43.0511
 lng: 141.3411
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/ebisoba_ichigen.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-12"
-agoda: ""
-summary: "Discover the transcendental power of sweet shrimp heads transformed into a legendary broth that redefines the Sapporo ramen landscape. This culinary pilgrimage offers an unparalleled umami explosion, blending traditional miso techniques with a modern maritime soul. Prepare for a sensory voyage where every spoonful captures the essence of Hokkaido's pristine northern waters."
-image_prompt: "A dramatic 45-degree angle close-up of a steaming bowl of Ebisoba Ichigen ramen, showcasing a vibrant orange-hued shrimp miso broth, topped with a distinctive pile of red-tinted shrimp tempura flakes, green scallions, and a perfectly soft-boiled egg, set against a warm rustic wooden counter with soft bokeh of a busy local kitchen in the background."
+shop_name: Ebisoba Ichigen
+summary: Discover the transcendental power of sweet shrimp heads transformed into
+  a legendary broth that redefines the Sapporo ramen landscape. This culinary pilgrimage
+  offers an unparalleled umami explosion, blending traditional miso techniques with
+  a modern maritime soul. Prepare for a sensory voyage where every spoonful captures
+  the essence of Hokkaido's pristine northern waters.
+thumbnail: /static/images/ebisoba_ichigen.jpg
+title: 'The Crustacean Masterpiece: Why Ebisoba Ichigen is the Absolute Best Ramen
+  in Hokkaido, Sapporo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

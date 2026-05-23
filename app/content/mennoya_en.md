@@ -1,15 +1,25 @@
 ---
+address: Osaka, Chuo
+agoda: ''
+categories:
+- Shoyu
+- Local Gem
+date: '2026-04-12'
+image_prompt: A steaming macro shot at a 45-degree angle of a bowl of Mennoya Shoyu
+  ramen, featuring a crystal-clear dark amber broth with shimmering aromatic oil droplets,
+  thin straight noodles neatly folded, tender pink-edged chashu, and a perfectly jammy
+  ajitama, set against a warm wooden interior of a traditional Osaka ramen counter.
 lang: en
-title: "The Umami Architecture: Why Mennoya is the Best Ramen in Osaka, Chuo"
 lat: 34.6811
 lng: 135.5111
-categories: ["Shoyu", "Local Gem"]
-thumbnail: "/static/images/mennoya.jpg"
-address: "Osaka, Chuo"
-date: "2026-04-12"
-agoda: ""
-summary: "Experience the pinnacle of artisanal Shoyu ramen at Mennoya, a hidden sanctuary where traditional craftsmanship meets modern culinary precision. This local gem in Chuo-ku offers a masterclass in broth depth and noodle texture, earning its reputation as a must-visit for serious gourmands. Discover why this unassuming shop defines the soulful excellence of Osaka’s vibrant ramen landscape."
-image_prompt: "A steaming macro shot at a 45-degree angle of a bowl of Mennoya Shoyu ramen, featuring a crystal-clear dark amber broth with shimmering aromatic oil droplets, thin straight noodles neatly folded, tender pink-edged chashu, and a perfectly jammy ajitama, set against a warm wooden interior of a traditional Osaka ramen counter."
+shop_name: Mennoya
+summary: Experience the pinnacle of artisanal Shoyu ramen at Mennoya, a hidden sanctuary
+  where traditional craftsmanship meets modern culinary precision. This local gem
+  in Chuo-ku offers a masterclass in broth depth and noodle texture, earning its reputation
+  as a must-visit for serious gourmands. Discover why this unassuming shop defines
+  the soulful excellence of Osaka’s vibrant ramen landscape.
+thumbnail: /static/images/mennoya.jpg
+title: 'The Umami Architecture: Why Mennoya is the Best Ramen in Osaka, Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

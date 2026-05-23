@@ -1,15 +1,25 @@
 ---
+address: Osaka, Kita
+agoda: ''
+categories:
+- 쇼유
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A dramatic top-down shot of a steaming bowl of Tori Paitan Shoyu ramen
+  at Ramen Yashichi, featuring a creamy frothy golden-brown chicken broth with delicate
+  bubbles, tender sliced chashu, finely chopped green onions, and a perfectly jammy
+  marinated soft-boiled egg, set against a rustic warm wooden counter in a minimalist
+  Japanese interior with soft natural lighting.
 lang: ko
-title: "[오사카 키타구 최고의 라멘] 라멘 야시치(Ramen Yashichi) - 미식의 정점에 선 토리파이탄의 전설 (Best Ramen in Osaka, Kita)"
 lat: 34.7111
 lng: 135.4988
-categories: ["쇼유", "현지인맛집"]
-thumbnail: "/static/images/ramen_yashichi.jpg"
-address: "Osaka, Kita"
-date: "2026-04-12"
-agoda: ""
-summary: "오사카 키타구 토요사키의 골목길에 숨겨진 '라멘 야시치'는 압도적인 농밀함을 자랑하는 토리파이탄 쇼유 라멘으로 전국의 식도락가들을 불러모으는 성지입니다. 장인 정신이 깃든 자가제면과 거품처럼 부드러운 육수의 조화는 한 번의 식사를 넘어선 경이로운 미식 경험을 선사합니다. 예약 번호표 시스템을 통해서만 맛볼 수 있는 이 희소성 높은 라멘은 진정한 현지인 맛집의 품격을 보여줍니다."
-image_prompt: "A dramatic top-down shot of a steaming bowl of Tori Paitan Shoyu ramen at Ramen Yashichi, featuring a creamy frothy golden-brown chicken broth with delicate bubbles, tender sliced chashu, finely chopped green onions, and a perfectly jammy marinated soft-boiled egg, set against a rustic warm wooden counter in a minimalist Japanese interior with soft natural lighting."
+shop_name: Ramen Yashichi
+summary: 오사카 키타구 토요사키의 골목길에 숨겨진 '라멘 야시치'는 압도적인 농밀함을 자랑하는 토리파이탄 쇼유 라멘으로 전국의 식도락가들을
+  불러모으는 성지입니다. 장인 정신이 깃든 자가제면과 거품처럼 부드러운 육수의 조화는 한 번의 식사를 넘어선 경이로운 미식 경험을 선사합니다. 예약
+  번호표 시스템을 통해서만 맛볼 수 있는 이 희소성 높은 라멘은 진정한 현지인 맛집의 품격을 보여줍니다.
+thumbnail: /static/images/ramen_yashichi.jpg
+title: '[오사카 키타구 최고의 라멘] 라멘 야시치(Ramen Yashichi) - 미식의 정점에 선 토리파이탄의 전설 (Best Ramen
+  in Osaka, Kita)'
 ---
 
 ## The Soul of the Shop: History and Philosophy

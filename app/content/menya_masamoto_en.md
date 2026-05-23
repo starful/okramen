@@ -1,15 +1,24 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-19'
+image_prompt: A 45-degree angle close-up of a steaming bowl of spicy Tantanmen at
+  Menya Masamoto, featuring a rich, vibrant red-orange broth topped with perfectly
+  minced pork, green scallions, and a drizzle of dark chili oil, set in a dark moody
+  izakaya with warm spotlighting on the bowl.
 lang: en
-title: "The Alchemist of Spice: Discovering the Best Ramen in Fukuoka, Chuo at Menya Masamoto"
 lat: 33.5911
 lng: 130.4011
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/menya_masamoto.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "Indulge in the fiery soul of Fukuoka at Menya Masamoto, where the city's best Tantanmen meets artisanal precision and local grit. A mandatory pilgrimage for spice seekers and ramen purists alike."
-image_prompt: "A 45-degree angle close-up of a steaming bowl of spicy Tantanmen at Menya Masamoto, featuring a rich, vibrant red-orange broth topped with perfectly minced pork, green scallions, and a drizzle of dark chili oil, set in a dark moody izakaya with warm spotlighting on the bowl."
+shop_name: Menya Masamoto
+summary: Indulge in the fiery soul of Fukuoka at Menya Masamoto, where the city's
+  best Tantanmen meets artisanal precision and local grit. A mandatory pilgrimage
+  for spice seekers and ramen purists alike.
+thumbnail: /static/images/menya_masamoto.jpg
+title: 'The Alchemist of Spice: Discovering the Best Ramen in Fukuoka, Chuo at Menya
+  Masamoto'
 ---
 
 ## The Soul of the Shop: History and Philosophy

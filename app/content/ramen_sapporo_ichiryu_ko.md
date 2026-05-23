@@ -1,15 +1,25 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-21'
+image_prompt: A dramatic top-down shot of a steaming bowl of spicy miso ramen at Ramen
+  Sapporo Ichiryu, featuring a rich, vibrant orange-red broth with a thick layer of
+  aromatic oil, topped with perfectly charred chashu, crunchy bean sprouts, and a
+  soft-boiled egg, set against a dark moody izakaya atmosphere with warm wooden textures
+  and rising steam.
 lang: ko
-title: "삿포로의 진정한 혼을 담은 미학, 라멘 삿포로 이치류(Ramen Sapporo Ichiryu): Best Ramen in Hokkaido, Sapporo"
 lat: 43.0611
 lng: 141.3511
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/ramen_sapporo_ichiryu.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "홋카이도 대지의 축복과 장인의 고집이 빚어낸 라멘 삿포로 이치류는 미소 라멘의 새로운 지평을 여는 성지입니다. 중독성 강한 매콤한 육수와 쫄깃한 면발의 조화는 단순한 식사를 넘어 삿포로의 겨울을 녹이는 따뜻한 위로를 선사합니다. 현지인들이 줄을 서서 기다리는 이 숨은 보석에서 진정한 북해도의 맛을 경험해 보시기 바랍니다."
-image_prompt: "A dramatic top-down shot of a steaming bowl of spicy miso ramen at Ramen Sapporo Ichiryu, featuring a rich, vibrant orange-red broth with a thick layer of aromatic oil, topped with perfectly charred chashu, crunchy bean sprouts, and a soft-boiled egg, set against a dark moody izakaya atmosphere with warm wooden textures and rising steam."
+shop_name: Ramen Sapporo Ichiryu
+summary: 홋카이도 대지의 축복과 장인의 고집이 빚어낸 라멘 삿포로 이치류는 미소 라멘의 새로운 지평을 여는 성지입니다. 중독성 강한 매콤한
+  육수와 쫄깃한 면발의 조화는 단순한 식사를 넘어 삿포로의 겨울을 녹이는 따뜻한 위로를 선사합니다. 현지인들이 줄을 서서 기다리는 이 숨은 보석에서
+  진정한 북해도의 맛을 경험해 보시기 바랍니다.
+thumbnail: /static/images/ramen_sapporo_ichiryu.jpg
+title: '삿포로의 진정한 혼을 담은 미학, 라멘 삿포로 이치류(Ramen Sapporo Ichiryu): Best Ramen in Hokkaido,
+  Sapporo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

@@ -1,17 +1,30 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-14'
+image_prompt: A 45-degree angle close-up shot of a steaming bowl of Ishikari Miso
+  Ramen at Ramen Shingen, showcasing the creamy golden-yellow broth, thick wavy yellow
+  noodles, and a large slice of tender chashu, set against a warm rustic wooden counter
+  in a cozy, dimly lit traditional Japanese ramen shop atmosphere.
 lang: en
-title: "The Golden Standard of Miso: Why Ramen Shingen is the Best Ramen in Hokkaido, Sapporo"
 lat: 43.0544
 lng: 141.3488
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/ramen_shingen.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience the pinnacle of Hokkaido soul food at Ramen Shingen, where the legendary Ishikari miso broth offers an unparalleled creamy complexity. This local gem transcends typical tourist traps, providing a masterclass in balance between chewy alkaline noodles and melt-in-your-mouth chashu. A pilgrimage to this Susukino landmark is an essential rite of passage for any serious culinary enthusiast visiting Sapporo."
-seo_title: "Ramen Shingen Sapporo — Miso Ramen, Susukino | OKRamen"
-seo_description: "Ramen Shingen (Sapporo / Susukino): Ishikari-style miso, pork broth, yellow noodles. Map, hours, queues, and what to order before your trip."
-image_prompt: "A 45-degree angle close-up shot of a steaming bowl of Ishikari Miso Ramen at Ramen Shingen, showcasing the creamy golden-yellow broth, thick wavy yellow noodles, and a large slice of tender chashu, set against a warm rustic wooden counter in a cozy, dimly lit traditional Japanese ramen shop atmosphere."
+seo_description: 'Ramen Shingen (Sapporo / Susukino): Ishikari-style miso, pork broth,
+  yellow noodles. Map, hours, queues, and what to order before your trip.'
+seo_title: Ramen Shingen Sapporo — Miso Ramen, Susukino | OKRamen
+shop_name: Ramen Shingen
+summary: Experience the pinnacle of Hokkaido soul food at Ramen Shingen, where the
+  legendary Ishikari miso broth offers an unparalleled creamy complexity. This local
+  gem transcends typical tourist traps, providing a masterclass in balance between
+  chewy alkaline noodles and melt-in-your-mouth chashu. A pilgrimage to this Susukino
+  landmark is an essential rite of passage for any serious culinary enthusiast visiting
+  Sapporo.
+thumbnail: /static/images/ramen_shingen.jpg
+title: 'The Golden Standard of Miso: Why Ramen Shingen is the Best Ramen in Hokkaido,
+  Sapporo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

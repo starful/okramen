@@ -1,15 +1,25 @@
 ---
+address: Tokyo, Chiyoda, Kanda Ogawamachi, 1−4
+agoda: ''
+categories:
+- 츠케멘
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A dramatic 45-degree angle macro shot of Tsujita Tokyo's signature tsukemen,
+  showcasing a bowl of thick, golden-yellow wavy noodles topped with a bright green
+  sudachi lime wedge, placed next to a steaming, deep-brown concentrated seafood-tonkotsu
+  dipping broth with visible oil droplets and chopped scallions, set on a warm rustic
+  wooden counter in a minimalist Japanese interior with soft ambient lighting.
 lang: ko
-title: "도쿄 치요다구의 정점: 츠지타 도쿄(Tsujita Tokyo)에서 경험하는 인생 츠케멘의 미학 - Best Ramen in Tokyo, Chiyoda"
 lat: 35.6953
 lng: 139.7619
-categories: ["츠케멘", "현지인맛집"]
-thumbnail: "/static/images/tsujita_tokyo.jpg"
-address: "Tokyo, Chiyoda, Kanda Ogawamachi, 1−4"
-date: "2026-04-14"
-agoda: ""
-summary: "도쿄 치요다구의 심장부에서 츠케멘의 정점을 상징하는 츠지타 도쿄는 진한 해산물 돈코츠 육수와 특유의 3단계 시식법으로 미식가들을 사로잡습니다. 미슐랭 스타급 평론가가 분석한 이 집의 육수는 60시간의 정성이 빚어낸 농밀한 감칠맛의 결정체이며, 수다치 라임과 흑칠미가 선사하는 맛의 변주는 가히 예술적입니다. 현지 직장인과 미식가들이 줄을 서서 기다리는 이 성지에서 도쿄 최고의 면 요리를 경험해 보시길 바랍니다."
-image_prompt: "A dramatic 45-degree angle macro shot of Tsujita Tokyo's signature tsukemen, showcasing a bowl of thick, golden-yellow wavy noodles topped with a bright green sudachi lime wedge, placed next to a steaming, deep-brown concentrated seafood-tonkotsu dipping broth with visible oil droplets and chopped scallions, set on a warm rustic wooden counter in a minimalist Japanese interior with soft ambient lighting."
+shop_name: Tsujita Tokyo
+summary: 도쿄 치요다구의 심장부에서 츠케멘의 정점을 상징하는 츠지타 도쿄는 진한 해산물 돈코츠 육수와 특유의 3단계 시식법으로 미식가들을 사로잡습니다.
+  미슐랭 스타급 평론가가 분석한 이 집의 육수는 60시간의 정성이 빚어낸 농밀한 감칠맛의 결정체이며, 수다치 라임과 흑칠미가 선사하는 맛의 변주는
+  가히 예술적입니다. 현지 직장인과 미식가들이 줄을 서서 기다리는 이 성지에서 도쿄 최고의 면 요리를 경험해 보시길 바랍니다.
+thumbnail: /static/images/tsujita_tokyo.jpg
+title: '도쿄 치요다구의 정점: 츠지타 도쿄(Tsujita Tokyo)에서 경험하는 인생 츠케멘의 미학 - Best Ramen in Tokyo,
+  Chiyoda'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

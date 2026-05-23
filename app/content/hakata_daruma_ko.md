@@ -1,15 +1,23 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-19'
+image_prompt: A dramatic 45-degree angle close-up of a steaming bowl of Hakata Daruma
+  tonkotsu ramen on a warm wooden counter, featuring a thick creamy broth with visible
+  fat droplets, ultra-thin noodles, a large slice of tender chashu, and finely chopped
+  green onions, captured in a warm rustic interior lighting.
 lang: ko
-title: "후쿠오카의 전설, 하카타 다루마: Best Ramen in Fukuoka, Chuo에서 만나는 진정한 돈코츠의 미학"
 lat: 33.5855
 lng: 130.4011
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/hakata_daruma.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "60년 전통의 하카타 다루마는 강렬한 풍미의 돈코츠 육수와 초극세면이 조화를 이루는 후쿠오카 라멘의 살아있는 전설입니다. 시간이 빚어낸 농밀한 국물과 장인 정신이 깃든 고명은 미식가들에게 잊을 수 없는 감동을 선사합니다. 후쿠오카 중앙구에서 진정한 현지의 맛을 찾는다면 반드시 방문해야 할 성지입니다."
-image_prompt: "A dramatic 45-degree angle close-up of a steaming bowl of Hakata Daruma tonkotsu ramen on a warm wooden counter, featuring a thick creamy broth with visible fat droplets, ultra-thin noodles, a large slice of tender chashu, and finely chopped green onions, captured in a warm rustic interior lighting."
+shop_name: Hakata Daruma
+summary: 60년 전통의 하카타 다루마는 강렬한 풍미의 돈코츠 육수와 초극세면이 조화를 이루는 후쿠오카 라멘의 살아있는 전설입니다. 시간이 빚어낸
+  농밀한 국물과 장인 정신이 깃든 고명은 미식가들에게 잊을 수 없는 감동을 선사합니다. 후쿠오카 중앙구에서 진정한 현지의 맛을 찾는다면 반드시 방문해야
+  할 성지입니다.
+thumbnail: /static/images/hakata_daruma.jpg
+title: '후쿠오카의 전설, 하카타 다루마: Best Ramen in Fukuoka, Chuo에서 만나는 진정한 돈코츠의 미학'
 ---
 
 ## The Soul of the Shop: History and Philosophy

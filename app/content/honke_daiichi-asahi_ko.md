@@ -1,15 +1,25 @@
 ---
+address: Kyoto, Shimogyo
+agoda: ''
+categories:
+- 쇼유
+- 현지인맛집
+date: '2026-04-03'
+image_prompt: A photorealistic close-up food photo of Honke Daiichi-asahi shoyu ramen,
+  clear amber-colored soy sauce broth with a layer of shimmering oil, thin straight
+  noodles partially submerged, abundant sliced tender pink chashu pork, a mountain
+  of vibrant green Kujo Negi scallions, steam rising gracefully, dark moody traditional
+  Japanese ramen shop background, shallow depth of field, shot on 85mm lens, professional
+  food photography, high detail, volumetric lighting.
 lang: ko
-title: "교토 시모교구의 영혼을 담은 한 그릇: Best Ramen in Kyoto, Shimogyo, 혼케 다이이치 아사히"
 lat: 34.9866
 lng: 135.7611
-categories: ["쇼유", "현지인맛집"]
-thumbnail: "/static/images/honke_daiichi-asahi.jpg"
-address: "Kyoto, Shimogyo"
-date: "2026-04-03"
-agoda: ""
-summary: "교토역 인근 시모교구에서 50년 넘게 자리를 지켜온 혼케 다이이치 아사히는 맑지만 깊은 육수의 정점을 보여주는 쇼유 라멘의 성지입니다. 이곳의 라멘은 단순한 음식을 넘어 교토의 역사와 장인 정신을 한 그릇에 담아낸 예술 작품과도 같습니다. 지금 바로 이 전설적인 한 그릇을 경험하기 위한 미식 가이드를 확인해보세요."
-image_prompt: "A photorealistic close-up food photo of Honke Daiichi-asahi shoyu ramen, clear amber-colored soy sauce broth with a layer of shimmering oil, thin straight noodles partially submerged, abundant sliced tender pink chashu pork, a mountain of vibrant green Kujo Negi scallions, steam rising gracefully, dark moody traditional Japanese ramen shop background, shallow depth of field, shot on 85mm lens, professional food photography, high detail, volumetric lighting."
+shop_name: Honke Daiichi Asahi
+summary: 교토역 인근 시모교구에서 50년 넘게 자리를 지켜온 혼케 다이이치 아사히는 맑지만 깊은 육수의 정점을 보여주는 쇼유 라멘의 성지입니다.
+  이곳의 라멘은 단순한 음식을 넘어 교토의 역사와 장인 정신을 한 그릇에 담아낸 예술 작품과도 같습니다. 지금 바로 이 전설적인 한 그릇을 경험하기
+  위한 미식 가이드를 확인해보세요.
+thumbnail: /static/images/honke_daiichi-asahi.jpg
+title: '교토 시모교구의 영혼을 담은 한 그릇: Best Ramen in Kyoto, Shimogyo, 혼케 다이이치 아사히'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

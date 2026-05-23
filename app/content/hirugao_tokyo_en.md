@@ -1,15 +1,27 @@
 ---
+address: Tokyo, Chiyoda
+agoda: ''
+categories:
+- Shio
+- Local Gem
+date: '2026-04-21'
+image_prompt: A side profile close-up of Hirugao signature shio ramen in a warm wooden
+  interior, featuring a crystal-clear golden broth reflecting soft ambient light,
+  topped with delicate scallop slices, thin bamboo shoots, and a perfectly jammy ajitama
+  egg, steaming macro shot emphasizing the steam rising gracefully from the bowl.
 lang: en
-title: "The Golden Alchemy of Salt: Why Hirugao Tokyo Offers the Best Ramen in Tokyo, Chiyoda for the Discerning Local"
 lat: 35.6811
 lng: 139.7671
-categories: ["Shio", "Local Gem"]
-thumbnail: "/static/images/hirugao_tokyo.jpg"
-address: "Tokyo, Chiyoda"
-date: "2026-04-21"
-agoda: ""
-summary: "Discover the ethereal brilliance of Hirugao, a sanctuary of Shio ramen that stands as a testament to culinary precision in the heart of Chiyoda. By blending rare seafood essences with a mineral-rich salt profile, this local gem delivers an unrivaled sensory journey through Japan's most refined broth. For those seeking the absolute best ramen in Tokyo, Chiyoda, Hirugao offers a masterclass in balance, elegance, and pure umami."
-image_prompt: "A side profile close-up of Hirugao signature shio ramen in a warm wooden interior, featuring a crystal-clear golden broth reflecting soft ambient light, topped with delicate scallop slices, thin bamboo shoots, and a perfectly jammy ajitama egg, steaming macro shot emphasizing the steam rising gracefully from the bowl."
+shop_name: Hirugao Tokyo
+summary: Discover the ethereal brilliance of Hirugao, a sanctuary of Shio ramen that
+  stands as a testament to culinary precision in the heart of Chiyoda. By blending
+  rare seafood essences with a mineral-rich salt profile, this local gem delivers
+  an unrivaled sensory journey through Japan's most refined broth. For those seeking
+  the absolute best ramen in Tokyo, Chiyoda, Hirugao offers a masterclass in balance,
+  elegance, and pure umami.
+thumbnail: /static/images/hirugao_tokyo.jpg
+title: 'The Golden Alchemy of Salt: Why Hirugao Tokyo Offers the Best Ramen in Tokyo,
+  Chiyoda for the Discerning Local'
 ---
 
 ## The Soul of the Shop: History and Philosophy

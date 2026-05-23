@@ -1,15 +1,25 @@
 ---
+address: Tokyo, Chiyoda City, Kanda Ogawamachi, 3 Chome−2
+agoda: ''
+categories:
+- Tsukemen
+- Local Gem
+date: '2026-04-14'
+image_prompt: A 45-degree angle shot of a bowl of thick, golden-hued Tsukemen noodles
+  next to a deep, dark brown seafood-pork dipping broth with a slice of sudachi lime
+  and a dollop of black shichimi, set against a warm wooden interior of an authentic
+  Tokyo ramen counter.
 lang: en
-title: "The Alchemy of Umami: Why Tsujita Tokyo is the Best Ramen in Tokyo, Chiyoda for Tsukemen Purists"
 lat: 35.6955
 lng: 139.7618
-categories: ["Tsukemen", "Local Gem"]
-thumbnail: "/static/images/tsujita_tokyo.jpg"
-address: "Tokyo, Chiyoda City, Kanda Ogawamachi, 3 Chome−2"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience the legendary 'Three-Act' dipping noodle ritual at Tsujita Tokyo, where 60-hour simmered broth meets artisan wheat noodles in the heart of Chiyoda. A true local gem that redefines the gyokai-tonkotsu genre through precision, citrus acidity, and Kyoto-sourced spices."
-image_prompt: "A 45-degree angle shot of a bowl of thick, golden-hued Tsukemen noodles next to a deep, dark brown seafood-pork dipping broth with a slice of sudachi lime and a dollop of black shichimi, set against a warm wooden interior of an authentic Tokyo ramen counter."
+shop_name: Tsujita Tokyo
+summary: Experience the legendary 'Three-Act' dipping noodle ritual at Tsujita Tokyo,
+  where 60-hour simmered broth meets artisan wheat noodles in the heart of Chiyoda.
+  A true local gem that redefines the gyokai-tonkotsu genre through precision, citrus
+  acidity, and Kyoto-sourced spices.
+thumbnail: /static/images/tsujita_tokyo.jpg
+title: 'The Alchemy of Umami: Why Tsujita Tokyo is the Best Ramen in Tokyo, Chiyoda
+  for Tsukemen Purists'
 ---
 
 ## The Soul of the Shop: History and Philosophy

@@ -1,15 +1,24 @@
 ---
+address: Tokyo, Ota
+agoda: ''
+categories:
+- 츠케멘
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: Side profile close-up of a thick, stone-cold dipping ramen bowl at Rokurinsha
+  Haneda, featuring a dark amber-colored rich pork and seafood broth with a topping
+  of fish powder on a small piece of nori, paired with a mountain of thick chewy wheat
+  noodles, warm wooden interior lighting, rustic counter seat aesthetic, ultra-realistic
+  food photography.
 lang: ko
-title: "도쿄 미식 여정의 찬란한 피날레: Best Ramen in Tokyo, Ota - 로쿠린샤 하네다(Rokurinsha) 심층 가이드"
 lat: 35.5491
 lng: 139.7811
-categories: ["츠케멘", "현지인맛집"]
-thumbnail: "/static/images/rokurinsha_haneda.jpg"
-address: "Tokyo, Ota"
-date: "2026-04-14"
-agoda: ""
-summary: "하네다 공항 제3터미널의 상징, 로쿠린샤는 강렬한 어패류 돈코츠 육수와 극태면의 조화로 츠케멘의 정점을 보여주는 미식의 성지입니다. 출국 직전 도쿄의 가장 진한 감칠맛을 경험할 수 있는 이곳은 단순한 식사를 넘어선 강렬한 미식적 충격을 선사합니다. 미슐랭급 안목으로 분석한 로쿠린샤의 철학과 맛의 비결을 지금 바로 확인해 보십시오."
-image_prompt: "Side profile close-up of a thick, stone-cold dipping ramen bowl at Rokurinsha Haneda, featuring a dark amber-colored rich pork and seafood broth with a topping of fish powder on a small piece of nori, paired with a mountain of thick chewy wheat noodles, warm wooden interior lighting, rustic counter seat aesthetic, ultra-realistic food photography."
+shop_name: Rokurinsha Haneda
+summary: 하네다 공항 제3터미널의 상징, 로쿠린샤는 강렬한 어패류 돈코츠 육수와 극태면의 조화로 츠케멘의 정점을 보여주는 미식의 성지입니다.
+  출국 직전 도쿄의 가장 진한 감칠맛을 경험할 수 있는 이곳은 단순한 식사를 넘어선 강렬한 미식적 충격을 선사합니다. 미슐랭급 안목으로 분석한 로쿠린샤의
+  철학과 맛의 비결을 지금 바로 확인해 보십시오.
+thumbnail: /static/images/rokurinsha_haneda.jpg
+title: '도쿄 미식 여정의 찬란한 피날레: Best Ramen in Tokyo, Ota - 로쿠린샤 하네다(Rokurinsha) 심층 가이드'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

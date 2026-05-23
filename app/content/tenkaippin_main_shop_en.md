@@ -1,4 +1,5 @@
 ---
+shop_name: "Tenkaippin Main Shop"
 lang: en
 title: "The Viscous Legend of Ichijoji: Why Tenkaippin Main Shop is the Best Ramen in Kyoto, Sakyo"
 lat: 35.0355

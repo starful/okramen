@@ -1,15 +1,26 @@
 ---
+address: Tokyo, Toshima
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-12'
+image_prompt: A dramatic 45-degree angle close-up of a steaming bowl of Mouko Tanmen
+  Nakamoto ramen, featuring a deep crimson spicy miso broth, thick noodles, and a
+  silky mapo tofu topping, set against a neon-lit late night Tokyo alleyway reflection
+  on the dark wooden counter.
 lang: en
-title: "The Alchemist of Fire: Discover the Best Ramen in Tokyo, Toshima at Mouko Tanmen Nakamoto"
 lat: 35.7315
 lng: 139.7122
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/mouko_tanmen_nakamoto.jpg"
-address: "Tokyo, Toshima"
-date: "2026-04-12"
-agoda: ""
-summary: "Experience the legendary heat and profound umami of Tokyo's most iconic spicy miso ramen at Mouko Tanmen Nakamoto in Toshima. This culinary destination masterfully balances a rich tonkotsu-miso base with a signature mapo tofu topping that has captivated locals for decades. Prepare for a gastronomic challenge that rewards the brave with layers of complex flavor found nowhere else in the world."
-image_prompt: "A dramatic 45-degree angle close-up of a steaming bowl of Mouko Tanmen Nakamoto ramen, featuring a deep crimson spicy miso broth, thick noodles, and a silky mapo tofu topping, set against a neon-lit late night Tokyo alleyway reflection on the dark wooden counter."
+shop_name: Mouko Tanmen Nakamoto
+summary: Experience the legendary heat and profound umami of Tokyo's most iconic spicy
+  miso ramen at Mouko Tanmen Nakamoto in Toshima. This culinary destination masterfully
+  balances a rich tonkotsu-miso base with a signature mapo tofu topping that has captivated
+  locals for decades. Prepare for a gastronomic challenge that rewards the brave with
+  layers of complex flavor found nowhere else in the world.
+thumbnail: /static/images/mouko_tanmen_nakamoto.jpg
+title: 'The Alchemist of Fire: Discover the Best Ramen in Tokyo, Toshima at Mouko
+  Tanmen Nakamoto'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

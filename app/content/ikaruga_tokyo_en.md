@@ -1,15 +1,25 @@
 ---
+address: Tokyo, Chiyoda, Marunouchi 1-9-1, Tokyo Station Ichibangai B1F
+agoda: ''
+categories:
+- Shoyu
+- Premium
+date: '2026-04-21'
+image_prompt: A steaming macro shot of Ikaruga's signature Shoyu-Tonkotsu ramen, featuring
+  a glossy, rich brown double-soup, a perfectly soft-boiled ajitama egg with a jammy
+  yolk, and thin slices of tender chashu pork, set against a dark moody izakaya background
+  with golden light reflecting off the broth's surface.
 lang: en
-title: "The Symphony of Umami: Why Ikaruga is the Best Ramen in Tokyo, Chiyoda"
 lat: 35.6811
 lng: 139.7671
-categories: ["Shoyu", "Premium"]
-thumbnail: "/static/images/ikaruga_tokyo.jpg"
-address: "Tokyo, Chiyoda, Marunouchi 1-9-1, Tokyo Station Ichibangai B1F"
-date: "2026-04-21"
-agoda: ""
-summary: "Discover the pinnacle of refined 'W-Soup' craftsmanship at Ikaruga, where fashion-forward aesthetics meet centuries of culinary tradition in the heart of Chiyoda. This guide explores the complex marriage of seafood and pork bone broths that defines the legendary Tokyo Ramen Street experience. Prepare for a sensory journey through one of Japan's most sophisticated and accessible gourmet ramen destinations."
-image_prompt: "A steaming macro shot of Ikaruga's signature Shoyu-Tonkotsu ramen, featuring a glossy, rich brown double-soup, a perfectly soft-boiled ajitama egg with a jammy yolk, and thin slices of tender chashu pork, set against a dark moody izakaya background with golden light reflecting off the broth's surface."
+shop_name: Ikaruga Tokyo
+summary: Discover the pinnacle of refined 'W-Soup' craftsmanship at Ikaruga, where
+  fashion-forward aesthetics meet centuries of culinary tradition in the heart of
+  Chiyoda. This guide explores the complex marriage of seafood and pork bone broths
+  that defines the legendary Tokyo Ramen Street experience. Prepare for a sensory
+  journey through one of Japan's most sophisticated and accessible gourmet ramen destinations.
+thumbnail: /static/images/ikaruga_tokyo.jpg
+title: 'The Symphony of Umami: Why Ikaruga is the Best Ramen in Tokyo, Chiyoda'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

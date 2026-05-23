@@ -1,15 +1,25 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- 돈코츠
+- 혼밥성지
+date: '2026-04-12'
+image_prompt: A 45-degree angle close-up of a massive Jiro-style Tonkotsu ramen bowl
+  at Butayama Shinjuku, featuring a towering mountain of blanched bean sprouts and
+  cabbage, thick slabs of melt-in-your-mouth pork chashu, a generous dollop of minced
+  garlic, and a rich creamy brown emulsified broth with floating back fat, set in
+  a neon-lit late night Tokyo ramen shop atmosphere with warm wooden textures.
 lang: ko
-title: "도쿄 신주쿠 최고의 라멘(Best Ramen in Tokyo, Shinjuku) - 돼지 고기의 정점, 라멘 부타야마(Butayama)의 미학적 분석"
 lat: 35.6944
 lng: 139.7022
-categories: ["돈코츠", "혼밥성지"]
-thumbnail: "/static/images/butayama.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-12"
-agoda: ""
-summary: "신주쿠 한복판에서 만나는 지로계 라멘의 정수, 부타야마는 압도적인 비주얼과 깊은 돈코츠 베이스의 풍미로 미식가들을 사로잡습니다. 두툼한 차슈와 산더미 같은 채소, 그리고 강렬한 마늘의 조화는 단순한 한 끼를 넘어선 강렬한 미식 경험을 선사합니다. 혼자서도 완벽하게 몰입할 수 있는 이곳에서 도쿄 최고의 돈코츠 라멘을 직접 확인해보시기 바랍니다."
-image_prompt: "A 45-degree angle close-up of a massive Jiro-style Tonkotsu ramen bowl at Butayama Shinjuku, featuring a towering mountain of blanched bean sprouts and cabbage, thick slabs of melt-in-your-mouth pork chashu, a generous dollop of minced garlic, and a rich creamy brown emulsified broth with floating back fat, set in a neon-lit late night Tokyo ramen shop atmosphere with warm wooden textures."
+shop_name: Butayama
+summary: 신주쿠 한복판에서 만나는 지로계 라멘의 정수, 부타야마는 압도적인 비주얼과 깊은 돈코츠 베이스의 풍미로 미식가들을 사로잡습니다. 두툼한
+  차슈와 산더미 같은 채소, 그리고 강렬한 마늘의 조화는 단순한 한 끼를 넘어선 강렬한 미식 경험을 선사합니다. 혼자서도 완벽하게 몰입할 수 있는
+  이곳에서 도쿄 최고의 돈코츠 라멘을 직접 확인해보시기 바랍니다.
+thumbnail: /static/images/butayama.jpg
+title: 도쿄 신주쿠 최고의 라멘(Best Ramen in Tokyo, Shinjuku) - 돼지 고기의 정점, 라멘 부타야마(Butayama)의
+  미학적 분석
 ---
 
 ## The Soul of the Shop: History and Philosophy

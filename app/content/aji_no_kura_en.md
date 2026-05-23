@@ -1,15 +1,27 @@
 ---
+address: Fukuoka, Hakata
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-12'
+image_prompt: A steaming macro shot at a 45-degree angle of a bowl of spicy Tonkotsu
+  ramen at Aji no Kura, featuring a rich creamy white broth marbled with vibrant red
+  chili oil, thin Hakata noodles peeking through, tender chashu slices, and green
+  onions, set against a warm wooden interior with soft golden lighting.
 lang: en
-title: "The Alchemist’s Cauldron: Why Aji no Kura is the Best Ramen in Fukuoka, Hakata for True Connoisseurs"
 lat: 33.5911
 lng: 130.4111
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/aji_no_kura.jpg"
-address: "Fukuoka, Hakata"
-date: "2026-04-12"
-agoda: ""
-summary: "Discover the pinnacle of Hakata craftsmanship at Aji no Kura, where traditional tonkotsu meets a modern spicy evolution in a setting that breathes local authenticity. This masterclass in broth extraction and noodle texture offers a sensory journey through the very soul of Fukuoka's culinary heritage. A must-visit destination for those seeking the perfect balance of creamy pork marrow richness and fiery, aromatic depth."
-image_prompt: "A steaming macro shot at a 45-degree angle of a bowl of spicy Tonkotsu ramen at Aji no Kura, featuring a rich creamy white broth marbled with vibrant red chili oil, thin Hakata noodles peeking through, tender chashu slices, and green onions, set against a warm wooden interior with soft golden lighting."
+shop_name: AJI NO Kura
+summary: Discover the pinnacle of Hakata craftsmanship at Aji no Kura, where traditional
+  tonkotsu meets a modern spicy evolution in a setting that breathes local authenticity.
+  This masterclass in broth extraction and noodle texture offers a sensory journey
+  through the very soul of Fukuoka's culinary heritage. A must-visit destination for
+  those seeking the perfect balance of creamy pork marrow richness and fiery, aromatic
+  depth.
+thumbnail: /static/images/aji_no_kura.jpg
+title: 'The Alchemist’s Cauldron: Why Aji no Kura is the Best Ramen in Fukuoka, Hakata
+  for True Connoisseurs'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

@@ -1,15 +1,23 @@
 ---
+address: Tokyo, Toshima
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A steaming macro shot at a 45-degree angle of a bowl of Mouko Tanmen
+  Nakamoto ramen, featuring a deep crimson spicy miso broth with stir-fried vegetables
+  and soft mapo tofu on top, set in a dark moody izakaya with a warm red glow reflecting
+  off the bowl's edge, 8k resolution, cinematic lighting.
 lang: ko
-title: "도쿄 도시마의 붉은 전설: 모우코 탄멘 나카모토, 미각의 한계를 시험하는 궁극의 미학 (Best Ramen in Tokyo, Toshima)"
 lat: 35.7315
 lng: 139.7122
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/mouko_tanmen_nakamoto.jpg"
-address: "Tokyo, Toshima"
-date: "2026-04-12"
-agoda: ""
-summary: "도쿄 도시마구에서 만나는 모우코 탄멘 나카모토는 단순한 라멘을 넘어 일본 매운맛 문화의 정수를 보여주는 성지입니다. 진한 돈코츠 베이스와 비법 미소, 그리고 폭발적인 고춧가루의 조화는 미식가들에게 잊지 못할 강렬한 카타르시스를 선사합니다. 현지인들이 줄을 서서 기다리는 이 공간에서 당신의 미각은 새로운 차원의 미학을 경험하게 될 것입니다."
-image_prompt: "A steaming macro shot at a 45-degree angle of a bowl of Mouko Tanmen Nakamoto ramen, featuring a deep crimson spicy miso broth with stir-fried vegetables and soft mapo tofu on top, set in a dark moody izakaya with a warm red glow reflecting off the bowl's edge, 8k resolution, cinematic lighting."
+shop_name: Mouko Tanmen Nakamoto
+summary: 도쿄 도시마구에서 만나는 모우코 탄멘 나카모토는 단순한 라멘을 넘어 일본 매운맛 문화의 정수를 보여주는 성지입니다. 진한 돈코츠 베이스와
+  비법 미소, 그리고 폭발적인 고춧가루의 조화는 미식가들에게 잊지 못할 강렬한 카타르시스를 선사합니다. 현지인들이 줄을 서서 기다리는 이 공간에서
+  당신의 미각은 새로운 차원의 미학을 경험하게 될 것입니다.
+thumbnail: /static/images/mouko_tanmen_nakamoto.jpg
+title: '도쿄 도시마의 붉은 전설: 모우코 탄멘 나카모토, 미각의 한계를 시험하는 궁극의 미학 (Best Ramen in Tokyo, Toshima)'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

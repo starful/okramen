@@ -1,15 +1,26 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-19'
+image_prompt: A 45-degree angle close-up of a steaming bowl of Nagahama No.1 Tonkotsu
+  ramen, featuring milky white bone-marrow broth, thin straight noodles peaking through,
+  tender braised chashu, and vibrant green scallions, set against a warm wooden counter
+  in a rustic, steam-filled local shop.
 lang: en
-title: "Nagahama No.1: The Definitive Tonkotsu Pilgrimage – Best Ramen in Fukuoka, Chuo"
 lat: 33.5911
 lng: 130.3811
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/nagahama_no.1.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "Discover the raw, unfiltered essence of Hakata’s culinary heritage at Nagahama No.1, where the broth is a creamy masterwork of porcine depth. This legendary local gem in Fukuoka, Chuo, transcends mere dining, offering a soul-stirring bowl that defines the very standard of authentic Tonkotsu. A must-visit for any serious connoisseur seeking the true heartbeat of the historic Nagahama ramen culture."
-image_prompt: "A 45-degree angle close-up of a steaming bowl of Nagahama No.1 Tonkotsu ramen, featuring milky white bone-marrow broth, thin straight noodles peaking through, tender braised chashu, and vibrant green scallions, set against a warm wooden counter in a rustic, steam-filled local shop."
+shop_name: Nagahama No.1
+summary: Discover the raw, unfiltered essence of Hakata’s culinary heritage at Nagahama
+  No.1, where the broth is a creamy masterwork of porcine depth. This legendary local
+  gem in Fukuoka, Chuo, transcends mere dining, offering a soul-stirring bowl that
+  defines the very standard of authentic Tonkotsu. A must-visit for any serious connoisseur
+  seeking the true heartbeat of the historic Nagahama ramen culture.
+thumbnail: /static/images/nagahama_no.1.jpg
+title: 'Nagahama No.1: The Definitive Tonkotsu Pilgrimage – Best Ramen in Fukuoka,
+  Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

@@ -1,15 +1,27 @@
 ---
+address: Fukuoka, Hakata
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-19'
+image_prompt: A steaming macro shot of Tairyo Ramen's signature Tonkotsu bowl, capturing
+  the golden oil droplets dancing on a thick milky-white broth, thin Hakata-style
+  noodles lifted by chopsticks, charred chashu edges, and vibrant green onions, set
+  in a dark moody izakaya atmosphere with soft lantern light reflecting off the lacquer
+  table.
 lang: en
-title: "The Ultimate Umami Pilgrimage: Finding the Best Ramen in Fukuoka, Hakata at Tairyo Ramen"
 lat: 33.6011
 lng: 130.4111
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/tairyo_ramen.jpg"
-address: "Fukuoka, Hakata"
-date: "2026-04-19"
-agoda: ""
-summary: "Discover the raw, authentic heart of Hakata at Tairyo Ramen, a local gem where the pork bone broth is a masterclass in creamy complexity and traditional soul. This is not just a meal; it is a profound sensory journey into the heritage of Fukuoka’s most legendary noodle style. Experience the pinnacle of Tonkotsu craftsmanship in a setting that breathes the true spirit of a local Fukuoka haunt."
-image_prompt: "A steaming macro shot of Tairyo Ramen's signature Tonkotsu bowl, capturing the golden oil droplets dancing on a thick milky-white broth, thin Hakata-style noodles lifted by chopsticks, charred chashu edges, and vibrant green onions, set in a dark moody izakaya atmosphere with soft lantern light reflecting off the lacquer table."
+shop_name: Tairyo Ramen
+summary: Discover the raw, authentic heart of Hakata at Tairyo Ramen, a local gem
+  where the pork bone broth is a masterclass in creamy complexity and traditional
+  soul. This is not just a meal; it is a profound sensory journey into the heritage
+  of Fukuoka’s most legendary noodle style. Experience the pinnacle of Tonkotsu craftsmanship
+  in a setting that breathes the true spirit of a local Fukuoka haunt.
+thumbnail: /static/images/tairyo_ramen.jpg
+title: 'The Ultimate Umami Pilgrimage: Finding the Best Ramen in Fukuoka, Hakata at
+  Tairyo Ramen'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

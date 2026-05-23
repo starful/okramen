@@ -1,15 +1,24 @@
 ---
+address: Hokkaido, Sapporo, Chuo Ward, Minami 3 Jonishi, 1 Chome−2-1
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A dramatic side profile close-up of a steaming bowl of Sapporo Miso
+  Ramen at Ramen Kuryu, featuring a rich golden-brown broth with a layer of glistening
+  oil, topped with tender chashu, bamboo shoots, and a dollop of grated ginger on
+  a rustic wooden counter inside a warm, dimly lit traditional izakaya setting.
 lang: ko
-title: "[삿포로 최고의 미소 라멘] 라멘 구류(Ramen Kuryu): 홋카이도 영혼의 맛, 현지인이 숨겨둔 진정한 미식의 성지 (Best Ramen in Hokkaido, Sapporo)"
 lat: 43.0622
 lng: 141.3544
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/ramen_kuryu.jpg"
-address: "Hokkaido, Sapporo, Chuo Ward, Minami 3 Jonishi, 1 Chome−2-1"
-date: "2026-04-14"
-agoda: ""
-summary: "삿포로 미소 라멘의 정수를 보여주는 '라멘 구류'는 강렬한 불맛과 깊은 육수의 풍미가 어우러진 홋카이도 최고의 로컬 맛집으로, 미식가들 사이에서 전설적인 곳입니다. 이곳의 육수는 단순한 국물이 아니라 삿포로의 겨울을 녹여내는 예술 작품이며, 쫄깃한 면발과 환상적인 차슈는 완벽한 미식의 조화를 선사합니다. 현지인의 숨결이 느껴지는 이곳에서 진정한 라멘의 철학을 경험하며 당신의 인생 라멘을 발견해보시길 바랍니다."
-image_prompt: "A dramatic side profile close-up of a steaming bowl of Sapporo Miso Ramen at Ramen Kuryu, featuring a rich golden-brown broth with a layer of glistening oil, topped with tender chashu, bamboo shoots, and a dollop of grated ginger on a rustic wooden counter inside a warm, dimly lit traditional izakaya setting."
+shop_name: Ramen Kuryu
+summary: 삿포로 미소 라멘의 정수를 보여주는 '라멘 구류'는 강렬한 불맛과 깊은 육수의 풍미가 어우러진 홋카이도 최고의 로컬 맛집으로, 미식가들
+  사이에서 전설적인 곳입니다. 이곳의 육수는 단순한 국물이 아니라 삿포로의 겨울을 녹여내는 예술 작품이며, 쫄깃한 면발과 환상적인 차슈는 완벽한
+  미식의 조화를 선사합니다. 현지인의 숨결이 느껴지는 이곳에서 진정한 라멘의 철학을 경험하며 당신의 인생 라멘을 발견해보시길 바랍니다.
+thumbnail: /static/images/ramen_kuryu.jpg
+title: '[삿포로 최고의 미소 라멘] 라멘 구류(Ramen Kuryu): 홋카이도 영혼의 맛, 현지인이 숨겨둔 진정한 미식의 성지 (Best
+  Ramen in Hokkaido, Sapporo)'
 ---
 
 ## The Soul of the Shop: History and Philosophy

@@ -1,15 +1,26 @@
 ---
+address: Tokyo, Katsushika
+agoda: ''
+categories:
+- 츠케멘
+- 프리미엄
+date: '2026-04-14'
+image_prompt: A side profile close-up shot of Menya Itto signature Tsukemen in a warm
+  wooden interior, featuring thick whole-grain noodles, three types of slow-cooked
+  chashu (pork and chicken), a bowl of deep brown, rich seafood-poultry broth with
+  green onions and a shiso chicken meatball, soft-boiled egg, steam rising gently,
+  cinematic lighting, 8k resolution, photorealistic.
 lang: ko
-title: "도쿄 카츠시카의 정점, 면야 잇토(Menya Itto) - 미식의 경지를 넘어선 츠케멘의 성지 (Best Ramen in Tokyo, Katsushika)"
 lat: 35.7155
 lng: 139.8588
-categories: ["츠케멘", "프리미엄"]
-thumbnail: "/static/images/menya_itto.jpg"
-address: "Tokyo, Katsushika"
-date: "2026-04-14"
-agoda: ""
-summary: "도쿄 카츠시카구 신코이와에 위치한 '면야 잇토'는 전 세계 미식가들이 찬양하는 일본 최고의 프리미엄 츠케멘 전문점으로, 미슐랭 가이드가 인정한 압도적인 맛의 밸런스를 선사합니다. 닭과 해산물의 정수를 추출한 농후한 육수와 자가제면의 완벽한 조화는 단순한 식사를 넘어 하나의 예술적 경험을 제공하며, 장인 정신이 깃든 수비드 차슈는 이곳만의 독보적인 정체성을 완성합니다. 도쿄 라멘 여행의 종착역이자 라멘 역사에 남을 전설적인 한 그릇을 지금 바로 만나보십시오."
-image_prompt: "A side profile close-up shot of Menya Itto signature Tsukemen in a warm wooden interior, featuring thick whole-grain noodles, three types of slow-cooked chashu (pork and chicken), a bowl of deep brown, rich seafood-poultry broth with green onions and a shiso chicken meatball, soft-boiled egg, steam rising gently, cinematic lighting, 8k resolution, photorealistic."
+shop_name: Menya Itto
+summary: 도쿄 카츠시카구 신코이와에 위치한 '면야 잇토'는 전 세계 미식가들이 찬양하는 일본 최고의 프리미엄 츠케멘 전문점으로, 미슐랭 가이드가
+  인정한 압도적인 맛의 밸런스를 선사합니다. 닭과 해산물의 정수를 추출한 농후한 육수와 자가제면의 완벽한 조화는 단순한 식사를 넘어 하나의 예술적
+  경험을 제공하며, 장인 정신이 깃든 수비드 차슈는 이곳만의 독보적인 정체성을 완성합니다. 도쿄 라멘 여행의 종착역이자 라멘 역사에 남을 전설적인
+  한 그릇을 지금 바로 만나보십시오.
+thumbnail: /static/images/menya_itto.jpg
+title: 도쿄 카츠시카의 정점, 면야 잇토(Menya Itto) - 미식의 경지를 넘어선 츠케멘의 성지 (Best Ramen in Tokyo,
+  Katsushika)
 ---
 
 ## The Soul of the Shop: History and Philosophy

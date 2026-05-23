@@ -1,15 +1,24 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A 45-degree angle close-up of a steaming bowl of Menya Saimi Miso Ramen,
+  rich golden-brown miso broth with a subtle layer of aromatic oil, topped with finely
+  grated fresh ginger on a thick slice of tender pork chashu, yellow curly noodles
+  partially submerged, set in a warm wooden interior of a traditional Sapporo eatery
+  with soft ambient lighting, ultra-realistic, cinematic food photography.
 lang: ko
-title: "홋카이도 삿포로 최고의 라멘, 멘야 사이미(麺屋 彩未): 미소 라멘의 미학적 정점에 관한 고찰"
 lat: 43.0311
 lng: 141.3911
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/menya_saimi.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-14"
-agoda: ""
-summary: "삿포로 라멘의 전설이자 미슐랭 가이드가 인정한 멘야 사이미는 생강의 알싸함과 미소의 깊은 풍미가 완벽한 조화를 이루는 미식의 성지입니다. 현지인들이 줄 서서 기다리는 이곳은 자극을 절제한 채 본연의 감칠맛을 극대화하여 홋카이도 미소 라멘의 새로운 기준을 제시합니다. 미식가라면 반드시 거쳐야 할 이 시대 최고의 라멘 경험을 지금 확인해 보세요."
-image_prompt: "A 45-degree angle close-up of a steaming bowl of Menya Saimi Miso Ramen, rich golden-brown miso broth with a subtle layer of aromatic oil, topped with finely grated fresh ginger on a thick slice of tender pork chashu, yellow curly noodles partially submerged, set in a warm wooden interior of a traditional Sapporo eatery with soft ambient lighting, ultra-realistic, cinematic food photography."
+shop_name: Menya Saimi
+summary: 삿포로 라멘의 전설이자 미슐랭 가이드가 인정한 멘야 사이미는 생강의 알싸함과 미소의 깊은 풍미가 완벽한 조화를 이루는 미식의 성지입니다.
+  현지인들이 줄 서서 기다리는 이곳은 자극을 절제한 채 본연의 감칠맛을 극대화하여 홋카이도 미소 라멘의 새로운 기준을 제시합니다. 미식가라면 반드시
+  거쳐야 할 이 시대 최고의 라멘 경험을 지금 확인해 보세요.
+thumbnail: /static/images/menya_saimi.jpg
+title: '홋카이도 삿포로 최고의 라멘, 멘야 사이미(麺屋 彩未): 미소 라멘의 미학적 정점에 관한 고찰'
 ---
 
 ## The Soul of the Shop: History and Philosophy

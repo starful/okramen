@@ -1,15 +1,24 @@
 ---
+address: Hokkaido, Sapporo, Chuo Ward, Minami 6 Jonishi, 8 Chome−8-2
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A 45-degree angle steaming macro shot of Ramen Shingen's signature Shinshu
+  miso ramen in a large traditional ceramic bowl, featuring rich golden-orange creamy
+  broth, thick wavy yellow noodles, tender chashu slices, and fresh green scallions,
+  set against a warm wooden interior counter with soft ambient lighting.
 lang: ko
-title: "The Ultimate Guide to the Best Ramen in Hokkaido, Sapporo: 라멘 신겐(Ramen Shingen)의 미학적 미소 라멘"
 lat: 43.0544
 lng: 141.3488
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/ramen_shingen.jpg"
-address: "Hokkaido, Sapporo, Chuo Ward, Minami 6 Jonishi, 8 Chome−8-2"
-date: "2026-04-14"
-agoda: ""
-summary: "삿포로 현지인들이 줄을 서서 기다리는 전설적인 미소 라멘 전문점 라멘 신겐의 깊고 진한 맛을 탐구합니다. 크리미한 신슈 미소 베이스와 쫄깃한 면발이 선사하는 홋카이도 최고의 미식 경험을 미슐랭 가이드급 시선으로 분석했습니다. 삿포로 여행의 정점인 이곳에서의 대기 팁과 메뉴 추천을 확인하세요."
-image_prompt: "A 45-degree angle steaming macro shot of Ramen Shingen's signature Shinshu miso ramen in a large traditional ceramic bowl, featuring rich golden-orange creamy broth, thick wavy yellow noodles, tender chashu slices, and fresh green scallions, set against a warm wooden interior counter with soft ambient lighting."
+shop_name: Ramen Shingen
+summary: 삿포로 현지인들이 줄을 서서 기다리는 전설적인 미소 라멘 전문점 라멘 신겐의 깊고 진한 맛을 탐구합니다. 크리미한 신슈 미소 베이스와
+  쫄깃한 면발이 선사하는 홋카이도 최고의 미식 경험을 미슐랭 가이드급 시선으로 분석했습니다. 삿포로 여행의 정점인 이곳에서의 대기 팁과 메뉴 추천을
+  확인하세요.
+thumbnail: /static/images/ramen_shingen.jpg
+title: 'The Ultimate Guide to the Best Ramen in Hokkaido, Sapporo: 라멘 신겐(Ramen Shingen)의
+  미학적 미소 라멘'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

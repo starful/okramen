@@ -1,15 +1,24 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-19'
+image_prompt: A steaming macro shot of a rich creamy Tonkotsu ramen bowl from Yatai
+  Ramen Mamigichan, thin Hakata noodles peeking through the opaque white broth, topped
+  with tender chashu slices and bright green scallions, set against a neon-lit late
+  night Fukuoka yatai background with warm wooden textures and soft glowing lanterns.
 lang: ko
-title: "후쿠오카 츄오구 최고의 라멘(Best Ramen in Fukuoka, Chuo) - 야타이 라멘 마미기쨩: 밤공기를 가르는 장인의 돈코츠 미학"
 lat: 33.5911
 lng: 130.3911
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/yatai_ramen_mamigichan.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "후쿠오카 츄오구의 밤을 상징하는 야타이 라멘 마미기쨩은 정통 돈코츠의 깊은 풍미와 포장마차 특유의 낭만을 완벽하게 결합한 미식의 성지입니다. 수십 년간 이어온 비법 육수는 묵직한 바디감과 깔끔한 뒷맛을 동시에 선사하며, 현지인들이 줄을 서서 기다리는 진정한 로컬 맛집의 위용을 자랑합니다. 화려한 도심의 조명 아래 펼쳐지는 이 한 그릇의 라멘은 여행자에게는 잊지 못할 추억을, 미식가에게는 궁극의 카타르시스를 제공합니다."
-image_prompt: "A steaming macro shot of a rich creamy Tonkotsu ramen bowl from Yatai Ramen Mamigichan, thin Hakata noodles peeking through the opaque white broth, topped with tender chashu slices and bright green scallions, set against a neon-lit late night Fukuoka yatai background with warm wooden textures and soft glowing lanterns."
+shop_name: Yatai Ramen Mamigichan
+summary: 후쿠오카 츄오구의 밤을 상징하는 야타이 라멘 마미기쨩은 정통 돈코츠의 깊은 풍미와 포장마차 특유의 낭만을 완벽하게 결합한 미식의 성지입니다.
+  수십 년간 이어온 비법 육수는 묵직한 바디감과 깔끔한 뒷맛을 동시에 선사하며, 현지인들이 줄을 서서 기다리는 진정한 로컬 맛집의 위용을 자랑합니다.
+  화려한 도심의 조명 아래 펼쳐지는 이 한 그릇의 라멘은 여행자에게는 잊지 못할 추억을, 미식가에게는 궁극의 카타르시스를 제공합니다.
+thumbnail: /static/images/yatai_ramen_mamigichan.jpg
+title: '후쿠오카 츄오구 최고의 라멘(Best Ramen in Fukuoka, Chuo) - 야타이 라멘 마미기쨩: 밤공기를 가르는 장인의 돈코츠
+  미학'
 ---
 
 ## The Soul of the Shop: History and Philosophy

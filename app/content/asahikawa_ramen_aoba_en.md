@@ -1,15 +1,27 @@
 ---
+address: Hokkaido, Asahikawa
+agoda: ''
+categories:
+- Shoyu
+- Local Gem
+date: '2026-04-14'
+image_prompt: A steaming macro shot at a 45-degree angle of Asahikawa Ramen Aoba's
+  signature Shoyu ramen, showcasing the dark, amber-hued broth with a shimmering golden
+  layer of oil on the surface, thin wavy noodles peeking through, tender chashu slices,
+  and wisps of steam rising against a rustic wooden counter seat in a warm, nostalgic
+  interior.
 lang: en
-title: "The Immortal Legacy of Umami: Why Asahikawa Ramen Aoba is the Best Ramen in Hokkaido, Asahikawa"
 lat: 43.7655
 lng: 142.3611
-categories: ["Shoyu", "Local Gem"]
-thumbnail: "/static/images/asahikawa_ramen_aoba.jpg"
-address: "Hokkaido, Asahikawa"
-date: "2026-04-14"
-agoda: ""
-summary: "Discover the 1947 foundation of Asahikawa's legendary double-soup tradition at Ramen Aoba, where history and heat collide in a masterpiece of Shoyu craftsmanship. Experience the profound depth of a broth guarded by a shimmering layer of lard, served with the unparalleled hospitality of the Murayama family. This is more than a meal; it is a pilgrimage to the soul of Hokkaido's culinary heritage."
-image_prompt: "A steaming macro shot at a 45-degree angle of Asahikawa Ramen Aoba's signature Shoyu ramen, showcasing the dark, amber-hued broth with a shimmering golden layer of oil on the surface, thin wavy noodles peeking through, tender chashu slices, and wisps of steam rising against a rustic wooden counter seat in a warm, nostalgic interior."
+shop_name: Asahikawa Ramen Aoba
+summary: Discover the 1947 foundation of Asahikawa's legendary double-soup tradition
+  at Ramen Aoba, where history and heat collide in a masterpiece of Shoyu craftsmanship.
+  Experience the profound depth of a broth guarded by a shimmering layer of lard,
+  served with the unparalleled hospitality of the Murayama family. This is more than
+  a meal; it is a pilgrimage to the soul of Hokkaido's culinary heritage.
+thumbnail: /static/images/asahikawa_ramen_aoba.jpg
+title: 'The Immortal Legacy of Umami: Why Asahikawa Ramen Aoba is the Best Ramen in
+  Hokkaido, Asahikawa'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

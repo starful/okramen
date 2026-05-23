@@ -1,15 +1,24 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-21'
+image_prompt: A professional 45-degree angle close-up shot of a steaming bowl of rich,
+  creamy white Tonkotsu ramen at Yamei Ramen, featuring tender braised chashu and
+  a perfectly jammy ajitama, set in a warm wooden interior of a traditional Sapporo
+  noodle shop with soft ambient lighting.
 lang: ko
-title: "최고의 삿포로 라멘을 찾아서: Best Ramen in Hokkaido, Sapporo '야메이 라멘(Yamei Ramen)' 미식 가이드"
 lat: 43.0611
 lng: 141.3511
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/yamei_ramen.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "홋카이도 삿포로의 숨은 보석 야메이 라멘은 깊고 진한 돈코츠 육수의 정수를 선보이며 현지인들 사이에서 독보적인 지지를 받는 진정한 맛의 성지입니다. 장인 정신이 깃든 자가제면과 입안에서 녹아내리는 차슈의 조화는 미식가들에게 잊지 못할 미각의 향연을 선사합니다. 관광객의 발길이 닿지 않는 골목 끝에서 만나는 이 특별한 라멘 한 그릇은 당신의 삿포로 여행을 완성하는 완벽한 선택이 될 것입니다."
-image_prompt: "A professional 45-degree angle close-up shot of a steaming bowl of rich, creamy white Tonkotsu ramen at Yamei Ramen, featuring tender braised chashu and a perfectly jammy ajitama, set in a warm wooden interior of a traditional Sapporo noodle shop with soft ambient lighting."
+shop_name: Yamei Ramen
+summary: 홋카이도 삿포로의 숨은 보석 야메이 라멘은 깊고 진한 돈코츠 육수의 정수를 선보이며 현지인들 사이에서 독보적인 지지를 받는 진정한
+  맛의 성지입니다. 장인 정신이 깃든 자가제면과 입안에서 녹아내리는 차슈의 조화는 미식가들에게 잊지 못할 미각의 향연을 선사합니다. 관광객의 발길이
+  닿지 않는 골목 끝에서 만나는 이 특별한 라멘 한 그릇은 당신의 삿포로 여행을 완성하는 완벽한 선택이 될 것입니다.
+thumbnail: /static/images/yamei_ramen.jpg
+title: '최고의 삿포로 라멘을 찾아서: Best Ramen in Hokkaido, Sapporo ''야메이 라멘(Yamei Ramen)'' 미식
+  가이드'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

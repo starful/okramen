@@ -1,16 +1,24 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- Tsukemen
+- Local Gem
+date: '2026-04-03'
 lang: en
-title: "The Ultimate Umami Pilgrimage: Why Fuunji is the Best Ramen in Tokyo, Shinjuku"
 lat: 35.6875
 lng: 139.6961
-categories: ["Tsukemen", "Local Gem"]
-thumbnail: "/static/images/fuunji_shinjuku.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-03"
-agoda: ""
-summary: "Fuunji represents the pinnacle of Tokyo’s tsukemen culture, blending a creamy chicken-and-seafood broth with theatrical mastery. Under the leadership of the charismatic Miyake-san, this Shinjuku institution offers an explosive umami experience that remains unmatched. For those seeking the definitive dipping noodle, Fuunji is not just a meal; it is a sacred culinary rite of passage."
-seo_title: "Fuunji Shinjuku Tsukemen — Chicken & Fish Dip | OKRamen"
-seo_description: "Fuunji (Shinjuku) tsukemen: chicken-paitan + niboshi dip, gyofun topping, soup-wari finish. Map, ticket tips, queues, what to order."
+seo_description: 'Fuunji (Shinjuku) tsukemen: chicken-paitan + niboshi dip, gyofun
+  topping, soup-wari finish. Map, ticket tips, queues, what to order.'
+seo_title: Fuunji Shinjuku Tsukemen — Chicken & Fish Dip | OKRamen
+shop_name: Fuunji Shinjuku
+summary: Fuunji represents the pinnacle of Tokyo’s tsukemen culture, blending a creamy
+  chicken-and-seafood broth with theatrical mastery. Under the leadership of the charismatic
+  Miyake-san, this Shinjuku institution offers an explosive umami experience that
+  remains unmatched. For those seeking the definitive dipping noodle, Fuunji is not
+  just a meal; it is a sacred culinary rite of passage.
+thumbnail: /static/images/fuunji_shinjuku.jpg
+title: 'The Ultimate Umami Pilgrimage: Why Fuunji is the Best Ramen in Tokyo, Shinjuku'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

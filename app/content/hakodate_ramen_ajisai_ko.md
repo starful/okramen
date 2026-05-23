@@ -1,15 +1,23 @@
 ---
+address: Hokkaido, Hakodate
+agoda: ''
+categories:
+- 시오
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A steaming macro shot of a clear Hakodate Shio Ramen in a white ceramic
+  bowl, featuring transparent golden broth, thin straight noodles, a slice of pink-swirled
+  naruto, tender chashu, and fresh green onions, set in a bright minimalist Japanese
+  restaurant with soft natural light, highly detailed texture, 8k resolution.
 lang: ko
-title: "하코다테 최고의 라멘, 홋카이도 미식의 정점 ‘하코다테 라멘 아지사이(あじさい)’"
 lat: 41.7944
 lng: 140.7511
-categories: ["시오", "현지인맛집"]
-thumbnail: "/static/images/hakodate_ramen_ajisai.jpg"
-address: "Hokkaido, Hakodate"
-date: "2026-04-14"
-agoda: ""
-summary: "90년 역사의 정수를 담은 하코다테 라멘 아지사이는 투명한 시오 라멘의 미학을 완성하며 홋카이도 미식 여행의 필수 코스로 자리 잡았습니다. 엄선된 홋카이도산 다시마와 닭 육수의 황금 비율이 만들어낸 깊은 풍미는 단순한 한 끼를 넘어선 예술적 경험을 선사합니다. 현지인과 여행객 모두를 매료시킨 전설적인 맛의 비결과 셰프의 철학을 미쉐린 스타급의 시선으로 분석합니다."
-image_prompt: "A steaming macro shot of a clear Hakodate Shio Ramen in a white ceramic bowl, featuring transparent golden broth, thin straight noodles, a slice of pink-swirled naruto, tender chashu, and fresh green onions, set in a bright minimalist Japanese restaurant with soft natural light, highly detailed texture, 8k resolution."
+shop_name: Hakodate Ramen Ajisai
+summary: 90년 역사의 정수를 담은 하코다테 라멘 아지사이는 투명한 시오 라멘의 미학을 완성하며 홋카이도 미식 여행의 필수 코스로 자리 잡았습니다.
+  엄선된 홋카이도산 다시마와 닭 육수의 황금 비율이 만들어낸 깊은 풍미는 단순한 한 끼를 넘어선 예술적 경험을 선사합니다. 현지인과 여행객 모두를
+  매료시킨 전설적인 맛의 비결과 셰프의 철학을 미쉐린 스타급의 시선으로 분석합니다.
+thumbnail: /static/images/hakodate_ramen_ajisai.jpg
+title: 하코다테 최고의 라멘, 홋카이도 미식의 정점 ‘하코다테 라멘 아지사이(あじさい)’
 ---
 
 ## The Soul of the Shop: History and Philosophy.

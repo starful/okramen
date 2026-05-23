@@ -1,14 +1,19 @@
 ---
+address: Tokyo, Chiyoda
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-03'
 lang: ko
-title: "아키하바라 돈코츠의 전설: 규슈 장가라, 도쿄 치요다 최고의 라멘을 맛보다"
 lat: 35.7022
 lng: 139.7711
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/kyushu_jangara_akihabara.jpg"
-address: "Tokyo, Chiyoda"
-date: "2026-04-03"
-agoda: ""
-summary: "아키하바라의 번잡함 속에서 찾아낸 미식의 오아시스, 규슈 장가라에서 차원이 다른 돈코츠 라멘을 경험하세요. 깊고 진한 육수의 예술적인 조화와 완벽한 면발, 그리고 입안에서 녹아내리는 차슈는 당신의 미각을 황홀경으로 이끌 것입니다. 도쿄 치요다 여행의 정점을 찍을 이 라멘 한 그릇은 단순한 식사를 넘어 잊을 수 없는 추억으로 남을 것입니다."
+shop_name: Kyushu Jangara Akihabara
+summary: 아키하바라의 번잡함 속에서 찾아낸 미식의 오아시스, 규슈 장가라에서 차원이 다른 돈코츠 라멘을 경험하세요. 깊고 진한 육수의 예술적인
+  조화와 완벽한 면발, 그리고 입안에서 녹아내리는 차슈는 당신의 미각을 황홀경으로 이끌 것입니다. 도쿄 치요다 여행의 정점을 찍을 이 라멘 한 그릇은
+  단순한 식사를 넘어 잊을 수 없는 추억으로 남을 것입니다.
+thumbnail: /static/images/kyushu_jangara_akihabara.jpg
+title: '아키하바라 돈코츠의 전설: 규슈 장가라, 도쿄 치요다 최고의 라멘을 맛보다'
 ---
 
 ## Philosophy & Soul: 아키하바라의 심장에 뿌리내린 규슈의 혼

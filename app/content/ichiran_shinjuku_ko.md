@@ -1,14 +1,20 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-03-28'
 lang: ko
-title: "도쿄 신주쿠 최고의 라멘(Best Ramen in Tokyo, Shinjuku): 이치란 신주쿠점에서 만나는 돈코츠의 정점과 미식의 철학"
 lat: 35.6909
 lng: 139.7018
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ichiran_shinjuku.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-03-28"
-agoda: ""
-summary: "도쿄의 심장부 신주쿠에서 경험하는 이치란 라멘은 단순한 한 끼를 넘어 일본 돈코츠 라멘의 정수를 보여주는 미식의 성지입니다. 독창적인 '맛 집중 카운터'와 40여 가지 재료가 어우러진 비법 소스는 전 세계 식도락가들을 매료시키는 절대적인 미학을 선사합니다. 엄선된 식재료와 수십 년간 이어온 장인 정신이 빚어낸 이 완벽한 한 그릇은 도쿄 여행에서 반드시 마주해야 할 황홀한 순간입니다."
+shop_name: Ichiran Shinjuku
+summary: 도쿄의 심장부 신주쿠에서 경험하는 이치란 라멘은 단순한 한 끼를 넘어 일본 돈코츠 라멘의 정수를 보여주는 미식의 성지입니다. 독창적인
+  '맛 집중 카운터'와 40여 가지 재료가 어우러진 비법 소스는 전 세계 식도락가들을 매료시키는 절대적인 미학을 선사합니다. 엄선된 식재료와 수십
+  년간 이어온 장인 정신이 빚어낸 이 완벽한 한 그릇은 도쿄 여행에서 반드시 마주해야 할 황홀한 순간입니다.
+thumbnail: /static/images/ichiran_shinjuku.jpg
+title: '도쿄 신주쿠 최고의 라멘(Best Ramen in Tokyo, Shinjuku): 이치란 신주쿠점에서 만나는 돈코츠의 정점과 미식의
+  철학'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

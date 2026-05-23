@@ -1,15 +1,26 @@
 ---
+address: Osaka, Naniwa
+agoda: ''
+categories:
+- Shio
+- Premium
+date: '2026-04-12'
+image_prompt: A 45-degree angle close-up of a premium Shio ramen bowl at Ryukishin
+  RIZE, featuring a crystal-clear golden broth reflecting soft light, thin elegant
+  noodles neatly folded, a slice of sous-vide chashu, and a perfectly jammy ajitama
+  egg, set against a bright minimalist wooden counter with a warm, sophisticated atmosphere.
 lang: en
-title: "The Alchemist of Salt: Discovering the Best Ramen in Osaka, Naniwa at Ryukishin RIZE"
 lat: 34.6611
 lng: 135.5011
-categories: ["Shio", "Premium"]
-thumbnail: "/static/images/ryukishin_rize.jpg"
-address: "Osaka, Naniwa"
-date: "2026-04-12"
-agoda: ""
-summary: "Experience the pinnacle of salt-based broth at Ryukishin RIZE, where Michelin-recognized craftsmanship meets the profound umami of the sea. This refined sanctuary in Namba redefines ramen as a luxury art form, offering a clear, multi-layered soup that haunts the palate long after the final slurp. For those seeking the absolute best ramen in Osaka, Naniwa, this is an essential pilgrimage of flavor and elegance."
-image_prompt: "A 45-degree angle close-up of a premium Shio ramen bowl at Ryukishin RIZE, featuring a crystal-clear golden broth reflecting soft light, thin elegant noodles neatly folded, a slice of sous-vide chashu, and a perfectly jammy ajitama egg, set against a bright minimalist wooden counter with a warm, sophisticated atmosphere."
+shop_name: Ryukishin Rize
+summary: Experience the pinnacle of salt-based broth at Ryukishin RIZE, where Michelin-recognized
+  craftsmanship meets the profound umami of the sea. This refined sanctuary in Namba
+  redefines ramen as a luxury art form, offering a clear, multi-layered soup that
+  haunts the palate long after the final slurp. For those seeking the absolute best
+  ramen in Osaka, Naniwa, this is an essential pilgrimage of flavor and elegance.
+thumbnail: /static/images/ryukishin_rize.jpg
+title: 'The Alchemist of Salt: Discovering the Best Ramen in Osaka, Naniwa at Ryukishin
+  RIZE'
 ---
 
 ## The Soul of the Shop: History and Philosophy

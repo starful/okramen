@@ -1,15 +1,26 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-19'
+image_prompt: A 45-degree angle shot of a bowl of Hakata Daruma tonkotsu ramen on
+  a rustic wooden counter, featuring a thick, frothy, tan-colored broth with visible
+  fat bubbles, topped with ultra-thin straight noodles, two thin slices of chashu,
+  and finely chopped green onions, under warm amber lighting in a traditional Japanese
+  ramen shop setting.
 lang: en
-title: "The Ultimate Umami Odyssey: Why Hakata Daruma is the Best Ramen in Fukuoka, Chuo"
 lat: 33.5855
 lng: 130.4011
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/hakata_daruma.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "Experience the visceral power of authentic Hakata tonkotsu at Hakata Daruma, a 1963-founded institution where the broth is a living, breathing history of Fukuoka. This is not just a meal; it is a pilgrimage for those seeking the unapologetic, heavy-bodied soul of local ramen culture."
-image_prompt: "A 45-degree angle shot of a bowl of Hakata Daruma tonkotsu ramen on a rustic wooden counter, featuring a thick, frothy, tan-colored broth with visible fat bubbles, topped with ultra-thin straight noodles, two thin slices of chashu, and finely chopped green onions, under warm amber lighting in a traditional Japanese ramen shop setting."
+shop_name: Hakata Daruma
+summary: Experience the visceral power of authentic Hakata tonkotsu at Hakata Daruma,
+  a 1963-founded institution where the broth is a living, breathing history of Fukuoka.
+  This is not just a meal; it is a pilgrimage for those seeking the unapologetic,
+  heavy-bodied soul of local ramen culture.
+thumbnail: /static/images/hakata_daruma.jpg
+title: 'The Ultimate Umami Odyssey: Why Hakata Daruma is the Best Ramen in Fukuoka,
+  Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

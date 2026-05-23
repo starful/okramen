@@ -1,15 +1,25 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- Tonkotsu
+- Late Night
+date: '2026-04-19'
+image_prompt: A 45-degree angle close-up of a steaming bowl of milky white Tonkotsu
+  ramen at a rustic wooden Yatai counter, neon-lit late night Fukuoka background,
+  glistening chashu slices and thin noodles being lifted, warm golden ambient lighting,
+  rustic textures.
 lang: en
-title: "Chasing the Ghost of Umami: Why Yatai Ramen Mamigichan is the Best Ramen in Fukuoka, Chuo"
 lat: 33.5911
 lng: 130.3911
-categories: ["Tonkotsu", "Late Night"]
-thumbnail: "/static/images/yatai_ramen_mamigichan.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "Discover the pinnacle of Hakata street food at Yatai Ramen Mamigichan, where traditional Tonkotsu craftsmanship meets the vibrant late-night energy of Fukuoka. This guide explores the velvety broth, artisanal noodles, and the soul-stirring atmosphere of the city's most authentic outdoor stall."
-image_prompt: "A 45-degree angle close-up of a steaming bowl of milky white Tonkotsu ramen at a rustic wooden Yatai counter, neon-lit late night Fukuoka background, glistening chashu slices and thin noodles being lifted, warm golden ambient lighting, rustic textures."
+shop_name: Yatai Ramen Mamigichan
+summary: Discover the pinnacle of Hakata street food at Yatai Ramen Mamigichan, where
+  traditional Tonkotsu craftsmanship meets the vibrant late-night energy of Fukuoka.
+  This guide explores the velvety broth, artisanal noodles, and the soul-stirring
+  atmosphere of the city's most authentic outdoor stall.
+thumbnail: /static/images/yatai_ramen_mamigichan.jpg
+title: 'Chasing the Ghost of Umami: Why Yatai Ramen Mamigichan is the Best Ramen in
+  Fukuoka, Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

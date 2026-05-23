@@ -1,15 +1,23 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- 치킨라멘
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A 45-degree angle close-up shot of a vibrant red tomato ramen bowl in
+  a bright minimalist interior, topped with melted mozzarella cheese and fresh green
+  basil leaves, featuring thin noodles lifted by chopsticks, capturing the steam rising
+  from the rich chicken-based tomato broth, high-end food photography style.
 lang: ko
-title: "신주쿠 최고의 라멘(Best Ramen in Tokyo, Shinjuku): 태양의 토마토면, 미식의 지평을 넓히는 붉은 유혹"
 lat: 35.6911
 lng: 139.7055
-categories: ["치킨라멘", "현지인맛집"]
-thumbnail: "/static/images/taiyou_no_tomatomen.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-14"
-agoda: ""
-summary: "도쿄 신주쿠의 심장부에서 만나는 '태양의 토마토면'은 이탈리안 요리와 일본 전통 라멘의 완벽한 결합을 선보이는 독보적인 미식 성지입니다. 닭 육수의 깊은 감칠맛과 완숙 토마토의 상큼한 산미가 어우러진 국물은 건강과 맛을 동시에 잡으며, 식사 후 제공되는 '라리조'는 잊지 못할 여운을 남깁니다. 현지인들이 줄을 서서 먹는 이 독창적인 라멘은 도쿄 여행에서 반드시 경험해야 할 최고의 한 그릇입니다."
-image_prompt: "A 45-degree angle close-up shot of a vibrant red tomato ramen bowl in a bright minimalist interior, topped with melted mozzarella cheese and fresh green basil leaves, featuring thin noodles lifted by chopsticks, capturing the steam rising from the rich chicken-based tomato broth, high-end food photography style."
+shop_name: Taiyou NO Tomatomen
+summary: 도쿄 신주쿠의 심장부에서 만나는 '태양의 토마토면'은 이탈리안 요리와 일본 전통 라멘의 완벽한 결합을 선보이는 독보적인 미식 성지입니다.
+  닭 육수의 깊은 감칠맛과 완숙 토마토의 상큼한 산미가 어우러진 국물은 건강과 맛을 동시에 잡으며, 식사 후 제공되는 '라리조'는 잊지 못할 여운을
+  남깁니다. 현지인들이 줄을 서서 먹는 이 독창적인 라멘은 도쿄 여행에서 반드시 경험해야 할 최고의 한 그릇입니다.
+thumbnail: /static/images/taiyou_no_tomatomen.jpg
+title: '신주쿠 최고의 라멘(Best Ramen in Tokyo, Shinjuku): 태양의 토마토면, 미식의 지평을 넓히는 붉은 유혹'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

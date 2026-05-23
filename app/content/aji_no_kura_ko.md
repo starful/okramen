@@ -1,15 +1,24 @@
 ---
+address: Fukuoka, Hakata
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A side profile close-up of a steaming bowl of spicy red tonkotsu ramen
+  at Aji no Kura, featuring creamy white pork broth swirled with vibrant chili oil,
+  thin straight noodles lifted by chopsticks, tender chashu slices, and green onions,
+  set against a warm wooden counter in a rustic Hakata interior, cinematic lighting
+  with steam rising.
 lang: ko
-title: "후쿠오카 하카타 최고의 라멘(Best Ramen in Fukuoka, Hakata): 아지노쿠라의 깊고 매혹적인 미학"
 lat: 33.5911
 lng: 130.4111
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/aji_no_kura.jpg"
-address: "Fukuoka, Hakata"
-date: "2026-04-12"
-agoda: ""
-summary: "후쿠오카 하카타의 정수를 담아낸 아지노쿠라는 깊은 풍미의 돈코츠 베이스와 정교한 매운맛이 어우러진 미식의 성지입니다. 현지인들이 신뢰하는 이 숨은 보석은 장인 정신이 깃든 육수와 완벽한 면발의 조화로 당신의 미각을 깨울 것입니다. 하카타 라멘의 진정한 영혼을 경험하고 싶다면 아지노쿠라는 선택이 아닌 필수입니다."
-image_prompt: "A side profile close-up of a steaming bowl of spicy red tonkotsu ramen at Aji no Kura, featuring creamy white pork broth swirled with vibrant chili oil, thin straight noodles lifted by chopsticks, tender chashu slices, and green onions, set against a warm wooden counter in a rustic Hakata interior, cinematic lighting with steam rising."
+shop_name: AJI NO Kura
+summary: 후쿠오카 하카타의 정수를 담아낸 아지노쿠라는 깊은 풍미의 돈코츠 베이스와 정교한 매운맛이 어우러진 미식의 성지입니다. 현지인들이 신뢰하는
+  이 숨은 보석은 장인 정신이 깃든 육수와 완벽한 면발의 조화로 당신의 미각을 깨울 것입니다. 하카타 라멘의 진정한 영혼을 경험하고 싶다면 아지노쿠라는
+  선택이 아닌 필수입니다.
+thumbnail: /static/images/aji_no_kura.jpg
+title: '후쿠오카 하카타 최고의 라멘(Best Ramen in Fukuoka, Hakata): 아지노쿠라의 깊고 매혹적인 미학'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

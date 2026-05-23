@@ -1,14 +1,23 @@
 ---
+address: Fukuoka, Hakata
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-03'
 lang: en
-title: "Beyond the Velvet Curtain: Unveiling the Best Ramen in Fukuoka, Hakata at Ichiran's Sacred Main Branch"
 lat: 33.5931
 lng: 130.4011
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/ichiran_fukuoka_main.jpg"
-address: "Fukuoka, Hakata"
-date: "2026-04-03"
-agoda: ""
-summary: "Prepare for an unparalleled culinary journey as we unveil the very heart of Hakata Tonkotsu ramen at Ichiran's iconic Fukuoka Main Branch. This isn't just a meal; it's a meticulously crafted symphony of rich, creamy broth, perfectly firm noodles, and bespoke toppings designed to transport you to ramen nirvana. Surrender to the sublime, deeply satisfying flavors that define Fukuoka's ramen legacy, leaving an indelible mark on your palate and soul."
+shop_name: Ichiran Fukuoka Main
+summary: Prepare for an unparalleled culinary journey as we unveil the very heart
+  of Hakata Tonkotsu ramen at Ichiran's iconic Fukuoka Main Branch. This isn't just
+  a meal; it's a meticulously crafted symphony of rich, creamy broth, perfectly firm
+  noodles, and bespoke toppings designed to transport you to ramen nirvana. Surrender
+  to the sublime, deeply satisfying flavors that define Fukuoka's ramen legacy, leaving
+  an indelible mark on your palate and soul.
+thumbnail: /static/images/ichiran_fukuoka_main.jpg
+title: 'Beyond the Velvet Curtain: Unveiling the Best Ramen in Fukuoka, Hakata at
+  Ichiran''s Sacred Main Branch'
 ---
 
 ## Philosophy & Soul: A Pilgrimage to Tonkotsu Perfection

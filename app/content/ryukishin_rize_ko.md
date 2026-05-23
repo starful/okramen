@@ -1,15 +1,24 @@
 ---
+address: Osaka, Naniwa
+agoda: ''
+categories:
+- 시오
+- 프리미엄
+date: '2026-04-12'
+image_prompt: A 45-degree angle close-up shot of a steaming bowl of premium Shio ramen
+  at Ryukishin RIZE, featuring a crystal-clear golden broth reflecting soft light,
+  thin straight noodles elegantly folded, tender slow-cooked pork chashu, and a perfectly
+  marinated soft-boiled egg, set against a warm wooden counter in a minimalist upscale
+  interior, hyper-realistic, professional food photography style.
 lang: ko
-title: "오사카 난바의 정점, 류키신 RIZE: 미슐랭이 인정한 궁극의 시오 라멘 투어 (Best Ramen in Osaka, Naniwa)"
 lat: 34.6611
 lng: 135.5011
-categories: ["시오", "프리미엄"]
-thumbnail: "/static/images/ryukishin_rize.jpg"
-address: "Osaka, Naniwa"
-date: "2026-04-12"
-agoda: ""
-summary: "오사카 난바의 중심에서 미슐랭의 찬사를 받은 류키신 RIZE는 소금 라멘의 본질을 예술적 경지로 끌어올린 프리미엄 미식 공간입니다. 투명하게 빛나는 황금빛 육수와 장인 정신이 깃든 면발은 단순한 식사를 넘어 감동적인 미각의 서사를 선사합니다. 세련된 인테리어와 완벽한 조화를 이루는 이곳의 시오 라멘은 오사카 여행에서 반드시 경험해야 할 최고의 미식 성지입니다."
-image_prompt: "A 45-degree angle close-up shot of a steaming bowl of premium Shio ramen at Ryukishin RIZE, featuring a crystal-clear golden broth reflecting soft light, thin straight noodles elegantly folded, tender slow-cooked pork chashu, and a perfectly marinated soft-boiled egg, set against a warm wooden counter in a minimalist upscale interior, hyper-realistic, professional food photography style."
+shop_name: Ryukishin Rize
+summary: 오사카 난바의 중심에서 미슐랭의 찬사를 받은 류키신 RIZE는 소금 라멘의 본질을 예술적 경지로 끌어올린 프리미엄 미식 공간입니다.
+  투명하게 빛나는 황금빛 육수와 장인 정신이 깃든 면발은 단순한 식사를 넘어 감동적인 미각의 서사를 선사합니다. 세련된 인테리어와 완벽한 조화를
+  이루는 이곳의 시오 라멘은 오사카 여행에서 반드시 경험해야 할 최고의 미식 성지입니다.
+thumbnail: /static/images/ryukishin_rize.jpg
+title: '오사카 난바의 정점, 류키신 RIZE: 미슐랭이 인정한 궁극의 시오 라멘 투어 (Best Ramen in Osaka, Naniwa)'
 ---
 
 ## The Soul of the Shop: History and Philosophy

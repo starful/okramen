@@ -1,15 +1,22 @@
 ---
+address: Kyoto, Nakagyo
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A 45-degree angle shot of a bowl of creamy white Tonkotsu ramen at Ramen
+  Sen-no-kaze, featuring perfectly charred chashu, a soft-boiled egg, and delicate
+  green onions, set against a warm wooden interior of a traditional Kyoto-style shop,
+  steaming macro shot, highly detailed texture, cinematic lighting.
 lang: ko
-title: "교토 나카교구 최고의 라멘(Best Ramen in Kyoto, Nakagyo), 라멘 센노카제에서 만난 천 개의 바람"
 lat: 35.0033
 lng: 135.7688
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ramen_sen-no-kaze.jpg"
-address: "Kyoto, Nakagyo"
-date: "2026-04-12"
-agoda: ""
-summary: "교토 나카교구의 숨은 보석이자 현지인이 사랑하는 라멘 센노카제는 부드럽고 깊은 풍미의 돈코츠 육수로 미식가들에게 잊지 못할 미식 경험을 선사합니다."
-image_prompt: "A 45-degree angle shot of a bowl of creamy white Tonkotsu ramen at Ramen Sen-no-kaze, featuring perfectly charred chashu, a soft-boiled egg, and delicate green onions, set against a warm wooden interior of a traditional Kyoto-style shop, steaming macro shot, highly detailed texture, cinematic lighting."
+shop_name: Ramen SEN NO Kaze
+summary: 교토 나카교구의 숨은 보석이자 현지인이 사랑하는 라멘 센노카제는 부드럽고 깊은 풍미의 돈코츠 육수로 미식가들에게 잊지 못할 미식 경험을
+  선사합니다.
+thumbnail: /static/images/ramen_sen-no-kaze.jpg
+title: 교토 나카교구 최고의 라멘(Best Ramen in Kyoto, Nakagyo), 라멘 센노카제에서 만난 천 개의 바람
 ---
 
 ## The Soul of the Shop: History and Philosophy.

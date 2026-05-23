@@ -1,14 +1,22 @@
 ---
+address: Tokyo, Shibuya
+agoda: ''
+categories:
+- Shoyu
+- Premium
+date: '2026-04-03'
 lang: en
-title: "Tsuta: A Symphony of Umami – Discover the Best Ramen in Tokyo, Shibuya"
 lat: 35.6644
 lng: 139.6841
-categories: ["Shoyu", "Premium"]
-thumbnail: "/static/images/tsuta.jpg"
-address: "Tokyo, Shibuya"
-date: "2026-04-03"
-agoda: ""
-summary: "Prepare for an unparalleled culinary journey as Tsuta, the world's first Michelin-starred ramen establishment, invites you to a transcendent bowl of shoyu perfection. Each spoonful is a meticulously crafted symphony of rich broth, exquisite noodles, and premium toppings that will redefine your understanding of ramen. This isn't just a meal; it's an unforgettable gastronomic event, promising to leave you utterly captivated and yearning for more."
+shop_name: Tsuta
+summary: Prepare for an unparalleled culinary journey as Tsuta, the world's first
+  Michelin-starred ramen establishment, invites you to a transcendent bowl of shoyu
+  perfection. Each spoonful is a meticulously crafted symphony of rich broth, exquisite
+  noodles, and premium toppings that will redefine your understanding of ramen. This
+  isn't just a meal; it's an unforgettable gastronomic event, promising to leave you
+  utterly captivated and yearning for more.
+thumbnail: /static/images/tsuta.jpg
+title: 'Tsuta: A Symphony of Umami – Discover the Best Ramen in Tokyo, Shibuya'
 ---
 
 ## Philosophy & Soul

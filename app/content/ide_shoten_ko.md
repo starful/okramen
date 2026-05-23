@@ -1,15 +1,24 @@
 ---
+address: Wakayama, Wakayama
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A 45-degree angle close-up shot of a steaming bowl of Ide Shoten ramen
+  on a rustic wooden counter, showcasing the creamy brownish pork-bone and soy sauce
+  broth, topped with thin chashu slices, green onions, and the iconic pink flower-shaped
+  kamaboko, in a warm moody interior with soft steam rising from the bowl.
 lang: ko
-title: "The Ultimate Culinary Pilgrimage: Unveiling the Best Ramen in Wakayama, Wakayama at Ide Shoten"
 lat: 34.2281
 lng: 135.1911
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ide_shoten.jpg"
-address: "Wakayama, Wakayama"
-date: "2026-04-14"
-agoda: ""
-summary: "와카야마 라멘의 전설이자 일본 전역을 뒤흔든 '이데 쇼텐'의 깊고 진한 돈코츠 소유 국물은 단순한 음식을 넘어선 예술의 경지입니다. 1953년부터 이어져 온 장인 정신과 비법 육수가 선사하는 압도적인 미식 경험은 당신의 라멘에 대한 기준을 완전히 바꿔놓을 것입니다. 와카야마 여행의 정점이자 현지인들이 아끼는 이 작은 노포에서 진정한 소울 푸드의 정수를 만끽해 보시기 바랍니다."
-image_prompt: "A 45-degree angle close-up shot of a steaming bowl of Ide Shoten ramen on a rustic wooden counter, showcasing the creamy brownish pork-bone and soy sauce broth, topped with thin chashu slices, green onions, and the iconic pink flower-shaped kamaboko, in a warm moody interior with soft steam rising from the bowl."
+shop_name: IDE Shoten
+summary: 와카야마 라멘의 전설이자 일본 전역을 뒤흔든 '이데 쇼텐'의 깊고 진한 돈코츠 소유 국물은 단순한 음식을 넘어선 예술의 경지입니다.
+  1953년부터 이어져 온 장인 정신과 비법 육수가 선사하는 압도적인 미식 경험은 당신의 라멘에 대한 기준을 완전히 바꿔놓을 것입니다. 와카야마
+  여행의 정점이자 현지인들이 아끼는 이 작은 노포에서 진정한 소울 푸드의 정수를 만끽해 보시기 바랍니다.
+thumbnail: /static/images/ide_shoten.jpg
+title: 'The Ultimate Culinary Pilgrimage: Unveiling the Best Ramen in Wakayama, Wakayama
+  at Ide Shoten'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

@@ -1,4 +1,5 @@
 ---
+shop_name: "Onomichi Ramen Shuyu"
 lang: ko
 title: "히로시마 오노미치 최고의 라멘(Best Ramen in Hiroshima, Onomichi), ‘오노미치 라멘 슈유’에서 만난 장인 정신의 정점"
 lat: 34.4081

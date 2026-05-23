@@ -1,14 +1,22 @@
 ---
+address: Tokyo, Minato
+agoda: ''
+categories:
+- Chicken
+- Local Gem
+date: '2026-04-03'
 lang: en
-title: "Tantanmen Sandaime: A Spicy Revelation and the Best Ramen in Tokyo, Minato for the Discerning Palate"
 lat: 35.6611
 lng: 139.7211
-categories: ["Chicken", "Local Gem"]
-thumbnail: "/static/images/tantanmen_sandaime.jpg"
-address: "Tokyo, Minato"
-date: "2026-04-03"
-agoda: ""
-summary: "Prepare your senses for an unparalleled culinary journey at Tantanmen Sandaime, where Tokyo's most exquisite Tantanmen awaits. Each spoonful is a vibrant symphony of fiery chili, creamy sesame, and a deeply satisfying umami, redefining what you thought ramen could be. This local secret in Minato is not just a meal, but an unforgettable adventure for the adventurous global palate."
+shop_name: Tantanmen Sandaime
+summary: Prepare your senses for an unparalleled culinary journey at Tantanmen Sandaime,
+  where Tokyo's most exquisite Tantanmen awaits. Each spoonful is a vibrant symphony
+  of fiery chili, creamy sesame, and a deeply satisfying umami, redefining what you
+  thought ramen could be. This local secret in Minato is not just a meal, but an unforgettable
+  adventure for the adventurous global palate.
+thumbnail: /static/images/tantanmen_sandaime.jpg
+title: 'Tantanmen Sandaime: A Spicy Revelation and the Best Ramen in Tokyo, Minato
+  for the Discerning Palate'
 ---
 
 ## Philosophy & Soul

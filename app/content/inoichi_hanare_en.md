@@ -1,15 +1,27 @@
 ---
+address: Kyoto, Shimogyo
+agoda: ''
+categories:
+- Shoyu
+- Premium
+date: '2026-04-14'
+image_prompt: A 45-degree angle close-up of a premium Shoyu ramen bowl at Inoichi
+  Hanare, featuring a crystal-clear golden broth, thin straight white noodles, and
+  perfectly marbled A4 Wagyu beef slices on top, set in a bright minimalist wooden
+  interior with soft natural lighting reflecting off the soup's surface.
 lang: en
-title: "The Golden Standard of Washoku-Ramen: Why Inoichi Hanare is the Best Ramen in Kyoto, Shimogyo"
 lat: 35.0022
 lng: 135.7622
-categories: ["Shoyu", "Premium"]
-thumbnail: "/static/images/inoichi_hanare.jpg"
-address: "Kyoto, Shimogyo"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience the pinnacle of Kyoto's dashi culture at Inoichi Hanare, where Michelin-recognized shoyu ramen meets the elegance of traditional Japanese haute cuisine. This sanctuary of soup offers a transcendent bowl featuring translucent golden broth and premium A4 Wagyu that redefines the limits of the ramen craft. For those seeking the ultimate intersection of luxury and comfort, this Shimogyo gem remains an unparalleled destination."
-image_prompt: "A 45-degree angle close-up of a premium Shoyu ramen bowl at Inoichi Hanare, featuring a crystal-clear golden broth, thin straight white noodles, and perfectly marbled A4 Wagyu beef slices on top, set in a bright minimalist wooden interior with soft natural lighting reflecting off the soup's surface."
+shop_name: Inoichi Hanare
+summary: Experience the pinnacle of Kyoto's dashi culture at Inoichi Hanare, where
+  Michelin-recognized shoyu ramen meets the elegance of traditional Japanese haute
+  cuisine. This sanctuary of soup offers a transcendent bowl featuring translucent
+  golden broth and premium A4 Wagyu that redefines the limits of the ramen craft.
+  For those seeking the ultimate intersection of luxury and comfort, this Shimogyo
+  gem remains an unparalleled destination.
+thumbnail: /static/images/inoichi_hanare.jpg
+title: 'The Golden Standard of Washoku-Ramen: Why Inoichi Hanare is the Best Ramen
+  in Kyoto, Shimogyo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

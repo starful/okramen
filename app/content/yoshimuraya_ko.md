@@ -1,15 +1,25 @@
 ---
+address: Kanagawa, Yokohama
+agoda: ''
+categories:
+- 쇼유
+- 현지인맛집
+date: '2026-04-05'
+image_prompt: A dramatic 45-degree angle shot of a classic Yoshimuraya Iekei ramen
+  bowl placed on a warm wooden counter, featuring a deep brown soy-based tonkotsu
+  broth topped with a golden layer of Chiyu chicken oil, three large crisp nori sheets
+  standing vertically, vibrant green boiled spinach, and thick smoky chashu slices,
+  steam rising elegantly in a rustic Japanese ramen shop atmosphere with soft warm
+  lighting.
 lang: ko
-title: "요코하마의 전설을 맛보다: Best Ramen in Kanagawa, Yokohama, 요시무라야(吉村家) 완전정복 가이드"
 lat: 35.4644
 lng: 139.6188
-categories: ["쇼유", "현지인맛집"]
-thumbnail: "/static/images/yoshimuraya.jpg"
-address: "Kanagawa, Yokohama"
-date: "2026-04-05"
-agoda: ""
-summary: "요코하마 이에케이 라멘의 발상지이자 정점인 요시무라야에서 경험하는 압도적인 육수의 풍미와 훈연 차슈의 예술을 소개합니다. 50년 역사를 간직한 장인의 철학이 담긴 한 그릇은 단순한 음식을 넘어 일본 식문화의 정수를 보여주는 미식의 성지입니다. 이곳에서만 느낄 수 있는 진한 쇼유 돈코츠의 조화와 완벽한 면의 식감을 통해 진정한 일본 현지인 맛집의 깊이를 탐구해보시기 바랍니다."
-image_prompt: "A dramatic 45-degree angle shot of a classic Yoshimuraya Iekei ramen bowl placed on a warm wooden counter, featuring a deep brown soy-based tonkotsu broth topped with a golden layer of Chiyu chicken oil, three large crisp nori sheets standing vertically, vibrant green boiled spinach, and thick smoky chashu slices, steam rising elegantly in a rustic Japanese ramen shop atmosphere with soft warm lighting."
+shop_name: Yoshimuraya
+summary: 요코하마 이에케이 라멘의 발상지이자 정점인 요시무라야에서 경험하는 압도적인 육수의 풍미와 훈연 차슈의 예술을 소개합니다. 50년 역사를
+  간직한 장인의 철학이 담긴 한 그릇은 단순한 음식을 넘어 일본 식문화의 정수를 보여주는 미식의 성지입니다. 이곳에서만 느낄 수 있는 진한 쇼유
+  돈코츠의 조화와 완벽한 면의 식감을 통해 진정한 일본 현지인 맛집의 깊이를 탐구해보시기 바랍니다.
+thumbnail: /static/images/yoshimuraya.jpg
+title: '요코하마의 전설을 맛보다: Best Ramen in Kanagawa, Yokohama, 요시무라야(吉村家) 완전정복 가이드'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

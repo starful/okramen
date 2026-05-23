@@ -1,15 +1,22 @@
 ---
+address: Tokyo, Chiyoda
+agoda: ''
+categories:
+- 시오
+- 현지인맛집
+date: '2026-04-21'
+image_prompt: Side profile close-up of a steaming bowl of Hirugao Shio Ramen, crystal
+  clear golden broth shimmering with fat droplets, topped with thin wavy noodles,
+  a perfectly soft-boiled ajitama cut in half, tender chashu, and a sprinkle of yuzu
+  zest, set in a bright minimalist wooden counter interior with warm lighting.
 lang: ko
-title: "도쿄 치요다구 최고의 라멘, 히루가오(Hirugao) - 시오 라멘의 정점을 찍다 (Best Ramen in Tokyo, Chiyoda)"
 lat: 35.6811
 lng: 139.7671
-categories: ["시오", "현지인맛집"]
-thumbnail: "/static/images/hirugao_tokyo.jpg"
-address: "Tokyo, Chiyoda"
-date: "2026-04-21"
-agoda: ""
-summary: "도쿄역 라멘 스트리트의 보석 같은 존재인 히루가오는 가리비와 닭 육수의 완벽한 조화로 시오 라멘의 새로운 지평을 열었으며, 현지 미식가들이 인정하는 압도적인 감칠맛을 자랑합니다."
-image_prompt: "Side profile close-up of a steaming bowl of Hirugao Shio Ramen, crystal clear golden broth shimmering with fat droplets, topped with thin wavy noodles, a perfectly soft-boiled ajitama cut in half, tender chashu, and a sprinkle of yuzu zest, set in a bright minimalist wooden counter interior with warm lighting."
+shop_name: Hirugao Tokyo
+summary: 도쿄역 라멘 스트리트의 보석 같은 존재인 히루가오는 가리비와 닭 육수의 완벽한 조화로 시오 라멘의 새로운 지평을 열었으며, 현지 미식가들이
+  인정하는 압도적인 감칠맛을 자랑합니다.
+thumbnail: /static/images/hirugao_tokyo.jpg
+title: 도쿄 치요다구 최고의 라멘, 히루가오(Hirugao) - 시오 라멘의 정점을 찍다 (Best Ramen in Tokyo, Chiyoda)
 ---
 
 ## The Soul of the Shop: History and Philosophy.

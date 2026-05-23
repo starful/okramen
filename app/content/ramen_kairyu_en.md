@@ -1,15 +1,27 @@
 ---
+address: Fukuoka, Kitakyushu
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-19'
+image_prompt: A steaming macro shot of Ramen Kairyu's signature tonkotsu ramen, focusing
+  on the viscous, frothy brown broth with glistening oil droplets and thin straight
+  noodles being lifted by chopsticks, set against a rustic wooden counter seat with
+  a warm, nostalgic atmosphere, 8k resolution, cinematic lighting.
 lang: en
-title: "The Primal Roar of Tonkotsu: Why Ramen Kairyu is the Best Ramen in Fukuoka, Kitakyushu"
 lat: 33.8811
 lng: 130.8811
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/ramen_kairyu.jpg"
-address: "Fukuoka, Kitakyushu"
-date: "2026-04-19"
-agoda: ""
-summary: "Indulge in the visceral power of Ramen Kairyu, where the legendary 'yobimodoshi' broth technique creates an unparalleled depth of pork-bone intensity. As a crown jewel of Kitakyushu’s culinary scene, this shop offers an unapologetic, soul-stirring bowl that defines the essence of Kyushu tonkotsu. This is more than a meal; it is a pilgrimage for the true ramen connoisseur seeking the most authentic flavors in Southern Japan."
-image_prompt: "A steaming macro shot of Ramen Kairyu's signature tonkotsu ramen, focusing on the viscous, frothy brown broth with glistening oil droplets and thin straight noodles being lifted by chopsticks, set against a rustic wooden counter seat with a warm, nostalgic atmosphere, 8k resolution, cinematic lighting."
+shop_name: Ramen Kairyu
+summary: Indulge in the visceral power of Ramen Kairyu, where the legendary 'yobimodoshi'
+  broth technique creates an unparalleled depth of pork-bone intensity. As a crown
+  jewel of Kitakyushu’s culinary scene, this shop offers an unapologetic, soul-stirring
+  bowl that defines the essence of Kyushu tonkotsu. This is more than a meal; it is
+  a pilgrimage for the true ramen connoisseur seeking the most authentic flavors in
+  Southern Japan.
+thumbnail: /static/images/ramen_kairyu.jpg
+title: 'The Primal Roar of Tonkotsu: Why Ramen Kairyu is the Best Ramen in Fukuoka,
+  Kitakyushu'
 ---
 
 ## The Soul of the Shop: History and Philosophy

@@ -1,15 +1,26 @@
 ---
+address: Kumamoto, Kumamoto
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-14'
+image_prompt: A dramatic top-down shot of a steaming bowl of Kumamoto Ramen Keika,
+  featuring a rich creamy white tonkotsu broth drizzled with jet-black Ma-yu garlic
+  oil, thick chashu slices, and crunchy cabbage, set against a warm wooden interior
+  with a rustic counter seat and soft golden lighting.
 lang: en
-title: "A Breathtaking Journey into the Heart of Kyushu: Discovering the Best Ramen in Kumamoto, Kumamoto at Keika"
 lat: 32.8011
 lng: 130.7111
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/kumamoto_ramen_keika.jpg"
-address: "Kumamoto, Kumamoto"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience the legendary Keika Ramen, a cornerstone of Kumamoto culinary heritage where deep garlicky tonkotsu meets traditional craftsmanship. This local gem offers a transformative bowl defined by its signature Ma-yu black garlic oil and thick satisfying textures. For those seeking the most authentic taste of Kyushu, Keika is the ultimate pilgrimage for any ramen aficionado."
-image_prompt: "A dramatic top-down shot of a steaming bowl of Kumamoto Ramen Keika, featuring a rich creamy white tonkotsu broth drizzled with jet-black Ma-yu garlic oil, thick chashu slices, and crunchy cabbage, set against a warm wooden interior with a rustic counter seat and soft golden lighting."
+shop_name: Kumamoto Ramen Keika
+summary: Experience the legendary Keika Ramen, a cornerstone of Kumamoto culinary
+  heritage where deep garlicky tonkotsu meets traditional craftsmanship. This local
+  gem offers a transformative bowl defined by its signature Ma-yu black garlic oil
+  and thick satisfying textures. For those seeking the most authentic taste of Kyushu,
+  Keika is the ultimate pilgrimage for any ramen aficionado.
+thumbnail: /static/images/kumamoto_ramen_keika.jpg
+title: 'A Breathtaking Journey into the Heart of Kyushu: Discovering the Best Ramen
+  in Kumamoto, Kumamoto at Keika'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

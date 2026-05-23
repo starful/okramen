@@ -1,15 +1,24 @@
 ---
+address: Tokyo, Chiyoda
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-19'
+image_prompt: A 45-degree angle shot of a bowl of rich creamy tonkotsu ramen at Oreshiki
+  Jun, featuring deep brown shoyu-infused pork bone broth, tender chashu slices, and
+  a perfectly soft-boiled egg, set in a dark moody izakaya atmosphere with steam rising
+  gently.
 lang: ko
-title: "[도쿄 치요다구 최고의 라멘] 오레시키 준(Oreshiki Jun): 장인 정신으로 빚어낸 돈코츠의 미학 (Best Ramen in Tokyo, Chiyoda)"
 lat: 35.6811
 lng: 139.7671
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/oreshiki_jun.jpg"
-address: "Tokyo, Chiyoda"
-date: "2026-04-19"
-agoda: ""
-summary: "도쿄역의 번잡함 속에서 찾아낸 진정한 돈코츠의 성지, 오레시키 준은 깊고 진한 육수와 완벽한 면의 조화로 미식가들을 사로잡습니다. 현지인들이 줄 서서 기다리는 이곳은 단순한 한 끼를 넘어 일본 라멘 철학의 정수를 보여주는 공간입니다. 치요다구에서 가장 세련되면서도 본질에 충실한 라멘을 경험하고 싶다면 단연코 이곳을 방문해야 합니다."
-image_prompt: "A 45-degree angle shot of a bowl of rich creamy tonkotsu ramen at Oreshiki Jun, featuring deep brown shoyu-infused pork bone broth, tender chashu slices, and a perfectly soft-boiled egg, set in a dark moody izakaya atmosphere with steam rising gently."
+shop_name: Oreshiki JUN
+summary: 도쿄역의 번잡함 속에서 찾아낸 진정한 돈코츠의 성지, 오레시키 준은 깊고 진한 육수와 완벽한 면의 조화로 미식가들을 사로잡습니다.
+  현지인들이 줄 서서 기다리는 이곳은 단순한 한 끼를 넘어 일본 라멘 철학의 정수를 보여주는 공간입니다. 치요다구에서 가장 세련되면서도 본질에 충실한
+  라멘을 경험하고 싶다면 단연코 이곳을 방문해야 합니다.
+thumbnail: /static/images/oreshiki_jun.jpg
+title: '[도쿄 치요다구 최고의 라멘] 오레시키 준(Oreshiki Jun): 장인 정신으로 빚어낸 돈코츠의 미학 (Best Ramen in
+  Tokyo, Chiyoda)'
 ---
 
 ## The Soul of the Shop: History and Philosophy

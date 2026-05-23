@@ -1,14 +1,18 @@
 ---
+address: 2 Chome-14-3 Yoyogi, Shibuya City, Tokyo 151-0053, Japan
+agoda: ''
+categories:
+- 츠케멘
+- 현지인맛집
+date: '2026-04-03'
 lang: ko
-title: "도쿄 신주쿠 최고의 라멘: 후운지(Fuunji) – 장인의 혼이 깃든 츠케멘의 정점 (Best Ramen in Tokyo, Shinjuku)"
 lat: 35.6875
 lng: 139.6961
-categories: ["츠케멘", "현지인맛집"]
-thumbnail: "/static/images/fuunji_shinjuku.jpg"
-address: "2 Chome-14-3 Yoyogi, Shibuya City, Tokyo 151-0053, Japan"
-date: "2026-04-03"
-agoda: ""
-summary: "도쿄 신주쿠에서 가장 전설적인 츠케멘 전문점인 후운지의 정수를 심도 있게 분석합니다. 닭 육수와 어패류의 완벽한 하모니가 만들어내는 진하고 크리미한 국물의 비밀을 파헤칩니다. 일본 현지인과 전 세계 미식가들이 줄을 서서 기다리는 이유를 직접 경험해 보세요."
+shop_name: Fuunji Shinjuku
+summary: 도쿄 신주쿠에서 가장 전설적인 츠케멘 전문점인 후운지의 정수를 심도 있게 분석합니다. 닭 육수와 어패류의 완벽한 하모니가 만들어내는
+  진하고 크리미한 국물의 비밀을 파헤칩니다. 일본 현지인과 전 세계 미식가들이 줄을 서서 기다리는 이유를 직접 경험해 보세요.
+thumbnail: /static/images/fuunji_shinjuku.jpg
+title: '도쿄 신주쿠 최고의 라멘: 후운지(Fuunji) – 장인의 혼이 깃든 츠케멘의 정점 (Best Ramen in Tokyo, Shinjuku)'
 ---
 
 ## The Soul of the Shop: History and Philosophy

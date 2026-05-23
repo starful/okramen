@@ -1,14 +1,20 @@
 ---
+address: 4-10-3 Ginza, Chuo City, Tokyo 104-0061, Japan
+agoda: ''
+categories:
+- Tonkotsu
+- Premium
+date: '2026-03-28'
 lang: en
-title: "The Velvet Revolution: Why Ippudo Ginza Defines the Best Ramen in Tokyo, Chuo"
 lat: 35.6711
 lng: 139.7662
-categories: ["Tonkotsu", "Premium"]
-thumbnail: "/static/images/ippudo_ginza.jpg"
-address: "4-10-3 Ginza, Chuo City, Tokyo 104-0061, Japan"
-date: "2026-03-28"
-agoda: ""
-summary: "Experience the pinnacle of Hakata-style craftsmanship at the heart of Tokyo's most luxurious district. This guide explores the velvety depths of Ippudo's legendary pork bone broth and its meticulous approach to noodle texture. Discover why this global icon maintains its Michelin-level prestige in the competitive Ginza landscape."
+shop_name: Ippudo Ginza
+summary: Experience the pinnacle of Hakata-style craftsmanship at the heart of Tokyo's
+  most luxurious district. This guide explores the velvety depths of Ippudo's legendary
+  pork bone broth and its meticulous approach to noodle texture. Discover why this
+  global icon maintains its Michelin-level prestige in the competitive Ginza landscape.
+thumbnail: /static/images/ippudo_ginza.jpg
+title: 'The Velvet Revolution: Why Ippudo Ginza Defines the Best Ramen in Tokyo, Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

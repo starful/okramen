@@ -1,15 +1,25 @@
 ---
+address: Tokyo, Toshima
+agoda: ''
+categories:
+- Chicken
+- Premium
+date: '2026-04-19'
+image_prompt: A steaming macro shot of Nakiryu's signature Tantanmen in a warm wooden
+  interior, showcasing the vibrant orange-red broth glistening with chili oil, topped
+  with finely minced pork and green onions, captured with shallow depth of field to
+  highlight the creamy texture.
 lang: en
-title: "A Symphony of Spice and Soul: Why Nakiryu is the Best Ramen in Tokyo, Toshima"
 lat: 35.7322
 lng: 139.7291
-categories: ["Chicken", "Premium"]
-thumbnail: "/static/images/nakiryu.jpg"
-address: "Tokyo, Toshima"
-date: "2026-04-19"
-agoda: ""
-summary: "Indulge in the legendary Michelin-starred Tantanmen at Nakiryu, a culinary masterpiece where fiery Sichuan spice meets sophisticated Japanese precision. This definitive guide explores the complex broth and artisanal craftsmanship that makes it the ultimate dining destination in Toshima. Discover why this humble Otsuka shop remains the gold standard for ramen connoisseurs worldwide."
-image_prompt: "A steaming macro shot of Nakiryu's signature Tantanmen in a warm wooden interior, showcasing the vibrant orange-red broth glistening with chili oil, topped with finely minced pork and green onions, captured with shallow depth of field to highlight the creamy texture."
+shop_name: Nakiryu
+summary: Indulge in the legendary Michelin-starred Tantanmen at Nakiryu, a culinary
+  masterpiece where fiery Sichuan spice meets sophisticated Japanese precision. This
+  definitive guide explores the complex broth and artisanal craftsmanship that makes
+  it the ultimate dining destination in Toshima. Discover why this humble Otsuka shop
+  remains the gold standard for ramen connoisseurs worldwide.
+thumbnail: /static/images/nakiryu.jpg
+title: 'A Symphony of Spice and Soul: Why Nakiryu is the Best Ramen in Tokyo, Toshima'
 ---
 
 ## The Soul of the Shop: History and Philosophy

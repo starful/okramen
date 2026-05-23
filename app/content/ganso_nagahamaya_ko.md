@@ -1,15 +1,23 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A 45-degree angle shot of a bowl of Ganso Nagahamaya tonkotsu ramen
+  on a rustic wooden counter, thin noodles lifting with chopsticks, pale milky white
+  pork broth with a thin layer of golden oil, minimal green onions and thin salty
+  chashu, warm atmospheric lighting, steam rising, hyper-realistic food photography.
 lang: ko
-title: "[후쿠오카 중앙구 최고의 라멘] 원조 나가하마야: 70년 세월을 끓여낸 하카타의 진정한 소울푸드이자 돈코츠의 원형"
 lat: 33.5955
 lng: 130.3811
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ganso_nagahamaya.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-12"
-agoda: ""
-summary: "후쿠오카 중앙구 나가하마에서 시작된 70년 전통의 '원조 나가하마야'는 현대 돈코츠 라멘의 근간인 '카에다마' 문화의 발상지입니다. 시장 상인들의 허기를 달래주던 투박하지만 깊은 풍미의 육수와 초속으로 제공되는 극세면의 조화는 미식가들에게 잊을 수 없는 로컬 경험을 선사합니다. 단순한 한 끼를 넘어 하카타의 역사와 생동감을 한 그릇에 담아낸 이곳은 후쿠오카 방문 시 반드시 거쳐야 할 성지입니다."
-image_prompt: "A 45-degree angle shot of a bowl of Ganso Nagahamaya tonkotsu ramen on a rustic wooden counter, thin noodles lifting with chopsticks, pale milky white pork broth with a thin layer of golden oil, minimal green onions and thin salty chashu, warm atmospheric lighting, steam rising, hyper-realistic food photography."
+shop_name: Ganso Nagahamaya
+summary: 후쿠오카 중앙구 나가하마에서 시작된 70년 전통의 '원조 나가하마야'는 현대 돈코츠 라멘의 근간인 '카에다마' 문화의 발상지입니다.
+  시장 상인들의 허기를 달래주던 투박하지만 깊은 풍미의 육수와 초속으로 제공되는 극세면의 조화는 미식가들에게 잊을 수 없는 로컬 경험을 선사합니다.
+  단순한 한 끼를 넘어 하카타의 역사와 생동감을 한 그릇에 담아낸 이곳은 후쿠오카 방문 시 반드시 거쳐야 할 성지입니다.
+thumbnail: /static/images/ganso_nagahamaya.jpg
+title: '[후쿠오카 중앙구 최고의 라멘] 원조 나가하마야: 70년 세월을 끓여낸 하카타의 진정한 소울푸드이자 돈코츠의 원형'
 ---
 
 ## The Soul of the Shop: History and Philosophy

@@ -1,15 +1,27 @@
 ---
+address: 2-12-6 Minamisaiwai, Nishi-ku, Yokohama, Kanagawa
+agoda: ''
+categories:
+- Shoyu
+- Local Gem
+date: '2026-04-05'
+image_prompt: A 45-degree angle close-up shot of a steaming bowl of Yoshimuraya Iekei
+  ramen, featuring a rich brown shoyu-tonkotsu broth with a shimmering layer of golden
+  chiyu oil, topped with thick-cut smoked chashu, vibrant green spinach, and three
+  upright sheets of nori, set against a warm wooden counter in a rustic, bustling
+  ramen shop interior.
 lang: en
-title: "The Genesis of Iekei: Why Yoshimuraya Remains the Best Ramen in Kanagawa, Yokohama"
 lat: 35.4644
 lng: 139.6188
-categories: ["Shoyu", "Local Gem"]
-thumbnail: "/static/images/yoshimuraya.jpg"
-address: "2-12-6 Minamisaiwai, Nishi-ku, Yokohama, Kanagawa"
-date: "2026-04-05"
-agoda: ""
-summary: "Discover the legendary birthplace of Iekei ramen at Yoshimuraya, where a masterfully balanced smoky shoyu-tonkotsu broth meets world-class craftsmanship. This pilgrimage site for noodle enthusiasts offers a visceral, high-tension dining experience that defines the culinary landscape of Yokohama. Experience the original, uncompromising flavor that has spawned thousands of disciples across the globe."
-image_prompt: "A 45-degree angle close-up shot of a steaming bowl of Yoshimuraya Iekei ramen, featuring a rich brown shoyu-tonkotsu broth with a shimmering layer of golden chiyu oil, topped with thick-cut smoked chashu, vibrant green spinach, and three upright sheets of nori, set against a warm wooden counter in a rustic, bustling ramen shop interior."
+shop_name: Yoshimuraya
+summary: Discover the legendary birthplace of Iekei ramen at Yoshimuraya, where a
+  masterfully balanced smoky shoyu-tonkotsu broth meets world-class craftsmanship.
+  This pilgrimage site for noodle enthusiasts offers a visceral, high-tension dining
+  experience that defines the culinary landscape of Yokohama. Experience the original,
+  uncompromising flavor that has spawned thousands of disciples across the globe.
+thumbnail: /static/images/yoshimuraya.jpg
+title: 'The Genesis of Iekei: Why Yoshimuraya Remains the Best Ramen in Kanagawa,
+  Yokohama'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

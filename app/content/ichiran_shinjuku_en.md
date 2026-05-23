@@ -1,14 +1,22 @@
 ---
+address: Tokyo, Shinjuku, 3 Chome−34−11, Peace Bldg B1F
+agoda: ''
+categories:
+- Tonkotsu
+- Solo Friendly
+date: '2026-03-28'
 lang: en
-title: "The Ultimate Gastronomic Sanctuary: Why Ichiran Shinjuku Offers the Best Ramen in Tokyo, Shinjuku"
 lat: 35.6909
 lng: 139.7018
-categories: ["Tonkotsu", "Solo Friendly"]
-thumbnail: "/static/images/ichiran_shinjuku.jpg"
-address: "Tokyo, Shinjuku, 3 Chome−34−11, Peace Bldg B1F"
-date: "2026-03-28"
-agoda: ""
-summary: "Discover the pinnacle of Hakata-style tonkotsu at Ichiran Shinjuku, a world-renowned destination where culinary precision meets individual focus. This guide explores the deep complexity of their 24-hour simmered broth and the legendary 'Flavor Concentration Booths' that redefine the dining experience. Embark on a sensory journey through the most iconic bowl of noodles in Tokyo's most vibrant district."
+shop_name: Ichiran Shinjuku
+summary: Discover the pinnacle of Hakata-style tonkotsu at Ichiran Shinjuku, a world-renowned
+  destination where culinary precision meets individual focus. This guide explores
+  the deep complexity of their 24-hour simmered broth and the legendary 'Flavor Concentration
+  Booths' that redefine the dining experience. Embark on a sensory journey through
+  the most iconic bowl of noodles in Tokyo's most vibrant district.
+thumbnail: /static/images/ichiran_shinjuku.jpg
+title: 'The Ultimate Gastronomic Sanctuary: Why Ichiran Shinjuku Offers the Best Ramen
+  in Tokyo, Shinjuku'
 ---
 
 ## The Soul of the Shop: History and Philosophy

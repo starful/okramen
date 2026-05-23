@@ -1,15 +1,26 @@
 ---
+address: Hokkaido, Sapporo, Chuo Ward, Minami 1 Jonishi, 3 Chome−2, Daimaru Fujii
+  Central 4F
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-21'
+image_prompt: A steaming macro shot of original Sapporo Miso ramen at Aji no Sanpei,
+  featuring a rich orange-hued broth with shimmering oil droplets, signature curly
+  yellow noodles, and wok-charred bean sprouts, set against a warm wooden counter
+  in a rustic local atmosphere, 8k resolution, cinematic food photography.
 lang: en
-title: "The Genesis of Umami: Why Aji no Sanpei is the Best Ramen in Hokkaido, Sapporo"
 lat: 43.0611
 lng: 141.3511
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/aji_no_sanpei.jpg"
-address: "Hokkaido, Sapporo, Chuo Ward, Minami 1 Jonishi, 3 Chome−2, Daimaru Fujii Central 4F"
-date: "2026-04-21"
-agoda: ""
-summary: "Discover the hallowed birthplace of Miso ramen where history and flavor collide in a single, steaming bowl of perfection. Aji no Sanpei offers a transcendent culinary journey through Hokkaido's rich heritage, serving a rustic broth that remains the gold standard for enthusiasts worldwide. This is more than a meal; it is a pilgrimage to the soul of Sapporo’s legendary noodle culture."
-image_prompt: "A steaming macro shot of original Sapporo Miso ramen at Aji no Sanpei, featuring a rich orange-hued broth with shimmering oil droplets, signature curly yellow noodles, and wok-charred bean sprouts, set against a warm wooden counter in a rustic local atmosphere, 8k resolution, cinematic food photography."
+shop_name: AJI NO Sanpei
+summary: Discover the hallowed birthplace of Miso ramen where history and flavor collide
+  in a single, steaming bowl of perfection. Aji no Sanpei offers a transcendent culinary
+  journey through Hokkaido's rich heritage, serving a rustic broth that remains the
+  gold standard for enthusiasts worldwide. This is more than a meal; it is a pilgrimage
+  to the soul of Sapporo’s legendary noodle culture.
+thumbnail: /static/images/aji_no_sanpei.jpg
+title: 'The Genesis of Umami: Why Aji no Sanpei is the Best Ramen in Hokkaido, Sapporo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

@@ -1,17 +1,30 @@
 ---
+address: Kyoto, Kizugawa
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-12'
+image_prompt: A 45-degree angle close-up of a bowl of Muteppou tonkotsu ramen on a
+  rustic wooden counter, showing the incredibly thick, chocolate-brown pork bone broth
+  with visible collagen, topped with thin slices of chashu and a mountain of green
+  onions, steam rising in a warm, dimly lit traditional Japanese ramen shop atmosphere.
 lang: en
-title: "The Viscosity of Obsession: Why Muteppou is the Undisputed Best Ramen in Kyoto, Kizugawa"
 lat: 34.7522
 lng: 135.8311
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/muteppou_kyoto.jpg"
-address: "Kyoto, Kizugawa"
-date: "2026-04-12"
-agoda: ""
-summary: "Muteppou Kyoto stands as a gargantuan pillar of the ramen world, offering a pork-bone elixir so concentrated it redefines the very essence of 'Kotteri' soup. This Kizugawa institution eschews modern shortcuts, utilizing hundreds of kilograms of bones to create a broth that is more an experience of gravity than a mere meal. For those seeking the ultimate expression of Tonkotsu, this is the definitive pilgrimage site that transcends culinary norms."
-seo_title: "Muteppou Kyoto Tonkotsu — Kotteri Pork-Bone | OKRamen"
-seo_description: "Muteppou Kyoto (Kizugawa): ultra-thick kotteri tonkotsu — one of Japan's densest pork-bone bowls. Map, hours, access, what to order."
-image_prompt: "A 45-degree angle close-up of a bowl of Muteppou tonkotsu ramen on a rustic wooden counter, showing the incredibly thick, chocolate-brown pork bone broth with visible collagen, topped with thin slices of chashu and a mountain of green onions, steam rising in a warm, dimly lit traditional Japanese ramen shop atmosphere."
+seo_description: 'Muteppou Kyoto (Kizugawa): ultra-thick kotteri tonkotsu — one of
+  Japan''s densest pork-bone bowls. Map, hours, access, what to order.'
+seo_title: Muteppou Kyoto Tonkotsu — Kotteri Pork-Bone | OKRamen
+shop_name: Muteppou Kyoto
+summary: Muteppou Kyoto stands as a gargantuan pillar of the ramen world, offering
+  a pork-bone elixir so concentrated it redefines the very essence of 'Kotteri' soup.
+  This Kizugawa institution eschews modern shortcuts, utilizing hundreds of kilograms
+  of bones to create a broth that is more an experience of gravity than a mere meal.
+  For those seeking the ultimate expression of Tonkotsu, this is the definitive pilgrimage
+  site that transcends culinary norms.
+thumbnail: /static/images/muteppou_kyoto.jpg
+title: 'The Viscosity of Obsession: Why Muteppou is the Undisputed Best Ramen in Kyoto,
+  Kizugawa'
 ---
 
 ## The Soul of the Shop: History and Philosophy

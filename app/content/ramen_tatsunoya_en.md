@@ -1,15 +1,25 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-14'
+image_prompt: A steaming macro shot of a deep red spicy tonkotsu ramen bowl, showing
+  the glistening fat droplets on the surface of the creamy white broth, topped with
+  charred chashu and a vibrant spicy miso ball, set against a warm wooden interior
+  of a traditional Shinjuku ramen counter.
 lang: en
-title: "The Ultimate Umami Pilgrimage: Discovering the Best Ramen in Tokyo, Shinjuku at Ramen Tatsunoya"
 lat: 35.6966
 lng: 139.6988
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/ramen_tatsunoya.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience the pinnacle of Kurume-style tonkotsu in the heart of Shinjuku's bustling streets. This local gem offers a masterclass in rich, spicy broth dynamics and artisanal noodle craft that redefines the ramen experience. A visit here is not just a meal, but a profound immersion into Japan's legendary soup culture."
-image_prompt: "A steaming macro shot of a deep red spicy tonkotsu ramen bowl, showing the glistening fat droplets on the surface of the creamy white broth, topped with charred chashu and a vibrant spicy miso ball, set against a warm wooden interior of a traditional Shinjuku ramen counter."
+shop_name: Ramen Tatsunoya
+summary: Experience the pinnacle of Kurume-style tonkotsu in the heart of Shinjuku's
+  bustling streets. This local gem offers a masterclass in rich, spicy broth dynamics
+  and artisanal noodle craft that redefines the ramen experience. A visit here is
+  not just a meal, but a profound immersion into Japan's legendary soup culture.
+thumbnail: /static/images/ramen_tatsunoya.jpg
+title: 'The Ultimate Umami Pilgrimage: Discovering the Best Ramen in Tokyo, Shinjuku
+  at Ramen Tatsunoya'
 ---
 
 ## The Soul of the Shop: History and Philosophy

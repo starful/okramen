@@ -1,15 +1,27 @@
 ---
+address: 5-chome-20-2 Minami 4 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0804, Japan
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-21'
+image_prompt: A side profile close-up of a steaming bowl of spicy miso ramen at Ramen
+  Sapporo Ichiryu, featuring a rich orange-red broth with visible droplets of aromatic
+  chili oil, thick yellow curly noodles being lifted by chopsticks, charred chashu
+  pork, and fresh green onions, set against a warm wooden interior with soft golden
+  lighting.
 lang: en
-title: "The Golden Standard of Umami: Why Ramen Sapporo Ichiryu is the Best Ramen in Hokkaido, Sapporo"
 lat: 43.0611
 lng: 141.3511
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/ramen_sapporo_ichiryu.jpg"
-address: "5-chome-20-2 Minami 4 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0804, Japan"
-date: "2026-04-21"
-agoda: ""
-summary: "Discover the pinnacle of fermented excellence at Ramen Sapporo Ichiryu, where wok-fired miso meets a sophisticated spicy kick. This local gem offers a masterclass in Hokkaido’s culinary heritage, delivering a broth of unparalleled depth and complexity. Prepare for a sensory journey that redefines what a bowl of noodles can achieve in the heart of Susukino."
-image_prompt: "A side profile close-up of a steaming bowl of spicy miso ramen at Ramen Sapporo Ichiryu, featuring a rich orange-red broth with visible droplets of aromatic chili oil, thick yellow curly noodles being lifted by chopsticks, charred chashu pork, and fresh green onions, set against a warm wooden interior with soft golden lighting."
+shop_name: Ramen Sapporo Ichiryu
+summary: Discover the pinnacle of fermented excellence at Ramen Sapporo Ichiryu, where
+  wok-fired miso meets a sophisticated spicy kick. This local gem offers a masterclass
+  in Hokkaido’s culinary heritage, delivering a broth of unparalleled depth and complexity.
+  Prepare for a sensory journey that redefines what a bowl of noodles can achieve
+  in the heart of Susukino.
+thumbnail: /static/images/ramen_sapporo_ichiryu.jpg
+title: 'The Golden Standard of Umami: Why Ramen Sapporo Ichiryu is the Best Ramen
+  in Hokkaido, Sapporo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

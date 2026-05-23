@@ -1,4 +1,5 @@
 ---
+shop_name: "Ikaruga Tokyo"
 lang: ko
 title: "도쿄 치요다구 최고의 라멘(Best Ramen in Tokyo, Chiyoda): ‘이카루가(Ikaruga)’가 선사하는 미학적 미식의 정점"
 lat: 35.6811

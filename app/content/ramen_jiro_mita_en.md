@@ -1,15 +1,26 @@
 ---
+address: Tokyo, Minato
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-12'
+image_prompt: A steaming macro shot of Ramen Jiro Mita at a 45-degree angle, showcasing
+  a mountainous pile of pale bean sprouts and cabbage topped with translucent chunks
+  of back fat, resting in a deep, dark emulsified tonkotsu broth with thick-cut chashu
+  peeking through, set against a rustic counter seat with warm wooden interior.
 lang: en
-title: "The Alchemical Masterpiece of Pork: Finding the Best Ramen in Tokyo, Minato at Ramen Jiro Mita"
 lat: 35.6481
 lng: 139.7411
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/ramen_jiro_mita.jpg"
-address: "Tokyo, Minato"
-date: "2026-04-12"
-agoda: ""
-summary: "Discover the legendary birthplace of the 'Jirorian' cult at Ramen Jiro Mita Honten, where raw culinary power meets the ultimate pork-fat obsession. This is more than a meal; it is a high-salinity, high-calorie pilgrimage to the very heart of Tokyo's most visceral food subculture. Prepare for an unapologetic sensory assault that redefines the boundaries of the Tonkotsu genre in the shadow of Keio University."
-image_prompt: "A steaming macro shot of Ramen Jiro Mita at a 45-degree angle, showcasing a mountainous pile of pale bean sprouts and cabbage topped with translucent chunks of back fat, resting in a deep, dark emulsified tonkotsu broth with thick-cut chashu peeking through, set against a rustic counter seat with warm wooden interior."
+shop_name: Ramen Jiro Mita
+summary: Discover the legendary birthplace of the 'Jirorian' cult at Ramen Jiro Mita
+  Honten, where raw culinary power meets the ultimate pork-fat obsession. This is
+  more than a meal; it is a high-salinity, high-calorie pilgrimage to the very heart
+  of Tokyo's most visceral food subculture. Prepare for an unapologetic sensory assault
+  that redefines the boundaries of the Tonkotsu genre in the shadow of Keio University.
+thumbnail: /static/images/ramen_jiro_mita.jpg
+title: 'The Alchemical Masterpiece of Pork: Finding the Best Ramen in Tokyo, Minato
+  at Ramen Jiro Mita'
 ---
 
 ## The Soul of the Shop: History and Philosophy

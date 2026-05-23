@@ -1,15 +1,24 @@
 ---
+address: Hokkaido, Asahikawa
+agoda: ''
+categories:
+- 쇼유
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A 45-degree angle shot of a steaming bowl of Asahikawa Shoyu ramen at
+  Aoba, featuring a dark amber-colored soy sauce broth with a glistening film of lard
+  on top, thin wavy noodles being lifted by wooden chopsticks, tender chashu pork
+  slices, and green onions, set against a warm wooden counter in a rustic, nostalgic
+  interior, professional food photography, 8k resolution.
 lang: ko
-title: "아사히카와 라멘 아오바: 홋카이도 미식의 정점, 70년 전통의 쇼유 라멘 (Best Ramen in Hokkaido, Asahikawa)"
 lat: 43.7655
 lng: 142.3611
-categories: ["쇼유", "현지인맛집"]
-thumbnail: "/static/images/asahikawa_ramen_aoba.jpg"
-address: "Hokkaido, Asahikawa"
-date: "2026-04-14"
-agoda: ""
-summary: "1947년부터 이어져 온 아사히카와 라멘의 전설, 아오바에서 맛보는 쇼유 라멘은 해산물과 육류의 완벽한 조화를 선사합니다. 혹독한 추위를 녹여주는 두꺼운 라드 층과 깊은 감칠맛의 육수는 평생 잊지 못할 미식 경험을 제공할 것입니다. 홋카이도 여행에서 절대 놓쳐선 안 될 진정한 현지인 맛집의 정수를 직접 확인해 보세요."
-image_prompt: "A 45-degree angle shot of a steaming bowl of Asahikawa Shoyu ramen at Aoba, featuring a dark amber-colored soy sauce broth with a glistening film of lard on top, thin wavy noodles being lifted by wooden chopsticks, tender chashu pork slices, and green onions, set against a warm wooden counter in a rustic, nostalgic interior, professional food photography, 8k resolution."
+shop_name: Asahikawa Ramen Aoba
+summary: 1947년부터 이어져 온 아사히카와 라멘의 전설, 아오바에서 맛보는 쇼유 라멘은 해산물과 육류의 완벽한 조화를 선사합니다. 혹독한
+  추위를 녹여주는 두꺼운 라드 층과 깊은 감칠맛의 육수는 평생 잊지 못할 미식 경험을 제공할 것입니다. 홋카이도 여행에서 절대 놓쳐선 안 될 진정한
+  현지인 맛집의 정수를 직접 확인해 보세요.
+thumbnail: /static/images/asahikawa_ramen_aoba.jpg
+title: '아사히카와 라멘 아오바: 홋카이도 미식의 정점, 70년 전통의 쇼유 라멘 (Best Ramen in Hokkaido, Asahikawa)'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

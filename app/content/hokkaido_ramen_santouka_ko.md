@@ -1,15 +1,24 @@
 ---
+address: Hokkaido, Asahikawa
+agoda: ''
+categories:
+- 시오
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A steaming macro shot of Santouka's signature Shio Ramen in its iconic
+  small blue bowl, creamy white tonkotsu broth topped with a single red pickled plum,
+  tender pork cheeks chashu, and delicate bamboo shoots, set in a warm wooden interior
+  with soft ambient lighting.
 lang: ko
-title: "홋카이도 아사히카와의 정점, 전설적인 시오 라멘의 성지 '산토카(Santouka)': Best Ramen in Hokkaido, Asahikawa"
 lat: 43.7681
 lng: 142.3522
-categories: ["시오", "현지인맛집"]
-thumbnail: "/static/images/hokkaido_ramen_santouka.jpg"
-address: "Hokkaido, Asahikawa"
-date: "2026-04-12"
-agoda: ""
-summary: "아사히카와 본점에서만 만날 수 있는 진한 돈코츠 베이스의 시오 라멘은 미식의 한계를 뛰어넘는 깊은 풍미를 자랑합니다. 1988년부터 이어져 온 산토카의 철학이 담긴 하얀 국물과 입안에서 녹아내리는 토로니쿠 차슈의 조화는 가히 압도적입니다. 전 세계를 매료시킨 전설의 시작점, 홋카이도 최고의 라멘을 맛보는 미식 여행의 정수를 경험해 보시기 바랍니다."
-image_prompt: "A steaming macro shot of Santouka's signature Shio Ramen in its iconic small blue bowl, creamy white tonkotsu broth topped with a single red pickled plum, tender pork cheeks chashu, and delicate bamboo shoots, set in a warm wooden interior with soft ambient lighting."
+shop_name: Hokkaido Ramen Santouka
+summary: 아사히카와 본점에서만 만날 수 있는 진한 돈코츠 베이스의 시오 라멘은 미식의 한계를 뛰어넘는 깊은 풍미를 자랑합니다. 1988년부터
+  이어져 온 산토카의 철학이 담긴 하얀 국물과 입안에서 녹아내리는 토로니쿠 차슈의 조화는 가히 압도적입니다. 전 세계를 매료시킨 전설의 시작점,
+  홋카이도 최고의 라멘을 맛보는 미식 여행의 정수를 경험해 보시기 바랍니다.
+thumbnail: /static/images/hokkaido_ramen_santouka.jpg
+title: '홋카이도 아사히카와의 정점, 전설적인 시오 라멘의 성지 ''산토카(Santouka)'': Best Ramen in Hokkaido,
+  Asahikawa'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

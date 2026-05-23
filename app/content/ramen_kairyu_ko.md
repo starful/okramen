@@ -1,15 +1,24 @@
 ---
+address: Fukuoka, Kitakyushu
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-19'
+image_prompt: Side profile close-up shot of a steaming bowl of Ramen Kairyu's thick,
+  creamy brown-tinted Tonkotsu broth, thin noodles being lifted by chopsticks, tender
+  chashu slices, in a warm wooden interior with a rustic counter seat, authentic local
+  atmosphere, highly detailed textures.
 lang: ko
-title: "후쿠오카 기타큐슈의 영혼을 담은 한 그릇: Best Ramen in Fukuoka, Kitakyushu, '라면 카이류(Ramen Kairyu)'의 경이로운 여정"
 lat: 33.8811
 lng: 130.8811
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ramen_kairyu.jpg"
-address: "Fukuoka, Kitakyushu"
-date: "2026-04-19"
-agoda: ""
-summary: "기타큐슈의 전설적인 쿠루메 스타일 돈코츠 라멘인 라면 카이류는 수십 년간 이어온 '요비모도시' 공법의 정수를 보여주는 진정한 현지인 맛집입니다. 강렬한 육수의 향과 깊이 있는 감칠맛은 미식가들에게 잊을 수 없는 충격을 선사하며, 투박하지만 진심 어린 장인 정신이 그릇마다 가득 담겨 있습니다. 후쿠오카 여행의 정점을 찍을 이 특별한 미식 경험은 당신의 라멘에 대한 정의를 완전히 바꾸어 놓을 것입니다."
-image_prompt: "Side profile close-up shot of a steaming bowl of Ramen Kairyu's thick, creamy brown-tinted Tonkotsu broth, thin noodles being lifted by chopsticks, tender chashu slices, in a warm wooden interior with a rustic counter seat, authentic local atmosphere, highly detailed textures."
+shop_name: Ramen Kairyu
+summary: 기타큐슈의 전설적인 쿠루메 스타일 돈코츠 라멘인 라면 카이류는 수십 년간 이어온 '요비모도시' 공법의 정수를 보여주는 진정한 현지인
+  맛집입니다. 강렬한 육수의 향과 깊이 있는 감칠맛은 미식가들에게 잊을 수 없는 충격을 선사하며, 투박하지만 진심 어린 장인 정신이 그릇마다 가득
+  담겨 있습니다. 후쿠오카 여행의 정점을 찍을 이 특별한 미식 경험은 당신의 라멘에 대한 정의를 완전히 바꾸어 놓을 것입니다.
+thumbnail: /static/images/ramen_kairyu.jpg
+title: '후쿠오카 기타큐슈의 영혼을 담은 한 그릇: Best Ramen in Fukuoka, Kitakyushu, ''라면 카이류(Ramen
+  Kairyu)''의 경이로운 여정'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

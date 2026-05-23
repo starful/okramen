@@ -1,15 +1,26 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A dramatic side profile close-up of a steaming bowl of Original Kasane
+  Tonkotsu ramen at Ippudo Daimyo Honten, thick creamy white pork bone broth with
+  delicate emulsified bubbles, thin straight noodles being lifted by dark wooden chopsticks,
+  tender chashu slices with seared edges, wood ear mushrooms, and vibrant green onions,
+  set against a warm rustic wooden counter in a dark moody izakaya atmosphere with
+  soft amber spotlighting, 8k resolution food photography.
 lang: ko
-title: "후쿠오카의 영혼을 담은 한 그릇: Best Ramen in Fukuoka, Chuo - 잇푸도 대명 본점(Ippudo Daimyo) 미식 가이드"
 lat: 33.5877
 lng: 130.3944
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ippudo_daimyo.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-12"
-agoda: ""
-summary: "전 세계 돈코츠 라멘의 기준을 세운 잇푸도의 발상지, 대명 본점에서 경험하는 원조의 품격과 깊이 있는 육수의 향연을 소개합니다. 이곳에서만 맛볼 수 있는 한정 메뉴와 40년 역사가 빚어낸 장인 정신은 단순한 식사를 넘어선 미학적 감동을 선사합니다. 하카타 라멘의 성지에서 진정한 '돈코츠의 정수'를 만끽하며 후쿠오카 미식 여행의 정점을 찍어보시기 바랍니다."
-image_prompt: "A dramatic side profile close-up of a steaming bowl of Original Kasane Tonkotsu ramen at Ippudo Daimyo Honten, thick creamy white pork bone broth with delicate emulsified bubbles, thin straight noodles being lifted by dark wooden chopsticks, tender chashu slices with seared edges, wood ear mushrooms, and vibrant green onions, set against a warm rustic wooden counter in a dark moody izakaya atmosphere with soft amber spotlighting, 8k resolution food photography."
+shop_name: Ippudo Daimyo
+summary: 전 세계 돈코츠 라멘의 기준을 세운 잇푸도의 발상지, 대명 본점에서 경험하는 원조의 품격과 깊이 있는 육수의 향연을 소개합니다. 이곳에서만
+  맛볼 수 있는 한정 메뉴와 40년 역사가 빚어낸 장인 정신은 단순한 식사를 넘어선 미학적 감동을 선사합니다. 하카타 라멘의 성지에서 진정한 '돈코츠의
+  정수'를 만끽하며 후쿠오카 미식 여행의 정점을 찍어보시기 바랍니다.
+thumbnail: /static/images/ippudo_daimyo.jpg
+title: '후쿠오카의 영혼을 담은 한 그릇: Best Ramen in Fukuoka, Chuo - 잇푸도 대명 본점(Ippudo Daimyo)
+  미식 가이드'
 ---
 
 ## The Soul of the Shop: History and Philosophy

@@ -1,15 +1,25 @@
 ---
+address: Fukuoka, Hakata
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-19'
+image_prompt: A dramatic top-down shot of a bowl of Tairyo Ramen, featuring a rich
+  and creamy milky-white Tonkotsu broth with glistening oil droplets on the surface,
+  thin straight Hakata-style noodles, tender braised chashu slices, vibrant green
+  scallions, and earthy wood-ear mushrooms, set on a rustic counter seat in a warm
+  wooden interior with steam rising gracefully, 8k resolution, cinematic lighting.
 lang: ko
-title: "후쿠오카 하카타 최고의 라멘(Best Ramen in Fukuoka, Hakata): 대어라멘(Tairyo Ramen) - 현지인의 숨은 보석을 파헤치다"
 lat: 33.6011
 lng: 130.4111
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/tairyo_ramen.jpg"
-address: "Fukuoka, Hakata"
-date: "2026-04-19"
-agoda: ""
-summary: "후쿠오카 하카타의 골목 속에 숨겨진 '대어라멘'은 관광객의 발길이 닿지 않는 진정한 로컬 돈코츠의 정수를 보여주는 성지입니다. 48시간 동안 우려낸 진득한 육수와 초극세면의 조화는 단순한 식사를 넘어 하카타 라멘의 역사와 장인 정신을 온몸으로 체험하게 합니다. 미식의 정점에 서 있는 이들에게 이곳은 후쿠오카 여행에서 반드시 방문해야 할 단 하나의 라멘 목적지가 될 것입니다."
-image_prompt: "A dramatic top-down shot of a bowl of Tairyo Ramen, featuring a rich and creamy milky-white Tonkotsu broth with glistening oil droplets on the surface, thin straight Hakata-style noodles, tender braised chashu slices, vibrant green scallions, and earthy wood-ear mushrooms, set on a rustic counter seat in a warm wooden interior with steam rising gracefully, 8k resolution, cinematic lighting."
+shop_name: Tairyo Ramen
+summary: 후쿠오카 하카타의 골목 속에 숨겨진 '대어라멘'은 관광객의 발길이 닿지 않는 진정한 로컬 돈코츠의 정수를 보여주는 성지입니다. 48시간
+  동안 우려낸 진득한 육수와 초극세면의 조화는 단순한 식사를 넘어 하카타 라멘의 역사와 장인 정신을 온몸으로 체험하게 합니다. 미식의 정점에 서
+  있는 이들에게 이곳은 후쿠오카 여행에서 반드시 방문해야 할 단 하나의 라멘 목적지가 될 것입니다.
+thumbnail: /static/images/tairyo_ramen.jpg
+title: '후쿠오카 하카타 최고의 라멘(Best Ramen in Fukuoka, Hakata): 대어라멘(Tairyo Ramen) - 현지인의
+  숨은 보석을 파헤치다'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

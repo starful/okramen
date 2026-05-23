@@ -50,3 +50,13 @@ def test_ramen_detail_parses_frontmatter_without_closing_delimiter(client):
     html = response.get_data(as_text=True)
     assert "Tenkaippin Main Shop" in html
     assert 'src="/static/images/tenkaippin_main_shop.jpg"' in html
+
+
+def test_ramen_detail_shows_practical_guide_layout(client):
+    response = client.get("/ramen/ganso_sapporo_ramen_yokocho_en")
+    assert response.status_code == 200
+    html = response.get_data(as_text=True)
+    assert "Quick visit guide" in html
+    assert "Ganso Sapporo Ramen Yokocho" in html
+    assert "Why Ganso Sapporo Ramen Yokocho Still Serves" not in html
+    assert "What to order" in html

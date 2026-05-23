@@ -16,9 +16,11 @@ from werkzeug.utils import safe_join
 try:
     # Cloud Run / gunicorn package import path (app.__init__)
     from .ramen_md import loads_ramen_post
+    from .ramen_practical import apply_practical_fields, slug_to_shop_name
 except ImportError:
     # Local script execution path (python app/__init__.py)
     from ramen_md import loads_ramen_post
+    from ramen_practical import apply_practical_fields, slug_to_shop_name
 
 app = Flask(__name__)
 Compress(app)
@@ -193,12 +195,13 @@ def _ramen_cards(ramen_ids):
         if not r:
             continue
         title = str(r.get("title") or rid)
+        label = slug_to_shop_name(r["id"])
         cards.append(
             {
                 "id": r["id"],
                 "link": r.get("link") or f"/ramen/{r['id']}",
                 "title": title,
-                "short_title": _truncate_text(title, 72),
+                "short_title": _truncate_text(label or title, 72),
                 "address": r.get("address", ""),
                 "thumbnail": r.get("thumbnail", ""),
             }
@@ -228,7 +231,7 @@ def _crawl_ramen_links(limit=60, lang="en"):
         links.append(
             {
                 "link": r.get("link"),
-                "label": _truncate_text(str(r.get("title") or rid), 55),
+                "label": _truncate_text(slug_to_shop_name(rid), 55),
             }
         )
     return links
@@ -275,6 +278,10 @@ def _attach_seo_fields(post, suffix):
 
     override_title = str(post.get("seo_title", "") or "").strip()
     override_desc = str(post.get("seo_description", "") or "").strip()
+    shop_name = str(post.get("shop_name") or "").strip()
+    region = ""
+    if is_ramen_page and post.get("address"):
+        region = str(post.get("address", "")).split(",")[0].strip()
 
     if lang == "ko":
         hook = "지도·영업·추천 메뉴" if is_ramen_page else "핵심만 정리한 가이드"
@@ -283,11 +290,14 @@ def _attach_seo_fields(post, suffix):
             if is_ramen_page
             else " OKRamen에서 팁과 링크만 골라 읽고 일정에 넣으세요."
         )
-        default_title = (
-            _truncate_text(f"{title} | {hook} | OKRamen", 60)
-            if title
-            else _truncate_text(suffix, 60)
-        )
+        if is_ramen_page and shop_name and not override_title:
+            default_title = _truncate_text(f"{shop_name} | {region} 라멘 가이드 | OKRamen", 60)
+        else:
+            default_title = (
+                _truncate_text(f"{title} | {hook} | OKRamen", 60)
+                if title
+                else _truncate_text(suffix, 60)
+            )
     else:
         hook = "map, hours & what to order" if is_ramen_page else "plain-English tips"
         tail = (
@@ -295,16 +305,24 @@ def _attach_seo_fields(post, suffix):
             if is_ramen_page
             else " Skim OKRamen for maps, ordering tips, and links before your trip."
         )
-        default_title = (
-            _truncate_text(f"{title} | {hook} | OKRamen", 60)
-            if title
-            else _truncate_text(suffix, 60)
-        )
+        if is_ramen_page and shop_name and not override_title:
+            default_title = _truncate_text(f"{shop_name} | {region} ramen guide | OKRamen", 60)
+        else:
+            default_title = (
+                _truncate_text(f"{title} | {hook} | OKRamen", 60)
+                if title
+                else _truncate_text(suffix, 60)
+            )
 
     post["seo_title"] = _truncate_text(override_title, 60) if override_title else default_title
 
     if override_desc:
         post["seo_description"] = _truncate_text(override_desc, 160)
+    elif is_ramen_page and post.get("one_liner"):
+        post["seo_description"] = _truncate_text(
+            f"{post['one_liner']}{tail if lang == 'en' else ' OKRamen 지도에서 위치·영업·추천 메뉴를 확인하세요.'}",
+            155,
+        )
     else:
         core = (summary or title).strip()
         post["seo_description"] = _truncate_text(f"{core}{tail}", 155)
@@ -352,7 +370,7 @@ def _enrich_ramen_detail_post(post) -> None:
         lat, lng = 0.0, 0.0
     if lat == 0.0 and lng == 0.0:
         return
-    label = str(post.get("title") or "").strip()
+    label = str(post.get("shop_name") or post.get("title") or "").strip()
     post["maps_url"] = build_maps_search_url(lat, lng, label)
 
 
@@ -439,8 +457,7 @@ def ramen_detail(ramen_id):
     post = loads_ramen_post(raw_text)
     
     # 💡 [핵심] 언어 전환 버튼을 위해 id를 강제 주입
-    post['id'] = ramen_id 
-    post = _attach_seo_fields(post, "OKRamen Japan Guide")
+    post['id'] = ramen_id
 
     cats = post.get('categories')
     if cats is None:
@@ -448,6 +465,8 @@ def ramen_detail(ramen_id):
     elif isinstance(cats, str):
         post['categories'] = [c.strip() for c in cats.split(',')]
 
+    apply_practical_fields(post, ramen_id)
+    post = _attach_seo_fields(post, "OKRamen Japan Guide")
     _enrich_ramen_detail_post(post)
 
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])

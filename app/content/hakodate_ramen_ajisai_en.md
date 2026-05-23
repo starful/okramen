@@ -1,4 +1,5 @@
 ---
+shop_name: "Hakodate Ramen Ajisai"
 lang: en
 title: "The Ethereal Transparency: Why Hakodate Ramen Ajisai is the Best Ramen in Hokkaido, Hakodate"
 lat: 41.7944

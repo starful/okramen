@@ -1,15 +1,23 @@
 ---
+address: Kyoto, Shimogyo
+agoda: ''
+categories:
+- 쇼유
+- 프리미엄
+date: '2026-04-12'
+image_prompt: A 45-degree angle shot of a premium Shoyu ramen bowl from Menya Inoichi,
+  featuring a crystal-clear golden broth, thinly sliced A5 Wagyu beef, and delicate
+  yuzu zest on top, set in a warm wooden minimalist Japanese interior with soft ambient
+  lighting.
 lang: ko
-title: "교토 시모교구의 보석: Menya Inoichi에서 만나는 인생 최고의 쇼유 라멘 (Best Ramen in Kyoto, Shimogyo)"
 lat: 35.0011
 lng: 135.7611
-categories: ["쇼유", "프리미엄"]
-thumbnail: "/static/images/menya_inoichi.jpg"
-address: "Kyoto, Shimogyo"
-date: "2026-04-12"
-agoda: ""
-summary: "교토 시모교구의 정수를 담은 멘야 이노이치는 미슐랭이 인정한 최고의 쇼유 라멘을 선보이는 예술적인 공간으로, 맑고 깊은 육수의 풍미가 일품입니다. 엄선된 식재료와 장인 정신이 깃든 이 프리미엄 라멘은 단순한 식사를 넘어선 미식의 절정을 선사합니다. 교토 여행에서 진정한 미식의 감동을 느끼고 싶다면 반드시 방문해야 할 필수 코스로 추천합니다."
-image_prompt: "A 45-degree angle shot of a premium Shoyu ramen bowl from Menya Inoichi, featuring a crystal-clear golden broth, thinly sliced A5 Wagyu beef, and delicate yuzu zest on top, set in a warm wooden minimalist Japanese interior with soft ambient lighting."
+shop_name: Menya Inoichi
+summary: 교토 시모교구의 정수를 담은 멘야 이노이치는 미슐랭이 인정한 최고의 쇼유 라멘을 선보이는 예술적인 공간으로, 맑고 깊은 육수의 풍미가
+  일품입니다. 엄선된 식재료와 장인 정신이 깃든 이 프리미엄 라멘은 단순한 식사를 넘어선 미식의 절정을 선사합니다. 교토 여행에서 진정한 미식의
+  감동을 느끼고 싶다면 반드시 방문해야 할 필수 코스로 추천합니다.
+thumbnail: /static/images/menya_inoichi.jpg
+title: '교토 시모교구의 보석: Menya Inoichi에서 만나는 인생 최고의 쇼유 라멘 (Best Ramen in Kyoto, Shimogyo)'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

@@ -1,15 +1,27 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-21'
+image_prompt: A steaming macro shot at a 45-degree angle of a bowl of Ramen Mutsumiya
+  miso ramen, featuring a rich and creamy orange-hued miso broth, thick-cut chashu
+  pork, and bright yellow curly noodles, set within a warm wooden interior of a traditional
+  Sapporo ramen shop with soft ambient lighting.
 lang: en
-title: "The Golden Standard of Miso: Why Ramen Mutsumiya is the Best Ramen in Hokkaido, Sapporo for Local Connoisseurs"
 lat: 43.0611
 lng: 141.3511
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/ramen_mutsumiya.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "Discover the artisanal soul of Hokkaido through the legendary miso broth at Ramen Mutsumiya, a sanctuary for those seeking authentic local flavors. This masterclass in ramen craftsmanship combines decades of tradition with a complex, multi-layered soup profile that defines the Sapporo culinary landscape. For the discerning traveler, it remains the ultimate destination to experience the warmth and depth of Japan's northernmost prefecture in every steaming bowl."
-image_prompt: "A steaming macro shot at a 45-degree angle of a bowl of Ramen Mutsumiya miso ramen, featuring a rich and creamy orange-hued miso broth, thick-cut chashu pork, and bright yellow curly noodles, set within a warm wooden interior of a traditional Sapporo ramen shop with soft ambient lighting."
+shop_name: Ramen Mutsumiya
+summary: Discover the artisanal soul of Hokkaido through the legendary miso broth
+  at Ramen Mutsumiya, a sanctuary for those seeking authentic local flavors. This
+  masterclass in ramen craftsmanship combines decades of tradition with a complex,
+  multi-layered soup profile that defines the Sapporo culinary landscape. For the
+  discerning traveler, it remains the ultimate destination to experience the warmth
+  and depth of Japan's northernmost prefecture in every steaming bowl.
+thumbnail: /static/images/ramen_mutsumiya.jpg
+title: 'The Golden Standard of Miso: Why Ramen Mutsumiya is the Best Ramen in Hokkaido,
+  Sapporo for Local Connoisseurs'
 ---
 
 ## The Soul of the Shop: History and Philosophy

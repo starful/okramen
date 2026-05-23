@@ -1,15 +1,24 @@
 ---
+address: Tokyo, Toshima
+agoda: ''
+categories:
+- 돈코츠
+- 심야영업
+date: '2026-04-12'
+image_prompt: Side profile close-up of Bankara Ramen, rich dark brown shoyu-tonkotsu
+  broth with floating white pork fat globules (seabura), thick chashu slices, bamboo
+  shoots, and a soft-boiled egg, set in a dark moody izakaya with warm spotlighting,
+  steam rising elegantly from the bowl, high resolution, photorealistic.
 lang: ko
-title: "도쿄 토시마 최고의 라멘(Best Ramen in Tokyo, Toshima): 반카라 라멘(Bankara Ramen) – 탐닉의 끝에서 만난 세아부라의 미학"
 lat: 35.7311
 lng: 139.7111
-categories: ["돈코츠", "심야영업"]
-thumbnail: "/static/images/bankara_ramen.jpg"
-address: "Tokyo, Toshima"
-date: "2026-04-12"
-agoda: ""
-summary: "도쿄 토시마의 심장을 울리는 반카라 라멘은 강렬한 세아부라와 깊은 간장 베이스가 어우러진 도쿄 스타일 돈코츠의 극치를 보여주며, 미식가들에게 잊지 못할 강렬한 경험을 선사합니다. 장인의 집념이 담긴 진득한 육수와 쫄깃한 면발의 조화는 늦은 밤까지 이어지는 활기찬 분위기 속에서 일본 라멘의 진정한 소울을 경험하게 합니다. 고농축 우마미의 정수를 느끼고 싶은 이들을 위한 이 시대 진정한 라멘의 성지이자 밤의 안식처입니다."
-image_prompt: "Side profile close-up of Bankara Ramen, rich dark brown shoyu-tonkotsu broth with floating white pork fat globules (seabura), thick chashu slices, bamboo shoots, and a soft-boiled egg, set in a dark moody izakaya with warm spotlighting, steam rising elegantly from the bowl, high resolution, photorealistic."
+shop_name: Bankara Ramen
+summary: 도쿄 토시마의 심장을 울리는 반카라 라멘은 강렬한 세아부라와 깊은 간장 베이스가 어우러진 도쿄 스타일 돈코츠의 극치를 보여주며, 미식가들에게
+  잊지 못할 강렬한 경험을 선사합니다. 장인의 집념이 담긴 진득한 육수와 쫄깃한 면발의 조화는 늦은 밤까지 이어지는 활기찬 분위기 속에서 일본 라멘의
+  진정한 소울을 경험하게 합니다. 고농축 우마미의 정수를 느끼고 싶은 이들을 위한 이 시대 진정한 라멘의 성지이자 밤의 안식처입니다.
+thumbnail: /static/images/bankara_ramen.jpg
+title: '도쿄 토시마 최고의 라멘(Best Ramen in Tokyo, Toshima): 반카라 라멘(Bankara Ramen) – 탐닉의 끝에서
+  만난 세아부라의 미학'
 ---
 
 ## The Soul of the Shop: History and Philosophy

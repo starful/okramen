@@ -1,15 +1,23 @@
 ---
+address: Kyoto, Kizugawa
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A dramatic top-down shot of a bowl of Muteppou's signature ultra-thick
+  tonkotsu ramen with dark brown, collagen-rich broth, thick chashu slices, and green
+  onions, set against a rustic wooden counter in a warm, steam-filled traditional
+  Japanese ramen shop atmosphere.
 lang: ko
-title: "교토 키즈가와의 정점: 무테포(無鉄砲) - 인생 최고의 돈코츠 라멘을 만나는 성지 (Best Ramen in Kyoto, Kizugawa)"
 lat: 34.7522
 lng: 135.8311
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/muteppou_kyoto.jpg"
-address: "Kyoto, Kizugawa"
-date: "2026-04-12"
-agoda: ""
-summary: "교토 키즈가와에 위치한 무테포는 오직 돼지 뼈와 물만으로 끓여낸 초고농축 돈코츠 라멘의 정점을 보여주는 전설적인 현지인 맛집입니다. 미슐랭 가이드급의 깊이 있는 육수와 장인 정신이 깃든 면발의 조화는 단순한 식사를 넘어선 미식의 감동을 선사합니다. 라멘 마니아라면 반드시 방문해야 할 이곳에서 타협 없는 진정한 로컬의 맛을 경험해 보시기 바랍니다."
-image_prompt: "A dramatic top-down shot of a bowl of Muteppou's signature ultra-thick tonkotsu ramen with dark brown, collagen-rich broth, thick chashu slices, and green onions, set against a rustic wooden counter in a warm, steam-filled traditional Japanese ramen shop atmosphere."
+shop_name: Muteppou Kyoto
+summary: 교토 키즈가와에 위치한 무테포는 오직 돼지 뼈와 물만으로 끓여낸 초고농축 돈코츠 라멘의 정점을 보여주는 전설적인 현지인 맛집입니다.
+  미슐랭 가이드급의 깊이 있는 육수와 장인 정신이 깃든 면발의 조화는 단순한 식사를 넘어선 미식의 감동을 선사합니다. 라멘 마니아라면 반드시 방문해야
+  할 이곳에서 타협 없는 진정한 로컬의 맛을 경험해 보시기 바랍니다.
+thumbnail: /static/images/muteppou_kyoto.jpg
+title: '교토 키즈가와의 정점: 무테포(無鉄砲) - 인생 최고의 돈코츠 라멘을 만나는 성지 (Best Ramen in Kyoto, Kizugawa)'
 ---
 
 ## The Soul of the Shop: History and Philosophy

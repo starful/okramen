@@ -1,15 +1,27 @@
 ---
+address: Osaka, Yodogawa
+agoda: ''
+categories:
+- Shoyu
+- Local Gem
+date: '2026-04-12'
+image_prompt: A steaming macro shot of a Shoyu ramen bowl from Jinrui Mina Menrui,
+  featuring an incredibly thick slab of braised chashu pork, dark rich soy-based broth
+  with golden fat droplets, whole-grain noodles peeking through, and a soft-boiled
+  egg, set against a warm wooden interior with soft bokeh lighting.
 lang: en
-title: "The Orchestration of Umami: Why Jinrui Mina Menrui is the Absolute Best Ramen in Osaka, Yodogawa"
 lat: 34.7311
 lng: 135.4911
-categories: ["Shoyu", "Local Gem"]
-thumbnail: "/static/images/jinrui_mina_menrui.jpg"
-address: "Osaka, Yodogawa"
-date: "2026-04-12"
-agoda: ""
-summary: "A masterclass in modern shoyu ramen, Jinrui Mina Menrui redefines Osaka’s culinary landscape through its legendary clam-infused broth and melt-in-your-mouth chashu. Nestled in the heart of Yodogawa, this shop bridges the gap between artisanal innovation and local comfort, making it an essential pilgrimage for every serious noodle enthusiast. Experience the harmony of flavor and melody in a bowl that captures the very soul of Kansai."
-image_prompt: "A steaming macro shot of a Shoyu ramen bowl from Jinrui Mina Menrui, featuring an incredibly thick slab of braised chashu pork, dark rich soy-based broth with golden fat droplets, whole-grain noodles peeking through, and a soft-boiled egg, set against a warm wooden interior with soft bokeh lighting."
+shop_name: Jinrui Mina Menrui
+summary: A masterclass in modern shoyu ramen, Jinrui Mina Menrui redefines Osaka’s
+  culinary landscape through its legendary clam-infused broth and melt-in-your-mouth
+  chashu. Nestled in the heart of Yodogawa, this shop bridges the gap between artisanal
+  innovation and local comfort, making it an essential pilgrimage for every serious
+  noodle enthusiast. Experience the harmony of flavor and melody in a bowl that captures
+  the very soul of Kansai.
+thumbnail: /static/images/jinrui_mina_menrui.jpg
+title: 'The Orchestration of Umami: Why Jinrui Mina Menrui is the Absolute Best Ramen
+  in Osaka, Yodogawa'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

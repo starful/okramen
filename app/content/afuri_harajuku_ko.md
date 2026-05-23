@@ -1,14 +1,19 @@
 ---
+address: Tokyo, Shibuya
+agoda: ''
+categories:
+- 시오
+- 현지인맛집
+date: '2026-03-28'
 lang: ko
-title: "도쿄 시부야 최고의 라멘(Best Ramen in Tokyo, Shibuya): 아후리 하라주쿠의 유자 시오 라멘 미학"
 lat: 35.6715
 lng: 139.7032
-categories: ["시오", "현지인맛집"]
-thumbnail: "/static/images/afuri_harajuku.jpg"
-address: "Tokyo, Shibuya"
-date: "2026-03-28"
-agoda: ""
-summary: "도쿄 하라주쿠의 심장부에서 만나는 아후리(Afuri)는 전통적인 라멘의 틀을 깨고 유자의 산뜻함을 더한 혁신적인 유자 시오 라멘으로 전 세계 미식가들을 매료시킵니다. 엄선된 천연 재료와 가나가와현 아후리산의 맑은 물을 사용하여 빚어낸 황금빛 육수는 도쿄 여행에서 절대 놓쳐서는 안 될 최고의 한 그릇입니다. 세련된 인테리어와 오픈 키친의 역동적인 조리 과정이 더해져 오감을 자극하는 진정한 프리미엄 라멘 경험을 선사합니다."
+shop_name: Afuri Harajuku
+summary: 도쿄 하라주쿠의 심장부에서 만나는 아후리(Afuri)는 전통적인 라멘의 틀을 깨고 유자의 산뜻함을 더한 혁신적인 유자 시오 라멘으로
+  전 세계 미식가들을 매료시킵니다. 엄선된 천연 재료와 가나가와현 아후리산의 맑은 물을 사용하여 빚어낸 황금빛 육수는 도쿄 여행에서 절대 놓쳐서는
+  안 될 최고의 한 그릇입니다. 세련된 인테리어와 오픈 키친의 역동적인 조리 과정이 더해져 오감을 자극하는 진정한 프리미엄 라멘 경험을 선사합니다.
+thumbnail: /static/images/afuri_harajuku.jpg
+title: '도쿄 시부야 최고의 라멘(Best Ramen in Tokyo, Shibuya): 아후리 하라주쿠의 유자 시오 라멘 미학'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

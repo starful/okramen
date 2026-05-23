@@ -1,14 +1,19 @@
 ---
+address: Fukuoka, Hakata
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-03'
 lang: ko
-title: "후쿠오카 하카타 최고의 라멘: 이 한 그릇에 담긴 미식의 여정, 하카타 잇코샤"
 lat: 33.5891
 lng: 130.4201
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/hakata_ikkousha.jpg"
-address: "Fukuoka, Hakata"
-date: "2026-04-03"
-agoda: ""
-summary: "후쿠오카 하카타의 숨겨진 보석, 하카타 잇코샤는 단순한 라멘이 아닌, 깊은 역사와 장인의 혼이 담긴 미식 경험을 선사합니다. 한 모금에 펼쳐지는 진한 돈코츠 육수의 향연은 당신의 미각을 깨우고, 잊을 수 없는 감동을 안겨줄 것입니다. 현지인들이 극찬하는 이 진정한 로컬 맛집에서 라멘의 정수를 만나보세요."
+shop_name: Hakata Ikkousha
+summary: 후쿠오카 하카타의 숨겨진 보석, 하카타 잇코샤는 단순한 라멘이 아닌, 깊은 역사와 장인의 혼이 담긴 미식 경험을 선사합니다. 한 모금에
+  펼쳐지는 진한 돈코츠 육수의 향연은 당신의 미각을 깨우고, 잊을 수 없는 감동을 안겨줄 것입니다. 현지인들이 극찬하는 이 진정한 로컬 맛집에서
+  라멘의 정수를 만나보세요.
+thumbnail: /static/images/hakata_ikkousha.jpg
+title: '후쿠오카 하카타 최고의 라멘: 이 한 그릇에 담긴 미식의 여정, 하카타 잇코샤'
 ---
 
 ## Philosophy & Soul: 하카타 돈코츠의 영혼을 잇다

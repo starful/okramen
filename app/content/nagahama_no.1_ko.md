@@ -1,15 +1,25 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-19'
+image_prompt: A dramatic top-down shot of a steaming bowl of Nagahama No.1 tonkotsu
+  ramen on a rustic wooden counter seat, the broth a creamy pale ivory with glistening
+  droplets of fat, thin white noodles peaking through, topped with tender chashu slices
+  and bright green scallions, warm amber lighting reflecting off the soup's surface,
+  cinematic depth of field.
 lang: ko
-title: "후쿠오카 츄오구의 정점: 하카타 소울푸드의 정수, 나가하마 넘버원(Nagahama No.1) - Best Ramen in Fukuoka, Chuo"
 lat: 33.5911
 lng: 130.3811
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/nagahama_no.1.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "후쿠오카 정통 돈코츠의 원형을 보존하며 현지인들의 압도적인 지지를 받는 나가하마 넘버원은 투박함 속에 숨겨진 깊은 감칠맛의 정수를 보여줍니다. 50년 넘는 세월 동안 변함없이 자리를 지켜온 이곳의 육수는 단순한 음식을 넘어 도시의 역사를 담아낸 하나의 예술 작품과도 같습니다. 세밀하게 조율된 극세면과 진한 돈코츠 육수의 완벽한 조화는 미식가들에게 잊지 못할 강렬한 여운을 선사합니다."
-image_prompt: "A dramatic top-down shot of a steaming bowl of Nagahama No.1 tonkotsu ramen on a rustic wooden counter seat, the broth a creamy pale ivory with glistening droplets of fat, thin white noodles peaking through, topped with tender chashu slices and bright green scallions, warm amber lighting reflecting off the soup's surface, cinematic depth of field."
+shop_name: Nagahama No.1
+summary: 후쿠오카 정통 돈코츠의 원형을 보존하며 현지인들의 압도적인 지지를 받는 나가하마 넘버원은 투박함 속에 숨겨진 깊은 감칠맛의 정수를
+  보여줍니다. 50년 넘는 세월 동안 변함없이 자리를 지켜온 이곳의 육수는 단순한 음식을 넘어 도시의 역사를 담아낸 하나의 예술 작품과도 같습니다.
+  세밀하게 조율된 극세면과 진한 돈코츠 육수의 완벽한 조화는 미식가들에게 잊지 못할 강렬한 여운을 선사합니다.
+thumbnail: /static/images/nagahama_no.1.jpg
+title: '후쿠오카 츄오구의 정점: 하카타 소울푸드의 정수, 나가하마 넘버원(Nagahama No.1) - Best Ramen in Fukuoka,
+  Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

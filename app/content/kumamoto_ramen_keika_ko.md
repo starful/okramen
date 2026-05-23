@@ -1,15 +1,24 @@
 ---
+address: Kumamoto, Kumamoto
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A steaming macro shot of Kumamoto Ramen Keika, focusing on the contrast
+  between the ivory tonkotsu broth and the ink-black ma-yu oil swirls, topped with
+  glistening cubes of slow-braised pork belly and fresh green scallions, set in a
+  dark moody izakaya with a spotlight on the bowl.
 lang: ko
-title: "The Ultimate Masterpiece: Best Ramen in Kumamoto, Kumamoto - Kumamoto Ramen Keika"
 lat: 32.8011
 lng: 130.7111
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/kumamoto_ramen_keika.jpg"
-address: "Kumamoto, Kumamoto"
-date: "2026-04-14"
-agoda: ""
-summary: "1955년 창업 이래 쿠마모토 라멘의 원형을 보존해 온 '케이카 라멘'은 흑마늘 기름(마유)의 강렬한 풍미와 진한 돈코츠의 정수를 보여주는 미식의 성지입니다. 현지인들이 사랑하는 이 유서 깊은 공간에서 태육(타로)의 부드러움과 수제 면발의 조화를 경험하며 진정한 일본 라멘의 깊이를 만끽해 보시기 바랍니다."
-image_prompt: "A steaming macro shot of Kumamoto Ramen Keika, focusing on the contrast between the ivory tonkotsu broth and the ink-black ma-yu oil swirls, topped with glistening cubes of slow-braised pork belly and fresh green scallions, set in a dark moody izakaya with a spotlight on the bowl."
+shop_name: Kumamoto Ramen Keika
+summary: 1955년 창업 이래 쿠마모토 라멘의 원형을 보존해 온 '케이카 라멘'은 흑마늘 기름(마유)의 강렬한 풍미와 진한 돈코츠의 정수를
+  보여주는 미식의 성지입니다. 현지인들이 사랑하는 이 유서 깊은 공간에서 태육(타로)의 부드러움과 수제 면발의 조화를 경험하며 진정한 일본 라멘의
+  깊이를 만끽해 보시기 바랍니다.
+thumbnail: /static/images/kumamoto_ramen_keika.jpg
+title: 'The Ultimate Masterpiece: Best Ramen in Kumamoto, Kumamoto - Kumamoto Ramen
+  Keika'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

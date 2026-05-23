@@ -1,15 +1,28 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-21'
+image_prompt: A side profile close-up of a steaming bowl of creamy Tonkotsu ramen
+  at Yamei Ramen, featuring a milky white pork bone broth glistening with golden fat
+  droplets, topped with tender flame-seared chashu pork, a perfectly jammy ajitama
+  egg, and vibrant green scallions, set against a dark moody izakaya background with
+  warm amber lighting reflecting off the ceramic bowl.
 lang: en
-title: "The Unrivaled King of Porcine Perfection: Why Yamei Ramen is the Best Ramen in Hokkaido, Sapporo"
 lat: 43.0611
 lng: 141.3511
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/yamei_ramen.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "Yamei Ramen stands as a clandestine titan in Sapporo’s competitive culinary landscape, offering a masterclass in rich, velvet-textured Tonkotsu that defies the city's traditional miso-heavy expectations. This local sanctuary elevates porcine broth to a spiritual experience, blending rustic Hokkaido charm with the precision of high-end gastronomy. For those seeking the pinnacle of authentic noodle craftsmanship away from the tourist trails, this is an unmissable pilgrimage for the palate."
-image_prompt: "A side profile close-up of a steaming bowl of creamy Tonkotsu ramen at Yamei Ramen, featuring a milky white pork bone broth glistening with golden fat droplets, topped with tender flame-seared chashu pork, a perfectly jammy ajitama egg, and vibrant green scallions, set against a dark moody izakaya background with warm amber lighting reflecting off the ceramic bowl."
+shop_name: Yamei Ramen
+summary: Yamei Ramen stands as a clandestine titan in Sapporo’s competitive culinary
+  landscape, offering a masterclass in rich, velvet-textured Tonkotsu that defies
+  the city's traditional miso-heavy expectations. This local sanctuary elevates porcine
+  broth to a spiritual experience, blending rustic Hokkaido charm with the precision
+  of high-end gastronomy. For those seeking the pinnacle of authentic noodle craftsmanship
+  away from the tourist trails, this is an unmissable pilgrimage for the palate.
+thumbnail: /static/images/yamei_ramen.jpg
+title: 'The Unrivaled King of Porcine Perfection: Why Yamei Ramen is the Best Ramen
+  in Hokkaido, Sapporo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

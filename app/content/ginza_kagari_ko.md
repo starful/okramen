@@ -1,4 +1,5 @@
 ---
+shop_name: "Ginza Kagari"
 lang: ko
 title: "도쿄 중앙구 최고의 라멘, 긴자 카가리(Ginza Kagari): 미슐랭이 인정한 궁극의 토리파이탄 미학"
 lat: 35.6718

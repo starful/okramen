@@ -1,15 +1,21 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- 치킨라멘
+- 현지인맛집
+date: '2026-04-19'
+image_prompt: A side profile close-up of a vibrant red Tantanmen bowl at Menya Masamoto,
+  featuring creamy reddish-orange broth, topped with perfectly seasoned minced pork
+  and fresh green onions, steaming hot macro shot, set in a warm wooden interior of
+  a traditional Japanese counter seat with soft cinematic lighting.
 lang: ko
-title: "후쿠오카 츄오구 최고의 라멘, 멘야 마사모토(Menya Masamoto): 탄탄멘의 정점에 도달한 미식의 성지"
 lat: 33.5911
 lng: 130.4011
-categories: ["치킨라멘", "현지인맛집"]
-thumbnail: "/static/images/menya_masamoto.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "후쿠오카 츄오구의 숨은 보석, 멘야 마사모토에서 펼쳐지는 강렬한 탄탄멘의 향연과 깊이 있는 육수의 미학을 경험하십시오."
-image_prompt: "A side profile close-up of a vibrant red Tantanmen bowl at Menya Masamoto, featuring creamy reddish-orange broth, topped with perfectly seasoned minced pork and fresh green onions, steaming hot macro shot, set in a warm wooden interior of a traditional Japanese counter seat with soft cinematic lighting."
+shop_name: Menya Masamoto
+summary: 후쿠오카 츄오구의 숨은 보석, 멘야 마사모토에서 펼쳐지는 강렬한 탄탄멘의 향연과 깊이 있는 육수의 미학을 경험하십시오.
+thumbnail: /static/images/menya_masamoto.jpg
+title: '후쿠오카 츄오구 최고의 라멘, 멘야 마사모토(Menya Masamoto): 탄탄멘의 정점에 도달한 미식의 성지'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

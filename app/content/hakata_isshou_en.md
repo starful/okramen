@@ -1,15 +1,26 @@
 ---
+address: 3-1-6 Hakataekihigashi, Hakata-ku, Fukuoka, Japan
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-19'
+image_prompt: A side profile close-up of a steaming bowl of Hakata Isshou tonkotsu
+  ramen, featuring its signature frothy 'cappuccino' beige broth, thin straight noodles
+  partially lifted by chopsticks, two slices of tender chashu, and a sprinkle of green
+  onions, set against a warm wooden interior with soft golden lighting.
 lang: en
-title: "The Unrivaled King of Froth: Why Hakata Isshou is the Best Ramen in Fukuoka, Hakata"
 lat: 33.5922
 lng: 130.4211
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/hakata_isshou.jpg"
-address: "3-1-6 Hakataekihigashi, Hakata-ku, Fukuoka, Japan"
-date: "2026-04-19"
-agoda: ""
-summary: "Experience the legendary 'Pork Bone Cappuccino' that has redefined the standards of Hakata tonkotsu for a new generation of gourmands. This local gem offers a sensory explosion of creamy, frothy broth and artisan noodles that justifies every minute spent in its famous queue. Discover why Hakata Isshou remains the undisputed pilgrimage site for those seeking the most authentic and intense ramen experience in Fukuoka."
-image_prompt: "A side profile close-up of a steaming bowl of Hakata Isshou tonkotsu ramen, featuring its signature frothy 'cappuccino' beige broth, thin straight noodles partially lifted by chopsticks, two slices of tender chashu, and a sprinkle of green onions, set against a warm wooden interior with soft golden lighting."
+shop_name: Hakata Isshou
+summary: Experience the legendary 'Pork Bone Cappuccino' that has redefined the standards
+  of Hakata tonkotsu for a new generation of gourmands. This local gem offers a sensory
+  explosion of creamy, frothy broth and artisan noodles that justifies every minute
+  spent in its famous queue. Discover why Hakata Isshou remains the undisputed pilgrimage
+  site for those seeking the most authentic and intense ramen experience in Fukuoka.
+thumbnail: /static/images/hakata_isshou.jpg
+title: 'The Unrivaled King of Froth: Why Hakata Isshou is the Best Ramen in Fukuoka,
+  Hakata'
 ---
 
 ## The Soul of the Shop: History and Philosophy

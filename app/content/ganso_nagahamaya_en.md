@@ -1,15 +1,27 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-12'
+image_prompt: A 45-degree angle close-up of a steaming bowl of Nagahama ramen at a
+  rustic wooden counter seat, featuring a light and clear Tonkotsu broth, topped with
+  finely shredded pork and a handful of bright green scallions, captured in a warm,
+  nostalgic atmosphere with steam rising gently.
 lang: en
-title: "The Primal Essence of Tonkotsu: Why Ganso Nagahamaya is the Best Ramen in Fukuoka, Chuo"
 lat: 33.5955
 lng: 130.3811
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/ganso_nagahamaya.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-12"
-agoda: ""
-summary: "Experience the spiritual birthplace of Nagahama ramen, where a thin, soul-piercing pork broth meets the lightning-fast efficiency of Fukuoka's historic fish market docks. This legendary institution offers a masterclass in minimalist perfection, delivering an authentic local flavor that has remained unchanged for generations. From the ritualistic 'Kae-dama' to the rustic harbor atmosphere, it is an essential pilgrimage for any true culinary enthusiast."
-image_prompt: "A 45-degree angle close-up of a steaming bowl of Nagahama ramen at a rustic wooden counter seat, featuring a light and clear Tonkotsu broth, topped with finely shredded pork and a handful of bright green scallions, captured in a warm, nostalgic atmosphere with steam rising gently."
+shop_name: Ganso Nagahamaya
+summary: Experience the spiritual birthplace of Nagahama ramen, where a thin, soul-piercing
+  pork broth meets the lightning-fast efficiency of Fukuoka's historic fish market
+  docks. This legendary institution offers a masterclass in minimalist perfection,
+  delivering an authentic local flavor that has remained unchanged for generations.
+  From the ritualistic 'Kae-dama' to the rustic harbor atmosphere, it is an essential
+  pilgrimage for any true culinary enthusiast.
+thumbnail: /static/images/ganso_nagahamaya.jpg
+title: 'The Primal Essence of Tonkotsu: Why Ganso Nagahamaya is the Best Ramen in
+  Fukuoka, Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

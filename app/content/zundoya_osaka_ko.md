@@ -1,15 +1,23 @@
 ---
+address: Osaka, Chuo
+agoda: ''
+categories:
+- 돈코츠
+- 심야영업
+date: '2026-04-12'
+image_prompt: A dramatic 45-degree angle close-up of a steaming bowl of Zundoya spicy
+  tonkotsu ramen, rich reddish-creamy broth with visible glistening back fat, topped
+  with perfectly seared chashu and a soft-boiled egg, set in a neon-lit late night
+  Osaka izakaya atmosphere, cinematic lighting, ultra-realistic textures.
 lang: ko
-title: "오사카 츄오구 최고의 라멘 (Best Ramen in Osaka, Chuo): 즈도야(Zundoya)가 선사하는 강렬한 돈코츠의 미학"
 lat: 34.6711
 lng: 135.5011
-categories: ["돈코츠", "심야영업"]
-thumbnail: "/static/images/zundoya_osaka.jpg"
-address: "Osaka, Chuo"
-date: "2026-04-12"
-agoda: ""
-summary: "오사카 츄오구의 중심에서 24시간 불을 밝히는 즈도야는 20시간 이상 고아낸 농밀한 돼지 사골 육수와 중독적인 매운맛의 정수를 보여주는 돈코츠 라멘의 성지입니다. 이곳은 단순한 한 끼를 넘어 오사카 심야 미식 문화의 정점을 경험하게 하며, 육중한 무게감의 육수와 정교한 면의 조화로 미식가들의 찬사를 받습니다."
-image_prompt: "A dramatic 45-degree angle close-up of a steaming bowl of Zundoya spicy tonkotsu ramen, rich reddish-creamy broth with visible glistening back fat, topped with perfectly seared chashu and a soft-boiled egg, set in a neon-lit late night Osaka izakaya atmosphere, cinematic lighting, ultra-realistic textures."
+shop_name: Zundoya Osaka
+summary: 오사카 츄오구의 중심에서 24시간 불을 밝히는 즈도야는 20시간 이상 고아낸 농밀한 돼지 사골 육수와 중독적인 매운맛의 정수를 보여주는
+  돈코츠 라멘의 성지입니다. 이곳은 단순한 한 끼를 넘어 오사카 심야 미식 문화의 정점을 경험하게 하며, 육중한 무게감의 육수와 정교한 면의 조화로
+  미식가들의 찬사를 받습니다.
+thumbnail: /static/images/zundoya_osaka.jpg
+title: '오사카 츄오구 최고의 라멘 (Best Ramen in Osaka, Chuo): 즈도야(Zundoya)가 선사하는 강렬한 돈코츠의 미학'
 ---
 
 ## The Soul of the Shop: History and Philosophy

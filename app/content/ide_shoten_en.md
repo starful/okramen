@@ -1,15 +1,26 @@
 ---
+address: Wakayama, Wakayama
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-14'
+image_prompt: 45-degree angle shot of a steaming bowl of Ide Shoten ramen on a rustic
+  wooden counter, featuring a deep mahogany-colored Tonkotsu-Shoyu broth with a thick
+  layer of fat, thin straight noodles, and delicate pink whirlpool narutomaki, set
+  in a warm wooden interior with soft golden lighting.
 lang: en
-title: "The Alchemist of Umami: Why Ide Shoten is the Best Ramen in Wakayama, Wakayama"
 lat: 34.2281
 lng: 135.1911
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/ide_shoten.jpg"
-address: "Wakayama, Wakayama"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience the legendary 'Ide-kei' broth at Ide Shoten, a humble sanctuary that redefined the global perception of Wakayama’s rich, emulsified pork bone and soy sauce tradition. This artisanal bowl balances a deep, gelatinous foundation with a sharp soy finish, offering a masterclass in culinary heritage. From its historic roots to its status as a local pilgrimage site, Ide Shoten remains the definitive destination for any serious ramen connoisseur."
-image_prompt: "45-degree angle shot of a steaming bowl of Ide Shoten ramen on a rustic wooden counter, featuring a deep mahogany-colored Tonkotsu-Shoyu broth with a thick layer of fat, thin straight noodles, and delicate pink whirlpool narutomaki, set in a warm wooden interior with soft golden lighting."
+shop_name: IDE Shoten
+summary: Experience the legendary 'Ide-kei' broth at Ide Shoten, a humble sanctuary
+  that redefined the global perception of Wakayama’s rich, emulsified pork bone and
+  soy sauce tradition. This artisanal bowl balances a deep, gelatinous foundation
+  with a sharp soy finish, offering a masterclass in culinary heritage. From its historic
+  roots to its status as a local pilgrimage site, Ide Shoten remains the definitive
+  destination for any serious ramen connoisseur.
+thumbnail: /static/images/ide_shoten.jpg
+title: 'The Alchemist of Umami: Why Ide Shoten is the Best Ramen in Wakayama, Wakayama'
 ---
 
 ## The Soul of the Shop: History and Philosophy

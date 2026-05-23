@@ -1,15 +1,26 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-19'
+image_prompt: A side profile close-up of a steaming bowl of Nagahama Tonkotsu ramen
+  with milky white broth, topped with finely chopped green onions and thin slices
+  of salt-cured pork, set against a rustic wooden counter in a bright minimalist shop
+  interior, steam rising in a soft glow.
 lang: en
-title: "The Unyielding Legacy of Fukuoka's Soul: Why Ganso Ramen Nagahama-ya is the Best Ramen in Fukuoka, Chuo"
 lat: 33.5925
 lng: 130.3855
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/ganso_ramen_nagahama-ya.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-19"
-agoda: ""
-summary: "Discover the historic cradle of Nagahama Tonkotsu where simplicity meets culinary mastery in a bowl unchanged for decades. This local legend offers an authentic, high-speed dining experience that defines the very essence of Fukuoka's vibrant food culture. From its revolutionary noodle refills to its uniquely savory broth, this is a pilgrimage every true ramen aficionado must undertake."
-image_prompt: "A side profile close-up of a steaming bowl of Nagahama Tonkotsu ramen with milky white broth, topped with finely chopped green onions and thin slices of salt-cured pork, set against a rustic wooden counter in a bright minimalist shop interior, steam rising in a soft glow."
+shop_name: Ganso Ramen Nagahama YA
+summary: Discover the historic cradle of Nagahama Tonkotsu where simplicity meets
+  culinary mastery in a bowl unchanged for decades. This local legend offers an authentic,
+  high-speed dining experience that defines the very essence of Fukuoka's vibrant
+  food culture. From its revolutionary noodle refills to its uniquely savory broth,
+  this is a pilgrimage every true ramen aficionado must undertake.
+thumbnail: /static/images/ganso_ramen_nagahama-ya.jpg
+title: 'The Unyielding Legacy of Fukuoka''s Soul: Why Ganso Ramen Nagahama-ya is the
+  Best Ramen in Fukuoka, Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

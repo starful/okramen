@@ -1,15 +1,24 @@
 ---
+address: Tokyo, Minato
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A side profile close-up of a massive bowl of Jiro-style ramen at Ramen
+  Jiro Mita, featuring a mountain of blanched bean sprouts and cabbage, thick-cut
+  fatty chashu pork slices, and a spoonful of minced garlic, with thick dark brown
+  tonkotsu soy broth visible at the bottom, set in a rustic counter seat with warm
+  wooden interior, steam rising dramatically, hyper-realistic, 8k.
 lang: ko
-title: "도쿄 미나토구 최고의 라멘(Best Ramen in Tokyo, Minato) - 라멘 지로 미타 본점: 전설의 시작과 지로리언의 성지"
 lat: 35.6481
 lng: 139.7411
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ramen_jiro_mita.jpg"
-address: "Tokyo, Minato"
-date: "2026-04-12"
-agoda: ""
-summary: "라멘 지로 미타 본점은 전설적인 '지로리언' 문화의 발상지이자, 압도적인 양과 강렬한 돈코츠 육수의 정수를 보여주는 도쿄 최고의 미식 성지입니다. 이곳은 단순한 식당을 넘어 하나의 철학이자 도전이며, 투박하지만 깊이 있는 맛으로 전 세계 미식가들을 매료시키는 특별한 경험을 선사합니다. 세월의 흔적이 묻어나는 노포의 분위기 속에서 펼쳐지는 거대한 라멘 한 그릇은 당신의 미식 세계관을 완전히 뒤바꿔 놓을 것입니다."
-image_prompt: "A side profile close-up of a massive bowl of Jiro-style ramen at Ramen Jiro Mita, featuring a mountain of blanched bean sprouts and cabbage, thick-cut fatty chashu pork slices, and a spoonful of minced garlic, with thick dark brown tonkotsu soy broth visible at the bottom, set in a rustic counter seat with warm wooden interior, steam rising dramatically, hyper-realistic, 8k."
+shop_name: Ramen Jiro Mita
+summary: 라멘 지로 미타 본점은 전설적인 '지로리언' 문화의 발상지이자, 압도적인 양과 강렬한 돈코츠 육수의 정수를 보여주는 도쿄 최고의 미식
+  성지입니다. 이곳은 단순한 식당을 넘어 하나의 철학이자 도전이며, 투박하지만 깊이 있는 맛으로 전 세계 미식가들을 매료시키는 특별한 경험을 선사합니다.
+  세월의 흔적이 묻어나는 노포의 분위기 속에서 펼쳐지는 거대한 라멘 한 그릇은 당신의 미식 세계관을 완전히 뒤바꿔 놓을 것입니다.
+thumbnail: /static/images/ramen_jiro_mita.jpg
+title: '도쿄 미나토구 최고의 라멘(Best Ramen in Tokyo, Minato) - 라멘 지로 미타 본점: 전설의 시작과 지로리언의 성지'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

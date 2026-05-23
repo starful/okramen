@@ -1,15 +1,26 @@
 ---
+address: Kyoto, Nakagyo
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-12'
+image_prompt: A steaming macro shot of a bowl of Tonkotsu ramen at Ramen Sen-no-kaze,
+  featuring a thick ivory-colored broth, perfectly charred aburi chashu with glistening
+  fat, and a golden-yolk ajitama, set against a warm wooden interior with soft atmospheric
+  lighting.
 lang: en
-title: "The Kyoto Umami Odyssey: Why Ramen Sen-no-kaze is the Best Ramen in Kyoto, Nakagyo"
 lat: 35.0033
 lng: 135.7688
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/ramen_sen-no-kaze.jpg"
-address: "Kyoto, Nakagyo"
-date: "2026-04-12"
-agoda: ""
-summary: "Experience the pinnacle of refined Kyoto craftsmanship where creamy tonkotsu meets artistic precision in the heart of Nakagyo. This local gem offers a transformative dining experience that redefines the boundaries of traditional pork-bone broth. Prepare for an unforgettable journey through layers of deep umami and torch-seared perfection."
-image_prompt: "A steaming macro shot of a bowl of Tonkotsu ramen at Ramen Sen-no-kaze, featuring a thick ivory-colored broth, perfectly charred aburi chashu with glistening fat, and a golden-yolk ajitama, set against a warm wooden interior with soft atmospheric lighting."
+shop_name: Ramen SEN NO Kaze
+summary: Experience the pinnacle of refined Kyoto craftsmanship where creamy tonkotsu
+  meets artistic precision in the heart of Nakagyo. This local gem offers a transformative
+  dining experience that redefines the boundaries of traditional pork-bone broth.
+  Prepare for an unforgettable journey through layers of deep umami and torch-seared
+  perfection.
+thumbnail: /static/images/ramen_sen-no-kaze.jpg
+title: 'The Kyoto Umami Odyssey: Why Ramen Sen-no-kaze is the Best Ramen in Kyoto,
+  Nakagyo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

@@ -1,16 +1,24 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-03'
 lang: en
-title: "A Culinary Revelation: Sumire Sapporo – The Best Miso Ramen in Hokkaido, Sapporo"
 lat: 43.0344
 lng: 141.3711
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/sumire_sapporo.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-03"
-agoda: ""
-summary: "Step into Sumire Sapporo and prepare for a transformative culinary journey where the soul of Hokkaido finds expression in every bowl. Their legendary miso ramen, a masterpiece of depth and complexity, promises an umami explosion unlike any other. This is not just a meal; it's an unforgettable encounter with the true spirit of Japanese ramen, leaving an indelible mark on your palate and memory."
-seo_title: "Sumire Ramen Sapporo — Hokkaido Miso Classic | OKRamen"
-seo_description: "Sumire Sapporo: classic Hokkaido miso ramen (lard, ginger, wavy noodles). Branches, map, hours, and what to order — OKRamen trip guide."
+seo_description: 'Sumire Sapporo: classic Hokkaido miso ramen (lard, ginger, wavy
+  noodles). Branches, map, hours, and what to order — OKRamen trip guide.'
+seo_title: Sumire Ramen Sapporo — Hokkaido Miso Classic | OKRamen
+shop_name: Sumire Sapporo
+summary: Step into Sumire Sapporo and prepare for a transformative culinary journey
+  where the soul of Hokkaido finds expression in every bowl. Their legendary miso
+  ramen, a masterpiece of depth and complexity, promises an umami explosion unlike
+  any other. This is not just a meal; it's an unforgettable encounter with the true
+  spirit of Japanese ramen, leaving an indelible mark on your palate and memory.
+thumbnail: /static/images/sumire_sapporo.jpg
+title: 'A Culinary Revelation: Sumire Sapporo – The Best Miso Ramen in Hokkaido, Sapporo'
 ---
 
 ## Philosophy & Soul: A Legacy Steeped in Miso Mastery

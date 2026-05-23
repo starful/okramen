@@ -1,15 +1,27 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- Tonkotsu
+- Premium
+date: '2026-04-12'
+image_prompt: A steaming macro shot of Ippudo's signature Akamaru ramen at the Daimyo
+  flagship, focusing on the dark swirl of fragrant garlic oil and spicy miso paste
+  melting into a creamy, ivory-white Tonkotsu broth, set against a warm wooden counter
+  with soft, golden ambient lighting.
 lang: en
-title: "The Genesis of Tonkotsu Perfection: Why Ippudo Daimyo is the Best Ramen in Fukuoka, Chuo"
 lat: 33.5877
 lng: 130.3944
-categories: ["Tonkotsu", "Premium"]
-thumbnail: "/static/images/ippudo_daimyo.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-12"
-agoda: ""
-summary: "Ippudo Daimyo stands as the hallowed ancestral home of a global culinary empire, offering a refined and artisanal Tonkotsu experience that transcends its international counterparts. This flagship location delivers a masterclass in balance, pairing a velvet-textured pork bone broth with precision-crafted noodles that define the Hakata spirit. For those seeking the ultimate gastronomic pilgrimage, this is the definitive destination for the best ramen in Fukuoka, Chuo."
-image_prompt: "A steaming macro shot of Ippudo's signature Akamaru ramen at the Daimyo flagship, focusing on the dark swirl of fragrant garlic oil and spicy miso paste melting into a creamy, ivory-white Tonkotsu broth, set against a warm wooden counter with soft, golden ambient lighting."
+shop_name: Ippudo Daimyo
+summary: Ippudo Daimyo stands as the hallowed ancestral home of a global culinary
+  empire, offering a refined and artisanal Tonkotsu experience that transcends its
+  international counterparts. This flagship location delivers a masterclass in balance,
+  pairing a velvet-textured pork bone broth with precision-crafted noodles that define
+  the Hakata spirit. For those seeking the ultimate gastronomic pilgrimage, this is
+  the definitive destination for the best ramen in Fukuoka, Chuo.
+thumbnail: /static/images/ippudo_daimyo.jpg
+title: 'The Genesis of Tonkotsu Perfection: Why Ippudo Daimyo is the Best Ramen in
+  Fukuoka, Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

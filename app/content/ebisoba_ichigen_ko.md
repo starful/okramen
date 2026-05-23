@@ -1,15 +1,23 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A 45-degree angle steaming macro shot of a bowl of Ebisoba Ichigen ramen,
+  featuring rich reddish-orange shrimp miso broth, topped with soft-boiled ajitama,
+  tender chashu, and signature red shrimp-infused tempura flakes, set in a warm wooden
+  interior of a traditional Sapporo ramen shop with soft ambient lighting.
 lang: ko
-title: "[미식 가이드] 홋카이도 삿포로 최고의 라멘(Best Ramen in Hokkaido, Sapporo), 에비소바 이치겐의 예술적 심연"
 lat: 43.0511
 lng: 141.3411
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/ebisoba_ichigen.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-12"
-agoda: ""
-summary: "홋카이도 대지의 축복과 바다의 정수를 한 그릇에 담아낸 에비소바 이치겐은 삿포로 라멘의 패러다임을 바꾼 독보적인 성지입니다. 수천 마리의 단새우 머리를 우려낸 진득한 육수와 깊은 미소의 풍미가 어우러져 미식가들에게 잊을 수 없는 미각의 충격을 선사합니다. 현지인과 여행객 모두를 매료시킨 이 전설적인 라멘은 단순한 한 끼를 넘어 삿포로가 가진 미식 철학의 정점을 보여줍니다."
-image_prompt: "A 45-degree angle steaming macro shot of a bowl of Ebisoba Ichigen ramen, featuring rich reddish-orange shrimp miso broth, topped with soft-boiled ajitama, tender chashu, and signature red shrimp-infused tempura flakes, set in a warm wooden interior of a traditional Sapporo ramen shop with soft ambient lighting."
+shop_name: Ebisoba Ichigen
+summary: 홋카이도 대지의 축복과 바다의 정수를 한 그릇에 담아낸 에비소바 이치겐은 삿포로 라멘의 패러다임을 바꾼 독보적인 성지입니다. 수천
+  마리의 단새우 머리를 우려낸 진득한 육수와 깊은 미소의 풍미가 어우러져 미식가들에게 잊을 수 없는 미각의 충격을 선사합니다. 현지인과 여행객 모두를
+  매료시킨 이 전설적인 라멘은 단순한 한 끼를 넘어 삿포로가 가진 미식 철학의 정점을 보여줍니다.
+thumbnail: /static/images/ebisoba_ichigen.jpg
+title: '[미식 가이드] 홋카이도 삿포로 최고의 라멘(Best Ramen in Hokkaido, Sapporo), 에비소바 이치겐의 예술적 심연'
 ---
 
 ## The Soul of the Shop: History and Philosophy

@@ -1,14 +1,21 @@
 ---
+address: 2-4-1 Shinjuku, Shinjuku-ku, Tokyo, Japan
+agoda: ''
+categories:
+- Shoyu
+- Premium
+date: '2026-04-03'
 lang: en
-title: "The Golden Standard: Why Konjiki Hototogisu is the Best Ramen in Tokyo, Shinjuku"
 lat: 35.6888
 lng: 139.7055
-categories: ["Shoyu", "Premium"]
-thumbnail: "/static/images/konjiki_hototogisu.jpg"
-address: "2-4-1 Shinjuku, Shinjuku-ku, Tokyo, Japan"
-date: "2026-04-03"
-agoda: ""
-summary: "Experience the pinnacle of culinary refinement at Konjiki Hototogisu, a Michelin-starred sanctuary where Hamaguri clams and truffle oil redefine the Shoyu ramen experience. This guide explores why this Shinjuku masterpiece remains the ultimate pilgrimage for gourmands seeking the best ramen in Tokyo. Discover the intricate layers of its world-famous triple-soup base and the artisanal philosophy of Chef Atsushi Yamamoto."
+shop_name: Konjiki Hototogisu
+summary: Experience the pinnacle of culinary refinement at Konjiki Hototogisu, a Michelin-starred
+  sanctuary where Hamaguri clams and truffle oil redefine the Shoyu ramen experience.
+  This guide explores why this Shinjuku masterpiece remains the ultimate pilgrimage
+  for gourmands seeking the best ramen in Tokyo. Discover the intricate layers of
+  its world-famous triple-soup base and the artisanal philosophy of Chef Atsushi Yamamoto.
+thumbnail: /static/images/konjiki_hototogisu.jpg
+title: 'The Golden Standard: Why Konjiki Hototogisu is the Best Ramen in Tokyo, Shinjuku'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

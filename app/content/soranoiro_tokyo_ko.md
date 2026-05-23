@@ -1,15 +1,22 @@
 ---
+address: Tokyo, Chiyoda
+agoda: ''
+categories:
+- 비건
+- 프리미엄
+date: '2026-04-14'
+image_prompt: A side profile close-up of Soranoiro's signature Vegan Veggie Soba in
+  a bright minimalist setting, featuring vibrant orange-colored vegetable broth, orange
+  paprika-infused noodles, topped with roasted seasonal vegetables and mashed potato,
+  natural soft lighting highlighting the steam.
 lang: ko
-title: "도쿄 미식의 정점: 치요다구 최고의 라멘(Best Ramen in Tokyo, Chiyoda), 소라노이로 도쿄(Soranoiro Tokyo)의 비건 미학"
 lat: 35.6811
 lng: 139.7671
-categories: ["비건", "프리미엄"]
-thumbnail: "/static/images/soranoiro_tokyo.jpg"
-address: "Tokyo, Chiyoda"
-date: "2026-04-14"
-agoda: ""
-summary: "도쿄역의 심장부에서 만나는 소라노이로 도쿄는 채소의 잠재력을 극한으로 끌어올린 미슐랭 등재 비건 라멘의 성지이자 프리미엄 미식의 결정체입니다."
-image_prompt: "A side profile close-up of Soranoiro's signature Vegan Veggie Soba in a bright minimalist setting, featuring vibrant orange-colored vegetable broth, orange paprika-infused noodles, topped with roasted seasonal vegetables and mashed potato, natural soft lighting highlighting the steam."
+shop_name: Soranoiro Tokyo
+summary: 도쿄역의 심장부에서 만나는 소라노이로 도쿄는 채소의 잠재력을 극한으로 끌어올린 미슐랭 등재 비건 라멘의 성지이자 프리미엄 미식의 결정체입니다.
+thumbnail: /static/images/soranoiro_tokyo.jpg
+title: '도쿄 미식의 정점: 치요다구 최고의 라멘(Best Ramen in Tokyo, Chiyoda), 소라노이로 도쿄(Soranoiro Tokyo)의
+  비건 미학'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

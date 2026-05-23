@@ -1,15 +1,26 @@
 ---
+address: Osaka, Kita
+agoda: ''
+categories:
+- Chicken
+- Local Gem
+date: '2026-04-12'
+image_prompt: A 45-degree angle close-up of a bowl of Ramen Yashichi's signature Shoyu
+  Tori Paitan, featuring a rich creamy golden-brown broth with delicate micro-foam,
+  topped with a perfectly soft-boiled ajitama, thick-cut chashu, and fresh green onions,
+  set against a warm wooden counter in a rustic, minimalist Japanese interior.
 lang: en
-title: "The Velvety Alchemist: Why Yashichi is the Undisputed Best Ramen in Osaka, Kita"
 lat: 34.7111
 lng: 135.4988
-categories: ["Chicken", "Local Gem"]
-thumbnail: "/static/images/ramen_yashichi.jpg"
-address: "Osaka, Kita"
-date: "2026-04-12"
-agoda: ""
-summary: "Discover the creamy poultry perfection of Ramen Yashichi, a legendary Osaka institution where high-pressure chicken reduction meets artisan soy sauce. This guide explores the meticulous craft behind their famous foam-topped broth and the exclusive ticketing system that preserves its local soul. Experience the pinnacle of Tori Paitan craftsmanship in the heart of Toyosaki."
-image_prompt: "A 45-degree angle close-up of a bowl of Ramen Yashichi's signature Shoyu Tori Paitan, featuring a rich creamy golden-brown broth with delicate micro-foam, topped with a perfectly soft-boiled ajitama, thick-cut chashu, and fresh green onions, set against a warm wooden counter in a rustic, minimalist Japanese interior."
+shop_name: Ramen Yashichi
+summary: Discover the creamy poultry perfection of Ramen Yashichi, a legendary Osaka
+  institution where high-pressure chicken reduction meets artisan soy sauce. This
+  guide explores the meticulous craft behind their famous foam-topped broth and the
+  exclusive ticketing system that preserves its local soul. Experience the pinnacle
+  of Tori Paitan craftsmanship in the heart of Toyosaki.
+thumbnail: /static/images/ramen_yashichi.jpg
+title: 'The Velvety Alchemist: Why Yashichi is the Undisputed Best Ramen in Osaka,
+  Kita'
 ---
 
 ## The Soul of the Shop: History and Philosophy

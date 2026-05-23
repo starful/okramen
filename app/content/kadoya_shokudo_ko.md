@@ -1,15 +1,22 @@
 ---
+address: Osaka, Nishi
+agoda: ''
+categories:
+- 쇼유
+- 프리미엄
+date: '2026-04-12'
+image_prompt: A side profile close-up of a premium Shoyu ramen bowl with translucent
+  golden-brown broth, thin silky noodles perfectly aligned, high-quality chashu, and
+  delicate green onions, set in a warm wooden interior with soft focused lighting,
+  8k resolution, cinematic food photography.
 lang: ko
-title: "[오사카 니시구] 궁극의 쇼유 라멘, 미슐랭이 인정한 Best Ramen in Osaka, Nishi: 카도야 식당(カドヤ食堂)"
 lat: 34.6755
 lng: 135.4855
-categories: ["쇼유", "프리미엄"]
-thumbnail: "/static/images/kadoya_shokudo.jpg"
-address: "Osaka, Nishi"
-date: "2026-04-12"
-agoda: ""
-summary: "오사카 니시구의 전설적인 라멘 명소, 카도야 식당에서 펼쳐지는 미식의 향연을 소개합니다. 엄선된 천연 재료와 마스터의 장인 정신이 빚어낸 쇼유 라멘의 정수를 경험해보세요. 미슐랭 가이드가 극찬한 이 시대 최고의 라멘을 향한 심도 깊은 분석을 지금 바로 확인하시길 바랍니다."
-image_prompt: "A side profile close-up of a premium Shoyu ramen bowl with translucent golden-brown broth, thin silky noodles perfectly aligned, high-quality chashu, and delicate green onions, set in a warm wooden interior with soft focused lighting, 8k resolution, cinematic food photography."
+shop_name: Kadoya Shokudo
+summary: 오사카 니시구의 전설적인 라멘 명소, 카도야 식당에서 펼쳐지는 미식의 향연을 소개합니다. 엄선된 천연 재료와 마스터의 장인 정신이
+  빚어낸 쇼유 라멘의 정수를 경험해보세요. 미슐랭 가이드가 극찬한 이 시대 최고의 라멘을 향한 심도 깊은 분석을 지금 바로 확인하시길 바랍니다.
+thumbnail: /static/images/kadoya_shokudo.jpg
+title: '[오사카 니시구] 궁극의 쇼유 라멘, 미슐랭이 인정한 Best Ramen in Osaka, Nishi: 카도야 식당(カドヤ食堂)'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

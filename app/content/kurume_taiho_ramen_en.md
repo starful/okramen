@@ -1,15 +1,27 @@
 ---
+address: 11-8 Hiyoshimachi, Kurume, Fukuoka 830-0031, Japan
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-19'
+image_prompt: A 45-degree angle close-up of a steaming bowl of Kurume Taiho Tonkotsu
+  ramen, showcasing a rich and opaque creamy pork broth topped with dark-brown fried
+  lard bits, thin slices of chashu, and a sheet of nori, set within a warm wooden
+  rustic interior with soft ambient lighting.
 lang: en
-title: "The Alchemical Perfection of Yobimodoshi: Why Kurume Taiho Ramen is the Absolute Best Ramen in Fukuoka, Kurume"
 lat: 33.3111
 lng: 130.5111
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/kurume_taiho_ramen.jpg"
-address: "11-8 Hiyoshimachi, Kurume, Fukuoka 830-0031, Japan"
-date: "2026-04-19"
-agoda: ""
-summary: "Experience the birthplace of Tonkotsu through the legendary 'Yobimodoshi' method at Kurume Taiho Ramen, a culinary pilgrimage for those seeking the deepest pork broth on earth. This historic institution offers a masterclass in umami, blending seven decades of continuous fermentation into a single, soul-stirring bowl. It is not merely a meal, but a profound encounter with the very DNA of Japanese ramen culture."
-image_prompt: "A 45-degree angle close-up of a steaming bowl of Kurume Taiho Tonkotsu ramen, showcasing a rich and opaque creamy pork broth topped with dark-brown fried lard bits, thin slices of chashu, and a sheet of nori, set within a warm wooden rustic interior with soft ambient lighting."
+shop_name: Kurume Taiho Ramen
+summary: Experience the birthplace of Tonkotsu through the legendary 'Yobimodoshi'
+  method at Kurume Taiho Ramen, a culinary pilgrimage for those seeking the deepest
+  pork broth on earth. This historic institution offers a masterclass in umami, blending
+  seven decades of continuous fermentation into a single, soul-stirring bowl. It is
+  not merely a meal, but a profound encounter with the very DNA of Japanese ramen
+  culture.
+thumbnail: /static/images/kurume_taiho_ramen.jpg
+title: 'The Alchemical Perfection of Yobimodoshi: Why Kurume Taiho Ramen is the Absolute
+  Best Ramen in Fukuoka, Kurume'
 ---
 
 ## The Soul of the Shop: History and Philosophy

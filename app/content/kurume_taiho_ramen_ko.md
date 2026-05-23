@@ -1,15 +1,24 @@
 ---
+address: Fukuoka, Kurume
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-19'
+image_prompt: A dramatic top-down shot of a classic Kurume Taiho Ramen bowl, featuring
+  a thick, creamy brownish-white Tonkotsu broth with visible oil bubbles, topped with
+  thin slices of charred Chashu, green onions, a sheet of nori, and signature crispy
+  fried lard bits, set on a rustic red counter in a warm wooden interior with steam
+  rising elegantly.
 lang: ko
-title: "후쿠오카 쿠루메 최고의 라멘(Best Ramen in Fukuoka, Kurume): 돈코츠의 발상지, 타이호 라멘의 요비모도시 미학"
 lat: 33.3111
 lng: 130.5111
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/kurume_taiho_ramen.jpg"
-address: "Fukuoka, Kurume"
-date: "2026-04-19"
-agoda: ""
-summary: "돈코츠 라멘의 기원지 쿠루메에서 70년 넘게 꺼지지 않는 불꽃으로 끓여낸 '요비모도시' 육수의 정수를 경험하십시오. 단순한 식사를 넘어 일본 식문화의 유산이자 살아있는 역사를 맛보는 압도적인 미식의 성지입니다. 현지인들이 생애 최고의 라멘으로 꼽는 이곳에서 진정한 돼지사골의 심연을 마주하게 될 것입니다."
-image_prompt: "A dramatic top-down shot of a classic Kurume Taiho Ramen bowl, featuring a thick, creamy brownish-white Tonkotsu broth with visible oil bubbles, topped with thin slices of charred Chashu, green onions, a sheet of nori, and signature crispy fried lard bits, set on a rustic red counter in a warm wooden interior with steam rising elegantly."
+shop_name: Kurume Taiho Ramen
+summary: 돈코츠 라멘의 기원지 쿠루메에서 70년 넘게 꺼지지 않는 불꽃으로 끓여낸 '요비모도시' 육수의 정수를 경험하십시오. 단순한 식사를
+  넘어 일본 식문화의 유산이자 살아있는 역사를 맛보는 압도적인 미식의 성지입니다. 현지인들이 생애 최고의 라멘으로 꼽는 이곳에서 진정한 돼지사골의
+  심연을 마주하게 될 것입니다.
+thumbnail: /static/images/kurume_taiho_ramen.jpg
+title: '후쿠오카 쿠루메 최고의 라멘(Best Ramen in Fukuoka, Kurume): 돈코츠의 발상지, 타이호 라멘의 요비모도시 미학'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

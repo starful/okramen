@@ -4,27 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- 파비콘 설정 (경로를 favicon.ico로 통일 추천) -->
     <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
         
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KG83DN7X1L"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-KG83DN7X1L');
     </script>
 
-    <!-- SEO: 동적 타이틀 및 설명 -->
     <title>{{ post.seo_title }}</title>
     <meta name="description" content="{{ post.seo_description }}">
     <meta name="robots" content="index,follow,max-image-preview:large">
-    <meta name="keywords" content="Ramen, {{ (post.categories or [])|join(', ') }}, {{ post.address }}, Japan Food Guide">
     
-    <!-- SEO: 표준 URL 및 다국어 관계 설정 -->
     <link rel="canonical" href="{{ site_url }}/ramen/{{ post.id }}" />
     {% if post.lang == 'en' %}
     <link rel="alternate" hreflang="ko" href="{{ site_url }}/ramen/{{ post.id | replace('_en', '_ko') }}" />
@@ -33,7 +27,6 @@
     {% endif %}
     <link rel="alternate" hreflang="x-default" href="{{ site_url }}/ramen/{{ post.id }}" />
 
-    <!-- SNS 공유 (Open Graph) -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ post.seo_title }}">
     <meta property="og:description" content="{{ post.seo_description }}">
@@ -44,12 +37,11 @@
     <meta name="twitter:description" content="{{ post.seo_description }}">
     <meta name="twitter:image" content="{{ post.thumbnail }}">
 
-    <!-- 구글 구조화 데이터 (JSON-LD): 검색 결과에 별점/위치 노출 확률 증가 -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
-      "name": "{{ post.title }}",
+      "name": "{{ post.shop_name }}",
       "image": "{{ post.thumbnail }}",
       "address": {
         "@type": "PostalAddress",
@@ -61,8 +53,8 @@
         "latitude": {{ post.lat|default(0) }},
         "longitude": {{ post.lng|default(0) }}
       },
-      "servesCuisine": "Japanese Ramen, {{ post.categories[0] if post.categories else '' }}",
-      "description": "{{ post.summary }}"
+      "servesCuisine": "Japanese Ramen{% if post.style_label %}, {{ post.style_label }}{% endif %}",
+      "description": {{ post.one_liner | tojson }}
     }
     </script>
 
@@ -73,7 +65,8 @@
 
     <article class="detail-container">
         <div class="detail-header">
-            <h1 class="detail-title">{{ post.title }}</h1>
+            <h1 class="detail-title">{{ post.h1_title }}</h1>
+            <p class="detail-one-liner">{{ post.one_liner }}</p>
             <div class="detail-meta">
                 📍 {{ post.address }} | 🏷️ {{ (post.categories or [])|join(', ') }} | 📅 {{ post.date }}
             </div>
@@ -92,12 +85,34 @@
             {% endif %}
         </div>
 
-        <!-- 이미지 ALT 태그 SEO 최적화 -->
-        <img src="{{ post.thumbnail }}" alt="Ramen at {{ post.title }} in {{ post.address }}" class="detail-img">
+        <section class="practical-guide" aria-labelledby="practical-guide-heading">
+            <h2 id="practical-guide-heading">{{ post.guide_heading }}</h2>
+            <dl class="practical-guide__dl">
+                <dt>{{ post.guide_labels.style }}</dt>
+                <dd>{{ post.style_label or '—' }}</dd>
+                <dt>{{ post.guide_labels.region }}</dt>
+                <dd>{{ post.region_label or post.address }}</dd>
+                <dt>{{ post.guide_labels.order }}</dt>
+                <dd>{{ post.what_to_order }}</dd>
+                <dt>{{ post.guide_labels.good_for }}</dt>
+                <dd>{{ post.good_for }}</dd>
+            </dl>
+            <h3 class="practical-guide__sub">{{ post.guide_labels.tips }}</h3>
+            <ul class="practical-guide__tips">
+                {% for tip in post.visitor_tips %}
+                <li>{{ tip }}</li>
+                {% endfor %}
+            </ul>
+        </section>
 
-        <div class="detail-content">
-            {{ content | safe }}
-        </div>
+        <img src="{{ post.thumbnail }}" alt="{{ post.shop_name }} — {{ post.style_label }} ramen in {{ post.region_label }}" class="detail-img">
+
+        <details class="detail-article-fold">
+            <summary>{{ post.guide_labels.background }}</summary>
+            <div class="detail-content">
+                {{ content | safe }}
+            </div>
+        </details>
 
         {% if related_ramens %}
         <section class="related-shops" aria-labelledby="related-ramen-heading">
@@ -112,7 +127,6 @@
         </section>
         {% endif %}
 
-        <!-- 수익형 링크 (Agoda 등) -->
         {% if post.agoda %}
         <div class="booking-box" style="text-align: center; margin: 50px 0; padding: 30px; background: #fff5f5; border-radius: 15px; border: 2px dashed #e74c3c;">
             <h3>🏨 Stay Near This Ramen Shop</h3>
@@ -126,6 +140,7 @@
 
         <div style="text-align: center; margin-top: 50px;">
             <a href="/" class="back-btn">🗺️ Back to Ramen Map</a>
+            <span class="detail-footer-links"> · <a href="/guide">Guides</a> · <a href="/about.html">About OKRamen</a></span>
         </div>
     </article>
     

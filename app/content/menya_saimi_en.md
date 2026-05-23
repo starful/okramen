@@ -1,15 +1,26 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-14'
+image_prompt: A side profile close-up of a steaming bowl of Menya Saimi miso ramen,
+  featuring a rich golden-brown opaque broth with a dollop of fresh grated ginger
+  on a slice of tender chashu, set against a warm wooden interior of a traditional
+  Sapporo ramen shop with soft ambient lighting.
 lang: en
-title: "The Golden Standard of Miso: Why Menya Saimi is the Best Ramen in Hokkaido, Sapporo"
 lat: 43.0311
 lng: 141.3911
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/menya_saimi.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-14"
-agoda: ""
-summary: "Discover the pinnacle of Sapporo's culinary heritage at Menya Saimi, where masterfully wok-seared miso broth meets delicate ginger aromatics. This Michelin-recognized sanctuary offers an unparalleled sensory journey through the soul of northern Japanese comfort food. Experience the legendary lineage of the Muranaka style in a bowl that defines the very essence of Hokkaido's ramen culture."
-image_prompt: "A side profile close-up of a steaming bowl of Menya Saimi miso ramen, featuring a rich golden-brown opaque broth with a dollop of fresh grated ginger on a slice of tender chashu, set against a warm wooden interior of a traditional Sapporo ramen shop with soft ambient lighting."
+shop_name: Menya Saimi
+summary: Discover the pinnacle of Sapporo's culinary heritage at Menya Saimi, where
+  masterfully wok-seared miso broth meets delicate ginger aromatics. This Michelin-recognized
+  sanctuary offers an unparalleled sensory journey through the soul of northern Japanese
+  comfort food. Experience the legendary lineage of the Muranaka style in a bowl that
+  defines the very essence of Hokkaido's ramen culture.
+thumbnail: /static/images/menya_saimi.jpg
+title: 'The Golden Standard of Miso: Why Menya Saimi is the Best Ramen in Hokkaido,
+  Sapporo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

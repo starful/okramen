@@ -1,4 +1,5 @@
 ---
+shop_name: "Ramen Nagi Shinjuku"
 lang: ko
 title: "[도쿄 신주쿠 최고의 라멘] 라멘 나기 신주쿠: 멸치의 혼을 담은 골든가이의 전설 (Best Ramen in Tokyo, Shinjuku)"
 lat: 35.6941

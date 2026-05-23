@@ -1,15 +1,25 @@
 ---
+address: Kyoto, Nakagyo
+agoda: ''
+categories:
+- 쇼유
+- 현지인맛집
+date: '2026-04-12'
+image_prompt: A 45-degree angle close-up shot of a premium Shoyu ramen bowl at Goryo
+  Ramen, featuring a deep mahogany-colored clear broth with shimmering golden aromatic
+  oil on the surface, perfectly folded thin straight noodles, succulent pink sous-vide
+  chashu, and a marinated soft-boiled egg, set against a warm wooden minimalist counter
+  in a sophisticated Kyoto interior with soft, focused spotlighting.
 lang: ko
-title: "[Best Ramen in Kyoto, Nakagyo] 고료 라멘(Goryo Ramen): 교토 나카교구에서 만나는 미식의 정점, 장인 정신이 깃든 쇼유 라멘의 걸작"
 lat: 35.0116
 lng: 135.7596
-categories: ["쇼유", "현지인맛집"]
-thumbnail: "/static/images/goryo_ramen.jpg"
-address: "Kyoto, Nakagyo"
-date: "2026-04-12"
-agoda: ""
-summary: "교토 나카교구의 숨은 보석 고료 라멘은 최상급 간장 블렌딩과 정교한 육수의 조화로 쇼유 라멘의 새로운 지평을 열었습니다. 현지인들이 극찬하는 이곳은 단순한 한 끼를 넘어 교토의 미학을 한 그릇에 담아낸 미식의 성지입니다. 장인의 고집이 느껴지는 자가제면과 수비드 차슈의 완벽한 밸런스를 지금 경험해 보세요."
-image_prompt: "A 45-degree angle close-up shot of a premium Shoyu ramen bowl at Goryo Ramen, featuring a deep mahogany-colored clear broth with shimmering golden aromatic oil on the surface, perfectly folded thin straight noodles, succulent pink sous-vide chashu, and a marinated soft-boiled egg, set against a warm wooden minimalist counter in a sophisticated Kyoto interior with soft, focused spotlighting."
+shop_name: Goryo Ramen
+summary: 교토 나카교구의 숨은 보석 고료 라멘은 최상급 간장 블렌딩과 정교한 육수의 조화로 쇼유 라멘의 새로운 지평을 열었습니다. 현지인들이
+  극찬하는 이곳은 단순한 한 끼를 넘어 교토의 미학을 한 그릇에 담아낸 미식의 성지입니다. 장인의 고집이 느껴지는 자가제면과 수비드 차슈의 완벽한
+  밸런스를 지금 경험해 보세요.
+thumbnail: /static/images/goryo_ramen.jpg
+title: '[Best Ramen in Kyoto, Nakagyo] 고료 라멘(Goryo Ramen): 교토 나카교구에서 만나는 미식의 정점, 장인
+  정신이 깃든 쇼유 라멘의 걸작'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

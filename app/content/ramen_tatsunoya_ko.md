@@ -1,15 +1,24 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-14'
+image_prompt: A steaming macro shot of Ramen Tatsunoya's signature spicy tonkotsu
+  ramen, featuring a rich reddish-creamy broth, charred pork chashu, and a perfect
+  soft-boiled egg, set against a warm wooden counter in a bustling Shinjuku interior,
+  cinematic lighting, 8k resolution.
 lang: ko
-title: "[Best Ramen in Tokyo, Shinjuku] 라멘 타츠노야(Ramen Tatsunoya): 큐슈 쿠루메의 영혼과 신주쿠의 현대적 감각이 빚어낸 돈코츠의 정점"
 lat: 35.6966
 lng: 139.6988
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/ramen_tatsunoya.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-14"
-agoda: ""
-summary: "도쿄 신주쿠의 화려한 마천루 사이에서 큐슈 쿠루메 전통의 깊고 진한 돈코츠 미학을 고수하는 '라멘 타츠노야'는 미식가들의 찬사를 받는 성지입니다. 며칠간 우려낸 농밀한 육수와 매콤한 '코쿠아지'의 조화는 한 그릇의 요리를 넘어선 예술적 경지를 선사합니다. 현지인의 줄이 끊이지 않는 이곳에서 당신은 도쿄 라멘 여행의 가장 찬란한 정점을 경험하게 될 것입니다."
-image_prompt: "A steaming macro shot of Ramen Tatsunoya's signature spicy tonkotsu ramen, featuring a rich reddish-creamy broth, charred pork chashu, and a perfect soft-boiled egg, set against a warm wooden counter in a bustling Shinjuku interior, cinematic lighting, 8k resolution."
+shop_name: Ramen Tatsunoya
+summary: 도쿄 신주쿠의 화려한 마천루 사이에서 큐슈 쿠루메 전통의 깊고 진한 돈코츠 미학을 고수하는 '라멘 타츠노야'는 미식가들의 찬사를 받는
+  성지입니다. 며칠간 우려낸 농밀한 육수와 매콤한 '코쿠아지'의 조화는 한 그릇의 요리를 넘어선 예술적 경지를 선사합니다. 현지인의 줄이 끊이지
+  않는 이곳에서 당신은 도쿄 라멘 여행의 가장 찬란한 정점을 경험하게 될 것입니다.
+thumbnail: /static/images/ramen_tatsunoya.jpg
+title: '[Best Ramen in Tokyo, Shinjuku] 라멘 타츠노야(Ramen Tatsunoya): 큐슈 쿠루메의 영혼과 신주쿠의
+  현대적 감각이 빚어낸 돈코츠의 정점'
 ---
 
 ## The Soul of the Shop: History and Philosophy

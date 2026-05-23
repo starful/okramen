@@ -1,15 +1,25 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- 미소
+- 현지인맛집
+date: '2026-04-21'
+image_prompt: A 45-degree angle shot of a steaming bowl of original Sapporo Miso Ramen
+  at a rustic wooden counter seat of Aji no Sanpei, showing the golden-yellow curly
+  noodles, stir-fried bean sprouts, and ground pork submerged in a rich, opaque orange-brown
+  miso broth with visible droplets of lard, warm indoor lighting reflecting off the
+  steam.
 lang: ko
-title: "삿포로의 영혼이 깃든 한 그릇, Best Ramen in Hokkaido, Sapporo - 아지노 산페이(味の三平) 미소라멘의 기원을 찾아서"
 lat: 43.0611
 lng: 141.3511
-categories: ["미소", "현지인맛집"]
-thumbnail: "/static/images/aji_no_sanpei.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "미소라멘의 발상지로서 70년 넘는 역사를 지킨 아지노 산페이는 삿포로 라멘의 정점이자 살아있는 전설입니다. 볶은 채소의 풍미가 녹아든 깊은 미소 육수와 노란 치지레면의 조화는 단순한 식사를 넘어선 미학적 경험을 선사합니다. 홋카이도의 추위를 녹이는 가장 따뜻하고 진실된 한 그릇을 찾는 미식가들에게 이곳은 성지와도 같습니다."
-image_prompt: "A 45-degree angle shot of a steaming bowl of original Sapporo Miso Ramen at a rustic wooden counter seat of Aji no Sanpei, showing the golden-yellow curly noodles, stir-fried bean sprouts, and ground pork submerged in a rich, opaque orange-brown miso broth with visible droplets of lard, warm indoor lighting reflecting off the steam."
+shop_name: AJI NO Sanpei
+summary: 미소라멘의 발상지로서 70년 넘는 역사를 지킨 아지노 산페이는 삿포로 라멘의 정점이자 살아있는 전설입니다. 볶은 채소의 풍미가 녹아든
+  깊은 미소 육수와 노란 치지레면의 조화는 단순한 식사를 넘어선 미학적 경험을 선사합니다. 홋카이도의 추위를 녹이는 가장 따뜻하고 진실된 한 그릇을
+  찾는 미식가들에게 이곳은 성지와도 같습니다.
+thumbnail: /static/images/aji_no_sanpei.jpg
+title: 삿포로의 영혼이 깃든 한 그릇, Best Ramen in Hokkaido, Sapporo - 아지노 산페이(味の三平) 미소라멘의 기원을
+  찾아서
 ---
 
 ## The Soul of the Shop: History and Philosophy.

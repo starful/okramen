@@ -1,15 +1,26 @@
 ---
+address: Hokkaido, Sapporo, Chuo Ward, Minami 3 Jonishi, 7 Chome−5-2
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-21'
+image_prompt: A steaming macro shot of Ramen Sora's signature miso ramen, showcasing
+  the rich, golden-orange broth with visible droplets of aromatic oil, topped with
+  tender chashu, a dollop of fresh ginger, and vibrant green negi, set against a warm
+  wooden interior with soft ambient lighting.
 lang: en
-title: "The Alchemist of Susukino: Why Ramen Sora is the Definitive Best Ramen in Hokkaido, Sapporo"
 lat: 43.0511
 lng: 141.3511
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/ramen_sora.jpg"
-address: "Hokkaido, Sapporo, Chuo Ward, Minami 3 Jonishi, 7 Chome−5-2"
-date: "2026-04-21"
-agoda: ""
-summary: "Experience the pinnacle of Hokkaido soul food at Ramen Sora, where fire-seared miso meets artisanal craftsmanship in the heart of Susukino. This legendary local gem offers a complex, ginger-infused broth that redefines the Sapporo style for the modern palate. Discover why discerning locals and international gourmands alike consider this the absolute best ramen in Hokkaido, Sapporo."
-image_prompt: "A steaming macro shot of Ramen Sora's signature miso ramen, showcasing the rich, golden-orange broth with visible droplets of aromatic oil, topped with tender chashu, a dollop of fresh ginger, and vibrant green negi, set against a warm wooden interior with soft ambient lighting."
+shop_name: Ramen Sora
+summary: Experience the pinnacle of Hokkaido soul food at Ramen Sora, where fire-seared
+  miso meets artisanal craftsmanship in the heart of Susukino. This legendary local
+  gem offers a complex, ginger-infused broth that redefines the Sapporo style for
+  the modern palate. Discover why discerning locals and international gourmands alike
+  consider this the absolute best ramen in Hokkaido, Sapporo.
+thumbnail: /static/images/ramen_sora.jpg
+title: 'The Alchemist of Susukino: Why Ramen Sora is the Definitive Best Ramen in
+  Hokkaido, Sapporo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

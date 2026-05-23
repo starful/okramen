@@ -1,15 +1,25 @@
 ---
+address: 1-27-3 Kabukicho, Shinjuku City, Tokyo
+agoda: ''
+categories:
+- Shoyu
+- Local Gem
+date: '2026-04-14'
+image_prompt: A 45-degree angle close-up of a steaming bowl of Ramen Takahashi Shoyu
+  ramen, showcasing a deep amber translucent broth with shimmering droplets of grilled
+  fish oil, thin slices of pink rare chashu, and delicate green scallions, set against
+  a warm wooden counter in a rustic, dim-lit interior.
 lang: en
-title: "The Liquid Gold of Shinjuku: Why Ramen Takahashi is the Best Ramen in Tokyo, Shinjuku"
 lat: 35.6955
 lng: 139.7011
-categories: ["Shoyu", "Local Gem"]
-thumbnail: "/static/images/ramen_takahashi.jpg"
-address: "1-27-3 Kabukicho, Shinjuku City, Tokyo"
-date: "2026-04-14"
-agoda: ""
-summary: "Experience the pinnacle of artisanal dashi at Ramen Takahashi, where grilled flying fish transforms a humble bowl of Shoyu ramen into a Michelin-worthy masterpiece. This local gem in the heart of Shinjuku offers a smoky, umami-rich escape from the city's neon chaos."
-image_prompt: "A 45-degree angle close-up of a steaming bowl of Ramen Takahashi Shoyu ramen, showcasing a deep amber translucent broth with shimmering droplets of grilled fish oil, thin slices of pink rare chashu, and delicate green scallions, set against a warm wooden counter in a rustic, dim-lit interior."
+shop_name: Ramen Takahashi
+summary: Experience the pinnacle of artisanal dashi at Ramen Takahashi, where grilled
+  flying fish transforms a humble bowl of Shoyu ramen into a Michelin-worthy masterpiece.
+  This local gem in the heart of Shinjuku offers a smoky, umami-rich escape from the
+  city's neon chaos.
+thumbnail: /static/images/ramen_takahashi.jpg
+title: 'The Liquid Gold of Shinjuku: Why Ramen Takahashi is the Best Ramen in Tokyo,
+  Shinjuku'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

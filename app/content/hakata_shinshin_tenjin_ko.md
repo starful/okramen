@@ -1,14 +1,19 @@
 ---
+address: Fukuoka, Chuo
+agoda: ''
+categories:
+- 돈코츠
+- 현지인맛집
+date: '2026-04-03'
 lang: ko
-title: "후쿠오카 츄오 최고의 라멘: 하카타 신신 텐진, 그 맛의 심연을 탐하다"
 lat: 33.5915
 lng: 130.3988
-categories: ["돈코츠", "현지인맛집"]
-thumbnail: "/static/images/hakata_shinshin_tenjin.jpg"
-address: "Fukuoka, Chuo"
-date: "2026-04-03"
-agoda: ""
-summary: "후쿠오카의 미식 심장부, 텐진에 위치한 하카타 신신은 단순한 라멘집이 아닙니다. 이곳의 돈코츠 라멘은 깊고 진한 육수와 완벽한 면발, 장인 정신이 깃든 토핑이 어우러져 한 그릇의 예술을 선사합니다. 현지인들이 사랑하는 이 숨겨진 보석에서, 당신의 미각을 깨울 궁극의 라멘 경험을 직접 만나보세요."
+shop_name: Hakata Shinshin Tenjin
+summary: 후쿠오카의 미식 심장부, 텐진에 위치한 하카타 신신은 단순한 라멘집이 아닙니다. 이곳의 돈코츠 라멘은 깊고 진한 육수와 완벽한 면발,
+  장인 정신이 깃든 토핑이 어우러져 한 그릇의 예술을 선사합니다. 현지인들이 사랑하는 이 숨겨진 보석에서, 당신의 미각을 깨울 궁극의 라멘 경험을
+  직접 만나보세요.
+thumbnail: /static/images/hakata_shinshin_tenjin.jpg
+title: '후쿠오카 츄오 최고의 라멘: 하카타 신신 텐진, 그 맛의 심연을 탐하다'
 ---
 
 ## Philosophy & Soul

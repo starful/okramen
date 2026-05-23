@@ -1,15 +1,25 @@
 ---
+address: Osaka, Chuo
+agoda: ''
+categories:
+- Tonkotsu
+- Local Gem
+date: '2026-04-12'
+image_prompt: A 45-degree angle close-up of Hanamaruken ramen in a dark moody izakaya
+  setting, featuring a massive, glistening slow-cooked pork rib bone submerged in
+  a rich, creamy brown Tonkotsu-Shoyu broth with steam rising, garnished with green
+  onions and a perfectly soft-boiled egg.
 lang: en
-title: "The Pork Rib Masterpiece: Why Hanamaruken is the Best Ramen in Osaka, Chuo"
 lat: 34.6681
 lng: 135.5011
-categories: ["Tonkotsu", "Local Gem"]
-thumbnail: "/static/images/hanamaruken.jpg"
-address: "Osaka, Chuo"
-date: "2026-04-12"
-agoda: ""
-summary: "Indulge in the legendary slow-braised pork rib ramen at Hanamaruken, widely considered the most authentic local gem in Osaka's Chuo district. This deep-dive review explores the complex Tonkotsu-Shoyu broth and the meltingly tender 'Soft Bone' pork that defines the city's culinary soul. Experience why this neon-lit sanctuary remains a pilgrimage site for ramen purists seeking the ultimate bowl of happiness."
-image_prompt: "A 45-degree angle close-up of Hanamaruken ramen in a dark moody izakaya setting, featuring a massive, glistening slow-cooked pork rib bone submerged in a rich, creamy brown Tonkotsu-Shoyu broth with steam rising, garnished with green onions and a perfectly soft-boiled egg."
+shop_name: Hanamaruken
+summary: Indulge in the legendary slow-braised pork rib ramen at Hanamaruken, widely
+  considered the most authentic local gem in Osaka's Chuo district. This deep-dive
+  review explores the complex Tonkotsu-Shoyu broth and the meltingly tender 'Soft
+  Bone' pork that defines the city's culinary soul. Experience why this neon-lit sanctuary
+  remains a pilgrimage site for ramen purists seeking the ultimate bowl of happiness.
+thumbnail: /static/images/hanamaruken.jpg
+title: 'The Pork Rib Masterpiece: Why Hanamaruken is the Best Ramen in Osaka, Chuo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

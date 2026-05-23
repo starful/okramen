@@ -1,15 +1,26 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- Shoyu
+- Local Gem
+date: '2026-04-21'
+image_prompt: A side profile close-up of a steaming bowl of Teshikaga Shoyu Ramen
+  inside a warm wooden interior, showcasing a deep amber-colored broth with shimmering
+  fat pearls, thick-cut charred chashu, and golden wavy noodles under soft ambient
+  lighting.
 lang: en
-title: "The Liquid Gold of Lake Mashu: Why Teshikaga Ramen is the Best Ramen in Hokkaido, Sapporo"
 lat: 43.0611
 lng: 141.3511
-categories: ["Shoyu", "Local Gem"]
-thumbnail: "/static/images/teshikaga_ramen.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "Experience the pinnacle of northern craftsmanship at Teshikaga Ramen, where pristine mountain water and aged soy sauce create the best ramen in Hokkaido, Sapporo. This local gem masterfully blends traditional Shoyu heritage with artisanal toppings for an unforgettable culinary journey. A must-visit destination for those seeking the authentic soul of Hokkaido's ramen culture."
-image_prompt: "A side profile close-up of a steaming bowl of Teshikaga Shoyu Ramen inside a warm wooden interior, showcasing a deep amber-colored broth with shimmering fat pearls, thick-cut charred chashu, and golden wavy noodles under soft ambient lighting."
+shop_name: Teshikaga Ramen
+summary: Experience the pinnacle of northern craftsmanship at Teshikaga Ramen, where
+  pristine mountain water and aged soy sauce create the best ramen in Hokkaido, Sapporo.
+  This local gem masterfully blends traditional Shoyu heritage with artisanal toppings
+  for an unforgettable culinary journey. A must-visit destination for those seeking
+  the authentic soul of Hokkaido's ramen culture.
+thumbnail: /static/images/teshikaga_ramen.jpg
+title: 'The Liquid Gold of Lake Mashu: Why Teshikaga Ramen is the Best Ramen in Hokkaido,
+  Sapporo'
 ---
 
 ## The Soul of the Shop: History and Philosophy.

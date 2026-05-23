@@ -1,15 +1,27 @@
 ---
+address: Hokkaido, Sapporo
+agoda: ''
+categories:
+- Miso
+- Local Gem
+date: '2026-04-21'
+image_prompt: A 45-degree angle close-up of a steaming bowl of Sapporo miso ramen
+  at Hokkai Ramen, featuring a rich golden-orange broth with visible oil droplets,
+  thick wavy yellow noodles, a perfectly soft-boiled egg, and charred chashu, set
+  against a warm wooden interior of a rustic counter seat with soft steam rising into
+  the air.
 lang: en
-title: "The Umami Architecture of Sapporo: Why Hokkai Ramen is the Uncontested Best Ramen in Hokkaido, Sapporo"
 lat: 43.0611
 lng: 141.3511
-categories: ["Miso", "Local Gem"]
-thumbnail: "/static/images/hokkai_ramen.jpg"
-address: "Hokkaido, Sapporo"
-date: "2026-04-21"
-agoda: ""
-summary: "Experience the pinnacle of Hokkaido soul food at Hokkai Ramen, where a masterfully charred miso broth meets artisan wavy noodles in a setting that defines the local gem experience. This culinary sanctuary offers a visceral journey through Sapporo's rich gastronomic heritage, delivering a bowl that transcends mere sustenance to become a work of art."
-image_prompt: "A 45-degree angle close-up of a steaming bowl of Sapporo miso ramen at Hokkai Ramen, featuring a rich golden-orange broth with visible oil droplets, thick wavy yellow noodles, a perfectly soft-boiled egg, and charred chashu, set against a warm wooden interior of a rustic counter seat with soft steam rising into the air."
+shop_name: Hokkai Ramen
+summary: Experience the pinnacle of Hokkaido soul food at Hokkai Ramen, where a masterfully
+  charred miso broth meets artisan wavy noodles in a setting that defines the local
+  gem experience. This culinary sanctuary offers a visceral journey through Sapporo's
+  rich gastronomic heritage, delivering a bowl that transcends mere sustenance to
+  become a work of art.
+thumbnail: /static/images/hokkai_ramen.jpg
+title: 'The Umami Architecture of Sapporo: Why Hokkai Ramen is the Uncontested Best
+  Ramen in Hokkaido, Sapporo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

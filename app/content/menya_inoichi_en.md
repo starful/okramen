@@ -1,15 +1,25 @@
 ---
+address: Kyoto, Shimogyo
+agoda: ''
+categories:
+- Shoyu
+- Premium
+date: '2026-04-12'
+image_prompt: A 45-degree angle close-up shot of a bowl of Menya Inoichi ramen in
+  a bright minimalist setting, featuring a crystal-clear golden shoyu broth, delicate
+  folds of A4 Wagyu beef, thin straight noodles, and a perfectly soft-boiled egg,
+  set against a warm wooden counter.
 lang: en
-title: "The Golden Standard of Dashi: Why Menya Inoichi is the Best Ramen in Kyoto, Shimogyo"
 lat: 35.0011
 lng: 135.7611
-categories: ["Shoyu", "Premium"]
-thumbnail: "/static/images/menya_inoichi.jpg"
-address: "Kyoto, Shimogyo"
-date: "2026-04-12"
-agoda: ""
-summary: "Experience the zenith of Kyoto-style refinement at Menya Inoichi, where Michelin-recognized dashi meets premium A4 Wagyu in a bowl of pure elegance. This is not merely a meal, but a masterclass in the subtle art of Japanese Shoyu ramen. A must-visit destination for those seeking the ultimate culinary harmony in the heart of Shimogyo."
-image_prompt: "A 45-degree angle close-up shot of a bowl of Menya Inoichi ramen in a bright minimalist setting, featuring a crystal-clear golden shoyu broth, delicate folds of A4 Wagyu beef, thin straight noodles, and a perfectly soft-boiled egg, set against a warm wooden counter."
+shop_name: Menya Inoichi
+summary: Experience the zenith of Kyoto-style refinement at Menya Inoichi, where Michelin-recognized
+  dashi meets premium A4 Wagyu in a bowl of pure elegance. This is not merely a meal,
+  but a masterclass in the subtle art of Japanese Shoyu ramen. A must-visit destination
+  for those seeking the ultimate culinary harmony in the heart of Shimogyo.
+thumbnail: /static/images/menya_inoichi.jpg
+title: 'The Golden Standard of Dashi: Why Menya Inoichi is the Best Ramen in Kyoto,
+  Shimogyo'
 ---
 
 ## The Soul of the Shop: History and Philosophy

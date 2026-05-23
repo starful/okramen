@@ -1,15 +1,26 @@
 ---
+address: Tokyo, Shinjuku
+agoda: ''
+categories:
+- Chicken
+- Local Gem
+date: '2026-04-14'
+image_prompt: A steaming macro shot at a 45-degree angle of a vibrant crimson tomato
+  ramen bowl topped with melted golden cheese, fresh green spinach, and thin chicken
+  slices, set against a warm wooden interior of a Shinjuku ramen shop, shallow depth
+  of field, high-end food photography.
 lang: en
-title: "A Symphony of Crimson Umami: Why Taiyou no Tomatomen is the Best Ramen in Tokyo, Shinjuku"
 lat: 35.6911
 lng: 139.7055
-categories: ["Chicken", "Local Gem"]
-thumbnail: "/static/images/taiyou_no_tomatomen.jpg"
-address: "Tokyo, Shinjuku"
-date: "2026-04-14"
-agoda: ""
-summary: "Indulge in a revolutionary Italian-Japanese fusion featuring lycopene-rich tomato broth and silky soy-milk noodles in the heart of Shinjuku. This local gem redefines health-conscious gourmet ramen through a masterclass in umami balancing and the iconic 'La-Riso' finish. Experience a vibrant, soul-warming bowl that transcends traditional ramen boundaries with every sophisticated, crimson spoonful."
-image_prompt: "A steaming macro shot at a 45-degree angle of a vibrant crimson tomato ramen bowl topped with melted golden cheese, fresh green spinach, and thin chicken slices, set against a warm wooden interior of a Shinjuku ramen shop, shallow depth of field, high-end food photography."
+shop_name: Taiyou NO Tomatomen
+summary: Indulge in a revolutionary Italian-Japanese fusion featuring lycopene-rich
+  tomato broth and silky soy-milk noodles in the heart of Shinjuku. This local gem
+  redefines health-conscious gourmet ramen through a masterclass in umami balancing
+  and the iconic 'La-Riso' finish. Experience a vibrant, soul-warming bowl that transcends
+  traditional ramen boundaries with every sophisticated, crimson spoonful.
+thumbnail: /static/images/taiyou_no_tomatomen.jpg
+title: 'A Symphony of Crimson Umami: Why Taiyou no Tomatomen is the Best Ramen in
+  Tokyo, Shinjuku'
 ---
 
 ## The Soul of the Shop: History and Philosophy

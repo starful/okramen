@@ -1,14 +1,20 @@
 ---
+address: Tokyo, Chiyoda
+agoda: ''
+categories:
+- 츠케멘
+- 현지인맛집
+date: '2026-03-28'
 lang: ko
-title: "도쿄 치요다구 최고의 라멘 경험(Best Ramen in Tokyo, Chiyoda): 로쿠린샤(Rokurinsha) 도쿄역점에서 만나는 츠케멘의 정점"
 lat: 35.6811
 lng: 139.7671
-categories: ["츠케멘", "현지인맛집"]
-thumbnail: "/static/images/rokurinsha_tokyo_station.jpg"
-address: "Tokyo, Chiyoda"
-date: "2026-03-28"
-agoda: ""
-summary: "도쿄역 '라멘 스트리트'를 상징하는 로쿠린샤는 츠케멘의 역사를 새로 쓴 전설적인 장소로, 압도적인 밀도의 육수와 식감을 자랑합니다. 미식의 도시 도쿄에서 가장 긴 줄을 서야 하는 곳 중 하나지만, 그 기다림 끝에는 장인 정신이 깃든 궁극의 감칠맛이 기다리고 있습니다. 농후한 해산물 돈코츠 베이스와 극태면의 완벽한 하모니는 도쿄 여행에서 절대 놓쳐서는 안 될 미식의 성배입니다."
+shop_name: Rokurinsha Tokyo Station
+summary: 도쿄역 '라멘 스트리트'를 상징하는 로쿠린샤는 츠케멘의 역사를 새로 쓴 전설적인 장소로, 압도적인 밀도의 육수와 식감을 자랑합니다.
+  미식의 도시 도쿄에서 가장 긴 줄을 서야 하는 곳 중 하나지만, 그 기다림 끝에는 장인 정신이 깃든 궁극의 감칠맛이 기다리고 있습니다. 농후한
+  해산물 돈코츠 베이스와 극태면의 완벽한 하모니는 도쿄 여행에서 절대 놓쳐서는 안 될 미식의 성배입니다.
+thumbnail: /static/images/rokurinsha_tokyo_station.jpg
+title: '도쿄 치요다구 최고의 라멘 경험(Best Ramen in Tokyo, Chiyoda): 로쿠린샤(Rokurinsha) 도쿄역점에서 만나는
+  츠케멘의 정점'
 ---
 
 ## The Soul of the Shop: History and Philosophy.
