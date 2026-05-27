@@ -211,3 +211,22 @@ def apply_practical_fields(post: dict, ramen_id: str) -> None:
     post["visitor_tips"] = post.get("visitor_tips") or _visitor_tips(lang)
     if isinstance(post["visitor_tips"], str):
         post["visitor_tips"] = [t.strip() for t in post["visitor_tips"].split("\n") if t.strip()]
+
+    if lang == "ko":
+        post["footer_nav"] = {
+            "map_href": "/",
+            "map_label": "🗺️ 라멘 지도로 돌아가기",
+            "guide_href": "/guide?lang=ko",
+            "guide_label": "📖 가이드",
+            "about_href": "/about.html",
+            "about_label": "오크라멘 소개",
+        }
+    else:
+        post["footer_nav"] = {
+            "map_href": "/",
+            "map_label": "🗺️ Back to Ramen Map",
+            "guide_href": "/guide",
+            "guide_label": "📖 Guides",
+            "about_href": "/about.html",
+            "about_label": "About OKRamen",
+        }

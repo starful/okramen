@@ -16,7 +16,7 @@ MODE="full"
 DO_GIT=false
 DO_CLOUD_DEPLOY=false
 CONTENT_LIMIT="${CONTENT_LIMIT:-10}"
-GUIDE_LIMIT="${GUIDE_LIMIT:-3}"
+# Guides: only fill en/ko when the other file already exists (no CSV bulk backfill).
 
 CONTENT_DIR="app/content"
 GUIDE_DIR="app/content/guides"
@@ -48,7 +48,7 @@ Environment overrides
   BUCKET_URL       Default: gs://ok-project-assets/okramen
   GCP_PROJECT_ID   Default: starful-258005
   CONTENT_LIMIT    Default: 10
-  GUIDE_LIMIT      Default: 3
+  GUIDE_LIMIT      Unused (guides: orphans-only). Use guide_generator.py --new-topics N
 EOF
 }
 
@@ -90,7 +90,7 @@ generate_content() {
     local g_before_count
     g_before_count=$(find "$GUIDE_DIR" -name "*.md" | wc -l | tr -d ' ')
     print_info "생성 전 가이드: ${g_before_count}개"
-    python3 script/guide_generator.py "$GUIDE_LIMIT"
+    python3 script/guide_generator.py
     local g_after_count
     g_after_count=$(find "$GUIDE_DIR" -name "*.md" | wc -l | tr -d ' ')
     G_NEW_COUNT=$(( g_after_count - g_before_count ))
@@ -186,7 +186,7 @@ echo ""
 print_info "Mode: $MODE"
 print_info "Bucket: $BUCKET_URL"
 print_info "Project: $GCP_PROJECT_ID"
-print_info "Limits: content=${CONTENT_LIMIT}, guide=${GUIDE_LIMIT}"
+print_info "Content limit (ramen_generator): ${CONTENT_LIMIT} | guides: orphans-only"
 
 check_env
 require_cmd python3

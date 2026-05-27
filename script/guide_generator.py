@@ -1,3 +1,4 @@
+import argparse
 import os
 import csv
 import re
@@ -15,6 +16,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
 GUIDE_CONTENT_DIR = os.path.join(BASE_DIR, 'app', 'content', 'guides')
 
+
 def clean_ai_response(text):
     """AI 출력물에서 불필요한 태그 제거"""
     text = text.strip()
@@ -24,6 +26,7 @@ def clean_ai_response(text):
     if '---' in text and not text.startswith('---'):
         text = '---' + text.split('---', 1)[1]
     return text.strip()
+
 
 def generate_guide_article(guide_id, topic, lang, keywords):
     if not API_KEY:
@@ -75,51 +78,139 @@ def generate_guide_article(guide_id, topic, lang, keywords):
     except Exception as e:
         print(f"❌ [Failed] {guide_id}: {e}")
 
-def run_guide_generator(limit=3):
+
+def _orphan_tasks() -> list[tuple]:
+    """Only the missing lang when the other already exists on disk."""
+    tasks: list[tuple] = []
     csv_path = os.path.join(SCRIPT_DIR, 'csv', 'guides.csv')
     if not os.path.exists(csv_path):
         print(f"❌ CSV not found: {csv_path}")
-        return
-
-    tasks = []
-    created_count = 0
+        return tasks
 
     with open(csv_path, mode='r', encoding='utf-8-sig') as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            guide_id = row['id'].strip()
-            keywords = row['keywords'].strip()
-            
-            # 해당 ID의 파일(en, ko 둘 다)이 이미 있는지 확인
+        for row in csv.DictReader(file):
+            guide_id = (row.get('id') or '').strip()
+            if not guide_id:
+                continue
+            keywords = (row.get('keywords') or '').strip()
+            en_path = os.path.join(GUIDE_CONTENT_DIR, f"{guide_id}_en.md")
+            ko_path = os.path.join(GUIDE_CONTENT_DIR, f"{guide_id}_ko.md")
+            en_exists = os.path.exists(en_path)
+            ko_exists = os.path.exists(ko_path)
+            if en_exists and not ko_exists:
+                tasks.append((guide_id, row.get('topic_ko') or guide_id, 'ko', keywords))
+            elif ko_exists and not en_exists:
+                tasks.append((guide_id, row.get('topic_en') or guide_id, 'en', keywords))
+
+    return tasks
+
+
+def _new_topic_tasks(limit: int) -> list[tuple]:
+    """CSV rows with neither en nor ko (opt-in; can create many files)."""
+    tasks: list[tuple] = []
+    csv_path = os.path.join(SCRIPT_DIR, 'csv', 'guides.csv')
+    topics = 0
+    with open(csv_path, mode='r', encoding='utf-8-sig') as file:
+        for row in csv.DictReader(file):
+            guide_id = (row.get('id') or '').strip()
+            if not guide_id:
+                continue
             en_exists = os.path.exists(os.path.join(GUIDE_CONTENT_DIR, f"{guide_id}_en.md"))
             ko_exists = os.path.exists(os.path.join(GUIDE_CONTENT_DIR, f"{guide_id}_ko.md"))
-
-            # 하나라도 없으면 생성 대상으로 추가
-            if not en_exists or not ko_exists:
-                tasks.append((guide_id, row['topic_en'], 'en', keywords))
-                tasks.append((guide_id, row['topic_ko'], 'ko', keywords))
-                created_count += 1
-            
-            # 설정한 limit(3개 주제)에 도달하면 멈춤
-            if created_count >= limit:
+            if en_exists or ko_exists:
+                continue
+            keywords = (row.get('keywords') or '').strip()
+            tasks.append((guide_id, row.get('topic_en') or guide_id, 'en', keywords))
+            tasks.append((guide_id, row.get('topic_ko') or guide_id, 'ko', keywords))
+            topics += 1
+            if topics >= limit:
                 break
+    return tasks
 
-    if not tasks:
-        print("✨ All guides are already generated or no new topics found.")
+
+def _csv_missing_tasks() -> list[tuple]:
+    """Every missing en/ko from guides.csv (expensive; opt-in)."""
+    tasks: list[tuple] = []
+    csv_path = os.path.join(SCRIPT_DIR, 'csv', 'guides.csv')
+    with open(csv_path, mode='r', encoding='utf-8-sig') as file:
+        for row in csv.DictReader(file):
+            guide_id = (row.get('id') or '').strip()
+            if not guide_id:
+                continue
+            keywords = (row.get('keywords') or '').strip()
+            if not os.path.exists(os.path.join(GUIDE_CONTENT_DIR, f"{guide_id}_en.md")):
+                tasks.append((guide_id, row.get('topic_en') or guide_id, 'en', keywords))
+            if not os.path.exists(os.path.join(GUIDE_CONTENT_DIR, f"{guide_id}_ko.md")):
+                tasks.append((guide_id, row.get('topic_ko') or guide_id, 'ko', keywords))
+    return tasks
+
+
+def _run_tasks(tasks: list[tuple], *, dry_run: bool) -> None:
+    if dry_run:
+        print(f"🔔 [dry-run] {len(tasks)} guide file(s)")
+        for p in tasks:
+            print(f"   {p[0]}_{p[2]}.md")
         return
-
-    print(f"🔔 Found {created_count} new topics to generate. (Total {len(tasks)} files)")
-
-    # 병렬 실행 (최대 3개 작업 동시 진행)
+    if not tasks:
+        print("✨ No guide orphans to generate.")
+        return
+    print(f"🔔 Generating {len(tasks)} guide file(s)")
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         executor.map(lambda p: generate_guide_article(*p), tasks)
 
+
+def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description=(
+            "Generate guide markdown. Default: orphans only (en or ko already on disk). "
+            "Use --new-topics N or --all-missing --yes for broader runs."
+        ),
+    )
+    parser.add_argument(
+        '--new-topics',
+        type=int,
+        metavar='N',
+        help='Create en+ko for up to N CSV topics that have no files yet.',
+    )
+    parser.add_argument(
+        '--all-missing',
+        action='store_true',
+        help='Backfill every missing file in guides.csv (many API calls).',
+    )
+    parser.add_argument(
+        '--yes',
+        action='store_true',
+        help='Required with --all-missing.',
+    )
+    parser.add_argument('--dry-run', action='store_true', help='List targets only.')
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = _parse_args(argv)
+
+    if args.all_missing:
+        if not args.yes:
+            n = len(_csv_missing_tasks())
+            print(
+                f"⛔ Blocked: would generate {n} files. "
+                "Use --all-missing --yes to confirm."
+            )
+            if args.dry_run:
+                _run_tasks(_csv_missing_tasks(), dry_run=True)
+            return 2
+        tasks = _csv_missing_tasks()
+        print("⚠️  Mode: all missing from guides.csv")
+    elif args.new_topics is not None:
+        tasks = _new_topic_tasks(args.new_topics)
+        print(f"⚠️  Mode: new topics (limit {args.new_topics})")
+    else:
+        tasks = _orphan_tasks()
+        print("ℹ️  Mode: orphans only (missing en or ko when the other exists).")
+
+    _run_tasks(tasks, dry_run=args.dry_run)
+    return 0
+
+
 if __name__ == "__main__":
-    # 기본 3개 주제(영어+한국어 총 6개 파일), 인자/환경변수로 오버라이드 가능
-    env_limit = os.environ.get("GUIDE_LIMIT")
-    arg_limit = sys.argv[1] if len(sys.argv) > 1 else None
-    try:
-        run_limit = int(arg_limit or env_limit or 3)
-    except ValueError:
-        run_limit = 3
-    run_guide_generator(limit=run_limit)
+    raise SystemExit(main())

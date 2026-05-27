@@ -213,8 +213,21 @@ header {
     background: var(--bg-color); list-style-position: inside;
 }
 .detail-article-fold .detail-content { padding: 0 1.25rem 1.25rem; }
-.detail-footer-links { font-size: 0.9rem; color: var(--text-gray); }
-.detail-footer-links a { color: #c0392b; }
+.detail-footer-nav {
+    display: flex; flex-wrap: wrap; justify-content: center; align-items: center;
+    gap: 12px; margin-top: 50px; padding: 0 12px;
+}
+.back-btn--secondary {
+    background-color: #fff;
+    color: var(--primary-color) !important;
+    border: 2px solid var(--primary-color);
+    box-shadow: none;
+}
+.back-btn--secondary:hover {
+    background-color: var(--primary-color);
+    color: #fff !important;
+    transform: scale(1.05);
+}
 
 .onsen-card { 
     background: #fff; border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; 

@@ -138,10 +138,11 @@
         </div>
         {% endif %}
 
-        <div style="text-align: center; margin-top: 50px;">
-            <a href="/" class="back-btn">🗺️ Back to Ramen Map</a>
-            <span class="detail-footer-links"> · <a href="/guide">Guides</a> · <a href="/about.html">About OKRamen</a></span>
-        </div>
+        <nav class="detail-footer-nav" aria-label="{% if post.lang == 'ko' %}페이지 이동{% else %}Page navigation{% endif %}">
+            <a href="{{ post.footer_nav.map_href }}" class="back-btn">{{ post.footer_nav.map_label }}</a>
+            <a href="{{ post.footer_nav.guide_href }}" class="back-btn back-btn--secondary">{{ post.footer_nav.guide_label }}</a>
+            <a href="{{ post.footer_nav.about_href }}" class="back-btn back-btn--secondary">{{ post.footer_nav.about_label }}</a>
+        </nav>
     </article>
     
     {% include 'footer.html' %}

@@ -1,4 +1,12 @@
 ---
+{
+  "title": "Kitakata Ramen Bannai: Fukushima's Legendary Shoyu Ramen",
+  "description": "An expert guide to Kitakata Ramen Bannai, the crown jewel of Fukushima's ramen scene. Explore their signature clear pork broth, hand-rubbed noodles, and iconic chashu.",
+  "seo_title": "Kitakata Ramen Bannai: Legendary Fukushima Shoyu | OKRamen",
+  "seo_description": "Taste legendary Fukushima shoyu! Guide to Kitakata Ramen Bannai: melt-in-your-mouth chashu, curly noodles, and morning ramen (asa-ra) tips."
+}
+---
+---
 shop_name: "Kitakata Ramen Bannai"
 lang: en
 title: "The Golden Standard of Clarity: Why Kitakata Ramen Bannai is the Best Ramen in Fukushima, Kitakata"

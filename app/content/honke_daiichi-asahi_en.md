@@ -1,30 +1,13 @@
 ---
-address: Kyoto, Shimogyo
-agoda: ''
-categories:
-- Shoyu
-- Local Gem
-date: '2026-04-05'
-image_prompt: A 45-degree angle steaming macro shot of Honke Daiichi-asahi ramen,
-  featuring a clear yet dark shoyu broth topped with a mountain of vibrant Kujo green
-  onions and thin slices of tender pork chashu, set against a warm wooden interior
-  of a rustic counter seat.
-lang: en
-lat: 34.9866
-lng: 135.7611
-seo_description: 'Honke Daiichi Asahi (Kyoto Station): pork-shoyu ramen since 1947,
-  Kujo negi, Kondo noodles. Map, hours, queue tips — plan before you visit.'
-seo_title: Honke Daiichi Asahi Kyoto Station — Shoyu Ramen | OKRamen
-shop_name: Honke Daiichi Asahi
-summary: Discover the 70-year legacy of Honke Daiichi-asahi, an undisputed titan of
-  Kyoto's culinary landscape offering a soul-stirring bowl of pork-based shoyu ramen.
-  This local gem near Kyoto Station serves a masterclass in balance, featuring artisanal
-  noodles and the famed Kujo negi. Experience the authentic heart of Shimogyo through
-  a bowl that has defined Japanese comfort food for generations.
-thumbnail: /static/images/honke_daiichi-asahi.jpg
-title: 'The Liquid Gold of Kyoto: Why Honke Daiichi-asahi is the Best Ramen in Kyoto,
-  Shimogyo'
+{
+  "title": "Honke Daiichi Asahi: The Ultimate Kyoto Station Ramen Guide",
+  "description": "Your complete guide to Honke Daiichi Asahi near Kyoto Station. Learn how to beat the legendary queues, what to order, and why this historic pork-shoyu ramen has been a favorite since 1947.",
+  "seo_title": "Honke Daiichi Asahi Kyoto: Queue Tips & Menu | OKRamen",
+  "seo_description": "Planning to visit Honke Daiichi Asahi near Kyoto Station? Beat the lines with our queue tips, menu guide, and review of this legendary 1947 ramen."
+}
 ---
+
+
 
 ## The Soul of the Shop: History and Philosophy
 
