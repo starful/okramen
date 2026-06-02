@@ -1,11 +1,12 @@
 ---
 {
-  "title": "Honke Daiichi Asahi: The Ultimate Kyoto Station Ramen Guide",
-  "description": "Your complete guide to Honke Daiichi Asahi near Kyoto Station. Learn how to beat the legendary queues, what to order, and why this historic pork-shoyu ramen has been a favorite since 1947.",
-  "seo_title": "Honke Daiichi Asahi Kyoto: Queue Tips & Menu | OKRamen",
-  "seo_description": "Planning to visit Honke Daiichi Asahi near Kyoto Station? Beat the lines with our queue tips, menu guide, and review of this legendary 1947 ramen."
+  "title": "Honke Daiichi Asahi Kyoto: Beat the Queue & Menu Guide",
+  "description": "Skip the 2-hour line at Honke Daiichi Asahi Kyoto! Get insider queue tips, full menu guide, and honest review of this legendary 1947 ramen shop.",
+  "seo_title": "Honke Daiichi Asahi Kyoto: Beat the Queue & Menu Guide | OKRamen",
+  "seo_description": "Skip the 2-hour line at Honke Daiichi Asahi Kyoto! Get insider queue tips, full menu guide, and honest review of this legendary 1947 ramen shop."
 }
 ---
+
 
 
 

@@ -19,9 +19,14 @@ summary: Experience the pinnacle of refined Kyoto craftsmanship where creamy ton
   Prepare for an unforgettable journey through layers of deep umami and torch-seared
   perfection.
 thumbnail: /static/images/ramen_sen-no-kaze.jpg
-title: 'The Kyoto Umami Odyssey: Why Ramen Sen-no-kaze is the Best Ramen in Kyoto,
-  Nakagyo'
+title: 'Ramen Sen no Kaze: Kyoto''s Famous Creamy Tonkotsu'
+description: Is Kyoto's famous Ramen Sen no Kaze worth the wait? Get honest reviews,
+  menu highlights, opening hours, and location maps on OKRamen.
+seo_title: 'Ramen Sen no Kaze Kyoto: Worth the Wait? | OKRamen'
+seo_description: Is Kyoto's famous Ramen Sen no Kaze worth the wait? Get honest reviews,
+  menu highlights, opening hours, and location maps on OKRamen.
 ---
+
 
 ## The Soul of the Shop: History and Philosophy
 

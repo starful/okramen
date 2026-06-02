@@ -15,9 +15,14 @@ summary: In the bustling heart of Fukuoka, Hakata ShinShin Tenjin isn't just a r
   chashu that defines ramen excellence. This is the authentic taste of Fukuoka, a
   truly local gem waiting to transform your perception of ramen forever.
 thumbnail: /static/images/hakata_shinshin_tenjin.jpg
-title: 'Hakata ShinShin Tenjin: Unearthing the Best Ramen in Fukuoka, Chuo – A Tonkotsu
-  Odyssey'
+title: 'Hakata Shinshin Tenjin: Fukuoka''s Legendary Tonkotsu Ramen Guide'
+description: Planning to visit Hakata Shinshin Tenjin? Read our guide to Fukuoka's
+  legendary sweet, creamy Tonkotsu ramen, menu highlights, and how to skip the line!
+seo_title: 'Hakata Shinshin Tenjin: Legendary Fukuoka Tonkotsu Ramen | OKRamen'
+seo_description: Planning to visit Hakata Shinshin Tenjin? Read our guide to Fukuoka's
+  legendary sweet, creamy Tonkotsu ramen, menu highlights, and how to skip the line!
 ---
+
 
 ## Philosophy & Soul: The Heartbeat of Hakata Tonkotsu
 

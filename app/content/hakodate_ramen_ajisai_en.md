@@ -1,4 +1,12 @@
 ---
+title: 'Hakodate Ramen Ajisai: Legendary Hokkaido Shio Ramen'
+description: Discover Hakodate Ramen Ajisai, famous for its crystal-clear Shio (salt)
+  ramen. Read our complete guide on menu, locations, and what to order!
+seo_title: 'Hakodate Ramen Ajisai: Legendary Shio Ramen Guide | OKRamen'
+seo_description: Discover Hakodate Ramen Ajisai, famous for its crystal-clear Shio
+  (salt) ramen. Read our complete guide on menu, locations, and what to order!
+---
+---
 shop_name: "Hakodate Ramen Ajisai"
 lang: en
 title: "The Ethereal Transparency: Why Hakodate Ramen Ajisai is the Best Ramen in Hokkaido, Hakodate"

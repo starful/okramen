@@ -20,9 +20,14 @@ summary: Experience the legendary soul of Hakata through a bowl that transcends 
   it is an essential rite of passage for every serious gastronome visiting the birthplace
   of Tonkotsu.
 thumbnail: /static/images/ichiraku_ramen.jpg
-title: 'The Culinary Pilgrimage: Why Ichiraku Ramen is the Best Ramen in Fukuoka,
-  Fukuoka'
+title: 'Ichiraku Ramen: Fukuoka''s Real-Life ''Naruto'' Ramen Guide'
+description: Is Fukuoka's Ichiraku Ramen the real-life inspiration for Naruto? Read
+  our ultimate guide on location, menu, and how to visit this legendary shop.
+seo_title: 'Ichiraku Ramen Guide: Fukuoka''s Real Naruto Ramen | OKRamen'
+seo_description: Is Fukuoka's Ichiraku Ramen the real-life inspiration for Naruto?
+  Read our ultimate guide on location, menu, and how to visit this legendary shop.
 ---
+
 
 ## The Soul of the Shop: History and Philosophy
 

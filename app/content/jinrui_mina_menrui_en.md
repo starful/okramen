@@ -20,9 +20,14 @@ summary: A masterclass in modern shoyu ramen, Jinrui Mina Menrui redefines Osaka
   noodle enthusiast. Experience the harmony of flavor and melody in a bowl that captures
   the very soul of Kansai.
 thumbnail: /static/images/jinrui_mina_menrui.jpg
-title: 'The Orchestration of Umami: Why Jinrui Mina Menrui is the Absolute Best Ramen
-  in Osaka, Yodogawa'
+title: 'Jinrui Mina Menrui: Osaka''s Cult-Favorite Ramen Guide'
+description: Discover Jinrui Mina Menrui, Osaka's legendary cult-favorite ramen spot
+  famous for its sweet clam-infused shoyu broth and massive, melt-in-your-mouth chashu.
+seo_title: 'Jinrui Mina Menrui: Osaka''s Cult-Favorite Ramen | OKRamen'
+seo_description: Is Jinrui Mina Menrui worth the queue? Discover Osaka's cult-favorite
+  shoyu ramen, famous for legendary sweet broth and giant, tender chashu pork.
 ---
+
 
 ## The Soul of the Shop: History and Philosophy.
 

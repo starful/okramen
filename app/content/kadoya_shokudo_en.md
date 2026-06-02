@@ -20,9 +20,14 @@ summary: Experience the ultimate expression of artisanal Shoyu ramen at Kadoya S
   complex, golden broth to the final silk-smooth noodle, this is a masterclass in
   Japanese culinary excellence.
 thumbnail: /static/images/kadoya_shokudo.jpg
-title: 'The Pinnacle of Craftsmanship: Why Kadoya Shokudo is the Best Ramen in Osaka,
-  Nishi'
+title: 'Kadoya Shokudo: Osaka''s Legendary Michelin Shoyu Ramen'
+description: The ultimate guide to Kadoya Shokudo, Osaka's premier Michelin-recognized
+  Shoyu ramen shop. Learn what to order and how to beat the queue.
+seo_title: 'Kadoya Shokudo Guide: Osaka''s Michelin Shoyu Ramen | OKRamen'
+seo_description: Discover Kadoya Shokudo, Osaka's legendary Michelin Bib Gourmand
+  Shoyu ramen. Get honest reviews and insider tips before you visit.
 ---
+
 
 ## The Soul of the Shop: History and Philosophy.
 

@@ -1,11 +1,12 @@
 ---
 {
   "title": "Ebisoba Ichigen: The Ultimate Sapporo Shrimp Ramen Guide",
-  "description": "Discover the legendary sweet shrimp ramen at Ebisoba Ichigen in Sapporo. Read our guide for menu secrets, customization tips, and locations.",
-  "seo_title": "Ebisoba Ichigen: Legendary Sapporo Shrimp Ramen Guide | OKRamen",
-  "seo_description": "Discover the legendary sweet shrimp ramen at Ebisoba Ichigen in Sapporo. Read our guide for menu secrets, customization tips, and locations."
+  "description": "Discover how to order and customize the legendary sweet shrimp ramen at Ebisoba Ichigen in Sapporo, including menu secrets and queue tips.",
+  "seo_title": "Ebisoba Ichigen: How to Order Sapporo's Best Shrimp Ramen",
+  "seo_description": "Master Ebisoba Ichigen's menu! Learn how to customize your shrimp broth, choose the best noodles, and avoid the long queues in Sapporo."
 }
 ---
+
 
 
 

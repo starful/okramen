@@ -19,9 +19,14 @@ summary: Discover the pinnacle of Sapporo's culinary heritage at Menya Saimi, wh
   comfort food. Experience the legendary lineage of the Muranaka style in a bowl that
   defines the very essence of Hokkaido's ramen culture.
 thumbnail: /static/images/menya_saimi.jpg
-title: 'The Golden Standard of Miso: Why Menya Saimi is the Best Ramen in Hokkaido,
-  Sapporo'
+title: 'Menya Saimi: Ultimate Guide to Sapporo’s Best Miso Ramen'
+description: 'Discover Menya Saimi, Sapporo''s legendary #1 miso ramen shop. Learn
+  what to order, queue tips, and why this ginger-miso broth is worth the wait.'
+seo_title: 'Menya Saimi Guide: Sapporo’s Legendary #1 Miso Ramen'
+seo_description: 'Discover Menya Saimi, Sapporo''s legendary #1 miso ramen shop. Learn
+  what to order, queue tips, and why this ginger-miso broth is worth the wait.'
 ---
+
 
 ## The Soul of the Shop: History and Philosophy
 

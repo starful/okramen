@@ -19,9 +19,14 @@ summary: Discover the creamy poultry perfection of Ramen Yashichi, a legendary O
   exclusive ticketing system that preserves its local soul. Experience the pinnacle
   of Tori Paitan craftsmanship in the heart of Toyosaki.
 thumbnail: /static/images/ramen_yashichi.jpg
-title: 'The Velvety Alchemist: Why Yashichi is the Undisputed Best Ramen in Osaka,
-  Kita'
+title: 'Ramen Yashichi: Osaka''s Ultimate Creamy Chicken Ramen'
+description: Craving Osaka's legendary chicken ramen? Learn how to navigate Ramen
+  Yashichi's ticketing system and savor their ultimate creamy chicken paitan.
+seo_title: 'Ramen Yashichi: Osaka''s Legendary Chicken Ramen | OKRamen'
+seo_description: Get the ultimate guide to Osaka's legendary Ramen Yashichi. Learn
+  how to get tickets and try their famous, creamy chicken paitan ramen.
 ---
+
 
 ## The Soul of the Shop: History and Philosophy
 

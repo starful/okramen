@@ -20,8 +20,14 @@ summary: Experience the legendary Tsukemen that redefined Tokyo’s culinary lan
   collagen-rich broths. Secure your seat at the world's highest-rated ramen pilgrimage
   site for an unforgettable gastronomic journey.
 thumbnail: /static/images/menya_itto.jpg
-title: 'The Pinnacle of Tsukemen: Why Menya Itto is the Best Ramen in Tokyo, Katsushika'
+title: 'Menya Itto: Tokyo''s Legendary Tsukemen Guide'
+description: The ultimate guide to Menya Itto, Tokyo's top-rated tsukemen. Learn how
+  to visit, what to order, and why this legendary bowl is worth the wait.
+seo_title: 'Menya Itto Tokyo: Guide to the Best Tsukemen | OKRamen'
+seo_description: Is Menya Itto really Tokyo's best tsukemen? Get our ultimate guide
+  on how to visit, what to order, and why this legendary spot is worth the wait.
 ---
+
 
 ## The Soul of the Shop: History and Philosophy.
 

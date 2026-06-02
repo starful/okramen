@@ -12,9 +12,9 @@ image_prompt: A 45-degree angle close-up shot of a steaming bowl of Ishikari Mis
 lang: en
 lat: 43.0544
 lng: 141.3488
-seo_description: 'Ramen Shingen (Sapporo / Susukino): Ishikari-style miso, pork broth,
-  yellow noodles. Map, hours, queues, and what to order before your trip.'
-seo_title: Ramen Shingen Sapporo — Miso Ramen, Susukino | OKRamen
+seo_description: Is Sapporo's famous Ramen Shingen worth the queue? Get insider tips
+  on how to beat the long lines, what to order, and our honest review.
+seo_title: 'Ramen Shingen Sapporo: Is It Worth the Wait? | OKRamen'
 shop_name: Ramen Shingen
 summary: Experience the pinnacle of Hokkaido soul food at Ramen Shingen, where the
   legendary Ishikari miso broth offers an unparalleled creamy complexity. This local
@@ -23,9 +23,12 @@ summary: Experience the pinnacle of Hokkaido soul food at Ramen Shingen, where t
   landmark is an essential rite of passage for any serious culinary enthusiast visiting
   Sapporo.
 thumbnail: /static/images/ramen_shingen.jpg
-title: 'The Golden Standard of Miso: Why Ramen Shingen is the Best Ramen in Hokkaido,
-  Sapporo'
+title: 'Ramen Shingen Sapporo: Is the Legendary Miso Worth the Wait?'
+description: An insider's guide to visiting Ramen Shingen in Sapporo. Discover how
+  to avoid the massive lines, what to order from the menu, and why this rich miso
+  ramen is a local legend.
 ---
+
 
 ## The Soul of the Shop: History and Philosophy
 
