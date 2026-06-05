@@ -81,6 +81,8 @@ generate_content() {
     [ -d "$CONTENT_DIR" ] && r_before_count=$(find "$CONTENT_DIR" -maxdepth 1 -name "*.md" | wc -l | tr -d ' ')
     print_info "생성 전 가게 컨텐츠: ${r_before_count}개"
     python3 script/ramen_generator.py "$CONTENT_LIMIT"
+    # Safety net: normalize any file that still has the old 4-section template
+    python3 script/rewrite_ramen_practical.py --template-only
     local r_after_count
     r_after_count=$(find "$CONTENT_DIR" -maxdepth 1 -name "*.md" | wc -l | tr -d ' ')
     R_NEW_COUNT=$(( r_after_count - r_before_count ))

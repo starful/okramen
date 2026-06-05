@@ -965,14 +965,29 @@ def build_region_index() -> dict[tuple[str, str], list[str]]:
     return idx
 
 
+def needs_practical_rewrite(path: Path) -> bool:
+    """True if file still uses the old template or lacks practical frontmatter."""
+    text = path.read_text(encoding="utf-8")
+    if any(phrase in text for phrase in BANNED_PHRASES):
+        return True
+    post = loads_ramen_post(text)
+    if not str(post.get("one_liner") or "").strip():
+        return True
+    return False
+
+
 def main() -> None:
     dry = "--dry-run" in sys.argv
+    template_only = "--template-only" in sys.argv
     region_index = build_region_index()
     ok = 0
     for path in sorted(CONTENT_DIR.glob("*.md")):
+        if template_only and not needs_practical_rewrite(path):
+            continue
         rewrite_file(path, region_index, dry_run=dry)
         ok += 1
-    print(f"Rewrote {ok} ramen files{' (dry-run)' if dry else ''}")
+    label = "template " if template_only else ""
+    print(f"Rewrote {ok} {label}ramen files{' (dry-run)' if dry else ''}")
 
 
 if __name__ == "__main__":

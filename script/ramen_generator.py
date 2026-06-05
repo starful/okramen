@@ -1,131 +1,179 @@
-import os
+#!/usr/bin/env python3
+"""Generate new ramen shop markdown as practical trip-planning guides (EN+KO)."""
+
+from __future__ import annotations
+
 import csv
-import re
+import os
 import sys
 import concurrent.futures
 from datetime import datetime
-from google import genai
-from dotenv import load_dotenv
-
-# 환경변수 로드
-load_dotenv()
-API_KEY = os.environ.get("GEMINI_API_KEY")
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
-CONTENT_DIR = os.path.join(BASE_DIR, 'app', 'content')
+CONTENT_DIR = os.path.join(BASE_DIR, "app", "content")
 
-# 글로벌 라멘 카테고리 설정
-CATEGORIES = {
-    "en": {
-        "flavor": ["Tonkotsu", "Shoyu", "Miso", "Shio", "Chicken", "Tsukemen", "Vegan"],
-        "vibe": ["Local Gem", "Solo Friendly", "Late Night", "Premium"]
-    },
-    "ko": {
-        "flavor": ["돈코츠", "쇼유", "미소", "시오", "치킨라멘", "츠케멘", "비건"],
-        "vibe": ["현지인맛집", "혼밥성지", "심야영업", "프리미엄"]
-    }
+sys.path.insert(0, SCRIPT_DIR)
+sys.path.insert(0, os.path.join(BASE_DIR, "app"))
+
+from rewrite_ramen_practical import build_region_index, rewrite_file  # noqa: E402
+
+# Map CSV Features (often Korean) -> [flavor, vibe] per language
+FLAVOR_KEYS = {
+    "돈코츠": ("Tonkotsu", "돈코츠"),
+    "tonkotsu": ("Tonkotsu", "돈코츠"),
+    "쇼유": ("Shoyu", "쇼유"),
+    "shoyu": ("Shoyu", "쇼유"),
+    "미소": ("Miso", "미소"),
+    "miso": ("Miso", "미소"),
+    "시오": ("Shio", "시오"),
+    "shio": ("Shio", "시오"),
+    "츠케멘": ("Tsukemen", "츠케멘"),
+    "tsukemen": ("Tsukemen", "츠케멘"),
+    "치킨": ("Chicken", "치킨 라멘"),
+    "chicken": ("Chicken", "치킨 라멘"),
+    "유즈": ("Shoyu", "쇼유"),
+    "유즈시오": ("Shio", "시오"),
 }
 
-def clean_ai_response(text):
-    """AI가 출력한 텍스트에서 ```markdown 이나 ## yaml 같은 쓰레기 텍스트 제거"""
-    text = text.strip()
-    text = re.sub(r'^```[a-z]*\n', '', text)
-    text = re.sub(r'\n```$', '', text)
-    text = re.sub(r'^(##\s*)?yaml\n', '', text, flags=re.IGNORECASE)
-    if '---' in text and not text.startswith('---'):
-        text = '---' + text.split('---', 1)[1]
-    return text.strip()
+VIBE_KEYS = {
+    "현지인맛집": ("Local Gem", "현지인맛집"),
+    "local gem": ("Local Gem", "현지인맛집"),
+    "심야": ("Late Night", "심야영업"),
+    "late night": ("Late Night", "심야영업"),
+    "야식": ("Late Night", "야식"),
+    "혼밥": ("Solo Friendly", "혼밥성지"),
+    "solo": ("Solo Friendly", "혼밥성지"),
+    "프리미엄": ("Premium", "프리미엄"),
+    "premium": ("Premium", "프리미엄"),
+}
+
+DEFAULT_FLAVOR = ("Tonkotsu", "돈코츠")
+DEFAULT_VIBE = ("Local Gem", "현지인맛집")
+
+
+def parse_categories(features: str, lang: str) -> list[str]:
+    text = (features or "").lower()
+    flavor = DEFAULT_FLAVOR[0 if lang == "en" else 1]
+    vibe = DEFAULT_VIBE[0 if lang == "en" else 1]
+    for key, pair in FLAVOR_KEYS.items():
+        if key.lower() in text:
+            flavor = pair[0 if lang == "en" else 1]
+            break
+    for key, pair in VIBE_KEYS.items():
+        if key.lower() in text:
+            vibe = pair[0 if lang == "en" else 1]
+            break
+    return [flavor, vibe]
+
+
+def build_image_prompt(name: str, features: str, lang: str) -> str:
+    style = parse_categories(features, lang)[0]
+    moods = [
+        "warm wooden counter seat",
+        "neon-lit late night alley",
+        "bright minimalist shop interior",
+    ]
+    shots = ["45-degree steaming macro shot", "side profile close-up", "overhead flat-lay"]
+    idx = sum(ord(c) for c in name) % len(moods)
+    return (
+        f"A {shots[idx % len(shots)]} of {name} {style} ramen, "
+        f"swirling steam, {moods[idx]}, cinematic food photography, no text, 8k detail."
+    )
+
+
+def write_stub_frontmatter(
+    safe_name: str,
+    name: str,
+    lat: float,
+    lng: float,
+    address: str,
+    lang: str,
+    features: str,
+    agoda: str,
+) -> str:
+    shop_name = name.strip()
+    categories = parse_categories(features, lang)
+    return f"""---
+lang: {lang}
+address: "{address}"
+lat: {lat}
+lng: {lng}
+shop_name: "{shop_name}"
+categories:
+- {categories[0]}
+- {categories[1]}
+date: '{datetime.now().strftime("%Y-%m-%d")}'
+thumbnail: "/static/images/{safe_name}.jpg"
+agoda: "{agoda or ""}"
+image_prompt: "{build_image_prompt(name, features, lang)}"
+---
+
+"""
+
 
 def generate_ramen_article(safe_name, name, lat, lng, address, lang, features, agoda):
-    if not API_KEY:
-        print("❌ API Key missing")
-        return
+    """Create practical guide markdown via rewrite_ramen_practical (same as site-wide rollout)."""
+    filename = f"{safe_name}_{lang}.md"
+    path = os.path.join(CONTENT_DIR, filename)
+    print(f"🚀 [Gen] Practical {lang} guide for: {name}...")
 
-    client = genai.Client(api_key=API_KEY)
-    model_name = 'gemini-flash-latest'
+    os.makedirs(CONTENT_DIR, exist_ok=True)
+    stub = write_stub_frontmatter(safe_name, name, lat, lng, address, lang, features, agoda)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(stub)
 
-    flavor_list = ", ".join(CATEGORIES[lang]["flavor"])
-    vibe_list = ", ".join(CATEGORIES[lang]["vibe"])
+    from pathlib import Path
 
-    print(f"🚀 [AI] Generating {lang} article for: {name}...")
+    region_index = build_region_index()
+    rewrite_file(Path(path), region_index)
+    final_len = Path(path).stat().st_size
+    print(f"✅ [Done] {filename} ({final_len} bytes, practical layout)")
 
-    prompt = f"""
-    You are an elite Michelin-star food critic. Write a MASTERPIECE ramen guide for '{name}'.
-    The article must be extremely long (8,000+ characters), professional, and SEO-optimized.
-
-    [Target Info]
-    - Shop Name: {name}
-    - Location: {address}
-    - Style: {features}
-    - Language: {lang}
-
-    [Categorization Task]
-    1. Select EXACTLY one Flavor from: [{flavor_list}]
-    2. Select EXACTLY one Vibe from: [{vibe_list}]
-
-    [Output Format - STRICT]
-    ---
-    lang: {lang}
-    title: "Write a breathtaking title including 'Best Ramen in {address}'"
-    lat: {lat}
-    lng: {lng}
-    categories: ["SelectedFlavor", "SelectedVibe"]
-    thumbnail: "/static/images/{safe_name}.jpg"
-    address: "{address}"
-    date: "{datetime.now().strftime('%Y-%m-%d')}"
-    agoda: "{agoda}"
-    summary: "High-conversion 3-sentence summary (single line)"
-    image_prompt: "Write a single-line Imagen prompt IN ENGLISH. 
-        VARY the composition each time — choose ONE of these shots: 
-        [overhead flat-lay / side profile close-up / dramatic top-down / 
-        45-degree angle / steaming macro shot]. 
-        VARY the mood: [dark moody izakaya / bright minimalist / 
-        warm wooden interior / neon-lit late night / rustic counter seat]. 
-        Include the specific broth color/style for {features}."
-    ---
-
-    [Article Content Structure]
-    - ## The Soul of the Shop: History and Philosophy.
-    - ## The Broth Analysis: Deep dive into ingredients and complexity (2,000+ chars).
-    - ## Noodle & Topping Harmony: Texture, Chashu, and Ajitama analysis.
-    - ## The Experience: Vibe, wait time, and neighborhood guide.
-
-    IMPORTANT: DO NOT use markdown code blocks (```). Start directly with '---'.
-    IMPORTANT: image_prompt must be a single line inside double quotes, no line breaks.
-    """
-
-    try:
-        response = client.models.generate_content(model=model_name, contents=prompt)
-        final_text = clean_ai_response(response.text)
-
-        os.makedirs(CONTENT_DIR, exist_ok=True)
-        filename = f"{safe_name}_{lang}.md"
-        with open(os.path.join(CONTENT_DIR, filename), 'w', encoding='utf-8') as f:
-            f.write(final_text)
-
-        print(f"✅ [Done] {filename} ({len(final_text)} chars)")
-    except Exception as e:
-        print(f"❌ [Failed] {name}: {e}")
 
 def run_generator(limit=10):
-    csv_path = os.path.join(SCRIPT_DIR, 'csv', 'ramens.csv')
-    if not os.path.exists(csv_path): return
+    csv_path = os.path.join(SCRIPT_DIR, "csv", "ramens.csv")
+    if not os.path.exists(csv_path):
+        return
 
     tasks = []
-    with open(csv_path, mode='r', encoding='utf-8-sig') as file:
+    pairs_queued = 0
+    with open(csv_path, mode="r", encoding="utf-8-sig") as file:
         reader = csv.DictReader(file)
         for row in reader:
-            name = row['Name'].strip()
+            if limit > 0 and pairs_queued >= limit:
+                break
+            name = row["Name"].strip()
             safe_name = name.lower().replace(" ", "_").replace("'", "").replace(",", "")
-            for lang in ['en', 'ko']:
+            en_path = os.path.join(CONTENT_DIR, f"{safe_name}_en.md")
+            ko_path = os.path.join(CONTENT_DIR, f"{safe_name}_ko.md")
+            if os.path.exists(en_path) and os.path.exists(ko_path):
+                continue
+            pair_tasks = []
+            for lang in ["en", "ko"]:
                 if not os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")):
-                    tasks.append((safe_name, name, row['Lat'], row['Lng'], row['Address'], lang, row['Features'], row.get('Agoda', '')))
-            if len(tasks) >= limit * 2: break
+                    pair_tasks.append(
+                        (
+                            safe_name,
+                            name,
+                            row["Lat"],
+                            row["Lng"],
+                            row["Address"],
+                            lang,
+                            row["Features"],
+                            row.get("Agoda", ""),
+                        )
+                    )
+            if not pair_tasks:
+                continue
+            pairs_queued += 1
+            tasks.extend(pair_tasks)
 
     if tasks:
+        print(f"🔔 {pairs_queued} pair(s), {len(tasks)} file(s) — practical guide format...")
         with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
             executor.map(lambda p: generate_ramen_article(*p), tasks)
+
 
 if __name__ == "__main__":
     env_limit = os.environ.get("CONTENT_LIMIT")
