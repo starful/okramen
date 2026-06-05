@@ -1,6 +1,5 @@
 ---
 address: 2-12-6 Minamisaiwai, Nishi-ku, Yokohama, Kanagawa
-agoda: ''
 categories:
 - Shoyu
 - Local Gem
@@ -14,50 +13,26 @@ lang: en
 lat: 35.4644
 lng: 139.6188
 shop_name: Yoshimuraya
-summary: Discover the legendary birthplace of Iekei ramen at Yoshimuraya, where a
-  masterfully balanced smoky shoyu-tonkotsu broth meets world-class craftsmanship.
-  This pilgrimage site for noodle enthusiasts offers a visceral, high-tension dining
-  experience that defines the culinary landscape of Yokohama. Experience the original,
-  uncompromising flavor that has spawned thousands of disciples across the globe.
+summary: "Yoshimuraya in 2-12-6 Minamisaiwai: Shoyu ramen — practical guide to queues,\
+  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
 thumbnail: /static/images/yoshimuraya.jpg
-title: 'The Genesis of Iekei: Why Yoshimuraya Remains the Best Ramen in Kanagawa,
-  Yokohama'
+title: Yoshimuraya — 2-12-6 Minamisaiwai Shoyu ramen guide
+one_liner: Shoyu ramen at Yoshimuraya, 2-12-6 Minamisaiwai. Verify hours and holidays
+  on Maps before you go.
+what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
+good_for: Trip planning before you land
 ---
 
-## The Soul of the Shop: History and Philosophy.
+**What to expect:** Yoshimuraya is a shoyu ramen shop in Nishi-ku, 2-12-6 Minamisaiwai. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 
-To understand Yoshimuraya is to understand the very DNA of Yokohama’s culinary identity. This is not merely a restaurant; it is a cathedral of steam and soy, the "Honzan" (Head Temple) of the Iekei style. Founded in 1974 by Minoru Yoshimura, a man whose reputation for discipline and uncompromising standards is as legendary as his broth, Yoshimuraya transformed the landscape of Japanese noodles forever. Before Yoshimura-san, the ramen world was largely divided: the delicate, salt-forward Shio and Shoyu of Tokyo and the heavy, milky Tonkotsu of Kyushu. Yoshimura, a former truck driver with a vision, dared to marry these two titans. He created a hybrid—a “house-style” (Iekei) ramen that combined the punchy, fermented depth of high-quality Shoyu with the creamy, visceral body of a pork bone reduction.
+**Practical notes:** First visit: order the signature bowl on the menu. Add extra chashu or noodles only if you want a heavier meal. Prices are typically roughly ¥800–¥1,100; many shops use ticket machines (cash only in some cases).
 
-The philosophy of Yoshimuraya is rooted in "Shokunin" spirit pushed to its absolute limit. There is no room for mediocrity here. The shop operates with a military precision that is both intimidating and awe-inspiring to behold. Yoshimura-san famously trained his disciples with a rigorous, often harsh, apprenticeship system, leading to the birth of the "Yoshimura-ya Family Tree." To be an official branch (Bunkei), a shop must be personally sanctioned by the master himself. This heritage ensures that the bowl you eat today in the heart of Yokohama is chemically and spiritually linked to that first bowl served five decades ago. 
+**Wait & hours:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-When you stand in the legendary queue outside the shop—often stretching deep into the side streets of Nishi-ku—you are not just waiting for food. You are participating in a ritual. The philosophy extends to the transparency of the ingredients; the shop proudly displays the origins of its soy sauce, its vinegar, and its seasonal vegetables. This transparency isn't just marketing; it’s a challenge. It says, "We use the best, and we have nothing to hide." The white-clad staff, moving in a synchronized dance of boiling water and rhythmic ladling, represent a lineage of masters who believe that a single bowl of ramen can contain the entire spectrum of human effort.
+**Nearby:** Pair with other 2-12-6 Minamisaiwai stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times.
 
-## The Broth Analysis: Deep dive into ingredients and complexity.
+**Extra:** Shoyu ramen is about soy tare plus broth balance. Kyoto/Tokyo bowls often look clearer than tonkotsu; saltiness depends on local soy blend.
 
-To analyze the broth at Yoshimuraya is to attempt to deconstruct a symphony. This is a Shoyu-Tonkotsu base, but that label feels woefully inadequate once the liquid hits your palate. The broth is a living, breathing entity, brewed in massive vats where hundreds of kilograms of fresh pork and chicken bones are pulverized through a rolling boil every single day. Unlike the "creamy" Hakata-style tonkotsu which aims for a milky emulsification, Yoshimuraya’s broth is an aggressive, high-clarity extraction that maintains a deep, mahogany hue thanks to its secret "Tare" (sauce base).
+Small shops often close Mondays or the day after holidays — check Maps rest days.
 
-Let us start with the "Chiyu"—the golden chicken oil that floats atop the bowl. This is the first thing to greet your senses. It isn't just fat; it’s an aromatic lubricant that carries the scent of roasted poultry and softens the initial salt-hit of the soy sauce. As you dip your spoon deeper, you break the tension of the oil and reach the core liquid. The first sip is a revelation of "Panchi" (punch). It is salty, yes, but it is a complex, fermented saltiness derived from a proprietary blend of soy sauces crafted specifically for Yoshimura. This Tare is aged and concentrated, providing a sharp contrast to the heavy lipids of the pork marrow.
-
-The complexity lies in the layering of umami. You have the inosinic acid from the pork bones, the glutamic acid from the soy, and a subtle undertone of chicken carcass that provides a cleaner, higher-note finish. The viscosity is remarkable; it coats the tongue with a collagen-rich silkiness that lingers long after you’ve swallowed. There is a distinct smokiness that permeates the broth, partly inherited from the smoked chashu that rests within it, and partly from the intense heat of the cooking process itself.
-
-In a world where many ramen shops have turned to industrial concentrates to save time, Yoshimuraya remains a bastion of traditional labor. The sheer volume of bones used ensures that the broth never feels "thin." It has a gravitational pull. As the broth sits in the bowl, it evolves. The heat from the soup gently wilts the spinach and softens the nori, releasing minerals and sea-saltiness into the mix, creating a dynamic flavor profile that is different at the last spoonful than it was at the first. This is a broth designed for the working class—it is high-calorie, high-sodium, and high-satisfaction—but refined with the precision of a master blender. It is the "Umami of the Earth," a grounded, visceral experience that rejects the modern trend of overly sweet or flowery ramen.
-
-## Noodle & Topping Harmony: Texture, Chashu, and Ajitama analysis.
-
-The architecture of a Yoshimuraya bowl is completed by its structural elements, most notably the noodles. Yoshimuraya famously has an exclusive partnership with Sakai Seimen, a noodle maker that does not supply to just any shop. These are not the thin, straight needles of the south; these are thick, short, and slightly flat noodles with a distinct wave. Their length is intentional—they are designed to be "slurped" in one or two swift motions, ensuring that the broth-to-noodle ratio in every bite is mathematically perfect. When you order, you choose the "Katasu" (firmness). The "Katame" (firm) option is highly recommended, as it allows the core of the noodle to retain a wheaty resilience against the aggressive heat of the soup.
-
-The toppings at Yoshimuraya are not garnishes; they are essential functional components. The Chashu here is a departure from the melt-in-your-mouth braised pork found elsewhere. Instead, it is "Yakibuta"—pork that has been roasted and smoked. It has a pinkish hue and a firm, meaty texture that demands to be chewed. The smoke from the pork acts as a seasoning for the broth, creating a symbiotic relationship between the protein and the liquid. Each slice is a masterclass in char and cure.
-
-Then there is the "Horenso" (spinach). In the heavy, fat-rich world of Iekei, the spinach is your lifeline. It provides a bitter, metallic crunch that cuts through the grease, refreshing the palate for the next heavy hit of shoyu. It is usually served blanched and squeezed dry, acting like a sponge that soaks up the golden chicken oil.
-
-The Nori (seaweed) serves a unique purpose in the Yokohama style. While in other styles it is a mere decoration, here it is a vehicle for rice. A true regular at Yoshimuraya will order a side of white rice, dip the nori into the fatty top layer of the broth until it is saturated, and then wrap it around a morsel of rice. The interaction of the crispy, oceanic seaweed, the salty broth, and the neutral, sweet rice is perhaps the greatest "hidden" culinary experience in the shop. Finally, the Ajitama (marinated egg), if you choose to add it, features a jammy, dark orange yolk that provides a rich, custardy counterpoint to the salt-forward profile of the soup.
-
-## The Experience: Vibe, wait time, and neighborhood guide.
-
-Eating at Yoshimuraya is an exercise in focus. Located just a short walk from the bustling Yokohama Station, the shop sits as a monument to local devotion. The wait time is a part of the seasoning. On a typical afternoon, you might wait 45 to 90 minutes. The system is legendary: you buy your ticket first, then join the line. The staff will periodically come out to check your ticket color (each ramen type has a different colored plastic ticket). 
-
-When you finally enter, you are greeted by a sea of blue—the signature blue chairs that wrap around the massive open kitchen. The atmosphere is electric. There is no background music, only the sounds of "Irrashaimase!" (Welcome!), the clanging of metal strainers, and the rhythmic slurping of thirty people in unison. The speed of service is terrifyingly efficient. Because the kitchen prepares ramen in "lots" (batches of about 10-12 bowls), you will notice a wave of bowls being served simultaneously, followed by a brief period of intense preparation for the next wave.
-
-The customization is where you assert your individuality. "Koime" (strong flavor), "Oome" (extra oil), "Katame" (firm noodles)—this is the Iekei mantra. Once the bowl is placed before you on the high counter, the world outside ceases to exist. You are in a battle with the bowl. On the counter, you will find an array of condiments: crushed garlic, "Green Garlic" (a Yoshimuraya specialty), vinegar, and ginger. Halfway through your meal, adding a teaspoon of the green garlic and a splash of vinegar transforms the heavy broth into something bright and tangy, allowing you to finish every drop without fatigue.
-
-After exiting the shop, blinking in the daylight of Yokohama, you are within walking distance of the beautiful Sogo Department Store or the Yokohama waterfront. But chances are, you won't want to do anything but walk slowly and reflect on the meal. The neighborhood of Minamisaiwai is vibrant and modern, but Yoshimuraya feels like a portal to a more rugged, artisanal era of Japan. It is a "Local Gem" that has attained global status, yet it refuses to corporate-ize or dilute its intensity. To eat here is to pay homage to the king of Yokohama ramen—a title Yoshimuraya has held since 1974 and shows no sign of relinquishing.
+Finally, holidays, seasonal closures, and last-order times change. Screenshot the Maps listing while you have data; if Yoshimuraya is closed, search the same style within walking distance rather than treating this page as a booking. Editorial trip-planning only — not a reservation.

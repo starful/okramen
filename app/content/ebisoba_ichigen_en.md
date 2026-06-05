@@ -1,49 +1,43 @@
 ---
-{
-  "title": "Ebisoba Ichigen: The Ultimate Sapporo Shrimp Ramen Guide",
-  "description": "Discover how to order and customize the legendary sweet shrimp ramen at Ebisoba Ichigen in Sapporo, including menu secrets and queue tips.",
-  "seo_title": "Ebisoba Ichigen: How to Order Sapporo's Best Shrimp Ramen",
-  "seo_description": "Master Ebisoba Ichigen's menu! Learn how to customize your shrimp broth, choose the best noodles, and avoid the long queues in Sapporo."
-}
+address: Hokkaido, Sapporo
+categories:
+- Miso
+- Local Gem
+date: '2026-04-12'
+image_prompt: A 45-degree angle steaming macro shot of a bowl of Ebisoba Ichigen ramen,
+  featuring rich reddish-orange shrimp miso broth, topped with soft-boiled ajitama,
+  tender chashu, and signature red shrimp-infused tempura flakes, set in a warm wooden
+  interior of a traditional Sapporo ramen shop with soft ambient lighting.
+lang: en
+lat: 43.0511
+lng: 141.3411
+shop_name: Ebisoba Ichigen
+summary: "Ebisoba Ichigen in Hokkaido: Miso ramen — practical guide to queues, ordering,\
+  \ and what to try. Confirm hours on Google Maps before visiting."
+thumbnail: /static/images/ebisoba_ichigen.jpg
+title: Ebisoba Ichigen — Hokkaido Miso ramen guide
+one_liner: Miso ramen at Ebisoba Ichigen, Hokkaido. Verify hours and holidays on Maps
+  before you go.
+what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-style
+  toppings.
+good_for: Cold-weather comfort bowls
+seo_title: "Ebisoba Ichigen: How to Order Sapporo's Best Shrimp Ramen"
+seo_description: "Master Ebisoba Ichigen's menu! Learn how to customize your shrimp\
+  \ broth, choose the best noodles, and avoid the long queues in Sapporo."
+description: Discover how to order and customize the legendary sweet shrimp ramen
+  at Ebisoba Ichigen in Sapporo, including menu secrets and queue tips.
 ---
 
+**Intro:** Ebisoba Ichigen is a miso ramen shop in Sapporo, Hokkaido. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 
+**Broth & noodles:** First visit: order the signature bowl on the menu. Add extra chashu or noodles only if you want a heavier meal. Prices are typically roughly ¥800–¥1,100; many shops use ticket machines (cash only in some cases).
 
+**Queues:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-## The Soul of the Shop: History and Philosophy.
+**Around:** Pair with other Hokkaido stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Ramen Shirakaba Sansou](/ramen/ramen_shirakaba_sansou_en), [Ramen Sora](/ramen/ramen_sora_en).
 
-In the competitive landscape of Sapporo, a city that treats ramen with the same reverence that Paris treats the baguette, standing out requires more than just skill—it requires an obsession. Ebisoba Ichigen is the physical manifestation of that obsession. While traditional Sapporo ramen is synonymous with a rich, buttery miso base and curly yellow noodles, Ichigen dared to look toward the ocean, specifically the Amaebi (sweet shrimp) that populate the cold, nutrient-rich currents of Hokkaido’s coastline. The shop’s philosophy is built upon the singular idea of “Ebi-shibori,” or the absolute extraction of the shrimp’s essence. This isn’t just a ramen shop; it is a laboratory of crustacean concentration.
+**Tip:** Hokkaido miso ramen varies by city — Sapporo/Hokkaido styles often use stir-fried miso tare and butter-corn toppings; Tokyo versions can be lighter.
 
-The history of Ichigen is one of culinary disruption. It was founded with the intent to create a flavor profile that didn't exist in the classic Sapporo pantheon. By utilizing the heads of sweet shrimp—parts often discarded in high-end sushi preparation—Ichigen discovered a depth of umami that rivals the most complex French lobster bisques. The philosophy extends to the concept of customization, allowing the diner to act as a co-creator of their meal. This democratization of flavor, combined with an unyielding commitment to local ingredients, has turned a once-modest shop into a global icon. When you step into their main branch in Susukino or their famous New Chitose Airport location, you aren't just buying a meal; you are witnessing the evolution of Hokkaido’s gastronomic identity. The air is thick, not just with steam, but with the toasted, nutty aroma of thousands of roasted shrimp shells, a scent that acts as a siren song for locals and travelers alike.
+Off-peak slots (just after opening or late evening) often shorten queues.
 
-## The Broth Analysis: Deep dive into ingredients and complexity.
-
-To understand the broth at Ebisoba Ichigen is to understand the chemistry of the sea. The foundation of this liquid gold is the massive quantity of sweet shrimp heads—reportedly over 600 kilograms a day—that are meticulously roasted to trigger the Maillard reaction. This roasting process is the critical first step, transforming the raw, briny scent of shrimp into a deep, nutty, and slightly smoky aroma that provides the broth’s structural integrity. These roasted heads are then simmered for hours, a process that extracts every milligram of calcium, protein, and fat, resulting in a base so concentrated it feels almost viscous on the tongue.
-
-However, the genius of Ichigen lies in its versatility and its ability to marry this oceanic intensity with land-based proteins. The diner is presented with three distinct pathways for the soup base: "Sono-mama" (as it is), "Hodo-hodo" (a moderate blend), and "Ajiwai" (rich and creamy). 
-
-The "Sono-mama" is the purist’s choice. It is the unadulterated essence of the shrimp, filtered through a light dashi. It is translucent yet punchy, offering a clean, sharp brine that highlights the natural sweetness of the Amaebi. In this version, the miso acts as a seasoning rather than a body-filler, providing a fermented saltiness that cuts through the richness of the shrimp oil.
-
-The "Hodo-hodo" introduces a carefully measured portion of Tonkotsu (pork bone) broth. This is where the complexity truly begins to unfurl. The pork bone broth adds a gelatinous mouthfeel and a layer of savory fat that rounds out the sharp edges of the shrimp. It creates a middle ground where the sea meets the farm, a balanced equilibrium that satisfies both the craving for traditional Sapporo richness and the desire for Ichigen’s unique shrimp signature.
-
-The "Ajiwai" is the ultimate expression of decadence. By increasing the ratio of pork bone broth, the soup becomes a heavy, opaque emulsion. It coats the throat with a velvety texture, carrying the shrimp flavor deep into the palate and allowing it to linger long after the bowl is finished. This version is particularly effective when paired with Ichigen's signature Miso. The miso used here is a blend specifically formulated to withstand the intensity of the shrimp. It isn't just salty; it has a deep, malty complexity that provides a base note to the high-pitched sweetness of the shrimp.
-
-Floating atop this broth is the "Ebiyu" (shrimp oil), a brilliant crimson fat infused with crushed shrimp shells and spices. This oil acts as a heat trap, keeping the soup scaldingly hot throughout the meal, while simultaneously acting as a fragrance delivery system. Every time you lift the noodles, the oil clings to the strands, ensuring that the aroma hits your olfactory receptors before the flavor even reaches your tongue. The complexity is further heightened by the addition of a specialized shrimp powder—made from charred shrimp shells—which adds a gritty, rustic texture and a final hit of concentrated umami. This broth is not just a liquid; it is a multi-layered sensory experience that challenges the definition of ramen. It is a masterpiece of extraction, a testament to the fact that in the hands of a master, even a discarded shrimp head can be turned into a culinary treasure.
-
-## Noodle & Topping Harmony: Texture, Chashu, and Ajitama analysis.
-
-A broth this powerful requires a vessel capable of carrying its weight, and at Ichigen, the noodles and toppings are designed with mathematical precision to complement the soup. Diners are given a choice between thick and thin noodles, a decision that radically alters the dining experience. The thick noodles are a classic Hokkaido style—chewy, resilient, and slightly alkaline. They have a high surface area that allows the viscous "Ajiwai" broth to cling to them, creating a perfect 1:1 ratio of starch to soup in every bite. The thin noodles, on the other hand, offer a more elegant experience, allowing the "Sono-mama" broth to flow through them, emphasizing the clarity and brightness of the shrimp.
-
-The toppings at Ichigen are not mere garnishes; they are functional components of the flavor profile. The most striking is the "Ebi-tenkasu," a vibrant red tempura flake made by frying tempura batter with shrimp oil and shrimp powder. These flakes provide a crucial textural contrast, adding a crunch that eventually softens into the broth, releasing pockets of concentrated shrimp flavor. Alongside this is a dollop of "Ebi-fun" (shrimp powder), which is created by grinding the heads of the shrimp into a fine, aromatic dust. When stirred into the soup, it acts like a flavor amplifier, intensifying the umami to almost dizzying levels.
-
-The Chashu (braised pork belly) is handled with a restraint that respects the shrimp-centric theme. It is sliced thin and prepared to a melt-in-the-mouth tenderness. Unlike the aggressive, soy-heavy chashu found in other shops, Ichigen’s pork is subtly seasoned, allowing it to act as a savory anchor without distracting from the seafood. The Ajitama (soft-boiled egg) is equally impressive. The white is firm and stained a light brown from a soy marinade, while the yolk remains in a state of jammy perfection. The richness of the yolk adds another layer of creaminess to the broth, especially when broken open into the "Ajiwai" soup. Finally, a generous sprinkling of fresh green scallions provides a necessary sharp, vegetal brightness that cuts through the intense fats and oils, cleansing the palate and preparing it for the next intense spoonful. This harmony of elements—the crunch of the flakes, the chew of the noodles, and the creaminess of the egg—creates a symphonic balance that elevates Ichigen from a mere noodle shop to a Michelin-level destination.
-
-## The Experience: Vibe, wait time, and neighborhood guide.
-
-Eating at Ebisoba Ichigen is a rite of passage for any food lover visiting Sapporo. The original shop, located in the vibrant Susukino district, exudes the energy of a true local gem. It is a place of perpetual motion, where the air is filled with the rhythmic sound of boiling noodles being shaken and the aromatic steam rising from giant cauldrons. The interior is humble and functional, dominated by a long wooden counter that places you directly in view of the chefs’ choreography. There is no pretension here; the focus is entirely on the bowl in front of you.
-
-However, be prepared for the queue. Whether you visit the Susukino main shop or the iconic New Chitose Airport branch, a wait is almost guaranteed. At the airport, the line often snakes far down the "Hokkaido Ramen Dojo" hallway, with wait times frequently exceeding 45 minutes. But this wait is part of the ritual. It builds a sense of anticipation that makes the first sip of the broth even more rewarding. The efficiency of the staff is legendary; they often take your order while you are still in line, ensuring that your steaming bowl arrives almost the moment you sit down.
-
-The Susukino location offers the quintessential Sapporo experience. After your meal, you are perfectly positioned to explore the neon-lit streets of Hokkaido's largest entertainment district. You can walk off the rich meal by visiting the nearby Odori Park, or head deeper into Susukino to find a hidden jazz bar or a local craft beer taproom. For those visiting during the winter, the warmth of the Ichigen broth provides a necessary shield against the biting Hokkaido wind.
-
-If you are pressed for time, the New Chitose Airport branch is a marvel of consistency. It allows travelers to experience the "Best Ramen in Hokkaido, Sapporo" as their final farewell to the island. There is something poetic about having a bowl of Ichigen right before a flight—the scent of roasted shrimp lingering as a sensory souvenir of your time in the north. Whether you are a solo traveler looking for a quick, soul-warming meal or a culinary adventurer seeking the pinnacle of ramen evolution, Ebisoba Ichigen delivers an experience that is as unforgettable as it is delicious. It is a testament to the power of local ingredients, refined through modern technique, and served with the humble hospitality that defines Hokkaido.
+Finally, holidays, seasonal closures, and last-order times change. Screenshot the Maps listing while you have data; if Ebisoba Ichigen is closed, search the same style within walking distance rather than treating this page as a booking. Editorial trip-planning only — not a reservation.
