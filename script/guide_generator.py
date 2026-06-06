@@ -105,6 +105,36 @@ def _orphan_tasks() -> list[tuple]:
     return tasks
 
 
+def _batch_missing_tasks(limit: int) -> list[tuple]:
+    """Up to `limit` CSV topics with any missing en/ko (full CSV scan)."""
+    tasks: list[tuple] = []
+    csv_path = os.path.join(SCRIPT_DIR, 'csv', 'guides.csv')
+    if not os.path.exists(csv_path):
+        print(f"❌ CSV not found: {csv_path}")
+        return tasks
+    topics = 0
+    with open(csv_path, mode='r', encoding='utf-8-sig') as file:
+        for row in csv.DictReader(file):
+            if topics >= limit:
+                break
+            guide_id = (row.get('id') or '').strip()
+            if not guide_id:
+                continue
+            keywords = (row.get('keywords') or '').strip()
+            en_path = os.path.join(GUIDE_CONTENT_DIR, f"{guide_id}_en.md")
+            ko_path = os.path.join(GUIDE_CONTENT_DIR, f"{guide_id}_ko.md")
+            topic_tasks: list[tuple] = []
+            if not os.path.exists(en_path):
+                topic_tasks.append((guide_id, row.get('topic_en') or guide_id, 'en', keywords))
+            if not os.path.exists(ko_path):
+                topic_tasks.append((guide_id, row.get('topic_ko') or guide_id, 'ko', keywords))
+            if not topic_tasks:
+                continue
+            tasks.extend(topic_tasks)
+            topics += 1
+    return tasks
+
+
 def _new_topic_tasks(limit: int) -> list[tuple]:
     """CSV rows with neither en nor ko (opt-in; can create many files)."""
     tasks: list[tuple] = []
@@ -167,6 +197,12 @@ def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        '--batch-missing',
+        type=int,
+        metavar='N',
+        help='Fill missing en/ko for up to N CSV topics (full scan; hub default).',
+    )
+    parser.add_argument(
         '--new-topics',
         type=int,
         metavar='N',
@@ -201,6 +237,9 @@ def main(argv: list[str] | None = None) -> int:
             return 2
         tasks = _csv_missing_tasks()
         print("⚠️  Mode: all missing from guides.csv")
+    elif args.batch_missing is not None:
+        tasks = _batch_missing_tasks(args.batch_missing)
+        print(f"ℹ️  Mode: batch missing (up to {args.batch_missing} topic(s))")
     elif args.new_topics is not None:
         tasks = _new_topic_tasks(args.new_topics)
         print(f"⚠️  Mode: new topics (limit {args.new_topics})")
