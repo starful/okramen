@@ -477,16 +477,19 @@ def ramen_detail(ramen_id):
 
 @app.route('/static/images/<path:filename>')
 def serve_images(filename):
-    import time
-
+    """이미지는 GCS가 기준 — okadmin 업로드 즉시 반영."""
     images_root = os.path.join(STATIC_DIR, 'images')
-    try:
-        local_path = safe_join(images_root, filename)
-    except ValueError:
-        abort(404)
-    if local_path and os.path.isfile(local_path) and os.path.getsize(local_path) > 0:
-        return send_file(local_path)
-    return redirect(f"https://storage.googleapis.com/ok-project-assets/okramen/{filename}?v={int(time.time())}")
+    if any(x in filename for x in ['favicon', 'apple-touch']):
+        try:
+            local_path = safe_join(images_root, filename)
+        except ValueError:
+            abort(404)
+        if local_path and os.path.isfile(local_path):
+            return send_file(local_path)
+    url = f"https://storage.googleapis.com/ok-project-assets/okramen/{filename}"
+    if request.query_string:
+        url = f"{url}?{request.query_string.decode()}"
+    return redirect(url, code=302)
 
 @app.route('/robots.txt')
 def robots_txt():
