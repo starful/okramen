@@ -8,19 +8,22 @@ lang: en
 lat: 35.6934
 lng: 139.7001
 shop_name: Menya Musashi Shinjuku
-summary: "Menya Musashi Shinjuku in Tokyo: Tonkotsu ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Menya Musashi Shinjuku in Tokyo: Tonkotsu ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/menya_musashi_shinjuku.jpg
-title: Menya Musashi Shinjuku — Tokyo Tonkotsu ramen guide
+title: 'Menya Musashi Shinjuku: Legendary Tsukemen & Rich W-Soup'
 one_liner: Tonkotsu ramen at Menya Musashi Shinjuku, Tokyo. Verify hours and holidays
   on Maps before you go.
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
-seo_title: "Menya Musashi Shinjuku Ramen — W-Soup Tonkotsu | OKRamen"
-seo_description: "Menya Musashi Shinjuku: famous W-soup (pork + seafood dashi) near\
-  \ Shinjuku Station. Ticket machine, queues, map link, hours, what to order."
+seo_title: 'Menya Musashi Shinjuku: Legendary Tsukemen & Pork | OKRamen'
+seo_description: 'Taste Tokyo''s legendary Tsukemen! Guide to Menya Musashi Shinjuku:
+  rich W-soup, massive pork belly, menu details, and how to order.'
+description: An ultimate guide to Menya Musashi Shinjuku, famous for its legendary
+  rich W-soup tsukemen and massive braised pork belly.
 ---
+
 
 **What to expect:** Menya Musashi Shinjuku serves dual-broth (W-soup) tonkotsu — a Shinjuku classic for travelers who want a well-known bowl near the station.
 

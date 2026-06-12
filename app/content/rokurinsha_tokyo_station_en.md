@@ -8,15 +8,21 @@ lang: en
 lat: 35.6811
 lng: 139.7671
 shop_name: Rokurinsha Tokyo Station
-summary: "Rokurinsha Tokyo Station in Tokyo: tsukemen (dipping noodles) — practical\
-  \ notes on queues, ordering, and how to eat the bowl. Verify hours on Maps."
+summary: 'Rokurinsha Tokyo Station in Tokyo: tsukemen (dipping noodles) — practical
+  notes on queues, ordering, and how to eat the bowl. Verify hours on Maps.'
 thumbnail: /static/images/rokurinsha_tokyo_station.jpg
-title: Rokurinsha Tokyo Station — Tokyo Tsukemen ramen guide
-one_liner: "Tsukemen specialist in Tokyo: noodles and broth served separately. Verify\
-  \ hours and holidays on Maps before you go."
+title: 'Rokurinsha Tokyo Station: Legendary Tsukemen & Location Guide'
+one_liner: 'Tsukemen specialist in Tokyo: noodles and broth served separately. Verify
+  hours and holidays on Maps before you go.'
 what_to_order: House tsukemen; ask about soup-wari (broth top-up) if offered.
 good_for: Tsukemen fans and noodle-texture seekers
+description: Your complete guide to Rokurinsha at Tokyo Station. Find the exact location
+  on Ramen Street, get queue tips, and discover why this tsukemen is legendary.
+seo_title: 'Rokurinsha Tokyo Station: How to Find Tokyo''s Best Tsukemen'
+seo_description: 'Craving legendary dipping noodles? Here''s your guide to Rokurinsha
+  Tokyo Station: exact location, menu tips, and how to beat the lines.'
 ---
+
 
 **Overview:** Rokurinsha Tokyo Station in Chiyoda, Tokyo is a tsukemen shop — you dip noodles into a separate concentrated broth, not a standard soup ramen bowl. Noodles are served ready to dip; start soon after they arrive.
 

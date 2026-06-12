@@ -12,21 +12,22 @@ lang: en
 lat: 35.0033
 lng: 135.7688
 shop_name: Ramen SEN NO Kaze
-summary: "Ramen SEN NO Kaze in Kyoto: Tonkotsu ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen SEN NO Kaze in Kyoto: Tonkotsu ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_sen-no-kaze.jpg
-title: Ramen SEN NO Kaze — Kyoto Tonkotsu ramen guide
+title: 'Ramen Sen no Kaze Kyoto: The Ultimate Guide & Review'
 one_liner: Tonkotsu ramen at Ramen SEN NO Kaze, Kyoto. Verify hours and holidays on
   Maps before you go.
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
-seo_title: "Ramen Sen no Kaze Kyoto: Worth the Wait? | OKRamen"
-seo_description: "Is Kyoto's famous Ramen Sen no Kaze worth the wait? Get honest reviews,\
-  \ menu highlights, opening hours, and location maps on OKRamen."
-description: "Is Kyoto's famous Ramen Sen no Kaze worth the wait? Get honest reviews,\
-  \ menu highlights, opening hours, and location maps on OKRamen."
+seo_title: 'Ramen Sen no Kaze Kyoto: Menu, Hours & Queue Tips | OKRamen'
+seo_description: Planning to visit Kyoto's famous Ramen Sen no Kaze? Discover our
+  honest review, menu favorites, and top tips to beat the massive queue!
+description: An ultimate guide to dining at Kyoto's famous Ramen Sen no Kaze, including
+  menu highlights, wait-time secrets, and honest reviews.
 ---
+
 
 **Intro:** Ramen SEN NO Kaze is a tonkotsu ramen shop in Nakagyo, Kyoto. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

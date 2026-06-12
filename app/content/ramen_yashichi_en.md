@@ -4,28 +4,29 @@ categories:
 - Chicken
 - Local Gem
 date: '2026-04-12'
-image_prompt: "A 45-degree angle close-up of a bowl of Ramen Yashichi's signature\
-  \ Shoyu Tori Paitan, featuring a rich creamy golden-brown broth with delicate micro-foam,\
-  \ topped with a perfectly soft-boiled ajitama, thick-cut chashu, and fresh green\
-  \ onions, set against a warm wooden counter in a rustic, minimalist Japanese interior."
+image_prompt: A 45-degree angle close-up of a bowl of Ramen Yashichi's signature Shoyu
+  Tori Paitan, featuring a rich creamy golden-brown broth with delicate micro-foam,
+  topped with a perfectly soft-boiled ajitama, thick-cut chashu, and fresh green onions,
+  set against a warm wooden counter in a rustic, minimalist Japanese interior.
 lang: en
 lat: 34.7111
 lng: 135.4988
 shop_name: Ramen Yashichi
-summary: "Ramen Yashichi in Osaka: Chicken ramen ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Yashichi in Osaka: Chicken ramen ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_yashichi.jpg
-title: Ramen Yashichi — Osaka Chicken ramen ramen guide
+title: 'Ramen Yashichi Osaka: Ticket Guide & Creamy Chicken Ramen'
 one_liner: Chicken ramen ramen at Ramen Yashichi, Osaka. Verify hours and holidays
   on Maps before you go.
 what_to_order: The shop’s signature bowl on the menu board.
 good_for: Trip planning before you land
-seo_title: "Ramen Yashichi: Osaka's Legendary Chicken Ramen | OKRamen"
-seo_description: "Get the ultimate guide to Osaka's legendary Ramen Yashichi. Learn\
-  \ how to get tickets and try their famous, creamy chicken paitan ramen."
-description: "Craving Osaka's legendary chicken ramen? Learn how to navigate Ramen\
-  \ Yashichi's ticketing system and savor their ultimate creamy chicken paitan."
+seo_title: 'Ramen Yashichi Osaka: Ticket Guide & Chicken Ramen | OKRamen'
+seo_description: Don't get turned away! Learn how to get tickets for Osaka's legendary
+  Ramen Yashichi and try their famous creamy chicken paitan ramen.
+description: Learn how to navigate the famous ticket system and enjoy Osaka's best
+  chicken paitan ramen.
 ---
+
 
 **Intro:** Ramen Yashichi is a chicken ramen ramen shop in Kita, Osaka. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

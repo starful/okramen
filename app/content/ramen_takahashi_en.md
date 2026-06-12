@@ -12,20 +12,21 @@ lang: en
 lat: 35.6955
 lng: 139.7011
 shop_name: Ramen Takahashi
-summary: "Ramen Takahashi in Tokyo: Shoyu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Takahashi in Tokyo: Shoyu ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_takahashi.jpg
-title: Ramen Takahashi — Tokyo Shoyu ramen guide
+title: 'Ramen Takahashi Shinjuku: Grilled Flying Fish Ramen Guide'
 one_liner: Shoyu ramen at Ramen Takahashi, Tokyo. Verify hours and holidays on Maps
   before you go.
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
-seo_title: "Ramen Takahashi Shinjuku: Famous Grilled Flying Fish Ramen | OKRamen"
-seo_description: "Savor the legendary grilled flying fish dashi at Ramen Takahashi\
-  \ in Shinjuku. Get menu highlights, locations, and tips in our guide!"
-description: An expert guide to Ramen Takahashi in Kabukicho, Shinjuku, famous for
-  its rich grilled flying fish (ago-dashi) ramen.
+seo_title: 'Ramen Takahashi Shinjuku: Legendary Flying Fish Ramen Guide'
+seo_description: Discover Shinjuku's legendary Ramen Takahashi! Get our ultimate guide
+  to the famous grilled flying fish ramen, menu highlights, and ordering tips.
+description: Discover Ramen Takahashi in Shinjuku, famous for its rich grilled flying
+  fish dashi. See the full menu, prices, and English ordering tips.
 ---
+
 
 **Intro:** Ramen Takahashi is a shoyu ramen shop in Shinjuku, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

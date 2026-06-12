@@ -8,16 +8,22 @@ lang: en
 lat: 35.6711
 lng: 139.7662
 shop_name: Ippudo Ginza
-summary: "Ippudo Ginza in 4-10-3 Ginza: Tonkotsu ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ippudo Ginza in 4-10-3 Ginza: Tonkotsu ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ippudo_ginza.jpg
-title: Ippudo Ginza — 4-10-3 Ginza Tonkotsu ramen guide
+title: 'Ippudo Ginza Ramen Guide: Menu, Hours & Tips'
 one_liner: Tonkotsu ramen at Ippudo Ginza, 4-10-3 Ginza. Verify hours and holidays
   on Maps before you go.
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
+description: Planning to visit Ippudo Ginza? Discover the best tonkotsu ramen on the
+  menu, current hours, location, and insider tips before you go!
+seo_title: 'Ippudo Ginza Ramen Guide: Menu, Hours & Tips | OKRamen'
+seo_description: Planning to visit Ippudo Ginza? Discover the best tonkotsu ramen
+  on the menu, current hours, location, and insider tips before you go!
 ---
+
 
 **Intro:** Ippudo Ginza is a chain or franchise branch in Chuo City, 4-10-3 Ginza. Menus and hours can differ from other branches — verify this location on Maps. Do not assume the Tokyo main shop menu matches this pin.
 

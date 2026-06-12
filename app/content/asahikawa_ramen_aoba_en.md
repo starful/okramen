@@ -4,24 +4,30 @@ categories:
 - Shoyu
 - Local Gem
 date: '2026-04-14'
-image_prompt: "A steaming macro shot at a 45-degree angle of Asahikawa Ramen Aoba's\
-  \ signature Shoyu ramen, showcasing the dark, amber-hued broth with a shimmering\
-  \ golden layer of oil on the surface, thin wavy noodles peeking through, tender\
-  \ chashu slices, and wisps of steam rising against a rustic wooden counter seat\
-  \ in a warm, nostalgic interior."
+image_prompt: A steaming macro shot at a 45-degree angle of Asahikawa Ramen Aoba's
+  signature Shoyu ramen, showcasing the dark, amber-hued broth with a shimmering golden
+  layer of oil on the surface, thin wavy noodles peeking through, tender chashu slices,
+  and wisps of steam rising against a rustic wooden counter seat in a warm, nostalgic
+  interior.
 lang: en
 lat: 43.7655
 lng: 142.3611
 shop_name: Asahikawa Ramen Aoba
-summary: "Asahikawa Ramen Aoba in Hokkaido: Shoyu ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Asahikawa Ramen Aoba in Hokkaido: Shoyu ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/asahikawa_ramen_aoba.jpg
-title: Asahikawa Ramen Aoba — Hokkaido Shoyu ramen guide
+title: 'Asahikawa Ramen Aoba: Legendary Shoyu Ramen Since 1947'
 one_liner: Shoyu ramen at Asahikawa Ramen Aoba, Hokkaido. Verify hours and holidays
   on Maps before you go.
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
+description: Craving legendary Hokkaido shoyu ramen? Read our guide to Asahikawa Ramen
+  Aoba (est. 1947). Find menu highlights, what to order, and visitor tips!
+seo_title: 'Asahikawa Ramen Aoba: Legendary 1947 Shoyu Ramen | OKRamen'
+seo_description: Taste history at Asahikawa Ramen Aoba! Get menu highlights, what
+  to order at this legendary 1947 Hokkaido shop, location, and visitor tips.
 ---
+
 
 **Intro:** Asahikawa Ramen Aoba is a shoyu ramen shop in Asahikawa, Hokkaido. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

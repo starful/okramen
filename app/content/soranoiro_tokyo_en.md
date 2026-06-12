@@ -4,23 +4,29 @@ categories:
 - Vegan
 - Premium
 date: '2026-04-14'
-image_prompt: "A stunning overhead flat-lay of Soranoiro's signature Veggie Soba,\
-  \ featuring a vibrant orange-hued vegetable broth, bright green broccoli, red roasted\
-  \ tomatoes, and orange paprika-infused noodles, set against a bright minimalist\
-  \ wooden table in a premium Tokyo aesthetic."
+image_prompt: A stunning overhead flat-lay of Soranoiro's signature Veggie Soba, featuring
+  a vibrant orange-hued vegetable broth, bright green broccoli, red roasted tomatoes,
+  and orange paprika-infused noodles, set against a bright minimalist wooden table
+  in a premium Tokyo aesthetic.
 lang: en
 lat: 35.6811
 lng: 139.7671
 shop_name: Soranoiro Tokyo
-summary: "Soranoiro Tokyo in Tokyo: Vegan-friendly ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Soranoiro Tokyo in Tokyo: Vegan-friendly ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/soranoiro_tokyo.jpg
-title: Soranoiro Tokyo — Tokyo Vegan-friendly ramen guide
+title: 'Soranoiro Tokyo: Tokyo''s Famous Vegan & Michelin Ramen'
 one_liner: Vegan-friendly ramen at Soranoiro Tokyo, Tokyo. Verify hours and holidays
   on Maps before you go.
 what_to_order: The shop’s signature bowl on the menu board.
 good_for: Trip planning before you land
+description: Soranoiro Tokyo is world-famous for its groundbreaking vegan, vegetarian,
+  and gluten-free ramen, alongside Michelin-approved classic bowls.
+seo_title: 'Soranoiro Tokyo Guide: Famous Vegan & Michelin Ramen'
+seo_description: Craving the best vegan ramen in Tokyo? Read our review of Michelin-featured
+  Soranoiro. Get must-order menu items, Tokyo Station directions, and tips!
 ---
+
 
 **At a glance:** Soranoiro Tokyo is a vegan-friendly ramen shop in Chiyoda, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

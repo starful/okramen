@@ -12,20 +12,21 @@ lang: en
 lat: 34.6755
 lng: 135.4855
 shop_name: Kadoya Shokudo
-summary: "Kadoya Shokudo in Osaka: Shoyu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Kadoya Shokudo in Osaka: Shoyu ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/kadoya_shokudo.jpg
-title: Kadoya Shokudo — Osaka Shoyu ramen guide
+title: 'Kadoya Shokudo: Is Osaka’s Legendary Shoyu Ramen Worth the Wait?'
 one_liner: Shoyu ramen at Kadoya Shokudo, Osaka. Verify hours and holidays on Maps
   before you go.
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
-seo_title: "Kadoya Shokudo Guide: Osaka's Michelin Shoyu Ramen | OKRamen"
-seo_description: "Discover Kadoya Shokudo, Osaka's legendary Michelin Bib Gourmand\
-  \ Shoyu ramen. Get honest reviews and insider tips before you visit."
-description: "The ultimate guide to Kadoya Shokudo, Osaka's premier Michelin-recognized\
-  \ Shoyu ramen shop. Learn what to order and how to beat the queue."
+seo_title: Is Kadoya Shokudo Worth the Wait? Osaka's Best Shoyu Ramen
+seo_description: Is Kadoya Shokudo worth the legendary queue? Read our honest review,
+  menu recommendations, and insider tips for Osaka's top Shoyu ramen.
+description: A complete guide to Kadoya Shokudo, Osaka's legendary Michelin Bib Gourmand
+  Shoyu ramen spot. Learn what to order and how to beat the queue.
 ---
+
 
 **At a glance:** Kadoya Shokudo is a shoyu ramen shop in Nishi, Osaka. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 
