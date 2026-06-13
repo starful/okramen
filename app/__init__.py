@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, abort, send_from_directory, send_file, redirect, request
+from flask import Flask, jsonify, render_template, abort, send_from_directory, send_file, redirect, request, Response
 from flask_compress import Compress
 from flask import make_response
 import json
@@ -8,6 +8,8 @@ import markdown
 import re
 import glob
 import logging
+import io
+import urllib.request
 from datetime import datetime, timezone
 from xml.sax.saxutils import escape
 import urllib.parse
@@ -34,14 +36,44 @@ app.register_blueprint(reactions_bp)
 
 logger = logging.getLogger(__name__)
 SITE_URL = os.environ.get("SITE_URL", "https://okramen.net").rstrip("/")
+GCS_ASSET_PREFIX = "okramen"
+
+
+def _gcs_image_url(filename: str) -> str:
+    return f"https://storage.googleapis.com/ok-project-assets/{GCS_ASSET_PREFIX}/{filename}"
+
+
+def _social_image_url(base_id: str) -> str:
+    safe = re.sub(r"[^a-z0-9_-]", "", base_id.lower())
+    return f"{SITE_URL}/social/{safe}.jpg"
+
+
+def _og_image_context(base_id: str) -> dict:
+    og_image_abs = _social_image_url(base_id)
+    return {
+        "og_image_abs": og_image_abs,
+        "og_image_width": 1200,
+        "og_image_height": 630,
+    }
+
+
+def _card_path(ramen_id: str) -> str:
+    return f"/card/{ramen_id}"
+
+
+def _jpeg_bytes(img) -> bytes:
+    buf = io.BytesIO()
+    img.save(buf, format="JPEG", quality=78, optimize=True, progressive=True)
+    return buf.getvalue()
 
 
 def _linkedin_inspector_url(page_url: str) -> str:
     return f"https://www.linkedin.com/post-inspector/inspect/{urllib.parse.quote(page_url, safe='')}"
 
 
-def _share_context(slug: str, title: str, lang: str, page_path: str) -> dict:
+def _share_context(slug: str, title: str, lang: str, page_path: str, base_id: str = "") -> dict:
     share_url = f"{SITE_URL}{page_path}"
+    share_url_x = f"{SITE_URL}{_card_path(slug)}"
     if lang == "ko":
         share_tweet = f"{title} — OKRamen"
     else:
@@ -49,8 +81,10 @@ def _share_context(slug: str, title: str, lang: str, page_path: str) -> dict:
     return {
         "share_id": slug,
         "share_url": share_url,
+        "share_url_x": share_url_x,
         "share_tweet": share_tweet,
         "share_lang": lang if lang in ("en", "ko") else "en",
+        "og_page_url": share_url,
         "linkedin_inspector_url": _linkedin_inspector_url(share_url),
     }
 
@@ -497,6 +531,7 @@ def ramen_detail(ramen_id):
     post = _attach_seo_fields(post, "OKRamen Japan Guide")
     _enrich_ramen_detail_post(post)
 
+    base_id = ramen_id.rsplit('_', 1)[0]
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])
     related_ramens = _related_ramens_for_post(post, limit=4)
     share_ctx = _share_context(
@@ -504,9 +539,70 @@ def ramen_detail(ramen_id):
         post.get("seo_title") or post.get("shop_name") or post.get("title", "OKRamen"),
         post.get("lang", "en"),
         f"/ramen/{ramen_id}",
+        base_id=base_id,
     )
     return render_template(
-        "detail.html", post=post, content=content_html, related_ramens=related_ramens, **share_ctx
+        "detail.html", post=post, content=content_html, related_ramens=related_ramens,
+        **_og_image_context(base_id), **share_ctx
+    )
+
+
+@app.route('/card/<ramen_id>')
+def ramen_social_card(ramen_id):
+    """Lightweight share landing page for X/OG crawlers."""
+    md_path = os.path.join(CONTENT_DIR, f"{ramen_id}.md")
+    if not os.path.exists(md_path):
+        abort(404)
+
+    with open(md_path, 'r', encoding='utf-8') as f:
+        post = loads_ramen_post(f.read())
+
+    base_id = ramen_id.rsplit('_', 1)[0]
+    lang = post.get('lang', 'en')
+    apply_practical_fields(post, ramen_id)
+    post = _attach_seo_fields(post, "OKRamen Japan Guide")
+
+    page_path = f"/ramen/{ramen_id}"
+
+    return render_template(
+        'social_card.html',
+        lang=lang,
+        title=post.get('shop_name') or post.get('title', 'OKRamen'),
+        seo_title=post.get('seo_title', 'OKRamen'),
+        seo_desc=post.get('seo_description', post.get('summary', '')),
+        page_url=f"{SITE_URL}{page_path}",
+        card_url=f"{SITE_URL}{_card_path(ramen_id)}",
+        **_og_image_context(base_id),
+    )
+
+
+@app.route('/social/<slug>.jpg')
+def social_image(slug):
+    """Serve ramen thumbnail on-site for OG/Twitter (1200×630 JPEG, no redirect)."""
+    safe = re.sub(r"[^a-z0-9_-]", "", slug.lower())
+    if not safe:
+        abort(404)
+    gcs_url = _gcs_image_url(f"{safe}.jpg")
+    try:
+        with urllib.request.urlopen(gcs_url, timeout=15) as resp:
+            raw = resp.read()
+            if not raw:
+                abort(404)
+    except Exception:
+        abort(404)
+
+    try:
+        from PIL import Image, ImageOps
+
+        img = Image.open(io.BytesIO(raw)).convert("RGB")
+        data = _jpeg_bytes(ImageOps.fit(img, (1200, 630), Image.Resampling.LANCZOS))
+    except Exception:
+        data = raw
+
+    return Response(
+        data,
+        mimetype="image/jpeg",
+        headers={"Cache-Control": "public, max-age=86400"},
     )
 
 @app.route('/static/images/<path:filename>')

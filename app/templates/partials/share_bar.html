@@ -8,7 +8,7 @@
     </span>
     <div class="share-bar-actions">
         <a class="share-btn share-btn-icon share-btn-x"
-           href="https://x.com/intent/tweet?url={{ share_url | urlencode }}&amp;text={{ share_tweet | urlencode }}"
+           href="https://x.com/intent/tweet?url={{ share_url_x | urlencode }}&amp;text={{ share_tweet | urlencode }}"
            target="_blank"
            rel="noopener noreferrer"
            data-share-method="twitter"
@@ -36,5 +36,6 @@
             {{ '링크 복사' if share_lang == 'ko' else 'Copy link' }}
         </button>
     </div>
+    <p class="share-bar-hint">{{ 'X 공유는 미리보기 전용 /card/ URL을 사용합니다. 이미지가 안 보이면 ' if share_lang == 'ko' else 'X shares use the /card/ preview URL. If the image is missing, ' }}<a href="{{ share_url_x }}" target="_blank" rel="noopener noreferrer">{{ '카드 페이지' if share_lang == 'ko' else 'open the card page' }}</a>{{ '를 새 탭에서 연 뒤 X 버튼으로 공유하세요.' if share_lang == 'ko' else ', then share again via the X button.' }}</p>
 </div>
 <script src="/static/js/share.js" defer></script>

@@ -380,6 +380,14 @@ header {
 
 .share-btn-linkedin:hover { color: #0a66c2; border-color: #0a66c2; }
 
+.share-bar-hint {
+    flex: 1 1 100%;
+    margin: 0;
+    font-size: 0.78rem;
+    line-height: 1.45;
+    color: var(--text-gray);
+}
+
 /* =========================================
    6. Mobile UX Optimization (반응형 코드 전체)
    ========================================= */
