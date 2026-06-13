@@ -35,6 +35,25 @@ app.register_blueprint(reactions_bp)
 logger = logging.getLogger(__name__)
 SITE_URL = os.environ.get("SITE_URL", "https://okramen.net").rstrip("/")
 
+
+def _linkedin_inspector_url(page_url: str) -> str:
+    return f"https://www.linkedin.com/post-inspector/inspect/{urllib.parse.quote(page_url, safe='')}"
+
+
+def _share_context(slug: str, title: str, lang: str, page_path: str) -> dict:
+    share_url = f"{SITE_URL}{page_path}"
+    if lang == "ko":
+        share_tweet = f"{title} — OKRamen"
+    else:
+        share_tweet = f"{title} — Japan ramen guide on OKRamen"
+    return {
+        "share_id": slug,
+        "share_url": share_url,
+        "share_tweet": share_tweet,
+        "share_lang": lang if lang in ("en", "ko") else "en",
+        "linkedin_inspector_url": _linkedin_inspector_url(share_url),
+    }
+
 # [설정] 경로 설정
 BASE_DIR = app.root_path
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
@@ -450,8 +469,9 @@ def guide_detail(guide_id):
 
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])
     related_shops = _ramen_cards(GUIDE_RELATED_SHOPS.get(guide_id, []))
+    share_ctx = _share_context(guide_id, post.get("title", "OKRamen Guide"), post.get("lang", "en"), f"/guide/{guide_id}")
     return render_template(
-        "guide_detail.html", post=post, content=content_html, related_shops=related_shops
+        "guide_detail.html", post=post, content=content_html, related_shops=related_shops, **share_ctx
     )
 
 @app.route('/ramen/<ramen_id>')
@@ -479,8 +499,14 @@ def ramen_detail(ramen_id):
 
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])
     related_ramens = _related_ramens_for_post(post, limit=4)
+    share_ctx = _share_context(
+        ramen_id,
+        post.get("seo_title") or post.get("shop_name") or post.get("title", "OKRamen"),
+        post.get("lang", "en"),
+        f"/ramen/{ramen_id}",
+    )
     return render_template(
-        "detail.html", post=post, content=content_html, related_ramens=related_ramens
+        "detail.html", post=post, content=content_html, related_ramens=related_ramens, **share_ctx
     )
 
 @app.route('/static/images/<path:filename>')

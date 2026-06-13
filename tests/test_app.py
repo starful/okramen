@@ -76,3 +76,4 @@ def test_ramen_detail_has_reaction_panel(client):
     html = response.get_data(as_text=True)
     assert "reaction-panel" in html
     assert "/api/reactions/" in html
+    assert "share-bar" in html

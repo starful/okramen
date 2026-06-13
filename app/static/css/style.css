@@ -309,6 +309,77 @@ header {
     border-color: #f43f5e;
 }
 
+.share-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin: 48px 0 12px;
+    padding: 18px 22px;
+    background: linear-gradient(180deg, #fff8eb 0%, #ffffff 100%);
+    border: 1px solid rgba(243, 156, 18, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(243, 156, 18, 0.1);
+}
+
+.share-bar-label {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.share-bar-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 0 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 999px;
+    background: #fff;
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.share-btn:hover {
+    transform: translateY(-1px);
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.share-btn:disabled {
+    opacity: 0.85;
+    cursor: default;
+}
+
+.share-btn-icon {
+    width: 42px;
+    min-width: 42px;
+    height: 42px;
+    padding: 0;
+}
+
+.share-icon {
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.share-btn-x:hover { color: #000; border-color: #cbd5e1; }
+
+.share-btn-linkedin:hover { color: #0a66c2; border-color: #0a66c2; }
+
 /* =========================================
    6. Mobile UX Optimization (반응형 코드 전체)
    ========================================= */
