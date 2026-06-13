@@ -527,3 +527,67 @@ footer { text-align: center; padding: 60px 20px; color: #8d6e63; background: #ff
     font-size: 0.85rem; font-weight: 700; display: flex; align-items: center; gap: 8px; border: 1.5px solid var(--light-border); 
 }
 .status-badge.highlight { border-color: var(--accent-color); color: var(--accent-hover); box-shadow: 0 4px 10px rgba(243, 156, 18, 0.15); }
+
+/* OK Series cross-site links */
+.family-sites-strip {
+    background: #0f172a;
+    padding: 36px 16px 40px;
+    margin: 0 -20px 28px;
+    width: calc(100% + 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+.family-sites-inner { max-width: 960px; margin: 0 auto; }
+.family-sites-title {
+    font-size: 0.72rem;
+    color: #94a3b8;
+    margin: 0 0 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.family-sites-row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+.family-site-card {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    background-color: #1e293b;
+    padding: 14px 22px;
+    min-width: 200px;
+    max-width: 280px;
+    flex: 1 1 200px;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    color: inherit;
+    text-align: left;
+}
+.family-site-card:hover {
+    transform: translateY(-2px);
+    border-color: #475569;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+}
+.family-site-card-emoji { font-size: 1.35rem; margin-right: 12px; line-height: 1; flex-shrink: 0; }
+.family-site-card-text { min-width: 0; text-align: left; }
+.family-site-card-name { font-size: 0.95rem; font-weight: 800; color: #fff; letter-spacing: -0.02em; }
+.family-site-card-desc { font-size: 0.72rem; color: #94a3b8; margin-top: 2px; line-height: 1.35; }
+.cross-site-links {
+    margin: 36px 0;
+    padding: 22px 24px;
+    border-radius: 14px;
+    background: #fff8ef;
+    border: 1px solid #f0dcc4;
+}
+.cross-site-links__title { margin: 0 0 12px; font-size: 1.05rem; color: var(--primary-color); }
+.cross-site-links__list { margin: 0; padding-left: 0; list-style: none; line-height: 1.9; }
+.cross-site-links__list a { color: #c0392b; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 768px) {
+    .family-sites-strip { margin: 0 -12px 20px; width: calc(100% + 24px); padding: 28px 12px 32px; }
+    .family-site-card { flex: 1 1 100%; max-width: none; justify-content: center; }
+}

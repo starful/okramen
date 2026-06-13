@@ -435,9 +435,21 @@ def _enrich_ramen_detail_post(post) -> None:
     post["maps_url"] = build_maps_search_url(lat, lng, label)
 
 
+try:
+    from .family_sites import cross_links_for, inject_family_context
+except ImportError:
+    from family_sites import cross_links_for, inject_family_context
+
+FAMILY_SITE_ID = "okramen"
+
+
 @app.context_processor
 def inject_site_url():
-    return {"site_url": SITE_URL}
+    lang = request.args.get("lang", "en") if request else "en"
+    return {
+        "site_url": SITE_URL,
+        **inject_family_context(FAMILY_SITE_ID, lang),
+    }
 
 # --- Routes ---
 
@@ -504,8 +516,15 @@ def guide_detail(guide_id):
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])
     related_shops = _ramen_cards(GUIDE_RELATED_SHOPS.get(guide_id, []))
     share_ctx = _share_context(guide_id, post.get("title", "OKRamen Guide"), post.get("lang", "en"), f"/guide/{guide_id}")
+    lang = post.get("lang", "en")
     return render_template(
-        "guide_detail.html", post=post, content=content_html, related_shops=related_shops, **share_ctx
+        "guide_detail.html",
+        post=post,
+        content=content_html,
+        related_shops=related_shops,
+        cross_site_links=cross_links_for(FAMILY_SITE_ID, lang),
+        **inject_family_context(FAMILY_SITE_ID, lang),
+        **share_ctx,
     )
 
 @app.route('/ramen/<ramen_id>')
@@ -541,9 +560,18 @@ def ramen_detail(ramen_id):
         f"/ramen/{ramen_id}",
         base_id=base_id,
     )
+    lang = post.get("lang", "en")
     return render_template(
-        "detail.html", post=post, content=content_html, related_ramens=related_ramens,
-        **_og_image_context(base_id), **share_ctx
+        "detail.html",
+        post=post,
+        content=content_html,
+        related_ramens=related_ramens,
+        cross_site_links=cross_links_for(
+            FAMILY_SITE_ID, lang, address=post.get("address")
+        ),
+        **inject_family_context(FAMILY_SITE_ID, lang),
+        **_og_image_context(base_id),
+        **share_ctx,
     )
 
 

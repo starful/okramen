@@ -59,6 +59,8 @@
 
         {% include 'partials/share_bar.html' %}
 
+        {% include 'partials/cross_site_links.html' %}
+
         {% with reaction_slug=post.id, reaction_lang=post.lang|default('en') %}
         {% include 'partials/reactions.html' %}
         {% endwith %}

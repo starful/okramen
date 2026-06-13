@@ -1,0 +1,23 @@
+{% if cross_site_links %}
+<section class="cross-site-links" aria-label="{% if cross_site_links[0].id in ['jpcampus', 'krcampus'] %}{{ '유학 가이드' if family_lang == 'ko' else ('留学ガイド' if family_lang == 'ja' else 'Study abroad') }}{% else %}{{ '함께 보면 좋은 OK Series' if family_lang == 'ko' else 'More from OK Series' }}{% endif %}">
+    <h2 class="cross-site-links__title">
+        {% if cross_site_links[0].id in ['jpcampus', 'krcampus'] %}
+            {% if family_lang == 'ja' %}関連する留学ガイド
+            {% elif family_lang == 'ko' %}함께 보면 좋은 유학 가이드
+            {% else %}Related study abroad guides{% endif %}
+        {% elif family_lang == 'ja' %}あわせて読みたいガイド
+        {% elif family_lang == 'ko' %}함께 보면 좋은 가이드
+        {% else %}You might also like{% endif %}
+    </h2>
+    <ul class="cross-site-links__list">
+        {% for link in cross_site_links %}
+        <li>
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer"
+               data-track="cross_site_link" data-track-label="{{ link.id }}">
+                <span aria-hidden="true">{{ link.emoji }}</span> {{ link.label }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
