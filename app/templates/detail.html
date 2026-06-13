@@ -58,6 +58,7 @@
     }
     </script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
@@ -113,6 +114,10 @@
                 {{ content | safe }}
             </div>
         </details>
+
+        {% with reaction_slug=post.id, reaction_lang=post.lang|default('en') %}
+        {% include 'partials/reactions.html' %}
+        {% endwith %}
 
         {% if related_ramens %}
         <section class="related-shops" aria-labelledby="related-ramen-heading">

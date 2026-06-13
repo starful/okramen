@@ -24,6 +24,14 @@ except ImportError:
 
 app = Flask(__name__)
 Compress(app)
+
+try:
+    from .reactions import reactions_bp
+except ImportError:
+    from reactions import reactions_bp
+
+app.register_blueprint(reactions_bp)
+
 logger = logging.getLogger(__name__)
 SITE_URL = os.environ.get("SITE_URL", "https://okramen.net").rstrip("/")
 

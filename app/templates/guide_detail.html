@@ -13,6 +13,7 @@
     <link rel="alternate" hreflang="en" href="{{ site_url }}/guide/{{ post.id | replace('_ko', '_en') }}" />
     {% endif %}
     <link rel="alternate" hreflang="x-default" href="{{ site_url }}/guide/{{ post.id }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/static/css/style.css">
     
     <!-- SEO: Article Schema -->
@@ -55,6 +56,10 @@
         <div class="detail-content">
             {{ content | safe }}
         </div>
+
+        {% with reaction_slug=post.id, reaction_lang=post.lang|default('en') %}
+        {% include 'partials/reactions.html' %}
+        {% endwith %}
 
         {% if related_shops %}
         <section class="related-shops" aria-labelledby="related-shops-heading">

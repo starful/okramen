@@ -240,6 +240,75 @@ header {
 .card-title { font-size: 1.3rem; margin: 0 0 12px 0; line-height: 1.4; color: var(--primary-color); font-weight: 800; }
 .card-summary { font-size: 0.95rem; color: #6d4c41; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.7; }
 
+.reaction-panel {
+    margin-top: 48px;
+    margin-bottom: 8px;
+    padding: 28px 32px 32px;
+    border-radius: 20px;
+    border: 1px solid rgba(243, 156, 18, 0.18);
+    background: linear-gradient(180deg, #fff8eb 0%, #ffffff 100%);
+    box-shadow: 0 8px 28px rgba(243, 156, 18, 0.1);
+    text-align: center;
+}
+
+.reaction-panel-title {
+    margin: 0 0 8px;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.reaction-panel-subtitle {
+    margin: 0 0 22px;
+    font-size: 0.95rem;
+    color: #64748b;
+}
+
+.reaction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.reaction-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 140px;
+    padding: 14px 32px;
+    border-radius: 999px;
+    border: 2px solid #e2e8f0;
+    background: #fff;
+    color: #64748b;
+    font-size: 1.05rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
+}
+
+.reaction-btn i { font-size: 1.25rem; }
+
+.reaction-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+.reaction-btn.active-like {
+    background: var(--accent-color);
+    color: #fff;
+    border-color: var(--accent-color);
+}
+
+.reaction-btn.active-dislike {
+    background: #f43f5e;
+    color: #fff;
+    border-color: #f43f5e;
+}
+
 /* =========================================
    6. Mobile UX Optimization (반응형 코드 전체)
    ========================================= */

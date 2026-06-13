@@ -60,3 +60,19 @@ def test_ramen_detail_shows_practical_guide_layout(client):
     assert "Ganso Sapporo Ramen Yokocho" in html
     assert "Why Ganso Sapporo Ramen Yokocho Still Serves" not in html
     assert "What to order" in html
+
+
+def test_reactions_api(client):
+    response = client.get("/api/reactions/test-slug")
+    assert response.status_code == 200
+    data = response.get_json()
+    assert "likes" in data
+    assert "dislikes" in data
+
+
+def test_ramen_detail_has_reaction_panel(client):
+    response = client.get("/ramen/tenkaippin_main_shop_en")
+    assert response.status_code == 200
+    html = response.get_data(as_text=True)
+    assert "reaction-panel" in html
+    assert "/api/reactions/" in html
