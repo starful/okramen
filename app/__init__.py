@@ -13,6 +13,11 @@ import urllib.request
 from datetime import datetime, timezone
 from xml.sax.saxutils import escape
 import urllib.parse
+
+try:
+    from .content_new import enrich_item
+except ImportError:
+    from content_new import enrich_item
 from werkzeug.utils import safe_join
 
 try:
@@ -155,13 +160,13 @@ def load_guides():
 
     new_guides = {'en': [], 'ko': []}
     for g in all_raw:
-        new_guides[g['lang']].append({
+        new_guides[g['lang']].append(enrich_item({
             'id': g['full_id'],
             'title': g['title'],
             'summary': g['summary'],
             'thumbnail': id_to_img.get(g['base_id'], UNSPLASH_GUIDE_IMAGES[0]),
             'published': g['published']
-        })
+        }))
     
     for l in ['en', 'ko']:
         new_guides[l].sort(key=lambda x: x['published'], reverse=True)
@@ -258,14 +263,17 @@ def _ramen_cards(ramen_ids):
         title = str(r.get("title") or rid)
         label = slug_to_shop_name(r["id"])
         cards.append(
-            {
-                "id": r["id"],
-                "link": r.get("link") or f"/ramen/{r['id']}",
-                "title": title,
-                "short_title": _truncate_text(label or title, 72),
-                "address": r.get("address", ""),
-                "thumbnail": r.get("thumbnail", ""),
-            }
+            enrich_item(
+                {
+                    "id": r["id"],
+                    "link": r.get("link") or f"/ramen/{r['id']}",
+                    "title": title,
+                    "short_title": _truncate_text(label or title, 72),
+                    "address": r.get("address", ""),
+                    "thumbnail": r.get("thumbnail", ""),
+                    "published": r.get("published", ""),
+                }
+            )
         )
     return cards
 

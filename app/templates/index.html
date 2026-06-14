@@ -66,13 +66,16 @@
                 <p class="editor-picks-lead">Trip-planning pages with maps, hours, and what to order — updated for search travelers.</p>
                 <div class="onsen-grid editor-picks-grid">
                     {% for shop in featured_ramens %}
-                    <a href="{{ shop.link }}" class="onsen-card">
+                    <a href="{{ shop.link }}" class="onsen-card{% if shop.is_new %} is-new{% endif %}">
                         {% if shop.thumbnail %}
+                        <div class="card-visual">
                         <img src="{{ shop.thumbnail }}" alt="{{ shop.short_title }}" class="card-thumb" loading="lazy">
+                        {% if shop.is_new %}<span class="badge-new">New</span>{% endif %}
+                        </div>
                         {% endif %}
                         <div class="card-content">
                             <h3 class="card-title">{{ shop.short_title }}</h3>
-                            <p class="card-summary">📍 {{ shop.address }}</p>
+                            <p class="card-summary">📍 {{ shop.address }}{% if shop.published %} · <span class="published-date">{{ shop.published }}</span>{% endif %}</p>
                         </div>
                     </a>
                     {% endfor %}
@@ -87,22 +90,30 @@
                     
                     <!-- 영어 가이드 (최대 3개) -->
                     {% for guide in guides.get('en', [])[:3] %}
-                    <a href="/guide/{{ guide.id }}" class="onsen-card guide-card guide-en">
+                    <a href="/guide/{{ guide.id }}" class="onsen-card guide-card guide-en{% if guide.is_new %} is-new{% endif %}">
+                        <div class="card-visual">
                         <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
+                        {% if guide.is_new %}<span class="badge-new">New</span>{% endif %}
+                        </div>
                         <div class="card-content">
                             <h3 class="card-title">{{ guide.title }}</h3>
                             <p class="card-summary">{{ guide.summary }}</p>
+                            {% if guide.published %}<span class="published-date">📅 {{ guide.published }}</span>{% endif %}
                         </div>
                     </a>
                     {% endfor %}
 
                     <!-- 한국어 가이드 (최대 3개, 기본 숨김) -->
                     {% for guide in guides.get('ko', [])[:3] %}
-                    <a href="/guide/{{ guide.id }}" class="onsen-card guide-card guide-ko" style="display: none;">
+                    <a href="/guide/{{ guide.id }}" class="onsen-card guide-card guide-ko{% if guide.is_new %} is-new{% endif %}" style="display: none;">
+                        <div class="card-visual">
                         <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
+                        {% if guide.is_new %}<span class="badge-new">New</span>{% endif %}
+                        </div>
                         <div class="card-content">
                             <h3 class="card-title">{{ guide.title }}</h3>
                             <p class="card-summary">{{ guide.summary }}</p>
+                            {% if guide.published %}<span class="published-date">📅 {{ guide.published }}</span>{% endif %}
                         </div>
                     </a>
                     {% endfor %}

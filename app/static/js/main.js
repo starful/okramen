@@ -13,6 +13,26 @@ let currentLang = 'en';
 let currentTheme = 'all';
 let infoWindow; // 전역 정보창 (한 번에 하나만 띄우기 위함)
 
+const NEW_CONTENT_DAYS = 14;
+
+function isContentNew(published) {
+    if (!published) return false;
+    const d = new Date(String(published).slice(0, 10) + 'T00:00:00');
+    if (Number.isNaN(d.getTime())) return false;
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - NEW_CONTENT_DAYS);
+    cutoff.setHours(0, 0, 0, 0);
+    return d >= cutoff;
+}
+
+function newBadgeHtml(isNew) {
+    return isNew ? '<span class="badge-new">New</span>' : '';
+}
+
+function formatPublished(published) {
+    return published ? String(published).slice(0, 10) : '';
+}
+
 // [매핑] 영문 필터명과 한국어 카테고리명 연결
 const categoryMap = {
     'tonkotsu': '돈코츠',
@@ -120,20 +140,24 @@ function renderList(data) {
     }
 
     data.forEach(item => {
+        const isNew = isContentNew(item.published);
         const card = document.createElement('div');
-        card.className = 'onsen-card';
+        card.className = 'onsen-card' + (isNew ? ' is-new' : '');
         card.innerHTML = `
-            <a href="${item.link}">
-                <img src="${item.thumbnail}" class="card-thumb" alt="${item.title}" loading="lazy">
-            </a>
-            <div class="card-content">
-                <h3 class="card-title"><a href="${item.link}">${item.title}</a></h3>
-                <p class="card-summary">${item.summary}</p>
-                <div class="card-meta">
-                    <span>📍 ${item.address}</span>
-                    <span>📅 ${item.published}</span>
+            <a href="${item.link}" class="onsen-card-link">
+                <div class="card-visual">
+                    <img src="${item.thumbnail}" class="card-thumb" alt="${item.title}" loading="lazy">
+                    ${newBadgeHtml(isNew)}
                 </div>
-            </div>
+                <div class="card-content">
+                    <h3 class="card-title">${item.title}</h3>
+                    <p class="card-summary">${item.summary}</p>
+                    <div class="card-meta">
+                        <span>📍 ${item.address}</span>
+                        ${formatPublished(item.published) ? `<span class="published-date">📅 ${formatPublished(item.published)}</span>` : ''}
+                    </div>
+                </div>
+            </a>
         `;
         listDiv.appendChild(card);
     });

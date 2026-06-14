@@ -234,6 +234,18 @@ header {
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); border: 1px solid var(--light-border); 
 }
 .onsen-card:hover { transform: translateY(-10px); box-shadow: 0 15px 35px rgba(62, 39, 35, 0.12); border-color: var(--accent-color); }
+.onsen-card.is-new { border-color: rgba(243, 156, 18, 0.45); box-shadow: 0 0 0 1px rgba(243, 156, 18, 0.15); }
+.onsen-card-link { display: flex; flex-direction: column; flex-grow: 1; color: inherit; text-decoration: none; }
+.card-visual { position: relative; }
+.badge-new {
+    position: absolute; top: 10px; left: 10px; z-index: 2;
+    padding: 3px 8px; border-radius: 999px;
+    background: var(--accent-color, #f39c12); color: #fff;
+    font-size: 0.68rem; font-weight: 700; letter-spacing: 0.03em;
+    text-transform: uppercase; box-shadow: 0 2px 8px rgba(243, 156, 18, 0.35);
+}
+.card-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 0.85rem; color: #888; margin-top: 8px; }
+.published-date { font-size: 0.72rem; color: #999; margin-left: auto; }
 
 .card-thumb { width: 100%; height: 215px; object-fit: cover; }
 .card-content { padding: 22px; flex-grow: 1; }
