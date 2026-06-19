@@ -1,7 +1,199 @@
 {
-  "last_updated": "2026.06.06",
-  "total_count": 212,
+  "last_updated": "2026.06.19",
+  "total_count": 224,
   "ramens": [
+    {
+      "id": "shibuya_morning_club_en",
+      "lang": "en",
+      "title": "Shibuya Morning Club — Tokyo Tonkotsu ramen guide",
+      "lat": 35.6581,
+      "lng": 139.7017,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/shibuya_morning_club.jpg",
+      "address": "Tokyo, Shibuya",
+      "published": "2026-06-19",
+      "summary": "Shibuya Morning Club in Tokyo: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/shibuya_morning_club_en"
+    },
+    {
+      "id": "ginza_patisserie_bloom_ko",
+      "lang": "ko",
+      "title": "Ginza Patisserie Bloom — Tokyo 돈코츠 라멘 가이드",
+      "lat": 35.6718,
+      "lng": 139.7645,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ginza_patisserie_bloom.jpg",
+      "address": "Tokyo, Ginza",
+      "published": "2026-06-19",
+      "summary": "Tokyo Ginza Patisserie Bloom — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ginza_patisserie_bloom_ko"
+    },
+    {
+      "id": "marunouchi_blend_lab_ko",
+      "lang": "ko",
+      "title": "Marunouchi Blend Lab — Tokyo 돈코츠 라멘 가이드",
+      "lat": 35.6812,
+      "lng": 139.7671,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/marunouchi_blend_lab.jpg",
+      "address": "Tokyo, Marunouchi",
+      "published": "2026-06-19",
+      "summary": "Tokyo Marunouchi Blend Lab — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/marunouchi_blend_lab_ko"
+    },
+    {
+      "id": "ebisu_workbench_cafe_en",
+      "lang": "en",
+      "title": "Ebisu Workbench Cafe — Tokyo Tonkotsu ramen guide",
+      "lat": 35.6467,
+      "lng": 139.71,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ebisu_workbench_cafe.jpg",
+      "address": "Tokyo, Ebisu",
+      "published": "2026-06-19",
+      "summary": "Ebisu Workbench Cafe in Tokyo: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ebisu_workbench_cafe_en"
+    },
+    {
+      "id": "ueno_parkside_drip_ko",
+      "lang": "ko",
+      "title": "Ueno Parkside Drip — Tokyo 돈코츠 라멘 가이드",
+      "lat": 35.7089,
+      "lng": 139.731,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ueno_parkside_drip.jpg",
+      "address": "Tokyo, Ueno",
+      "published": "2026-06-19",
+      "summary": "Tokyo Ueno Parkside Drip — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ueno_parkside_drip_ko"
+    },
+    {
+      "id": "shinjuku_south_latte_lab_ko",
+      "lang": "ko",
+      "title": "Shinjuku South Latte Lab — Tokyo 돈코츠 라멘 가이드",
+      "lat": 35.6895,
+      "lng": 139.7005,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/shinjuku_south_latte_lab.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-06-19",
+      "summary": "Tokyo Shinjuku South Latte Lab — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/shinjuku_south_latte_lab_ko"
+    },
+    {
+      "id": "ueno_parkside_drip_en",
+      "lang": "en",
+      "title": "Ueno Parkside Drip — Tokyo Tonkotsu ramen guide",
+      "lat": 35.7089,
+      "lng": 139.731,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ueno_parkside_drip.jpg",
+      "address": "Tokyo, Ueno",
+      "published": "2026-06-19",
+      "summary": "Ueno Parkside Drip in Tokyo: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ueno_parkside_drip_en"
+    },
+    {
+      "id": "ebisu_workbench_cafe_ko",
+      "lang": "ko",
+      "title": "Ebisu Workbench Cafe — Tokyo 돈코츠 라멘 가이드",
+      "lat": 35.6467,
+      "lng": 139.71,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ebisu_workbench_cafe.jpg",
+      "address": "Tokyo, Ebisu",
+      "published": "2026-06-19",
+      "summary": "Tokyo Ebisu Workbench Cafe — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ebisu_workbench_cafe_ko"
+    },
+    {
+      "id": "shinjuku_south_latte_lab_en",
+      "lang": "en",
+      "title": "Shinjuku South Latte Lab — Tokyo Tonkotsu ramen guide",
+      "lat": 35.6895,
+      "lng": 139.7005,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/shinjuku_south_latte_lab.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-06-19",
+      "summary": "Shinjuku South Latte Lab in Tokyo: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/shinjuku_south_latte_lab_en"
+    },
+    {
+      "id": "marunouchi_blend_lab_en",
+      "lang": "en",
+      "title": "Marunouchi Blend Lab — Tokyo Tonkotsu ramen guide",
+      "lat": 35.6812,
+      "lng": 139.7671,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/marunouchi_blend_lab.jpg",
+      "address": "Tokyo, Marunouchi",
+      "published": "2026-06-19",
+      "summary": "Marunouchi Blend Lab in Tokyo: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/marunouchi_blend_lab_en"
+    },
+    {
+      "id": "ginza_patisserie_bloom_en",
+      "lang": "en",
+      "title": "Ginza Patisserie Bloom — Tokyo Tonkotsu ramen guide",
+      "lat": 35.6718,
+      "lng": 139.7645,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ginza_patisserie_bloom.jpg",
+      "address": "Tokyo, Ginza",
+      "published": "2026-06-19",
+      "summary": "Ginza Patisserie Bloom in Tokyo: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ginza_patisserie_bloom_en"
+    },
+    {
+      "id": "shibuya_morning_club_ko",
+      "lang": "ko",
+      "title": "Shibuya Morning Club — Tokyo 돈코츠 라멘 가이드",
+      "lat": 35.6581,
+      "lng": 139.7017,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/shibuya_morning_club.jpg",
+      "address": "Tokyo, Shibuya",
+      "published": "2026-06-19",
+      "summary": "Tokyo Shibuya Morning Club — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/shibuya_morning_club_ko"
+    },
     {
       "id": "nagoya_sakae_espresso_en",
       "lang": "en",
@@ -1093,7 +1285,7 @@
     {
       "id": "aji_no_sanpei_en",
       "lang": "en",
-      "title": "AJI NO Sanpei — Hokkaido Miso ramen guide",
+      "title": "Aji no Sanpei: The Legendary Birthplace of Sapporo Miso Ramen",
       "lat": 43.0611,
       "lng": 141.3511,
       "categories": [
@@ -1717,7 +1909,7 @@
     {
       "id": "ramen_shingen_en",
       "lang": "en",
-      "title": "Ramen Shingen — Hokkaido Miso ramen guide",
+      "title": "Ramen Shingen Sapporo: How to Beat the Line & What to Order",
       "lat": 43.0544,
       "lng": 141.3488,
       "categories": [
@@ -1733,7 +1925,7 @@
     {
       "id": "soranoiro_tokyo_en",
       "lang": "en",
-      "title": "Soranoiro Tokyo — Tokyo Vegan-friendly ramen guide",
+      "title": "Soranoiro Tokyo: Tokyo's Famous Vegan & Michelin Ramen",
       "lat": 35.6811,
       "lng": 139.7671,
       "categories": [
@@ -2037,7 +2229,7 @@
     {
       "id": "menya_saimi_en",
       "lang": "en",
-      "title": "Menya Saimi — Hokkaido Miso ramen guide",
+      "title": "Menya Saimi: Sapporo’s Legendary Ginger-Miso Ramen Guide",
       "lat": 43.0311,
       "lng": 141.3911,
       "categories": [
@@ -2053,7 +2245,7 @@
     {
       "id": "ramen_takahashi_en",
       "lang": "en",
-      "title": "Ramen Takahashi — Tokyo Shoyu ramen guide",
+      "title": "Ramen Takahashi Shinjuku: Grilled Flying Fish Ramen Guide",
       "lat": 35.6955,
       "lng": 139.7011,
       "categories": [
@@ -2069,7 +2261,7 @@
     {
       "id": "ichiraku_ramen_en",
       "lang": "en",
-      "title": "Ichiraku Ramen — Fukuoka Tonkotsu ramen guide",
+      "title": "Ichiraku Ramen: Fukuoka's Real-Life Naruto Shop Guide",
       "lat": 33.6611,
       "lng": 130.4411,
       "categories": [
@@ -2117,7 +2309,7 @@
     {
       "id": "asahikawa_ramen_aoba_en",
       "lang": "en",
-      "title": "Asahikawa Ramen Aoba — Hokkaido Shoyu ramen guide",
+      "title": "Asahikawa Ramen Aoba: Legendary Shoyu Ramen Since 1947",
       "lat": 43.7655,
       "lng": 142.3611,
       "categories": [
@@ -2181,7 +2373,7 @@
     {
       "id": "ramen_yashichi_en",
       "lang": "en",
-      "title": "Ramen Yashichi — Osaka Chicken ramen ramen guide",
+      "title": "Ramen Yashichi Osaka: Ticket Guide & Creamy Chicken Ramen",
       "lat": 34.7111,
       "lng": 135.4988,
       "categories": [
@@ -2213,7 +2405,7 @@
     {
       "id": "kadoya_shokudo_en",
       "lang": "en",
-      "title": "Kadoya Shokudo — Osaka Shoyu ramen guide",
+      "title": "Kadoya Shokudo: Is Osaka’s Legendary Shoyu Ramen Worth the Wait?",
       "lat": 34.6755,
       "lng": 135.4855,
       "categories": [
@@ -2309,7 +2501,7 @@
     {
       "id": "ramen_sen-no-kaze_en",
       "lang": "en",
-      "title": "Ramen SEN NO Kaze — Kyoto Tonkotsu ramen guide",
+      "title": "Ramen Sen no Kaze Kyoto: The Ultimate Guide & Review",
       "lat": 35.0033,
       "lng": 135.7688,
       "categories": [
@@ -2357,7 +2549,7 @@
     {
       "id": "jinrui_mina_menrui_en",
       "lang": "en",
-      "title": "Jinrui Mina Menrui — Osaka Shoyu ramen guide",
+      "title": "Jinrui Mina Menrui: Guide to Osaka's Cult Shoyu Ramen",
       "lat": 34.7311,
       "lng": 135.4911,
       "categories": [
@@ -2757,7 +2949,7 @@
     {
       "id": "ebisoba_ichigen_en",
       "lang": "en",
-      "title": "Ebisoba Ichigen — Hokkaido Miso ramen guide",
+      "title": "Ebisoba Ichigen: Ultimate Sapporo Shrimp Ramen Guide",
       "lat": 43.0511,
       "lng": 141.3411,
       "categories": [
@@ -3093,7 +3285,7 @@
     {
       "id": "hakata_shinshin_tenjin_en",
       "lang": "en",
-      "title": "Hakata Shinshin Tenjin — Fukuoka Tonkotsu ramen guide",
+      "title": "Hakata Shinshin Tenjin: Fukuoka's Legendary Ramen Guide",
       "lat": 33.5915,
       "lng": 130.3988,
       "categories": [
@@ -3125,7 +3317,7 @@
     {
       "id": "honke_daiichi-asahi_en",
       "lang": "en",
-      "title": "Honke Daiichi Asahi — Kyoto Shoyu ramen guide",
+      "title": "Honke Daiichi Asahi: Kyoto's Legendary Ramen (How to Skip the Line)",
       "lat": 34.9866,
       "lng": 135.7611,
       "categories": [
@@ -3221,7 +3413,7 @@
     {
       "id": "menya_musashi_shinjuku_en",
       "lang": "en",
-      "title": "Menya Musashi Shinjuku — Tokyo Tonkotsu ramen guide",
+      "title": "Menya Musashi Shinjuku: Legendary Tsukemen & Rich W-Soup",
       "lat": 35.6934,
       "lng": 139.7001,
       "categories": [
@@ -3269,7 +3461,7 @@
     {
       "id": "ippudo_ginza_en",
       "lang": "en",
-      "title": "Ippudo Ginza — 4-10-3 Ginza Tonkotsu ramen guide",
+      "title": "Ippudo Ginza Ramen Guide: Menu, Hours & Tips",
       "lat": 35.6711,
       "lng": 139.7662,
       "categories": [
@@ -3333,7 +3525,7 @@
     {
       "id": "rokurinsha_tokyo_station_en",
       "lang": "en",
-      "title": "Rokurinsha Tokyo Station — Tokyo Tsukemen ramen guide",
+      "title": "Rokurinsha Tokyo Station: Legendary Tsukemen & Location Guide",
       "lat": 35.6811,
       "lng": 139.7671,
       "categories": [
