@@ -15,11 +15,17 @@ lng: 141.3511
 shop_name: Ramen Mutsumiya
 summary: Hokkaido Ramen Mutsumiya — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/ramen_mutsumiya.jpg
-title: Ramen Mutsumiya — Hokkaido 미소 라멘 가이드
+title: 무츠미야 (Ramen Mutsumiya) — 홋카이도 라멘 가이드
 one_liner: Hokkaido 미소 라멘 — Ramen Mutsumiya. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 기본 미소 라멘 — 버터·옥수수·매운맛 옵션 확인
 good_for: 추운 날 든든한 한 그릇
+description: 홋카이도 미소라멘 전문점 '무츠미야(Mutsumiya)'의 추천 메뉴, 영업시간, 위치 정보를 확인하세요. OKRamen 지도에서
+  구글맵 위치와 매장 정보를 한눈에 볼 수 있습니다.
+seo_title: 무츠미야 (Mutsumiya) - 홋카이도 미소라멘 맛집 가이드 | OKRamen
+seo_description: 홋카이도 미소라멘 전문점 '무츠미야(Mutsumiya)'의 추천 메뉴, 영업시간, 위치 정보를 확인하세요. OKRamen
+  지도에서 구글맵 위치와 매장 정보를 한눈에 볼 수 있습니다.
 ---
+
 
 **한 그릇 요약:** Hokkaido Sapporo의 Ramen Mutsumiya은(는) 미소 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 

@@ -1,9 +1,17 @@
 ---
 lang: en
-title: "Kotteri vs. Assari: Unraveling the Richness and Nuance of Japanese Ramen Broth"
-date: "2026-05-28"
-summary: "Dive deep into the soul of Japanese ramen by understanding the fundamental difference between Kotteri and Assari broths. Discover which rich, creamy, or light, delicate flavor profile calls to your palate and transform your next ramen adventure."
+title: 'Kotteri vs. Assari: Guide to Ramen Broth Thickness & Richness'
+date: '2026-05-28'
+summary: Dive deep into the soul of Japanese ramen by understanding the fundamental
+  difference between Kotteri and Assari broths. Discover which rich, creamy, or light,
+  delicate flavor profile calls to your palate and transform your next ramen adventure.
+description: Discover the key differences between Kotteri (rich, thick) and Assari
+  (light, clear) Japanese ramen broths and find your perfect flavor profile.
+seo_title: 'Kotteri vs Assari: Ramen Broth Thickness Guide'
+seo_description: What is the difference between Kotteri and Assari ramen? Learn about
+  ramen broth thickness, richness, and how to choose your perfect soup.
 ---
+
 
 Welcome, fellow food adventurers, to a journey into the very heart of Japanese cuisine: ramen. More than just a simple noodle soup, ramen is a complex symphony of flavors, textures, and aromas, meticulously crafted by passionate artisans. But what truly defines a ramen experience, what dictates its very essence and personality? It’s the broth, my friends. The broth is the soul, the foundation, the liquid gold that carries every other component to delicious heights. And within the vast universe of ramen broths, two fundamental concepts reign supreme, shaping countless bowls across Japan: **Kotteri** and **Assari**.
 

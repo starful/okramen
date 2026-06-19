@@ -1,9 +1,19 @@
 ---
 lang: en
-title: "The Ultimate Guide to Late-Night Ramen: Exploring Japan's Irresistible Midnight Food Culture"
-date: "2026-04-14"
-summary: "Discover the deeply ingrained ritual of late-night ramen, a quintessential Japanese experience that perfectly blends comfort, culture, and culinary excellence after dark. This definitive guide unveils the magic behind Japan's midnight noodle bowls, from steamy tonkotsu to savory shoyu, inviting you to savor a taste of true local life."
+title: The Ultimate Guide to Late-Night Ramen in Japan
+date: '2026-04-14'
+summary: Discover the deeply ingrained ritual of late-night ramen, a quintessential
+  Japanese experience that perfectly blends comfort, culture, and culinary excellence
+  after dark. This definitive guide unveils the magic behind Japan's midnight noodle
+  bowls, from steamy tonkotsu to savory shoyu, inviting you to savor a taste of true
+  local life.
+description: An in-depth look into Japan's late-night food culture and the beloved
+  ritual of 'shime ramen' after a night out.
+seo_title: 'Late-Night Ramen in Japan: Guide to Midnight Shime Ramen'
+seo_description: Explore Japan's midnight ramen culture! Discover the traditional
+  'shime ramen' ritual and find the best late-night spots for a comforting bowl.
 ---
+
 
 <h2>Introduction: The Irresistible Allure of Japan's Midnight Bowls</h2>
 

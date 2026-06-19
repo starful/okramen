@@ -4,22 +4,28 @@ categories:
 - 치킨라멘
 - 현지인맛집
 date: '2026-04-05'
-image_prompt: "A steaming macro shot of Tenkaippin's signature Kotteri ramen at the\
-  \ rustic counter seat of the Kyoto main shop, showcasing the ultra-thick creamy\
-  \ beige chicken paitan broth, thin straight noodles being lifted with chopsticks,\
-  \ topped with tender chashu, bamboo shoots, and green onions, warm lighting reflecting\
-  \ off the rich oil on the surface, professional food photography."
+image_prompt: A steaming macro shot of Tenkaippin's signature Kotteri ramen at the
+  rustic counter seat of the Kyoto main shop, showcasing the ultra-thick creamy beige
+  chicken paitan broth, thin straight noodles being lifted with chopsticks, topped
+  with tender chashu, bamboo shoots, and green onions, warm lighting reflecting off
+  the rich oil on the surface, professional food photography.
 lang: ko
 lat: 35.0355
 lng: 135.7811
 shop_name: Tenkaippin Main Shop
 summary: Kyoto Tenkaippin Main Shop — 치킨라멘 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/tenkaippin_main_shop.jpg
-title: Tenkaippin Main Shop — Kyoto 치킨라멘 라멘 가이드
+title: 텐카이핀 본점 (Tenkaippin Main Shop) — 교토 라멘 가이드
 one_liner: Kyoto 치킨라멘 라멘 — Tenkaippin Main Shop. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 메뉴판 시그니처 라멘 — 키오스크가 어렵다면 직원에게 문의
 good_for: 여행 전 일정 잡기
+description: 교토 라멘 성지 텐카이핀 본점(Tenkaippin)의 전설적인 콧테리 라멘 맛집 가이드. 위치, 영업시간, 추천 메뉴 정보를
+  OKRamen에서 확인하세요.
+seo_title: 텐카이핀 본점 (Tenkaippin) 가이드 | 교토 라멘 맛집 | OKRamen
+seo_description: 교토 라멘 성지, 텐카이핀 본점(Tenkaippin)의 대표 메뉴 콧테리 라멘 정보와 위치, 영업시간, 추천 메뉴를
+  OKRamen에서 확인해 보세요!
 ---
+
 
 **이 가게 한줄:** Tenkaippin Main Shop은(는) Kyoto Sakyo에 있는 체인·분점 성격의 라멘 가게입니다. 본점·다른 도시 지점과 메뉴·영업시간·키오스크 방식이 다를 수 있으니 ‘이 지점’ 기준으로 지도에서 확인하세요. 브랜드 이름만 보고 예상하면 실제와 다른 경우가 있습니다.
 

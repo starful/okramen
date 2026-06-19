@@ -8,15 +8,21 @@ lang: en
 lat: 35.6611
 lng: 139.7211
 shop_name: Tantanmen Sandaime
-summary: "Tantanmen Sandaime in Tokyo: Chicken ramen ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Tantanmen Sandaime in Tokyo: Chicken ramen ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/tantanmen_sandaime.jpg
-title: Tantanmen Sandaime — Tokyo Chicken ramen ramen guide
+title: Tantanmen Sandaime — Spicy Tantanmen in Tokyo
 one_liner: Chicken ramen ramen at Tantanmen Sandaime, Tokyo. Verify hours and holidays
   on Maps before you go.
 what_to_order: The shop’s signature bowl on the menu board.
 good_for: Trip planning before you land
+description: Looking for rich, spicy sesame ramen in Tokyo? Read our guide to Tantanmen
+  Sandaime, featuring menu recommendations, opening hours, and location maps.
+seo_title: Tantanmen Sandaime Tokyo | Best Spicy Tantanmen | OKRamen
+seo_description: Discover Tantanmen Sandaime in Tokyo. Find opening hours, map directions,
+  and our expert recommendation for the ultimate spicy sesame ramen.
 ---
+
 
 **Overview:** Tantanmen Sandaime is a chicken ramen ramen shop in Minato, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

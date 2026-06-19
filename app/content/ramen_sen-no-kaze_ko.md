@@ -14,11 +14,17 @@ lng: 135.7688
 shop_name: Ramen SEN NO Kaze
 summary: Kyoto Ramen SEN NO Kaze — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/ramen_sen-no-kaze.jpg
-title: Ramen SEN NO Kaze — Kyoto 돈코츠 라멘 가이드
+title: 교토 라멘 센노카제 (Ramen Sen no Kaze) — 맛집 가이드
 one_liner: Kyoto 돈코츠 라멘 — Ramen SEN NO Kaze. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 시그니처 돈코츠 — 차슈·면 추가(가에다마)는 매장 규칙 확인
 good_for: 여행 전 일정 잡기
+description: 교토 가와라마치의 대표적인 돈코츠 라멘 맛집인 '라멘 센노카제(Ramen Sen no Kaze)'의 추천 메뉴, 영업 정보,
+  대기 시간 팁을 지도와 함께 상세히 소개해 드립니다.
+seo_title: 교토 라멘 센노카제(Ramen Sen no Kaze) 메뉴·위치·웨이팅 팁 | OKRamen
+seo_description: 교토 맛집 ‘라멘 센노카제(Ramen Sen no Kaze)’의 인기 메뉴, 영업시간, 웨이팅 팁과 위치를 확인하고
+  완벽한 교토 라멘 여행을 계획하세요.
 ---
+
 
 **특징:** Kyoto Nakagyo의 Ramen SEN NO Kaze은(는) 돈코츠 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 

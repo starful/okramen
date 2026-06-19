@@ -4,21 +4,27 @@ categories:
 - 치킨라멘
 - 프리미엄
 date: '2026-04-19'
-image_prompt: "A steaming macro shot of Nakiryu's signature Tantanmen in a warm wooden\
-  \ interior, showcasing the vibrant creamy orange broth topped with red chili oil,\
-  \ finely minced pork, and fresh green scallions, captured with extreme detail to\
-  \ the surface tension of the soup."
+image_prompt: A steaming macro shot of Nakiryu's signature Tantanmen in a warm wooden
+  interior, showcasing the vibrant creamy orange broth topped with red chili oil,
+  finely minced pork, and fresh green scallions, captured with extreme detail to the
+  surface tension of the soup.
 lang: ko
 lat: 35.7322
 lng: 139.7291
 shop_name: Nakiryu
 summary: Tokyo Nakiryu — 치킨라멘 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/nakiryu.jpg
-title: Nakiryu — Tokyo 치킨라멘 라멘 가이드
+title: 나키류 (Nakiryu) — 도쿄 미슐랭 1스타 탄탄멘 맛집
 one_liner: Tokyo 치킨라멘 라멘 — Nakiryu. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 메뉴판 시그니처 라멘 — 키오스크가 어렵다면 직원에게 문의
 good_for: 여행 전 일정 잡기
+description: 도쿄를 대표하는 미슐랭 1스타 라멘 전문점 '나키류(Nakiryu)'의 대표 탄탄멘 메뉴와 상세 위치, 영업 정보를 안내하는
+  OKRamen의 상세 가이드입니다.
+seo_title: 나키류 (Nakiryu) | 도쿄 미슐랭 탄탄멘 라멘 맛집 | OKRamen
+seo_description: 도쿄 미슐랭 1스타 라멘집 '나키류(Nakiryu)'의 대표 메뉴 탄탄멘, 매장 위치, 영업시간 및 휴무일 정보를 OKRamen에서
+  확인해보세요.
 ---
+
 
 **한 그릇 요약:** Tokyo Toshima의 Nakiryu은(는) 치킨라멘 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 
