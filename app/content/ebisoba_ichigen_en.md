@@ -15,18 +15,19 @@ shop_name: Ebisoba Ichigen
 summary: 'Ebisoba Ichigen in Hokkaido: Miso ramen — practical guide to queues, ordering,
   and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ebisoba_ichigen.jpg
-title: 'Ebisoba Ichigen: Ultimate Sapporo Shrimp Ramen Guide'
+title: 'Ebisoba Ichigen: The Ultimate Sapporo Shrimp Ramen Guide'
 one_liner: Miso ramen at Ebisoba Ichigen, Hokkaido. Verify hours and holidays on Maps
   before you go.
 what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-style
   toppings.
 good_for: Cold-weather comfort bowls
-seo_title: 'Ebisoba Ichigen: How to Order Sapporo''s Ultimate Shrimp Ramen'
-seo_description: Master Ebisoba Ichigen like a local! Learn how to customize your
-  rich shrimp broth, choose the perfect noodles, and beat the lines in Sapporo.
-description: Master Ebisoba Ichigen like a local! Learn how to customize your rich
-  shrimp broth, choose the perfect noodles, and beat the lines in Sapporo.
+seo_title: 'How to Order Ebisoba Ichigen: Sapporo''s Best Shrimp Ramen'
+seo_description: Confused by Ebisoba Ichigen's menu? Master the customization steps
+  for Sapporo's legendary shrimp broth and noodles with our easy ordering guide.
+description: Confused by Ebisoba Ichigen's menu? Master the customization steps for
+  Sapporo's legendary shrimp broth and noodles with our easy ordering guide.
 ---
+
 
 
 **Intro:** Ebisoba Ichigen is a miso ramen shop in Sapporo, Hokkaido. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.

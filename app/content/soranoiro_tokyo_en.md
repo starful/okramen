@@ -15,17 +15,18 @@ shop_name: Soranoiro Tokyo
 summary: 'Soranoiro Tokyo in Tokyo: Vegan-friendly ramen — practical guide to queues,
   ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/soranoiro_tokyo.jpg
-title: 'Soranoiro Tokyo: Tokyo''s Famous Vegan & Michelin Ramen'
+title: 'Soranoiro Tokyo Station: Michelin-Featured Vegan Ramen'
 one_liner: Vegan-friendly ramen at Soranoiro Tokyo, Tokyo. Verify hours and holidays
   on Maps before you go.
 what_to_order: The shop’s signature bowl on the menu board.
 good_for: Trip planning before you land
-description: Soranoiro Tokyo is world-famous for its groundbreaking vegan, vegetarian,
-  and gluten-free ramen, alongside Michelin-approved classic bowls.
-seo_title: 'Soranoiro Tokyo Guide: Famous Vegan & Michelin Ramen'
-seo_description: Craving the best vegan ramen in Tokyo? Read our review of Michelin-featured
-  Soranoiro. Get must-order menu items, Tokyo Station directions, and tips!
+description: An in-depth review of Soranoiro at Tokyo Station, famous for its Michelin-featured
+  vegan and vegetarian ramen, menu highlights, and location guide.
+seo_title: 'Soranoiro Tokyo Station: Famous Michelin Vegan Ramen Review'
+seo_description: Looking for the best vegan ramen at Tokyo Station? Read our honest
+  Soranoiro review, must-order menu items, and how to find this Michelin gem.
 ---
+
 
 
 **At a glance:** Soranoiro Tokyo is a vegan-friendly ramen shop in Chiyoda, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.

@@ -15,18 +15,19 @@ shop_name: Ramen Shingen
 summary: 'Ramen Shingen in Hokkaido: Miso ramen — practical guide to queues, ordering,
   and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_shingen.jpg
-title: 'Ramen Shingen Sapporo: How to Beat the Line & What to Order'
+title: 'Ramen Shingen Sapporo: Ultimate Guide & Menu Tips'
 one_liner: Miso ramen at Ramen Shingen, Hokkaido. Verify hours and holidays on Maps
   before you go.
 what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-style
   toppings.
 good_for: Cold-weather comfort bowls
-seo_title: 'Ramen Shingen Sapporo: How to Beat the Line & What to Order'
-seo_description: Don't waste hours in queue! Learn the best times to visit Sapporo's
-  legendary Ramen Shingen and why you must order their famous fried rice.
-description: An insider's guide to Sapporo's legendary miso ramen spot, featuring
-  wait-time hacks and must-try menu items.
+seo_title: 'Ramen Shingen Sapporo: Menu, Tips & How to Beat the Line'
+seo_description: Get the most out of Ramen Shingen in Sapporo! Discover the best menu
+  items (including the legendary fried rice) and secrets to beat the long queue.
+description: Get the most out of Ramen Shingen in Sapporo! Discover the best menu
+  items (including the legendary fried rice) and secrets to beat the long queue.
 ---
+
 
 
 **Overview:** Ramen Shingen is a long-running Sapporo miso shop in Susukino — often queued, especially on cold evenings.

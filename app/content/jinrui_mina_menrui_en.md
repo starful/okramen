@@ -15,17 +15,18 @@ shop_name: Jinrui Mina Menrui
 summary: 'Jinrui Mina Menrui in Osaka: Shoyu ramen — practical guide to queues, ordering,
   and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/jinrui_mina_menrui.jpg
-title: 'Jinrui Mina Menrui: Guide to Osaka''s Cult Shoyu Ramen'
+title: 'Jinrui Mina Menrui: Osaka''s Legendary Shoyu Ramen Guide'
 one_liner: Shoyu ramen at Jinrui Mina Menrui, Osaka. Verify hours and holidays on
   Maps before you go.
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
-seo_title: 'Jinrui Mina Menrui Guide: Worth the Famous Queue? | OKRamen'
-seo_description: Is Jinrui Mina Menrui worth the wait? Read our guide to Osaka's legendary
-  sweet shoyu ramen, famous thick-cut chashu, and queue survival tips.
-description: Your ultimate guide to Jinrui Mina Menrui in Osaka. Discover what makes
-  their sweet shoyu broth and massive chashu pork worth the legendary wait.
+seo_title: 'Jinrui Mina Menrui Osaka: Menu, Queue Tips & Review | OKRamen'
+seo_description: Is Osaka's legendary Jinrui Mina Menrui worth the line? Read our
+  review covering the menu, famous thick-cut chashu, and essential queue tips.
+description: Is Osaka's legendary Jinrui Mina Menrui worth the line? Read our review
+  covering the menu, famous thick-cut chashu, and essential queue tips.
 ---
+
 
 
 **Intro:** Jinrui Mina Menrui is a chain or franchise branch in Yodogawa, Osaka. Menus and hours can differ from other branches — verify this location on Maps. Do not assume the Tokyo main shop menu matches this pin.

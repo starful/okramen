@@ -12,15 +12,21 @@ lang: en
 lat: 35.6955
 lng: 139.7618
 shop_name: Tsujita Tokyo
-summary: "Tsujita Tokyo in Tokyo: tsukemen (dipping noodles) — practical notes on\
-  \ queues, ordering, and how to eat the bowl. Verify hours on Maps."
+summary: 'Tsujita Tokyo in Tokyo: tsukemen (dipping noodles) — practical notes on
+  queues, ordering, and how to eat the bowl. Verify hours on Maps.'
 thumbnail: /static/images/tsujita_tokyo.jpg
-title: Tsujita Tokyo — Tokyo Tsukemen ramen guide
-one_liner: "Tsukemen specialist in Tokyo: noodles and broth served separately. Verify\
-  \ hours and holidays on Maps before you go."
+title: Tsujita Tokyo — Legendary Tsukemen Guide
+one_liner: 'Tsukemen specialist in Tokyo: noodles and broth served separately. Verify
+  hours and holidays on Maps before you go.'
 what_to_order: House tsukemen; ask about soup-wari (broth top-up) if offered.
 good_for: Tsukemen fans and noodle-texture seekers
+description: Discover Tsujita Tokyo, the absolute king of tsukemen (dipping noodles).
+  Find locations, opening hours, menu highlights, and tips on how to eat like a local.
+seo_title: 'Tsujita Tokyo: Legendary Tsukemen Guide | OKRamen'
+seo_description: Craving Tokyo's best dipping noodles? Discover Tsujita Tokyo, the
+  legendary tsukemen specialist. Get locations, hours, menu, and how-to-eat tips.
 ---
+
 
 **Overview:** Tsujita Tokyo in Chiyoda City, Tokyo is a tsukemen shop — you dip noodles into a separate concentrated broth, not a standard soup ramen bowl. Noodles are served ready to dip; start soon after they arrive.
 
