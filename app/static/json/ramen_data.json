@@ -1,7 +1,199 @@
 {
-  "last_updated": "2026.06.19",
-  "total_count": 224,
+  "last_updated": "2026.06.22",
+  "total_count": 236,
   "ramens": [
+    {
+      "id": "asahikawa_winter_roast_en",
+      "lang": "en",
+      "title": "Asahikawa Winter Roast — Hokkaido Tonkotsu ramen guide",
+      "lat": 43.7706,
+      "lng": 142.365,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/asahikawa_winter_roast.jpg",
+      "address": "Hokkaido, Asahikawa",
+      "published": "2026-06-22",
+      "summary": "Asahikawa Winter Roast in Hokkaido: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/asahikawa_winter_roast_en"
+    },
+    {
+      "id": "kobe_harborland_cafe_ko",
+      "lang": "ko",
+      "title": "Kobe Harborland Cafe — Hyogo 돈코츠 라멘 가이드",
+      "lat": 34.6795,
+      "lng": 135.183,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/kobe_harborland_cafe.jpg",
+      "address": "Hyogo, Kobe",
+      "published": "2026-06-22",
+      "summary": "Hyogo Kobe Harborland Cafe — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/kobe_harborland_cafe_ko"
+    },
+    {
+      "id": "nara_parkside_kissaten_ko",
+      "lang": "ko",
+      "title": "Nara Parkside Kissaten — Nara 돈코츠 라멘 가이드",
+      "lat": 34.6851,
+      "lng": 135.805,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/nara_parkside_kissaten.jpg",
+      "address": "Nara",
+      "published": "2026-06-22",
+      "summary": "Nara Nara Parkside Kissaten — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/nara_parkside_kissaten_ko"
+    },
+    {
+      "id": "naha_kokusai_street_coffee_ko",
+      "lang": "ko",
+      "title": "Naha Kokusai Street Coffee — Okinawa 돈코츠 라멘 가이드",
+      "lat": 26.214,
+      "lng": 127.6889,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/naha_kokusai_street_coffee.jpg",
+      "address": "Okinawa, Naha",
+      "published": "2026-06-22",
+      "summary": "Okinawa Naha Kokusai Street Coffee — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/naha_kokusai_street_coffee_ko"
+    },
+    {
+      "id": "matsuyama_dogo_onsen_cafe_en",
+      "lang": "en",
+      "title": "Matsuyama Dogo Onsen Cafe — Ehime Tonkotsu ramen guide",
+      "lat": 33.8518,
+      "lng": 132.786,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/matsuyama_dogo_onsen_cafe.jpg",
+      "address": "Ehime, Matsuyama",
+      "published": "2026-06-22",
+      "summary": "Matsuyama Dogo Onsen Cafe in Ehime: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/matsuyama_dogo_onsen_cafe_en"
+    },
+    {
+      "id": "hakodate_morning_market_cafe_en",
+      "lang": "en",
+      "title": "Hakodate Morning Market Cafe — Hokkaido Tonkotsu ramen guide",
+      "lat": 41.7687,
+      "lng": 140.729,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/hakodate_morning_market_cafe.jpg",
+      "address": "Hokkaido, Hakodate",
+      "published": "2026-06-22",
+      "summary": "Hakodate Morning Market Cafe in Hokkaido: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/hakodate_morning_market_cafe_en"
+    },
+    {
+      "id": "matsuyama_dogo_onsen_cafe_ko",
+      "lang": "ko",
+      "title": "Matsuyama Dogo Onsen Cafe — Ehime 돈코츠 라멘 가이드",
+      "lat": 33.8518,
+      "lng": 132.786,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/matsuyama_dogo_onsen_cafe.jpg",
+      "address": "Ehime, Matsuyama",
+      "published": "2026-06-22",
+      "summary": "Ehime Matsuyama Dogo Onsen Cafe — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/matsuyama_dogo_onsen_cafe_ko"
+    },
+    {
+      "id": "hakodate_morning_market_cafe_ko",
+      "lang": "ko",
+      "title": "Hakodate Morning Market Cafe — Hokkaido 돈코츠 라멘 가이드",
+      "lat": 41.7687,
+      "lng": 140.729,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/hakodate_morning_market_cafe.jpg",
+      "address": "Hokkaido, Hakodate",
+      "published": "2026-06-22",
+      "summary": "Hokkaido Hakodate Morning Market Cafe — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/hakodate_morning_market_cafe_ko"
+    },
+    {
+      "id": "kobe_harborland_cafe_en",
+      "lang": "en",
+      "title": "Kobe Harborland Cafe — Hyogo Tonkotsu ramen guide",
+      "lat": 34.6795,
+      "lng": 135.183,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/kobe_harborland_cafe.jpg",
+      "address": "Hyogo, Kobe",
+      "published": "2026-06-22",
+      "summary": "Kobe Harborland Cafe in Hyogo: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/kobe_harborland_cafe_en"
+    },
+    {
+      "id": "asahikawa_winter_roast_ko",
+      "lang": "ko",
+      "title": "Asahikawa Winter Roast — Hokkaido 돈코츠 라멘 가이드",
+      "lat": 43.7706,
+      "lng": 142.365,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/asahikawa_winter_roast.jpg",
+      "address": "Hokkaido, Asahikawa",
+      "published": "2026-06-22",
+      "summary": "Hokkaido Asahikawa Winter Roast — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/asahikawa_winter_roast_ko"
+    },
+    {
+      "id": "naha_kokusai_street_coffee_en",
+      "lang": "en",
+      "title": "Naha Kokusai Street Coffee — Okinawa Tonkotsu ramen guide",
+      "lat": 26.214,
+      "lng": 127.6889,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/naha_kokusai_street_coffee.jpg",
+      "address": "Okinawa, Naha",
+      "published": "2026-06-22",
+      "summary": "Naha Kokusai Street Coffee in Okinawa: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/naha_kokusai_street_coffee_en"
+    },
+    {
+      "id": "nara_parkside_kissaten_en",
+      "lang": "en",
+      "title": "Nara Parkside Kissaten — Nara Tonkotsu ramen guide",
+      "lat": 34.6851,
+      "lng": 135.805,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/nara_parkside_kissaten.jpg",
+      "address": "Nara",
+      "published": "2026-06-22",
+      "summary": "Nara Parkside Kissaten in Nara: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/nara_parkside_kissaten_en"
+    },
     {
       "id": "shibuya_morning_club_en",
       "lang": "en",
@@ -597,7 +789,7 @@
     {
       "id": "ramen_gantetsu_ko",
       "lang": "ko",
-      "title": "Ramen Gantetsu — Hokkaido 미소 라멘 가이드",
+      "title": "라멘 간테츠 (Ramen Gantetsu) — 삿포로 미소라멘 가이드",
       "lat": 43.0611,
       "lng": 141.3511,
       "categories": [
@@ -613,7 +805,7 @@
     {
       "id": "ramen_setagaya_ko",
       "lang": "ko",
-      "title": "Ramen Setagaya — Tokyo 쇼유 라멘 가이드",
+      "title": "세타가야 라멘 (Ramen Setagaya) — 도쿄 쇼유라멘 맛집 가이드",
       "lat": 35.6811,
       "lng": 139.7671,
       "categories": [
@@ -1061,7 +1253,7 @@
     {
       "id": "ramen_mutsumiya_ko",
       "lang": "ko",
-      "title": "Ramen Mutsumiya — Hokkaido 미소 라멘 가이드",
+      "title": "무츠미야 (Ramen Mutsumiya) — 홋카이도 라멘 가이드",
       "lat": 43.0611,
       "lng": 141.3511,
       "categories": [
@@ -1285,7 +1477,7 @@
     {
       "id": "aji_no_sanpei_en",
       "lang": "en",
-      "title": "Aji no Sanpei: The Legendary Birthplace of Sapporo Miso Ramen",
+      "title": "Aji no Sanpei: The Birthplace of Sapporo Miso Ramen",
       "lat": 43.0611,
       "lng": 141.3511,
       "categories": [
@@ -1637,7 +1829,7 @@
     {
       "id": "nakiryu_ko",
       "lang": "ko",
-      "title": "Nakiryu — Tokyo 치킨라멘 라멘 가이드",
+      "title": "나키류 (Nakiryu) — 도쿄 미슐랭 1스타 탄탄멘 맛집",
       "lat": 35.7322,
       "lng": 139.7291,
       "categories": [
@@ -1685,7 +1877,7 @@
     {
       "id": "ramen_kairyu_ko",
       "lang": "ko",
-      "title": "Ramen Kairyu — Fukuoka 돈코츠 라멘 가이드",
+      "title": "카이류 라멘 (Ramen Kairyu) — 후쿠오카 라멘 가이드",
       "lat": 33.8811,
       "lng": 130.8811,
       "categories": [
@@ -1909,7 +2101,7 @@
     {
       "id": "ramen_shingen_en",
       "lang": "en",
-      "title": "Ramen Shingen Sapporo: How to Beat the Line & What to Order",
+      "title": "Ramen Shingen Sapporo: Ultimate Guide & Menu Tips",
       "lat": 43.0544,
       "lng": 141.3488,
       "categories": [
@@ -1925,7 +2117,7 @@
     {
       "id": "soranoiro_tokyo_en",
       "lang": "en",
-      "title": "Soranoiro Tokyo: Tokyo's Famous Vegan & Michelin Ramen",
+      "title": "Soranoiro Tokyo Station: Michelin-Featured Vegan Ramen",
       "lat": 35.6811,
       "lng": 139.7671,
       "categories": [
@@ -2085,7 +2277,7 @@
     {
       "id": "ide_shoten_ko",
       "lang": "ko",
-      "title": "IDE Shoten — Wakayama 돈코츠 라멘 가이드",
+      "title": "이데쇼텐 (Ide Shoten) — 와카야마 라멘 맛집 가이드",
       "lat": 34.2281,
       "lng": 135.1911,
       "categories": [
@@ -2229,7 +2421,7 @@
     {
       "id": "menya_saimi_en",
       "lang": "en",
-      "title": "Menya Saimi: Sapporo’s Legendary Ginger-Miso Ramen Guide",
+      "title": "Menya Saimi: The Ultimate Guide to Sapporo's Best Miso Ramen",
       "lat": 43.0311,
       "lng": 141.3911,
       "categories": [
@@ -2245,7 +2437,7 @@
     {
       "id": "ramen_takahashi_en",
       "lang": "en",
-      "title": "Ramen Takahashi Shinjuku: Grilled Flying Fish Ramen Guide",
+      "title": "Ramen Takahashi Shinjuku: Legendary Grilled Flying Fish Ramen Guide",
       "lat": 35.6955,
       "lng": 139.7011,
       "categories": [
@@ -2261,7 +2453,7 @@
     {
       "id": "ichiraku_ramen_en",
       "lang": "en",
-      "title": "Ichiraku Ramen: Fukuoka's Real-Life Naruto Shop Guide",
+      "title": "Ichiraku Ramen: Guide to the Real Naruto Shop in Fukuoka",
       "lat": 33.6611,
       "lng": 130.4411,
       "categories": [
@@ -2277,7 +2469,7 @@
     {
       "id": "tsujita_tokyo_en",
       "lang": "en",
-      "title": "Tsujita Tokyo — Tokyo Tsukemen ramen guide",
+      "title": "Tsujita Tokyo — Legendary Tsukemen Guide",
       "lat": 35.6955,
       "lng": 139.7618,
       "categories": [
@@ -2373,7 +2565,7 @@
     {
       "id": "ramen_yashichi_en",
       "lang": "en",
-      "title": "Ramen Yashichi Osaka: Ticket Guide & Creamy Chicken Ramen",
+      "title": "Ramen Yashichi: Osaka's Legendary Chicken Ramen & Ticket Guide",
       "lat": 34.7111,
       "lng": 135.4988,
       "categories": [
@@ -2405,7 +2597,7 @@
     {
       "id": "kadoya_shokudo_en",
       "lang": "en",
-      "title": "Kadoya Shokudo: Is Osaka’s Legendary Shoyu Ramen Worth the Wait?",
+      "title": "Kadoya Shokudo: Osaka's Legendary Shoyu Ramen Guide",
       "lat": 34.6755,
       "lng": 135.4855,
       "categories": [
@@ -2501,7 +2693,7 @@
     {
       "id": "ramen_sen-no-kaze_en",
       "lang": "en",
-      "title": "Ramen Sen no Kaze Kyoto: The Ultimate Guide & Review",
+      "title": "Ramen Sen no Kaze Kyoto: Is It Worth the Wait?",
       "lat": 35.0033,
       "lng": 135.7688,
       "categories": [
@@ -2549,7 +2741,7 @@
     {
       "id": "jinrui_mina_menrui_en",
       "lang": "en",
-      "title": "Jinrui Mina Menrui: Guide to Osaka's Cult Shoyu Ramen",
+      "title": "Jinrui Mina Menrui: Osaka's Legendary Shoyu Ramen Guide",
       "lat": 34.7311,
       "lng": 135.4911,
       "categories": [
@@ -2901,7 +3093,7 @@
     {
       "id": "ramen_sen-no-kaze_ko",
       "lang": "ko",
-      "title": "Ramen SEN NO Kaze — Kyoto 돈코츠 라멘 가이드",
+      "title": "교토 라멘 센노카제 (Ramen Sen no Kaze) — 맛집 가이드",
       "lat": 35.0033,
       "lng": 135.7688,
       "categories": [
@@ -2949,7 +3141,7 @@
     {
       "id": "ebisoba_ichigen_en",
       "lang": "en",
-      "title": "Ebisoba Ichigen: Ultimate Sapporo Shrimp Ramen Guide",
+      "title": "Ebisoba Ichigen: The Ultimate Sapporo Shrimp Ramen Guide",
       "lat": 43.0511,
       "lng": 141.3411,
       "categories": [
@@ -2997,7 +3189,7 @@
     {
       "id": "tenkaippin_main_shop_ko",
       "lang": "ko",
-      "title": "Tenkaippin Main Shop — Kyoto 치킨라멘 라멘 가이드",
+      "title": "텐카이핀 본점 (Tenkaippin Main Shop) — 교토 라멘 가이드",
       "lat": 35.0355,
       "lng": 135.7811,
       "categories": [
@@ -3061,7 +3253,7 @@
     {
       "id": "tantanmen_sandaime_en",
       "lang": "en",
-      "title": "Tantanmen Sandaime — Tokyo Chicken ramen ramen guide",
+      "title": "Tantanmen Sandaime — Spicy Tantanmen in Tokyo",
       "lat": 35.6611,
       "lng": 139.7211,
       "categories": [
@@ -3285,7 +3477,7 @@
     {
       "id": "hakata_shinshin_tenjin_en",
       "lang": "en",
-      "title": "Hakata Shinshin Tenjin: Fukuoka's Legendary Ramen Guide",
+      "title": "Hakata Shin-Shin Tenjin: Fukuoka Ramen Guide",
       "lat": 33.5915,
       "lng": 130.3988,
       "categories": [
@@ -3317,7 +3509,7 @@
     {
       "id": "honke_daiichi-asahi_en",
       "lang": "en",
-      "title": "Honke Daiichi Asahi: Kyoto's Legendary Ramen (How to Skip the Line)",
+      "title": "Honke Daiichi Asahi: Kyoto's Legendary Ramen & Skip-the-Line Guide",
       "lat": 34.9866,
       "lng": 135.7611,
       "categories": [
@@ -3413,7 +3605,7 @@
     {
       "id": "menya_musashi_shinjuku_en",
       "lang": "en",
-      "title": "Menya Musashi Shinjuku: Legendary Tsukemen & Rich W-Soup",
+      "title": "Menya Musashi Shinjuku: Ultimate Tsukemen & Ordering Guide",
       "lat": 35.6934,
       "lng": 139.7001,
       "categories": [
@@ -3461,7 +3653,7 @@
     {
       "id": "ippudo_ginza_en",
       "lang": "en",
-      "title": "Ippudo Ginza Ramen Guide: Menu, Hours & Tips",
+      "title": "Ippudo Ginza Ramen Guide: Menu, Hours & Queue Tips",
       "lat": 35.6711,
       "lng": 139.7662,
       "categories": [
