@@ -33,6 +33,15 @@ function formatPublished(published) {
     return published ? String(published).slice(0, 10) : '';
 }
 
+function sortByPublishedDesc(items) {
+    return items.slice().sort((a, b) => {
+        const da = String(a.published || '').slice(0, 10);
+        const db = String(b.published || '').slice(0, 10);
+        if (da !== db) return db.localeCompare(da);
+        return String(a.id || '').localeCompare(String(b.id || ''));
+    });
+}
+
 // [매핑] 영문 필터명과 한국어 카테고리명 연결
 const categoryMap = {
     'tonkotsu': '돈코츠',
@@ -51,7 +60,7 @@ async function initApp() {
     try {
         const response = await fetch('/api/ramens');
         const data = await response.json();
-        allRamens = data.ramens || [];
+        allRamens = sortByPublishedDesc(data.ramens || []);
         
         // 푸터 업데이트 정보
         const updatedDate = document.getElementById('last-updated-date');
@@ -107,7 +116,7 @@ async function updateUI() {
  * 4. 현재 설정(언어, 테마)에 따른 데이터 필터링
  */
 function getFilteredData() {
-    return allRamens.filter(item => {
+    const filtered = allRamens.filter(item => {
         // 언어 일치 여부
         const langMatch = item.lang === currentLang;
         
@@ -122,6 +131,7 @@ function getFilteredData() {
         
         return langMatch && themeMatch;
     });
+    return sortByPublishedDesc(filtered);
 }
 
 /**

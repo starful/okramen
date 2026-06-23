@@ -79,7 +79,7 @@ def main():
         except Exception as e:
             print(f"❌ Skip {filename}: {e}")
 
-    ramens.sort(key=lambda x: x['published'], reverse=True)
+    ramens.sort(key=lambda x: (x['published'], x['id']), reverse=True)
 
     final_json = {
         "last_updated": datetime.now().strftime("%Y.%m.%d"),
