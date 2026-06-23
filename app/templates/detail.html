@@ -116,7 +116,7 @@
             </ul>
         </section>
 
-        <img src="{{ post.thumbnail }}" alt="{{ post.shop_name }} — {{ post.style_label }} ramen in {{ post.region_label }}" class="detail-img">
+        <img src="{{ post.thumbnail }}" alt="{{ post.shop_name }} — {{ post.style_label }} ramen in {{ post.region_label }}" class="detail-img" onerror="this.onerror=null;this.src='/static/images/default.jpg'">
 
         <details class="detail-article-fold">
             <summary>{{ post.guide_labels.background }}</summary>

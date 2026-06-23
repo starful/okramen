@@ -69,7 +69,7 @@
                     <a href="{{ shop.link }}" class="onsen-card{% if shop.is_new %} is-new{% endif %}">
                         {% if shop.thumbnail %}
                         <div class="card-visual">
-                        <img src="{{ shop.thumbnail }}" alt="{{ shop.short_title }}" class="card-thumb" loading="lazy">
+                        <img src="{{ shop.thumbnail }}" alt="{{ shop.short_title }}" class="card-thumb" loading="lazy" onerror="this.onerror=null;this.src='/static/images/default.jpg'">
                         {% if shop.is_new %}<span class="badge-new">New</span>{% endif %}
                         </div>
                         {% endif %}

@@ -13,6 +13,8 @@ let currentLang = 'en';
 let currentTheme = 'all';
 let infoWindow; // 전역 정보창 (한 번에 하나만 띄우기 위함)
 
+const THUMB_FALLBACK = '/static/images/default.jpg';
+
 const NEW_CONTENT_DAYS = 14;
 
 function isContentNew(published) {
@@ -156,7 +158,7 @@ function renderList(data) {
         card.innerHTML = `
             <a href="${item.link}" class="onsen-card-link">
                 <div class="card-visual">
-                    <img src="${item.thumbnail}" class="card-thumb" alt="${item.title}" loading="lazy">
+                    <img src="${item.thumbnail}" class="card-thumb" alt="${item.title}" loading="lazy" onerror="this.onerror=null;this.src='${THUMB_FALLBACK}'">
                     ${newBadgeHtml(isNew)}
                 </div>
                 <div class="card-content">
@@ -191,7 +193,7 @@ async function renderMarkers(data) {
         // 마커용 커스텀 HTML 엘리먼트 (라면 사진 원형)
         const markerTag = document.createElement('div');
         markerTag.className = 'ramen-marker';
-        markerTag.innerHTML = `<img src="${item.thumbnail}" alt="${item.title}">`;
+        markerTag.innerHTML = `<img src="${item.thumbnail}" alt="${item.title}" onerror="this.onerror=null;this.src='${THUMB_FALLBACK}'">`;
 
         // 고급 마커 생성
         const marker = new AdvancedMarkerElement({
