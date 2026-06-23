@@ -13,10 +13,12 @@ if APP_DIR not in sys.path:
     sys.path.insert(0, APP_DIR)
 
 from ramen_md import loads_ramen_post  # noqa: E402
+from md_dates import ensure_post_date, save_post  # noqa: E402
 
 def main():
     print("🔨 Building OKRamen Production Data...")
     ramens = []
+    backfilled = 0
 
     if not os.path.exists(CONTENT_DIR):
         print("❌ Content directory not found.")
@@ -27,10 +29,15 @@ def main():
             continue
 
         try:
-            with open(os.path.join(CONTENT_DIR, filename), 'r', encoding='utf-8') as f:
+            filepath = os.path.join(CONTENT_DIR, filename)
+            with open(filepath, 'r', encoding='utf-8') as f:
                 raw_text = f.read()
 
             post = loads_ramen_post(raw_text)
+            published_date, changed = ensure_post_date(post, filepath)
+            if changed:
+                save_post(filepath, post)
+                backfilled += 1
 
             # 카테고리 정규화
             cats = post.get('categories') or []
@@ -64,7 +71,7 @@ def main():
                 "categories": cats,
                 "thumbnail": post.get('thumbnail', '/static/images/default.jpg'),  # ✅ default.jpg
                 "address":   post.get('address', 'Japan'),
-                "published": str(post.get('date', datetime.now().strftime('%Y-%m-%d'))),
+                "published": published_date,
                 "summary":   summary,
                 "link":      f"/ramen/{filename.replace('.md', '')}"
             })
@@ -85,6 +92,8 @@ def main():
         json.dump(final_json, f, ensure_ascii=False, indent=2)
 
     print(f"🎉 Success: {len(ramens)} entries compiled into ramen_data.json")
+    if backfilled:
+        print(f"📅 date 백필: {backfilled}개 MD")
 
 if __name__ == "__main__":
     main()
