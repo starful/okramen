@@ -1,7 +1,199 @@
 {
-  "last_updated": "2026.06.23",
-  "total_count": 236,
+  "last_updated": "2026.06.26",
+  "total_count": 248,
   "ramens": [
+    {
+      "id": "takamatsu_ritsurin_garden_cafe_ko",
+      "lang": "ko",
+      "title": "Takamatsu Ritsurin Garden Cafe — Kagawa 돈코츠 라멘 가이드",
+      "lat": 34.3299,
+      "lng": 134.0445,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/takamatsu_ritsurin_garden_cafe.jpg",
+      "address": "Kagawa, Takamatsu",
+      "published": "2026-06-26",
+      "summary": "Kagawa Takamatsu Ritsurin Garden Cafe — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/takamatsu_ritsurin_garden_cafe_ko"
+    },
+    {
+      "id": "takamatsu_ritsurin_garden_cafe_en",
+      "lang": "en",
+      "title": "Takamatsu Ritsurin Garden Cafe — Kagawa Tonkotsu ramen guide",
+      "lat": 34.3299,
+      "lng": 134.0445,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/takamatsu_ritsurin_garden_cafe.jpg",
+      "address": "Kagawa, Takamatsu",
+      "published": "2026-06-26",
+      "summary": "Takamatsu Ritsurin Garden Cafe in Kagawa: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/takamatsu_ritsurin_garden_cafe_en"
+    },
+    {
+      "id": "otaru_canal_coffee_ko",
+      "lang": "ko",
+      "title": "Otaru Canal Coffee — Hokkaido 돈코츠 라멘 가이드",
+      "lat": 43.1967,
+      "lng": 141.0014,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/otaru_canal_coffee.jpg",
+      "address": "Hokkaido, Otaru",
+      "published": "2026-06-26",
+      "summary": "Hokkaido Otaru Canal Coffee — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/otaru_canal_coffee_ko"
+    },
+    {
+      "id": "otaru_canal_coffee_en",
+      "lang": "en",
+      "title": "Otaru Canal Coffee — Hokkaido Tonkotsu ramen guide",
+      "lat": 43.1967,
+      "lng": 141.0014,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/otaru_canal_coffee.jpg",
+      "address": "Hokkaido, Otaru",
+      "published": "2026-06-26",
+      "summary": "Otaru Canal Coffee in Hokkaido: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/otaru_canal_coffee_en"
+    },
+    {
+      "id": "niigata_bandai_brew_ko",
+      "lang": "ko",
+      "title": "Niigata Bandai Brew — Niigata 돈코츠 라멘 가이드",
+      "lat": 37.9161,
+      "lng": 139.0364,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/niigata_bandai_brew.jpg",
+      "address": "Niigata",
+      "published": "2026-06-26",
+      "summary": "Niigata Niigata Bandai Brew — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/niigata_bandai_brew_ko"
+    },
+    {
+      "id": "niigata_bandai_brew_en",
+      "lang": "en",
+      "title": "Niigata Bandai Brew — Niigata Tonkotsu ramen guide",
+      "lat": 37.9161,
+      "lng": 139.0364,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/niigata_bandai_brew.jpg",
+      "address": "Niigata",
+      "published": "2026-06-26",
+      "summary": "Niigata Bandai Brew in Niigata: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/niigata_bandai_brew_en"
+    },
+    {
+      "id": "miyazaki_phoenix_cafe_ko",
+      "lang": "ko",
+      "title": "Miyazaki Phoenix Cafe — Miyazaki 돈코츠 라멘 가이드",
+      "lat": 31.9077,
+      "lng": 131.4202,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/miyazaki_phoenix_cafe.jpg",
+      "address": "Miyazaki",
+      "published": "2026-06-26",
+      "summary": "Miyazaki Miyazaki Phoenix Cafe — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/miyazaki_phoenix_cafe_ko"
+    },
+    {
+      "id": "miyazaki_phoenix_cafe_en",
+      "lang": "en",
+      "title": "Miyazaki Phoenix Cafe — Miyazaki Tonkotsu ramen guide",
+      "lat": 31.9077,
+      "lng": 131.4202,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/miyazaki_phoenix_cafe.jpg",
+      "address": "Miyazaki",
+      "published": "2026-06-26",
+      "summary": "Miyazaki Phoenix Cafe in Miyazaki: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/miyazaki_phoenix_cafe_en"
+    },
+    {
+      "id": "matsumoto_castle_cafe_ko",
+      "lang": "ko",
+      "title": "Matsumoto Castle Cafe — Nagano 돈코츠 라멘 가이드",
+      "lat": 36.238,
+      "lng": 137.969,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/matsumoto_castle_cafe.jpg",
+      "address": "Nagano, Matsumoto",
+      "published": "2026-06-26",
+      "summary": "Nagano Matsumoto Castle Cafe — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/matsumoto_castle_cafe_ko"
+    },
+    {
+      "id": "matsumoto_castle_cafe_en",
+      "lang": "en",
+      "title": "Matsumoto Castle Cafe — Nagano Tonkotsu ramen guide",
+      "lat": 36.238,
+      "lng": 137.969,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/matsumoto_castle_cafe.jpg",
+      "address": "Nagano, Matsumoto",
+      "published": "2026-06-26",
+      "summary": "Matsumoto Castle Cafe in Nagano: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/matsumoto_castle_cafe_en"
+    },
+    {
+      "id": "kumamoto_castle_town_cafe_ko",
+      "lang": "ko",
+      "title": "Kumamoto Castle Town Cafe — Kumamoto 돈코츠 라멘 가이드",
+      "lat": 32.8062,
+      "lng": 130.7059,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/kumamoto_castle_town_cafe.jpg",
+      "address": "Kumamoto",
+      "published": "2026-06-26",
+      "summary": "Kumamoto Kumamoto Castle Town Cafe — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/kumamoto_castle_town_cafe_ko"
+    },
+    {
+      "id": "kumamoto_castle_town_cafe_en",
+      "lang": "en",
+      "title": "Kumamoto Castle Town Cafe — Kumamoto Tonkotsu ramen guide",
+      "lat": 32.8062,
+      "lng": 130.7059,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/kumamoto_castle_town_cafe.jpg",
+      "address": "Kumamoto",
+      "published": "2026-06-26",
+      "summary": "Kumamoto Castle Town Cafe in Kumamoto: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/kumamoto_castle_town_cafe_en"
+    },
     {
       "id": "nara_parkside_kissaten_ko",
       "lang": "ko",
