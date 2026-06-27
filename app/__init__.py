@@ -3,6 +3,7 @@ from flask_compress import Compress
 from flask import make_response
 import json
 import os
+import copy
 import frontmatter
 import markdown
 import re
@@ -46,6 +47,25 @@ GCS_ASSET_PREFIX = "okramen"
 
 def _gcs_image_url(filename: str) -> str:
     return f"https://storage.googleapis.com/ok-project-assets/{GCS_ASSET_PREFIX}/{filename}"
+
+
+def _thumbnail_cache_v(published_or_date: str | None) -> str:
+    v = str(published_or_date or "").strip()[:10]
+    return v if len(v) >= 8 else ""
+
+
+def _thumbnail_with_v(url: str, cache_v: str | None = None) -> str:
+    if not url:
+        return url
+    v = _thumbnail_cache_v(cache_v)
+    base = url.split("?", 1)[0]
+    return f"{base}?v={v}" if v else base
+
+
+def _public_ramen(row: dict) -> dict:
+    out = copy.deepcopy(row)
+    out["thumbnail"] = _thumbnail_with_v(out.get("thumbnail", ""), out.get("published"))
+    return out
 
 
 def _social_image_url(base_id: str) -> str:
@@ -117,15 +137,31 @@ UNSPLASH_GUIDE_IMAGES = [
     "https://images.unsplash.com/photo-1591814441348-73546747d96a?q=80&w=800&auto=format&fit=crop"
 ]
 
-# 1. 라멘 가게 정보 캐싱
-CACHED_DATA = {}
-if os.path.exists(DATA_FILE):
+# 1. 라멘 가게 정보 캐싱 (JSON mtime 변경 시 자동 재로드)
+CACHED_DATA = {"ramens": []}
+_CACHE_MTIME: float = 0.0
+
+
+def _ensure_ramen_cache() -> None:
+    global CACHED_DATA, _CACHE_MTIME
+    if not os.path.exists(DATA_FILE):
+        return
     try:
-        with open(DATA_FILE, 'r', encoding='utf-8') as f:
+        mtime = os.path.getmtime(DATA_FILE)
+    except OSError:
+        return
+    if mtime <= _CACHE_MTIME:
+        return
+    try:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
             CACHED_DATA = json.load(f)
+        _CACHE_MTIME = mtime
     except (OSError, json.JSONDecodeError) as exc:
         logger.exception("Failed to load cached ramen data: %s", exc)
-        CACHED_DATA = {"ramens":[]}
+        CACHED_DATA = {"ramens": []}
+
+
+_ensure_ramen_cache()
 
 # 2. 가이드 데이터 캐싱 (날짜순 정렬 및 이미지 배정)
 CACHED_GUIDES = {'en': [], 'ko': []}
@@ -249,6 +285,7 @@ GUIDE_RELATED_SHOPS = {
 
 
 def _ramen_index_by_id():
+    _ensure_ramen_cache()
     return {r["id"]: r for r in CACHED_DATA.get("ramens", []) if r.get("id")}
 
 
@@ -270,7 +307,7 @@ def _ramen_cards(ramen_ids):
                     "title": title,
                     "short_title": _truncate_text(label or title, 72),
                     "address": r.get("address", ""),
-                    "thumbnail": r.get("thumbnail", ""),
+                    "thumbnail": _thumbnail_with_v(r.get("thumbnail", ""), r.get("published")),
                     "published": r.get("published", ""),
                 }
             )
@@ -474,7 +511,10 @@ def index():
 
 @app.route('/api/ramens')
 def api_ramens():
-    response = jsonify(CACHED_DATA)
+    _ensure_ramen_cache()
+    payload = copy.deepcopy(CACHED_DATA)
+    payload["ramens"] = [_public_ramen(r) for r in payload.get("ramens", [])]
+    response = jsonify(payload)
     # Prevent raw API endpoints from being indexed as content pages.
     response.headers["X-Robots-Tag"] = "noindex, nofollow"
     return response
@@ -559,6 +599,9 @@ def ramen_detail(ramen_id):
     _enrich_ramen_detail_post(post)
 
     base_id = ramen_id.rsplit('_', 1)[0]
+    cache_v = _thumbnail_cache_v(post.get("date") or post.get("published"))
+    thumb = post.get("thumbnail") or f"/static/images/{base_id}.jpg"
+    post["thumbnail"] = _thumbnail_with_v(thumb, cache_v)
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])
     related_ramens = _related_ramens_for_post(post, limit=4)
     share_ctx = _share_context(
