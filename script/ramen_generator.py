@@ -17,6 +17,7 @@ sys.path.insert(0, SCRIPT_DIR)
 sys.path.insert(0, os.path.join(BASE_DIR, "app"))
 
 from rewrite_ramen_practical import build_region_index, rewrite_file  # noqa: E402
+from topic_queue_csv import resolve as resolve_queue_csv  # noqa: E402
 
 # Map CSV Features (often Korean) -> [flavor, vibe] per language
 FLAVOR_KEYS = {
@@ -132,7 +133,7 @@ def generate_ramen_article(safe_name, name, lat, lng, address, lang, features, a
 
 
 def run_generator(limit=10):
-    csv_path = os.path.join(SCRIPT_DIR, "csv", "ramens.csv")
+    csv_path = resolve_queue_csv("items", os.path.join(SCRIPT_DIR, "csv", "ramens.csv"))
     if not os.path.exists(csv_path):
         return
 

@@ -8,6 +8,8 @@ from datetime import datetime
 from google import genai
 from dotenv import load_dotenv
 
+from topic_queue_csv import resolve as resolve_queue_csv
+
 # 환경변수 로드
 load_dotenv()
 API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -15,6 +17,10 @@ API_KEY = os.environ.get("GEMINI_API_KEY")
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
 GUIDE_CONTENT_DIR = os.path.join(BASE_DIR, 'app', 'content', 'guides')
+
+
+def _guides_csv_path() -> str:
+    return resolve_queue_csv("guides", os.path.join(SCRIPT_DIR, "csv", "guides.csv"))
 
 
 def clean_ai_response(text):
@@ -82,7 +88,7 @@ def generate_guide_article(guide_id, topic, lang, keywords):
 def _orphan_tasks() -> list[tuple]:
     """Only the missing lang when the other already exists on disk."""
     tasks: list[tuple] = []
-    csv_path = os.path.join(SCRIPT_DIR, 'csv', 'guides.csv')
+    csv_path = _guides_csv_path()
     if not os.path.exists(csv_path):
         print(f"❌ CSV not found: {csv_path}")
         return tasks
@@ -108,7 +114,7 @@ def _orphan_tasks() -> list[tuple]:
 def _batch_missing_tasks(limit: int) -> list[tuple]:
     """Up to `limit` CSV topics with any missing en/ko (full CSV scan)."""
     tasks: list[tuple] = []
-    csv_path = os.path.join(SCRIPT_DIR, 'csv', 'guides.csv')
+    csv_path = _guides_csv_path()
     if not os.path.exists(csv_path):
         print(f"❌ CSV not found: {csv_path}")
         return tasks
@@ -138,7 +144,7 @@ def _batch_missing_tasks(limit: int) -> list[tuple]:
 def _new_topic_tasks(limit: int) -> list[tuple]:
     """CSV rows with neither en nor ko (opt-in; can create many files)."""
     tasks: list[tuple] = []
-    csv_path = os.path.join(SCRIPT_DIR, 'csv', 'guides.csv')
+    csv_path = _guides_csv_path()
     topics = 0
     with open(csv_path, mode='r', encoding='utf-8-sig') as file:
         for row in csv.DictReader(file):
@@ -161,7 +167,7 @@ def _new_topic_tasks(limit: int) -> list[tuple]:
 def _csv_missing_tasks() -> list[tuple]:
     """Every missing en/ko from guides.csv (expensive; opt-in)."""
     tasks: list[tuple] = []
-    csv_path = os.path.join(SCRIPT_DIR, 'csv', 'guides.csv')
+    csv_path = _guides_csv_path()
     with open(csv_path, mode='r', encoding='utf-8-sig') as file:
         for row in csv.DictReader(file):
             guide_id = (row.get('id') or '').strip()

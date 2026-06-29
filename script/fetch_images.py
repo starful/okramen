@@ -10,11 +10,17 @@ from dotenv import load_dotenv
 load_dotenv()
 API_KEY = os.environ.get("GOOGLE_PLACES_API_KEY")
 
+from topic_queue_csv import resolve as resolve_topic_csv
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
 IMAGES_DIR = os.path.join(BASE_DIR, 'app', 'static', 'images')
 CONTENT_DIR = os.path.join(BASE_DIR, 'app', 'content')
 CSV_PATH = os.path.join(SCRIPT_DIR, 'csv', 'ramens.csv')
+
+
+def _items_csv_path() -> str:
+    return resolve_topic_csv("items", CSV_PATH, source="bank")
 
 # 이미지 설정
 MAX_WIDTH = 800   # 최대 가로 사이즈 (Places API 파라미터)
@@ -125,7 +131,7 @@ def fetch_all_images():
                         break
 
     # CSV에서 MD가 있는 온천만 필터링
-    with open(CSV_PATH, mode='r', encoding='utf-8-sig') as f:
+    with open(_items_csv_path(), mode='r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         all_rows = list(reader)
 
