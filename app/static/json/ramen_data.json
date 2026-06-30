@@ -1,7 +1,199 @@
 {
-  "last_updated": "2026.06.27",
-  "total_count": 242,
+  "last_updated": "2026.06.30",
+  "total_count": 254,
   "ramens": [
+    {
+      "id": "shizuoka_station_espresso_ko",
+      "lang": "ko",
+      "title": "Shizuoka Station Espresso — Shizuoka 돈코츠 라멘 가이드",
+      "lat": 34.9717,
+      "lng": 138.389,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/shizuoka_station_espresso.jpg",
+      "address": "Shizuoka",
+      "published": "2026-06-30",
+      "summary": "Shizuoka Shizuoka Station Espresso — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/shizuoka_station_espresso_ko"
+    },
+    {
+      "id": "shizuoka_station_espresso_en",
+      "lang": "en",
+      "title": "Shizuoka Station Espresso — Shizuoka Tonkotsu ramen guide",
+      "lat": 34.9717,
+      "lng": 138.389,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/shizuoka_station_espresso.jpg",
+      "address": "Shizuoka",
+      "published": "2026-06-30",
+      "summary": "Shizuoka Station Espresso in Shizuoka: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/shizuoka_station_espresso_en"
+    },
+    {
+      "id": "sendai_ichibancho_latte_ko",
+      "lang": "ko",
+      "title": "Sendai Ichibancho Latte — Miyagi 돈코츠 라멘 가이드",
+      "lat": 38.2606,
+      "lng": 140.8829,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/sendai_ichibancho_latte.jpg",
+      "address": "Miyagi, Sendai",
+      "published": "2026-06-30",
+      "summary": "Miyagi Sendai Ichibancho Latte — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/sendai_ichibancho_latte_ko"
+    },
+    {
+      "id": "sendai_ichibancho_latte_en",
+      "lang": "en",
+      "title": "Sendai Ichibancho Latte — Miyagi Tonkotsu ramen guide",
+      "lat": 38.2606,
+      "lng": 140.8829,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/sendai_ichibancho_latte.jpg",
+      "address": "Miyagi, Sendai",
+      "published": "2026-06-30",
+      "summary": "Sendai Ichibancho Latte in Miyagi: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/sendai_ichibancho_latte_en"
+    },
+    {
+      "id": "ramen_takahashi_ginza_ko",
+      "lang": "ko",
+      "title": "Ramen Takahashi Ginza — Tokyo 쇼유 라멘 가이드",
+      "lat": 35.6703,
+      "lng": 139.7651,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_takahashi_ginza.jpg",
+      "address": "Tokyo, Ginza",
+      "published": "2026-06-30",
+      "summary": "Tokyo Ramen Takahashi Ginza — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_takahashi_ginza_ko"
+    },
+    {
+      "id": "ramen_takahashi_ginza_en",
+      "lang": "en",
+      "title": "Ramen Takahashi Ginza — Tokyo Shoyu ramen guide",
+      "lat": 35.6703,
+      "lng": 139.7651,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_takahashi_ginza.jpg",
+      "address": "Tokyo, Ginza",
+      "published": "2026-06-30",
+      "summary": "Ramen Takahashi Ginza in Tokyo: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_takahashi_ginza_en"
+    },
+    {
+      "id": "okayama_korakuen_cafe_ko",
+      "lang": "ko",
+      "title": "Okayama Korakuen Cafe — Okayama 돈코츠 라멘 가이드",
+      "lat": 34.665,
+      "lng": 133.9355,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/okayama_korakuen_cafe.jpg",
+      "address": "Okayama",
+      "published": "2026-06-30",
+      "summary": "Okayama Okayama Korakuen Cafe — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/okayama_korakuen_cafe_ko"
+    },
+    {
+      "id": "okayama_korakuen_cafe_en",
+      "lang": "en",
+      "title": "Okayama Korakuen Cafe — Okayama Tonkotsu ramen guide",
+      "lat": 34.665,
+      "lng": 133.9355,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/okayama_korakuen_cafe.jpg",
+      "address": "Okayama",
+      "published": "2026-06-30",
+      "summary": "Okayama Korakuen Cafe in Okayama: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/okayama_korakuen_cafe_en"
+    },
+    {
+      "id": "nagoya_sakae_espresso_ko",
+      "lang": "ko",
+      "title": "Nagoya Sakae Espresso — Aichi 돈코츠 라멘 가이드",
+      "lat": 35.1709,
+      "lng": 136.9066,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/nagoya_sakae_espresso.jpg",
+      "address": "Aichi, Nagoya",
+      "published": "2026-06-30",
+      "summary": "Aichi Nagoya Sakae Espresso — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/nagoya_sakae_espresso_ko"
+    },
+    {
+      "id": "nagoya_sakae_espresso_en",
+      "lang": "en",
+      "title": "Nagoya Sakae Espresso — Aichi Tonkotsu ramen guide",
+      "lat": 35.1709,
+      "lng": 136.9066,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/nagoya_sakae_espresso.jpg",
+      "address": "Aichi, Nagoya",
+      "published": "2026-06-30",
+      "summary": "Nagoya Sakae Espresso in Aichi: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/nagoya_sakae_espresso_en"
+    },
+    {
+      "id": "hiroshima_peace_park_cafe_ko",
+      "lang": "ko",
+      "title": "Hiroshima Peace Park Cafe — Hiroshima 돈코츠 라멘 가이드",
+      "lat": 34.3955,
+      "lng": 132.4536,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/hiroshima_peace_park_cafe.jpg",
+      "address": "Hiroshima",
+      "published": "2026-06-30",
+      "summary": "Hiroshima Hiroshima Peace Park Cafe — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/hiroshima_peace_park_cafe_ko"
+    },
+    {
+      "id": "hiroshima_peace_park_cafe_en",
+      "lang": "en",
+      "title": "Hiroshima Peace Park Cafe — Hiroshima Tonkotsu ramen guide",
+      "lat": 34.3955,
+      "lng": 132.4536,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/hiroshima_peace_park_cafe.jpg",
+      "address": "Hiroshima",
+      "published": "2026-06-30",
+      "summary": "Hiroshima Peace Park Cafe in Hiroshima: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/hiroshima_peace_park_cafe_en"
+    },
     {
       "id": "yokohama_minato_mirai_cafe_ko",
       "lang": "ko",
