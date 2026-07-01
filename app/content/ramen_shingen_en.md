@@ -12,31 +12,31 @@ lang: en
 lat: 43.0544
 lng: 141.3488
 shop_name: Ramen Shingen
-summary: 'Ramen Shingen in Hokkaido: Miso ramen — practical guide to queues, ordering,
-  and what to try. Confirm hours on Google Maps before visiting.'
+summary: "Ramen Shingen in Hokkaido: Miso ramen — practical guide to queues, ordering,\
+  \ and what to try. Confirm hours on Google Maps before visiting."
 thumbnail: /static/images/ramen_shingen.jpg
-title: 'Ramen Shingen Sapporo: Ultimate Guide & Menu Tips'
+title: Ramen Shingen — Hokkaido Miso ramen guide
 one_liner: Miso ramen at Ramen Shingen, Hokkaido. Verify hours and holidays on Maps
   before you go.
-what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-style
+what_to_order: House miso ramen; butter-corn or spicy miso if you want classic Sapporo
   toppings.
 good_for: Cold-weather comfort bowls
-seo_title: 'Ramen Shingen Sapporo: Menu, Tips & How to Beat the Line'
-seo_description: Get the most out of Ramen Shingen in Sapporo! Discover the best menu
-  items (including the legendary fried rice) and secrets to beat the long queue.
-description: Get the most out of Ramen Shingen in Sapporo! Discover the best menu
-  items (including the legendary fried rice) and secrets to beat the long queue.
+seo_title: "Ramen Shingen Sapporo: Menu, Tips & How to Beat the Line"
+seo_description: "Get the most out of Ramen Shingen in Sapporo! Discover the best\
+  \ menu items (including the legendary fried rice) and secrets to beat the long queue."
+description: "Get the most out of Ramen Shingen in Sapporo! Discover the best menu\
+  \ items (including the legendary fried rice) and secrets to beat the long queue."
 ---
 
+**Overview:** Ramen Shingen has operated in Susukino, Sapporo since 1988 — a long-running miso specialist in Hokkaido’s main nightlife district. Unlike the multi-stall Ganso Ramen Yokocho alley nearby, this is a single-brand shop with one house style. Winter evenings and post-ski season bring long queues; summer is slightly calmer but dinner still busy.
 
+**The bowl:** Sapporo miso: miso tare is often stir-fried before meeting pork-chicken broth, with thick curly noodles. Butter, sweet corn, and spicy miso (karami-miso) variants appear on the menu — classic Hokkaido comfort toppings. One regular bowl is filling; ¥900–¥1,200 is typical. Start with standard miso before ordering the largest size.
 
-**Overview:** Ramen Shingen is a long-running Sapporo miso shop in Susukino — often queued, especially on cold evenings.
+**Queue & ordering:** Expect 20–40 minute waits at peak dinner in winter. Ticket machine or counter order — confirm cash/card at the door. Counter-only seating means you may share elbow space with neighbors. Eat hot — noodles soften if you wait. No English menu guaranteed; photos and ‘miso’ kanji (味噌) identify the main line.
 
-**The bowl:** Sapporo-style miso: stir-fried miso tare, rich broth, curly noodles; butter-corn or spicy miso options are common. One bowl is usually enough for a first visit.
+**Area:** Susukino is Sapporo’s bar and restaurant core, walkable from Susukino or Nakajima-Koen Station. Pair with Ganso Ramen Yokocho on a different night to compare alley vs single-shop miso. After skiing at Niseko or Teine, many travelers stop here before hotels — plan a buffer for the queue. More in the area: [Hokkai Ramen](/ramen/hokkai_ramen_en), [Hokkaido Ramen Santouka](/ramen/hokkaido_ramen_santouka_en).
 
-**Queue & ordering:** Expect a line at dinner. Ticket machine or counter ordering — confirm on site. Winter nights are busiest.
-
-**Area:** Susukino nightlife district; combine with Ganso Ramen Yokocho or other Susukino stops on separate visits. More in the area: [Asahikawa Ramen Aoba](/ramen/asahikawa_ramen_aoba_en), [Ebisoba Ichigen](/ramen/ebisoba_ichigen_en).
+**Ordering notes:** Sapporo miso is heavier than Tokyo shoyu — one bowl plus a side is rarely needed. Butter and corn add sweetness; skip them if you want a cleaner miso taste. Susukino addresses can look similar at night — confirm the shop name in kanji (信玄) on the sign before you join the wrong queue.
 
 **Style note:** Hokkaido miso ramen varies by city — Sapporo/Hokkaido styles often use stir-fried miso tare and butter-corn toppings; Tokyo versions can be lighter.
 

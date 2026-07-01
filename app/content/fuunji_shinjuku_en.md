@@ -14,23 +14,26 @@ thumbnail: /static/images/fuunji_shinjuku.jpg
 title: Fuunji Shinjuku — Tokyo Tsukemen ramen guide
 one_liner: "Tsukemen specialist in Tokyo: noodles and broth served separately. Verify\
   \ hours and holidays on Maps before you go."
-what_to_order: House tsukemen; ask about soup-wari (broth top-up) if offered.
+what_to_order: Standard tsukemen set; ask for soup-wari (broth dilution) after noodles
+  if offered.
 good_for: Tsukemen fans and noodle-texture seekers
-seo_title: "Fuunji Shinjuku Guide: How to Eat Tokyo's Best Tsukemen"
-seo_description: "Master the queue at Fuunji Shinjuku. Our guide covers wait times,\
-  \ ticket machine tips, and how to order Tokyo's legendary chicken-fish tsukemen."
-description: "An insider's guide to dining at Fuunji in Shinjuku, famous for its rich\
-  \ chicken-fish dipping ramen. Learn how to beat the queue, use the ticket machine,\
-  \ and order like a local."
+seo_title: "Fuunji Shinjuku: tsukemen queue and ordering guide | OKRamen"
+seo_description: "How to visit Fuunji near Yoyogi: lunch wait times, tsukemen ordering,\
+  \ soup-wari after noodles, and local tips. Verify hours and Monday closures on Google\
+  \ Maps."
+description: Practical guide to Fuunji in Shinjuku — chicken-seafood tsukemen, typical
+  lunch queues, ticket machine, and how to finish with soup-wari.
 ---
 
-**Intro:** Fuunji Shinjuku is a tsukemen specialist — dipping noodles in a concentrated chicken-fish broth, not a soup ramen bowl.
+**Intro:** Fuunji Shinjuku (風雲児) is a tsukemen specialist near Yoyogi — noodles and concentrated dipping broth served separately, not a soup bowl. The dip blends chicken and seafood stock for a thick, umami-heavy tsuke soup. Lunch queues of 30–60 minutes are common on weekdays; the shop has Bib Gourmand recognition, which adds tourist traffic.
 
-**Broth:** Order tsukemen (dipping style). Broth is served separately for dipping; ask about soup-wari (broth top-up) at the end if offered. Noodle texture is the main event.
+**Broth:** Order tsukemen (つけ麺). Cold or room-temp noodles go into a separate bowl; dip each bite into the hot concentrated broth. Noodle firmness is the focus — eat within 10 minutes of serving. When finished, staff may offer soup-wari: hot water or light broth added to the remaining dip so you can drink it. Sizes and spice levels vary; start regular unless you are very hungry. About ¥900–¥1,200.
 
-**Practical:** Lines are part of the experience at lunch. Eat promptly after serving — noodles firm up fast.
+**Practical:** Arrive before 11:30 a.m. for shorter lines, or accept a long lunch wait. Ticket machine at entrance — buy before queueing if signs say so. No lingering after finishing; turnover matters. Solo diners seated faster. Closed some Mondays — verify on Maps. Not ideal for large luggage at crowded counter.
 
-**Area:** Shinjuku office/lunch crowd shop; pair with a half-day in west Shinjuku. More in the area: [Ebisoba Ichigen Shinjuku](/ramen/ebisoba_ichigen_shinjuku_en), [Ginza Kagari](/ramen/ginza_kagari_en).
+**Area:** Yoyogi / west Shinjuku — combine with Meiji Shrine morning walk and lunch here, or office-district weekday trip. Tsukemen fills you quickly; plan a light dinner. Other Shinjuku tsukemen shops are different styles — compare on separate days. More in the area: [Mouko Tanmen Nakamoto](/ramen/mouko_tanmen_nakamoto_en), [Nakiryu](/ramen/nakiryu_en).
+
+**Ordering notes:** Do not pour the dip into the noodle bowl — dip each bite. If soup-wari is offered, say yes before you stand up; staff may not repeat the offer. Phone photos in tight counter rows can annoy neighbors — one quick shot is enough.
 
 **Tip:** Tsukemen serves noodles and broth separately. The dip is concentrated; soup-wari at the end dilutes leftovers into a drinkable soup.
 

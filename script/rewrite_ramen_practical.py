@@ -84,124 +84,451 @@ CHAIN_HINTS = (
 SHOP_OVERRIDES: dict[str, dict[str, dict[str, str]]] = {
     "honke_daiichi-asahi": {
         "en": {
-            "hook": "Honke Daiichi Asahi (本家 第一旭) is a Kyoto Station-area shoyu ramen institution, open from very early morning. Expect a line at peak times; staff often take orders while you queue.",
-            "bowl": "The bowl is a clear, shoyu-forward pork soup — not heavy Hakata tonkotsu. Thin straight noodles, generous thin-sliced chashu, and plenty of Kujo negi are typical. Extra chashu (chashu-men) is a common upgrade.",
-            "visit": "Counter and table seating fill quickly. Shoulder times (very early morning or after 10 p.m.) are slightly easier. Cash and ticket-machine habits vary — check at the door.",
-            "area": "Shimogyo, walking distance from Kyoto Station. Easy to pair with a station-area walk; Shinpuku Saikan is nearby if you want a second comparison bowl another day.",
-        },
-        "ko": {
+            "order": "Classic shoyu ramen first; chashu-men if you want extra pork. Taste the broth before adding condiments.",
             "hook": (
-                "혼케 다이이치 아사히(本家 第一旭)는 교토역·시모교 일대에서 새벽부터 영업하는 쇼유 라멘 명가입니다. "
-                "1947년부터 이어진 가게로, 교토에서 ‘맑지만 깊은’ 쇼유 라멘을 찾을 때 거론되는 곳입니다. "
-                "점심·저녁에는 줄이 길 수 있고, 줄 서는 동안 주문을 받는 경우가 많습니다."
+                "Honke Daiichi Asahi (本家 第一旭) is a Kyoto Station-area shoyu ramen shop that has operated since 1947. "
+                "It opens very early — often before 6 a.m. — which makes it useful after a Shinkansen arrival or before temple sightseeing. "
+                "The shop is not a tiny counter-only hole-in-the-wall; expect a mix of counter and table seats, but lines still form at lunch and dinner. "
+                "Staff sometimes take orders while you queue, which speeds turnover once you sit down."
             ),
             "bowl": (
-                "국물은 맑은 쇼유 돈코츠 계열로, 후쿠오카식 진한 백탕과는 결이 다릅니다. "
-                "가는 직면, 얇게 썬 차슈, 쿠조 파가 기본 구성이고 차슈멘(차슈 추가)을 고르는 손님도 많습니다. "
-                "첫 방문은 기본 라멘으로 국물 간을 맞춰 보는 것이 좋습니다."
+                "The signature bowl is a clear, shoyu-forward pork soup — lighter than Hakata tonkotsu but still savory. "
+                "Thin straight noodles, a pile of Kujo negi (Kyoto scallions), and thin-sliced chashu are standard. "
+                "Many regulars order chashu-men for extra pork. Bowls typically run roughly ¥900–¥1,100; sizes and toppings are on the ticket screen or menu board. "
+                "First visit: order the basic shoyu, sip the broth before adding table condiments, then decide if you want a heavier bowl next time."
             ),
             "visit": (
-                "좌석 회전이 빠른 편이라 대기 시간은 생각보다 짧을 때도 있습니다. "
-                "이른 아침(오픈 직후)이나 늦은 밤이 상대적으로 수월할 수 있습니다. "
-                "현금·키오스크·카드 여부는 입구 안내를 확인하세요."
+                "Peak queues happen 11:30 a.m.–2 p.m. and 6–8 p.m. Early morning (right after opening) or late evening is usually calmer. "
+                "Turnover is fast — most diners finish in 15–20 minutes. Payment may be ticket machine or counter; cash-only days still happen in Kyoto, so check signage at the entrance. "
+                "There is no reservation system. If the line looks long, screenshot the Maps listing and compare nearby shoyu shops rather than waiting without a plan."
             ),
             "area": (
-                "교토역에서 도보권 시모교입니다. 당일 교토역·우메코지 공원 동선과 묶기 좋고, "
-                "다른 날 신푸쿠 사이칸 등 인근 라멘과 비교 방문하면 교토 쇼유 감이 잡힙니다."
+                "Located in Shimogyo, walking distance from Kyoto Station’s central exit area and Umekoji Park. "
+                "Works well as a first meal in Kyoto or a late bowl after a day in Fushimi or Arashiyama (train back to Kyoto Station). "
+                "For a second comparison bowl on another day, Shinpuku Saikan and other station-area shoyu shops are nearby — Kyoto shoyu is about clarity and soy balance, not richness alone."
+            ),
+        },
+        "ko": {
+            "order": "기본 쇼유 라멘 — 국물 맛 본 뒤 차슈멘·토핑 추가 고려",
+            "hook": (
+                "혼케 다이이치 아사히(本家 第一旭)는 1947년부터 이어진 교토역·시모교 일대 쇼유 라멘 가게입니다. "
+                "새벽 6시 전후 오픈이라 신칸센 도착 직후·관광 전 아침 한 끼로 쓰기 좋습니다. "
+                "카운터와 테이블 좌석이 있지만 점심·저녁에는 줄이 생깁니다. "
+                "줄을 서는 동안 주문을 받는 경우가 있어, 착석 후 대기 시간이 짧게 느껴지기도 합니다. "
+                "교토에서 ‘역 근처 쇼유’를 찾을 때 자주 거론되며, 맑은 국물·파 토핑이 인상적인 편입니다."
+            ),
+            "bowl": (
+                "맑은 쇼유 돈코츠 계열 국물로, 후쿠오카식 진한 백탕과는 결이 다릅니다. "
+                "가는 직면, 쿠조 파(교토 품종 파), 얇게 썬 차슈가 기본입니다. "
+                "차슈멘(차슈 추가)을 고르는 손님이 많고, 가격은 대략 ¥900~¥1,100 전후가 흔합니다. "
+                "첫 방문은 기본 쇼유로 국물 간을 확인한 뒤, 테이블 조미료는 국물 맛 본 다음 넣는 편이 좋습니다. "
+                "국물 표면의 기름막은 감칠맛의 일부이니, 너무 걷어내지 않고 한 모금 맛본 뒤 조절하세요."
+            ),
+            "visit": (
+                "11:30~14:00, 18:00~20:00 전후가 가장 붐빕니다. 오픈 직후·21시 이후가 상대적으로 수월할 수 있습니다. "
+                "회전이 빨라 15~20분 내 식사를 마치는 손님이 많습니다. "
+                "식권기·현금 전용·카드 가능 여부는 입구 안내를 확인하세요. 예약은 없습니다. "
+                "줄이 길어도 주문·착석이 빠른 편이라, ‘30분 이상’ 안내가 없다면 기다릴 가치가 있는 경우가 많습니다. "
+                "테이블석이 있어도 혼자 방문 시 카운터에 앉히는 경우가 흔합니다."
+            ),
+            "area": (
+                "교토역 중앙 출구·우메코지 공원에서 도보권입니다. "
+                "교토 첫날 아침이나 후시미·아라시야마 일정 후 역으로 돌아올 때 한 끼로 넣기 좋습니다. "
+                "다른 날 신푸쿠 사이칸 등 역 주변 쇼유 라멘과 비교하면 교토 쇼유의 ‘맑고 짠맛’ 감을 잡기 쉽습니다. "
+                "역 주변 숙소에서 ‘아침 라멘’ 일정으로 넣기 쉬워, 신칸센 도착 당일·출발 전날 모두 후보가 됩니다."
+            ),
+            "extra": (
+                "교토 쇼유 라멘은 ‘진한 돈코츠’를 기대하고 오면 실망할 수 있습니다 — 맑고 짠맛·파 향이 중심입니다. "
+                "테이블의 마늘·고추 기름·식초는 국물 한 모금 마신 뒤 넣는 편이 좋습니다. "
+                "가방은 발밑이나 등 뒤 좁은 공간에 두고, 카운터에서는 이웃과 팔꿈치 간격을 조금만 신경 쓰면 됩니다. "
+                "교토역 주변은 호텔·숙소가 많아 아침 일찍 줄이 길어도 20~30분 내에 들어가는 경우가 많습니다. "
+                "신칸센 도착 직후라면 캐리어를 역 코인로커에 맡기고 가볍게 들르는 동선이 편합니다. "
+                "차슈멘은 고기 양이 늘지만 국물량은 비슷한 경우가 많아, ‘면까지’ 든든히 먹고 싶을 때 고르세요. "
+                "교토는 관광지라 현금만 받는 날이 가끔 있으니, 입구 스티커와 지도 리뷰의 최근 댓글도 함께 확인하면 좋습니다."
+            ),
+            "extra2": (
+                "혼자 여행이라면 카운터석이 회전이 빠르고 대기 시간을 줄이기 쉽습니다. "
+                "교토역에서 도보 10~15분이면 충분한 경우가 많지만, Google Maps ‘대중교통’이 아닌 ‘도보’ 경로로 확인하세요. "
+                "비·눈 오는 날에도 줄이 줄지 않는 편이라, 우산 접어두기 공간이 있는지 입구에서 가볍게 확인하면 좋습니다. "
+                "교토 패스만으로는 접근이 애매할 수 있어, ‘교토역’ 기준 도보 동선으로 계획하는 편이 실수가 적습니다."
             ),
         },
     },
     "bankara_ramen": {
         "en": {
-            "hook": "Bankara Ramen in Ikebukuro is known for rich tonkotsu-shoyu bowls and late-night hours — a practical stop after evening plans in Toshima.",
-            "bowl": "Signature style leans rich: pork broth with shoyu tare, noticeable fat (seabura), and kakuni-style braised pork rather than only thin chashu. Order the house tonkotsu first; spice or extra pork if you want a heavier bowl.",
-            "visit": "Popular for dinner and after 9–10 p.m. Expect a short wait at peak times. Useful when other shops in the area have closed.",
-            "area": "Ikebukuro is a major hub — hotels, Sunshine City, and late-night food are all nearby. Good for travelers staying north-west Tokyo.",
-        },
-        "ko": {
+            "order": "House tonkotsu or bankara-style bowl first; add spice or extra pork if you want heavier.",
             "hook": (
-                "이케부쿠로 반카라 라멘은 진한 돈코츠·쇼유와 늦은 영업으로 유명해, 토시마에서 저녁 일정 뒤 들르기 좋습니다. "
-                "1998년경부터 이케부쿠로에서 이름을 알린 ‘진한 맛’ 계열 돈코츠로, 가볍게 먹기보다 든든한 한 끼에 가깝습니다."
+                "Bankara Ramen in Ikebukuro (Toshima) is known for rich tonkotsu-shoyu bowls and hours that stretch into the night — "
+                "useful when other Tokyo shops have closed. The brand started in Ikebukuro in the late 1990s and leans toward "
+                "‘heavy’ rather than light: visible pork fat, dark shoyu tare, and kakuni-style braised pork cubes rather than thin chashu only."
             ),
             "bowl": (
-                "국물은 돈코츠에 쇼유 다레가 얹힌 진한 편이고, 세아부라(지방)와 카쿠니(조림 돼지) 토핑이 특징입니다. "
-                "기본 돈코츠로 맛본 뒤 매운맛·토핑 추가를 고려하면 됩니다. 가격은 도쿄 기준 ¥1,000~¥1,300 전후가 흔합니다."
+                "Signature bowls combine pork bone broth with shoyu seasoning and seabura (back fat). "
+                "Kakuni toppings are a brand signature — thicker, braised pork compared with standard chashu slices. "
+                "Spicy versions and extra pork upgrades are common on the menu board. Expect roughly ¥1,000–¥1,300 in central Tokyo. "
+                "First visit: order the house tonkotsu or the shop’s named ‘bankara’ bowl before experimenting with spice levels."
             ),
             "visit": (
-                "저녁·야간에 손님이 몰립니다. 주변 가게가 문 닫은 뒤 대안으로 찾는 경우도 많습니다. "
-                "인기 시간대에는 15~25분 정도 여유를 두면 좋습니다."
+                "Dinner (7–10 p.m.) and late-night slots draw office workers and travelers. Waits of 15–25 minutes happen at peak but move steadily. "
+                "Counter seating dominates; groups may wait longer for adjacent seats. Ticket machines are common — follow photos and ¥ prices if the screen is Japanese-only. "
+                "Confirm last order on Maps; Ikebukuro branches often stay open later than suburban shops."
             ),
             "area": (
-                "이케부쿠로 역 주변 숙소·쇼핑과 연결하기 쉽습니다. "
-                "도쿄 서북부 여행에서 ‘늦은 라멘 한 그릇’ 슬롯으로 넣기 좋습니다."
+                "Ikebukuro Station is a major hub on the Yamanote Line — Sunshine City, hotels, and late-night konbini are all nearby. "
+                "Good for northwest Tokyo stays or after an evening in Ikebukuro’s entertainment district. "
+                "If Bankara’s line is too long, search ‘tonkotsu’ within walking distance on Maps rather than committing to an hour wait."
+            ),
+            "extra": (
+                "Bankara’s kakuni is fattier than standard chashu — if you already ate a heavy lunch, stick to the regular size. "
+                "Spicy tare can mask the broth; try the standard bowl first if you want to taste the base soup. "
+                "Ikebukuro East Exit side is usually the shortest walk from the station — use Maps street view if it is your first time in the area."
+            ),
+        },
+        "ko": {
+            "order": "기본 돈코츠·반카라 시그니처 — 매운맛·토핑은 두 번째 방문에",
+            "hook": (
+                "이케부쿠로 반카라 라멘은 진한 돈코츠·쇼유와 늦은 영업으로 유명합니다. "
+                "1998년경 이케부쿠로에서 시작한 ‘묵직한’ 돈코츠 계열로, 세아부라(지방)와 "
+                "카쿠니(조림 돼지) 토핑이 브랜드 특징입니다. 주변 가게가 문 닫은 뒤 대안으로 찾는 경우도 많습니다. "
+                "‘배부르게 한 그릇’을 원할 때 고르는 손님이 많고, 가벼운 점심보다는 저녁·야식에 가깝습니다."
+            ),
+            "bowl": (
+                "돈코츠에 쇼유 다레가 얹힌 진한 국물, 카쿠니·차슈 토핑이 포인트입니다. "
+                "매운 버전·토핑 추가 메뉴가 메뉴판에 자주 있습니다. 도쿄 중심부 기준 ¥1,000~¥1,300 전후. "
+                "첫 방문은 시그니처 돈코츠 또는 ‘반카라’ 명칭 그릇으로 시작하는 것이 안전합니다. "
+                "카쿠니는 입에서 살살 녹는 편이라, 면과 번갈아 먹으면 느끼함이 덜할 수 있습니다."
+            ),
+            "visit": (
+                "저녁 7~10시·야간에 손님이 몰립니다. 15~25분 대기가 있을 수 있으나 줄은 꾸준히 줄어듭니다. "
+                "카운터 위주라 2~3명 이상이면 붙어 앉기 어려울 수 있습니다. "
+                "키오스크는 사진·¥ 가격으로 고를 수 있습니다. 라스트 오더는 지도에서 확인하세요. "
+                "이케부쿠로는 마지막 열차 전에 손님이 몰리는 경우가 있어, 22시 전후에도 잠깐 줄이 생길 수 있습니다."
+            ),
+            "area": (
+                "이케부쿠로 역은 야마노테선 허브로, 선샤인시티·호텔·야간 편의점과 연결됩니다. "
+                "도쿄 서북부 숙소나 이케부쿠로 저녁 일정 뒤 ‘늦은 라멘’ 슬롯에 넣기 좋습니다. "
+                "야간 라멘 후에는 역 지하 상가·konbini로 바로 이어지는 동선이 많아, ‘마지막 한 그릇’ 계획에 잘 맞습니다."
+            ),
+            "extra": (
+                "카쿠니는 일반 차슈보다 지방이 많습니다 — 점심을 heavy하게 먹었다면 보통 사이즈를 권합니다. "
+                "매운맛은 국물 맛을 가릴 수 있어, 첫 방문은 기본 맛으로 국물 간을 확인하는 편이 좋습니다. "
+                "이케부쿠로 동쪽 출구 쪽이 역에서 가깝게 나오는 경우가 많습니다. 처음이면 지도 거리뷰로 입구를 확인하세요. "
+                "늦은 시간 방문 시 주변 상점이 닫혀도 반카라만큼은 영업하는 경우가 있어, ‘마지막 한 그릇’ 후보로 메모해 두면 유용합니다. "
+                "키오스크에서 사진·¥ 숫자만 보고 고를 수 있지만, ‘카쿠니’가 들어간 메뉴는 토핑이 무거우니 면 사이즈는 보통으로 시작하세요. "
+                "2~3명이면 카운터가 분리될 수 있어, 붙어 앉기 어렵다면 순번대로 들어가는 것이 일반적입니다."
+            ),
+            "extra2": (
+                "이케부쿠로는 JR·지하철·西武線 등 노선이 겹쳐, ‘이케부쿠로’만 검색하면 다른 출구로 나올 수 있습니다. "
+                "늦은 시간 방문 후에는 역 주변 24시간 konbini·ATM이 있어 현금 보충이 비교적 쉽습니다. "
+                "진한 국물 후 속이 더부룩할 수 있으니, 다음 일정은 가벼운 산책이나 카페로 잡는 편이 편합니다. "
+                "반카라는 ‘듬뿍 토핑’ 이미지가 강해, 면을 다 못 먹고 남기는 경우도 있습니다 — 보통 사이즈로 시작하세요. "
+                "이케부쿠로 동쪽·서쪽 출구 중 어디가 가까운지 지도 리뷰 사진을 한 번 확인하면 헤매는 시간을 줄일 수 있습니다. "
+                "카쿠니 토핑은 국물보다 먼저 식을 수 있어, 제공 직후 고기부터 번갈아 먹는 편이 좋습니다. "
+                "이케부쿠로 야간 라멘은 ‘마지막 한 그릇’ 후보로 자주 거론됩니다."
             ),
         },
     },
     "menya_musashi_shinjuku": {
         "en": {
-            "hook": "Menya Musashi Shinjuku serves dual-broth (W-soup) tonkotsu — a Shinjuku classic for travelers who want a well-known bowl near the station.",
-            "bowl": "Look for W-soup (tonkotsu + secondary broth) with firm noodles and assorted toppings. Signature bowls are on the menu board; add-ons depend on the branch.",
-            "visit": "Shinjuku means crowds. Lunch and dinner queues are normal; off-peak hours or weekday lunch slightly easier.",
-            "area": "Walkable from Shinjuku Station cores. Pair with an evening in Kabukicho or a daytime transfer hub stop.",
+            "order": "Black or red W-soup (dual-broth) signature bowl; kaedama if you finish broth with noodles left.",
+            "hook": (
+                "Menya Musashi Shinjuku is the flagship of a chain founded by a former student of the original Musashi style — "
+                "famous for W-soup (dual broth): tonkotsu blended with a second stock for depth without pure white Hakata heaviness. "
+                "The Shinjuku location sits in one of Tokyo’s busiest dining zones; lunch and dinner queues are normal, not a sign of trouble."
+            ),
+            "bowl": (
+                "Look for black (garlic-forward) or red (spicy) W-soup bowls on the menu — both use the dual-broth base with different tare. "
+                "Noodles are typically firm and straight; toppings include chashu, egg, and nori depending on the set. "
+                "Kaedama (extra noodles) is offered at many Musashi shops if you have broth left. Prices around ¥1,000–¥1,400. "
+                "This branch is ramen-in-broth style, not tsukemen — do not confuse with other Musashi spin-offs that specialize in dipping noodles."
+            ),
+            "visit": (
+                "Weekday lunch 11:30–13:30 and weekend dinner are busiest. Ticket machine near the entrance — buy before sitting if instructed. "
+                "Counter seats fill in waves; solo diners get seated faster than large groups. "
+                "English on the machine is limited; follow the top-row photos for ‘recommended’ bowls. No reservations."
+            ),
+            "area": (
+                "Walkable from Shinjuku Station’s east and south exits — easy to combine with Kabukicho, Shinjuku Gyoen, or a transfer-day stop. "
+                "If the queue exceeds 30 minutes, consider another Shinjuku tonkotsu shop on the map for the same trip rather than one shop only."
+            ),
+            "extra": (
+                "Black (garlic) and red (spicy) bowls share the same W-soup base — pick one, not both on a first visit. "
+                "Kaedama is only worth it if you have broth left; Musashi portions are already filling. "
+                "Shinjuku Station has many exits; pin the shop on Maps before you leave the ticket gates to avoid a long walk."
+            ),
         },
         "ko": {
-            "hook": "멘야 무사시 신주쿠는 쌍육수(W스프) 돈코츠로 유명한 신주쿠 대표 라멘 중 하나입니다.",
-            "bowl": "돈코츠와 보조 육수를 섞은 쌍육수, 탄력 있는 면, 토핑 구성이 포인트입니다. 시그니처는 메뉴판 첫 줄을 보면 됩니다.",
-            "visit": "신주쿠 특성상 점심·저녁 웨이팅이 흔합니다. 평일 점심이나 비피크가 조금 수월합니다.",
-            "area": "신주쿠역 도보권입니다. 당일 신주쿠 일정 중 한 끼로 넣기 좋습니다.",
+            "order": "블랙·레드 W스프(쌍육수) 시그니처 — 국물 남으면 가에다마(면 추가) 확인",
+            "hook": (
+                "멘야 무사시 신주쿠는 쌍육수(W스프) 돈코츠로 유명한 체인의 대표 지점입니다. "
+                "돈코츠에 다른 육수를 섞어 깊이를 내는 방식으로, 순백색 하카타 돈코츠만큼 무겁지 않게 느껴지는 경우가 많습니다. "
+                "신주쿠라 점심·저녁 웨이팅은 흔합니다. "
+                "1960년대부터 이어진 ‘무사시’ 계열 중 신주쿠 지점은 관광객·출장객 모두에게 이름이 많이 알려져 있습니다."
+            ),
+            "bowl": (
+                "메뉴판에서 블랙(마늘)·레드(매운맛) W스프를 찾으면 됩니다. "
+                "면은 탄력 있는 직면, 차슈·味玉·김 토핑 세트가 일반적입니다. "
+                "국물이 남으면 가에다마(면 추가)를 요청할 수 있는 매장이 많습니다. ¥1,000~¥1,400 전후. "
+                "이 지점은 국물 라멘이며, 츠케멘 전문 다른 ‘무사시’ 계열과 혼동하지 마세요. "
+                "W스프는 첫 모금에서 ‘고소한 육수+돈코츠’가 함께 느껴지는 경우가 많습니다."
+            ),
+            "visit": (
+                "평일 점심 11:30~13:30, 주말 저녁이 가장 붐빕니다. "
+                "입구 식권기에서 먼저 구매하는 경우가 많습니다. "
+                "1인석 회전이 빨라 혼자보다 3인 이상은 대기가 길어질 수 있습니다. 예약 없음. "
+                "신주쿠 역에서 5~10분 걸릴 수 있으니, 지도 핀을 미리 저장해 두면 좋습니다."
+            ),
+            "area": (
+                "신주쿠역 동·남쪽 출구에서 도보권입니다. "
+                "가부키초·신주쿠御苑 당일 일정 중 한 끼로 넣기 좋습니다. "
+                "신주쿠 환승일에 ‘한 그릇만’ 넣기 좋은 위치라, 도쿄 여행 초반·중반 모두 후보로 두기 쉽습니다."
+            ),
+            "extra": (
+                "블랙(마늘)·레드(매운맛)는 같은 W스프 베이스입니다 — 첫 방문에 두 그릇을 비교하려면 친구와 나눠 주문하는 편이 낫습니다. "
+                "가에다마는 국물이 남았을 때만 의미 있습니다. 기본 그릇도 든든한 편입니다. "
+                "신주쿠역 출구가 많으니, 개찰구 나가기 전 지도에 가게를 고정해 두면 헤매는 시간을 줄일 수 있습니다. "
+                "무사시는 ‘면이 탄력 있다’는 평이 많아, 제공 후 5분 이상 두면 맛이 떨어질 수 있습니다 — 사진은 짧게. "
+                "신주쿠는 관광·출장객이 섞여 있어 혼잡하지만, 1인석 위주라 혼자 방문해도 부담이 적습니다. "
+                "W스프는 돈코츠만큼 느끼하지 않다고 느끼는 분도 있지만, 마늘 블랙은 향이 강하니 마늘을 싫어하면 레드·기본 계열을 고르세요."
+            ),
+            "extra2": (
+                "신주쿠는 바쁜 역이라 GPS가 튀는 경우가 있습니다 — 가게 앞까지 ‘도보’ 내비를 켠 뒤 마지막 100m는 간판으로 확인하세요. "
+                "점심 시간대에는 주변 오피스 직장인 비중이 높아, 주말 관광객과 패턴이 다릅니다. "
+                "면이 먼저 나오면 국물보다 빨리 식을 수 있으니, 제공 직후 바로 시작하는 것이 좋습니다. "
+                "무사시는 신주쿠 ‘대표’ 라멘 중 하나라 검색 결과가 많습니다 — 주소·간판 사진이 이 지점과 맞는지 꼭 확인하세요. "
+                "블랙·레드 선택이 고민되면, 마늘·매운맛 모두 괜찮다면 블랙이 더 ‘무사시’스러운 경우가 많습니다. "
+                "점심 대기가 길면, 신주쿠 역 주변 다른 돈코츠를 지도에서 비교해 보는 것도 방법입니다. "
+                "무사시는 신주쿠에서 ‘첫 돈코츠’로 많이 선택되지만, W스프가 낯설다면 기본·레드부터 시도해 보세요. "
+                "식권기에서 고민될 때는 사진이 큰 버튼·첫 줄 메뉴를 고르면 실패 확률이 낮습니다. "
+                "신주쿠 동쪽·남쪽 출구 중 어디로 나올지 미리 정해 두면 도착 후 헤매는 시간을 줄일 수 있습니다."
+            ),
         },
     },
     "ramen_shingen": {
         "en": {
-            "hook": "Ramen Shingen is a long-running Sapporo miso shop in Susukino — often queued, especially on cold evenings.",
-            "bowl": "Sapporo-style miso: stir-fried miso tare, rich broth, curly noodles; butter-corn or spicy miso options are common. One bowl is usually enough for a first visit.",
-            "visit": "Expect a line at dinner. Ticket machine or counter ordering — confirm on site. Winter nights are busiest.",
-            "area": "Susukino nightlife district; combine with Ganso Ramen Yokocho or other Susukino stops on separate visits.",
+            "order": "House miso ramen; butter-corn or spicy miso if you want classic Sapporo toppings.",
+            "hook": (
+                "Ramen Shingen has operated in Susukino, Sapporo since 1988 — a long-running miso specialist in Hokkaido’s main nightlife district. "
+                "Unlike the multi-stall Ganso Ramen Yokocho alley nearby, this is a single-brand shop with one house style. "
+                "Winter evenings and post-ski season bring long queues; summer is slightly calmer but dinner still busy."
+            ),
+            "bowl": (
+                "Sapporo miso: miso tare is often stir-fried before meeting pork-chicken broth, with thick curly noodles. "
+                "Butter, sweet corn, and spicy miso (karami-miso) variants appear on the menu — classic Hokkaido comfort toppings. "
+                "One regular bowl is filling; ¥900–¥1,200 is typical. Start with standard miso before ordering the largest size."
+            ),
+            "visit": (
+                "Expect 20–40 minute waits at peak dinner in winter. Ticket machine or counter order — confirm cash/card at the door. "
+                "Counter-only seating means you may share elbow space with neighbors. Eat hot — noodles soften if you wait. "
+                "No English menu guaranteed; photos and ‘miso’ kanji (味噌) identify the main line."
+            ),
+            "area": (
+                "Susukino is Sapporo’s bar and restaurant core, walkable from Susukino or Nakajima-Koen Station. "
+                "Pair with Ganso Ramen Yokocho on a different night to compare alley vs single-shop miso. "
+                "After skiing at Niseko or Teine, many travelers stop here before hotels — plan a buffer for the queue."
+            ),
+            "extra": (
+                "Sapporo miso is heavier than Tokyo shoyu — one bowl plus a side is rarely needed. "
+                "Butter and corn add sweetness; skip them if you want a cleaner miso taste. "
+                "Susukino addresses can look similar at night — confirm the shop name in kanji (信玄) on the sign before you join the wrong queue."
+            ),
         },
         "ko": {
-            "hook": "라멘 신겐은 스스키노의 오래된 삿포로 미소 라멘으로, 추운 날 저녁에 줄이 길어지는 편입니다.",
-            "bowl": "볶은 미소 다레와 진한 국물, 곱은 면이 전형적입니다. 버터·옥수수·매운 미소 옵션이 흔합니다.",
-            "visit": "저녁 웨이팅을 감안하세요. 키오스크·현금 여부는 매장에서 확인합니다.",
-            "area": "스스키노 한밤 동선과 잘 맞습니다. 원조 라멘 요코초와는 별도 날 비교 방문을 추천합니다.",
+            "order": "기본 미소 라멘 — 버터·옥수수·매운 미소는 삿포로식 토핑",
+            "hook": (
+                "라멘 신겐은 1988년부터 스스키노에서 운영하는 삿포로 미소 전문점입니다. "
+                "원조 라멘 요코초 골목과 달리 단일 브랜드 매장입니다. "
+                "겨울 저녁·스키 시즌에 줄이 길어지며, 여름은 상대적으로 한산하지만 저녁은 여전히 붐빕니다. "
+                "홋카이도 여행에서 ‘미소 한 그릇’을 제대로 맛보려는 분들이 줄을 서는 편입니다."
+            ),
+            "bowl": (
+                "볶은 미소 다레와 돼지·닭 육수, 곱은 면이 전형적입니다. "
+                "버터·옥수수·가라미미소(매운 미소) 옵션이 흔합니다. ¥900~¥1,200 전후. "
+                "첫 방문은 기본 미소·보통 사이즈로 충분한 경우가 많습니다. "
+                "삿포로 미소는 ‘고소한 누룽지·된장’ 향이 특징인 편이라, 도쿄 미소와 비교해 보면 차이가 큽니다."
+            ),
+            "visit": (
+                "겨울 저녁 20~40분 대기가 있을 수 있습니다. 식권기·현금 여부는 입구 확인. "
+                "카운터만 있어 이웃과 가까이 앉을 수 있습니다. "
+                "미소는 식기 전에 먹는 편이 좋습니다. ‘味噌’ 한자로 메인 메뉴를 찾을 수 있습니다. "
+                "스스키노는 금·토요일 밤에 특히 붐비므로, 평일 저녁이 상대적으로 수월할 수 있습니다."
+            ),
+            "area": (
+                "스스키노·中島公園 역에서 도보권입니다. "
+                "요코초 골목과는 다른 날 비교 방문하면 삿포로 미소 차이를 느끼기 쉽습니다. "
+                "삿포로 숙소가 스스키노·すすきの 근처라면, 저녁 한 끼·야식 슬롯으로 넣기 좋습니다."
+            ),
+            "extra": (
+                "삿포로 미소는 도쿄 쇼유보다 무겁습니다 — 기본 그릇 하나면 충분한 경우가 많습니다. "
+                "버터·옥수수는 단맛이 강해, 맑은 미소 맛을 원하면 빼고 주문할 수 있는지 메뉴판을 확인하세요. "
+                "스스키노는 밤에 비슷한 간판이 많습니다 — ‘信玄’ 한자 간판을 확인하고 줄을 서세요. "
+                "겨울철 실내 난방+뜨거운 국물로 땀이 날 수 있어, 코트는 의자 등받이에 걸 수 있는지 확인하세요. "
+                "스키·겨울 여행 중이라면 신겐 한 그릇 후 디저트까지 계획하기엔 배가 찰 수 있습니다 — 저녁 메인으로만 잡는 편이 낫습니다. "
+                "미소 라멘은 국물이 진해 면이 빨리 눅눅해질 수 있으니, 대화보다 식사에 집중하면 만족도가 높습니다."
+            ),
+            "extra2": (
+                "삿포로는 겨울에 실내·실외 온도차가 커서, 코트·장갑을 의자에 걸 수 있는지 먼저 확인하세요. "
+                "스스키노는 술집·라멘·곱창 골목이 섞여 있어, 밤 10시 이후에도 주변은 활기 있지만 가게별 라스트 오더는 다릅니다. "
+                "홋카이도 여행 마지막 날 ‘미소 한 그릇’으로 마무리하려면, 짐을 호텔에 두고 가볍게 방문하는 동선이 좋습니다. "
+                "신겐은 요코초 ‘여러 가게 비교’와 달리 한 메뉴에 집중한 곳이라, 줄이 길어도 ‘이 집만’ 맛보고 싶을 때 선택합니다. "
+                "겨울철 실내가 더울 수 있어, 두꺼운 외투는 의자에 걸어두고 먹는 편이 편합니다. "
+                "줄이 길 때는 지도 리뷰의 ‘최근’ 사진으로 메뉴판 변경 여부를 확인하면 주문 실수를 줄일 수 있습니다. "
+                "신겐은 스스키노 ‘미소’ 대표 후보 중 하나라, 겨울 여행 일정표에 ‘저녁 미소’ 슬롯으로 미리 넣어 두면 좋습니다. "
+                "버터·옥수수 토핑은 따뜻한 날에도 인기가 많아, ‘무겁다’고 느끼면 빼고 주문할 수 있는지 메뉴판을 확인하세요. "
+                "스스키노는 밤늦게도 활기 있지만 가게별 라스트 오더가 다르므로, 방문 전 지도 영업시간을 꼭 확인하세요."
+            ),
         },
     },
     "muteppou_kyoto": {
         "en": {
-            "hook": "Muteppou Kyoto is a tonkotsu-focused shop known for intense pork broth — popular with travelers who want a rich Kyoto bowl (not light shoyu).",
-            "bowl": "Heavy tonkotsu profile; noodles and kaedama (noodle refill) culture matter here. Start with the signature tonkotsu before extras.",
-            "visit": "Queues at peak meal times. Small counter-focused layout. Verify hours on Maps — Kyoto shops can close on irregular days.",
-            "area": "Central Kyoto access; good after temple sightseeing when you want a filling dinner.",
+            "order": "Signature kotteri tonkotsu; kaedama only if you finish noodles — the broth is very rich.",
+            "hook": (
+                "Muteppou Kyoto (in Kizugawa, south of central Kyoto) is known for kotteri — extremely thick, dark pork-bone broth. "
+                "This is the opposite of light Kyoto shoyu: one bowl is heavy, and many diners treat it as a dedicated dinner, not a quick snack. "
+                "The shop draws tonkotsu fans from Kyoto city; check Maps for the exact address — it is not in the temple district."
+            ),
+            "bowl": (
+                "Broth is reduced until opaque and collagen-rich — darker than typical Hakata white tonkotsu. "
+                "Thin noodles are common to balance the soup weight. Kaedama culture exists but the broth alone is filling. "
+                "Start with the signature tonkotsu; avoid ordering large size on an empty stomach if you plan more food later. Roughly ¥900–¥1,200."
+            ),
+            "visit": (
+                "Queues at lunch and dinner; counter-focused layout. Access is easier by train or car than walking from Gion — verify route on Maps. "
+                "Irregular closing days are common for suburban Kyoto shops — check Monday/holiday rules before you travel. "
+                "Cash and ticket machines are typical; eat promptly while the fat emulsion is hot."
+            ),
+            "area": (
+                "Kizugawa area suits travelers with a car or those combining southern Kyoto with Nara day trips. "
+                "After temple-heavy days in Higashiyama, this is a ‘heavy reward bowl’ — not for the same day as a light kaiseki dinner. "
+                "Compare with Honke Daiichi Asahi shoyu on another day to see Kyoto’s two ramen extremes."
+            ),
+            "extra": (
+                "Kotteri broth coats the lips — bring a small towel if you care about that after eating. "
+                "Kaedama is optional; many first-timers cannot finish the soup alone. "
+                "If you are staying in central Kyoto without a car, compare travel time on Maps — a 40-minute round trip for one bowl may not fit a tight temple day."
+            ),
         },
         "ko": {
-            "hook": "무테포 교토는 진한 돈코츠로 유명한 매장으로, 맑은 쇼유 계열과 다른 ‘묵직한’ 교토 라멘을 원할 때 고려합니다.",
-            "bowl": "돈코츠 농도가 높은 편이며, 면 리필(가에다마) 문화가 있습니다. 시그니처 돈코츠부터 주문하는 것이 안전합니다.",
-            "visit": "식사 시간대 웨이팅이 있습니다. 좌석이 카운터 중심입니다. 교토 매장은 휴무가 불규칙할 수 있어 지도로 재확인하세요.",
-            "area": "관광 동선 사이 저녁 한 끼로 넣기 좋습니다.",
+            "order": "시그니처 코테리 돈코츠 — 국물이 매우 진해 가에다마는 배 고려 후",
+            "hook": (
+                "무테포 교토(기즈가와·교토 남부)는 코테리(극진) 돈코츠로 유명합니다. "
+                "맑은 교토 쇼유와 반대로, 한 그릇이 무겁고 저녁 한 끼로 계획하는 손님이 많습니다. "
+                "교토 시내 사찰 동선과는 거리가 있으니 지도에서 접근 경로를 먼저 확인하세요. "
+                "‘국물이 진짜 진하다’는 평이 많아, 돈코츠 매니아·진한 맛 선호자에게 맞는 편입니다."
+            ),
+            "bowl": (
+                "국물은 흰 백탕보다 진하고 어두운 돼지뼈 농축 타입입니다. "
+                "진한 국물에 맞춰 가는 면이 흔합니다. 가에다마가 있어도 국물만으로 배가 차는 경우가 많습니다. "
+                "시그니처 돈코츠·보통 사이즈로 시작하세요. ¥900~¥1,200 전후. "
+                "국물 표면의 기름층이 두껍게 느껴질 수 있으니, 첫 몇 숟가락으로 간·진하기를 확인하세요."
+            ),
+            "visit": (
+                "점심·저녁 웨이팅, 카운터 중심 좌석. 기즈가와는 도보 관광지와 떨어져 있어 교통 계획이 필요합니다. "
+                "월요일·연휴 휴무가 잦을 수 있으니 지도 휴무일 확인. "
+                "식권기·현금 규칙은 입구 안내를 따르세요. "
+                "주차장이 있는 경우도 있으니, 렌터카 이용 시 지도 ‘주차’ 정보를 함께 확인하세요."
+            ),
+            "area": (
+                "남부 교토·奈良 당일치기와 묶을 수 있습니다. "
+                "혼케 다이이치 아사히 쇼유와 다른 날 비교하면 교토 라멘의 양극단을 경험할 수 있습니다. "
+                "교토 시내 숙소만 있다면, ‘무거운 돈코츠 하루’를 따로 잡는 일정표가 편합니다."
+            ),
+            "extra": (
+                "코테리 국물은 입술에 기름막이 남을 수 있습니다 — 신경 쓰이면 작은 손수건을 챙기세요. "
+                "가에다마 없이도 배가 차는 손님이 많습니다. "
+                "교토 시내 숙소만 있다면 지도로 이동 시간을 먼저 보세요 — 당일 사찰 일정이 빡빡하면 왕복 40분이 부담일 수 있습니다. "
+                "기즈가와·교토 남부는 ‘관광지 한복판’이 아니라, 현지인·돈코츠 마니아 비중이 높은 편입니다. "
+                "국물이 매우 진해 소금기가 강하게 느껴질 수 있으니, 첫 몇 숟가락으로 간을 확인한 뒤 식초·고추를 넣으세요. "
+                "혼케 다이이치 아사히(맑은 쇼유)와 같은 여행에서 둘 다 가려면, 하루는 가벼운 점심·하루는 저녁 든든히 나누는 일정이 좋습니다."
+            ),
+            "extra2": (
+                "기즈가와·교토 남부는 버스·택시·렌터카 접근이 흔합니다 — ‘교토역에서 20분’ 같은 표현은 교통수단에 따라 크게 달라집니다. "
+                "코테리 국물은 속이 더부룩할 수 있어, 다음 날 아침 가벼운 일정을 두는 편이 좋습니다. "
+                "돈코츠를 처음 접한다면, 무테포보다 먼저 가벼운 쇼유를 먹고 오는 것도 소화·비교에 도움이 됩니다. "
+                "무테포는 ‘교토=맑은 라멘’ 이미지와 달리, 돈코츠 매니아용으로 기대치를 맞추는 것이 중요합니다. "
+                "차로 간다면 주차·마감 시간을 지도에서 미리 확인하세요. "
+                "코테리는 ‘국물까지 다 마신다’는 부담보다, 면과 토핑 위주로 즐겨도 충분한 경우가 많습니다. "
+                "교토 여행에서 ‘무거운 돈코츠 하루’를 따로 잡는다면, 무테포는 저녁·점심 중 한 끼로 집중하는 편이 좋습니다. "
+                "기즈가와는 ‘교토=맑은 라멘’ 이미지와 거리가 있으니, 방문 전 기대치를 ‘진한 돈코츠’로 맞추는 것이 중요합니다. "
+                "교토역·기즈가와역 등 접근 경로가 여러 가지라, 숙소 위치에 맞는 노선을 지도에서 비교해 보세요. "
+                "코테리 국물은 한 그릇으로도 포만감이 크니, 같은 날 가벼운 카페·디저트 일정과 겹치지 않게 잡는 편이 좋습니다."
+            ),
         },
     },
     "fuunji_shinjuku": {
         "en": {
-            "hook": "Fuunji Shinjuku is a tsukemen specialist — dipping noodles in a concentrated chicken-fish broth, not a soup ramen bowl.",
-            "bowl": "Order tsukemen (dipping style). Broth is served separately for dipping; ask about soup-wari (broth top-up) at the end if offered. Noodle texture is the main event.",
-            "visit": "Lines are part of the experience at lunch. Eat promptly after serving — noodles firm up fast.",
-            "area": "Shinjuku office/lunch crowd shop; pair with a half-day in west Shinjuku.",
-        },
-        "ko": {
+            "order": "Standard tsukemen set; ask for soup-wari (broth dilution) after noodles if offered.",
             "hook": (
-                "후운지 신주쿠는 츠케멘(찍어먹는 면) 전문점으로, 국물 라멘이 아닌 ‘육수에 찍어 먹는’ 스타일입니다. "
-                "신주쿠·요요기 일대 점심 인기가 높아, ‘면 식감’을 우선할 때 짧게 들러보기 좋은 곳입니다."
+                "Fuunji Shinjuku (風雲児) is a tsukemen specialist near Yoyogi — noodles and concentrated dipping broth served separately, not a soup bowl. "
+                "The dip blends chicken and seafood stock for a thick, umami-heavy tsuke soup. "
+                "Lunch queues of 30–60 minutes are common on weekdays; the shop has Bib Gourmand recognition, which adds tourist traffic."
             ),
             "bowl": (
-                "츠케멘을 주문합니다. 면과 농축 육수가 분리 제공되며, 닭·생선 계열 육수가 진한 편입니다. "
-                "마지막에 스프 와리(육수 희석)가 가능하면 남은 육수를 마실 수 있습니다."
+                "Order tsukemen (つけ麺). Cold or room-temp noodles go into a separate bowl; dip each bite into the hot concentrated broth. "
+                "Noodle firmness is the focus — eat within 10 minutes of serving. "
+                "When finished, staff may offer soup-wari: hot water or light broth added to the remaining dip so you can drink it. "
+                "Sizes and spice levels vary; start regular unless you are very hungry. About ¥900–¥1,200."
             ),
             "visit": (
-                "점심 웨이팅이 길 수 있습니다. 제공 후 빨리 먹는 것이 면 식감에 유리합니다. "
-                "키오스크·현금 규칙은 입구에서 확인하세요."
+                "Arrive before 11:30 a.m. for shorter lines, or accept a long lunch wait. Ticket machine at entrance — buy before queueing if signs say so. "
+                "No lingering after finishing; turnover matters. Solo diners seated faster. "
+                "Closed some Mondays — verify on Maps. Not ideal for large luggage at crowded counter."
             ),
             "area": (
-                "신주쿠 서쪽·요요기 쪽 업무·관광 동선과 맞습니다. "
-                "츠케멘은 배가 빨리 차므로 저녁 전 ‘메인 한 끼’로 계획하는 편이 좋습니다."
+                "Yoyogi / west Shinjuku — combine with Meiji Shrine morning walk and lunch here, or office-district weekday trip. "
+                "Tsukemen fills you quickly; plan a light dinner. Other Shinjuku tsukemen shops are different styles — compare on separate days."
+            ),
+            "extra": (
+                "Do not pour the dip into the noodle bowl — dip each bite. "
+                "If soup-wari is offered, say yes before you stand up; staff may not repeat the offer. "
+                "Phone photos in tight counter rows can annoy neighbors — one quick shot is enough."
+            ),
+        },
+        "ko": {
+            "order": "기본 츠케멘 — 면 다 먹은 뒤 스프 와리(육수 희석) 가능하면 요청",
+            "hook": (
+                "후운지 신주쿠(風雲児)는 요요기 인근 츠케멘 전문점으로, 국물 라멘이 아닌 ‘찍어먹는 면’ 스타일입니다. "
+                "닭·생선 육수를 농축한 찍어먹기 국물이 특징이며, 평일 점심 30~60분 대기가 흔합니다. "
+                "빕 구르망 선정으로 관광객 비중도 높습니다. "
+                "면 식감·진한 육수를 우선할 때 신주쿠에서 가장 먼저 거론되는 츠케멘 중 하나입니다."
+            ),
+            "bowl": (
+                "츠케멘(つけ麺)을 주문합니다. 면과 뜨거운 농축 육수가 분리 제공됩니다. "
+                "면 식감이 핵심이라 제공 후 10분 안에 먹는 편이 좋습니다. "
+                "다 먹으면 스프 와리로 남은 육수를 희석해 마실 수 있는 경우가 있습니다. ¥900~¥1,200 전후. "
+                "찍어먹기 육수는 라멘 국물보다 훨씬 진하므로, 면을 충분히 적셔 한 입씩 드세요."
+            ),
+            "visit": (
+                "11:30 이전 도착이 줄이 짧습니다. 입구 식권기 — 안내에 따라 줄 서기 전 구매. "
+                "식사 후 자리 오래 잡지 않는 것이 매너입니다. 1인석 회전이 빠릅니다. "
+                "월요일 휴무인 경우가 있어 지도 확인. 큰 캐리어는 혼잡한 카운터에서 불편할 수 있습니다. "
+                "점심 피크에는 서서 기다리는 동안 메뉴를 미리 정해 두면 주문이 빨라집니다."
+            ),
+            "area": (
+                "요요기·신주쿠 서쪽 — 메이지 신궁 아침 산책 후 점심으로 묶기 좋습니다. "
+                "츠케멘은 배가 빨리 차므로 저녁은 가볍게 계획하세요. "
+                "오므라이스·카페가 많은 요요기 일대와 달리, 후운지는 ‘한 가지에 집중’하는 점심 코스입니다."
+            ),
+            "extra": (
+                "육수를 면 그릇에 붓지 마세요 — 한 입씩 찍어 먹는 스타일입니다. "
+                "스프 와리를 제공하면 일어나기 전에 요청하세요 — 나중에 다시 물어보지 않을 수 있습니다. "
+                "카운터가 좁을 때 사진 촬영은 짧게 — 이웃 손님 방해가 될 수 있습니다. "
+                "점심 피크(12~13시)에는 30~60분 대기가 흔합니다 — 메이지 신궁 아침 일정과 묶을 때는 버퍼 1시간을 두세요. "
+                "면은 제공 직후가 가장 탄력 있습니다 — 사진·SNS보다 먼저 한 젓가락 드세요. "
+                "츠케멘은 국물 라면보다 배가 빨리 차므로, 오후에 가벼운 카페·디저트 일정과 겹치지 않게 계획하면 좋습니다."
+            ),
+            "extra2": (
+                "요요기·신주쿠 서쪽은 점심에 오피스·관광객이 섞입니다 — 비 오는 날에도 실내 대기 줄이 길어질 수 있습니다. "
+                "츠케멘은 국물을 거의 다 마시면 짠맛이 강해질 수 있어, 스프 와리를 권하는 이유입니다. "
+                "메이지 신궁과 같은 반나절 동선으로 묶을 때, 신궁→후운지 순이 지리적으로 자연스러운 경우가 많습니다. "
+                "후운지는 ‘츠케멘 입문’으로도 많이 찾지만, 점심 대기가 길어 ‘입문’ 전에 시간 여유를 확보하는 편이 좋습니다. "
+                "육수 그릇은 뜨거우니, 면을 옮길 때 손·소매에 튀지 않게 조심하세요. "
+                "대기 줄이 실내가 아닌 경우도 있으니, 여름·겨울 외투를 미리 정리해 두면 편합니다. "
+                "후운지는 츠케멘 ‘입문+만족’을 동시에 노리는 손님이 많아, 점심 시간대만큼은 일정을 비워 두는 편이 낫습니다. "
+                "신주쿠·하라주쿠 쇼핑과 같은 날이라면, 쇼핑 전·후 중 ‘배가 고픈은 시간’에 맞춰 줄 서는 전략이 효율적입니다. "
+                "츠케멘은 면과 육수가 분리되어 나와, 제공 직후 10분 안에 먹는 것이 식감·온도 모두 가장 좋습니다. "
+                "요요기 일대는 점심·저녁 모두 사람이 많으니, 후운지 방문일에는 주변 식당 예약·대기 시간을 함께 고려하세요. "
+                "월요일 휴무 여부는 지도에서 최신 정보를 확인하세요."
             ),
         },
     },
@@ -245,6 +572,49 @@ SHOP_OVERRIDES: dict[str, dict[str, dict[str, str]]] = {
             "area": (
                 "스스키노는 삿포로 역·호텔에서 도보권인 경우가 많아, 늦은 식사나 술자리 뒤 한 그릇으로 넣기 좋습니다. "
                 "단일 매장 미소(라멘 신겐·스미레 등)와는 다른 날 비교하면 삿포로 미소 감을 잡기 쉽습니다."
+            ),
+        },
+    },
+}
+
+
+FEATURED_SHOP_SLUGS = frozenset(
+    {
+        "honke_daiichi-asahi",
+        "menya_musashi_shinjuku",
+        "ramen_shingen",
+        "bankara_ramen",
+        "muteppou_kyoto",
+        "fuunji_shinjuku",
+    }
+)
+
+
+SEO_OVERRIDES: dict[str, dict[str, dict[str, str]]] = {
+    "menya_musashi_shinjuku": {
+        "en": {
+            "seo_title": "Menya Musashi Shinjuku: W-soup tonkotsu guide | OKRamen",
+            "seo_description": (
+                "Practical guide to Menya Musashi Shinjuku in Tokyo: W-soup (dual-broth) tonkotsu, "
+                "black and red bowls, ticket machine tips, and typical queue times. "
+                "This branch serves ramen in broth, not tsukemen — confirm hours on Google Maps."
+            ),
+            "description": (
+                "Visitor guide to Menya Musashi Shinjuku: W-soup tonkotsu ramen, what to order, "
+                "queue tips, and ticket machine notes for the Shinjuku flagship."
+            ),
+        },
+    },
+    "fuunji_shinjuku": {
+        "en": {
+            "seo_title": "Fuunji Shinjuku: tsukemen queue and ordering guide | OKRamen",
+            "seo_description": (
+                "How to visit Fuunji near Yoyogi: lunch wait times, tsukemen ordering, "
+                "soup-wari after noodles, and local tips. Verify hours and Monday closures on Google Maps."
+            ),
+            "description": (
+                "Practical guide to Fuunji in Shinjuku — chicken-seafood tsukemen, typical lunch queues, "
+                "ticket machine, and how to finish with soup-wari."
             ),
         },
     },
@@ -680,17 +1050,28 @@ def generate_body(
         p2 = override.get("bowl", "")
         p3 = override.get("visit", "")
         p4 = override.get("area", "") + links
+        p_extra = override.get("extra", "")
         p6 = local_tip(lang, base, late)
         p7 = maps_footer(lang, shop_name)
+        extra_label = "주문·매너" if lang == "ko" else "Ordering notes"
         parts = [
             paragraph(l1, p1),
             paragraph(l2, p2),
             paragraph(l3, p3),
             paragraph(l4, p4),
-            paragraph(l5, p5),
-            paragraph("", p6),
-            paragraph("", p7),
         ]
+        if p_extra.strip():
+            parts.append(paragraph(extra_label, p_extra))
+        p_extra2 = override.get("extra2", "")
+        if p_extra2.strip():
+            parts.append(paragraph("현지 팁" if lang == "ko" else "Local tip", p_extra2))
+        parts.extend(
+            [
+                paragraph(l5, p5),
+                paragraph("", p6),
+                paragraph("", p7),
+            ]
+        )
         return "\n\n".join(p for p in parts if p.strip())
 
     if lang == "ko":
@@ -926,6 +1307,10 @@ def rewrite_file(path: Path, region_index: dict[tuple[str, str], list[str]], dry
     meta["what_to_order"] = build_what_to_order(style, lang, page_type, override_pack)
     meta["good_for"] = build_good_for(style, lang, page_type, late)
 
+    seo_pack = SEO_OVERRIDES.get(base, {}).get(lang)
+    if seo_pack:
+        meta.update(seo_pack)
+
     body = generate_body(
         base=base,
         lang=lang,
@@ -979,14 +1364,17 @@ def needs_practical_rewrite(path: Path) -> bool:
 def main() -> None:
     dry = "--dry-run" in sys.argv
     template_only = "--template-only" in sys.argv
+    featured_only = "--featured" in sys.argv
     region_index = build_region_index()
     ok = 0
     for path in sorted(CONTENT_DIR.glob("*.md")):
+        if featured_only and base_slug(path.stem) not in FEATURED_SHOP_SLUGS:
+            continue
         if template_only and not needs_practical_rewrite(path):
             continue
         rewrite_file(path, region_index, dry_run=dry)
         ok += 1
-    label = "template " if template_only else ""
+    label = "featured " if featured_only else ("template " if template_only else "")
     print(f"Rewrote {ok} {label}ramen files{' (dry-run)' if dry else ''}")
 
 

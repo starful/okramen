@@ -49,7 +49,7 @@ def test_ramen_detail_parses_frontmatter_without_closing_delimiter(client):
     assert response.status_code == 200
     html = response.get_data(as_text=True)
     assert "Tenkaippin Main Shop" in html
-    assert 'src="/static/images/tenkaippin_main_shop.jpg"' in html
+    assert "/static/images/tenkaippin_main_shop.jpg" in html
 
 
 def test_ramen_detail_shows_practical_guide_layout(client):

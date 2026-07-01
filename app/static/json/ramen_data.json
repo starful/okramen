@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.06.30",
+  "last_updated": "2026.07.02",
   "total_count": 254,
   "ramens": [
     {
@@ -2389,7 +2389,7 @@
     {
       "id": "ramen_shingen_en",
       "lang": "en",
-      "title": "Ramen Shingen Sapporo: Ultimate Guide & Menu Tips",
+      "title": "Ramen Shingen — Hokkaido Miso ramen guide",
       "lat": 43.0544,
       "lng": 141.3488,
       "categories": [
@@ -3669,7 +3669,7 @@
     {
       "id": "menya_musashi_shinjuku_en",
       "lang": "en",
-      "title": "Menya Musashi Shinjuku: Ultimate Tsukemen & Ordering Guide",
+      "title": "Menya Musashi Shinjuku — Tokyo Tonkotsu ramen guide",
       "lat": 35.6934,
       "lng": 139.7001,
       "categories": [
@@ -3797,7 +3797,7 @@
     {
       "id": "honke_daiichi-asahi_en",
       "lang": "en",
-      "title": "Honke Daiichi Asahi: Kyoto's Legendary Ramen & Skip-the-Line Guide",
+      "title": "Honke Daiichi Asahi — Kyoto Shoyu ramen guide",
       "lat": 34.9866,
       "lng": 135.7611,
       "categories": [
