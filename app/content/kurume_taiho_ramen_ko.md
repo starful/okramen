@@ -15,11 +15,17 @@ lng: 130.5111
 shop_name: Kurume Taiho Ramen
 summary: Fukuoka Kurume Taiho Ramen — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/kurume_taiho_ramen.jpg
-title: Kurume Taiho Ramen — Fukuoka 돈코츠 라멘 가이드
+title: 구루메 타이호 라멘 (Kurume Taiho Ramen) — 후쿠오카 라멘 가이드
 one_liner: Fukuoka 돈코츠 라멘 — Kurume Taiho Ramen. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 시그니처 돈코츠 — 차슈·면 추가(가에다마)는 매장 규칙 확인
 good_for: 여행 전 일정 잡기
+description: 후쿠오카 돈코츠 라멘의 원조, 구루메 타이호 라멘(Kurume Taiho Ramen)의 위치, 영업시간, 추천 메뉴 정보를
+  확인하세요. OKRamen 라멘 가이드.
+seo_title: 구루메 타이호 라멘 (Kurume Taiho) 맛집 가이드 | OKRamen
+seo_description: 후쿠오카 돈코츠 라멘의 원조, 구루메 타이호 라멘(Kurume Taiho Ramen)의 위치, 영업시간, 추천 메뉴
+  정보를 확인하세요. OKRamen 라멘 가이드.
 ---
+
 
 **소개:** Fukuoka Kurume의 Kurume Taiho Ramen은(는) 돈코츠 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 

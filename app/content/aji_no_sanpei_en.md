@@ -16,18 +16,19 @@ shop_name: AJI NO Sanpei
 summary: 'AJI NO Sanpei in Hokkaido: Miso ramen — practical guide to queues, ordering,
   and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/aji_no_sanpei.jpg
-title: 'Aji no Sanpei: The Birthplace of Sapporo Miso Ramen'
+title: 'Aji no Sanpei: The Legendary Birthplace of Miso Ramen'
 one_liner: Miso ramen at AJI NO Sanpei, Hokkaido. Verify hours and holidays on Maps
   before you go.
 what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-style
   toppings.
 good_for: Cold-weather comfort bowls
-seo_title: 'Aji no Sanpei: Birthplace of Miso Ramen (English Guide)'
-seo_description: Is the birthplace of miso ramen worth the queue? Get our honest Aji
-  no Sanpei review, English menu translation, and essential tips before you go.
-description: A complete guide to visiting Aji no Sanpei in Sapporo, the legendary
-  creator of miso ramen. Includes English menu translation and queuing tips.
+seo_title: 'Aji no Sanpei Review: Is the Original Miso Ramen Worth It?'
+seo_description: Planning to visit Sapporo's legendary Aji no Sanpei? Read our honest
+  review, decoded English menu, and insider tips to beat the queue.
+description: Planning to visit Sapporo's legendary Aji no Sanpei? Read our honest
+  review, decoded English menu, and insider tips to beat the queue.
 ---
+
 
 
 

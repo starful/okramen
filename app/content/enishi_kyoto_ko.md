@@ -4,23 +4,29 @@ categories:
 - 치킨라멘
 - 프리미엄
 date: '2026-05-27'
-image_prompt: "A steaming macro shot of Enishi Kyoto's premium soupless tantanmen\
-  \ in a rustic wooden interior. The dish features thick, wavy noodles coated in a\
-  \ rich, reddish-orange spicy sesame chili oil sauce, topped with heavily spiced\
-  \ minced pork, freshly chopped green scallions, diced red onions, cashew nuts, and\
-  \ a dust of freshly ground Sichuan peppercorns. Soft, natural light reflects off\
-  \ the glossy, vibrant chili oil, highlighting the diverse textures of the ingredients."
+image_prompt: A steaming macro shot of Enishi Kyoto's premium soupless tantanmen in
+  a rustic wooden interior. The dish features thick, wavy noodles coated in a rich,
+  reddish-orange spicy sesame chili oil sauce, topped with heavily spiced minced pork,
+  freshly chopped green scallions, diced red onions, cashew nuts, and a dust of freshly
+  ground Sichuan peppercorns. Soft, natural light reflects off the glossy, vibrant
+  chili oil, highlighting the diverse textures of the ingredients.
 lang: ko
 lat: 35.0011
 lng: 135.7511
 shop_name: Enishi Kyoto
 summary: Kyoto Enishi Kyoto — 치킨라멘 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/enishi_kyoto.jpg
-title: Enishi Kyoto — Kyoto 치킨라멘 라멘 가이드
+title: 교토 에니시 (Enishi Kyoto) — 라멘 맛집 가이드
 one_liner: Kyoto 치킨라멘 라멘 — Enishi Kyoto. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 메뉴판 시그니처 라멘 — 키오스크가 어렵다면 직원에게 문의
 good_for: 여행 전 일정 잡기
+description: 교토 탄탄멘 맛집 '에니시(Enishi Kyoto)'의 위치, 영업시간, 휴무일, 추천 메뉴 정보를 확인하세요. OKRamen
+  지도에서 한눈에 보는 라멘 가이드.
+seo_title: 교토 에니시 (Enishi Kyoto) | 교토 탄탄멘 라멘 맛집 추천 - OKRamen
+seo_description: 교토 탄탄멘 맛집 '에니시(Enishi Kyoto)'의 위치, 영업시간, 휴무일, 추천 메뉴 정보를 확인하세요. OKRamen
+  지도에서 한눈에 보는 라멘 가이드.
 ---
+
 
 **이 가게 한줄:** Kyoto Nakagyo의 Enishi Kyoto은(는) 치킨라멘 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 

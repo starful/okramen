@@ -14,13 +14,19 @@ shop_name: Yokohama Minato Mirai Cafe
 summary: 'Yokohama Minato Mirai Cafe in Kanagawa: Tonkotsu ramen — practical guide
   to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/yokohama_minato_mirai_cafe.jpg
-title: Yokohama Minato Mirai Cafe — Kanagawa Tonkotsu ramen guide
+title: 'Yokohama Minato Mirai Cafe: Tonkotsu Ramen Guide'
 one_liner: Tonkotsu ramen at Yokohama Minato Mirai Cafe, Kanagawa. Verify hours and
   holidays on Maps before you go.
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
+description: Discover the signature Tonkotsu ramen at Yokohama Minato Mirai Cafe in
+  Kanagawa. Find hours, maps, and recommended menu items.
+seo_title: Yokohama Minato Mirai Cafe Ramen Guide | Kanagawa - OKRamen
+seo_description: Try the savory Tonkotsu ramen at Yokohama Minato Mirai Cafe. Find
+  the access map, hours, and menu recommendations in our Kanagawa guide.
 ---
+
 
 
 **What to expect:** Yokohama Minato Mirai Cafe is a tonkotsu ramen shop in Yokohama, Kanagawa. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.

@@ -15,18 +15,19 @@ shop_name: Ramen Takahashi
 summary: 'Ramen Takahashi in Tokyo: Shoyu ramen — practical guide to queues, ordering,
   and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_takahashi.jpg
-title: 'Ramen Takahashi Shinjuku: Legendary Grilled Flying Fish Ramen Guide'
+title: 'Ramen Takahashi Shinjuku: Ultimate Grilled Flying Fish Ramen Guide'
 one_liner: Shoyu ramen at Ramen Takahashi, Tokyo. Verify hours and holidays on Maps
   before you go.
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
-seo_title: 'Ramen Takahashi Shinjuku: Best Flying Fish Ramen Guide'
-seo_description: Craving Shinjuku's iconic ramen? Try Takahashi's legendary grilled
-  flying fish broth. Get menu highlights, location details, and ordering tips here!
-description: The ultimate guide to Ramen Takahashi in Kabukicho, Shinjuku. Discover
-  their signature smoky flying fish (ago dashi) broth, complete menu, and local ordering
-  tips.
+seo_title: 'Ramen Takahashi Shinjuku: Legendary Grilled Flying Fish Ramen'
+seo_description: Savor Shinjuku’s legendary grilled flying fish ramen! Our ultimate
+  Takahashi guide covers must-try menu items, Kabukicho location, and ordering tips.
+description: Discover Takahashi in Shinjuku Kabukicho, famous for its rich and smoky
+  grilled flying fish (ago-dashi) ramen. Learn what to order, how to use the ticket
+  machine, and why locals queue up for this unique broth.
 ---
+
 
 
 

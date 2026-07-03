@@ -13,15 +13,21 @@ lang: en
 lat: 35.6941
 lng: 139.7044
 shop_name: Ramen Nagi Shinjuku
-summary: "Ramen Nagi Shinjuku in Tokyo: tsukemen (dipping noodles) — practical notes\
-  \ on queues, ordering, and how to eat the bowl. Verify hours on Maps."
+summary: 'Ramen Nagi Shinjuku in Tokyo: tsukemen (dipping noodles) — practical notes
+  on queues, ordering, and how to eat the bowl. Verify hours on Maps.'
 thumbnail: /static/images/ramen_nagi_shinjuku.jpg
-title: Ramen Nagi Shinjuku — Tokyo Shoyu ramen guide
-one_liner: "Tsukemen specialist in Tokyo: noodles and broth served separately. Verify\
-  \ hours and holidays on Maps before you go."
+title: Ramen Nagi Shinjuku Golden Gai — Kabukicho Ramen Guide
+one_liner: 'Tsukemen specialist in Tokyo: noodles and broth served separately. Verify
+  hours and holidays on Maps before you go.'
 what_to_order: House tsukemen; ask about soup-wari (broth top-up) if offered.
 good_for: Tsukemen fans and noodle-texture seekers
+description: Experience the legendary Niboshi (dried sardine) ramen at Ramen Nagi
+  Shinjuku Golden Gai. Find directions, hours, and menu tips on OKRamen.
+seo_title: 'Ramen Nagi Shinjuku Golden Gai: Best Niboshi Ramen | OKRamen'
+seo_description: Experience the legendary Niboshi (dried sardine) ramen at Ramen Nagi
+  Shinjuku Golden Gai. Find directions, hours, and menu tips on OKRamen.
 ---
+
 
 **Basics:** Ramen Nagi Shinjuku in Shinjuku, Tokyo is a tsukemen shop — you dip noodles into a separate concentrated broth, not a standard soup ramen bowl. Noodles are served ready to dip; start soon after they arrive.
 

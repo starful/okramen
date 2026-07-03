@@ -14,16 +14,22 @@ lang: en
 lat: 43.0511
 lng: 141.3511
 shop_name: Ramen Sapporo Akaboshi
-summary: "Ramen Sapporo Akaboshi in 7 Chome Minami 3 Jonishi: Shio ramen — practical\
-  \ guide to queues, ordering, and what to try. Confirm hours on Google Maps before\
-  \ visiting."
+summary: 'Ramen Sapporo Akaboshi in 7 Chome Minami 3 Jonishi: Shio ramen — practical
+  guide to queues, ordering, and what to try. Confirm hours on Google Maps before
+  visiting.'
 thumbnail: /static/images/ramen_sapporo_akaboshi.jpg
-title: Ramen Sapporo Akaboshi — 7 Chome Minami 3 Jonishi Shio ramen guide
+title: 'Ramen Sapporo Akaboshi: Famous Tanukikoji Ramen Guide'
 one_liner: Shio ramen at Ramen Sapporo Akaboshi, 7 Chome Minami 3 Jonishi. Verify
   hours and holidays on Maps before you go.
 what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
+description: A complete guide to Ramen Sapporo Akaboshi, Tanukikoji's legendary budget-friendly
+  spot famous for rich Shio and Shoyu ramen.
+seo_title: Ramen Sapporo Akaboshi | Best Cheap Ramen in Sapporo
+seo_description: Discover Ramen Sapporo Akaboshi in Tanukikoji. Famous for delicious,
+  budget-friendly Shio & Shoyu ramen. Get directions, hours, and must-try menu items!
 ---
+
 
 **Overview:** Ramen Sapporo Akaboshi is a shio ramen shop in Chuo Ward, 7 Chome Minami 3 Jonishi. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 
