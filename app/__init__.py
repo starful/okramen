@@ -4,10 +4,7 @@ from flask import make_response
 import json
 import os
 import copy
-import frontmatter
-import markdown
 import re
-import glob
 import logging
 import io
 import urllib.request
@@ -19,16 +16,26 @@ try:
     from .content_new import enrich_item
 except ImportError:
     from content_new import enrich_item
+try:
+    from .guide_service import load_guides as load_guide_index, load_guide_post, render_guide_content
+except ImportError:
+    from guide_service import load_guides as load_guide_index, load_guide_post, render_guide_content
+try:
+    from .ramen_service import prepare_ramen_card_post, prepare_ramen_detail_post, render_ramen_content
+except ImportError:
+    from ramen_service import prepare_ramen_card_post, prepare_ramen_detail_post, render_ramen_content
+try:
+    from .seo_service import attach_seo_fields, card_path, og_image_context, share_context, truncate_text
+except ImportError:
+    from seo_service import attach_seo_fields, card_path, og_image_context, share_context, truncate_text
 from werkzeug.utils import safe_join
 
 try:
     # Cloud Run / gunicorn package import path (app.__init__)
-    from .ramen_md import loads_ramen_post
-    from .ramen_practical import apply_practical_fields, slug_to_shop_name
+    from .ramen_practical import slug_to_shop_name
 except ImportError:
     # Local script execution path (python app/__init__.py)
-    from ramen_md import loads_ramen_post
-    from ramen_practical import apply_practical_fields, slug_to_shop_name
+    from ramen_practical import slug_to_shop_name
 
 app = Flask(__name__)
 Compress(app)
@@ -68,50 +75,10 @@ def _public_ramen(row: dict) -> dict:
     return out
 
 
-def _social_image_url(base_id: str) -> str:
-    safe = re.sub(r"[^a-z0-9_-]", "", base_id.lower())
-    return f"{SITE_URL}/social/{safe}.jpg"
-
-
-def _og_image_context(base_id: str) -> dict:
-    og_image_abs = _social_image_url(base_id)
-    return {
-        "og_image_abs": og_image_abs,
-        "og_image_width": 1200,
-        "og_image_height": 630,
-    }
-
-
-def _card_path(ramen_id: str) -> str:
-    return f"/card/{ramen_id}"
-
-
 def _jpeg_bytes(img) -> bytes:
     buf = io.BytesIO()
     img.save(buf, format="JPEG", quality=78, optimize=True, progressive=True)
     return buf.getvalue()
-
-
-def _linkedin_inspector_url(page_url: str) -> str:
-    return f"https://www.linkedin.com/post-inspector/inspect/{urllib.parse.quote(page_url, safe='')}"
-
-
-def _share_context(slug: str, title: str, lang: str, page_path: str, base_id: str = "") -> dict:
-    share_url = f"{SITE_URL}{page_path}"
-    share_url_x = f"{SITE_URL}{_card_path(slug)}"
-    if lang == "ko":
-        share_tweet = f"{title} — OKRamen"
-    else:
-        share_tweet = f"{title} — Japan ramen guide on OKRamen"
-    return {
-        "share_id": slug,
-        "share_url": share_url,
-        "share_url_x": share_url_x,
-        "share_tweet": share_tweet,
-        "share_lang": lang if lang in ("en", "ko") else "en",
-        "og_page_url": share_url,
-        "linkedin_inspector_url": _linkedin_inspector_url(share_url),
-    }
 
 # [설정] 경로 설정
 BASE_DIR = app.root_path
@@ -119,23 +86,6 @@ STATIC_DIR = os.path.join(BASE_DIR, 'static')
 DATA_FILE = os.path.join(STATIC_DIR, 'json', 'ramen_data.json') 
 CONTENT_DIR = os.path.join(BASE_DIR, 'content')
 GUIDE_DIR = os.path.join(CONTENT_DIR, 'guides')
-
-# 📸 고정된 13장의 Unsplash 이미지 리스트
-UNSPLASH_GUIDE_IMAGES = [
-    "https://images.unsplash.com/photo-1552611052-33e04de081de?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1555126634-323283e090fa?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1511910849309-0dffb8785146?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1526318896980-cf78c088247c?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1503764654157-72d979d9af2f?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1525755662778-989d0524087e?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1591814441348-73546747d96a?q=80&w=800&auto=format&fit=crop"
-]
 
 # 1. 라멘 가게 정보 캐싱 (JSON mtime 변경 시 자동 재로드)
 CACHED_DATA = {"ramens": []}
@@ -164,53 +114,7 @@ def _ensure_ramen_cache() -> None:
 _ensure_ramen_cache()
 
 # 2. 가이드 데이터 캐싱 (날짜순 정렬 및 이미지 배정)
-CACHED_GUIDES = {'en': [], 'ko': []}
-def load_guides():
-    if not os.path.exists(GUIDE_DIR):
-        logger.warning("Guide directory does not exist: %s", GUIDE_DIR)
-        return
-    
-    all_raw = []
-    files = glob.glob(os.path.join(GUIDE_DIR, '*.md'))
-    for fpath in files:
-        try:
-            with open(fpath, 'r', encoding='utf-8') as f:
-                post = frontmatter.load(f)
-                base_id = os.path.basename(fpath).rsplit('_', 1)[0]
-                lang = 'en' if '_en.md' in fpath else 'ko'
-                all_raw.append({
-                    'base_id': base_id,
-                    'lang': lang,
-                    'full_id': os.path.basename(fpath).replace('.md', ''),
-                    'title': post.get('title', 'Guide'),
-                    'summary': post.get('summary', ''),
-                    'published': str(post.get('date', '2026-01-01'))
-                })
-        except (OSError, ValueError) as exc:
-            logger.warning("Failed to parse guide file %s: %s", fpath, exc)
-            continue
-
-    # 날짜순 정렬 기반 이미지 인덱싱
-    ref_en = sorted([g for g in all_raw if g['lang'] == 'en'], key=lambda x: x['published'], reverse=True)
-    id_to_img = {g['base_id']: UNSPLASH_GUIDE_IMAGES[i % len(UNSPLASH_GUIDE_IMAGES)] for i, g in enumerate(ref_en)}
-
-    new_guides = {'en': [], 'ko': []}
-    for g in all_raw:
-        new_guides[g['lang']].append(enrich_item({
-            'id': g['full_id'],
-            'title': g['title'],
-            'summary': g['summary'],
-            'thumbnail': id_to_img.get(g['base_id'], UNSPLASH_GUIDE_IMAGES[0]),
-            'published': g['published']
-        }))
-    
-    for l in ['en', 'ko']:
-        new_guides[l].sort(key=lambda x: x['published'], reverse=True)
-    
-    global CACHED_GUIDES
-    CACHED_GUIDES = new_guides
-
-load_guides()
+CACHED_GUIDES = load_guide_index(GUIDE_DIR, logger=logger)
 
 
 @app.before_request
@@ -305,7 +209,7 @@ def _ramen_cards(ramen_ids):
                     "id": r["id"],
                     "link": r.get("link") or f"/ramen/{r['id']}",
                     "title": title,
-                    "short_title": _truncate_text(label or title, 72),
+                    "short_title": truncate_text(label or title, 72),
                     "address": r.get("address", ""),
                     "thumbnail": _thumbnail_with_v(r.get("thumbnail", ""), r.get("published")),
                     "published": r.get("published", ""),
@@ -337,7 +241,7 @@ def _crawl_ramen_links(limit=60, lang="en"):
         links.append(
             {
                 "link": r.get("link"),
-                "label": _truncate_text(slug_to_shop_name(rid), 55),
+                "label": truncate_text(slug_to_shop_name(rid), 55),
             }
         )
     return links
@@ -360,79 +264,6 @@ def _related_ramens_for_post(post, limit=4):
         matches.append(r)
     matches.sort(key=lambda x: str(x.get("published", "")), reverse=True)
     return _ramen_cards([r["id"] for r in matches[:limit]])
-
-
-def _truncate_text(value, max_len):
-    text = " ".join(str(value or "").split())
-    if len(text) <= max_len:
-        return text
-    return text[: max_len - 1].rstrip() + "…"
-
-
-def _attach_seo_fields(post, suffix):
-    """SERP-friendly title/description: scannable hooks + CTA without changing on-page H1.
-
-    Per-file overrides: if the markdown frontmatter already declares ``seo_title`` or
-    ``seo_description`` we keep those verbatim. This lets us tune SERP snippets for
-    individual high-impression / low-CTR pages without affecting pages that already
-    perform well in Search Console.
-    """
-    title = str(post.get("title", "")).strip()
-    summary = str(post.get("summary", "")).strip()
-    lang = str(post.get("lang", "en") or "en").lower()
-    is_ramen_page = "Japan Guide" in suffix
-
-    override_title = str(post.get("seo_title", "") or "").strip()
-    override_desc = str(post.get("seo_description", "") or "").strip()
-    shop_name = str(post.get("shop_name") or "").strip()
-    region = ""
-    if is_ramen_page and post.get("address"):
-        region = str(post.get("address", "")).split(",")[0].strip()
-
-    if lang == "ko":
-        hook = "지도·영업·추천 메뉴" if is_ramen_page else "핵심만 정리한 가이드"
-        tail = (
-            " OKRamen 지도에서 위치·영업·추천 메뉴를 바로 확인하세요."
-            if is_ramen_page
-            else " OKRamen에서 팁과 링크만 골라 읽고 일정에 넣으세요."
-        )
-        if is_ramen_page and shop_name and not override_title:
-            default_title = _truncate_text(f"{shop_name} | {region} 라멘 가이드 | OKRamen", 60)
-        else:
-            default_title = (
-                _truncate_text(f"{title} | {hook} | OKRamen", 60)
-                if title
-                else _truncate_text(suffix, 60)
-            )
-    else:
-        hook = "map, hours & what to order" if is_ramen_page else "plain-English tips"
-        tail = (
-            " Open OKRamen for the map, hours, and what to order before you go."
-            if is_ramen_page
-            else " Skim OKRamen for maps, ordering tips, and links before your trip."
-        )
-        if is_ramen_page and shop_name and not override_title:
-            default_title = _truncate_text(f"{shop_name} | {region} ramen guide | OKRamen", 60)
-        else:
-            default_title = (
-                _truncate_text(f"{title} | {hook} | OKRamen", 60)
-                if title
-                else _truncate_text(suffix, 60)
-            )
-
-    post["seo_title"] = _truncate_text(override_title, 60) if override_title else default_title
-
-    if override_desc:
-        post["seo_description"] = _truncate_text(override_desc, 160)
-    elif is_ramen_page and post.get("one_liner"):
-        post["seo_description"] = _truncate_text(
-            f"{post['one_liner']}{tail if lang == 'en' else ' OKRamen 지도에서 위치·영업·추천 메뉴를 확인하세요.'}",
-            155,
-        )
-    else:
-        core = (summary or title).strip()
-        post["seo_description"] = _truncate_text(f"{core}{tail}", 155)
-    return post
 
 
 def build_maps_search_url(lat: float, lng: float, label: str = "") -> str:
@@ -526,44 +357,13 @@ def guide_list_all():
 
 @app.route('/guide/<guide_id>')
 def guide_detail(guide_id):
-    md_path = os.path.join(GUIDE_DIR, f"{guide_id}.md")
-    if not os.path.exists(md_path):
+    post = load_guide_post(GUIDE_DIR, guide_id, logger=logger)
+    if post is None:
         return redirect('/guide')
-        
-    with open(md_path, 'r', encoding='utf-8') as f:
-        raw_text = f.read().strip()
-
-    # Markdown 청소
-    raw_text = re.sub(r'^```[a-z]*\n', '', raw_text)
-    raw_text = re.sub(r'\n```$', '', raw_text)
-    raw_text = re.sub(r'^(##\s*)?yaml\n', '', raw_text, flags=re.IGNORECASE)
-    if '---' in raw_text and not raw_text.startswith('---'):
-        raw_text = '---' + raw_text.split('---', 1)[1]
-
-    post = frontmatter.loads(raw_text)
-    
-    # 💡 [핵심] 언어 전환 버튼을 위해 id를 강제 주입
-    post['id'] = guide_id 
-    post = _attach_seo_fields(post, "OKRamen Guide")
-    
-    # 이미지 동적 할당
-    base_id = guide_id.rsplit('_', 1)[0]
-    all_en = []
-    for f in glob.glob(os.path.join(GUIDE_DIR, '*_en.md')):
-        with open(f, 'r', encoding='utf-8') as tf:
-            tp = frontmatter.load(tf)
-            all_en.append({'bid': os.path.basename(f).rsplit('_', 1)[0], 'd': str(tp.get('date', '2026-01-01'))})
-    
-    sorted_ids = [x['bid'] for x in sorted(all_en, key=lambda x: x['d'], reverse=True)]
-    try:
-        img_idx = sorted_ids.index(base_id) % len(UNSPLASH_GUIDE_IMAGES)
-        post['thumbnail'] = UNSPLASH_GUIDE_IMAGES[img_idx]
-    except ValueError:
-        post['thumbnail'] = UNSPLASH_GUIDE_IMAGES[0]
-
-    content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])
+    post = attach_seo_fields(post, "OKRamen Guide")
+    content_html = render_guide_content(post)
     related_shops = _ramen_cards(GUIDE_RELATED_SHOPS.get(guide_id, []))
-    share_ctx = _share_context(guide_id, post.get("title", "OKRamen Guide"), post.get("lang", "en"), f"/guide/{guide_id}")
+    share_ctx = share_context(SITE_URL, guide_id, post.get("title", "OKRamen Guide"), post.get("lang", "en"), f"/guide/{guide_id}")
     lang = post.get("lang", "en")
     return render_template(
         "guide_detail.html",
@@ -577,34 +377,15 @@ def guide_detail(guide_id):
 
 @app.route('/ramen/<ramen_id>')
 def ramen_detail(ramen_id):
-    md_path = os.path.join(CONTENT_DIR, f"{ramen_id}.md")
-    if not os.path.exists(md_path): abort(404)
-    
-    with open(md_path, 'r', encoding='utf-8') as f:
-        raw_text = f.read()
-
-    post = loads_ramen_post(raw_text)
-    
-    # 💡 [핵심] 언어 전환 버튼을 위해 id를 강제 주입
-    post['id'] = ramen_id
-
-    cats = post.get('categories')
-    if cats is None:
-        post['categories'] = []
-    elif isinstance(cats, str):
-        post['categories'] = [c.strip() for c in cats.split(',')]
-
-    apply_practical_fields(post, ramen_id)
-    post = _attach_seo_fields(post, "OKRamen Japan Guide")
+    post, base_id = prepare_ramen_detail_post(CONTENT_DIR, ramen_id, _thumbnail_with_v)
+    if post is None:
+        abort(404)
+    post = attach_seo_fields(post, "OKRamen Japan Guide")
     _enrich_ramen_detail_post(post)
-
-    base_id = ramen_id.rsplit('_', 1)[0]
-    cache_v = _thumbnail_cache_v(post.get("date") or post.get("published"))
-    thumb = post.get("thumbnail") or f"/static/images/{base_id}.jpg"
-    post["thumbnail"] = _thumbnail_with_v(thumb, cache_v)
-    content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code'])
+    content_html = render_ramen_content(post)
     related_ramens = _related_ramens_for_post(post, limit=4)
-    share_ctx = _share_context(
+    share_ctx = share_context(
+        SITE_URL,
         ramen_id,
         post.get("seo_title") or post.get("shop_name") or post.get("title", "OKRamen"),
         post.get("lang", "en"),
@@ -621,7 +402,7 @@ def ramen_detail(ramen_id):
             FAMILY_SITE_ID, lang, address=post.get("address")
         ),
         **inject_family_context(FAMILY_SITE_ID, lang),
-        **_og_image_context(base_id),
+        **og_image_context(SITE_URL, base_id),
         **share_ctx,
     )
 
@@ -629,17 +410,11 @@ def ramen_detail(ramen_id):
 @app.route('/card/<ramen_id>')
 def ramen_social_card(ramen_id):
     """Lightweight share landing page for X/OG crawlers."""
-    md_path = os.path.join(CONTENT_DIR, f"{ramen_id}.md")
-    if not os.path.exists(md_path):
+    post, base_id = prepare_ramen_card_post(CONTENT_DIR, ramen_id)
+    if post is None:
         abort(404)
-
-    with open(md_path, 'r', encoding='utf-8') as f:
-        post = loads_ramen_post(f.read())
-
-    base_id = ramen_id.rsplit('_', 1)[0]
     lang = post.get('lang', 'en')
-    apply_practical_fields(post, ramen_id)
-    post = _attach_seo_fields(post, "OKRamen Japan Guide")
+    post = attach_seo_fields(post, "OKRamen Japan Guide")
 
     page_path = f"/ramen/{ramen_id}"
 
@@ -650,8 +425,8 @@ def ramen_social_card(ramen_id):
         seo_title=post.get('seo_title', 'OKRamen'),
         seo_desc=post.get('seo_description', post.get('summary', '')),
         page_url=f"{SITE_URL}{page_path}",
-        card_url=f"{SITE_URL}{_card_path(ramen_id)}",
-        **_og_image_context(base_id),
+        card_url=f"{SITE_URL}{card_path(ramen_id)}",
+        **og_image_context(SITE_URL, base_id),
     )
 
 

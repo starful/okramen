@@ -1,23 +1,3 @@
-from pathlib import Path
-import sys
-
-import pytest
-
-ROOT_DIR = Path(__file__).resolve().parents[1]
-APP_DIR = ROOT_DIR / "app"
-if str(APP_DIR) not in sys.path:
-    sys.path.insert(0, str(APP_DIR))
-
-from __init__ import app as flask_app
-
-
-@pytest.fixture()
-def client():
-    flask_app.config["TESTING"] = True
-    with flask_app.test_client() as test_client:
-        yield test_client
-
-
 def test_api_ramens_returns_json(client):
     response = client.get("/api/ramens")
     assert response.status_code == 200
@@ -60,6 +40,14 @@ def test_ramen_detail_shows_practical_guide_layout(client):
     assert "Ganso Sapporo Ramen Yokocho" in html
     assert "Why Ganso Sapporo Ramen Yokocho Still Serves" not in html
     assert "What to order" in html
+
+
+def test_guide_index_renders_cached_guides(client):
+    response = client.get("/guide")
+    assert response.status_code == 200
+    html = response.get_data(as_text=True)
+    assert "/guide/ramen_etiquette_en" in html
+    assert "The Art of the Slurp" in html
 
 
 def test_reactions_api(client):

@@ -15,6 +15,56 @@ if APP_DIR not in sys.path:
 from ramen_md import loads_ramen_post  # noqa: E402
 from md_dates import ensure_post_date, save_post  # noqa: E402
 
+DEFAULT_THUMBNAIL = "/static/images/default.jpg"
+
+
+def normalize_categories(categories) -> list[str]:
+    cats = categories or []
+    if isinstance(cats, str):
+        return [c.strip() for c in cats.split(',')]
+    return cats
+
+
+def build_summary(post) -> str:
+    summary = post.get('summary', '')
+    if summary:
+        return summary
+    content_only = re.sub(r'[#*`-]', '', post.content).strip()
+    return content_only[:180].replace('\n', ' ') + '...'
+
+
+def parse_coordinates(post) -> tuple[float, float]:
+    try:
+        lat = float(post.get('lat', 0) or 0)
+        lng = float(post.get('lng', 0) or 0)
+    except (ValueError, TypeError):
+        return 0.0, 0.0
+    return lat, lng
+
+
+def build_ramen_entry(filename: str, post, published_date: str):
+    slug = filename.replace('.md', '')
+    categories = normalize_categories(post.get('categories'))
+    summary = build_summary(post)
+    lat, lng = parse_coordinates(post)
+    if lat == 0.0 or lng == 0.0:
+        return None, lat, lng
+
+    return {
+        "id": slug,
+        "lang": post.get('lang', 'en'),
+        "title": post.get('title', 'Untitled'),
+        "lat": lat,
+        "lng": lng,
+        "categories": categories,
+        "thumbnail": post.get('thumbnail', DEFAULT_THUMBNAIL),
+        "address": post.get('address', 'Japan'),
+        "published": published_date,
+        "summary": summary,
+        "link": f"/ramen/{slug}",
+    }, lat, lng
+
+
 def main():
     print("🔨 Building OKRamen Production Data...")
     ramens = []
@@ -39,42 +89,12 @@ def main():
                 save_post(filepath, post)
                 backfilled += 1
 
-            # 카테고리 정규화
-            cats = post.get('categories') or []
-            if isinstance(cats, str):
-                cats = [c.strip() for c in cats.split(',')]
-
-            # 요약문
-            summary = post.get('summary', '')
-            if not summary:
-                content_only = re.sub(r'[#*`-]', '', post.content).strip()
-                summary = content_only[:180].replace('\n', ' ') + '...'
-
-            # ✅ lat/lng 강제 float 변환 (AI가 문자열로 생성하는 경우 대비)
-            try:
-                lat = float(post.get('lat', 0) or 0)
-                lng = float(post.get('lng', 0) or 0)
-            except (ValueError, TypeError):
-                lat, lng = 0.0, 0.0
-
-            # lat/lng 유효성 검사 — 0이면 마커가 NaN으로 표시되므로 스킵
-            if lat == 0.0 or lng == 0.0:
+            ramen_entry, lat, lng = build_ramen_entry(filename, post, published_date)
+            if ramen_entry is None:
                 print(f"⚠️  Skip {filename}: invalid lat/lng ({lat}, {lng})")
                 continue
 
-            ramens.append({
-                "id":        filename.replace('.md', ''),
-                "lang":      post.get('lang', 'en'),
-                "title":     post.get('title', 'Untitled'),
-                "lat":       lat,
-                "lng":       lng,
-                "categories": cats,
-                "thumbnail": post.get('thumbnail', '/static/images/default.jpg'),  # ✅ default.jpg
-                "address":   post.get('address', 'Japan'),
-                "published": published_date,
-                "summary":   summary,
-                "link":      f"/ramen/{filename.replace('.md', '')}"
-            })
+            ramens.append(ramen_entry)
 
         except Exception as e:
             print(f"❌ Skip {filename}: {e}")
