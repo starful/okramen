@@ -1,7 +1,199 @@
 {
   "last_updated": "2026.07.04",
-  "total_count": 254,
+  "total_count": 266,
   "ramens": [
+    {
+      "id": "ramen_sugimoto_ko",
+      "lang": "ko",
+      "title": "Ramen Sugimoto — Kanagawa 쇼유 라멘 가이드",
+      "lat": 35.5422,
+      "lng": 139.5264,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_sugimoto.jpg",
+      "address": "Kanagawa, Yokohama",
+      "published": "2026-07-04",
+      "summary": "Kanagawa Ramen Sugimoto — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_sugimoto_ko"
+    },
+    {
+      "id": "ramen_sugimoto_en",
+      "lang": "en",
+      "title": "Ramen Sugimoto — Kanagawa Shoyu ramen guide",
+      "lat": 35.5422,
+      "lng": 139.5264,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_sugimoto.jpg",
+      "address": "Kanagawa, Yokohama",
+      "published": "2026-07-04",
+      "summary": "Ramen Sugimoto in Kanagawa: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_sugimoto_en"
+    },
+    {
+      "id": "ramen_shingen_minami_6-jo_ko",
+      "lang": "ko",
+      "title": "Ramen Shingen Minami 6-jo — Hokkaido 미소 라멘 가이드",
+      "lat": 43.0528,
+      "lng": 141.3475,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_shingen_minami_6-jo.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-07-04",
+      "summary": "Hokkaido Ramen Shingen Minami 6-jo — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_shingen_minami_6-jo_ko"
+    },
+    {
+      "id": "ramen_shingen_minami_6-jo_en",
+      "lang": "en",
+      "title": "Ramen Shingen Minami 6-jo — Hokkaido Miso ramen guide",
+      "lat": 43.0528,
+      "lng": 141.3475,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_shingen_minami_6-jo.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-07-04",
+      "summary": "Ramen Shingen Minami 6-jo in Hokkaido: Miso ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_shingen_minami_6-jo_en"
+    },
+    {
+      "id": "ramen_hayashida_shinjuku_ko",
+      "lang": "ko",
+      "title": "Ramen Hayashida Shinjuku — Tokyo 쇼유 라멘 가이드",
+      "lat": 35.6905,
+      "lng": 139.7041,
+      "categories": [
+        "쇼유",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/ramen_hayashida_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-07-04",
+      "summary": "Tokyo Ramen Hayashida Shinjuku — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_hayashida_shinjuku_ko"
+    },
+    {
+      "id": "ramen_hayashida_shinjuku_en",
+      "lang": "en",
+      "title": "Ramen Hayashida Shinjuku — Tokyo Shoyu ramen guide",
+      "lat": 35.6905,
+      "lng": 139.7041,
+      "categories": [
+        "Shoyu",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/ramen_hayashida_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-07-04",
+      "summary": "Ramen Hayashida Shinjuku in Tokyo: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_hayashida_shinjuku_en"
+    },
+    {
+      "id": "mutekiya_ikebukuro_ko",
+      "lang": "ko",
+      "title": "Mutekiya Ikebukuro — Tokyo 돈코츠 라멘 가이드",
+      "lat": 35.7262,
+      "lng": 139.7118,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/mutekiya_ikebukuro.jpg",
+      "address": "Tokyo, Toshima City",
+      "published": "2026-07-04",
+      "summary": "Tokyo Mutekiya Ikebukuro — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/mutekiya_ikebukuro_ko"
+    },
+    {
+      "id": "mutekiya_ikebukuro_en",
+      "lang": "en",
+      "title": "Mutekiya Ikebukuro — Tokyo Tonkotsu ramen guide",
+      "lat": 35.7262,
+      "lng": 139.7118,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/mutekiya_ikebukuro.jpg",
+      "address": "Tokyo, Toshima City",
+      "published": "2026-07-04",
+      "summary": "Mutekiya Ikebukuro in Tokyo: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/mutekiya_ikebukuro_en"
+    },
+    {
+      "id": "halal_ramen_honolu_ebisu_ko",
+      "lang": "ko",
+      "title": "Halal Ramen Honolu Ebisu — Tokyo 치킨 라멘 라멘 가이드",
+      "lat": 35.648,
+      "lng": 139.7101,
+      "categories": [
+        "치킨 라멘",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/halal_ramen_honolu_ebisu.jpg",
+      "address": "Tokyo, Shibuya",
+      "published": "2026-07-04",
+      "summary": "Tokyo Halal Ramen Honolu Ebisu — 치킨 라멘 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/halal_ramen_honolu_ebisu_ko"
+    },
+    {
+      "id": "halal_ramen_honolu_ebisu_en",
+      "lang": "en",
+      "title": "Halal Ramen Honolu Ebisu — Tokyo Chicken ramen ramen guide",
+      "lat": 35.648,
+      "lng": 139.7101,
+      "categories": [
+        "Chicken",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/halal_ramen_honolu_ebisu.jpg",
+      "address": "Tokyo, Shibuya",
+      "published": "2026-07-04",
+      "summary": "Halal Ramen Honolu Ebisu in Tokyo: Chicken ramen ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/halal_ramen_honolu_ebisu_en"
+    },
+    {
+      "id": "chuka_soba_tomita_ko",
+      "lang": "ko",
+      "title": "Chuka Soba Tomita — Chiba 측멘 라멘 가이드",
+      "lat": 35.7816,
+      "lng": 139.9014,
+      "categories": [
+        "츠케멘",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/chuka_soba_tomita.jpg",
+      "address": "Chiba, Matsudo",
+      "published": "2026-07-04",
+      "summary": "Chiba Chuka Soba Tomita 츠케멘 가이드 — 면과 육수를 분리해 먹는 스타일, 웨이팅·주문 요령을 정리했습니다. 영업시간은 지도에서 재확인하세요.",
+      "link": "/ramen/chuka_soba_tomita_ko"
+    },
+    {
+      "id": "chuka_soba_tomita_en",
+      "lang": "en",
+      "title": "Chuka Soba Tomita — Chiba Tsukemen ramen guide",
+      "lat": 35.7816,
+      "lng": 139.9014,
+      "categories": [
+        "Tsukemen",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/chuka_soba_tomita.jpg",
+      "address": "Chiba, Matsudo",
+      "published": "2026-07-04",
+      "summary": "Chuka Soba Tomita in Chiba: tsukemen (dipping noodles) — practical notes on queues, ordering, and how to eat the bowl. Verify hours on Maps.",
+      "link": "/ramen/chuka_soba_tomita_en"
+    },
     {
       "id": "shizuoka_station_espresso_ko",
       "lang": "ko",
