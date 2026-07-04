@@ -135,6 +135,7 @@ def generate_ramen_article(safe_name, name, lat, lng, address, lang, features, a
 def run_generator(limit=10):
     csv_path = resolve_queue_csv("items", os.path.join(SCRIPT_DIR, "csv", "ramens.csv"))
     if not os.path.exists(csv_path):
+        print(f"❌ CSV not found: {csv_path}")
         return
 
     tasks = []
@@ -170,10 +171,13 @@ def run_generator(limit=10):
             pairs_queued += 1
             tasks.extend(pair_tasks)
 
-    if tasks:
-        print(f"🔔 {pairs_queued} pair(s), {len(tasks)} file(s) — practical guide format...")
-        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-            executor.map(lambda p: generate_ramen_article(*p), tasks)
+    if not tasks:
+        print("ℹ️  No new items to generate (all queued ramen already exist).")
+        return
+
+    print(f"🔔 {pairs_queued} pair(s), {len(tasks)} file(s) — practical guide format...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        executor.map(lambda p: generate_ramen_article(*p), tasks)
 
 
 if __name__ == "__main__":

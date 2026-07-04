@@ -64,9 +64,10 @@ async function initApp() {
         const data = await response.json();
         allRamens = sortByPublishedDesc(data.ramens || []);
         
-        // 푸터 업데이트 정보
-        const updatedDate = document.getElementById('last-updated-date');
-        if (updatedDate) updatedDate.textContent = data.last_updated;
+        // 푸터/상단 업데이트 정보
+        document.querySelectorAll('.js-last-updated-date').forEach((el) => {
+            el.textContent = data.last_updated || '-';
+        });
         
         // 구글 지도 및 UI 초기화
         // 지도 로드 실패 시에도 리스트/카운트는 동작해야 한다.

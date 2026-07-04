@@ -160,6 +160,14 @@ header {
     background: #fff; padding: 30px; border-radius: 18px; box-shadow: 0 15px 40px rgba(62, 39, 35, 0.1); 
     text-align: center; margin-bottom: 50px; border-top: 6px solid var(--accent-color); 
 }
+.intro-status-row {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+.intro-status-badge {
+    box-shadow: 0 8px 18px rgba(62, 39, 35, 0.08);
+}
 
 .onsen-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 30px; }
 .editor-picks-section { margin: 2rem 0 2.5rem; }
