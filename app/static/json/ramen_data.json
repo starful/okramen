@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.07.02",
+  "last_updated": "2026.07.04",
   "total_count": 254,
   "ramens": [
     {
@@ -213,7 +213,7 @@
     {
       "id": "yokohama_minato_mirai_cafe_en",
       "lang": "en",
-      "title": "Yokohama Minato Mirai Cafe — Kanagawa Tonkotsu ramen guide",
+      "title": "Yokohama Minato Mirai Cafe: Tonkotsu Ramen Guide",
       "lat": 35.4564,
       "lng": 139.634,
       "categories": [
@@ -1013,7 +1013,7 @@
     {
       "id": "ramen_sapporo_akaboshi_en",
       "lang": "en",
-      "title": "Ramen Sapporo Akaboshi — 7 Chome Minami 3 Jonishi Shio ramen guide",
+      "title": "Ramen Sapporo Akaboshi: Famous Tanukikoji Ramen Guide",
       "lat": 43.0511,
       "lng": 141.3511,
       "categories": [
@@ -1349,7 +1349,7 @@
     {
       "id": "ebisoba_ichigen_shinjuku_ko",
       "lang": "ko",
-      "title": "Ebisoba Ichigen Shinjuku — Tokyo 미소 라멘 가이드",
+      "title": "에비스바 이치겐 신주쿠 (Ebisoba Ichigen Shinjuku) — 도쿄 새우라멘 가이드",
       "lat": 35.6944,
       "lng": 139.7011,
       "categories": [
@@ -1445,7 +1445,7 @@
     {
       "id": "enishi_kyoto_ko",
       "lang": "ko",
-      "title": "Enishi Kyoto — Kyoto 치킨라멘 라멘 가이드",
+      "title": "교토 에니시 (Enishi Kyoto) — 라멘 맛집 가이드",
       "lat": 35.0011,
       "lng": 135.7511,
       "categories": [
@@ -1781,7 +1781,7 @@
     {
       "id": "aji_no_sanpei_en",
       "lang": "en",
-      "title": "Aji no Sanpei: The Birthplace of Sapporo Miso Ramen",
+      "title": "Aji no Sanpei: The Legendary Birthplace of Miso Ramen",
       "lat": 43.0611,
       "lng": 141.3511,
       "categories": [
@@ -2053,7 +2053,7 @@
     {
       "id": "kurume_taiho_ramen_ko",
       "lang": "ko",
-      "title": "Kurume Taiho Ramen — Fukuoka 돈코츠 라멘 가이드",
+      "title": "구루메 타이호 라멘 (Kurume Taiho Ramen) — 후쿠오카 라멘 가이드",
       "lat": 33.3111,
       "lng": 130.5111,
       "categories": [
@@ -2261,7 +2261,7 @@
     {
       "id": "soranoiro_tokyo_en",
       "lang": "en",
-      "title": "Soranoiro Tokyo Station: Michelin-Featured Vegan Ramen",
+      "title": "Soranoiro Tokyo Station: Michelin Vegan Ramen Review & Directions",
       "lat": 35.6811,
       "lng": 139.7671,
       "categories": [
@@ -2357,7 +2357,7 @@
     {
       "id": "ramen_takahashi_en",
       "lang": "en",
-      "title": "Ramen Takahashi Shinjuku: Legendary Grilled Flying Fish Ramen Guide",
+      "title": "Ramen Takahashi Shinjuku: Ultimate Grilled Flying Fish Ramen Guide",
       "lat": 35.6955,
       "lng": 139.7011,
       "categories": [
@@ -2389,7 +2389,7 @@
     {
       "id": "ramen_shingen_en",
       "lang": "en",
-      "title": "Ramen Shingen — Hokkaido Miso ramen guide",
+      "title": "Ramen Shingen Sapporo: Ultimate Guide to Menu & Avoiding the Line",
       "lat": 43.0544,
       "lng": 141.3488,
       "categories": [
@@ -2421,7 +2421,7 @@
     {
       "id": "ramen_nagi_shinjuku_en",
       "lang": "en",
-      "title": "Ramen Nagi Shinjuku — Tokyo Shoyu ramen guide",
+      "title": "Ramen Nagi Shinjuku Golden Gai — Kabukicho Ramen Guide",
       "lat": 35.6941,
       "lng": 139.7044,
       "categories": [
@@ -2901,7 +2901,7 @@
     {
       "id": "ramen_yashichi_en",
       "lang": "en",
-      "title": "Ramen Yashichi: Osaka's Legendary Chicken Ramen & Ticket Guide",
+      "title": "Ramen Yashichi Osaka: Ultimate Ticket & Dining Guide",
       "lat": 34.7111,
       "lng": 135.4988,
       "categories": [
@@ -2933,7 +2933,7 @@
     {
       "id": "ramen_sen-no-kaze_en",
       "lang": "en",
-      "title": "Ramen Sen no Kaze Kyoto: Is It Worth the Wait?",
+      "title": "Ramen Sen no Kaze Kyoto: Honest Review & Guide",
       "lat": 35.0033,
       "lng": 135.7688,
       "categories": [
@@ -3157,7 +3157,7 @@
     {
       "id": "jinrui_mina_menrui_en",
       "lang": "en",
-      "title": "Jinrui Mina Menrui: Osaka's Legendary Shoyu Ramen Guide",
+      "title": "Jinrui Mina Menrui: Osaka's Legendary Soy Sauce Ramen Guide",
       "lat": 34.7311,
       "lng": 135.4911,
       "categories": [
@@ -3333,7 +3333,7 @@
     {
       "id": "ebisoba_ichigen_ko",
       "lang": "ko",
-      "title": "Ebisoba Ichigen — Hokkaido 미소 라멘 가이드",
+      "title": "에비소바 이치겐 (Ebisoba Ichigen) — 삿포로 라멘 가이드",
       "lat": 43.0511,
       "lng": 141.3411,
       "categories": [
@@ -3797,7 +3797,7 @@
     {
       "id": "honke_daiichi-asahi_en",
       "lang": "en",
-      "title": "Honke Daiichi Asahi — Kyoto Shoyu ramen guide",
+      "title": "Honke Daiichi Asahi: Kyoto’s Legendary Ramen (Line-Skipping Guide)",
       "lat": 34.9866,
       "lng": 135.7611,
       "categories": [
