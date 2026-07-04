@@ -100,7 +100,7 @@ generate_content() {
 }
 
 generate_or_optimize_images() {
-    print_step "STEP C  |  라멘 이미지 생성/최적화"
+    print_step "STEP C  |  라멘 이미지 보강/최적화"
     MISSING=0
 
     if [ -d "$CONTENT_DIR" ]; then
@@ -118,11 +118,33 @@ generate_or_optimize_images() {
     fi
 
     if [ "$MISSING" -eq 0 ]; then
-        print_ok "모든 라멘 이미지 존재 (또는 관리자 사진) → 생성 스킵"
+        print_ok "모든 라멘 이미지 존재 (또는 관리자 사진) → Places/AI 보강 스킵"
     else
-        print_info "이미지 없는 라멘집: ${MISSING}개 → Imagen 3 생성 시작"
-        python3 script/generate_images.py
-        print_ok "이미지 생성 완료"
+        print_info "이미지 없는 라멘집: ${MISSING}개 → Places API 우선 수집"
+        python3 script/fetch_images.py
+
+        MISSING=0
+        if [ -d "$CONTENT_DIR" ]; then
+            for md_file in "$CONTENT_DIR"/*.md; do
+                [ -f "$md_file" ] || continue
+                base=$(basename "$md_file" .md)
+                safe=${base%_ko}; safe=${safe%_en}
+                if [ ! -f "${IMAGES_DIR}/${safe}.jpg" ] && \
+                   [ ! -f "${IMAGES_DIR}/${safe}.jpeg" ] && \
+                   [ ! -f "${IMAGES_DIR}/${safe}.png" ]; then
+                    MISSING=$((MISSING + 1))
+                fi
+            done
+            MISSING=$(( MISSING / 2 ))
+        fi
+
+        if [ "$MISSING" -eq 0 ]; then
+            print_ok "Places API로 누락 이미지 보강 완료"
+        else
+            print_info "Places 미확보 라멘집: ${MISSING}개 → Imagen 생성"
+            python3 script/generate_images.py
+            print_ok "AI 이미지 생성 완료"
+        fi
     fi
 
     print_info "이미지 최적화 중..."

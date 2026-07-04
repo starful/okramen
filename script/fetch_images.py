@@ -24,13 +24,13 @@ def _items_csv_path() -> str:
 
 # 이미지 설정
 MAX_WIDTH = 800   # 최대 가로 사이즈 (Places API 파라미터)
-PHOTO_COUNT = 1   # 온천당 가져올 사진 수
+PHOTO_COUNT = 1   # 라멘집당 가져올 사진 수
 
 # ==========================================
 # 🔍 Places API (New) - Place Search
 # ==========================================
 def search_place(name, lat, lng):
-    """온천 이름 + 위경도로 Place ID를 검색합니다."""
+    """라멘집 이름 + 위경도로 Place ID를 검색합니다."""
     url = "https://places.googleapis.com/v1/places:searchNearby"
     headers = {
         "Content-Type": "application/json",
@@ -38,7 +38,7 @@ def search_place(name, lat, lng):
         "X-Goog-FieldMask": "places.id,places.displayName,places.photos"
     }
     body = {
-        "includedTypes": ["lodging", "spa", "tourist_attraction"],
+        "includedTypes": ["ramen_restaurant", "restaurant", "meal_takeaway"],
         "locationRestriction": {
             "circle": {
                 "center": {"latitude": float(lat), "longitude": float(lng)},
@@ -118,19 +118,19 @@ def fetch_all_images():
     skipped = 0
     failed = 0
 
-    # MD 파일이 존재하는 온천의 safe_name 목록 추출 (언어 suffix 제거)
+    # MD 파일이 존재하는 라멘의 safe_name 목록 추출 (언어 suffix 제거)
     md_safe_names = set()
     if os.path.exists(CONTENT_DIR):
         for fname in os.listdir(CONTENT_DIR):
             if fname.endswith('.md'):
-                # 예: hakone_ten-yu_ko.md → hakone_ten-yu
+                # 예: ramen_takahashi_ginza_ko.md → ramen_takahashi_ginza
                 base = fname.replace('.md', '')
                 for lang in ['_ko', '_en', '_ja']:
                     if base.endswith(lang):
                         md_safe_names.add(base[:-len(lang)])
                         break
 
-    # CSV에서 MD가 있는 온천만 필터링
+    # CSV에서 MD가 있는 라멘만 필터링
     with open(_items_csv_path(), mode='r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         all_rows = list(reader)
@@ -145,7 +145,7 @@ def fetch_all_images():
             rows.append(row)
 
     total = len(rows)
-    print(f"\n♨️  MD 파일 기준 총 {total}개 온천 이미지 확인 시작...\n")
+    print(f"\n🍜  MD 파일 기준 총 {total}개 라멘 이미지 확인 시작...\n")
     print(f"   (전체 CSV {len(all_rows)}개 중 컨텐츠 생성된 {total}개만 처리)\n")
 
     for i, row in enumerate(rows, 1):
