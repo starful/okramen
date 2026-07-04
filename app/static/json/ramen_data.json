@@ -1,7 +1,39 @@
 {
   "last_updated": "2026.07.04",
-  "total_count": 266,
+  "total_count": 272,
   "ramens": [
+    {
+      "id": "ramen_takahashi_shinjuku_ko",
+      "lang": "ko",
+      "title": "Ramen Takahashi Shinjuku — Tokyo 시오 라멘 가이드",
+      "lat": 35.6938,
+      "lng": 139.7011,
+      "categories": [
+        "시오",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_takahashi_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku City",
+      "published": "2026-07-04",
+      "summary": "Tokyo Ramen Takahashi Shinjuku — 시오 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_takahashi_shinjuku_ko"
+    },
+    {
+      "id": "ramen_takahashi_shinjuku_en",
+      "lang": "en",
+      "title": "Ramen Takahashi Shinjuku — Tokyo Shio ramen guide",
+      "lat": 35.6938,
+      "lng": 139.7011,
+      "categories": [
+        "Shio",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_takahashi_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku City",
+      "published": "2026-07-04",
+      "summary": "Ramen Takahashi Shinjuku in Tokyo: Shio ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_takahashi_shinjuku_en"
+    },
     {
       "id": "ramen_sugimoto_ko",
       "lang": "ko",
@@ -33,6 +65,38 @@
       "published": "2026-07-04",
       "summary": "Ramen Sugimoto in Kanagawa: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/ramen_sugimoto_en"
+    },
+    {
+      "id": "ramen_sora_sapporo_ko",
+      "lang": "ko",
+      "title": "Ramen Sora Sapporo — Hokkaido 미소 라멘 가이드",
+      "lat": 43.0562,
+      "lng": 141.3541,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_sora_sapporo.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-07-04",
+      "summary": "Hokkaido Ramen Sora Sapporo — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_sora_sapporo_ko"
+    },
+    {
+      "id": "ramen_sora_sapporo_en",
+      "lang": "en",
+      "title": "Ramen Sora Sapporo — Hokkaido Miso ramen guide",
+      "lat": 43.0562,
+      "lng": 141.3541,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_sora_sapporo.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-07-04",
+      "summary": "Ramen Sora Sapporo in Hokkaido: Miso ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_sora_sapporo_en"
     },
     {
       "id": "ramen_shingen_minami_6-jo_ko",
@@ -193,6 +257,38 @@
       "published": "2026-07-04",
       "summary": "Chuka Soba Tomita in Chiba: tsukemen (dipping noodles) — practical notes on queues, ordering, and how to eat the bowl. Verify hours on Maps.",
       "link": "/ramen/chuka_soba_tomita_en"
+    },
+    {
+      "id": "ago-dashi_shoyu_ramen_takahashi_shinjuku_ko",
+      "lang": "ko",
+      "title": "Ago-dashi Shoyu Ramen Takahashi Shinjuku — Tokyo 쇼유 라멘 가이드",
+      "lat": 35.6946,
+      "lng": 139.7008,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ago-dashi_shoyu_ramen_takahashi_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-07-04",
+      "summary": "Tokyo Ago-dashi Shoyu Ramen Takahashi Shinjuku — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ago-dashi_shoyu_ramen_takahashi_shinjuku_ko"
+    },
+    {
+      "id": "ago-dashi_shoyu_ramen_takahashi_shinjuku_en",
+      "lang": "en",
+      "title": "Ago-dashi Shoyu Ramen Takahashi Shinjuku — Tokyo Shoyu ramen guide",
+      "lat": 35.6946,
+      "lng": 139.7008,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ago-dashi_shoyu_ramen_takahashi_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-07-04",
+      "summary": "Ago-dashi Shoyu Ramen Takahashi Shinjuku in Tokyo: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ago-dashi_shoyu_ramen_takahashi_shinjuku_en"
     },
     {
       "id": "shizuoka_station_espresso_ko",
