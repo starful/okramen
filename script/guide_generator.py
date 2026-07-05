@@ -10,6 +10,15 @@ from dotenv import load_dotenv
 
 from topic_queue_csv import resolve as resolve_queue_csv
 
+
+def _emit_pipeline_result(**kwargs):
+    try:
+        from generation_result import emit_generation_result
+
+        emit_generation_result(**kwargs)
+    except ImportError:
+        pass
+
 # 환경변수 로드
 load_dotenv()
 API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -182,17 +191,21 @@ def _csv_missing_tasks() -> list[tuple]:
 
 
 def _run_tasks(tasks: list[tuple], *, dry_run: bool) -> None:
+    topics = len({t[0] for t in tasks})
     if dry_run:
         print(f"🔔 [dry-run] {len(tasks)} guide file(s)")
         for p in tasks:
             print(f"   {p[0]}_{p[2]}.md")
+        _emit_pipeline_result(step="guides", topics=topics, generated=0, skipped=len(tasks))
         return
     if not tasks:
         print("✨ No guide orphans to generate.")
+        _emit_pipeline_result(step="guides", topics=0, generated=0)
         return
     print(f"🔔 Generating {len(tasks)} guide file(s)")
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         executor.map(lambda p: generate_guide_article(*p), tasks)
+    _emit_pipeline_result(step="guides", topics=topics, generated=len(tasks))
 
 
 def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:

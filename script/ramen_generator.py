@@ -19,6 +19,16 @@ sys.path.insert(0, os.path.join(BASE_DIR, "app"))
 from rewrite_ramen_practical import build_region_index, rewrite_file  # noqa: E402
 from topic_queue_csv import resolve as resolve_queue_csv  # noqa: E402
 
+
+def _emit_pipeline_result(**kwargs):
+    try:
+        from generation_result import emit_generation_result
+
+        emit_generation_result(**kwargs)
+    except ImportError:
+        pass
+
+
 # Map CSV Features (often Korean) -> [flavor, vibe] per language
 FLAVOR_KEYS = {
     "돈코츠": ("Tonkotsu", "돈코츠"),
@@ -173,11 +183,13 @@ def run_generator(limit=10):
 
     if not tasks:
         print("ℹ️  No new items to generate (all queued ramen already exist).")
+        _emit_pipeline_result(step="items", topics=0, generated=0)
         return
 
     print(f"🔔 {pairs_queued} pair(s), {len(tasks)} file(s) — practical guide format...")
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         executor.map(lambda p: generate_ramen_article(*p), tasks)
+    _emit_pipeline_result(step="items", topics=pairs_queued, generated=len(tasks))
 
 
 if __name__ == "__main__":
