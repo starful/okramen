@@ -8,16 +8,22 @@ lang: en
 lat: 33.5931
 lng: 130.4011
 shop_name: Ichiran Fukuoka Main
-summary: "Ichiran Fukuoka Main in Fukuoka: Tonkotsu ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ichiran Fukuoka Main in Fukuoka: Tonkotsu ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ichiran_fukuoka_main.jpg
-title: Ichiran Fukuoka Main — Fukuoka Tonkotsu ramen guide
+title: Ichiran Fukuoka Main Store (Head Office) Ramen Guide
 one_liner: Tonkotsu ramen at Ichiran Fukuoka Main, Fukuoka. Verify hours and holidays
   on Maps before you go.
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
+description: Complete guide to the legendary Ichiran Fukuoka Main Store (Head Office)
+  in Nakasu. Find opening hours, map, menu, and ordering tips.
+seo_title: Ichiran Head Office Fukuoka (Honten) Guide | OKRamen
+seo_description: Visit the iconic Ichiran Fukuoka Main Store (Head Office) in Nakasu.
+  Get hours, location, menu, and tips to order legendary tonkotsu ramen.
 ---
+
 
 **At a glance:** Ichiran Fukuoka Main is a chain or franchise branch in Hakata, Fukuoka. Menus and hours can differ from other branches — verify this location on Maps. Do not assume the Tokyo main shop menu matches this pin.
 
