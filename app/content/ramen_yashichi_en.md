@@ -15,17 +15,18 @@ shop_name: Ramen Yashichi
 summary: 'Ramen Yashichi in Osaka: Chicken ramen ramen — practical guide to queues,
   ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_yashichi.jpg
-title: 'Ramen Yashichi Osaka: Ultimate Ticket & Dining Guide'
+title: 'Ramen Yashichi Osaka: Complete Ticket & Visiting Guide'
 one_liner: Chicken ramen ramen at Ramen Yashichi, Osaka. Verify hours and holidays
   on Maps before you go.
 what_to_order: The shop’s signature bowl on the menu board.
 good_for: Trip planning before you land
-seo_title: How to Score a Ticket at Ramen Yashichi Osaka | OKRamen
-seo_description: Don't get turned away! Master the ticket system at Osaka's legendary
+seo_title: How to Get a Ticket at Ramen Yashichi Osaka & Avoid the Lines
+seo_description: Don't get turned away! Master the Ramen Yashichi ticket system in
+  Osaka and secure your bowl of legendary creamy chicken ramen without the long wait.
+description: Learn how to navigate the numbered ticket system at Osaka's legendary
   Ramen Yashichi and secure your bowl of famous creamy chicken ramen.
-description: Don't get turned away! Learn how to master the ticket system at Osaka's
-  legendary Ramen Yashichi and enjoy their famous creamy chicken paitan.
 ---
+
 
 
 

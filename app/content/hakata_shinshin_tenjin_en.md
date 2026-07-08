@@ -11,18 +11,19 @@ shop_name: Hakata Shinshin Tenjin
 summary: 'Hakata Shinshin Tenjin in Fukuoka: Tonkotsu ramen — practical guide to queues,
   ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/hakata_shinshin_tenjin.jpg
-title: 'Hakata Shin-Shin Tenjin: Fukuoka Ramen Guide'
+title: Hakata Shin-Shin Tenjin Main Store — Fukuoka Ramen Guide
 one_liner: Tonkotsu ramen at Hakata Shinshin Tenjin, Fukuoka. Verify hours and holidays
   on Maps before you go.
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
-seo_title: 'Hakata Shin-Shin Tenjin Guide: Skip the Line & Menu'
-seo_description: Skip the lines at Hakata Shin-Shin Tenjin! Our insider guide covers
-  the full menu, prices, and how to get Fukuoka's famous sweet Tonkotsu ramen.
-description: Skip the lines at Hakata Shin-Shin Tenjin! Our insider guide covers the
-  full menu, prices, and how to get Fukuoka's famous sweet Tonkotsu ramen.
+seo_title: 'Hakata Shin-Shin Tenjin Main Store: Menu & Line-Skipping Guide'
+seo_description: Want Fukuoka's legendary ramen? Read our Hakata Shin-Shin Tenjin
+  guide for the full menu, prices, hours, and insider tips to skip the long queue!
+description: Want Fukuoka's legendary ramen? Read our Hakata Shin-Shin Tenjin guide
+  for the full menu, prices, hours, and insider tips to skip the long queue!
 ---
+
 
 
 

@@ -17,18 +17,19 @@ shop_name: Honke Daiichi Asahi
 summary: 'Honke Daiichi Asahi in Kyoto: Shoyu ramen — practical guide to queues, ordering,
   and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/honke_daiichi-asahi.jpg
-title: 'Honke Daiichi Asahi: Kyoto’s Legendary Ramen (Line-Skipping Guide)'
+title: 'Honke Daiichi Asahi: Kyoto''s Legendary Ramen & Line Guide'
 one_liner: Shoyu ramen at Honke Daiichi Asahi, Kyoto. Verify hours and holidays on
   Maps before you go.
 what_to_order: Classic shoyu ramen first; chashu-men if you want extra pork. Taste
   the broth before adding condiments.
 good_for: Trip planning before you land
-seo_title: 'Honke Daiichi Asahi Kyoto: How to Skip the 2-Hour Line'
-seo_description: Don't waste hours in queue! Our insider guide to Honke Daiichi Asahi
-  near Kyoto Station covers the best times to visit, menu hacks, and line tips.
-description: An insider guide to Honke Daiichi Asahi near Kyoto Station. Discover
-  how to skip the legendary 2-hour line, the best times to visit, and what to order.
+seo_title: 'Honke Daiichi Asahi Kyoto: How to Beat the Famous Line'
+seo_description: Want to try Kyoto's legendary Honke Daiichi Asahi ramen? Learn the
+  best times to visit, insider line-skipping hacks, and what to order.
+description: Beat the queue at Honke Daiichi Asahi near Kyoto Station. Discover the
+  best times to visit, menu recommendations, and insider line-skipping tips.
 ---
+
 
 
 **What to expect:** Honke Daiichi Asahi (本家 第一旭) is a Kyoto Station-area shoyu ramen shop that has operated since 1947. It opens very early — often before 6 a.m. — which makes it useful after a Shinkansen arrival or before temple sightseeing. The shop is not a tiny counter-only hole-in-the-wall; expect a mix of counter and table seats, but lines still form at lunch and dinner. Staff sometimes take orders while you queue, which speeds turnover once you sit down.
