@@ -14,18 +14,19 @@ shop_name: Ramen ZEN Fukuoka
 summary: 'Ramen ZEN Fukuoka in Fukuoka: Tonkotsu ramen — practical guide to queues,
   ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_zen_fukuoka.jpg
-title: 'Ramen ZEN Fukuoka: Famous Cheap Hakata Tonkotsu Ramen'
+title: 'Ramen ZEN Fukuoka: Famous Cheap Hakata Tonkotsu'
 one_liner: Tonkotsu ramen at Ramen ZEN Fukuoka, Fukuoka. Verify hours and holidays
   on Maps before you go.
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
-description: Looking for the best cheap ramen in Fukuoka? Visit Ramen ZEN in Tenjin.
-  Get the full guide, opening hours, location, and menu tips on OKRamen!
-seo_title: 'Ramen ZEN Fukuoka: Famous Cheap Hakata Tonkotsu | OKRamen'
-seo_description: Looking for the best cheap ramen in Fukuoka? Visit Ramen ZEN in Tenjin.
-  Get the full guide, opening hours, location, and menu tips on OKRamen!
+description: Discover Ramen ZEN in Fukuoka! Enjoy delicious, ultra-cheap Hakata tonkotsu
+  ramen. Get the latest menu, map, hours, and ordering tips on OKRamen.
+seo_title: 'Ramen ZEN Fukuoka Guide: Famous Cheap Tonkotsu | OKRamen'
+seo_description: Discover Ramen ZEN in Fukuoka! Enjoy delicious, ultra-cheap Hakata
+  tonkotsu ramen. Get the latest menu, map, hours, and ordering tips on OKRamen.
 ---
+
 
 
 **At a glance:** Ramen ZEN Fukuoka is a tonkotsu ramen shop in Chuo, Fukuoka. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.

@@ -14,16 +14,16 @@ lng: 130.4011
 shop_name: Hakata Daruma
 summary: Fukuoka Hakata Daruma — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/hakata_daruma.jpg
-title: 하카타 다루마 (Hakata Daruma) — 후쿠오카 라멘 가이드
+title: 하카타 다루마 (Hakata Daruma) — 후쿠오카 돈코츠 라멘 맛집
 one_liner: Fukuoka 돈코츠 라멘 — Hakata Daruma. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 시그니처 돈코츠 — 차슈·면 추가(가에다마)는 매장 규칙 확인
 good_for: 여행 전 일정 잡기
-description: 후쿠오카를 대표하는 정통 돈코츠 라멘 맛집, 하카타 다루마(Hakata Daruma)의 상세 위치, 영업시간, 추천 메뉴 정보를
-  OKRamen 가이드에서 지금 확인해 보세요.
-seo_title: 하카타 다루마 | 후쿠오카 돈코츠 라멘 맛집 가이드 | OKRamen
-seo_description: 후쿠오카 라멘 맛집 '하카타 다루마' 완벽 가이드. OKRamen 지도에서 실시간 위치, 영업시간, 추천 메뉴 및 휴무
-  정보를 확인하고 실패 없는 맛집 탐방을 시작하세요!
+description: 후쿠오카를 대표하는 정통 돈코츠 라멘 전문점 '하카타 다루마'의 위치, 영업시간, 추천 메뉴 정보를 소개합니다.
+seo_title: 하카타 다루마 | 후쿠오카 라멘 맛집 가이드 | OKRamen
+seo_description: 진한 돈코츠로 유명한 후쿠오카 라멘 맛집 '하카타 다루마(Hakata Daruma)'. OKRamen에서 위치, 영업시간,
+  추천 메뉴, 리뷰를 확인하세요.
 ---
+
 
 
 **한 그릇 요약:** Fukuoka Chuo의 Hakata Daruma은(는) 돈코츠 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
