@@ -491,12 +491,14 @@ def sitemap_xml():
     now_iso = datetime.now(timezone.utc).date().isoformat()
     about_lastmod = _file_lastmod(os.path.join(BASE_DIR, "templates", "about.html"), now_iso)
     privacy_lastmod = _file_lastmod(os.path.join(BASE_DIR, "templates", "privacy.html"), now_iso)
+    contact_lastmod = _file_lastmod(os.path.join(BASE_DIR, "templates", "contact.html"), now_iso)
 
     # 메인 및 정적 페이지
     pages.append({"loc": f"{host}/", "priority": "1.0", "changefreq": "daily", "lastmod": now_iso})
     pages.append({"loc": f"{host}/guide", "priority": "0.8", "changefreq": "daily", "lastmod": now_iso})
     pages.append({"loc": f"{host}/guide?lang=ko", "priority": "0.6", "changefreq": "daily", "lastmod": now_iso})
     pages.append({"loc": f"{host}/about.html", "priority": "0.4", "changefreq": "monthly", "lastmod": about_lastmod})
+    pages.append({"loc": f"{host}/contact.html", "priority": "0.35", "changefreq": "yearly", "lastmod": contact_lastmod})
     pages.append({"loc": f"{host}/privacy.html", "priority": "0.3", "changefreq": "yearly", "lastmod": privacy_lastmod})
 
     # 라멘 가게 페이지 (CACHED_DATA 기준; lastmod = md file mtime when present)
@@ -550,6 +552,11 @@ def about():
 @app.route('/privacy.html')
 def privacy():
     return render_template('privacy.html')
+
+@app.route('/contact.html')
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8080))
