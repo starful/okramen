@@ -19,16 +19,57 @@ what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a h
 good_for: Trip planning before you land
 ---
 
-**Overview:** Ichiran Shinjuku is a chain or franchise branch in Shinjuku, Tokyo. Menus and hours can differ from other branches — verify this location on Maps. Do not assume the Tokyo main shop menu matches this pin.
+lang: en
+title: Ichiran Shinjuku (Peace Bldg B1F) – Your Solo Ramen Experience Guide
+summary: Discover Ichiran Shinjuku, a popular ramen chain in Tokyo famous for its customizable tonkotsu broth and unique solo dining booths, perfect for a focused and delicious meal in Shinjuku.
+seo_title: Ichiran Shinjuku Ramen Guide – Ordering, Tips, Address for Travelers
+seo_description: Planning your Ichiran Shinjuku visit? Get practical tips on what to order, how to customize your bowl, manage queues, and find this iconic tonkotsu ramen shop at 3 Chome−34−11, Peace Bldg B1F in Tokyo's Shinjuku district.
 
-**The bowl:** Primary style: tonkotsu. Pick the signature item on the board first; upgrades are usually on the ticket screen. Budget around roughly ¥1,000–¥1,300 for a standard bowl.
+## Overview
 
-**Queue & ordering:** Expect queues at lunch and dinner. If the line is long, search for another branch nearby. Even fast-turnover shops deserve 20–30 minutes of buffer on a first visit.
+Ichiran Shinjuku (Tokyo, Shinjuku, 3 Chome−34−11, Peace Bldg B1F) is a popular, reliable destination for tonkotsu ramen. This renowned chain branch offers Ichiran's signature rich, milky pork-bone broth and highly customizable flavors. Its distinctive "flavor concentration booths" provide a unique, distraction-free dining environment, perfect for solo travelers or anyone seeking a focused, authentic ramen experience in bustling Shinjuku. Expect consistent quality and a guaranteed delicious Japanese ramen meal.
 
-**Area:** Drop it into a Shinjuku day when you want a reliable, well-known bowl. For a one-time trip, matching open hours matters more than finding a ‘perfect’ branch. More in the area: [Butayama](/ramen/butayama_en), [Ebisoba Ichigen Shinjuku](/ramen/ebisoba_ichigen_shinjuku_en).
+## What to order
 
-**Style note:** Tonkotsu means pork-bone broth. Hakata styles are milky and dense; Tokyo bowls may mix shoyu or add heavier seabura (fat back).
+Ordering at Ichiran is a personalized two-step process. First, use the vending machine for your basic tonkotsu ramen ticket and initial add-ons like egg or chashu.
 
-Small shops often close Mondays or the day after holidays — check Maps rest days.
+In your private booth, a multilingual sheet lets you customize your bowl. Key options:
+*   **Taste Concentration:** Medium for first-timers.
+*   **Richness (Seabura):** Standard or Rich are popular.
+*   **Noodle Hardness:** Standard for a good chew.
+*   **Garlic, Green Onion, Chashu, Red Secret Sauce:** Adjust to taste. "Standard" for the chili sauce adds pleasant warmth.
 
-Finally, holidays, seasonal closures, and last-order times change. Screenshot the Maps listing while you have data; if Ichiran Shinjuku is closed, search the same style within walking distance rather than treating this page as a booking. Editorial trip-planning only — not a reservation.
+For a classic experience, consider Medium Taste, Standard/Rich Richness, Standard/Hard Noodles, and Standard Red Secret Sauce.
+
+A standard bowl costs ¥1,000–¥1,300. Additional toppings or *kaedama* (noodle refill) are available from your booth. Initial payment via cash/card at the machine.
+
+## Visit tips
+
+**Queue Management:** Expect queues at Ichiran Shinjuku during peak lunch (12:00-14:00) and dinner (18:00-21:00) or weekends. Turnover is fast, but allow 20-30 minutes buffer. Off-peak times offer shorter waits.
+
+**Finding the Shop:** Located in the basement (B1F) of the Peace Building. Look for street-level Ichiran signage. Basements can be tricky; use your navigation app for precise entry.
+
+**Checking Hours:** Always verify current hours, last order, and holiday closures on Google Maps or Ichiran's official website.
+
+**Dietary Notes:** Ichiran's tonkotsu ramen is pork-broth based. Vegetarian/vegan options are not typically available. Plan accordingly if you have dietary restrictions.
+
+## Getting There
+
+The Ichiran Shinjuku branch is conveniently accessible from major transport hubs in Shinjuku.
+
+**Address:** Tokyo, Shinjuku, 3 Chome−34−11, Peace Bldg B1F
+
+**From Shinjuku Station:**
+Approximate 5-7 minute walk from the Southeast Exit or New South Gate.
+1.  Exit Shinjuku Station (Southeast Exit/New South Gate).
+2.  Head east along Shinjuku-dori.
+3.  Look for the Peace Building on your right; Ichiran's street-level sign leads to B1F.
+
+## Nearby Alternatives
+
+Beyond Ichiran, Shinjuku offers diverse ramen. If you want a different style or shorter wait, consider these alternatives:
+
+*   **Butayama**: Offers heartier Jiro-style ramen – thick noodles, generous vegetables, rich garlic-pork broth. [Butayama](/ramen/butayama_en)
+*   **Ebisoba Ichigen Shinjuku**: Famous for unique shrimp-based ramen. Its fragrant broth, infused with sweet shrimp umami, is a flavorful change for seafood lovers. [Ebisoba Ichigen Shinjuku](/ramen/ebisoba_ichigen_shinjuku_en)
+
+If queues are long here, check your map for other Ichiran branches in Shinjuku for potentially shorter waits.

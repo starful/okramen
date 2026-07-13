@@ -23,16 +23,68 @@ what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a h
 good_for: Trip planning before you land
 ---
 
-**Overview:** Ramen Jiro Mita is a tonkotsu ramen shop in Minato, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
+## Overview
 
-**The bowl:** First visit: order the signature bowl on the menu. Add extra chashu or noodles only if you want a heavier meal. Prices are typically roughly ¥1,000–¥1,300; many shops use ticket machines (cash only in some cases).
+Ramen Jiro Mita, located in Tokyo's Minato district near Keio University, is an iconic ramen shop offering a uniquely intense experience. This "local gem" is famed for its colossal portions, thick chewy noodles, rich shoyu-tonkotsu (soy sauce and pork bone) broth, and a generous mountain of toppings. It's a bold, no-frills, high-calorie feast, a distinct "Jiro-kei" style that stands apart from typical ramen. Expect a robust, garlic-infused flavor profile and an unpretentious atmosphere. This guide helps first-time international visitors navigate the unique ordering and dining customs. Always confirm current hours on Google Maps before visiting.
 
-**Queue & ordering:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
+## What to Order
 
-**Area:** Pair with other Tokyo stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Kikanbo Shinjuku](/ramen/kikanbo_shinjuku_en), [Kyushu Jangara Akihabara](/ramen/kyushu_jangara_akihabara_en).
+Ordering at Jiro Mita involves a ticket vending machine (cash-only) and a verbal topping customization known as "コール" (call).
 
-**Style note:** Tonkotsu means pork-bone broth. Hakata styles are milky and dense; Tokyo bowls may mix shoyu or add heavier seabura (fat back).
+**1. Your First Bowl: "Shō Ramen" (小ラーメン - Small Ramen)**
+Always start with the "Shō Ramen" – "small" at Jiro is still a massive bowl, featuring ~300g of noodles, thick chashu pork, and a substantial pile of vegetables. Do not order "Dai Ramen" (大ラーメン - Large Ramen) or extra noodles/chashu on your first visit; finishing it is challenging. Wasting food is frowned upon. Prices are typically ¥900–¥1,300. Have ¥1,000 bills ready for the ticket machine.
 
-Off-peak slots (just after opening or late evening) often shorten queues.
+**2. The Topping Call (コール - Ko-ru):**
+When your ramen is almost ready, staff will ask about your toppings. You'll respond with a combination of these options:
 
-Finally, holidays, seasonal closures, and last-order times change. Screenshot the Maps listing while you have data; if Ramen Jiro Mita is closed, search the same style within walking distance rather than treating this page as a booking. Editorial trip-planning only — not a reservation.
+*   **Ninniku (ニンニク): Garlic**
+    *   `Nashi (なし)`: No garlic.
+    *   `Sukuna-me (少なめ)`: A little. (**Recommended for first-timers**)
+    *   `Futsuu (普通)`: Regular amount.
+    *   `Mashi (マシ)`: Extra.
+    *   `Mashi-Mashi (マシマシ)`: Double extra.
+*   **Yasai (ヤサイ): Vegetables** (boiled bean sprouts and cabbage)
+    *   `Futsuu (普通)`: Regular.
+    *   `Mashi (マシ)`: Extra.
+    *   `Mashi-Mashi (マシマシ)`: Double extra (a mountain!).
+*   **Abura (アブラ): Pork Fat** (chunky back fat, adds richness)
+    *   `Futsuu (普通)`: Regular.
+    *   `Mashi (マシ)`: Extra.
+*   **Karame (カラメ): Extra Seasoning** (more soy tare, saltier broth)
+    *   `Futsuu (普通)`: Regular.
+    *   `Mashi (マシ)`: Extra.
+
+**First-Timer Recommendation:** For a manageable start, say **"Ninniku sukuna-me, Yasai futsuu, Abura futsuu, Karame futsuu."** If you love garlic, "Ninniku futsuu" is a good option. Consider "Yasai mashi" if you want more vegetables.
+
+## Visit Tips
+
+Navigating Jiro involves specific queueing, etiquette, and travel logistics.
+
+**1. How to Get There:**
+Ramen Jiro Mita is located in Minato ward, near Keio University.
+*   **Mita Station (三田駅):** 5-minute walk. Served by Toei Asakusa Line & Toei Mita Line. Use Exit A3 or A4.
+*   **Tamachi Station (田町駅):** 7-minute walk. Served by JR Yamanote Line & Keihin-Tohoku Line.
+*   **Navigation:** Use Google Maps for precise, real-time directions.
+
+**2. Queueing & Timing:**
+Expect queues, especially during peak hours.
+*   **Avoid Peak:** Lunch (12:00–13:30) and dinner (18:00–20:00) can mean waits of 30-60 minutes.
+*   **Best Times:** Just after opening (e.g., around 11:30 AM) or later in the evening (e.g., after 8:30 PM, if open late).
+*   **In Line:** Queue orderly. Purchase your ticket from the machine shortly before entering or when instructed. Have cash ready.
+
+**3. Shop Etiquette:**
+Jiro shops prioritize efficiency.
+*   **Eat & Leave:** Don't linger. Finish your meal and leave promptly to make space for the next customer.
+*   **Place Bowl on Counter:** Signal you're done by placing your empty bowl on the counter.
+*   **Self-Service:** Water and chopsticks are usually self-service.
+*   **No Excessive Phones/Photos:** Discreet photos of your ramen are usually fine, but avoid disrupting others or slowing service with prolonged phone use or excessive photography.
+*   **Keep it Down:** Maintain a quiet environment; avoid loud conversations.
+
+**4. Nearby Alternatives & Activities:**
+If Jiro's intensity isn't for you, or for other activities in the area:
+*   **Other Ramen Styles:** For a milder, creamy Tonkotsu, explore shops like **Kyushu Jangara Akihabara** (a bit further, but a good alternative). Tokyo offers many Shoyu or Shio ramen options for lighter flavors.
+*   **Nearby Attractions:**
+    *   **Tokyo Tower:** Short walk, offers panoramic city views.
+    *   **Zojoji Temple & Shiba Park:** Historic temple against Tokyo Tower, offering a serene escape.
+
+Embrace the unique Jiro experience; follow these tips for a memorable and authentic taste of Tokyo's ramen culture.

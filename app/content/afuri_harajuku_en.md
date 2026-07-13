@@ -18,16 +18,56 @@ what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
 ---
 
-**Overview:** Afuri Harajuku is a chain or franchise branch in Shibuya City, 3-63-1 Sendagaya. Menus and hours can differ from other branches — verify this location on Maps. Do not assume the Tokyo main shop menu matches this pin.
+## Overview
 
-**The bowl:** Primary style: shio. Pick the signature item on the board first; upgrades are usually on the ticket screen. Budget around roughly ¥800–¥1,100 for a standard bowl.
+Afuri Harajuku offers a distinctive ramen experience, celebrated for its lighter, brighter broth. Located at **3-63-1 Sendagaya, Shibuya City, Tokyo 151-0051**, this branch is a popular stop for those exploring the trendy Harajuku and Shibuya areas. Unlike heavier tonkotsu styles, Afuri specializes in a clear, delicate **Shio (salt-based) broth**, famously infused with refreshing citrus notes of **yuzu**. It's an excellent choice if you seek a flavorful yet less intense ramen, perfect after a day of sightseeing.
 
-**Queue & ordering:** Expect queues at lunch and dinner. If the line is long, search for another branch nearby. Even fast-turnover shops deserve 20–30 minutes of buffer on a first visit.
+While Afuri is a well-established chain, note that menus and hours can vary slightly between branches. This Harajuku location provides a reliable taste of their signature offerings. Budget around **¥1,000–¥1,500** for a satisfying bowl with toppings.
 
-**Area:** Drop it into a Shibuya City day when you want a reliable, well-known bowl. For a one-time trip, matching open hours matters more than finding a ‘perfect’ branch.
+## What to Order
 
-**Style note:** Shio (salt) ramen keeps a lighter, clearer soup — good when you want clarity over richness. Some regions lean seafood-forward broths.
+Afuri's fame rests largely on its **Yuzu Shio Ramen** – the primary recommendation for first-time visitors and an ideal introduction to their style.
 
-Small shops often close Mondays or the day after holidays — check Maps rest days.
+Upon entry, you'll use a **ticket vending machine** to place your order. Here’s a simple approach:
 
-Finally, holidays, seasonal closures, and last-order times change. Screenshot the Maps listing while you have data; if Afuri Harajuku is closed, search the same style within walking distance rather than treating this page as a booking. Editorial trip-planning only — not a reservation.
+1.  **Locate Yuzu Shio Ramen:** This is usually the most prominent option (柚子塩ラーメン), often with English text or a picture.
+2.  **Choose toppings/upgrades:** After selecting your ramen, the machine prompts for additions. Popular choices:
+    *   **Ajitama (味玉):** A seasoned soft-boiled egg.
+    *   **Chashu (チャーシュー):** Slices of tender braised pork.
+    *   **Char-grilled Chicken (炙り鶏):** A unique, smoky alternative.
+    *   **Extra Nori (のり増し):** Additional sheets of dried seaweed.
+3.  **Broth richness (optional):** Some machines allow choosing "konbu" (for a richer broth) or "tansa" (lighter). Sticking with the default is perfectly fine for a classic experience.
+4.  **Pay:** Insert cash (yen notes and coins typically) and collect your change and ticket. Hand the ticket to the staff.
+
+The "Shio" style features a clear, light broth, often made from chicken, fish, and vegetables, subtly seasoned with salt. The yuzu adds a bright, zesty aroma and flavor that creates a refreshing finish.
+
+## Visit Tips
+
+Navigating a popular ramen spot in Tokyo is straightforward with these tips.
+
+**Getting There:**
+Afuri Harajuku is conveniently located within walking distance of major stations:
+*   **Meiji-jingumae 'Harajuku' Station (Tokyo Metro Chiyoda Line, Fukutoshin Line):** Approximately 5-7 minute walk. Take Exit 2, turn left towards "Takeshita Street," then continue past the main hustle.
+*   **Harajuku Station (JR Yamanote Line):** Approximately 8-10 minute walk. Exit the station, cross towards Takeshita Street, then follow similar directions.
+*   The shop is situated slightly off the main thoroughfare; keep Google Maps open as you approach for precise navigation.
+
+**Queue & Timing:**
+*   **Expect a queue:** Afuri is popular. Lunch (12:00 PM – 1:30 PM) and dinner (6:00 PM – 8:00 PM) will almost certainly involve a wait.
+*   **Best times to visit:** Aim for slightly off-peak hours, such as mid-afternoon (2:00 PM – 4:00 PM) or late evening (after 8:00 PM).
+*   **Allow buffer time:** Even with fast turnover, budget **20-30 minutes** for your first visit during peak hours. If the line appears excessively long, consider your options.
+
+**Nearby Alternatives & Backup Plan:**
+*   **If Afuri is closed or the line is too long:** Don't panic. Harajuku and Shibuya are ramen-rich areas.
+*   **Explore other Afuri branches:** Search "Afuri Ramen" on Google Maps for other Tokyo locations (e.g., Shibuya, Shinjuku, Ebisu). Be aware that their specific menu items and hours might differ.
+*   **Discover local alternatives:** Use Google Maps to search "ramen" in your immediate vicinity. Be open to trying a different style; many excellent, lesser-known shops thrive in this area.
+
+**Operating Hours & Holidays:**
+*   **Always check Google Maps:** Before you head out, screenshot the current operating hours, last order times, and any specific holiday closures on Google Maps. This information is the most reliable and up-to-date.
+*   **General closures:** While Afuri's larger presence usually means consistent hours, seasonal or holiday adjustments can occur. Independent shops often close Mondays or the day after public holidays.
+
+**General Etiquette:**
+*   **Order quickly:** Have your choice in mind when you approach the ticket machine to keep the line moving.
+*   **Eat efficiently:** Ramen shops are designed for quick turnover. Enjoy your meal, but be mindful not to linger too long after finishing, especially if others are waiting.
+*   **Keep paths clear:** Place your bags under your seat or on designated hooks. Avoid blocking aisles or creating obstructions.
+
+Afuri Harajuku offers a memorable and refreshing ramen experience. With these tips, you're set for a smooth and delicious visit.
