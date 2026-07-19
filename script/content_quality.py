@@ -30,8 +30,29 @@ BLOCKED_GUIDE_IDS = frozenset(
 
 BLOCKED_GUIDE_ID_PREFIXES = ("guide_seed_", "guide_expand_")
 
-# Slug / name markers for non-ramen cafe filler.
-NON_RAMEN_SLUG_MARKERS = (
+# Name/Features/Address must signal ramen; otherwise reject.
+RAMEN_THEME_MARKERS = (
+    "ramen",
+    "tonkotsu",
+    "shoyu",
+    "shio",
+    "miso",
+    "tsukemen",
+    "menya",
+    "men-",
+    "noodle",
+    "noodles",
+    "라멘",
+    "라면",
+    "면야",
+    "츠케멘",
+    "돈코츠",
+    "쇼유",
+    "시오",
+)
+
+# Other verticals — never generate as ramen shops.
+FOREIGN_THEME_MARKERS = (
     "cafe",
     "latte",
     "roast",
@@ -41,7 +62,19 @@ NON_RAMEN_SLUG_MARKERS = (
     "bakery",
     "coffee",
     "brew",
+    "golf",
+    "country club",
+    "golfer",
+    "fairway",
+    "onsen",
+    "ryokan",
+    "rotenburo",
+    "温泉",
+    "旅館",
+    "골프",
 )
+
+NON_RAMEN_SLUG_MARKERS = FOREIGN_THEME_MARKERS
 
 BANNED_PHRASES = (
     "soul of the shop",
@@ -100,9 +133,20 @@ def is_blocked_guide_id(topic_id: str) -> bool:
     return any(tid.startswith(p) for p in BLOCKED_GUIDE_ID_PREFIXES)
 
 
-def is_non_ramen_slug(safe_name: str, display_name: str = "") -> bool:
-    blob = f"{safe_name} {display_name}".lower()
-    return any(m in blob for m in NON_RAMEN_SLUG_MARKERS)
+def is_non_ramen_slug(
+    safe_name: str,
+    display_name: str = "",
+    *,
+    features: str = "",
+    address: str = "",
+) -> bool:
+    """True when the row is off-theme for a ramen site (reject)."""
+    blob = f"{safe_name} {display_name} {features} {address}".lower()
+    if any(m in blob for m in FOREIGN_THEME_MARKERS):
+        return True
+    if any(m in blob for m in RAMEN_THEME_MARKERS):
+        return False
+    return True
 
 
 def has_real_shop_data(*, lat, lng, address: str) -> bool:

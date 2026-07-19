@@ -26,7 +26,7 @@ good_for: 추운 날 든든한 한 그릇
 
 **대기·영업:** 인기 시간대(점심 12~13시, 저녁 18~20시)에는 10~30분 대기가 나올 수 있습니다. 키오스크가 있으면 현금 필요 여부를 미리 확인하고, 일본어 메뉴는 사진·한자 키워드(라멘·차슈·미소)로 대략 파악할 수 있습니다.
 
-**함께 가기 좋은 곳:** 주변 지역 산책·다음 식사 계획과 연결해 보세요. 같은 Hokkaido 안에서 스타일이 다른 가게를 하루 간격으로 비교하면 입맛에 맞는 쪽을 찾기 쉽습니다. 같은 지역 다른 가게: [Ramen Sapporo Akaboshi](/ramen/ramen_sapporo_akaboshi_ko), [Ramen Sapporo Ichiryu](/ramen/ramen_sapporo_ichiryu_ko).
+**함께 가기 좋은 곳:** 주변 지역 산책·다음 식사 계획과 연결해 보세요. 같은 Hokkaido 안에서 스타일이 다른 가게를 하루 간격으로 비교하면 입맛에 맞는 쪽을 찾기 쉽습니다. 같은 지역 다른 가게: Ramen Sapporo Akaboshi, [Ramen Sapporo Ichiryu](/ramen/ramen_sapporo_ichiryu_ko).
 
 **메모:** Hokkaido 미소 라멘은 지역마다 농도가 다릅니다. 삿포로·홋카이도는 볶은 미소 다레와 버터·옥수수 토핑이 흔하고, 도쿄보다 진한 편인 경우가 많습니다.
 

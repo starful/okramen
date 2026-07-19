@@ -59,7 +59,7 @@ Ippudo Daimyo is conveniently located in the Chuo district of Fukuoka. The most 
 **Nearby Alternatives:**
 If Ippudo Daimyo's queue is too long, or if you simply wish to explore other excellent ramen options in the Chuo area, Fukuoka offers plenty. The Chuo district is a fantastic place to enjoy a reliable and high-quality bowl of ramen. For a one-time trip, matching open hours with your itinerary is often more crucial than finding a 'perfect' alternative.
 Consider these nearby options for different ramen experiences:
-*   [Menya Masamoto](/ramen/menya_masamoto_en): Another highly regarded ramen shop in Fukuoka, offering a distinct take on the local style.
+*   Menya Masamoto: Another highly regarded ramen shop in Fukuoka, offering a distinct take on the local style.
 *   [Nagahama No.1](/ramen/nagahama_no.1_en): Known for its classic Nagahama-style tonkotsu, which is often considered a progenitor of Hakata ramen.
 
 Always double-check the current operating hours, last-order times, and any seasonal closures or national holidays via the mapping apps before heading out, as these can change without much notice, especially for independent shops.

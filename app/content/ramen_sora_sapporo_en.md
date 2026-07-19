@@ -27,7 +27,7 @@ good_for: Cold-weather comfort bowls
 
 **Wait & hours:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Nearby:** Pair with other Hokkaido stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Ganso Sapporo Ramen Yokocho](/ramen/ganso_sapporo_ramen_yokocho_en), [Hakodate Morning Market Cafe](/ramen/hakodate_morning_market_cafe_en).
+**Nearby:** Pair with other Hokkaido stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Ganso Sapporo Ramen Yokocho](/ramen/ganso_sapporo_ramen_yokocho_en), Hakodate Morning Market Cafe.
 
 **Extra:** Hokkaido miso ramen varies by city — Sapporo/Hokkaido styles often use stir-fried miso tare and butter-corn toppings; Tokyo versions can be lighter.
 

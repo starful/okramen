@@ -26,7 +26,7 @@ good_for: Trip planning before you land
 
 **Queue & ordering:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Area:** Pair with other Kanagawa stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Yokohama Minato Mirai Cafe](/ramen/yokohama_minato_mirai_cafe_en), [Kamakura Komachi Drip](/ramen/kamakura_komachi_drip_en).
+**Area:** Pair with other Kanagawa stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times.
 
 **Style note:** Shoyu ramen is about soy tare plus broth balance. Kyoto/Tokyo bowls often look clearer than tonkotsu; saltiness depends on local soy blend.
 

@@ -115,5 +115,16 @@ def main():
     if backfilled:
         print(f"📅 date 백필: {backfilled}개 MD")
 
+
+    try:
+        from build_sitemap import main as build_sitemap_main
+
+        code = build_sitemap_main()
+        if code:
+            print(f"⚠️ sitemap refresh exit={code}")
+    except Exception as e:
+        print(f"⚠️ sitemap refresh failed: {e}")
+
+
 if __name__ == "__main__":
     main()

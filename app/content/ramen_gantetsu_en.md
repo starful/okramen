@@ -30,7 +30,7 @@ good_for: Cold-weather comfort bowls
 
 **Before you go:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Getting there:** Pair with other Hokkaido stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Ramen Shirakaba Sansou](/ramen/ramen_shirakaba_sansou_en), [Ramen Sora](/ramen/ramen_sora_en).
+**Getting there:** Pair with other Hokkaido stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: Ramen Shirakaba Sansou, [Ramen Sora](/ramen/ramen_sora_en).
 
 **Reference:** Hokkaido miso ramen varies by city — Sapporo/Hokkaido styles often use stir-fried miso tare and butter-corn toppings; Tokyo versions can be lighter.
 

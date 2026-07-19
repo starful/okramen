@@ -38,7 +38,7 @@ description: Beat the queue at Honke Daiichi Asahi near Kyoto Station. Discover 
 
 **Wait & hours:** Peak queues happen 11:30 a.m.–2 p.m. and 6–8 p.m. Early morning (right after opening) or late evening is usually calmer. Turnover is fast — most diners finish in 15–20 minutes. Payment may be ticket machine or counter; cash-only days still happen in Kyoto, so check signage at the entrance. There is no reservation system. If the line looks long, screenshot the Maps listing and compare nearby shoyu shops rather than waiting without a plan.
 
-**Nearby:** Located in Shimogyo, walking distance from Kyoto Station’s central exit area and Umekoji Park. Works well as a first meal in Kyoto or a late bowl after a day in Fushimi or Arashiyama (train back to Kyoto Station). For a second comparison bowl on another day, Shinpuku Saikan and other station-area shoyu shops are nearby — Kyoto shoyu is about clarity and soy balance, not richness alone. More in the area: [Kyoto Gogyo](/ramen/kyoto_gogyo_en), [Mennoya Kyoto](/ramen/mennoya_kyoto_en).
+**Nearby:** Located in Shimogyo, walking distance from Kyoto Station’s central exit area and Umekoji Park. Works well as a first meal in Kyoto or a late bowl after a day in Fushimi or Arashiyama (train back to Kyoto Station). For a second comparison bowl on another day, Shinpuku Saikan and other station-area shoyu shops are nearby — Kyoto shoyu is about clarity and soy balance, not richness alone. More in the area: [Kyoto Gogyo](/ramen/kyoto_gogyo_en), Mennoya Kyoto.
 
 **Extra:** Shoyu ramen is about soy tare plus broth balance. Kyoto/Tokyo bowls often look clearer than tonkotsu; saltiness depends on local soy blend.
 

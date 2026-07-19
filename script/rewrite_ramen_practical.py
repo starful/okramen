@@ -741,6 +741,12 @@ def merge_sibling_meta(post: dict, path: Path) -> dict:
 
 def related_slugs(base: str, lang: str, region: str, index: dict[tuple[str, str], list[str]]) -> list[str]:
     peers = [s for s in index.get((lang, region), []) if s != base]
+    # Only link to peers that still have content files.
+    peers = [
+        s
+        for s in peers
+        if (CONTENT_DIR / f"{s}_{lang}.md").is_file()
+    ]
     if not peers:
         return []
     h = int(hashlib.md5(base.encode()).hexdigest(), 16)

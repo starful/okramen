@@ -26,7 +26,7 @@ good_for: Trip planning before you land
 
 **Queue & ordering:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Area:** Pair with other Tokyo stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Ebisoba Ichigen Shinjuku](/ramen/ebisoba_ichigen_shinjuku_en), [Ebisu Workbench Cafe](/ramen/ebisu_workbench_cafe_en).
+**Area:** Pair with other Tokyo stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Ebisoba Ichigen Shinjuku](/ramen/ebisoba_ichigen_shinjuku_en), Ebisu Workbench Cafe.
 
 **Style note:** Chicken ramen style differs shop by shop in noodle cut and broth weight — read the board before ordering.
 

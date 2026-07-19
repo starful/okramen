@@ -29,7 +29,7 @@ good_for: Comparing several stalls in one visit
 
 **Ordering:** Seating is mostly counter-only, so short waits appear at dinner and on weekends. Ticket, cash, and card rules differ per stall — check at the door. Hours are per shop, not lane-wide; use the Maps link above for the specific pin you choose.
 
-**Area:** Often walkable from hotels and nightlife in Chuo; good for a late bowl or comparing two stalls on separate nights. If you plan two bowls in one evening, check noodle portion size on each board first. More in the area: [AJI NO Kura](/ramen/aji_no_kura_en), [Ganso Nagahamaya](/ramen/ganso_nagahamaya_en).
+**Area:** Often walkable from hotels and nightlife in Chuo; good for a late bowl or comparing two stalls on separate nights. If you plan two bowls in one evening, check noodle portion size on each board first. More in the area: AJI NO Kura, [Ganso Nagahamaya](/ramen/ganso_nagahamaya_en).
 
 **Tip:** Tonkotsu means pork-bone broth. Hakata styles are milky and dense; Tokyo bowls may mix shoyu or add heavier seabura (fat back).
 

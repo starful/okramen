@@ -28,7 +28,7 @@ seo_description: "Sumire Sapporo: classic Hokkaido miso ramen (lard, ginger, wav
 
 **Queue & ordering:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Area:** Pair with other Hokkaido stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Menya Saimi](/ramen/menya_saimi_en), [Menya Saita](/ramen/menya_saita_en).
+**Area:** Pair with other Hokkaido stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Menya Saimi](/ramen/menya_saimi_en), Menya Saita.
 
 **Style note:** Hokkaido miso ramen varies by city — Sapporo/Hokkaido styles often use stir-fried miso tare and butter-corn toppings; Tokyo versions can be lighter.
 

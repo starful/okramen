@@ -31,7 +31,7 @@ description: "Visitor guide to Menya Musashi Shinjuku: W-soup tonkotsu ramen, wh
 
 **Wait & hours:** Weekday lunch 11:30–13:30 and weekend dinner are busiest. Ticket machine near the entrance — buy before sitting if instructed. Counter seats fill in waves; solo diners get seated faster than large groups. English on the machine is limited; follow the top-row photos for ‘recommended’ bowls. No reservations.
 
-**Nearby:** Walkable from Shinjuku Station’s east and south exits — easy to combine with Kabukicho, Shinjuku Gyoen, or a transfer-day stop. If the queue exceeds 30 minutes, consider another Shinjuku tonkotsu shop on the map for the same trip rather than one shop only. More in the area: [Ramen Setagaya](/ramen/ramen_setagaya_en), [Ramen Sharin](/ramen/ramen_sharin_en).
+**Nearby:** Walkable from Shinjuku Station’s east and south exits — easy to combine with Kabukicho, Shinjuku Gyoen, or a transfer-day stop. If the queue exceeds 30 minutes, consider another Shinjuku tonkotsu shop on the map for the same trip rather than one shop only. More in the area: Ramen Setagaya, [Ramen Sharin](/ramen/ramen_sharin_en).
 
 **Ordering notes:** Black (garlic) and red (spicy) bowls share the same W-soup base — pick one, not both on a first visit. Kaedama is only worth it if you have broth left; Musashi portions are already filling. Shinjuku Station has many exits; pin the shop on Maps before you leave the ticket gates to avoid a long walk.
 

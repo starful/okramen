@@ -29,7 +29,7 @@ good_for: Trip planning before you land
 
 **Queues:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Around:** Pair with other Fukuoka stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Ichiran Fukuoka Main](/ramen/ichiran_fukuoka_main_en), [Ippudo Daimyo](/ramen/ippudo_daimyo_en).
+**Around:** Pair with other Fukuoka stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: Ichiran Fukuoka Main, [Ippudo Daimyo](/ramen/ippudo_daimyo_en).
 
 **Tip:** Tonkotsu means pork-bone broth. Hakata styles are milky and dense; Tokyo bowls may mix shoyu or add heavier seabura (fat back).
 

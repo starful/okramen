@@ -35,7 +35,7 @@ seo_description: Taste history at Asahikawa Ramen Aoba! Get menu highlights, wha
 
 **Queues:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Around:** Pair with other Hokkaido stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Ramen Shingen](/ramen/ramen_shingen_en), [Ramen Shirakaba Sansou](/ramen/ramen_shirakaba_sansou_en).
+**Around:** Pair with other Hokkaido stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Ramen Shingen](/ramen/ramen_shingen_en), Ramen Shirakaba Sansou.
 
 **Tip:** Shoyu ramen is about soy tare plus broth balance. Kyoto/Tokyo bowls often look clearer than tonkotsu; saltiness depends on local soy blend.
 

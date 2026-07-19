@@ -36,7 +36,7 @@ description: 'Is the Naruto ramen shop real? Yes! Get the ultimate guide to Fuku
 
 **Wait & hours:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Nearby:** Pair with other Fukuoka stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Menya Masamoto](/ramen/menya_masamoto_en), [Nagahama No.1](/ramen/nagahama_no.1_en).
+**Nearby:** Pair with other Fukuoka stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times.1](/ramen/nagahama_no.1_en).
 
 **Extra:** Tonkotsu means pork-bone broth. Hakata styles are milky and dense; Tokyo bowls may mix shoyu or add heavier seabura (fat back).
 

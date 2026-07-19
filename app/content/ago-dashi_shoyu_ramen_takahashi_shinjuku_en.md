@@ -28,7 +28,7 @@ good_for: Trip planning before you land
 
 **Queues:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Around:** Pair with other Tokyo stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Kyushu Jangara Akihabara](/ramen/kyushu_jangara_akihabara_en), [Marunouchi Blend LAB](/ramen/marunouchi_blend_lab_en).
+**Around:** Pair with other Tokyo stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Kyushu Jangara Akihabara](/ramen/kyushu_jangara_akihabara_en), Marunouchi Blend LAB.
 
 **Tip:** Shoyu ramen is about soy tare plus broth balance. Kyoto/Tokyo bowls often look clearer than tonkotsu; saltiness depends on local soy blend.
 

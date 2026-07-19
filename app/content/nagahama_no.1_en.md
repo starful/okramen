@@ -63,7 +63,7 @@ Optimize your visit to Nagahama No.1 with these practical tips:
 **Cash Preparedness:** Reinforcing previous advice, be sure to have Japanese yen in small denominations (coins and ¥1,000 bills) available, as ticket machines are frequently cash-only.
 
 **Nearby Alternatives & Pairing Your Visit:** While Nagahama No.1 offers a classic Tonkotsu experience, Fukuoka boasts many other excellent ramen options, providing good alternatives or complementary visits:
-*   [Ichiran Fukuoka Main](/ramen/ichiran_fukuoka_main_en): Renowned for its unique solo dining booths and highly customizable ramen.
+*   Ichiran Fukuoka Main: Renowned for its unique solo dining booths and highly customizable ramen.
 *   [Ippudo Daimyo](/ramen/ippudo_daimyo_en): A well-known chain offering a more refined Tonkotsu, often with distinct broth styles.
 These shops offer different facets of the Tonkotsu experience and can be great backups if Nagahama No.1 is too crowded, or if you simply want to compare styles.
 

@@ -35,7 +35,7 @@ seo_description: Discover Ramen ZEN in Fukuoka! Enjoy delicious, ultra-cheap Hak
 
 **Before you go:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Getting there:** Pair with other Fukuoka stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Ramen Kairyu](/ramen/ramen_kairyu_en), [Tairyo Ramen](/ramen/tairyo_ramen_en).
+**Getting there:** Pair with other Fukuoka stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Ramen Kairyu](/ramen/ramen_kairyu_en), Tairyo Ramen.
 
 **Reference:** Tonkotsu means pork-bone broth. Hakata styles are milky and dense; Tokyo bowls may mix shoyu or add heavier seabura (fat back).
 

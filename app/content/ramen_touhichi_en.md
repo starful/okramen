@@ -30,7 +30,7 @@ good_for: Trip planning before you land
 
 **Queue & ordering:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Area:** Pair with other Kyoto stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Mennoya Kyoto](/ramen/mennoya_kyoto_en), [Menya Inoichi](/ramen/menya_inoichi_en).
+**Area:** Pair with other Kyoto stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: Mennoya Kyoto, [Menya Inoichi](/ramen/menya_inoichi_en).
 
 **Style note:** Shoyu ramen is about soy tare plus broth balance. Kyoto/Tokyo bowls often look clearer than tonkotsu; saltiness depends on local soy blend.
 

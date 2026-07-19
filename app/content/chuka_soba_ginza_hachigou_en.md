@@ -26,7 +26,7 @@ good_for: Trip planning before you land
 
 **Queue & ordering:** Plan extra time at lunch (12:00–13:00) and dinner (18:00–20:00). Read the ticket screen photos if the menu is Japanese-only — look for ramen, chashu, miso, shoyu keywords.
 
-**Area:** Pair with other Tokyo stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Tsuta](/ramen/tsuta_en), [Ueno Parkside Drip](/ramen/ueno_parkside_drip_en).
+**Area:** Pair with other Tokyo stops the same day or compare two styles on separate days. On-site signage and Maps beat any third-party summary for holidays and last order times. More in the area: [Tsuta](/ramen/tsuta_en), Ueno Parkside Drip.
 
 **Style note:** Shio (salt) ramen keeps a lighter, clearer soup — good when you want clarity over richness. Some regions lean seafood-forward broths.
 

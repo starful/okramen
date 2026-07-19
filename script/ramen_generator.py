@@ -180,7 +180,7 @@ def generate_ramen_article(safe_name, name, lat, lng, address, lang, features, a
     filename = f"{safe_name}_{lang}.md"
     path = os.path.join(CONTENT_DIR, filename)
 
-    if is_non_ramen_slug(safe_name, name):
+    if is_non_ramen_slug(safe_name, name, features=features, address=address):
         return f"⏭️ Skip non-ramen: {filename}"
 
     if not has_real_shop_data(lat=lat, lng=lng, address=address):
@@ -264,7 +264,7 @@ def run_generator(limit=10):
             features = row.get("Features", "")
             agoda = row.get("Agoda", "")
 
-            if is_non_ramen_slug(safe_name, name):
+            if is_non_ramen_slug(safe_name, name, features=features, address=address):
                 print(f"⏭️ Queue skip non-ramen: {name}")
                 skipped += 1
                 continue

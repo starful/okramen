@@ -26,7 +26,7 @@ good_for: Tsukemen fans and noodle-texture seekers
 
 **Queue & hours:** Lunch queues are common. Eat promptly so noodles stay firm. Confirm cash vs ticket machine at the entrance.
 
-**Area:** Works as a focused meal in Shinjuku between sightseeing blocks. Tsukemen fills you quickly — plan it as a main meal, not a light snack before dinner. More in the area: [Taiyou NO Tomatomen](/ramen/taiyou_no_tomatomen_en), [Tantanmen Sandaime](/ramen/tantanmen_sandaime_en).
+**Area:** Works as a focused meal in Shinjuku between sightseeing blocks. Tsukemen fills you quickly — plan it as a main meal, not a light snack before dinner. More in the area: [Taiyou NO Tomatomen](/ramen/taiyou_no_tomatomen_en), Tantanmen Sandaime.
 
 **Style note:** Tsukemen serves noodles and broth separately. The dip is concentrated; soup-wari at the end dilutes leftovers into a drinkable soup.
 
