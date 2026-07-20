@@ -15,16 +15,17 @@ lng: 139.7011
 shop_name: Ebisoba Ichigen Shinjuku
 summary: Tokyo Ebisoba Ichigen Shinjuku — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/ebisoba_ichigen_shinjuku.jpg
-title: 에비스바 이치겐 신주쿠 (Ebisoba Ichigen Shinjuku) — 도쿄 새우라멘 가이드
+title: 에비소바 이치겐 신주쿠점 — 도쿄 새우라멘 맛집 가이드
 one_liner: Tokyo 미소 라멘 — Ebisoba Ichigen Shinjuku. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 기본 미소 라멘 — 버터·옥수수·매운맛 옵션 확인
 good_for: 추운 날 든든한 한 그릇
-description: "삿포로에서 온 진한 새우 육수 라멘 맛집 '에비스바 이치겐 신주쿠점' 완벽 가이드! 인기 메뉴, 위치, 영업시간 정보를 OKRamen에서\
-  \ 지금 확인해 보세요."
-seo_title: "에비스바 이치겐 신주쿠 도쿄 새우라멘 맛집 | OKRamen"
-seo_description: "삿포로에서 온 진한 새우 육수 라멘 맛집 '에비스바 이치겐 신주쿠점' 완벽 가이드! 인기 메뉴, 위치, 영업시간 정보를\
-  \ OKRamen에서 지금 확인해 보세요."
+description: 삿포로 명물 새우라멘을 도쿄에서! 신주쿠 에비소바 이치겐의 대표 메뉴 추천부터 주문 팁, 위치 정보까지 OKRamen에서 확인해
+  보세요.
+seo_title: 신주쿠 에비소바 이치겐 도쿄 새우라멘 맛집 | OKRamen
+seo_description: 삿포로에서 온 진한 새우 육수 라멘 맛집 '에비소바 이치겐 신주쿠점' 완벽 가이드! 인기 메뉴, 주문 방법, 위치 정보를
+  OKRamen에서 확인하세요.
 ---
+
 
 lang: ko
 title: 신주쿠 에비소바 이치겐: 새우 향 가득, 홋카이도식 미소 라멘 현지처럼 즐기기

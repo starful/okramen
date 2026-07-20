@@ -15,18 +15,19 @@ shop_name: Menya Saimi
 summary: 'Menya Saimi in Hokkaido: Miso ramen — practical guide to queues, ordering,
   and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/menya_saimi.jpg
-title: 'Menya Saimi: The Ultimate Guide to Sapporo''s Best Miso Ramen'
+title: 'Menya Saimi: Sapporo''s Ultimate Ginger Miso Ramen Guide'
 one_liner: Miso ramen at Menya Saimi, Hokkaido. Verify hours and holidays on Maps
   before you go.
 what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-style
   toppings.
 good_for: Cold-weather comfort bowls
-seo_title: 'Menya Saimi: Ultimate Guide to Sapporo''s Legendary Miso Ramen'
-seo_description: Plan your visit to Menya Saimi in Sapporo. Learn how to beat the
-  queue, what to order, and why this ginger-miso ramen is legendary.
-description: Plan your visit to Menya Saimi in Sapporo. Learn how to beat the queue,
-  what to order, and why this ginger-miso ramen is legendary.
+seo_title: 'Menya Saimi: Is Sapporo''s #1 Miso Ramen Worth the Wait?'
+seo_description: 'Planning a visit to Menya Saimi? Learn how to beat the long queue,
+  what to order, and why this legendary ginger-miso ramen is ranked #1 in Sapporo.'
+description: 'Planning a visit to Menya Saimi? Learn how to beat the long queue, what
+  to order, and why this legendary ginger-miso ramen is ranked #1 in Sapporo.'
 ---
+
 
 
 

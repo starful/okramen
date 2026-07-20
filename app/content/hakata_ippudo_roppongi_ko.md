@@ -15,16 +15,17 @@ lng: 139.7311
 shop_name: Hakata Ippudo Roppongi
 summary: Tokyo Hakata Ippudo Roppongi — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/hakata_ippudo_roppongi.jpg
-title: 하카타 잇푸도 롯폰기점 (Hakata Ippudo Roppongi)
+title: 하카타 잇푸도 롯폰기점 - 도쿄 롯폰기 라멘 맛집 가이드
 one_liner: Tokyo 돈코츠 라멘 — Hakata Ippudo Roppongi. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 시그니처 돈코츠 — 차슈·면 추가(가에다마)는 매장 규칙 확인
 good_for: 여행 전 일정 잡기
-description: 도쿄 롯폰기에서 즐기는 정통 하카타 돈코츠 라멘 맛집, 하카타 잇푸도 롯폰기점의 위치, 영업시간, 인기 추천 메뉴 정보를 확인해
-  보세요.
-seo_title: 하카타 잇푸도 롯폰기점 - 도쿄 롯폰기 돈코츠 라멘 맛집 | OKRamen
-seo_description: 도쿄 롯폰기 라멘 맛집 '하카타 잇푸도 롯폰기점' 완벽 가이드! 진한 돈코츠 라멘, 영업시간, 위치, 추천 메뉴 정보를
-  OKRamen 지도에서 확인하세요.
+description: 도쿄 롯폰기에서 즐기는 진한 돈코츠 라멘 맛집, 하카타 잇푸도 롯폰기점의 상세한 메뉴 추천, 영업시간, 위치 및 이용 꿀팁을
+  담은 가이드입니다.
+seo_title: 하카타 잇푸도 롯폰기점 | 도쿄 롯폰기 돈코츠 라멘 맛집 메뉴 & 영업시간 | OKRamen
+seo_description: 도쿄 롯폰기 대표 맛집 '하카타 잇푸도 롯폰기점' 완벽 가이드! 진한 돈코츠 라멘 추천 메뉴, 가격, 영업시간, 위치
+  정보를 지금 확인하세요.
 ---
+
 
 
 lang: ko

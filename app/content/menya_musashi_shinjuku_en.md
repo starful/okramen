@@ -8,22 +8,22 @@ lang: en
 lat: 35.6934
 lng: 139.7001
 shop_name: Menya Musashi Shinjuku
-summary: "Menya Musashi Shinjuku in Tokyo: Tonkotsu ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Menya Musashi Shinjuku in Tokyo: Tonkotsu ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/menya_musashi_shinjuku.jpg
-title: Menya Musashi Shinjuku — Tokyo Tonkotsu ramen guide
+title: 'Menya Musashi Shinjuku: Ultimate Tokyo Ramen Guide'
 one_liner: Tonkotsu ramen at Menya Musashi Shinjuku, Tokyo. Verify hours and holidays
   on Maps before you go.
 what_to_order: Black or red W-soup (dual-broth) signature bowl; kaedama if you finish
   broth with noodles left.
 good_for: Trip planning before you land
-seo_title: "Menya Musashi Shinjuku: W-soup tonkotsu guide | OKRamen"
-seo_description: "Practical guide to Menya Musashi Shinjuku in Tokyo: W-soup (dual-broth)\
-  \ tonkotsu, black and red bowls, ticket machine tips, and typical queue times. This\
-  \ branch serves ramen in broth, not tsukemen — confirm hours on Google Maps."
-description: "Visitor guide to Menya Musashi Shinjuku: W-soup tonkotsu ramen, what\
-  \ to order, queue tips, and ticket machine notes for the Shinjuku flagship."
+seo_title: 'Menya Musashi Shinjuku: Guide to Tokyo''s Legendary Ramen | OKRamen'
+seo_description: 'Want to try Tokyo''s legendary thick-chashu ramen? Here is your
+  guide to Menya Musashi Shinjuku: menu recommendations, ordering tips, and wait times.'
+description: Your complete guide to visiting the legendary Menya Musashi Shinjuku.
+  Discover what to order, ticket machine tips, and how to avoid the long queues.
 ---
+
 
 **What to expect:** Menya Musashi Shinjuku is the flagship of a chain founded by a former student of the original Musashi style — famous for W-soup (dual broth): tonkotsu blended with a second stock for depth without pure white Hakata heaviness. The Shinjuku location sits in one of Tokyo’s busiest dining zones; lunch and dinner queues are normal, not a sign of trouble.
 

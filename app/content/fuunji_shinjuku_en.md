@@ -11,18 +11,19 @@ shop_name: Fuunji Shinjuku
 summary: 'Fuunji Shinjuku in Tokyo: tsukemen (dipping noodles) — practical notes on
   queues, ordering, and how to eat the bowl. Verify hours on Maps.'
 thumbnail: /static/images/fuunji_shinjuku.jpg
-title: 'Fuunji Shinjuku: Ultimate Tsukemen & Ordering Guide'
+title: 'Fuunji Shinjuku Tsukemen: Ultimate Visitor & Ordering Guide'
 one_liner: 'Tsukemen specialist in Tokyo: noodles and broth served separately. Verify
   hours and holidays on Maps before you go.'
 what_to_order: Standard tsukemen set; ask for soup-wari (broth dilution) after noodles
   if offered.
 good_for: Tsukemen fans and noodle-texture seekers
-seo_title: 'Fuunji Shinjuku Tsukemen: How to Beat the Line & Order | OKRamen'
-seo_description: Conquer the queue at Fuunji Shinjuku! Learn how to order their famous
-  tsukemen, average wait times, soup-wari tips, and how to eat like a local.
-description: Conquer the queue at Fuunji Shinjuku! Learn how to order their famous
-  tsukemen, average wait times, soup-wari tips, and how to eat like a local.
+seo_title: 'Fuunji Shinjuku: How to Order & Beat the Tsukemen Line'
+seo_description: Want Tokyo's best tsukemen? Learn how to order at Fuunji Shinjuku,
+  buy tickets, beat the long lines, and eat like a local with our ultimate guide.
+description: Want Tokyo's best tsukemen? Learn how to order at Fuunji Shinjuku, buy
+  tickets, beat the long lines, and eat like a local with our ultimate guide.
 ---
+
 
 
 **Intro:** Fuunji Shinjuku (風雲児) is a tsukemen specialist near Yoyogi — noodles and concentrated dipping broth served separately, not a soup bowl. The dip blends chicken and seafood stock for a thick, umami-heavy tsuke soup. Lunch queues of 30–60 minutes are common on weekdays; the shop has Bib Gourmand recognition, which adds tourist traffic.

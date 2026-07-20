@@ -12,20 +12,20 @@ summary: Dive into Ippudo Ginza, a dependable choice for Hakata-style Tonkotsu r
   This guide provides practical tips on ordering, managing queues, getting there,
   and discovering alternatives for your Tokyo trip.
 thumbnail: /static/images/ippudo_ginza.jpg
-title: "Ippudo Ginza: Your Guide to Premium Tonkotsu Ramen in Tokyo"
+title: 'Ippudo Ginza Ramen Guide: Menu, Tips & Location'
 one_liner: Tonkotsu ramen at Ippudo Ginza, 4-10-3 Ginza. Verify hours and holidays
   on Maps before you go.
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
-description: "Heading to Ippudo Ginza? Skip the long lines with our insider queue\
-  \ tips. Check out the latest tonkotsu menu, hours, and directions here!"
-seo_title: "Ippudo Ginza Ramen Guide: Tonkotsu, Ordering Tips, & Location"
-seo_description: Planning your ramen experience at Ippudo Ginza? Get essential advice
-  on their signature tonkotsu, navigate queues like a local, find directions to 4-10-3
-  Ginza, and explore nearby dining options.
+description: Planning a visit to Ippudo Ginza? Discover the best tonkotsu ramen, explore
+  the menu, and get insider tips on how to beat the queues.
+seo_title: 'Ippudo Ginza Ramen Guide: Menu, Tips & Queue Hacks'
+seo_description: Planning a visit to Ippudo Ginza? Discover the best tonkotsu ramen,
+  explore the menu, and get insider tips on how to beat the queues.
 slug: ippudo_ginza
 ---
+
 
 ## Overview
 
