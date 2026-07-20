@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026.07.19",
-  "total_count": 204,
+  "last_updated": "2026.07.20",
+  "total_count": 206,
   "ramens": [
+    {
+      "id": "ramen_danbo_fukuoka_ko",
+      "lang": "ko",
+      "title": "후쿠오카 돈코츠 라멘의 정수, 단보 라멘 후쿠오카점 웨이팅 가이드",
+      "lat": 33.5861,
+      "lng": 130.4024,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_danbo_fukuoka.jpg",
+      "address": "Fukuoka, Fukuoka-shi",
+      "published": "2026-07-20",
+      "summary": "후쿠오카 현지인들이 사랑하는 진한 돈코츠 라멘 맛집, 단보 라멘에서 웨이팅 없이 즐기는 팁과 주문 가이드를 전합니다.",
+      "link": "/ramen/ramen_danbo_fukuoka_ko"
+    },
+    {
+      "id": "ramen_danbo_fukuoka_en",
+      "lang": "en",
+      "title": "Ramen Danbo Fukuoka: Deciding to Queue for Authentic Tonkotsu",
+      "lat": 33.5861,
+      "lng": 130.4024,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_danbo_fukuoka.jpg",
+      "address": "Fukuoka, Fukuoka-shi",
+      "published": "2026-07-20",
+      "summary": "Navigate the rich, customizable tonkotsu ramen experience at Ramen Danbo Fukuoka, a local favorite for discerning ramen travelers.",
+      "link": "/ramen/ramen_danbo_fukuoka_en"
+    },
     {
       "id": "ramen_mugyu_karasuma_ko",
       "lang": "ko",
@@ -85,7 +117,7 @@
     {
       "id": "menya_takeichi_shinbashi_en",
       "lang": "en",
-      "title": "Menya Takeichi Shinbashi — Tokyo Chicken ramen ramen guide",
+      "title": "Menya Takeichi Shinbashi: Tokyo’s Premier Chicken Ramen",
       "lat": 35.6661,
       "lng": 139.7554,
       "categories": [
@@ -197,7 +229,7 @@
     {
       "id": "ramen_takahashi_shinjuku_ko",
       "lang": "ko",
-      "title": "Ramen Takahashi Shinjuku — Tokyo 시오 라멘 가이드",
+      "title": "Ramen Takahashi Shinjuku (라멘 타카하시 신주쿠 본점)",
       "lat": 35.6938,
       "lng": 139.7011,
       "categories": [
@@ -805,7 +837,7 @@
     {
       "id": "hakata_ippudo_roppongi_ko",
       "lang": "ko",
-      "title": "Hakata Ippudo Roppongi — Tokyo 돈코츠 라멘 가이드",
+      "title": "하카타 잇푸도 롯폰기점 (Hakata Ippudo Roppongi)",
       "lat": 35.6611,
       "lng": 139.7311,
       "categories": [
@@ -1077,7 +1109,7 @@
     {
       "id": "ramen_mutsumiya_en",
       "lang": "en",
-      "title": "Ramen Mutsumiya: Your Essential Guide to Sapporo Miso Ramen",
+      "title": "Ramen Mutsumiya Guide: Legendary Hokkaido Miso Ramen",
       "lat": 43.0611,
       "lng": 141.3511,
       "categories": [
@@ -1301,7 +1333,7 @@
     {
       "id": "ramen_kairyu_en",
       "lang": "en",
-      "title": "Ramen Kairyu — Fukuoka Tonkotsu ramen guide",
+      "title": "Ramen Kairyu: Fukuoka's Legendary Kurume Tonkotsu",
       "lat": 33.8811,
       "lng": 130.8811,
       "categories": [
@@ -1781,7 +1813,7 @@
     {
       "id": "ramen_kuryu_en",
       "lang": "en",
-      "title": "Ramen Kuryu — Hokkaido Miso ramen guide",
+      "title": "Ramen Kuryu — Hokkaido Miso Ramen Guide",
       "lat": 43.0622,
       "lng": 141.3544,
       "categories": [
@@ -1829,7 +1861,7 @@
     {
       "id": "menya_saimi_ko",
       "lang": "ko",
-      "title": "Menya Saimi — Hokkaido 미소 라멘 가이드",
+      "title": "멘야 사이미 (Menya Saimi) — 삿포로 미소라멘 맛집 가이드",
       "lat": 43.0311,
       "lng": 141.3911,
       "categories": [
@@ -2069,7 +2101,7 @@
     {
       "id": "ichiraku_ramen_en",
       "lang": "en",
-      "title": "Ichiraku Ramen: Guide to the Real Naruto Shop in Fukuoka",
+      "title": "The Real Ichiraku Ramen: Naruto's Fukuoka Shop Guide",
       "lat": 33.6611,
       "lng": 130.4411,
       "categories": [
@@ -2613,7 +2645,7 @@
     {
       "id": "goryo_ramen_en",
       "lang": "en",
-      "title": "Goryo Ramen — Kyoto Shoyu ramen guide",
+      "title": "Goryo Ramen Kyoto — Menu, Hours & Guide",
       "lat": 35.0116,
       "lng": 135.7595,
       "categories": [
@@ -3093,7 +3125,7 @@
     {
       "id": "fuunji_shinjuku_en",
       "lang": "en",
-      "title": "Fuunji Shinjuku — Tokyo Tsukemen ramen guide",
+      "title": "Fuunji Shinjuku: Ultimate Tsukemen & Ordering Guide",
       "lat": 35.6875,
       "lng": 139.6961,
       "categories": [

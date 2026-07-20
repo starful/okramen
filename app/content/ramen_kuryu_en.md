@@ -12,16 +12,22 @@ lang: en
 lat: 43.0622
 lng: 141.3544
 shop_name: Ramen Kuryu
-summary: "Ramen Kuryu in Hokkaido: Miso ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Kuryu in Hokkaido: Miso ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_kuryu.jpg
-title: Ramen Kuryu — Hokkaido Miso ramen guide
+title: Ramen Kuryu — Hokkaido Miso Ramen Guide
 one_liner: Miso ramen at Ramen Kuryu, Hokkaido. Verify hours and holidays on Maps
   before you go.
 what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-style
   toppings.
 good_for: Cold-weather comfort bowls
+description: Discover Ramen Kuryu in Hokkaido. Famous for rich miso ramen, find current
+  hours, location, and must-order menu items in our expert guide.
+seo_title: 'Ramen Kuryu Guide: Authentic Hokkaido Miso Ramen | OKRamen'
+seo_description: Discover Ramen Kuryu in Hokkaido. Famous for rich miso ramen, find
+  current hours, location, and must-order menu items in our expert guide.
 ---
+
 
 ## Overview
 

@@ -13,15 +13,21 @@ lang: en
 lat: 35.0116
 lng: 135.7595
 shop_name: Goryo Ramen
-summary: "Goryo Ramen in Kyoto: Shoyu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Goryo Ramen in Kyoto: Shoyu ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/goryo_ramen.jpg
-title: Goryo Ramen — Kyoto Shoyu ramen guide
+title: Goryo Ramen Kyoto — Menu, Hours & Guide
 one_liner: Shoyu ramen at Goryo Ramen, Kyoto. Verify hours and holidays on Maps before
   you go.
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
+description: Looking for the best Shoyu ramen in Kyoto? Read our complete guide to
+  Goryo Ramen, including what to order, opening hours, and location details.
+seo_title: 'Goryo Ramen Kyoto: Menu, Hours & Local Guide | OKRamen'
+seo_description: Planning to visit Goryo Ramen in Kyoto? Check our guide for what
+  to order, opening hours, location, and why this Shoyu ramen is a must-try.
 ---
+
 
 lang: en
 title: Goryo Ramen – Shoyu Ramen in Nakagyo, Kyoto for Travelers

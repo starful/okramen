@@ -8,22 +8,22 @@ lang: en
 lat: 35.6875
 lng: 139.6961
 shop_name: Fuunji Shinjuku
-summary: "Fuunji Shinjuku in Tokyo: tsukemen (dipping noodles) — practical notes on\
-  \ queues, ordering, and how to eat the bowl. Verify hours on Maps."
+summary: 'Fuunji Shinjuku in Tokyo: tsukemen (dipping noodles) — practical notes on
+  queues, ordering, and how to eat the bowl. Verify hours on Maps.'
 thumbnail: /static/images/fuunji_shinjuku.jpg
-title: Fuunji Shinjuku — Tokyo Tsukemen ramen guide
-one_liner: "Tsukemen specialist in Tokyo: noodles and broth served separately. Verify\
-  \ hours and holidays on Maps before you go."
+title: 'Fuunji Shinjuku: Ultimate Tsukemen & Ordering Guide'
+one_liner: 'Tsukemen specialist in Tokyo: noodles and broth served separately. Verify
+  hours and holidays on Maps before you go.'
 what_to_order: Standard tsukemen set; ask for soup-wari (broth dilution) after noodles
   if offered.
 good_for: Tsukemen fans and noodle-texture seekers
-seo_title: "Fuunji Shinjuku: tsukemen queue and ordering guide | OKRamen"
-seo_description: "How to visit Fuunji near Yoyogi: lunch wait times, tsukemen ordering,\
-  \ soup-wari after noodles, and local tips. Verify hours and Monday closures on Google\
-  \ Maps."
-description: Practical guide to Fuunji in Shinjuku — chicken-seafood tsukemen, typical
-  lunch queues, ticket machine, and how to finish with soup-wari.
+seo_title: 'Fuunji Shinjuku Tsukemen: How to Beat the Line & Order | OKRamen'
+seo_description: Conquer the queue at Fuunji Shinjuku! Learn how to order their famous
+  tsukemen, average wait times, soup-wari tips, and how to eat like a local.
+description: Conquer the queue at Fuunji Shinjuku! Learn how to order their famous
+  tsukemen, average wait times, soup-wari tips, and how to eat like a local.
 ---
+
 
 **Intro:** Fuunji Shinjuku (風雲児) is a tsukemen specialist near Yoyogi — noodles and concentrated dipping broth served separately, not a soup bowl. The dip blends chicken and seafood stock for a thick, umami-heavy tsuke soup. Lunch queues of 30–60 minutes are common on weekdays; the shop has Bib Gourmand recognition, which adds tourist traffic.
 

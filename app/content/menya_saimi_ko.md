@@ -15,11 +15,17 @@ lng: 141.3911
 shop_name: Menya Saimi
 summary: Hokkaido Menya Saimi — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/menya_saimi.jpg
-title: Menya Saimi — Hokkaido 미소 라멘 가이드
+title: 멘야 사이미 (Menya Saimi) — 삿포로 미소라멘 맛집 가이드
 one_liner: Hokkaido 미소 라멘 — Menya Saimi. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 기본 미소 라멘 — 버터·옥수수·매운맛 옵션 확인
 good_for: 추운 날 든든한 한 그릇
+description: 삿포로 현지인 강력 추천 미소라멘 맛집 '멘야 사이미(Menya Saimi)'의 위치, 영업시간, 추천 메뉴와 웨이팅 정보를
+  확인해보세요.
+seo_title: 멘야 사이미 (Menya Saimi) | 삿포로 미소라멘 맛집 가이드 - OKRamen
+seo_description: 삿포로에서 가장 유명한 미소라멘 전문점 '멘야 사이미'의 위치, 영업일, 추천 메뉴 및 웨이팅 정보를 OKRamen
+  가이드에서 확인하세요.
 ---
+
 
 **이 가게 한줄:** Hokkaido Sapporo의 Menya Saimi은(는) 미소 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 
