@@ -13,16 +13,17 @@ lng: 139.7011
 shop_name: Ramen Takahashi Shinjuku
 summary: Tokyo Ramen Takahashi Shinjuku — 시오 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/ramen_takahashi_shinjuku.jpg
-title: 라멘 타카하시 신주쿠 본점 — 아고다시(날치) 라멘 완벽 가이드
+title: '신주쿠 라멘 타카하시: 깊은 풍미의 아고다시(날치) 라멘 가이드'
 one_liner: Tokyo 시오 라멘 — Ramen Takahashi Shinjuku. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 시오(소금) 라멘 — 맑은 국물 선호 시
 good_for: 여행 전 일정 잡기
-description: 도쿄 신주쿠의 명물 '라멘 타카하시' 완벽 가이드! 독보적인 아고다시(날치) 라멘의 추천 메뉴, 위치, 영업시간 및 웨이팅
-  팁을 OKRamen에서 확인하세요.
-seo_title: '신주쿠 라멘 타카하시 가이드: 독보적인 아고다시 맛집 | OKRamen'
-seo_description: 도쿄 신주쿠의 명물 '라멘 타카하시' 완벽 가이드! 독보적인 아고다시(날치) 라멘의 추천 메뉴, 위치, 영업시간 및
-  웨이팅 팁을 OKRamen에서 확인하세요.
+description: 도쿄 신주쿠 '라멘 타카하시'의 시그니처 아고다시(날치 육수) 라멘 추천 메뉴와 위치, 영업시간, 현지인 웨이팅 팁까지 상세히
+  안내합니다.
+seo_title: '신주쿠 라멘 타카하시 가이드: 아고다시(날치) 라멘 추천 메뉴·위치 | OKRamen'
+seo_description: 도쿄 신주쿠 '라멘 타카하시' 완벽 가이드! 특제 아고다시(날치 육수) 라멘 인기 메뉴, 주문법, 영업시간 및 웨이팅
+  팁을 OKRamen에서 지금 확인하세요.
 ---
+
 
 
 

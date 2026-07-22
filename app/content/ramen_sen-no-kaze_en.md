@@ -21,12 +21,13 @@ one_liner: Tonkotsu ramen at Ramen SEN NO Kaze, Kyoto. Verify hours and holidays
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
-seo_title: 'Ramen Sen no Kaze Kyoto: How to Skip the Line & Review'
-seo_description: Don't waste hours in queue! Learn how to easily skip the line at
-  Kyoto's famous Ramen Sen no Kaze and what legendary bowls you must order.
-description: Planning to visit Ramen Sen no Kaze in Kyoto? Read our insider guide
-  on how to skip the long lines, get tickets, and order the best ramen.
+seo_title: 'Ramen Sen no Kaze Kyoto: How to Skip the Line & Ticket Guide'
+seo_description: Planning to visit Ramen Sen no Kaze in Kyoto? Learn how the ticket
+  line system works, how to skip long waits, and which ramen bowls are must-tries.
+description: Discover how to bypass the famous queues at Kyoto's Ramen Sen no Kaze,
+  master the ticket system, and order the best ramen bowls on the menu.
 ---
+
 
 
 

@@ -15,19 +15,19 @@ shop_name: Ramen Shingen
 summary: 'Ramen Shingen in Hokkaido: Miso ramen — practical guide to queues, ordering,
   and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_shingen.jpg
-title: 'Ramen Shingen Sapporo: Ultimate Guide to the Best Miso & Fried Rice'
+title: 'Ramen Shingen Sapporo: Menu, Fried Rice & Local Tips'
 one_liner: Miso ramen at Ramen Shingen, Hokkaido. Verify hours and holidays on Maps
   before you go.
 what_to_order: House miso ramen; butter-corn or spicy miso if you want classic Sapporo
   toppings.
 good_for: Cold-weather comfort bowls
-seo_title: 'Ramen Shingen Sapporo: How to Beat the Line & Best Menu'
-seo_description: Want to try Sapporo’s legendary Ramen Shingen? Discover the best
-  menu items (including the famous fried rice) and local tips to beat the long lines!
-description: Ramen Shingen is a legendary Sapporo spot famous for its rich miso ramen
-  and legendary fried rice. Here is our ultimate guide to menu highlights and how
-  to beat the queue.
+seo_title: 'Ramen Shingen Sapporo Guide: Menu, Fried Rice & Line Tips'
+seo_description: Plan your visit to Sapporo's legendary Ramen Shingen. Must-try Shinshu
+  Miso ramen, famous fried rice, full menu guide, and local tips to avoid long lines!
+description: Complete guide to Ramen Shingen in Sapporo, famous for rich Shinshu Miso
+  ramen and iconic fried rice.
 ---
+
 
 
 

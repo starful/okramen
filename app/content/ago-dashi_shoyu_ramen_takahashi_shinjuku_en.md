@@ -3,7 +3,7 @@ address: Tokyo, Shinjuku
 categories:
 - Shoyu
 - Local Gem
-date: '2026-07-04'
+date: '2026-07-22'
 image_prompt: A overhead flat-lay of Ago-dashi Shoyu Ramen Takahashi Shinjuku Shoyu
   ramen, swirling steam, bright minimalist shop interior, cinematic food photography,
   no text, 8k detail.
@@ -11,9 +11,9 @@ lang: en
 lat: 35.6946
 lng: 139.7008
 shop_name: Ago-dashi Shoyu Ramen Takahashi Shinjuku
-summary: "Ago-dashi Shoyu Ramen Takahashi Shinjuku in Tokyo: Shoyu ramen — practical\
-  \ guide to queues, ordering, and what to try. Confirm hours on Google Maps before\
-  \ visiting."
+summary: 'Ago-dashi Shoyu Ramen Takahashi Shinjuku in Tokyo: Shoyu ramen — practical
+  guide to queues, ordering, and what to try. Confirm hours on Google Maps before
+  visiting.'
 thumbnail: /static/images/ago-dashi_shoyu_ramen_takahashi_shinjuku.jpg
 title: Ago-dashi Shoyu Ramen Takahashi Shinjuku — Tokyo Shoyu ramen guide
 one_liner: Shoyu ramen at Ago-dashi Shoyu Ramen Takahashi Shinjuku, Tokyo. Verify
@@ -21,6 +21,7 @@ one_liner: Shoyu ramen at Ago-dashi Shoyu Ramen Takahashi Shinjuku, Tokyo. Verif
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 ---
+
 
 **Intro:** Ago-dashi Shoyu Ramen Takahashi Shinjuku is a shoyu ramen shop in Shinjuku, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

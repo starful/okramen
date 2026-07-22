@@ -15,17 +15,18 @@ shop_name: Jinrui Mina Menrui
 summary: 'Jinrui Mina Menrui in Osaka: Shoyu ramen — practical guide to queues, ordering,
   and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/jinrui_mina_menrui.jpg
-title: 'Jinrui Mina Menrui: The Ultimate Osaka Ramen Guide'
+title: Jinrui Mina Menrui — Osaka Ramen Guide & Menu Tips
 one_liner: Shoyu ramen at Jinrui Mina Menrui, Osaka. Verify hours and holidays on
   Maps before you go.
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
-seo_title: 'Jinrui Mina Menrui Osaka: Menu, Queue Tips & Best Ramen'
-seo_description: Beat the line at Jinrui Mina Menrui in Osaka! Our insider guide covers
-  the legendary menu (Macro vs. Micro), queue times, and giant chashu tips.
-description: An insider guide to Osaka's legendary cult-favorite ramen shop, Jinrui
-  Mina Menrui. Learn how to beat the line, decode the menu, and order like a pro.
+seo_title: 'Jinrui Mina Menrui Osaka: Menu, Queue Hacks & Best Ramen'
+seo_description: Full guide to Jinrui Mina Menrui in Osaka. Explore the famous Macro
+  & Micro shoyu ramen, thick chashu pork, menu prices, and queue tips!
+description: Full guide to Jinrui Mina Menrui in Osaka. Explore the famous Macro &
+  Micro shoyu ramen, thick chashu pork, menu prices, and queue tips!
 ---
+
 
 
 

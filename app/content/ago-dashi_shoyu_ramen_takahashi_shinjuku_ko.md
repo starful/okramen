@@ -3,7 +3,7 @@ address: Tokyo, Shinjuku
 categories:
 - 쇼유
 - 현지인맛집
-date: '2026-07-04'
+date: '2026-07-22'
 image_prompt: A overhead flat-lay of Ago-dashi Shoyu Ramen Takahashi Shinjuku 쇼유 ramen,
   swirling steam, bright minimalist shop interior, cinematic food photography, no
   text, 8k detail.
@@ -20,6 +20,7 @@ one_liner: Tokyo 쇼유 라멘 — Ago-dashi Shoyu Ramen Takahashi Shinjuku. 방
 what_to_order: 기본 쇼유 라멘 — 국물 맛 본 뒤 조미료 추가
 good_for: 여행 전 일정 잡기
 ---
+
 
 **특징:** Tokyo Shinjuku의 Ago-dashi Shoyu Ramen Takahashi Shinjuku은(는) 쇼유 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 
