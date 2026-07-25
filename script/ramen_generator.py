@@ -1,4 +1,4 @@
-"""Generate ramen shop markdown via Gemini — real map data only."""
+"""Generate ramen shop markdown via Claude — real map data only."""
 
 from __future__ import annotations
 
@@ -28,6 +28,17 @@ from content_quality import (  # noqa: E402
 from topic_queue_csv import resolve as resolve_queue_csv  # noqa: E402
 
 load_dotenv()
+
+def _claude_md(prompt: str) -> str:
+    """MD text via Claude CLI subscription (not Claude API)."""
+    import sys
+    from pathlib import Path
+    _shared = Path(__file__).resolve().parents[2] / "shared"
+    if str(_shared) not in sys.path:
+        sys.path.insert(0, str(_shared))
+    from site_llm import generate_md_text
+    return generate_md_text(prompt)
+
 
 MODEL = "gemini-2.5-flash"
 MAX_ATTEMPTS = 3
@@ -176,7 +187,7 @@ image_prompt: "{build_image_prompt(name, features, lang)}"
 
 
 def generate_ramen_article(safe_name, name, lat, lng, address, lang, features, agoda) -> str:
-    """Gemini shop page. Returns status string."""
+    """Claude shop page. Returns status string."""
     filename = f"{safe_name}_{lang}.md"
     path = os.path.join(CONTENT_DIR, filename)
 
@@ -186,18 +197,11 @@ def generate_ramen_article(safe_name, name, lat, lng, address, lang, features, a
     if not has_real_shop_data(lat=lat, lng=lng, address=address):
         return f"⏭️ Skip no real map data: {filename}"
 
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        return f"❌ API Key missing: {filename}"
-
-    from google import genai
-
-    client = genai.Client(api_key=api_key)
-    filling_sibling = _sibling_exists(safe_name, lang)
+        filling_sibling = _sibling_exists(safe_name, lang)
     feedback = ""
     last_errors: list[str] = []
 
-    print(f"🚀 [Gen] Gemini {lang} for: {name}...")
+    print(f"🚀 [Gen] Claude {lang} for: {name}...")
     for attempt in range(1, MAX_ATTEMPTS + 1):
         try:
             prompt = build_ramen_prompt(
@@ -211,8 +215,8 @@ def generate_ramen_article(safe_name, name, lat, lng, address, lang, features, a
                 agoda=agoda,
                 feedback=feedback,
             )
-            response = client.models.generate_content(model=MODEL, contents=prompt)
-            content = strip_code_fences(response.text or "")
+            response_text = _claude_md(prompt)
+            content = strip_code_fences(response_text or "")
             if "SKIP_NOT_RAMEN" in content[:80]:
                 return f"⏭️ Model refused non-ramen: {filename}"
 
@@ -293,7 +297,7 @@ def run_generator(limit=10):
         _emit_pipeline_result(step="items", topics=0, generated=0, skipped=skipped)
         return
 
-    print(f"🔔 {pairs_queued} pair(s), {len(tasks)} file(s) — Gemini + quality gate...")
+    print(f"🔔 {pairs_queued} pair(s), {len(tasks)} file(s) — Claude + quality gate...")
     ok = 0
     failed = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:

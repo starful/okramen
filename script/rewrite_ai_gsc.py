@@ -27,6 +27,17 @@ HANGUL = re.compile(r"[\uac00-\ud7a3]")
 BILINGUAL_HEADER = re.compile(r"^## .+ / [\uac00-\ud7a3]", re.M)
 
 
+def _claude_md(prompt: str) -> str:
+    """MD text via Claude CLI subscription (not Claude API)."""
+    import sys
+    from pathlib import Path
+    _shared = Path(__file__).resolve().parents[2] / "shared"
+    if str(_shared) not in sys.path:
+        sys.path.insert(0, str(_shared))
+    from site_llm import generate_md_text
+    return generate_md_text(prompt)
+
+
 def clean_response(text: str) -> str:
     text = text.strip()
     text = re.sub(r"^```[a-z]*\n", "", text)
@@ -34,18 +45,9 @@ def clean_response(text: str) -> str:
     return text.replace("```markdown", "").replace("```", "").strip()
 
 
-def get_client(api_key: str):
-    if getattr(_thread_local, "client", None) is None:
-        from google import genai
-
-        _thread_local.client = genai.Client(api_key=api_key)
-    return _thread_local.client
-
-
 def call_gemini(api_key: str, prompt: str) -> str:
-    client = get_client(api_key)
-    response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
-    return clean_response(response.text or "")
+    # api_key ignored — Claude CLI subscription
+    return clean_response(_claude_md(prompt))
 
 
 def strip_leading_yaml_in_body(body: str) -> str:
@@ -237,10 +239,7 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=0)
     args = parser.parse_args()
 
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key and not args.dry_run:
-        print("❌ GEMINI_API_KEY missing")
-        return 1
+    api_key = ""  # Claude CLI; GEMINI_API_KEY not required
 
     buckets = classify(args.zip)
     rewrite = sorted(buckets["rewrite"], key=lambda t: -t["imp"])

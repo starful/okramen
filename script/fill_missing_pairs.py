@@ -29,13 +29,6 @@ load_dotenv(WORK_ROOT.parent / "okadmin" / ".env", override=True)
 
 from guide_generator import GUIDE_CONTENT_DIR, generate_guide_article  # noqa: E402
 from ramen_generator import CONTENT_DIR, generate_ramen_article  # noqa: E402
-import guide_generator as _guide_mod  # noqa: E402
-import ramen_generator as _ramen_mod  # noqa: E402
-
-_hub_key = os.environ.get("GEMINI_API_KEY")
-if _hub_key:
-    _guide_mod.API_KEY = _hub_key
-    _ramen_mod.API_KEY = _hub_key
 
 RAMEN_WORKERS = int(os.environ.get("RAMEN_MAX_WORKERS", "2"))
 GUIDE_WORKERS = int(os.environ.get("GUIDE_MAX_WORKERS", "2"))

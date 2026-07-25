@@ -9,7 +9,6 @@ import os
 from datetime import datetime
 
 from dotenv import load_dotenv
-from google import genai
 
 from content_quality import (
     GUIDE_MIN_CHARS,
@@ -21,7 +20,18 @@ from content_quality import (
 from topic_queue_csv import resolve as resolve_queue_csv
 
 load_dotenv()
-API_KEY = os.environ.get("GEMINI_API_KEY")
+
+def _claude_md(prompt: str) -> str:
+    """MD text via Claude CLI subscription (not Claude API)."""
+    import sys
+    from pathlib import Path
+    _shared = Path(__file__).resolve().parents[2] / "shared"
+    if str(_shared) not in sys.path:
+        sys.path.insert(0, str(_shared))
+    from site_llm import generate_md_text
+    return generate_md_text(prompt)
+
+# GEMINI_API_KEY no longer required for MD (Claude CLI)
 MODEL = "gemini-2.5-flash"
 MAX_ATTEMPTS = 3
 
@@ -102,8 +112,6 @@ def generate_guide_article(guide_id, topic, lang, keywords) -> str:
 
     if not API_KEY:
         return f"❌ API Key missing: {guide_id}_{lang}"
-
-    client = genai.Client(api_key=API_KEY)
     filename = f"{guide_id}_{lang}.md"
     filepath = os.path.join(GUIDE_CONTENT_DIR, filename)
     filling_sibling = _sibling_exists(guide_id, lang)
@@ -120,8 +128,8 @@ def generate_guide_article(guide_id, topic, lang, keywords) -> str:
                 keywords=keywords,
                 feedback=feedback,
             )
-            response = client.models.generate_content(model=MODEL, contents=prompt)
-            content = strip_code_fences(response.text or "")
+            response_text = _claude_md(prompt)
+            content = strip_code_fences(response_text or "")
             if "SKIP_NOT_RAMEN" in content[:80]:
                 return f"⏭️ Model refused off-topic: {filename}"
 
