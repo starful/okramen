@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-07-22",
-  "total_count": 206,
+  "last_updated": "2026.07.24",
+  "total_count": 204,
   "ramens": [
+    {
+      "id": "ramen_setagaya_ko",
+      "lang": "ko",
+      "title": "도쿄 치요다 라멘 세타가야: 담백한 쇼유의 진가",
+      "lat": 35.6811,
+      "lng": 139.7671,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_setagaya.jpg",
+      "address": "Tokyo, Chiyoda",
+      "published": "2026-07-24",
+      "summary": "도쿄 치요다구에 위치한 라멘 세타가야 — 맑은 쇼유 라멘의 진수를 즐길 수 있는 현지인 단골 맛집. 주문법, 웨이팅 팁, 교통 안내를 담은 실용 가이드입니다.",
+      "link": "/ramen/ramen_setagaya_ko"
+    },
+    {
+      "id": "ramen_setagaya_en",
+      "lang": "en",
+      "title": "Ramen Setagaya Tokyo: Chiyoda's Quiet Shoyu Specialist",
+      "lat": 35.6811,
+      "lng": 139.7671,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_setagaya.jpg",
+      "address": "Tokyo, Chiyoda",
+      "published": "2026-07-24",
+      "summary": "Navigate Ramen Setagaya in Tokyo's Chiyoda district — a local favourite for refined, clear-broth shoyu ramen. Practical guide to ordering, timing, and access.",
+      "link": "/ramen/ramen_setagaya_en"
+    },
+    {
+      "id": "ago-dashi_shoyu_ramen_takahashi_shinjuku_ko",
+      "lang": "ko",
+      "title": "Ago-dashi Shoyu Ramen Takahashi Shinjuku — Tokyo 쇼유 라멘 가이드",
+      "lat": 35.6946,
+      "lng": 139.7008,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ago-dashi_shoyu_ramen_takahashi_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-07-22",
+      "summary": "Tokyo Ago-dashi Shoyu Ramen Takahashi Shinjuku — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ago-dashi_shoyu_ramen_takahashi_shinjuku_ko"
+    },
+    {
+      "id": "ago-dashi_shoyu_ramen_takahashi_shinjuku_en",
+      "lang": "en",
+      "title": "Ago-dashi Shoyu Ramen Takahashi Shinjuku — Tokyo Shoyu ramen guide",
+      "lat": 35.6946,
+      "lng": 139.7008,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ago-dashi_shoyu_ramen_takahashi_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-07-22",
+      "summary": "Ago-dashi Shoyu Ramen Takahashi Shinjuku in Tokyo: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ago-dashi_shoyu_ramen_takahashi_shinjuku_en"
+    },
     {
       "id": "ramen_danbo_fukuoka_ko",
       "lang": "ko",
@@ -117,7 +181,7 @@
     {
       "id": "menya_takeichi_shinbashi_en",
       "lang": "en",
-      "title": "Menya Takeichi Shinbashi: Tokyo’s Premier Chicken Ramen",
+      "title": "Menya Takeichi Shinbashi — Ultimate Chicken Tori Paitan Ramen",
       "lat": 35.6661,
       "lng": 139.7554,
       "categories": [
@@ -229,7 +293,7 @@
     {
       "id": "ramen_takahashi_shinjuku_ko",
       "lang": "ko",
-      "title": "Ramen Takahashi Shinjuku (라멘 타카하시 신주쿠 본점)",
+      "title": "신주쿠 라멘 타카하시: 깊은 풍미의 아고다시(날치) 라멘 가이드",
       "lat": 35.6938,
       "lng": 139.7011,
       "categories": [
@@ -481,38 +545,6 @@
       "published": "2026-07-04",
       "summary": "Chuka Soba Tomita in Chiba: tsukemen (dipping noodles) — practical notes on queues, ordering, and how to eat the bowl. Verify hours on Maps.",
       "link": "/ramen/chuka_soba_tomita_en"
-    },
-    {
-      "id": "ago-dashi_shoyu_ramen_takahashi_shinjuku_ko",
-      "lang": "ko",
-      "title": "Ago-dashi Shoyu Ramen Takahashi Shinjuku — Tokyo 쇼유 라멘 가이드",
-      "lat": 35.6946,
-      "lng": 139.7008,
-      "categories": [
-        "쇼유",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/ago-dashi_shoyu_ramen_takahashi_shinjuku.jpg",
-      "address": "Tokyo, Shinjuku",
-      "published": "2026-07-22",
-      "summary": "Tokyo Ago-dashi Shoyu Ramen Takahashi Shinjuku — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/ago-dashi_shoyu_ramen_takahashi_shinjuku_ko"
-    },
-    {
-      "id": "ago-dashi_shoyu_ramen_takahashi_shinjuku_en",
-      "lang": "en",
-      "title": "Ago-dashi Shoyu Ramen Takahashi Shinjuku — Tokyo Shoyu ramen guide",
-      "lat": 35.6946,
-      "lng": 139.7008,
-      "categories": [
-        "Shoyu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/ago-dashi_shoyu_ramen_takahashi_shinjuku.jpg",
-      "address": "Tokyo, Shinjuku",
-      "published": "2026-07-22",
-      "summary": "Ago-dashi Shoyu Ramen Takahashi Shinjuku in Tokyo: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/ago-dashi_shoyu_ramen_takahashi_shinjuku_en"
     },
     {
       "id": "ramen_takahashi_ginza_ko",
@@ -835,41 +867,9 @@
       "link": "/ramen/kyoto_gogyo_en"
     },
     {
-      "id": "hakata_ippudo_roppongi_ko",
-      "lang": "ko",
-      "title": "하카타 잇푸도 롯폰기점 (Hakata Ippudo Roppongi)",
-      "lat": 35.6611,
-      "lng": 139.7311,
-      "categories": [
-        "돈코츠",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/hakata_ippudo_roppongi.jpg",
-      "address": "Tokyo, Minato",
-      "published": "2026-05-28",
-      "summary": "Tokyo Hakata Ippudo Roppongi — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/hakata_ippudo_roppongi_ko"
-    },
-    {
-      "id": "hakata_ippudo_roppongi_en",
-      "lang": "en",
-      "title": "Hakata Ippudo Roppongi — Tokyo Tonkotsu ramen guide",
-      "lat": 35.6611,
-      "lng": 139.7311,
-      "categories": [
-        "Tonkotsu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/hakata_ippudo_roppongi.jpg",
-      "address": "Tokyo, Minato",
-      "published": "2026-05-28",
-      "summary": "Hakata Ippudo Roppongi in Tokyo: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/hakata_ippudo_roppongi_en"
-    },
-    {
       "id": "ebisoba_ichigen_shinjuku_ko",
       "lang": "ko",
-      "title": "에비스바 이치겐 신주쿠 (Ebisoba Ichigen Shinjuku) — 도쿄 새우라멘 가이드",
+      "title": "에비소바 이치겐 신주쿠점 — 도쿄 새우라멘 맛집 가이드",
       "lat": 35.6944,
       "lng": 139.7011,
       "categories": [
@@ -1109,7 +1109,7 @@
     {
       "id": "ramen_mutsumiya_en",
       "lang": "en",
-      "title": "Ramen Mutsumiya Guide: Legendary Hokkaido Miso Ramen",
+      "title": "Ramen Mutsumiya: Legendary Hokkaido Miso Ramen Guide",
       "lat": 43.0611,
       "lng": 141.3511,
       "categories": [
@@ -1313,38 +1313,6 @@
       "published": "2026-04-19",
       "summary": "Ramen ZEN Fukuoka in Fukuoka: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/ramen_zen_fukuoka_en"
-    },
-    {
-      "id": "ramen_kairyu_ko",
-      "lang": "ko",
-      "title": "카이류 라멘 (Ramen Kairyu) — 후쿠오카 라멘 가이드",
-      "lat": 33.8811,
-      "lng": 130.8811,
-      "categories": [
-        "돈코츠",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/ramen_kairyu.jpg",
-      "address": "Fukuoka, Kitakyushu",
-      "published": "2026-04-19",
-      "summary": "Fukuoka Ramen Kairyu — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/ramen_kairyu_ko"
-    },
-    {
-      "id": "ramen_kairyu_en",
-      "lang": "en",
-      "title": "Ramen Kairyu: Fukuoka's Legendary Kurume Tonkotsu",
-      "lat": 33.8811,
-      "lng": 130.8811,
-      "categories": [
-        "Tonkotsu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/ramen_kairyu.jpg",
-      "address": "Fukuoka, Kitakyushu",
-      "published": "2026-04-19",
-      "summary": "Ramen Kairyu in Fukuoka: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/ramen_kairyu_en"
     },
     {
       "id": "oreshiki_jun_ko",
@@ -1749,7 +1717,7 @@
     {
       "id": "ramen_takahashi_en",
       "lang": "en",
-      "title": "Ramen Takahashi Shinjuku: Legendary Grilled Flying Fish Ramen Guide",
+      "title": "Ramen Takahashi Shinjuku — Menu, Hours & Flying Fish Dashi Guide",
       "lat": 35.6955,
       "lng": 139.7011,
       "categories": [
@@ -1781,7 +1749,7 @@
     {
       "id": "ramen_shingen_en",
       "lang": "en",
-      "title": "Ramen Shingen Sapporo: Ultimate Guide to the Best Miso & Fried Rice",
+      "title": "Ramen Shingen Sapporo: Menu, Fried Rice & Local Tips",
       "lat": 43.0544,
       "lng": 141.3488,
       "categories": [
@@ -1813,7 +1781,7 @@
     {
       "id": "ramen_kuryu_en",
       "lang": "en",
-      "title": "Ramen Kuryu — Hokkaido Miso Ramen Guide",
+      "title": "Ramen Kuryu: Sapporo's Legendary Susukino Miso Ramen",
       "lat": 43.0622,
       "lng": 141.3544,
       "categories": [
@@ -1861,7 +1829,7 @@
     {
       "id": "menya_saimi_ko",
       "lang": "ko",
-      "title": "멘야 사이미 (Menya Saimi) — 삿포로 미소라멘 맛집 가이드",
+      "title": "멘야 사이미 (Menya Saimi) — 삿포로 1위 미소라멘 맛집 가이드",
       "lat": 43.0311,
       "lng": 141.3911,
       "categories": [
@@ -1877,7 +1845,7 @@
     {
       "id": "menya_saimi_en",
       "lang": "en",
-      "title": "Menya Saimi: The Ultimate Guide to Sapporo's Best Miso Ramen",
+      "title": "Menya Saimi: Sapporo's Ultimate Ginger Miso Ramen Guide",
       "lat": 43.0311,
       "lng": 141.3911,
       "categories": [
@@ -2517,7 +2485,7 @@
     {
       "id": "jinrui_mina_menrui_en",
       "lang": "en",
-      "title": "Jinrui Mina Menrui: The Ultimate Osaka Ramen Guide",
+      "title": "Jinrui Mina Menrui — Osaka Ramen Guide & Menu Tips",
       "lat": 34.7311,
       "lng": 135.4911,
       "categories": [
@@ -2933,7 +2901,7 @@
     {
       "id": "menya_musashi_shinjuku_en",
       "lang": "en",
-      "title": "Menya Musashi Shinjuku — Tokyo Tonkotsu ramen guide",
+      "title": "Menya Musashi Shinjuku: Ultimate Tokyo Ramen Guide",
       "lat": 35.6934,
       "lng": 139.7001,
       "categories": [
@@ -3029,7 +2997,7 @@
     {
       "id": "honke_daiichi-asahi_en",
       "lang": "en",
-      "title": "Honke Daiichi Asahi: Kyoto's Legendary Ramen & Line Guide",
+      "title": "Honke Daiichi Asahi: Kyoto's Legendary Shoyu Ramen Guide",
       "lat": 34.9866,
       "lng": 135.7611,
       "categories": [
@@ -3125,7 +3093,7 @@
     {
       "id": "fuunji_shinjuku_en",
       "lang": "en",
-      "title": "Fuunji Shinjuku: Ultimate Tsukemen & Ordering Guide",
+      "title": "Fuunji Shinjuku Tsukemen: Ultimate Visitor & Ordering Guide",
       "lat": 35.6875,
       "lng": 139.6961,
       "categories": [
@@ -3189,7 +3157,7 @@
     {
       "id": "ippudo_ginza_en",
       "lang": "en",
-      "title": "Ippudo Ginza: Your Guide to Premium Tonkotsu Ramen in Tokyo",
+      "title": "Ippudo Ginza Ramen Guide: Menu, Tips & Location",
       "lat": 35.6711,
       "lng": 139.7662,
       "categories": [
