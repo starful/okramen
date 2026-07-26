@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ meta_title }}</title>
+    <meta name="description" content="{{ meta_desc }}">
+    <meta name="robots" content="noindex,follow">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    {% include 'header.html' %}
+    <main class="content-wrapper compare-page" style="margin-top: 24px; padding: 0 16px 80px;">
+        <a href="/{% if lang == 'ko' %}?lang=ko{% endif %}" class="back-btn" style="display:inline-flex;margin-bottom:16px;">
+            {{ '← 지도로' if lang == 'ko' else '← Back to map' }}
+        </a>
+        <div class="compare-page-head">
+            <h1>{{ '라멘 비교' if lang == 'ko' else 'Compare ramen shops' }}</h1>
+            <p>{{ '최대 3곳을 나란히 비교합니다.' if lang == 'ko' else 'Compare up to 3 shops side by side.' }}</p>
+        </div>
+
+        <section class="compare-panel">
+            {% if selected|length < 2 %}
+            <div class="compare-empty">
+                {{ '지도나 상세 페이지에서 “+ 비교”로 2곳 이상 고른 뒤 다시 열어 주세요.' if lang == 'ko' else 'Pick 2+ shops with “+ Compare” on the map or detail pages, then open Compare again.' }}
+            </div>
+            {% else %}
+            <div class="compare-table-wrap">
+                <table class="compare-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            {% for item in selected %}
+                            <th class="col-head">
+                                {{ item.title }}
+                                <button type="button" class="compare-remove-col" data-compare-remove="{{ item.base_id }}">{{ '제거' if lang == 'ko' else 'Remove' }}</button>
+                            </th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>{{ '지역' if lang == 'ko' else 'Area' }}</th>
+                            {% for item in selected %}<td>{{ item.address or '—' }}</td>{% endfor %}
+                        </tr>
+                        <tr>
+                            <th>{{ '스타일' if lang == 'ko' else 'Style' }}</th>
+                            {% for item in selected %}
+                            <td>
+                                <div class="compare-tag-list">
+                                    {% for cat in (item.categories or [])[:6] %}
+                                    <span class="compare-tag{% if loop.first %} highlight{% endif %}">{{ cat }}</span>
+                                    {% endfor %}
+                                </div>
+                            </td>
+                            {% endfor %}
+                        </tr>
+                        <tr>
+                            <th>{{ '요약' if lang == 'ko' else 'Summary' }}</th>
+                            {% for item in selected %}<td>{{ item.summary or '—' }}</td>{% endfor %}
+                        </tr>
+                        <tr>
+                            <th>{{ '상세' if lang == 'ko' else 'Details' }}</th>
+                            {% for item in selected %}
+                            <td><a href="{{ item.link }}">{{ '가이드 보기 →' if lang == 'ko' else 'Open guide →' }}</a></td>
+                            {% endfor %}
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            {% endif %}
+        </section>
+    </main>
+    {% include 'footer.html' %}
+    {% set compare_storage_key = 'okramen_compare_ids_v1' %}
+    {% include 'partials/compare_assets.html' %}
+</body>
+</html>

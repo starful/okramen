@@ -14,26 +14,33 @@
                 </a>
             </h1>
             
-            <!-- 오른쪽: 언어 선택기 -->
-            <div class="lang-selector">
+            <!-- 오른쪽: 언어 선택기 + 비교 -->
+            <div class="lang-selector" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end;">
                 {% if post and post.id %}
                     {% set base_id = post.id.rsplit('_', 1)[0] %}
                     <a href="{{ '/guide/' if 'guide' in request.path else '/ramen/' }}{{ base_id }}_en" 
                        class="lang-btn {% if post.lang == 'en' %}active{% endif %}">English</a>
                     <a href="{{ '/guide/' if 'guide' in request.path else '/ramen/' }}{{ base_id }}_ko" 
                        class="lang-btn {% if post.lang == 'ko' %}active{% endif %}">한국어</a>
-                {% elif request.path == '/guide' %}
-                    <a href="/guide" class="lang-btn {% if lang == 'en' %}active{% endif %}">English</a>
-                    <a href="/guide?lang=ko" class="lang-btn {% if lang == 'ko' %}active{% endif %}">한국어</a>
+                {% elif request.path == '/guide' or request.path == '/compare' %}
+                    <a href="{{ request.path }}" class="lang-btn {% if lang == 'en' %}active{% endif %}">English</a>
+                    <a href="{{ request.path }}?lang=ko" class="lang-btn {% if lang == 'ko' %}active{% endif %}">한국어</a>
                 {% else %}
                     <button class="lang-btn active" data-lang="en">English</button>
                     <button class="lang-btn" data-lang="ko">한국어</button>
                 {% endif %}
+                <a href="/compare?lang={{ lang or (post.lang if post is defined and post.lang else 'en') }}" class="header-compare-btn" data-compare-open>
+                    {{ '비교' if (lang or (post.lang if post is defined and post.lang else 'en')) == 'ko' else 'Compare' }}
+                    <span class="header-compare-badge" data-compare-count>0</span>
+                </a>
             </div>
         </div>
         
-        <!-- 하단 영역: 카테고리 필터 (숫자 배지 포함) -->
+        <!-- 하단 영역: 검색 + 카테고리 필터 -->
         {% if request.path == '/' %}
+        <div class="map-search-wrap">
+            <input type="search" id="map-search" class="map-search-input" placeholder="Search shops, area, style…" autocomplete="off">
+        </div>
         <div class="theme-filter-buttons" data-group="flavor">
             <button class="theme-button active" data-theme="all">All <span class="count-badge" id="count-all">0</span></button>
             <button class="theme-button" data-theme="tonkotsu">🐷 Tonkotsu <span class="count-badge" id="count-tonkotsu">0</span></button>

@@ -1,0 +1,14 @@
+<div class="compare-bar" id="compare-bar" aria-live="polite">
+    <div class="compare-bar-text">
+        <span data-compare-count>0</span> / 3
+        <span class="compare-bar-label">{{ '선택됨' if lang == 'ko' else 'selected' }}</span>
+    </div>
+    <div class="compare-bar-actions">
+        <button type="button" class="compare-clear-btn" data-compare-clear>
+            {{ '비우기' if lang == 'ko' else 'Clear' }}
+        </button>
+        <a href="/compare?lang={{ lang }}" class="compare-open-btn is-disabled" data-compare-open aria-disabled="true">
+            {{ '비교하기' if lang == 'ko' else 'Compare' }}
+        </a>
+    </div>
+</div>

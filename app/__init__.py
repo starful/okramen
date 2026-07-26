@@ -350,6 +350,49 @@ def api_ramens():
     response.headers["X-Robots-Tag"] = "noindex, nofollow"
     return response
 
+
+def _ramen_base_id(item_id: str) -> str:
+    if item_id.endswith("_en") or item_id.endswith("_ko"):
+        return item_id.rsplit("_", 1)[0]
+    return item_id
+
+
+@app.route("/compare")
+def compare_page():
+    lang = request.args.get("lang", "en")
+    if lang not in ("en", "ko"):
+        lang = "en"
+    raw_ids = [x.strip() for x in (request.args.get("ids") or "").split(",") if x.strip()]
+    ids = []
+    for rid in raw_ids:
+        base = _ramen_base_id(rid)
+        if base not in ids:
+            ids.append(base)
+        if len(ids) >= 3:
+            break
+    _ensure_ramen_cache()
+    by_base = {}
+    for row in CACHED_DATA.get("ramens", []):
+        if row.get("lang") != lang:
+            continue
+        base = _ramen_base_id(row.get("id", ""))
+        by_base[base] = _public_ramen(row)
+        by_base[base]["base_id"] = base
+    selected = [by_base[i] for i in ids if i in by_base]
+    meta_title = "라멘 비교 | OKRamen" if lang == "ko" else "Compare ramen shops | OKRamen"
+    meta_desc = (
+        "선택한 라멘 가게를 스타일·지역·요약으로 비교합니다."
+        if lang == "ko"
+        else "Compare selected ramen shops by style, area, and summary."
+    )
+    return render_template(
+        "compare.html",
+        lang=lang,
+        selected=selected,
+        meta_title=meta_title,
+        meta_desc=meta_desc,
+    )
+
 @app.route('/guide')
 def guide_list_all():
     lang = request.args.get('lang', 'en')

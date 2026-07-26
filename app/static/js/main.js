@@ -11,7 +11,24 @@ let markers = [];
 let allRamens = [];
 let currentLang = 'en';
 let currentTheme = 'all';
+let currentQuery = '';
 let infoWindow; // 전역 정보창 (한 번에 하나만 띄우기 위함)
+
+function baseIdOf(item) {
+    const id = item && item.id ? String(item.id) : '';
+    return id.replace(/_(en|ko)$/, '');
+}
+
+function matchesQuery(item, q) {
+    if (!q) return true;
+    const hay = [
+        item.title,
+        item.summary,
+        item.address,
+        ...(item.categories || []),
+    ].join(' ').toLowerCase();
+    return hay.includes(q);
+}
 
 const THUMB_FALLBACK = '/static/images/default.jpg';
 
@@ -119,6 +136,7 @@ async function updateUI() {
  * 4. 현재 설정(언어, 테마)에 따른 데이터 필터링
  */
 function getFilteredData() {
+    const q = currentQuery.trim().toLowerCase();
     const filtered = allRamens.filter(item => {
         // 언어 일치 여부
         const langMatch = item.lang === currentLang;
@@ -132,7 +150,7 @@ function getFilteredData() {
             );
         }
         
-        return langMatch && themeMatch;
+        return langMatch && themeMatch && matchesQuery(item, q);
     });
     return sortByPublishedDesc(filtered);
 }
@@ -152,10 +170,14 @@ function renderList(data) {
         return;
     }
 
+    const cmpAdd = currentLang === 'ko' ? '+ 비교' : '+ Compare';
+    const cmpOn = currentLang === 'ko' ? '✓ 비교 중' : '✓ Comparing';
     data.forEach(item => {
         const isNew = isContentNew(item.published);
+        const bid = baseIdOf(item);
         const card = document.createElement('div');
         card.className = 'onsen-card' + (isNew ? ' is-new' : '');
+        card.dataset.compareCard = bid;
         card.innerHTML = `
             <a href="${item.link}" class="onsen-card-link">
                 <div class="card-visual">
@@ -171,9 +193,12 @@ function renderList(data) {
                     </div>
                 </div>
             </a>
+            <button type="button" class="compare-toggle-btn" data-compare-id="${bid}"
+                data-label-default="${cmpAdd}" data-label-selected="${cmpOn}">${cmpAdd}</button>
         `;
         listDiv.appendChild(card);
     });
+    if (window.OKCompare) window.OKCompare.syncCompareUI();
 }
 
 /**
@@ -273,6 +298,9 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
         
         // 정보창이 열려있다면 닫기
         if (infoWindow) infoWindow.close();
+
+        if (window.OK_COMPARE) window.OK_COMPARE.lang = currentLang;
+        if (window.OKCompare) window.OKCompare.syncCompareUI();
         
         updateUI();
     });
@@ -297,6 +325,24 @@ document.querySelectorAll('.theme-button').forEach(btn => {
         }
     });
 });
+
+const searchInput = document.getElementById('map-search');
+if (searchInput) {
+    const placeholder = () => {
+        searchInput.placeholder = currentLang === 'ko'
+            ? '가게·지역·스타일 검색…'
+            : 'Search shops, area, style…';
+    };
+    placeholder();
+    searchInput.addEventListener('input', () => {
+        currentQuery = searchInput.value || '';
+        if (infoWindow) infoWindow.close();
+        updateUI();
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.addEventListener('click', () => setTimeout(placeholder, 0));
+    });
+}
 
 // 앱 실행
 initApp();

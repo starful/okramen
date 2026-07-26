@@ -94,6 +94,13 @@
             {% if post.illustration_note %}
             <p class="detail-trust-note detail-trust-note--muted">{{ post.illustration_note }}</p>
             {% endif %}
+            <button type="button"
+                class="compare-toggle-btn detail-compare-btn"
+                data-compare-id="{{ post.id.rsplit('_', 1)[0] }}"
+                data-label-default="{{ '+ 비교' if post.lang == 'ko' else '+ Compare' }}"
+                data-label-selected="{{ '✓ 비교 중' if post.lang == 'ko' else '✓ Comparing' }}">
+                {{ '+ 비교' if post.lang == 'ko' else '+ Compare' }}
+            </button>
         </div>
 
         <section class="practical-guide" aria-labelledby="practical-guide-heading">

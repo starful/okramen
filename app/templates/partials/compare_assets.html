@@ -1,0 +1,15 @@
+{% set lang = lang if lang is defined else (post.lang if post is defined and post.lang else 'en') %}
+{% include 'partials/compare_bar.html' %}
+<script>
+window.OK_COMPARE = {
+    storageKey: "{{ compare_storage_key|default('okramen_compare_ids_v1') }}",
+    lang: {{ lang|tojson }},
+    labelDefault: {{ ('+ 비교' if lang == 'ko' else '+ Compare')|tojson }},
+    labelSelected: {{ ('✓ 비교 중' if lang == 'ko' else '✓ Comparing')|tojson }},
+    toastAdded: {{ ('비교 목록에 추가됨 ✓' if lang == 'ko' else 'Added to compare ✓')|tojson }},
+    toastRemoved: {{ ('비교 목록에서 제거됨' if lang == 'ko' else 'Removed from compare')|tojson }},
+    toastMax: {{ ('최대 3개까지 — 하나를 먼저 제거하세요' if lang == 'ko' else 'Max 3 — remove one first')|tojson }},
+    toastCleared: {{ ('비교 목록을 비웠습니다' if lang == 'ko' else 'Compare list cleared')|tojson }}
+};
+</script>
+<script src="/static/js/compare.js?v=1"></script>
