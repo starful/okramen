@@ -3,7 +3,7 @@ address: Tokyo, Chiyoda
 categories:
 - Shio
 - Local Gem
-date: '2026-04-21'
+date: '2026-07-27'
 image_prompt: A side profile close-up of Hirugao signature shio ramen in a warm wooden
   interior, featuring a crystal-clear golden broth reflecting soft ambient light,
   topped with delicate scallop slices, thin bamboo shoots, and a perfectly jammy ajitama
@@ -12,8 +12,8 @@ lang: en
 lat: 35.6811
 lng: 139.7671
 shop_name: Hirugao Tokyo
-summary: "Hirugao Tokyo in Tokyo: Shio ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Hirugao Tokyo in Tokyo: Shio ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/hirugao_tokyo.jpg
 title: Hirugao Tokyo — Tokyo Shio ramen guide
 one_liner: Shio ramen at Hirugao Tokyo, Tokyo. Verify hours and holidays on Maps before
@@ -21,6 +21,7 @@ one_liner: Shio ramen at Hirugao Tokyo, Tokyo. Verify hours and holidays on Maps
 what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
 ---
+
 
 **Overview:** Hirugao Tokyo is a shio ramen shop in Chiyoda, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

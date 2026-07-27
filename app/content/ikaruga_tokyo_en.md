@@ -3,17 +3,17 @@ address: Tokyo, Chiyoda, Marunouchi 1-9-1, Tokyo Station Ichibangai B1F
 categories:
 - Shoyu
 - Premium
-date: '2026-04-21'
-image_prompt: "A steaming macro shot of Ikaruga's signature Shoyu-Tonkotsu ramen,\
-  \ featuring a glossy, rich brown double-soup, a perfectly soft-boiled ajitama egg\
-  \ with a jammy yolk, and thin slices of tender chashu pork, set against a dark moody\
-  \ izakaya background with golden light reflecting off the broth's surface."
+date: '2026-07-27'
+image_prompt: A steaming macro shot of Ikaruga's signature Shoyu-Tonkotsu ramen, featuring
+  a glossy, rich brown double-soup, a perfectly soft-boiled ajitama egg with a jammy
+  yolk, and thin slices of tender chashu pork, set against a dark moody izakaya background
+  with golden light reflecting off the broth's surface.
 lang: en
 lat: 35.6811
 lng: 139.7671
 shop_name: Ikaruga Tokyo
-summary: "Ikaruga Tokyo in Tokyo: Shoyu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ikaruga Tokyo in Tokyo: Shoyu ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ikaruga_tokyo.jpg
 title: Ikaruga Tokyo — Tokyo Shoyu ramen guide
 one_liner: Shoyu ramen at Ikaruga Tokyo, Tokyo. Verify hours and holidays on Maps
@@ -21,6 +21,7 @@ one_liner: Shoyu ramen at Ikaruga Tokyo, Tokyo. Verify hours and holidays on Map
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 ---
+
 
 ## Overview
 

@@ -3,12 +3,12 @@ address: Kyoto, Sakyo
 categories:
 - 치킨라멘
 - 현지인맛집
-date: '2026-04-05'
-image_prompt: "A steaming macro shot of Tenkaippin's signature Kotteri ramen at the\
-  \ rustic counter seat of the Kyoto main shop, showcasing the ultra-thick creamy\
-  \ beige chicken paitan broth, thin straight noodles being lifted with chopsticks,\
-  \ topped with tender chashu, bamboo shoots, and green onions, warm lighting reflecting\
-  \ off the rich oil on the surface, professional food photography."
+date: '2026-07-27'
+image_prompt: A steaming macro shot of Tenkaippin's signature Kotteri ramen at the
+  rustic counter seat of the Kyoto main shop, showcasing the ultra-thick creamy beige
+  chicken paitan broth, thin straight noodles being lifted with chopsticks, topped
+  with tender chashu, bamboo shoots, and green onions, warm lighting reflecting off
+  the rich oil on the surface, professional food photography.
 lang: ko
 lat: 35.0355
 lng: 135.7811
@@ -26,6 +26,7 @@ seo_title: 텐카잇핀 본점 (天下一品 総本店) - 교토 사쿄 라멘 �
 seo_description: 교토 사쿄 텐카잇핀 본점 방문 가이드. 시그니처 코테리 치킨 라멘 주문 팁, 웨이팅 정보, 주변 관광 동선, 영업시간
   확인 등 실용적인 정보를 한국어로 제공합니다.
 ---
+
 
 교토 사쿄 지역에 자리한 '텐카잇핀 본점(天下一品 総本店)'은 단순한 라멘 가게를 넘어선 곳입니다. 일본 전역에 수많은 지점을 둔 텐카잇핀 브랜드의 시작점이자, 독특한 '코테리(こってり)' 라멘 스타일을 탄생시킨 성지이죠. 체인점이라는 인식이 강할 수 있지만, 본점은 그 시작점으로서 다른 지점과는 미묘하게 다른 매력과 의미를 가집니다.
 

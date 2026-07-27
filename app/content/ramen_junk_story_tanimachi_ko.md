@@ -3,7 +3,7 @@ address: Osaka, Chuo
 categories:
 - 시오
 - 프리미엄
-date: '2026-07-08'
+date: '2026-07-27'
 image_prompt: A side profile close-up of Ramen Junk Story Tanimachi 시오 ramen, swirling
   steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: ko
@@ -18,6 +18,8 @@ one_liner: Osaka 시오 라멘 — Ramen Junk Story Tanimachi. 방문 전 지도
 what_to_order: 시오(소금) 라멘 — 맑은 국물 선호 시
 good_for: 여행 전 일정 잡기
 ---
+
+
 
 **소개:** Osaka Chuo의 Ramen Junk Story Tanimachi은(는) 시오 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 

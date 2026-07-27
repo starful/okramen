@@ -3,7 +3,7 @@ address: Hokkaido, Sapporo
 categories:
 - 미소
 - 현지인맛집
-date: '2026-04-21'
+date: '2026-07-27'
 image_prompt: Side profile close-up of a steaming bowl of Sapporo miso ramen at Hokkai
   Ramen, rich golden-brown broth with a layer of glistening lard, thick yellow wavy
   noodles, charred chashu, and sautéed bean sprouts, set in a warm wooden rustic counter
@@ -19,6 +19,7 @@ one_liner: Hokkaido 미소 라멘 — Hokkai Ramen. 방문 전 지도에서 영�
 what_to_order: 기본 미소 라멘 — 버터·옥수수·매운맛 옵션 확인
 good_for: 추운 날 든든한 한 그릇
 ---
+
 
 **소개:** Hokkaido Sapporo의 Hokkai Ramen은(는) 미소 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 

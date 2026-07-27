@@ -3,7 +3,7 @@ address: Tokyo, Chiyoda
 categories:
 - Tsukemen
 - Local Gem
-date: '2026-05-28'
+date: '2026-07-27'
 image_prompt: A gorgeous 45-degree angle macro shot of Tsukemen at Ramen Sharin, set
   on a rustic counter seat of a warm wooden interior. On the left, a beautiful ceramic
   bowl overflowing with thick, cold-shocked, glossy wheat noodles topped with a sheet
@@ -15,15 +15,16 @@ lang: en
 lat: 35.6811
 lng: 139.7671
 shop_name: Ramen Sharin
-summary: "Ramen Sharin in Tokyo: tsukemen (dipping noodles) — practical notes on queues,\
-  \ ordering, and how to eat the bowl. Verify hours on Maps."
+summary: 'Ramen Sharin in Tokyo: tsukemen (dipping noodles) — practical notes on queues,
+  ordering, and how to eat the bowl. Verify hours on Maps.'
 thumbnail: /static/images/ramen_sharin.jpg
 title: Ramen Sharin — Tokyo Tsukemen ramen guide
-one_liner: "Tsukemen specialist in Tokyo: noodles and broth served separately. Verify\
-  \ hours and holidays on Maps before you go."
+one_liner: 'Tsukemen specialist in Tokyo: noodles and broth served separately. Verify
+  hours and holidays on Maps before you go.'
 what_to_order: House tsukemen; ask about soup-wari (broth top-up) if offered.
 good_for: Tsukemen fans and noodle-texture seekers
 ---
+
 
 lang: en
 title: Ramen Sharin: Tokyo's Authentic Tsukemen Experience

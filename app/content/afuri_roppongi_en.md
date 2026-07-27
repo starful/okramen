@@ -3,13 +3,13 @@ address: Tokyo, Minato
 categories:
 - Shio
 - Premium
-date: '2026-05-28'
-image_prompt: "A 45-degree angle dramatic macro shot of Afuri's Yuzu Shio Ramen, featuring\
-  \ a clear, golden dashi broth shimmering with micro-droplets of fat, delicate thin-cut\
-  \ noodles, a perfectly seared slice of charcoal-grilled pork chashu, a vibrant soft-boiled\
-  \ ajitama egg split open to reveal a jammy golden yolk, fresh green mizuna leaves,\
-  \ and a sliver of yellow yuzu peel. Set against a minimalist dark wooden counter\
-  \ under warm, focused spotlighting, capturing the steam rising gently from the bowl."
+date: '2026-07-27'
+image_prompt: A 45-degree angle dramatic macro shot of Afuri's Yuzu Shio Ramen, featuring
+  a clear, golden dashi broth shimmering with micro-droplets of fat, delicate thin-cut
+  noodles, a perfectly seared slice of charcoal-grilled pork chashu, a vibrant soft-boiled
+  ajitama egg split open to reveal a jammy golden yolk, fresh green mizuna leaves,
+  and a sliver of yellow yuzu peel. Set against a minimalist dark wooden counter under
+  warm, focused spotlighting, capturing the steam rising gently from the bowl.
 lang: en
 lat: 35.6611
 lng: 139.7311
@@ -18,17 +18,18 @@ summary: Explore Afuri Roppongi, famous for its yuzu shio ramen. Get practical t
   on what to order, queue management, how to reach it, and nearby alternatives for
   travelers.
 thumbnail: /static/images/afuri_roppongi.jpg
-title: "Afuri Roppongi Ramen in Tokyo's Minato District"
+title: Afuri Roppongi Ramen in Tokyo's Minato District
 one_liner: Shio ramen at Afuri Roppongi, Tokyo. Verify hours and holidays on Maps
   before you go.
 what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
-seo_title: "Afuri Roppongi Ramen Tokyo | Yuzu Shio | Traveler's Guide"
+seo_title: Afuri Roppongi Ramen Tokyo | Yuzu Shio | Traveler's Guide
 seo_description: Visiting Afuri Roppongi in Minato, Tokyo? This guide offers essential
   advice on ordering their signature yuzu shio ramen, navigating queues, directions,
   and alternative ramen shops for a smooth dining experience.
 slug: afuri_roppongi
 ---
+
 
 ## Overview
 Afuri Roppongi, in Tokyo's bustling Minato district, offers a uniquely refreshing ramen experience. It stands out with its signature Yuzu Shio Ramen, a 'Premium' dish known for quality ingredients and refined flavors.

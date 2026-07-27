@@ -3,18 +3,18 @@ address: Kyoto, Nakagyo
 categories:
 - Shoyu
 - Premium
-date: '2026-05-28'
-image_prompt: "A dramatic 45-degree angle macro shot of Kyoto Gogyo's signature burnt\
-  \ shoyu ramen inside a dark moody izakaya, featuring a glossy, pitch-black broth\
-  \ with a shimmering oil sheen, charred green onions, a perfectly soft-boiled ajitama\
-  \ egg split open, tender chashu pork, and delicate plumes of white steam rising\
-  \ into the ambient, warm spotlight."
+date: '2026-07-27'
+image_prompt: A dramatic 45-degree angle macro shot of Kyoto Gogyo's signature burnt
+  shoyu ramen inside a dark moody izakaya, featuring a glossy, pitch-black broth with
+  a shimmering oil sheen, charred green onions, a perfectly soft-boiled ajitama egg
+  split open, tender chashu pork, and delicate plumes of white steam rising into the
+  ambient, warm spotlight.
 lang: en
 lat: 35.0011
 lng: 135.7611
 shop_name: Kyoto Gogyo
-summary: "Kyoto Gogyo in Kyoto: Shoyu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Kyoto Gogyo in Kyoto: Shoyu ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/kyoto_gogyo.jpg
 title: Kyoto Gogyo — Kyoto Shoyu ramen guide
 one_liner: Shoyu ramen at Kyoto Gogyo, Kyoto. Verify hours and holidays on Maps before
@@ -22,6 +22,7 @@ one_liner: Shoyu ramen at Kyoto Gogyo, Kyoto. Verify hours and holidays on Maps 
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 ---
+
 
 **Overview:** Kyoto Gogyo is a shoyu ramen shop in Nakagyo, Kyoto. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

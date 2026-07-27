@@ -3,7 +3,7 @@ address: Kyoto, Nakagyo
 categories:
 - 쇼유
 - 현지인맛집
-date: '2026-04-12'
+date: '2026-07-27'
 image_prompt: A 45-degree angle close-up shot of a premium Shoyu ramen bowl at Goryo
   Ramen, featuring a deep mahogany-colored clear broth with shimmering golden aromatic
   oil on the surface, perfectly folded thin straight noodles, succulent pink sous-vide
@@ -20,6 +20,7 @@ one_liner: Kyoto 쇼유 라멘 — Goryo Ramen. 방문 전 지도에서 영업·
 what_to_order: 기본 쇼유 라멘 — 국물 맛 본 뒤 조미료 추가
 good_for: 여행 전 일정 잡기
 ---
+
 
 lang: ko
 title: 교토 나카교 현지인의 쇼유 라멘 성지, 고료 라멘 실전 가이드

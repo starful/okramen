@@ -1,19 +1,25 @@
 ---
 lang: en
-title: "Ramen Danbo Fukuoka: Deciding to Queue for Authentic Tonkotsu"
-summary: "Navigate the rich, customizable tonkotsu ramen experience at Ramen Danbo Fukuoka, a local favorite for discerning ramen travelers."
-date: "2026-07-20"
-shop_name: "Ramen Danbo Fukuoka"
-address: "Fukuoka, Fukuoka-shi"
+title: 'Ramen Danbo Fukuoka: Deciding to Queue for Authentic Tonkotsu'
+summary: Navigate the rich, customizable tonkotsu ramen experience at Ramen Danbo
+  Fukuoka, a local favorite for discerning ramen travelers.
+date: '2026-07-27'
+shop_name: Ramen Danbo Fukuoka
+address: Fukuoka, Fukuoka-shi
 lat: 33.5861
 lng: 130.4024
 categories:
 - Tonkotsu
 - Local Gem
-thumbnail: "/static/images/ramen_danbo_fukuoka.jpg"
-agoda: ""
-image_prompt: "A 45-degree steaming macro shot of Ramen Danbo Fukuoka Tonkotsu ramen, swirling steam, warm wooden counter seat, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/ramen_danbo_fukuoka.jpg
+agoda: ''
+image_prompt: A 45-degree steaming macro shot of Ramen Danbo Fukuoka Tonkotsu ramen,
+  swirling steam, warm wooden counter seat, cinematic food photography, no text, 8k
+  detail.
 ---
+
+
+
 
 ## Discovering Fukuoka's Tonkotsu Heartbeat: Ramen Danbo
 

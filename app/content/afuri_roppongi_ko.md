@@ -3,13 +3,13 @@ address: Tokyo, Minato
 categories:
 - 시오
 - 프리미엄
-date: '2026-05-28'
-image_prompt: "A steaming macro shot of Afuri's signature Yuzu Shio Ramen, highlighting\
-  \ a crystal-clear golden chicken and dashi broth, vibrant yellow yuzu zest glistening\
-  \ on the surface, thin whole-grain noodles partially submerged, a slice of perfectly\
-  \ charred aburi chashu with grill marks, a bright orange-yoked ajitama egg, and\
-  \ green mizuna leaves, set in a chic, warm wooden interior counter with dramatic\
-  \ soft spot lighting."
+date: '2026-07-27'
+image_prompt: A steaming macro shot of Afuri's signature Yuzu Shio Ramen, highlighting
+  a crystal-clear golden chicken and dashi broth, vibrant yellow yuzu zest glistening
+  on the surface, thin whole-grain noodles partially submerged, a slice of perfectly
+  charred aburi chashu with grill marks, a bright orange-yoked ajitama egg, and green
+  mizuna leaves, set in a chic, warm wooden interior counter with dramatic soft spot
+  lighting.
 lang: ko
 lat: 35.6611
 lng: 139.7311
@@ -21,10 +21,11 @@ title: 아후리 롯폰기 (Afuri Roppongi) - 유자 시오 라멘의 산뜻함
 one_liner: Tokyo 시오 라멘 — Afuri Roppongi. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 시오(소금) 라멘 — 맑은 국물 선호 시
 good_for: 여행 전 일정 잡기
-seo_title: "아후리 롯폰기 라멘 가이드 | 도쿄 미나토 유자 시오 라멘 맛집"
+seo_title: 아후리 롯폰기 라멘 가이드 | 도쿄 미나토 유자 시오 라멘 맛집
 seo_description: 아후리 롯폰기에서 유자 시오 라멘을 제대로 즐기는 방법. 대기 팁, 추천 메뉴, 주변 맛집 정보까지, 실전 라멘 여행을
   위한 완벽 가이드를 제공합니다.
 ---
+
 
 도쿄 롯폰기의 중심에 자리한 아후리(Afuri)는 단순한 라멘을 넘어선 특별한 미식 경험을 제공합니다. 맑고 투명한 국물에 상큼한 유자 향이 어우러진 유자 시오 라멘으로 유명하며, 숯불에 구운 차슈는 그 풍미를 더합니다. 롯폰기 지점은 활기찬 도시 분위기 속에서 아후리만의 세련된 맛을 즐기기에 최적의 장소입니다. 복잡한 도심 속에서 잠시 여유를 찾고 싶다면, 아후리 롯폰기에서의 한 끼는 분명 만족스러운 선택이 될 것입니다. 이 가이드에서는 아후리 롯폰기를 가장 효과적으로 즐기기 위한 실용적인 방문 및 주문 팁을 제공합니다.
 

@@ -3,7 +3,7 @@ address: Tokyo, Chiyoda
 categories:
 - 시오
 - 현지인맛집
-date: '2026-04-21'
+date: '2026-07-27'
 image_prompt: Side profile close-up of a steaming bowl of Hirugao Shio Ramen, crystal
   clear golden broth shimmering with fat droplets, topped with thin wavy noodles,
   a perfectly soft-boiled ajitama cut in half, tender chashu, and a sprinkle of yuzu
@@ -19,6 +19,7 @@ one_liner: Tokyo 시오 라멘 — Hirugao Tokyo. 방문 전 지도에서 영업
 what_to_order: 시오(소금) 라멘 — 맑은 국물 선호 시
 good_for: 여행 전 일정 잡기
 ---
+
 
 **이 가게 한줄:** Tokyo Chiyoda의 Hirugao Tokyo은(는) 시오 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 

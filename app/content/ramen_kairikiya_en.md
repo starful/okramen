@@ -3,7 +3,7 @@ address: Kyoto, Nakagyo
 categories:
 - Shoyu
 - Local Gem
-date: '2026-05-28'
+date: '2026-07-27'
 image_prompt: A steaming macro shot of a bowl of Kyoto-style Shoyu ramen at Ramen
   Kairikiya, showcasing a rich dark-brown soy sauce broth glistening with a delicate
   layer of white pork backfat, thin straight noodles beautifully folded, and ultra-thin
@@ -13,8 +13,8 @@ lang: en
 lat: 35.0111
 lng: 135.7711
 shop_name: Ramen Kairikiya
-summary: "Ramen Kairikiya in Kyoto: Shoyu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Kairikiya in Kyoto: Shoyu ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_kairikiya.jpg
 title: Ramen Kairikiya — Kyoto Shoyu ramen guide
 one_liner: Shoyu ramen at Ramen Kairikiya, Kyoto. Verify hours and holidays on Maps
@@ -22,6 +22,7 @@ one_liner: Shoyu ramen at Ramen Kairikiya, Kyoto. Verify hours and holidays on M
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 ---
+
 
 ## Overview
 Ramen Kairikiya in Nakagyo, Kyoto, offers a classic Shoyu ramen experience. This style features a soy-sauce based tare combined with a flavorful broth, often appearing clearer than Tonkotsu ramen. The specific saltiness and flavor nuances depend on local soy blends, giving each shop its unique character. Kairikiya is a local gem, providing a consistent and authentic bowl representative of Kyoto's ramen scene. This guide offers practical advice for travelers, covering ordering, queue navigation, and visit tips for a smooth and enjoyable meal. Always consult Google Maps for the most current operating hours and details; this page provides editorial guidance, not official shop information.

@@ -3,7 +3,7 @@ address: Kyoto, Nakagyo
 categories:
 - Shoyu
 - Local Gem
-date: '2026-05-27'
+date: '2026-07-27'
 image_prompt: A 45-degree angle food-photography shot of a vibrant bowl of spicy soupless
   tantanmen from Enishi Kyoto, glistening with deep red house-made chili oil, rich
   golden sesame paste, generous minced pork soboro, crushed raw cashews, and finely
@@ -13,8 +13,8 @@ lang: en
 lat: 35.0011
 lng: 135.7511
 shop_name: Enishi Kyoto
-summary: "Enishi Kyoto in Kyoto: Shoyu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Enishi Kyoto in Kyoto: Shoyu ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/enishi_kyoto.jpg
 title: Enishi Kyoto — Kyoto Shoyu ramen guide
 one_liner: Shoyu ramen at Enishi Kyoto, Kyoto. Verify hours and holidays on Maps before
@@ -22,6 +22,8 @@ one_liner: Shoyu ramen at Enishi Kyoto, Kyoto. Verify hours and holidays on Maps
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 ---
+
+
 
 **Overview:** Enishi Kyoto is a shoyu ramen shop in Nakagyo, Kyoto. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

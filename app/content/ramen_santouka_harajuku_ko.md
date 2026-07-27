@@ -3,14 +3,14 @@ address: Tokyo, Shibuya
 categories:
 - 시오
 - 현지인맛집
-date: '2026-05-28'
-image_prompt: "A steaming macro shot of Ramen Santouka's signature Tokusen Toroniku\
-  \ Shio Ramen, featuring a milky-white pork bone broth in a traditional blue-patterned\
-  \ ceramic bowl, topped with a single red pickled plum. Next to the bowl, a small\
-  \ side plate showcases meticulously sliced, tender pork cheek chashu glistening\
-  \ with delicate fat, alongside fresh green scallions and bamboo shoots. Set against\
-  \ a warm wooden interior counter in Harajuku, soft cinematic lighting, ultra-detailed\
-  \ food photography, 8k resolution."
+date: '2026-07-27'
+image_prompt: A steaming macro shot of Ramen Santouka's signature Tokusen Toroniku
+  Shio Ramen, featuring a milky-white pork bone broth in a traditional blue-patterned
+  ceramic bowl, topped with a single red pickled plum. Next to the bowl, a small side
+  plate showcases meticulously sliced, tender pork cheek chashu glistening with delicate
+  fat, alongside fresh green scallions and bamboo shoots. Set against a warm wooden
+  interior counter in Harajuku, soft cinematic lighting, ultra-detailed food photography,
+  8k resolution.
 lang: ko
 lat: 35.6711
 lng: 139.7011
@@ -22,6 +22,7 @@ one_liner: Tokyo 시오 라멘 — Ramen Santouka Harajuku. 방문 전 지도에
 what_to_order: 시오(소금) 라멘 — 맑은 국물 선호 시
 good_for: 여행 전 일정 잡기
 ---
+
 
 **특징:** Ramen Santouka Harajuku은(는) Tokyo Shibuya에 있는 체인·분점 성격의 라멘 가게입니다. 본점·다른 도시 지점과 메뉴·영업시간·키오스크 방식이 다를 수 있으니 ‘이 지점’ 기준으로 지도에서 확인하세요. 브랜드 이름만 보고 예상하면 실제와 다른 경우가 있습니다.
 

@@ -3,7 +3,7 @@ address: Hokkaido, Sapporo
 categories:
 - 미소
 - 현지인맛집
-date: '2026-04-21'
+date: '2026-07-27'
 image_prompt: A steaming macro shot of a rich Sapporo miso ramen at a 45-degree angle,
   featuring a glistening layer of lard, charred pork chashu, sweet corn, and a melting
   golden butter square, set against a warm wooden counter in a narrow neon-lit late
@@ -20,6 +20,10 @@ one_liner: Hokkaido Sapporo 라멘 골목 — 작은 가게 여러 곳을 한 �
 what_to_order: 가게 기본 미소/쇼유 라멘 — 메뉴판 첫 번째 인기 메뉴
 good_for: 한 골목에서 여러 가게 비교, 추운 날 든든한 한 그릇
 ---
+
+
+
+
 
 lang: ko
 title: 삿포로 원조 라멘 요코초: 북쪽 땅의 맛을 찾아 떠나는 실전 가이드

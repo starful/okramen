@@ -3,12 +3,12 @@ address: Tokyo, Chiyoda
 categories:
 - 츠케멘
 - 현지인맛집
-date: '2026-05-28'
-image_prompt: "A 45-degree angle steaming macro shot of Ramen Sharin's signature tsukemen,\
-  \ featuring thick, glossy cold noodles served alongside a rich, dark brown gyokai-tonkotsu\
-  \ dipping broth topped with a piece of nori, a slice of rolled chashu, and a perfectly\
-  \ jammy ajitama egg, set in a warm wooden interior of a traditional Tokyo counter\
-  \ seat, moody lighting highlighting the rising steam."
+date: '2026-07-27'
+image_prompt: A 45-degree angle steaming macro shot of Ramen Sharin's signature tsukemen,
+  featuring thick, glossy cold noodles served alongside a rich, dark brown gyokai-tonkotsu
+  dipping broth topped with a piece of nori, a slice of rolled chashu, and a perfectly
+  jammy ajitama egg, set in a warm wooden interior of a traditional Tokyo counter
+  seat, moody lighting highlighting the rising steam.
 lang: ko
 lat: 35.6811
 lng: 139.7671
@@ -21,6 +21,7 @@ one_liner: Tokyo 츠케멘 전문 — 면과 육수를 따로 받아 찍어 먹�
 what_to_order: 츠케멘(기본) — 가능하면 마지막에 스프 와리
 good_for: 면 식감·츠케멘 입문
 ---
+
 
 lang: ko
 title: 라멘 샤린: 도쿄 치요다의 정통 츠케멘 현지 맛집 정복 가이드

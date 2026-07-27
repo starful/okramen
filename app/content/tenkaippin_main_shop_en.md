@@ -3,19 +3,19 @@ address: Kyoto, Sakyo
 categories:
 - Chicken
 - Local Gem
-date: '2026-04-03'
-image_prompt: "A photorealistic close-up of a Tenkaippin Kotteri ramen bowl at the\
-  \ original Kyoto shop, featuring an incredibly thick and creamy golden-brown chicken\
-  \ broth, thin straight noodles partially submerged, tender slices of lean pork chashu,\
-  \ green scallions, and dark bamboo shoots, steam rising elegantly against a rustic\
-  \ wooden counter and moody dim restaurant lighting, shot on 85mm lens, f/1.8, high\
-  \ detail texture of the broth's surface."
+date: '2026-07-27'
+image_prompt: A photorealistic close-up of a Tenkaippin Kotteri ramen bowl at the
+  original Kyoto shop, featuring an incredibly thick and creamy golden-brown chicken
+  broth, thin straight noodles partially submerged, tender slices of lean pork chashu,
+  green scallions, and dark bamboo shoots, steam rising elegantly against a rustic
+  wooden counter and moody dim restaurant lighting, shot on 85mm lens, f/1.8, high
+  detail texture of the broth's surface.
 lang: en
 lat: 35.0355
 lng: 135.7811
 shop_name: Tenkaippin Main Shop
-summary: "Tenkaippin Main Shop in Kyoto: Chicken ramen ramen — practical guide to\
-  \ queues, ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Tenkaippin Main Shop in Kyoto: Chicken ramen ramen — practical guide to
+  queues, ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/tenkaippin_main_shop.jpg
 title: Tenkaippin Main Shop — Kyoto Chicken ramen ramen guide
 one_liner: Chicken ramen ramen at Tenkaippin Main Shop, Kyoto. Verify hours and holidays
@@ -23,6 +23,7 @@ one_liner: Chicken ramen ramen at Tenkaippin Main Shop, Kyoto. Verify hours and 
 what_to_order: The shop’s signature bowl on the menu board.
 good_for: Trip planning before you land
 ---
+
 
 ## Overview
 

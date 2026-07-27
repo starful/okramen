@@ -3,17 +3,17 @@ address: Hokkaido, Sapporo, Chuo Ward, Minami 3 Jonishi, 7 Chome−5-2
 categories:
 - Miso
 - Local Gem
-date: '2026-04-21'
-image_prompt: "A steaming macro shot of Ramen Sora's signature miso ramen, showcasing\
-  \ the rich, golden-orange broth with visible droplets of aromatic oil, topped with\
-  \ tender chashu, a dollop of fresh ginger, and vibrant green negi, set against a\
-  \ warm wooden interior with soft ambient lighting."
+date: '2026-07-27'
+image_prompt: A steaming macro shot of Ramen Sora's signature miso ramen, showcasing
+  the rich, golden-orange broth with visible droplets of aromatic oil, topped with
+  tender chashu, a dollop of fresh ginger, and vibrant green negi, set against a warm
+  wooden interior with soft ambient lighting.
 lang: en
 lat: 43.0511
 lng: 141.3511
 shop_name: Ramen Sora
-summary: "Ramen Sora in Hokkaido: Miso ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Sora in Hokkaido: Miso ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_sora.jpg
 title: Ramen Sora — Hokkaido Miso ramen guide
 one_liner: Miso ramen at Ramen Sora, Hokkaido. Verify hours and holidays on Maps before
@@ -22,6 +22,7 @@ what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-s
   toppings.
 good_for: Cold-weather comfort bowls
 ---
+
 
 lang: en
 title: Ramen Sora – Essential Sapporo Miso Ramen for Travelers

@@ -1,19 +1,24 @@
 ---
 lang: en
-title: "Ramen Setagaya Tokyo: Chiyoda's Quiet Shoyu Specialist"
-summary: "Navigate Ramen Setagaya in Tokyo's Chiyoda district — a local favourite for refined, clear-broth shoyu ramen. Practical guide to ordering, timing, and access."
-date: "2026-07-24"
-shop_name: "Ramen Setagaya"
-address: "Tokyo, Chiyoda"
+title: 'Ramen Setagaya Tokyo: Chiyoda''s Quiet Shoyu Specialist'
+summary: Navigate Ramen Setagaya in Tokyo's Chiyoda district — a local favourite for
+  refined, clear-broth shoyu ramen. Practical guide to ordering, timing, and access.
+date: '2026-07-27'
+shop_name: Ramen Setagaya
+address: Tokyo, Chiyoda
 lat: 35.6811
 lng: 139.7671
 categories:
 - Shoyu
 - Local Gem
-thumbnail: "/static/images/ramen_setagaya.jpg"
-agoda: ""
-image_prompt: "A 45-degree steaming macro shot of Ramen Setagaya shoyu ramen, crystal-clear amber broth, thin straight noodles, tender chashu slices, soft-boiled egg, bamboo shoots, a sprinkle of green onion, warm timber counter, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/ramen_setagaya.jpg
+agoda: ''
+image_prompt: A 45-degree steaming macro shot of Ramen Setagaya shoyu ramen, crystal-clear
+  amber broth, thin straight noodles, tender chashu slices, soft-boiled egg, bamboo
+  shoots, a sprinkle of green onion, warm timber counter, cinematic food photography,
+  no text, 8k detail.
 ---
+
 
 ## Why Ramen Setagaya Is Worth Seeking Out
 

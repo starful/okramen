@@ -3,12 +3,12 @@ address: Hokkaido, Sapporo
 categories:
 - 미소
 - 현지인맛집
-date: '2026-04-21'
-image_prompt: "A steaming macro shot of Ramen Sora's signature Miso Ramen, showcasing\
-  \ a rich golden-brown broth with a glistening layer of oil, topped with tender pork\
-  \ chashu featuring a dollop of fresh grated ginger, yellow curly noodles lifting\
-  \ from the bowl, set against a dark moody izakaya background with warm soft lighting,\
-  \ 8k resolution, cinematic food photography."
+date: '2026-07-27'
+image_prompt: A steaming macro shot of Ramen Sora's signature Miso Ramen, showcasing
+  a rich golden-brown broth with a glistening layer of oil, topped with tender pork
+  chashu featuring a dollop of fresh grated ginger, yellow curly noodles lifting from
+  the bowl, set against a dark moody izakaya background with warm soft lighting, 8k
+  resolution, cinematic food photography.
 lang: ko
 lat: 43.0511
 lng: 141.3511
@@ -20,6 +20,7 @@ one_liner: Hokkaido 미소 라멘 — Ramen Sora. 방문 전 지도에서 영업
 what_to_order: 기본 미소 라멘 — 버터·옥수수·매운맛 옵션 확인
 good_for: 추운 날 든든한 한 그릇
 ---
+
 
 lang: ko
 title: 라멘 소라 (Ramen Sora)

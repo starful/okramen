@@ -3,7 +3,7 @@ address: 5-chome-20-2 Minami 4 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0804, J
 categories:
 - Miso
 - Local Gem
-date: '2026-04-21'
+date: '2026-07-27'
 image_prompt: A side profile close-up of a steaming bowl of spicy miso ramen at Ramen
   Sapporo Ichiryu, featuring a rich orange-red broth with visible droplets of aromatic
   chili oil, thick yellow curly noodles being lifted by chopsticks, charred chashu
@@ -13,8 +13,8 @@ lang: en
 lat: 43.0611
 lng: 141.3511
 shop_name: Ramen Sapporo Ichiryu
-summary: "Ramen Sapporo Ichiryu in Hokkaido: Miso ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Sapporo Ichiryu in Hokkaido: Miso ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_sapporo_ichiryu.jpg
 title: Ramen Sapporo Ichiryu — Hokkaido Miso ramen guide
 one_liner: Miso ramen at Ramen Sapporo Ichiryu, Hokkaido. Verify hours and holidays
@@ -23,6 +23,7 @@ what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-s
   toppings.
 good_for: Cold-weather comfort bowls
 ---
+
 
 **Overview:** Ramen Sapporo Ichiryu is a miso ramen shop in Chuo, Hokkaido. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

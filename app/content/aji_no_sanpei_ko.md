@@ -3,7 +3,7 @@ address: Hokkaido, Sapporo
 categories:
 - 미소
 - 현지인맛집
-date: '2026-04-21'
+date: '2026-07-27'
 image_prompt: A 45-degree angle shot of a steaming bowl of original Sapporo Miso Ramen
   at a rustic wooden counter seat of Aji no Sanpei, showing the golden-yellow curly
   noodles, stir-fried bean sprouts, and ground pork submerged in a rich, opaque orange-brown
@@ -25,6 +25,7 @@ seo_title: '아지노 산페이: 삿포로 미소라멘 원조 맛집 가이드 
 seo_description: 미소라멘의 발상지인 삿포로 '아지노 산페이'의 위치, 영업시간, 추천 메뉴 정보를 확인하세요. OKRamen이 안내하는
   원조 미소라멘 맛집 가이드입니다.
 ---
+
 
 
 

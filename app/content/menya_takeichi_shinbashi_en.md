@@ -3,7 +3,7 @@ address: Tokyo, Minato
 categories:
 - Chicken
 - Local Gem
-date: '2026-07-08'
+date: '2026-07-27'
 image_prompt: A side profile close-up of Menya Takeichi Shinbashi Chicken ramen, swirling
   steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: en
@@ -24,6 +24,7 @@ seo_title: 'Menya Takeichi Shimbashi: Best Chicken Tori Paitan Ramen'
 seo_description: Visit Menya Takeichi in Shimbashi, Tokyo for their legendary creamy
   Chicken Tori Paitan ramen. Find the menu, hours, and directions here.
 ---
+
 
 
 

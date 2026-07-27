@@ -3,7 +3,7 @@ address: Kyoto, Nakagyo
 categories:
 - Shoyu
 - Premium
-date: '2026-04-12'
+date: '2026-07-27'
 image_prompt: A side profile close-up of a deep mahogany shoyu ramen bowl resting
   on a warm, polished wooden counter, thin noodles perfectly folded in a circular
   motion, topped with translucent pink sous-vide chashu and a glossy, deep-orange
@@ -27,6 +27,7 @@ seo_title: 'Goryo Ramen Kyoto: Menu, Hours & Local Guide | OKRamen'
 seo_description: Planning to visit Goryo Ramen in Kyoto? Check our guide for what
   to order, opening hours, location, and why this Shoyu ramen is a must-try.
 ---
+
 
 
 lang: en

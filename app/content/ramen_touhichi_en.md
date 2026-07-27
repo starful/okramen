@@ -3,7 +3,7 @@ address: Kyoto, Kita
 categories:
 - Shoyu
 - Premium
-date: '2026-05-27'
+date: '2026-07-27'
 image_prompt: A dramatic 45-degree angle close-up shot of an elegant bowl of artisanal
   Shoyu Ramen at Ramen Touhichi in a warm wooden interior. The broth is a translucent,
   shimmering deep-amber color with glittering droplets of golden chicken oil on the
@@ -14,8 +14,8 @@ lang: en
 lat: 35.0511
 lng: 135.7511
 shop_name: Ramen Touhichi
-summary: "Ramen Touhichi in Kyoto: Shoyu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Touhichi in Kyoto: Shoyu ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_touhichi.jpg
 title: Ramen Touhichi — Kyoto Shoyu ramen guide
 one_liner: Shoyu ramen at Ramen Touhichi, Kyoto. Verify hours and holidays on Maps
@@ -23,6 +23,7 @@ one_liner: Shoyu ramen at Ramen Touhichi, Kyoto. Verify hours and holidays on Ma
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 ---
+
 
 **Overview:** Ramen Touhichi is a shoyu ramen shop in Kita, Kyoto. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

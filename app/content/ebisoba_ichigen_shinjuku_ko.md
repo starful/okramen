@@ -3,7 +3,7 @@ address: Tokyo, Shinjuku
 categories:
 - 미소
 - 현지인맛집
-date: '2026-05-28'
+date: '2026-07-27'
 image_prompt: A 45-degree angle steaming macro shot of a rich red shrimp miso ramen
   bowl at Ebisoba Ichigen, featuring a deep orange-red broth glistening with shrimp
   oil, topped with pink crispy shrimp-flavored tempura bits, half a soft-boiled ajitama
@@ -25,6 +25,7 @@ seo_title: 신주쿠 에비소바 이치겐 도쿄 새우라멘 맛집 | OKRamen
 seo_description: 삿포로에서 온 진한 새우 육수 라멘 맛집 '에비소바 이치겐 신주쿠점' 완벽 가이드! 인기 메뉴, 주문 방법, 위치 정보를
   OKRamen에서 확인하세요.
 ---
+
 
 
 lang: ko

@@ -3,7 +3,7 @@ address: Hokkaido, Sapporo
 categories:
 - Miso
 - Local Gem
-date: '2026-04-21'
+date: '2026-07-27'
 image_prompt: A steaming macro shot at a 45-degree angle of a bowl of authentic Sapporo
   miso ramen in a rustic counter seat at Ganso Sapporo Ramen Yokocho, the deep orange-brown
   broth topped with a knob of melting butter and sweet corn, swirling steam rising
@@ -17,18 +17,22 @@ summary: A practical guide to Ganso Sapporo Ramen Yokocho, the historic ramen al
   in Susukino, Sapporo, focusing on what to order, queue tips, and how to navigate
   the numerous miso ramen stalls for an authentic experience.
 thumbnail: /static/images/ganso_sapporo_ramen_yokocho.jpg
-title: "Ganso Sapporo Ramen Yokocho - Sapporo's Original Ramen Alley"
+title: Ganso Sapporo Ramen Yokocho - Sapporo's Original Ramen Alley
 one_liner: A lane of small ramen counters in Hokkaido — good for comparing bowls in
   one walk. Verify hours and holidays on Maps before you go.
 what_to_order: Each stall’s signature miso or shoyu bowl — start with the menu board’s
   top item.
 good_for: Comparing several stalls in one visit, Cold-weather comfort bowls
-seo_title: "Ganso Sapporo Ramen Yokocho | Miso Ramen Alley Guide | Sapporo Travel"
-seo_description: "Explore Ganso Sapporo Ramen Yokocho, Sapporo's original ramen alley.\
-  \ Get practical tips on ordering authentic miso ramen, navigating queues, and finding\
-  \ the best local experience in Susukino for travelers."
+seo_title: Ganso Sapporo Ramen Yokocho | Miso Ramen Alley Guide | Sapporo Travel
+seo_description: Explore Ganso Sapporo Ramen Yokocho, Sapporo's original ramen alley.
+  Get practical tips on ordering authentic miso ramen, navigating queues, and finding
+  the best local experience in Susukino for travelers.
 slug: ganso_sapporo_ramen_yokocho
 ---
+
+
+
+
 
 ## Overview
 

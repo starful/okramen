@@ -3,7 +3,7 @@ address: Tokyo, Shinjuku
 categories:
 - 츠케멘
 - 현지인맛집
-date: '2026-07-08'
+date: '2026-07-27'
 image_prompt: A side profile close-up of Menya Shono Ichigaya 츠케멘 ramen, swirling
   steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: ko
@@ -18,6 +18,8 @@ one_liner: Tokyo 츠케멘 전문 — 면과 육수를 따로 받아 찍어 먹�
 what_to_order: 츠케멘(기본) — 가능하면 마지막에 스프 와리
 good_for: 면 식감·츠케멘 입문
 ---
+
+
 
 **츠케멘 기본:** Tokyo Menya Shono Ichigaya은(는) 국물에 면을 담가 먹는 츠케멘 전문점입니다. 라멘 한 그릇처럼 국물을 먼저 마시는 방식이 아니라, 농축 육수에 면을 찍어 먹습니다. 면이 식기 전에 제공되므로 테이블에 앉자마자 시작하는 것이 좋습니다.
 

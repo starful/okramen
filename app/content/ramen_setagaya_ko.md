@@ -1,19 +1,24 @@
 ---
 lang: ko
-title: "도쿄 치요다 라멘 세타가야: 담백한 쇼유의 진가"
-summary: "도쿄 치요다구에 위치한 라멘 세타가야 — 맑은 쇼유 라멘의 진수를 즐길 수 있는 현지인 단골 맛집. 주문법, 웨이팅 팁, 교통 안내를 담은 실용 가이드입니다."
-date: "2026-07-24"
-shop_name: "Ramen Setagaya"
-address: "Tokyo, Chiyoda"
+title: '도쿄 치요다 라멘 세타가야: 담백한 쇼유의 진가'
+summary: 도쿄 치요다구에 위치한 라멘 세타가야 — 맑은 쇼유 라멘의 진수를 즐길 수 있는 현지인 단골 맛집. 주문법, 웨이팅 팁, 교통 안내를
+  담은 실용 가이드입니다.
+date: '2026-07-27'
+shop_name: Ramen Setagaya
+address: Tokyo, Chiyoda
 lat: 35.6811
 lng: 139.7671
 categories:
 - 쇼유
 - 현지인맛집
-thumbnail: "/static/images/ramen_setagaya.jpg"
-agoda: ""
-image_prompt: "A 45-degree steaming macro shot of Ramen Setagaya 쇼유 ramen, crystal-clear amber broth, thin straight noodles, tender chashu slices, soft-boiled egg, bamboo shoots, a sprinkle of green onion, warm timber counter, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/ramen_setagaya.jpg
+agoda: ''
+image_prompt: A 45-degree steaming macro shot of Ramen Setagaya 쇼유 ramen, crystal-clear
+  amber broth, thin straight noodles, tender chashu slices, soft-boiled egg, bamboo
+  shoots, a sprinkle of green onion, warm timber counter, cinematic food photography,
+  no text, 8k detail.
 ---
+
 
 ## 라멘 세타가야를 찾아야 할 이유
 

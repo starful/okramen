@@ -3,7 +3,7 @@ address: Hokkaido, Sapporo
 categories:
 - 미소
 - 현지인맛집
-date: '2026-05-28'
+date: '2026-07-27'
 image_prompt: A 45-degree angle close-up shot of a steaming bowl of authentic Sapporo
   miso ramen at Ramen Gantetsu inside a warm wooden interior. The rich, deep-orange
   miso broth is topped with glistening black garlic oil, wok-charred bean sprouts,
@@ -26,6 +26,7 @@ seo_title: 라멘 간테츠 (Ramen Gantetsu) | 삿포로 미소라멘 맛집 | O
 seo_description: 삿포로 미소라멘 맛집 '라멘 간테츠' 완벽 가이드! OKRamen 지도에서 영업시간, 휴무일, 인기 추천 메뉴와 상세
   위치를 지금 확인하세요.
 ---
+
 
 
 **한 그릇 요약:** Hokkaido Sapporo의 Ramen Gantetsu은(는) 미소 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.

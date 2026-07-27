@@ -3,15 +3,15 @@ address: Tokyo, Chuo
 categories:
 - Shio
 - Local Gem
-date: '2026-07-08'
+date: '2026-07-27'
 image_prompt: A side profile close-up of Chuka Soba Ginza Hachigou Shio ramen, swirling
   steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: en
 lat: 35.6698
 lng: 139.7686
 shop_name: Chuka Soba Ginza Hachigou
-summary: "Chuka Soba Ginza Hachigou in Tokyo: Shio ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Chuka Soba Ginza Hachigou in Tokyo: Shio ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/chuka_soba_ginza_hachigou.jpg
 title: Chuka Soba Ginza Hachigou — Tokyo Shio ramen guide
 one_liner: Shio ramen at Chuka Soba Ginza Hachigou, Tokyo. Verify hours and holidays
@@ -19,6 +19,7 @@ one_liner: Shio ramen at Chuka Soba Ginza Hachigou, Tokyo. Verify hours and holi
 what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
 ---
+
 
 **Overview:** Chuka Soba Ginza Hachigou is a shio ramen shop in Chuo, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

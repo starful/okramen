@@ -3,7 +3,7 @@ address: Osaka, Naniwa
 categories:
 - Shio
 - Premium
-date: '2026-04-12'
+date: '2026-07-27'
 image_prompt: A 45-degree angle close-up of a premium Shio ramen bowl at Ryukishin
   RIZE, featuring a crystal-clear golden broth reflecting soft light, thin elegant
   noodles neatly folded, a slice of sous-vide chashu, and a perfectly jammy ajitama
@@ -12,8 +12,8 @@ lang: en
 lat: 34.6611
 lng: 135.5011
 shop_name: Ryukishin Rize
-summary: "Ryukishin Rize in Osaka: Shio ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ryukishin Rize in Osaka: Shio ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ryukishin_rize.jpg
 title: Ryukishin Rize — Osaka Shio ramen guide
 one_liner: Shio ramen at Ryukishin Rize, Osaka. Verify hours and holidays on Maps
@@ -21,6 +21,7 @@ one_liner: Shio ramen at Ryukishin Rize, Osaka. Verify hours and holidays on Map
 what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
 ---
+
 
 **Overview:** Ryukishin Rize is a shio ramen shop in Naniwa, Osaka. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

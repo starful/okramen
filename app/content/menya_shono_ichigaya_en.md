@@ -3,22 +3,24 @@ address: Tokyo, Shinjuku
 categories:
 - Tsukemen
 - Local Gem
-date: '2026-07-08'
+date: '2026-07-27'
 image_prompt: A side profile close-up of Menya Shono Ichigaya Tsukemen ramen, swirling
   steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: en
 lat: 35.6923
 lng: 139.7345
 shop_name: Menya Shono Ichigaya
-summary: "Menya Shono Ichigaya in Tokyo: tsukemen (dipping noodles) — practical notes\
-  \ on queues, ordering, and how to eat the bowl. Verify hours on Maps."
+summary: 'Menya Shono Ichigaya in Tokyo: tsukemen (dipping noodles) — practical notes
+  on queues, ordering, and how to eat the bowl. Verify hours on Maps.'
 thumbnail: /static/images/menya_shono_ichigaya.jpg
 title: Menya Shono Ichigaya — Tokyo Tsukemen ramen guide
-one_liner: "Tsukemen specialist in Tokyo: noodles and broth served separately. Verify\
-  \ hours and holidays on Maps before you go."
+one_liner: 'Tsukemen specialist in Tokyo: noodles and broth served separately. Verify
+  hours and holidays on Maps before you go.'
 what_to_order: House tsukemen; ask about soup-wari (broth top-up) if offered.
 good_for: Tsukemen fans and noodle-texture seekers
 ---
+
+
 
 **Overview:** Menya Shono Ichigaya in Shinjuku, Tokyo is a tsukemen shop — you dip noodles into a separate concentrated broth, not a standard soup ramen bowl. Noodles are served ready to dip; start soon after they arrive.
 

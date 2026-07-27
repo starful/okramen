@@ -3,7 +3,7 @@ address: 1F, 6-1-6 Jingumae, Shibuya City, Tokyo
 categories:
 - Shio
 - Local Gem
-date: '2026-05-28'
+date: '2026-07-27'
 image_prompt: A gorgeous 45-degree angle close-up photo of a bowl of Santouka Shio
   Ramen on a rustic wooden counter inside a warm wooden interior. The bowl is a deep
   blue-and-white patterned ceramic bowl filled with a luxurious, milky-white, pearlescent
@@ -15,8 +15,8 @@ lang: en
 lat: 35.6711
 lng: 139.7011
 shop_name: Ramen Santouka Harajuku
-summary: "Ramen Santouka Harajuku in 1F: Shio ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Santouka Harajuku in 1F: Shio ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_santouka_harajuku.jpg
 title: Ramen Santouka Harajuku — 1F Shio ramen guide
 one_liner: Shio ramen at Ramen Santouka Harajuku, 1F. Verify hours and holidays on
@@ -24,6 +24,7 @@ one_liner: Shio ramen at Ramen Santouka Harajuku, 1F. Verify hours and holidays 
 what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
 ---
+
 
 **Intro:** Ramen Santouka Harajuku is a chain or franchise branch in 6-1-6 Jingumae, 1F. Menus and hours can differ from other branches — verify this location on Maps. Do not assume the Tokyo main shop menu matches this pin.
 

@@ -3,7 +3,7 @@ address: Kyoto, Nakagyo
 categories:
 - 쇼유
 - 현지인맛집
-date: '2026-05-28'
+date: '2026-07-27'
 image_prompt: A steaming macro shot of Kyoto-style Shoyu Ramen from Ramen Kairikiya,
   served in a traditional patterned bowl on a warm wooden counter. The dark, glossy
   soy-based broth is shimmering with fine, translucent droplets of pork back fat and
@@ -23,6 +23,7 @@ one_liner: Kyoto 쇼유 라멘 — Ramen Kairikiya. 방문 전 지도에서 영�
 what_to_order: 기본 쇼유 라멘 — 국물 맛 본 뒤 조미료 추가
 good_for: 여행 전 일정 잡기
 ---
+
 
 ## 한눈에 라멘 카이리키야 (Ramen Kairikiya)
 

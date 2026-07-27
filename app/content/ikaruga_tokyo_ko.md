@@ -3,7 +3,7 @@ address: Tokyo, Chiyoda
 categories:
 - 쇼유
 - 프리미엄
-date: '2026-04-21'
+date: '2026-07-27'
 image_prompt: 45-degree angle shot of a premium Shoyu-Tonkotsu ramen bowl at Ikaruga
   Tokyo, dark moody izakaya lighting with spotlighting on the bowl, rich creamy brown
   broth with shimmering golden oil droplets, thin elegant noodles, tender torched
@@ -20,6 +20,7 @@ one_liner: Tokyo 쇼유 라멘 — Ikaruga Tokyo. 방문 전 지도에서 영업
 what_to_order: 기본 쇼유 라멘 — 국물 맛 본 뒤 조미료 추가
 good_for: 여행 전 일정 잡기
 ---
+
 
 이카루가 도쿄(Ikaruga Tokyo)는 도쿄 중심부 지요다(Chiyoda)에 자리한 라멘 전문점으로, 쇼유(간장) 라멘 마니아들 사이에서 견고한 명성을 자랑합니다. 번잡한 도심 속에서 깊이 있고 섬세한 라멘 한 그릇에 집중하고 싶다면 좋은 선택지입니다. 이곳은 재료 본연의 맛을 극대화하고 닭, 해산물, 채소의 복합적인 감칠맛을 간장 다레와 완벽하게 조화시킨 국물로 많은 이들을 사로잡습니다. '프리미엄'이라는 수식어가 아깝지 않은, 완성도 높은 라멘을 경험할 수 있습니다.
 

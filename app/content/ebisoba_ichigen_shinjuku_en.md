@@ -3,7 +3,7 @@ address: Tokyo, Shinjuku
 categories:
 - Miso
 - Local Gem
-date: '2026-05-28'
+date: '2026-07-27'
 image_prompt: A steaming macro shot of a bowl of Ebisoba Ichigen miso ramen, showcasing
   a rich, glowing orange-red shrimp broth glistening with aromatic red oil, topped
   with crispy red shrimp-infused tempura flakes, soft chashu pork, and a perfectly
@@ -12,8 +12,8 @@ lang: en
 lat: 35.6944
 lng: 139.7011
 shop_name: Ebisoba Ichigen Shinjuku
-summary: "Ebisoba Ichigen Shinjuku in Tokyo: Miso ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ebisoba Ichigen Shinjuku in Tokyo: Miso ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ebisoba_ichigen_shinjuku.jpg
 title: Ebisoba Ichigen Shinjuku — Tokyo Miso ramen guide
 one_liner: Miso ramen at Ebisoba Ichigen Shinjuku, Tokyo. Verify hours and holidays
@@ -22,6 +22,7 @@ what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-s
   toppings.
 good_for: Cold-weather comfort bowls
 ---
+
 
 lang: en
 title: Ebisoba Ichigen Shinjuku: A Unique Shrimp Miso Ramen Experience

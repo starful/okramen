@@ -1,19 +1,23 @@
 ---
 lang: ko
-title: "후쿠오카 돈코츠 라멘의 정수, 단보 라멘 후쿠오카점 웨이팅 가이드"
-summary: "후쿠오카 현지인들이 사랑하는 진한 돈코츠 라멘 맛집, 단보 라멘에서 웨이팅 없이 즐기는 팁과 주문 가이드를 전합니다."
-date: "2026-07-20"
-shop_name: "Ramen Danbo Fukuoka"
-address: "Fukuoka, Fukuoka-shi"
+title: 후쿠오카 돈코츠 라멘의 정수, 단보 라멘 후쿠오카점 웨이팅 가이드
+summary: 후쿠오카 현지인들이 사랑하는 진한 돈코츠 라멘 맛집, 단보 라멘에서 웨이팅 없이 즐기는 팁과 주문 가이드를 전합니다.
+date: '2026-07-27'
+shop_name: Ramen Danbo Fukuoka
+address: Fukuoka, Fukuoka-shi
 lat: 33.5861
 lng: 130.4024
 categories:
 - 돈코츠
 - 현지인맛집
-thumbnail: "/static/images/ramen_danbo_fukuoka.jpg"
-agoda: ""
-image_prompt: "A 45-degree steaming macro shot of Ramen Danbo Fukuoka 돈코츠 ramen, swirling steam, warm wooden counter seat, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/ramen_danbo_fukuoka.jpg
+agoda: ''
+image_prompt: A 45-degree steaming macro shot of Ramen Danbo Fukuoka 돈코츠 ramen, swirling
+  steam, warm wooden counter seat, cinematic food photography, no text, 8k detail.
 ---
+
+
+
 후쿠오카는 일본 라멘의 한 축을 담당하는 돈코츠 라멘의 본고장입니다. 수많은 돈코츠 라멘집이 즐비한 이곳에서, 어떤 가게를 골라야 할지 막막한 여행자들을 위해 OKRamen 에디터가 현지인의 사랑을 듬뿍 받는 단보 라멘 후쿠오카점(Ramen Danbo Fukuoka)을 깊이 있게 파헤쳐 드립니다. '진한 돼지뼈 육수에 커스터마이징 가능한 매운맛'이라는 특징만으로도 이미 미식가들의 마음을 설레게 하는 이곳은 단순한 한 끼 식사를 넘어 후쿠오카의 맛을 온전히 경험할 수 있는 특별한 장소입니다. 이 가이드를 통해 단보 라멘 방문을 후회 없는 추억으로 만들 모든 준비를 해보세요.
 
 ## 후쿠오카 돈코츠 라멘의 정수를 맛보다: 단보 라멘 후쿠오카점 둘러보기

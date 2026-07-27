@@ -3,12 +3,12 @@ address: Kyoto, Nakagyo
 categories:
 - 쇼유
 - 프리미엄
-date: '2026-05-28'
-image_prompt: "A dramatic top-down view of Kyoto Gogyo's famous Kogashi Shoyu Ramen,\
-  \ featuring an intensely dark, shimmering black burnt soy sauce broth, topped with\
-  \ a perfectly soft-boiled ajitama cut in half showing a golden runny yolk, tender\
-  \ rolled chashu, and delicate green scallions, set on a rustic wooden counter inside\
-  \ a dark moody izakaya with warm amber spotlighting."
+date: '2026-07-27'
+image_prompt: A dramatic top-down view of Kyoto Gogyo's famous Kogashi Shoyu Ramen,
+  featuring an intensely dark, shimmering black burnt soy sauce broth, topped with
+  a perfectly soft-boiled ajitama cut in half showing a golden runny yolk, tender
+  rolled chashu, and delicate green scallions, set on a rustic wooden counter inside
+  a dark moody izakaya with warm amber spotlighting.
 lang: ko
 lat: 35.0051
 lng: 135.7641
@@ -20,6 +20,7 @@ one_liner: Kyoto 쇼유 라멘 — Kyoto Gogyo. 방문 전 지도에서 영업·
 what_to_order: 기본 쇼유 라멘 — 국물 맛 본 뒤 조미료 추가
 good_for: 여행 전 일정 잡기
 ---
+
 
 **이 가게 한줄:** Kyoto Nakagyo의 Kyoto Gogyo은(는) 쇼유 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 

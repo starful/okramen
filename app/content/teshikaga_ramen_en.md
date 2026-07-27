@@ -3,7 +3,7 @@ address: Hokkaido, Sapporo
 categories:
 - Shoyu
 - Local Gem
-date: '2026-04-21'
+date: '2026-07-27'
 image_prompt: A side profile close-up of a steaming bowl of Teshikaga Shoyu Ramen
   inside a warm wooden interior, showcasing a deep amber-colored broth with shimmering
   fat pearls, thick-cut charred chashu, and golden wavy noodles under soft ambient
@@ -12,8 +12,8 @@ lang: en
 lat: 43.0611
 lng: 141.3511
 shop_name: Teshikaga Ramen
-summary: "Teshikaga Ramen in Hokkaido: Shoyu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Teshikaga Ramen in Hokkaido: Shoyu ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/teshikaga_ramen.jpg
 title: Teshikaga Ramen — Hokkaido Shoyu ramen guide
 one_liner: Shoyu ramen at Teshikaga Ramen, Hokkaido. Verify hours and holidays on
@@ -21,6 +21,7 @@ one_liner: Shoyu ramen at Teshikaga Ramen, Hokkaido. Verify hours and holidays o
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 ---
+
 
 **Overview:** Teshikaga Ramen is a shoyu ramen shop in Sapporo, Hokkaido. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

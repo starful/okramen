@@ -3,7 +3,7 @@ address: Kyoto, Higashiyama
 categories:
 - 돈코츠
 - 현지인맛집
-date: '2026-05-28'
+date: '2026-07-27'
 image_prompt: A steaming macro shot of a premium Tonkotsu ramen bowl at Ramen Miyako,
   featuring creamy, rich milky pork bone broth shimmering with aromatic fat globules,
   tender slow-cooked pork chashu slices, a perfectly soft-boiled ajitama egg with
@@ -21,9 +21,10 @@ one_liner: Kyoto 돈코츠 라멘 — Ramen Miyako. 방문 전 지도에서 영�
 what_to_order: 시그니처 돈코츠 — 차슈·면 추가(가에다마)는 매장 규칙 확인
 good_for: 여행 전 일정 잡기
 seo_title: 라멘 미야코 (Ramen Miyako) 교토 히가시야마 돈코츠 실전 가이드
-seo_description: "교토 라멘 미야코에서 현지인처럼 돈코츠 라멘을 즐기는 법! 웨이팅, 주문 팁, 주변 맛집 정보까지, 히가시야마 여행\
-  \ 중 라멘 한 그릇을 완벽하게 계획하세요."
+seo_description: 교토 라멘 미야코에서 현지인처럼 돈코츠 라멘을 즐기는 법! 웨이팅, 주문 팁, 주변 맛집 정보까지, 히가시야마 여행
+  중 라멘 한 그릇을 완벽하게 계획하세요.
 ---
+
 
 ## 한눈에
 

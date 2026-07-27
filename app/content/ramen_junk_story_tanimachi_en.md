@@ -3,15 +3,15 @@ address: Osaka, Chuo
 categories:
 - Shio
 - Premium
-date: '2026-07-08'
+date: '2026-07-27'
 image_prompt: A side profile close-up of Ramen Junk Story Tanimachi Shio ramen, swirling
   steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: en
 lat: 34.6677
 lng: 135.5164
 shop_name: Ramen Junk Story Tanimachi
-summary: "Ramen Junk Story Tanimachi in Osaka: Shio ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Junk Story Tanimachi in Osaka: Shio ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_junk_story_tanimachi.jpg
 title: Ramen Junk Story Tanimachi — Osaka Shio ramen guide
 one_liner: Shio ramen at Ramen Junk Story Tanimachi, Osaka. Verify hours and holidays
@@ -19,6 +19,8 @@ one_liner: Shio ramen at Ramen Junk Story Tanimachi, Osaka. Verify hours and hol
 what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
 ---
+
+
 
 **What to expect:** Ramen Junk Story Tanimachi is a shio ramen shop in Chuo, Osaka. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

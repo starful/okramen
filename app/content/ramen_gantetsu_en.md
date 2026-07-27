@@ -3,7 +3,7 @@ address: Hokkaido, Sapporo
 categories:
 - Miso
 - Local Gem
-date: '2026-05-28'
+date: '2026-07-27'
 image_prompt: A dramatic 45-degree angle macro shot of a steaming bowl of Sapporo
   miso-tonkotsu ramen at Ramen Gantetsu, resting on a rustic wooden counter seat inside
   a dark, moody izakaya, featuring thick golden-brown broth glistening with aromatic
@@ -13,8 +13,8 @@ lang: en
 lat: 43.0611
 lng: 141.3511
 shop_name: Ramen Gantetsu
-summary: "Ramen Gantetsu in Hokkaido: Miso ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Gantetsu in Hokkaido: Miso ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_gantetsu.jpg
 title: Ramen Gantetsu — Hokkaido Miso ramen guide
 one_liner: Miso ramen at Ramen Gantetsu, Hokkaido. Verify hours and holidays on Maps
@@ -23,6 +23,7 @@ what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-s
   toppings.
 good_for: Cold-weather comfort bowls
 ---
+
 
 **At a glance:** Ramen Gantetsu is a miso ramen shop in Sapporo, Hokkaido. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

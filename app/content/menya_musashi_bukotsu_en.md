@@ -3,7 +3,7 @@ address: Tokyo, Taito
 categories:
 - Tonkotsu
 - Solo Friendly
-date: '2026-05-28'
+date: '2026-07-27'
 image_prompt: A 45-degree angle close-up of a steaming bowl of Black Tonkotsu Ramen
   at Menya Musashi Bukotsu, showcasing a glossy jet-black squid ink and charred garlic
   oil swirling into a thick, creamy pork broth, topped with a massive piece of glistening
@@ -14,8 +14,8 @@ lang: en
 lat: 35.7111
 lng: 139.7711
 shop_name: Menya Musashi Bukotsu
-summary: "Menya Musashi Bukotsu in Tokyo: Tonkotsu ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Menya Musashi Bukotsu in Tokyo: Tonkotsu ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/menya_musashi_bukotsu.jpg
 title: Menya Musashi Bukotsu — Tokyo Tonkotsu ramen guide
 one_liner: Tonkotsu ramen at Menya Musashi Bukotsu, Tokyo. Verify hours and holidays
@@ -24,6 +24,7 @@ what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a h
   bowl.
 good_for: Trip planning before you land
 ---
+
 
 **At a glance:** Menya Musashi Bukotsu is a tonkotsu ramen shop in Taito, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 
