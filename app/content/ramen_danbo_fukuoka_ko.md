@@ -11,7 +11,6 @@ categories:
 - 돈코츠
 - 현지인맛집
 thumbnail: /static/images/ramen_danbo_fukuoka.jpg
-agoda: ''
 image_prompt: A 45-degree steaming macro shot of Ramen Danbo Fukuoka 돈코츠 ramen, swirling
   steam, warm wooden counter seat, cinematic food photography, no text, 8k detail.
 ---

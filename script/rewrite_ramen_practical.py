@@ -40,7 +40,7 @@ PROTECTED_KEYS = frozenset(
         "date",
         "thumbnail",
         "image_prompt",
-        "agoda",
+        
         "description",
     }
 )
@@ -727,7 +727,7 @@ def merge_sibling_meta(post: dict, path: Path) -> dict:
             "date",
             "thumbnail",
             "image_prompt",
-            "agoda",
+            
             "shop_name",
         ):
             if not meta.get(key) and sib.get(key) is not None:
@@ -1259,7 +1259,7 @@ def dump_frontmatter(meta: dict) -> str:
     ordered: dict = {}
     priority = [
         "address",
-        "agoda",
+        
         "categories",
         "date",
         "image_prompt",

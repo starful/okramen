@@ -153,17 +153,6 @@
         </section>
         {% endif %}
 
-        {% if post.agoda %}
-        <div class="booking-box" style="text-align: center; margin: 50px 0; padding: 30px; background: #fff5f5; border-radius: 15px; border: 2px dashed #e74c3c;">
-            <h3>🏨 Stay Near This Ramen Shop</h3>
-            <p>Find the best hotels in {{ post.address }} for your culinary journey.</p>
-            <a href="{{ post.agoda }}" target="_blank" rel="nofollow" 
-               style="display: inline-block; background: #e74c3c; color: white; padding: 15px 30px; font-weight: bold; border-radius: 30px; text-decoration: none;">
-               Check Hotel Deals on Agoda →
-            </a>
-        </div>
-        {% endif %}
-
         <nav class="detail-footer-nav" aria-label="{% if post.lang == 'ko' %}페이지 이동{% else %}Page navigation{% endif %}">
             <a href="{{ post.footer_nav.map_href }}" class="back-btn">{{ post.footer_nav.map_label }}</a>
             <a href="{{ post.footer_nav.guide_href }}" class="back-btn back-btn--secondary">{{ post.footer_nav.guide_label }}</a>

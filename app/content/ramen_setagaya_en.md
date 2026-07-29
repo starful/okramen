@@ -12,7 +12,6 @@ categories:
 - Shoyu
 - Local Gem
 thumbnail: /static/images/ramen_setagaya.jpg
-agoda: ''
 image_prompt: A 45-degree steaming macro shot of Ramen Setagaya shoyu ramen, crystal-clear
   amber broth, thin straight noodles, tender chashu slices, soft-boiled egg, bamboo
   shoots, a sprinkle of green onion, warm timber counter, cinematic food photography,

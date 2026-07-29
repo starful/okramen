@@ -129,7 +129,6 @@ def build_ramen_prompt(
     address: str,
     lang: str,
     features: str,
-    agoda: str,
     feedback: str = "",
 ) -> str:
     cats = parse_categories(features, lang)
@@ -151,8 +150,6 @@ Address: {address}
 Coordinates: {lat}, {lng}
 Tags / features: {features}
 Suggested categories: {cats[0]}, {cats[1]}
-Optional lodging CTA slug hint: {agoda or "(none)"}
-
 {QUALITY_PROMPT_RULES}
 {feedback_block}
 [HARD RULES]
@@ -179,14 +176,13 @@ categories:
 - {cats[0]}
 - {cats[1]}
 thumbnail: "/static/images/{safe_name}.jpg"
-agoda: "{agoda or ""}"
 image_prompt: "{build_image_prompt(name, features, lang)}"
 ---
 (Markdown body)
 """
 
 
-def generate_ramen_article(safe_name, name, lat, lng, address, lang, features, agoda) -> str:
+def generate_ramen_article(safe_name, name, lat, lng, address, lang, features) -> str:
     """Claude shop page. Returns status string."""
     filename = f"{safe_name}_{lang}.md"
     path = os.path.join(CONTENT_DIR, filename)
@@ -212,7 +208,6 @@ def generate_ramen_article(safe_name, name, lat, lng, address, lang, features, a
                 address=address,
                 lang=lang,
                 features=features,
-                agoda=agoda,
                 feedback=feedback,
             )
             response_text = _claude_md(prompt)
@@ -266,7 +261,6 @@ def run_generator(limit=10):
             lng = row.get("Lng", "")
             address = row.get("Address", "")
             features = row.get("Features", "")
-            agoda = row.get("Agoda", "")
 
             if is_non_ramen_slug(safe_name, name, features=features, address=address):
                 print(f"⏭️ Queue skip non-ramen: {name}")
@@ -285,7 +279,7 @@ def run_generator(limit=10):
             for lang in ["en", "ko"]:
                 if not os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")):
                     pair_tasks.append(
-                        (safe_name, name, lat, lng, address, lang, features, agoda)
+                        (safe_name, name, lat, lng, address, lang, features)
                     )
             if not pair_tasks:
                 continue

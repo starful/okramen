@@ -100,8 +100,7 @@ def ramen_orphan_tasks() -> list[tuple]:
                 row.get("Address", "Japan"),
                 lang,
                 row.get("Features", ""),
-                row.get("Agoda", ""),
-            )
+                            )
         )
     if skipped:
         print(
@@ -152,8 +151,7 @@ def ramen_csv_tasks() -> list[tuple]:
                             row.get("Address", "Japan"),
                             lang,
                             row.get("Features", ""),
-                            row.get("Agoda", ""),
-                        )
+                                                    )
                     )
     return tasks
 

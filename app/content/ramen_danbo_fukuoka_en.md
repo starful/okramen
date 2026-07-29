@@ -12,7 +12,6 @@ categories:
 - Tonkotsu
 - Local Gem
 thumbnail: /static/images/ramen_danbo_fukuoka.jpg
-agoda: ''
 image_prompt: A 45-degree steaming macro shot of Ramen Danbo Fukuoka Tonkotsu ramen,
   swirling steam, warm wooden counter seat, cinematic food photography, no text, 8k
   detail.

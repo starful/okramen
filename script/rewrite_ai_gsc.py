@@ -113,7 +113,7 @@ KEEP_META = (
     "categories",
     "date",
     "thumbnail",
-    "agoda",
+    
     "lang",
     "shop_name",
 )
