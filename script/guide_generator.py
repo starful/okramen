@@ -33,7 +33,7 @@ def _claude_md(prompt: str) -> str:
 
 # GEMINI_API_KEY no longer required for MD (Claude CLI)
 MODEL = "gemini-2.5-flash"
-MAX_ATTEMPTS = 3
+MAX_ATTEMPTS = 2
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)

@@ -41,7 +41,7 @@ def _claude_md(prompt: str) -> str:
 
 
 MODEL = "gemini-2.5-flash"
-MAX_ATTEMPTS = 3
+MAX_ATTEMPTS = 2
 
 FLAVOR_KEYS = {
     "돈코츠": ("Tonkotsu", "돈코츠"),

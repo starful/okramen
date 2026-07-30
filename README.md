@@ -1,8 +1,14 @@
 # OKRamen
 
-Interactive ramen discovery platform for Japan with map-based browsing, bilingual content, and markdown-first publishing.
+| | |
+|--|--|
+| **Live** | [https://okramen.net](https://okramen.net) |
+| **GitHub** | [starful/okramen](https://github.com/starful/okramen) |
+| **Hub ID** | `okramen` |
+| **GA4** | Property `530015360` · GSC `sc-domain:okramen.net` |
+| **GCS** | `ok-project-assets/okramen/` · Places: `restaurant`, `food` |
 
-Live: [https://okramen.net](https://okramen.net)
+Interactive ramen discovery platform for Japan with map-based browsing, bilingual content, and markdown-first publishing.
 
 ## What This Project Does
 
@@ -130,6 +136,12 @@ Before deploy:
 - The app currently relies on startup-time in-memory caches.
 - If markdown content changes while server is running, restart the app to refresh caches.
 - Keep markdown frontmatter consistent (`id`, `lang`, `title`, `summary`, etc.) for stable rendering.
+
+## OK Admin (Work Hub)
+
+- **Pipeline:** `ramen_generator` → guides → Places images → `generate_images` → optimize → build
+- **Git / Deploy:** OK Admin **Git** tab (Ship prep, Review & merge) · **Deploy** tab from `main`
+- See [okadmin/README.md](../okadmin/README.md)
 
 ## License
 
