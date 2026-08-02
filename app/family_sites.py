@@ -104,10 +104,17 @@ REGION_CROSS_LINKS: dict[str, list[dict[str, str]]] = {
     "hakone": [
         {
             "id": "okonsen",
-            "url_en": "https://okonsen.net/",
-            "url_ko": "https://okonsen.net/?lang=ko",
-            "label_en": "Hakone onsen & ryokan picks",
-            "label_ko": "하코네 온천·료칸 추천",
+            "url_en": "https://okonsen.net/guide/hakone_day_trip_guide_en",
+            "url_ko": "https://okonsen.net/guide/hakone_day_trip_guide_ko",
+            "label_en": "Hakone day-trip onsen guide",
+            "label_ko": "하코네 온천 당일 가이드",
+        },
+        {
+            "id": "okramen",
+            "url_en": "https://okramen.net/guide/tokyo_ramen_day_course_en",
+            "url_ko": "https://okramen.net/guide/tokyo_ramen_day_course_ko",
+            "label_en": "Tokyo ramen day course",
+            "label_ko": "도쿄 라멘 하루 코스",
         },
         {
             "id": "okcaddie",

@@ -14,11 +14,15 @@ lng: 135.7611
 shop_name: Menya Inoichi
 summary: Kyoto Menya Inoichi — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/menya_inoichi.jpg
-title: Menya Inoichi — Kyoto 쇼유 라멘 가이드
+title: 메냐 이노이치 - 교토 쇼유 라멘 | OKRamen
 one_liner: Kyoto 쇼유 라멘 — Menya Inoichi. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 기본 쇼유 라멘 — 국물 맛 본 뒤 조미료 추가
 good_for: 여행 전 일정 잡기
+description: 교토의 쇼유 라멘 전문점 메냐 이노이치. 정성 들인 육수와 쫄깃한 면발. 영업시간, 위치, 추천 메뉴 확인.
+seo_title: 메냐 이노이치 - 교토 쇼유 라멘 명가 | OKRamen
+seo_description: 교토 쇼유 라멘 명가 메냐 이노이치. 진한 육수와 쫄깃한 면발이 일품. 영업시간, 위치, 인기 메뉴 정보.
 ---
+
 
 **이 가게 한줄:** Kyoto Shimogyo의 Menya Inoichi은(는) 쇼유 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.
 
