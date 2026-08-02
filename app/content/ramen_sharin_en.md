@@ -18,12 +18,18 @@ shop_name: Ramen Sharin
 summary: 'Ramen Sharin in Tokyo: tsukemen (dipping noodles) — practical notes on queues,
   ordering, and how to eat the bowl. Verify hours on Maps.'
 thumbnail: /static/images/ramen_sharin.jpg
-title: Ramen Sharin — Tokyo Tsukemen ramen guide
+title: Ramen Sharin | Tsukemen Specialist in Tokyo | OKRamen
 one_liner: 'Tsukemen specialist in Tokyo: noodles and broth served separately. Verify
   hours and holidays on Maps before you go.'
 what_to_order: House tsukemen; ask about soup-wari (broth top-up) if offered.
 good_for: Tsukemen fans and noodle-texture seekers
+description: 'Ramen Sharin: Tokyo''s tsukemen specialist. Noodles & broth served separately.
+  Hours, map & location at OKRamen.'
+seo_title: Ramen Sharin - Tsukemen in Tokyo | OKRamen
+seo_description: Best tsukemen in Tokyo at Ramen Sharin. Noodles dipped in rich broth.
+  Check hours, map & reviews on OKRamen.
 ---
+
 
 
 lang: en

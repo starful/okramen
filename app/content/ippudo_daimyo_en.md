@@ -4,24 +4,30 @@ categories:
 - Tonkotsu
 - Premium
 date: '2026-04-12'
-image_prompt: "A steaming macro shot of Ippudo's signature Akamaru ramen at the Daimyo\
-  \ flagship, focusing on the dark swirl of fragrant garlic oil and spicy miso paste\
-  \ melting into a creamy, ivory-white Tonkotsu broth, set against a warm wooden counter\
-  \ with soft, golden ambient lighting."
+image_prompt: A steaming macro shot of Ippudo's signature Akamaru ramen at the Daimyo
+  flagship, focusing on the dark swirl of fragrant garlic oil and spicy miso paste
+  melting into a creamy, ivory-white Tonkotsu broth, set against a warm wooden counter
+  with soft, golden ambient lighting.
 lang: en
 lat: 33.5877
 lng: 130.3944
 shop_name: Ippudo Daimyo
-summary: "Ippudo Daimyo in Fukuoka: Tonkotsu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ippudo Daimyo in Fukuoka: Tonkotsu ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ippudo_daimyo.jpg
-title: Ippudo Daimyo — Fukuoka Tonkotsu ramen guide
+title: Ippudo Daimyo Tonkotsu Ramen in Fukuoka | OKRamen
 one_liner: Tonkotsu ramen at Ippudo Daimyo, Fukuoka. Verify hours and holidays on
   Maps before you go.
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
+description: Tonkotsu ramen specialist at Ippudo Daimyo, a popular Ippudo chain location
+  in Fukuoka. Known for rich pork broth and quality noodles.
+seo_title: Ippudo Daimyo Tonkotsu Ramen in Fukuoka | OKRamen
+seo_description: Discover tonkotsu ramen at Ippudo Daimyo, Fukuoka. Check hours, location,
+  menu, and get directions with OKRamen's interactive ramen guide.
 ---
+
 
 lang: en
 title: Ippudo Daimyo - Authentic Tonkotsu Ramen in Fukuoka

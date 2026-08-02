@@ -11,18 +11,19 @@ shop_name: Fuunji Shinjuku
 summary: 'Fuunji Shinjuku in Tokyo: tsukemen (dipping noodles) — practical notes on
   queues, ordering, and how to eat the bowl. Verify hours on Maps.'
 thumbnail: /static/images/fuunji_shinjuku.jpg
-title: 'Fuunji Shinjuku Tsukemen: Ultimate Visitor & Ordering Guide'
+title: 'Fuunji Shinjuku: Master the Line with Insider Ordering Tips'
 one_liner: 'Tsukemen specialist in Tokyo: noodles and broth served separately. Verify
   hours and holidays on Maps before you go.'
 what_to_order: Standard tsukemen set; ask for soup-wari (broth dilution) after noodles
   if offered.
 good_for: Tsukemen fans and noodle-texture seekers
-seo_title: 'Fuunji Shinjuku: How to Order & Beat the Tsukemen Line'
-seo_description: Want Tokyo's best tsukemen? Learn how to order at Fuunji Shinjuku,
-  buy tickets, beat the long lines, and eat like a local with our ultimate guide.
-description: Want Tokyo's best tsukemen? Learn how to order at Fuunji Shinjuku, buy
-  tickets, beat the long lines, and eat like a local with our ultimate guide.
+seo_title: 'Fuunji Shinjuku: Master the Line with Insider Ordering Tips'
+seo_description: Master Fuunji's legendary tsukemen. Learn insider ordering strategies,
+  best visiting times, and queue-skip hacks from Tokyo ramen experts.
+description: Skip the legendary queue at Fuunji Shinjuku with proven insider strategies.
+  Learn best ordering methods, optimal visiting times, and line-skip hacks.
 ---
+
 
 
 
