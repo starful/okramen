@@ -248,6 +248,7 @@ def run_generator(limit=10):
     tasks = []
     skipped = 0
     pairs_queued = 0
+    half_skipped = 0
     with open(csv_path, mode="r", encoding="utf-8-sig") as file:
         reader = csv.DictReader(file)
         for row in reader:
@@ -273,25 +274,28 @@ def run_generator(limit=10):
 
             en_path = os.path.join(CONTENT_DIR, f"{safe_name}_en.md")
             ko_path = os.path.join(CONTENT_DIR, f"{safe_name}_ko.md")
-            if os.path.exists(en_path) and os.path.exists(ko_path):
+            en_exists = os.path.exists(en_path)
+            ko_exists = os.path.exists(ko_path)
+            if en_exists and ko_exists:
                 continue
-            pair_tasks = []
+            if en_exists or ko_exists:
+                half_skipped += 1
+                continue
             for lang in ["en", "ko"]:
-                if not os.path.exists(os.path.join(CONTENT_DIR, f"{safe_name}_{lang}.md")):
-                    pair_tasks.append(
-                        (safe_name, name, lat, lng, address, lang, features)
-                    )
-            if not pair_tasks:
-                continue
+                tasks.append((safe_name, name, lat, lng, address, lang, features))
             pairs_queued += 1
-            tasks.extend(pair_tasks)
+
+    if half_skipped:
+        print(f"⏭️ Half pairs skipped (en/ko one side only): {half_skipped}")
 
     if not tasks:
         print("ℹ️  No new items to generate (all queued ramen already exist or filtered).")
-        _emit_pipeline_result(step="items", topics=0, generated=0, skipped=skipped)
+        _emit_pipeline_result(
+            step="items", topics=0, generated=0, skipped=skipped + half_skipped
+        )
         return
 
-    print(f"🔔 {pairs_queued} pair(s), {len(tasks)} file(s) — Claude + quality gate...")
+    print(f"🔔 {pairs_queued} new pair(s), {len(tasks)} file(s) — Claude + quality gate...")
     ok = 0
     failed = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
@@ -310,7 +314,7 @@ def run_generator(limit=10):
         topics=pairs_queued,
         generated=ok,
         failed=failed,
-        skipped=skipped,
+        skipped=skipped + half_skipped,
     )
 
 

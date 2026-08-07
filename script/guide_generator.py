@@ -214,6 +214,7 @@ def _new_topic_tasks(limit: int) -> list[tuple]:
     tasks: list[tuple] = []
     csv_path = _guides_csv_path()
     topics = 0
+    half_skipped = 0
     with open(csv_path, mode="r", encoding="utf-8-sig") as file:
         for row in csv.DictReader(file):
             guide_id = (row.get("id") or "").strip()
@@ -221,7 +222,10 @@ def _new_topic_tasks(limit: int) -> list[tuple]:
                 continue
             en_exists = os.path.exists(os.path.join(GUIDE_CONTENT_DIR, f"{guide_id}_en.md"))
             ko_exists = os.path.exists(os.path.join(GUIDE_CONTENT_DIR, f"{guide_id}_ko.md"))
+            if en_exists and ko_exists:
+                continue
             if en_exists or ko_exists:
+                half_skipped += 1
                 continue
             keywords = (row.get("keywords") or "").strip()
             tasks.append((guide_id, row.get("topic_en") or guide_id, "en", keywords))
@@ -229,6 +233,8 @@ def _new_topic_tasks(limit: int) -> list[tuple]:
             topics += 1
             if topics >= limit:
                 break
+    if half_skipped:
+        print(f"⏭️ Half guide pairs skipped (en/ko one side only): {half_skipped}")
     return tasks
 
 
