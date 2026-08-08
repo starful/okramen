@@ -11,18 +11,19 @@ shop_name: Menya Musashi Shinjuku
 summary: 'Menya Musashi Shinjuku in Tokyo: Tonkotsu ramen — practical guide to queues,
   ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/menya_musashi_shinjuku.jpg
-title: 'Menya Musashi Shinjuku: Ultimate Tokyo Ramen Guide'
+title: Menya Musashi Shinjuku — Tokyo ramen guide
 one_liner: Tonkotsu ramen at Menya Musashi Shinjuku, Tokyo. Verify hours and holidays
   on Maps before you go.
 what_to_order: Black or red W-soup (dual-broth) signature bowl; kaedama if you finish
   broth with noodles left.
 good_for: Trip planning before you land
-seo_title: 'Menya Musashi Shinjuku: Guide to Tokyo''s Legendary Ramen | OKRamen'
-seo_description: 'Want to try Tokyo''s legendary thick-chashu ramen? Here is your
-  guide to Menya Musashi Shinjuku: menu recommendations, ordering tips, and wait times.'
-description: Your complete guide to visiting the legendary Menya Musashi Shinjuku.
-  Discover what to order, ticket machine tips, and how to avoid the long queues.
+seo_title: 'Menya Musashi Shinjuku: Tokyo''s Must-Try Thick Ramen | Expert Guide'
+seo_description: Discover Menya Musashi Shinjuku's legendary thick ramen. Menu secrets,
+  ordering tips & how locals skip the lines. Tokyo's must-visit spot.
+description: 'Want to try Tokyo''s legendary thick-chashu ramen? Here is your guide
+  to Menya Musashi Shinjuku: menu recommendations, ordering tips, and wait times.'
 ---
+
 
 
 **What to expect:** Menya Musashi Shinjuku is the flagship of a chain founded by a former student of the original Musashi style — famous for W-soup (dual broth): tonkotsu blended with a second stock for depth without pure white Hakata heaviness. The Shinjuku location sits in one of Tokyo’s busiest dining zones; lunch and dinner queues are normal, not a sign of trouble.

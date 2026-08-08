@@ -16,16 +16,16 @@ lng: 141.3511
 shop_name: Ramen Gantetsu
 summary: Hokkaido Ramen Gantetsu — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/ramen_gantetsu.jpg
-title: 라멘 간테츠 (Ramen Gantetsu) — 삿포로 미소라멘 가이드
+title: 라멘 간테츠 삿포로 미소라멘 맛집 | OKRamen 위치, 영업시간, 메뉴
 one_liner: Hokkaido 미소 라멘 — Ramen Gantetsu. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 기본 미소 라멘 — 버터·옥수수·매운맛 옵션 확인
 good_for: 추운 날 든든한 한 그릇
-description: 삿포로 대표 미소라멘 맛집 '라멘 간테츠(Ramen Gantetsu)'의 위치, 영업시간, 인기 추천 메뉴 정보를 OKRamen에서
-  확인해보세요.
-seo_title: 라멘 간테츠 (Ramen Gantetsu) | 삿포로 미소라멘 맛집 | OKRamen
-seo_description: 삿포로 미소라멘 맛집 '라멘 간테츠' 완벽 가이드! OKRamen 지도에서 영업시간, 휴무일, 인기 추천 메뉴와 상세
-  위치를 지금 확인하세요.
+description: 라멘 간테츠는 삿포로 대표 미소라멘 맛집. 영업시간, 휴무일, 추천 메뉴, 위치 정보를 OKRamen에서 확인하세요.
+seo_title: 삿포로 미소라멘 맛집 라멘 간테츠 | 위치·영업시간·메뉴 가이드
+seo_description: 삿포로 대표 미소라멘 맛집 라멘 간테츠. 정확한 위치, 영업시간, 휴무일, 인기 메뉴 정보를 OKRamen에서 지금
+  확인하세요.
 ---
+
 
 
 

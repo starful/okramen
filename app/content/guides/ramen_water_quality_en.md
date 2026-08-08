@@ -1,16 +1,17 @@
 ---
 lang: en
-title: Why Water Quality is the Secret to Authentic Japanese Ramen
+title: 'Ramen Water Quality Guide: Soft Water, Minerals & pH Tips'
 date: '2026-05-28'
-summary: "You think you know ramen? Prepare to discover the often-overlooked secret\
-  \ behind its unparalleled depth and flavor: the profound impact of water quality\
-  \ on every single component of this beloved Japanese dish."
-description: Discover how water quality affects ramen noodles and broth. Learn why
-  soft water is the secret to authentic Japanese ramen.
-seo_title: "How Water Quality Affects Ramen Broth & Noodles"
-seo_description: Discover how water quality affects ramen noodles and broth. Learn
-  why soft water is the secret to authentic Japanese ramen.
+summary: 'You think you know ramen? Prepare to discover the often-overlooked secret
+  behind its unparalleled depth and flavor: the profound impact of water quality on
+  every single component of this beloved Japanese dish.'
+description: Complete guide to water quality for ramen. Why soft water makes better
+  broth and how minerals affect authentic Japanese ramen noodles.
+seo_title: 'Ramen Water Quality Guide: Soft Water & Minerals'
+seo_description: Learn why water quality matters for ramen. Best water types, soft
+  water benefits, and how minerals affect authentic broth and noodle texture.
 ---
+
 
 lang: en
 title: Why Water Quality is the Secret to Authentic Japanese Ramen
