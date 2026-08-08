@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://okramen.net/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://okramen.net/guide</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://okramen.net/guide?lang=ko</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -116,7 +116,7 @@
   </url>
   <url>
     <loc>https://okramen.net/ramen/ramen_sharin_en</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -433,18 +433,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okramen.net/ramen/ramen_takahashi_shinjuku_ko</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/ramen/ramen_takahashi_shinjuku_en</loc>
-    <lastmod>2026-07-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okramen.net/ramen/ramen_sugimoto_ko</loc>
     <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -709,30 +697,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okramen.net/ramen/ramen_takahashi_ko</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/ramen/ramen_takahashi_en</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/ramen/ramen_shingen_ko</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/ramen/ramen_shingen_en</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://okramen.net/ramen/ramen_kuryu_ko</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -901,18 +865,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okramen.net/ramen/ramen_sen-no-kaze_ko</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/ramen/ramen_sen-no-kaze_en</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://okramen.net/ramen/ramen_jiro_mita_ko</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -950,7 +902,7 @@
   </url>
   <url>
     <loc>https://okramen.net/ramen/menya_inoichi_ko</loc>
-    <lastmod>2026-07-12</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -974,25 +926,13 @@
   </url>
   <url>
     <loc>https://okramen.net/ramen/kadoya_shokudo_ko</loc>
-    <lastmod>2026-07-12</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://okramen.net/ramen/kadoya_shokudo_en</loc>
     <lastmod>2026-07-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/ramen/jinrui_mina_menrui_ko</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/ramen/jinrui_mina_menrui_en</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1004,7 +944,7 @@
   </url>
   <url>
     <loc>https://okramen.net/ramen/ippudo_daimyo_en</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1153,18 +1093,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://okramen.net/ramen/honke_daiichi-asahi_ko</loc>
-    <lastmod>2026-07-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/ramen/honke_daiichi-asahi_en</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://okramen.net/ramen/hakata_shinshin_tenjin_ko</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -1196,7 +1124,7 @@
   </url>
   <url>
     <loc>https://okramen.net/ramen/fuunji_shinjuku_en</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -1544,7 +1472,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/ramen_chain_vs_independent_en</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1556,7 +1484,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/ramen_after_drinking_en</loc>
-    <lastmod>2026-07-12</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1568,7 +1496,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/ramen_and_ramyeon_difference_en</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1717,20 +1645,8 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://okramen.net/guide/ramen_prices_en</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://okramen.net/guide/ramen_and_drink_en</loc>
     <lastmod>2026-07-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/guide/ramen_types_101_en</loc>
-    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1754,7 +1670,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/chashu_styles_en</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1898,7 +1814,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/tori_paitan_craze_ko</loc>
-    <lastmod>2026-07-12</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -2131,12 +2047,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://okramen.net/guide/ramen_types_101_ko</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://okramen.net/guide/chashu_styles_ko</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -2157,12 +2067,6 @@
   <url>
     <loc>https://okramen.net/guide/ramen_and_drink_ko</loc>
     <lastmod>2026-07-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/guide/ramen_prices_ko</loc>
-    <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

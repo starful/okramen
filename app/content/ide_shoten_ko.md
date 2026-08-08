@@ -14,16 +14,16 @@ lng: 135.1911
 shop_name: IDE Shoten
 summary: Wakayama IDE Shoten — 돈코츠 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/ide_shoten.jpg
-title: 이데쇼텐 (Ide Shoten) — 와카야마 라멘 맛집 가이드
+title: 이데쇼텐(Ide Shoten) - 와카야마 인기 라멘 맛집
 one_liner: Wakayama 돈코츠 라멘 — IDE Shoten. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 시그니처 돈코츠 — 차슈·면 추가(가에다마)는 매장 규칙 확인
 good_for: 여행 전 일정 잡기
-description: 와카야마 대표 라멘 맛집 '이데쇼텐(Ide Shoten)' 가이드. OKRamen에서 영업시간, 휴무일, 위치, 추천 메뉴
-  등 유용한 정보를 확인하세요.
-seo_title: 이데쇼텐 (Ide Shoten) | 와카야마 라멘 최고의 맛집 | OKRamen
-seo_description: 와카야마 대표 라멘 맛집 '이데쇼텐(Ide Shoten)' 가이드. OKRamen에서 영업시간, 휴무일, 위치, 추천
-  메뉴 등 유용한 정보를 확인하세요.
+description: 와카야마 대표 라멘 맛집 이데쇼텐의 완벽한 정보 가이드. 영업시간, 정확한 위치, 시그니처 메뉴, 방문객 평가를 한눈에 확인할
+  수 있습니다.
+seo_title: 이데쇼텐 - 와카야마 라멘 맛집 | 영업시간·메뉴·위치 가이드
+seo_description: 와카야마 라멘 인기점 이데쇼텐! 영업시간, 위치, 대표 메뉴와 후기를 한번에 확인하세요. OKRamen 완벽 가이드.
 ---
+
 
 
 **이 가게 한줄:** Wakayama Wakayama의 IDE Shoten은(는) 돈코츠 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.

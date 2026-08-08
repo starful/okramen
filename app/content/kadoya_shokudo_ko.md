@@ -14,15 +14,17 @@ lng: 135.4855
 shop_name: Kadoya Shokudo
 summary: Osaka Kadoya Shokudo — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/kadoya_shokudo.jpg
-title: Kadoya Shokudo — Osaka 라멘 가이드
+title: Kadoya Shokudo — 오사카 쇼유라멘 명점
 one_liner: Osaka 쇼유 라멘 — Kadoya Shokudo. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 기본 쇼유 라멘 — 국물 맛 본 뒤 조미료 추가
 good_for: 여행 전 일정 잡기
-description: 오사카에서 가장 인기 있는 쇼유라멘 전문점. 실시간 영업시간, 정확한 위치, 추천 메뉴까지 완벽 가이드.
-seo_title: Kadoya Shokudo 오사카 명점 쇼유라멘 | 영업시간·위치·메뉴 | OKRamen
-seo_description: 오사카 명점 Kadoya Shokudo 쇼유라멘! 실시간 영업정보, 정확한 위치, 추천 메뉴까지. OKRamen 지도에서
+description: 오사카 authentic 쇼유라멘의 명점! 인기 메뉴, 실시간 영업정보, 정확한 위치 정보를 OKRamen에서 확인하세요.
+seo_title: Kadoya Shokudo | 오사카 authentic 쇼유라멘 | OKRamen 가이드
+seo_description: 쇼유라멘의 진정한 맛, Kadoya Shokudo! 오사카 인기 메뉴, 실시간 영업정보, 정확한 위치. OKRamen에서
   지금 확인하세요.
 ---
+
+
 
 
 **한 그릇 요약:** Osaka Nishi의 Kadoya Shokudo은(는) 쇼유 라멘을 중심으로 하는 가게입니다. 현지에서 ‘한 그릇’ 목적지로 찾기 전, 영업시간과 웨이팅 패턴을 짚어 두면 일정이 수월합니다. 이 페이지는 공식 홈페이지를 대신하지 않으니, 방문 당일 지도에서 최신 정보를 다시 확인하세요.

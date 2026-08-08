@@ -16,16 +16,16 @@ lng: 135.7511
 shop_name: Enishi Kyoto
 summary: Kyoto Enishi Kyoto — 치킨라멘 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/enishi_kyoto.jpg
-title: 교토 에니시 (Enishi Kyoto) — 라멘 맛집 가이드
+title: 교토 탄탄멘 맛집 에니시 (Enishi) | OKRamen
 one_liner: Kyoto 치킨라멘 라멘 — Enishi Kyoto. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 메뉴판 시그니처 라멘 — 키오스크가 어렵다면 직원에게 문의
 good_for: 여행 전 일정 잡기
-description: 교토 탄탄멘 맛집 '에니시(Enishi Kyoto)'의 위치, 영업시간, 휴무일, 추천 메뉴 정보를 확인하세요. OKRamen
-  지도에서 한눈에 보는 라멘 가이드.
-seo_title: 교토 에니시 (Enishi Kyoto) | 교토 탄탄멘 라멘 맛집 추천 - OKRamen
-seo_description: 교토 탄탄멘 맛집 '에니시(Enishi Kyoto)'의 위치, 영업시간, 휴무일, 추천 메뉴 정보를 확인하세요. OKRamen
-  지도에서 한눈에 보는 라멘 가이드.
+description: 교토의 대표 탄탄멘 맛집 에니시(Enishi Kyoto)의 위치, 영업시간, 메뉴를 한눈에 확인하세요. OKRamen 교토
+  라멘 가이드.
+seo_title: 교토 탄탄멘 라멘 에니시 | 교토 라멘 맛집 추천 - OKRamen
+seo_description: 교토 탄탄멘 맛집 에니시의 위치, 영업시간, 추천메뉴. OKRamen 라멘 지도에서 교토 라멘을 찾아보세요.
 ---
+
 
 
 
