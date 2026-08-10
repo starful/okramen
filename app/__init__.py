@@ -28,6 +28,18 @@ try:
     from .seo_service import attach_seo_fields, card_path, og_image_context, share_context, truncate_text
 except ImportError:
     from seo_service import attach_seo_fields, card_path, og_image_context, share_context, truncate_text
+try:
+    from .legacy_redirects import (
+        resolve_card_redirect,
+        resolve_guide_redirect,
+        resolve_ramen_redirect,
+    )
+except ImportError:
+    from legacy_redirects import (
+        resolve_card_redirect,
+        resolve_guide_redirect,
+        resolve_ramen_redirect,
+    )
 from werkzeug.utils import safe_join
 
 try:
@@ -402,7 +414,7 @@ def guide_list_all():
 def guide_detail(guide_id):
     post = load_guide_post(GUIDE_DIR, guide_id, logger=logger)
     if post is None:
-        return redirect('/guide')
+        return redirect(resolve_guide_redirect(guide_id), code=301)
     post = attach_seo_fields(post, "OKRamen Guide")
     content_html = render_guide_content(post)
     related_shops = _ramen_cards(GUIDE_RELATED_SHOPS.get(guide_id, []))
@@ -422,7 +434,7 @@ def guide_detail(guide_id):
 def ramen_detail(ramen_id):
     post, base_id = prepare_ramen_detail_post(CONTENT_DIR, ramen_id, _thumbnail_with_v)
     if post is None:
-        abort(404)
+        return redirect(resolve_ramen_redirect(ramen_id), code=301)
     post = attach_seo_fields(post, "OKRamen Japan Guide")
     _enrich_ramen_detail_post(post)
     content_html = render_ramen_content(post)
@@ -455,7 +467,9 @@ def ramen_social_card(ramen_id):
     """Lightweight share landing page for X/OG crawlers."""
     post, base_id = prepare_ramen_card_post(CONTENT_DIR, ramen_id)
     if post is None:
-        abort(404)
+        return redirect(
+            resolve_card_redirect(ramen_id, CONTENT_DIR, GUIDE_DIR), code=301
+        )
     lang = post.get('lang', 'en')
     post = attach_seo_fields(post, "OKRamen Japan Guide")
 

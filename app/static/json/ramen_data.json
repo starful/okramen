@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026.08.08",
-  "total_count": 192,
+  "last_updated": "2026.08.11",
+  "total_count": 194,
   "ramens": [
     {
       "id": "teshikaga_ramen_ko",
@@ -485,7 +485,7 @@
     {
       "id": "ramen_gantetsu_ko",
       "lang": "ko",
-      "title": "라멘 간테츠 (Ramen Gantetsu) — 삿포로 미소라멘 가이드",
+      "title": "라멘 간테츠 삿포로 미소라멘 맛집 | OKRamen 위치, 영업시간, 메뉴",
       "lat": 43.0611,
       "lng": 141.3511,
       "categories": [
@@ -869,7 +869,7 @@
     {
       "id": "enishi_kyoto_ko",
       "lang": "ko",
-      "title": "교토 에니시 (Enishi Kyoto) — 라멘 맛집 가이드",
+      "title": "교토 탄탄멘 맛집 에니시 (Enishi) | OKRamen",
       "lat": 35.0011,
       "lng": 135.7511,
       "categories": [
@@ -1413,7 +1413,7 @@
     {
       "id": "nakiryu_ko",
       "lang": "ko",
-      "title": "나키류 (Nakiryu) — 도쿄 미슐랭 1스타 탄탄멘 맛집",
+      "title": "나키류 (Nakiryu) | 도쿄 미슐랭 탄탄멘 라멘 맛집 | OKRamen",
       "lat": 35.7322,
       "lng": 139.7291,
       "categories": [
@@ -1845,7 +1845,7 @@
     {
       "id": "menya_saimi_en",
       "lang": "en",
-      "title": "Menya Saimi: Sapporo's Ultimate Ginger Miso Ramen Guide",
+      "title": "Sapporo's #1 Miso Ramen at Menya Saimi | Hokkaido Guide",
       "lat": 43.0311,
       "lng": 141.3911,
       "categories": [
@@ -2021,7 +2021,7 @@
     {
       "id": "ide_shoten_ko",
       "lang": "ko",
-      "title": "이데쇼텐 (Ide Shoten) — 와카야마 라멘 맛집 가이드",
+      "title": "이데쇼텐(Ide Shoten) - 와카야마 인기 라멘 맛집",
       "lat": 34.2281,
       "lng": 135.1911,
       "categories": [
@@ -2069,7 +2069,7 @@
     {
       "id": "ichiraku_ramen_en",
       "lang": "en",
-      "title": "The Real Ichiraku Ramen: Naruto's Fukuoka Shop Guide",
+      "title": "Ichiraku Ramen Fukuoka: Visit Naruto's Real Favorite Ramen Shop",
       "lat": 33.6611,
       "lng": 130.4411,
       "categories": [
@@ -2373,7 +2373,7 @@
     {
       "id": "kadoya_shokudo_ko",
       "lang": "ko",
-      "title": "Kadoya Shokudo — Osaka 라멘 가이드",
+      "title": "Kadoya Shokudo — 오사카 쇼유라멘 명점",
       "lat": 34.6755,
       "lng": 135.4855,
       "categories": [
@@ -2401,6 +2401,38 @@
       "published": "2026-04-12",
       "summary": "Kadoya Shokudo in Osaka: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/kadoya_shokudo_en"
+    },
+    {
+      "id": "jinrui_mina_menrui_ko",
+      "lang": "ko",
+      "title": "Jinrui Mina Menrui — Osaka 쇼유 라멘 가이드",
+      "lat": 34.7311,
+      "lng": 135.4911,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/jinrui_mina_menrui.jpg",
+      "address": "Osaka, Yodogawa",
+      "published": "2026-04-12",
+      "summary": "Osaka Jinrui Mina Menrui — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/jinrui_mina_menrui_ko"
+    },
+    {
+      "id": "jinrui_mina_menrui_en",
+      "lang": "en",
+      "title": "Jinrui Mina Menrui — Osaka Ramen Guide & Menu Tips",
+      "lat": 34.7311,
+      "lng": 135.4911,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/jinrui_mina_menrui.jpg",
+      "address": "Osaka, Yodogawa",
+      "published": "2026-04-12",
+      "summary": "Jinrui Mina Menrui in Osaka: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/jinrui_mina_menrui_en"
     },
     {
       "id": "ippudo_daimyo_ko",
@@ -2549,7 +2581,7 @@
     {
       "id": "ebisoba_ichigen_en",
       "lang": "en",
-      "title": "Ebisoba Ichigen: The Ultimate Sapporo Shrimp Ramen Guide",
+      "title": "Ebisoba Ichigen Menu Guide: How to Order Sapporo's Best Shrimp Ramen",
       "lat": 43.0511,
       "lng": 141.3411,
       "categories": [
@@ -2741,7 +2773,7 @@
     {
       "id": "menya_musashi_shinjuku_en",
       "lang": "en",
-      "title": "Menya Musashi Shinjuku: Ultimate Tokyo Ramen Guide",
+      "title": "Menya Musashi Shinjuku — Tokyo ramen guide",
       "lat": 35.6934,
       "lng": 139.7001,
       "categories": [
@@ -2965,7 +2997,7 @@
     {
       "id": "ippudo_ginza_en",
       "lang": "en",
-      "title": "Ippudo Ginza Ramen Guide: Menu, Tips & Location",
+      "title": "Ippudo Ginza Ramen: Best Tonkotsu + Menu & Queue Hacks",
       "lat": 35.6711,
       "lng": 139.7662,
       "categories": [
