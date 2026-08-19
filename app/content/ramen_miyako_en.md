@@ -20,18 +20,21 @@ summary: Discover Ramen Miyako, a cherished local gem in Kyoto's historic Higash
   tips for ordering, queueing, getting there, and nearby alternatives for travelers
   seeking an authentic experience.
 thumbnail: /static/images/ramen_miyako.jpg
-title: Ramen Miyako - Authentic Tonkotsu in Kyoto's Higashiyama
+title: Ramen Miyako — Best Tonkotsu Ramen in Kyoto's Higashiyama
 one_liner: Tonkotsu ramen at Ramen Miyako, Kyoto. Verify hours and holidays on Maps
   before you go.
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
-seo_title: Ramen Miyako Kyoto | Authentic Tonkotsu Ramen Guide for Travelers
-seo_description: Plan your visit to Ramen Miyako in Higashiyama, Kyoto. Learn what
-  to order, how to navigate ticket machines, avoid queues, and find transport to this
-  beloved Tonkotsu ramen shop.
+seo_title: Ramen Miyako Kyoto | Best Tonkotsu in Higashiyama
+seo_description: 'Ramen Miyako Kyoto guide: menu tips, ticket secrets, queue hacks
+  & directions. Complete visitor''s guide to Kyoto''s best tonkotsu ramen.'
 slug: ramen_miyako
+description: Discover why Ramen Miyako is Kyoto's must-visit tonkotsu ramen restaurant.
+  Get insider tips on what to order, ticket machine secrets, avoiding queues, and
+  exact directions to Higashiyama.
 ---
+
 
 
 ## Overview

@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026.08.15",
-  "total_count": 194,
+  "last_updated": "2026.08.20",
+  "total_count": 195,
   "ramens": [
+    {
+      "id": "kurume_ramen_honda-shoten_en",
+      "lang": "en",
+      "title": "Kurume Ramen Honda-shoten: A Traveler's Guide to Fukuoka's Master Broth Tonkotsu",
+      "lat": 33.3195,
+      "lng": 130.5108,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/kurume_ramen_honda-shoten.jpg",
+      "address": "Fukuoka, Kurume",
+      "published": "2026-08-20",
+      "summary": "A no-frills Kurume-style tonkotsu counter in Fukuoka running a decades-old master broth, best visited at off-peak hours to skip the queue.",
+      "link": "/ramen/kurume_ramen_honda-shoten_en"
+    },
     {
       "id": "teshikaga_ramen_ko",
       "lang": "ko",
