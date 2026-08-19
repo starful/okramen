@@ -193,7 +193,7 @@ def generate_ramen_article(safe_name, name, lat, lng, address, lang, features) -
     if not has_real_shop_data(lat=lat, lng=lng, address=address):
         return f"⏭️ Skip no real map data: {filename}"
 
-        filling_sibling = _sibling_exists(safe_name, lang)
+    filling_sibling = _sibling_exists(safe_name, lang)
     feedback = ""
     last_errors: list[str] = []
 
@@ -277,6 +277,16 @@ def run_generator(limit=10):
             en_exists = os.path.exists(en_path)
             ko_exists = os.path.exists(ko_path)
             if en_exists and ko_exists:
+                continue
+            fill_half = os.environ.get("FILL_HALF", "").strip().lower() in ("1", "true", "yes")
+            if fill_half:
+                if not (en_exists or ko_exists):
+                    continue
+                if en_exists and not ko_exists:
+                    tasks.append((safe_name, name, lat, lng, address, "ko", features))
+                elif ko_exists and not en_exists:
+                    tasks.append((safe_name, name, lat, lng, address, "en", features))
+                pairs_queued += 1
                 continue
             if en_exists or ko_exists:
                 half_skipped += 1

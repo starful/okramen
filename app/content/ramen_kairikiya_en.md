@@ -16,12 +16,18 @@ shop_name: Ramen Kairikiya
 summary: 'Ramen Kairikiya in Kyoto: Shoyu ramen — practical guide to queues, ordering,
   and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_kairikiya.jpg
-title: Ramen Kairikiya — Kyoto Shoyu ramen guide
+title: Ramen Kairikiya — Authentic Shoyu Ramen in Kyoto
 one_liner: Shoyu ramen at Ramen Kairikiya, Kyoto. Verify hours and holidays on Maps
   before you go.
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
+description: Experience authentic Shoyu ramen at Kairikiya, Kyoto's beloved local
+  ramen shop. Signature recipes, verified hours, and must-order dishes.
+seo_title: Ramen Kairikiya | Best Shoyu Ramen in Kyoto | OKRamen
+seo_description: Try authentic Shoyu ramen at Kairikiya, Kyoto's beloved ramen spot.
+  Signature recipes, local favorite. Check hours, menu, and directions.
 ---
+
 
 
 ## Overview

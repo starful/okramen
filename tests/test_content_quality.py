@@ -67,3 +67,36 @@ lng: 139.70
 """
     ok, errors = validate_generated_markdown(raw, kind="ramen", lang="ko")
     assert ok, errors
+
+
+def test_generate_ramen_article_binds_filling_sibling(tmp_path, monkeypatch):
+    """Regression: filling_sibling must be set before quality validation."""
+    import ramen_generator as gen
+
+    monkeypatch.setattr(gen, "CONTENT_DIR", str(tmp_path))
+    monkeypatch.setattr(gen, "MAX_ATTEMPTS", 1)
+    monkeypatch.setattr(gen, "is_non_ramen_slug", lambda *a, **k: False)
+    monkeypatch.setattr(gen, "has_real_shop_data", lambda **k: True)
+    monkeypatch.setattr(gen, "_claude_md", lambda prompt: "---\nlang: en\n---\nbody")
+    monkeypatch.setattr(gen, "strip_code_fences", lambda s: s)
+
+    seen = {}
+
+    def fake_validate(content, **kwargs):
+        seen.update(kwargs)
+        return True, []
+
+    monkeypatch.setattr(gen, "validate_generated_markdown", fake_validate)
+    result = gen.generate_ramen_article(
+        "hakodate_ramen_kamome",
+        "Hakodate Ramen Kamome",
+        41.77,
+        140.73,
+        "Hakodate, Hokkaido",
+        "en",
+        "shoyu",
+    )
+    assert "✅" in result
+    assert "sibling_exists" in seen
+    assert seen["sibling_exists"] is False
+    assert (tmp_path / "hakodate_ramen_kamome_en.md").is_file()

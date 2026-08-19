@@ -15,11 +15,17 @@ lng: 141.3511
 shop_name: Ramen Sora
 summary: Hokkaido Ramen Sora — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.
 thumbnail: /static/images/ramen_sora.jpg
-title: Ramen Sora — Hokkaido 미소 라멘 가이드
+title: Ramen Sora - Best Hokkaido Miso Ramen Guide | OKRamen
 one_liner: Hokkaido 미소 라멘 — Ramen Sora. 방문 전 지도에서 영업·휴무 확인.
 what_to_order: 기본 미소 라멘 — 버터·옥수수·매운맛 옵션 확인
 good_for: 추운 날 든든한 한 그릇
+description: Discover Ramen Sora's authentic Hokkaido miso ramen. View hours, location,
+  menus & more on OKRamen's ramen restaurant guide.
+seo_title: Ramen Sora - Best Hokkaido Miso Ramen Guide | OKRamen
+seo_description: Discover Ramen Sora's authentic Hokkaido miso ramen. View hours,
+  location, menus & more on OKRamen's ramen restaurant guide.
 ---
+
 
 
 lang: ko
