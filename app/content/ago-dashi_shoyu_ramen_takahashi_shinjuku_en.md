@@ -1,4 +1,6 @@
 ---
+youtube_id: nGM6EPBQz1E
+
 address: Tokyo, Shinjuku
 categories:
 - Shoyu

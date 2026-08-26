@@ -88,6 +88,27 @@
                 </a>
             </p>
             {% endif %}
+            {% if post.youtube_id %}
+            <details class="detail-youtube">
+                <summary>{% if post.lang == 'ko' %}유튜브에서 보기{% else %}Watch on YouTube{% endif %}</summary>
+                <div class="detail-youtube__frame">
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed/{{ post.youtube_id }}"
+                        title="{% if post.lang == 'ko' %}{{ post.shop_name }} 소개 영상{% else %}{{ post.shop_name }} on YouTube{% endif %}"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                </div>
+                <p class="detail-youtube__link">
+                    <a href="https://www.youtube.com/watch?v={{ post.youtube_id }}"
+                       target="_blank"
+                       rel="noopener noreferrer nofollow">
+                        {% if post.lang == 'ko' %}YouTube에서 열기 ↗{% else %}Open on YouTube ↗{% endif %}
+                    </a>
+                </p>
+            </details>
+            {% endif %}
             {% if post.editorial_note %}
             <p class="detail-trust-note">{{ post.editorial_note }}</p>
             {% endif %}
