@@ -538,7 +538,7 @@ header {
   position: relative;
   width: 100%;
   max-width: 640px;
-  margin: 12px 0 8px;
+  margin: 12px auto 8px;
   aspect-ratio: 16 / 9;
   border-radius: 10px;
   overflow: hidden;
@@ -554,6 +554,7 @@ header {
 .detail-youtube__link {
   margin: 0;
   font-size: 0.9rem;
+  text-align: center;
 }
 .detail-youtube__link a {
   color: var(--accent-color, #06c);
