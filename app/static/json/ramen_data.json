@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026.08.20",
-  "total_count": 195,
+  "last_updated": "2026.08.26",
+  "total_count": 198,
   "ramens": [
+    {
+      "id": "ramen_takahashi_shinjuku_en",
+      "lang": "en",
+      "title": "Ramen Takahashi Shinjuku: A Grilled Flying Fish Shio Ramen Worth the Detour",
+      "lat": 35.6938,
+      "lng": 139.7011,
+      "categories": [
+        "Shio",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_takahashi_shinjuku.jpg",
+      "address": "Tokyo, Shinjuku City",
+      "published": "2026-08-26",
+      "summary": "Ramen Takahashi Shinjuku serves a smoky ago-dashi shio broth that rewards a short walk from the station more than a long wait in line.",
+      "link": "/ramen/ramen_takahashi_shinjuku_en"
+    },
+    {
+      "id": "ramen_sapporo_akaboshi_ko",
+      "lang": "ko",
+      "title": "삿포로 라멘 아카보시 완전 정복 - 쇼유·시오 라멘 맛집 방문 가이드",
+      "lat": 43.0511,
+      "lng": 141.3511,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_sapporo_akaboshi.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-08-26",
+      "summary": "삿포로 시내에서 가성비 좋은 쇼유·시오 라멘을 현지인처럼 맛보고 싶은 여행자를 위한 실전 방문 가이드.",
+      "link": "/ramen/ramen_sapporo_akaboshi_ko"
+    },
+    {
+      "id": "ramen_sapporo_akaboshi_en",
+      "lang": "en",
+      "title": "Ramen Sapporo Akaboshi: A No-Frills Shoyu and Shio Bowl Worth the Detour",
+      "lat": 43.0511,
+      "lng": 141.3511,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_sapporo_akaboshi.jpg",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-08-25",
+      "summary": "A budget-friendly Sapporo shoyu and shio ramen shop where the queue moves fast and the bowls justify the wait.",
+      "link": "/ramen/ramen_sapporo_akaboshi_en"
+    },
     {
       "id": "kurume_ramen_honda-shoten_en",
       "lang": "en",
