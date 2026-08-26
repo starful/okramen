@@ -514,6 +514,52 @@ header {
 }
 .detail-maps { margin: 10px 0 6px; font-size: 0.95rem; }
 .detail-maps a { color: var(--accent-color); text-decoration: underline; font-weight: 600; }
+.detail-youtube {
+  margin: 14px 0 8px;
+  padding: 12px 14px;
+  border: 1px solid var(--border-color, #e5e5e5);
+  border-radius: 12px;
+  background: #fafafa;
+}
+.detail-youtube summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--primary-color, #222);
+  list-style: none;
+}
+.detail-youtube summary::-webkit-details-marker { display: none; }
+.detail-youtube summary::before {
+  content: "▶ ";
+  color: #c00;
+  font-size: 0.85em;
+}
+.detail-youtube[open] summary::before { content: "▼ "; }
+.detail-youtube__frame {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: 12px 0 8px;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #000;
+}
+.detail-youtube__frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.detail-youtube__link {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.detail-youtube__link a {
+  color: var(--accent-color, #06c);
+  font-weight: 600;
+  text-decoration: underline;
+}
 .detail-trust-note {
     font-size: 0.88rem; color: var(--text-gray); line-height: 1.55; margin: 6px 0;
     padding: 10px 12px; background: rgba(255, 250, 240, 0.9); border-radius: 8px; border: 1px solid var(--light-border);

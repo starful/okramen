@@ -1,4 +1,6 @@
 ---
+youtube_id: RfrW32OSe_8
+
 address: Hokkaido, Asahikawa
 categories:
 - Shoyu

@@ -1,4 +1,6 @@
 ---
+youtube_id: Lp5jLsiiQHw
+
 address: Hokkaido, Sapporo, Chuo Ward, Minami 1 Jonishi, 3 Chome−2, Daimaru Fujii
   Central 4F
 categories:
