@@ -420,6 +420,10 @@ def guide_detail(guide_id):
     related_shops = _ramen_cards(GUIDE_RELATED_SHOPS.get(guide_id, []))
     share_ctx = share_context(SITE_URL, guide_id, post.get("title", "OKRamen Guide"), post.get("lang", "en"), f"/guide/{guide_id}")
     lang = post.get("lang", "en")
+    try:
+        from .a8_affiliate import a8_banners_context
+    except ImportError:
+        from a8_affiliate import a8_banners_context
     return render_template(
         "guide_detail.html",
         post=post,
@@ -428,6 +432,7 @@ def guide_detail(guide_id):
         cross_site_links=cross_links_for(FAMILY_SITE_ID, lang),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **share_ctx,
+        **a8_banners_context(lang=lang),
     )
 
 @app.route('/ramen/<ramen_id>')
@@ -448,6 +453,10 @@ def ramen_detail(ramen_id):
         base_id=base_id,
     )
     lang = post.get("lang", "en")
+    try:
+        from .a8_affiliate import a8_banners_context
+    except ImportError:
+        from a8_affiliate import a8_banners_context
     return render_template(
         "detail.html",
         post=post,
@@ -459,6 +468,7 @@ def ramen_detail(ramen_id):
         **inject_family_context(FAMILY_SITE_ID, lang),
         **og_image_context(SITE_URL, base_id),
         **share_ctx,
+        **a8_banners_context(lang=lang),
     )
 
 
