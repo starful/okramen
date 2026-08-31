@@ -1,4 +1,6 @@
 ---
+youtube_id: zwi6XvPllaE
+
 address: Tokyo, Shinjuku
 categories:
 - 미소
