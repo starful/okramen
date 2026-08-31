@@ -1,4 +1,6 @@
 ---
+youtube_id: ikEarPiDuWE
+
 address: Kyoto, Nakagyo
 categories:
 - 치킨라멘
