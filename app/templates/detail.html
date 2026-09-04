@@ -89,7 +89,7 @@
             </p>
             {% endif %}
             {% if post.youtube_id %}
-            <details class="detail-youtube" open>
+            <details class="detail-youtube detail-youtube--hero" open>
                 <summary>{% if post.lang == 'ko' %}유튜브에서 보기{% else %}Watch on YouTube{% endif %}</summary>
                 <div class="detail-youtube__frame">
                     <iframe
@@ -144,7 +144,9 @@
             </ul>
         </section>
 
+        {% if not post.youtube_id %}
         <img src="{{ post.thumbnail }}" alt="{{ post.shop_name }} — {{ post.style_label }} ramen in {{ post.region_label }}" class="detail-img" onerror="this.onerror=null;this.src='/static/images/default.jpg'">
+        {% endif %}
 
         <details class="detail-article-fold">
             <summary>{{ post.guide_labels.background }}</summary>

@@ -48,6 +48,10 @@ function newBadgeHtml(isNew) {
     return isNew ? '<span class="badge-new">New</span>' : '';
 }
 
+function playBadgeHtml(item) {
+    return item && item.youtube_id ? '<span class="card-play" aria-hidden="true">▶</span>' : '';
+}
+
 function formatPublished(published) {
     return published ? String(published).slice(0, 10) : '';
 }
@@ -182,6 +186,7 @@ function renderList(data) {
             <a href="${item.link}" class="onsen-card-link">
                 <div class="card-visual">
                     <img src="${item.thumbnail}" class="card-thumb" alt="${item.title}" loading="lazy" onerror="this.onerror=null;this.src='${THUMB_FALLBACK}'">
+                    ${playBadgeHtml(item)}
                     ${newBadgeHtml(isNew)}
                 </div>
                 <div class="card-content">

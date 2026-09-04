@@ -1,4 +1,6 @@
 ---
+youtube_id: etXfBihUN7M
+
 address: Tokyo, Chiyoda, Kanda Ogawamachi, 1−4
 categories:
 - 츠케멘

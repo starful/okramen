@@ -84,6 +84,7 @@ def _thumbnail_with_v(url: str, cache_v: str | None = None) -> str:
 def _public_ramen(row: dict) -> dict:
     out = copy.deepcopy(row)
     out["thumbnail"] = _thumbnail_with_v(out.get("thumbnail", ""), out.get("published"))
+    out["youtube_id"] = str(out.get("youtube_id") or "").strip()
     return out
 
 
@@ -104,6 +105,30 @@ CACHED_DATA = {"ramens": []}
 _CACHE_MTIME: float = 0.0
 
 
+_YT_ID_RE = re.compile(r"^youtube_id:\s*['\"]?([A-Za-z0-9_-]{6,64})['\"]?\s*$", re.M)
+
+
+def _youtube_ids_from_content(content_dir: str) -> dict[str, str]:
+    out: dict[str, str] = {}
+    try:
+        names = os.listdir(content_dir)
+    except OSError:
+        return out
+    for name in names:
+        if not name.endswith(".md"):
+            continue
+        path = os.path.join(content_dir, name)
+        try:
+            with open(path, encoding="utf-8") as f:
+                head = f.read(1200)
+        except OSError:
+            continue
+        match = _YT_ID_RE.search(head)
+        if match:
+            out[name[:-3]] = match.group(1)
+    return out
+
+
 def _ensure_ramen_cache() -> None:
     global CACHED_DATA, _CACHE_MTIME
     if not os.path.exists(DATA_FILE):
@@ -112,11 +137,21 @@ def _ensure_ramen_cache() -> None:
         mtime = os.path.getmtime(DATA_FILE)
     except OSError:
         return
+    try:
+        for name in os.listdir(CONTENT_DIR):
+            if name.endswith(".md"):
+                mtime = max(mtime, os.path.getmtime(os.path.join(CONTENT_DIR, name)))
+    except OSError:
+        pass
     if mtime <= _CACHE_MTIME:
         return
     try:
         with open(DATA_FILE, "r", encoding="utf-8") as f:
             CACHED_DATA = json.load(f)
+        yt_ids = _youtube_ids_from_content(CONTENT_DIR)
+        for row in CACHED_DATA.get("ramens") or []:
+            rid = str(row.get("id") or "")
+            row["youtube_id"] = yt_ids.get(rid) or str(row.get("youtube_id") or "").strip()
         _CACHE_MTIME = mtime
     except (OSError, json.JSONDecodeError) as exc:
         logger.exception("Failed to load cached ramen data: %s", exc)
@@ -207,6 +242,7 @@ def _ramen_index_by_id():
 
 def _ramen_cards(ramen_ids):
     """Lightweight card dicts for templates (title truncated for UI)."""
+    _ensure_ramen_cache()
     by_id = _ramen_index_by_id()
     cards = []
     for rid in ramen_ids:
@@ -224,6 +260,7 @@ def _ramen_cards(ramen_ids):
                     "short_title": truncate_text(label or title, 72),
                     "address": r.get("address", ""),
                     "thumbnail": _thumbnail_with_v(r.get("thumbnail", ""), r.get("published")),
+                    "youtube_id": str(r.get("youtube_id") or "").strip(),
                     "published": r.get("published", ""),
                 }
             )

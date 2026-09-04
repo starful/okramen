@@ -48,8 +48,24 @@ def test_build_ramen_entry_uses_normalized_fields():
         "lng": 139.45,
         "categories": ["shio", "vegan"],
         "thumbnail": "/static/images/default.jpg",
+        "youtube_id": "",
         "address": "Tokyo, Japan",
         "published": "2026-07-04",
         "summary": "Simple summary body...",
         "link": "/ramen/sample_shop_en",
     }
+
+
+def test_build_ramen_entry_keeps_youtube_id():
+    post = frontmatter.loads(
+        "---\n"
+        "lang: en\n"
+        "title: Sample Shop\n"
+        "lat: '35.12'\n"
+        "lng: '139.45'\n"
+        "youtube_id: dQw4w9WgXcQ\n"
+        "---\n"
+        "Body"
+    )
+    entry, _, _ = build_ramen_entry("sample_shop_en.md", post, "2026-07-04")
+    assert entry["youtube_id"] == "dQw4w9WgXcQ"

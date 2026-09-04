@@ -1,4 +1,6 @@
 ---
+youtube_id: vJ1vEonAXX4
+
 address: Hokkaido, Sapporo
 categories:
 - 미소

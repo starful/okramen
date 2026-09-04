@@ -75,6 +75,7 @@
                         {% if shop.thumbnail %}
                         <div class="card-visual">
                         <img src="{{ shop.thumbnail }}" alt="{{ shop.short_title }}" class="card-thumb" loading="lazy" onerror="this.onerror=null;this.src='/static/images/default.jpg'">
+                        {% if shop.youtube_id %}<span class="card-play" aria-hidden="true">▶</span>{% endif %}
                         {% if shop.is_new %}<span class="badge-new">New</span>{% endif %}
                         </div>
                         {% endif %}

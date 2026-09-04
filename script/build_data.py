@@ -58,6 +58,7 @@ def build_ramen_entry(filename: str, post, published_date: str):
         "lng": lng,
         "categories": categories,
         "thumbnail": post.get('thumbnail', DEFAULT_THUMBNAIL),
+        "youtube_id": str(post.get("youtube_id") or "").strip(),
         "address": post.get('address', 'Japan'),
         "published": published_date,
         "summary": summary,

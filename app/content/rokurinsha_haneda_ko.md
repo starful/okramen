@@ -1,4 +1,6 @@
 ---
+youtube_id: 6YsQB-YIhoM
+
 address: Tokyo, Ota
 categories:
 - 츠케멘

@@ -1,4 +1,6 @@
 ---
+youtube_id: P6vaa5M9FqA
+
 address: Osaka, Chuo
 categories:
 - 쇼유

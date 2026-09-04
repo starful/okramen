@@ -1,4 +1,6 @@
 ---
+youtube_id: d39ZNmTmrvk
+
 address: Hokkaido, Sapporo
 categories:
 - Miso
