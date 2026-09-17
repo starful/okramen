@@ -1,18 +1,20 @@
 ---
 lang: ko
-title: "하카타 골목 안 로컬 맛집, 타이료 라멘(大漁ラーメン) 돈코츠 완전 정복"
-summary: "후쿠오카 하카타 뒷골목에 숨은 현지인 돈코츠 맛집, 타이료 라멘을 줄서기 전략과 함께 소개한다."
-date: "2026-09-14"
-shop_name: "Tairyo Ramen"
-address: "Fukuoka, Hakata"
+title: 하카타 골목 안 로컬 맛집, 타이료 라멘(大漁ラーメン) 돈코츠 완전 정복
+summary: 후쿠오카 하카타 뒷골목에 숨은 현지인 돈코츠 맛집, 타이료 라멘을 줄서기 전략과 함께 소개한다.
+date: '2026-09-14'
+shop_name: Tairyo Ramen
+address: Fukuoka, Hakata
 lat: 33.6011
 lng: 130.4111
 categories:
 - 돈코츠
 - 현지인맛집
-thumbnail: "/static/images/tairyo_ramen.jpg"
-image_prompt: "A overhead flat-lay of Tairyo Ramen 돈코츠 ramen, swirling steam, bright minimalist shop interior, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/tairyo_ramen.jpg
+image_prompt: A overhead flat-lay of Tairyo Ramen 돈코츠 ramen, swirling steam, bright
+  minimalist shop interior, cinematic food photography, no text, 8k detail.
 ---
+
 
 ## 하카타 뒷골목이 만든 진한 국물, 타이료 라멘이란 곳
 
