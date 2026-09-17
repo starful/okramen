@@ -12,19 +12,23 @@ lang: en
 lat: 34.7522
 lng: 135.8311
 shop_name: Muteppou Kyoto
-summary: "Muteppou Kyoto in Kyoto: Tonkotsu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Muteppou Kyoto in Kizugawa: ultra-thick kotteri tonkotsu ramen — practical
+  guide to queues, ordering, and what to try. Confirm hours on Google Maps before
+  visiting.'
 thumbnail: /static/images/muteppou_kyoto.jpg
-title: Muteppou Kyoto — Kyoto Tonkotsu ramen guide
+title: Muteppou Kyoto Tonkotsu Ramen (Kizugawa) — Kotteri Pork-Bone Guide | OKRamen
 one_liner: Tonkotsu ramen at Muteppou Kyoto, Kyoto. Verify hours and holidays on Maps
   before you go.
 what_to_order: Signature kotteri tonkotsu; kaedama only if you finish noodles — the
   broth is very rich.
 good_for: Trip planning before you land
-seo_title: "Muteppou Kyoto Tonkotsu — Kotteri Pork-Bone | OKRamen"
-seo_description: "Muteppou Kyoto (Kizugawa): ultra-thick kotteri tonkotsu — one of\
-  \ Japan's densest pork-bone bowls. Map, hours, access, what to order."
+seo_title: Muteppou Kyoto Tonkotsu Ramen Guide (Kizugawa) | OKRamen
+seo_description: Muteppou Kyoto in Kizugawa serves ultra-thick kotteri tonkotsu ramen.
+  Guide to queues, ordering, access, and what to try before you visit.
+description: 'Muteppou Kyoto (Kizugawa): ultra-thick kotteri tonkotsu, one of Japan''s
+  densest pork-bone bowls. Queues, access, hours tips, and what to order.'
 ---
+
 
 **Overview:** Muteppou Kyoto (in Kizugawa, south of central Kyoto) is known for kotteri — extremely thick, dark pork-bone broth. This is the opposite of light Kyoto shoyu: one bowl is heavy, and many diners treat it as a dedicated dinner, not a quick snack. The shop draws tonkotsu fans from Kyoto city; check Maps for the exact address — it is not in the temple district.
 
@@ -41,3 +45,7 @@ seo_description: "Muteppou Kyoto (Kizugawa): ultra-thick kotteri tonkotsu — on
 Off-peak slots (just after opening or late evening) often shorten queues.
 
 Finally, holidays, seasonal closures, and last-order times change. Screenshot the Maps listing while you have data; if Muteppou Kyoto is closed, search the same style within walking distance rather than treating this page as a booking. Editorial trip-planning only — not a reservation.
+
+## Who It Suits & Practical Tips
+
+Muteppou Kyoto rewards diners who want a dense, filling bowl rather than a light snack — plan it as a standalone meal, not a stop between temples. It suits tonkotsu fans and travelers with a car or easy train access to Kizugawa; walkers from central Kyoto should weigh the extra travel time. Check Google Maps for current hours and closing days before heading out, since suburban Kyoto shops often keep irregular schedules. Pair the visit with nearby options like [Inoichi Hanare](/ramen/inoichi_hanare_en) if you're exploring the wider area.

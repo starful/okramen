@@ -1,18 +1,21 @@
 ---
 lang: en
-title: "Tairyo Ramen in Hakata: A Local Tonkotsu Bowl Worth the Queue"
-summary: "A no-frills Hakata tonkotsu counter favored by locals over tourists, best visited early or accepted with a short wait."
-date: "2026-09-14"
-shop_name: "Tairyo Ramen"
-address: "Fukuoka, Hakata"
+title: 'Tairyo Ramen in Hakata: A Local Tonkotsu Bowl Worth the Queue'
+summary: A no-frills Hakata tonkotsu counter favored by locals over tourists, best
+  visited early or accepted with a short wait.
+date: '2026-09-14'
+shop_name: Tairyo Ramen
+address: Fukuoka, Hakata
 lat: 33.6011
 lng: 130.4111
 categories:
 - Tonkotsu
 - Local Gem
-thumbnail: "/static/images/tairyo_ramen.jpg"
-image_prompt: "A overhead flat-lay of Tairyo Ramen Tonkotsu ramen, swirling steam, bright minimalist shop interior, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/tairyo_ramen.jpg
+image_prompt: A overhead flat-lay of Tairyo Ramen Tonkotsu ramen, swirling steam,
+  bright minimalist shop interior, cinematic food photography, no text, 8k detail.
 ---
+
 
 ## A Hakata Bowl That Doesn't Perform for Cameras
 

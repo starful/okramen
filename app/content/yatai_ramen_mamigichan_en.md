@@ -1,18 +1,22 @@
 ---
 lang: en
-title: "Yatai Ramen Mamigichan: Fukuoka Tonkotsu Ramen at a Classic Yatai Stall"
-summary: "A canvas-walled yatai in Chuo ward serving straightforward tonkotsu ramen to a mostly local, late-night crowd."
-date: "2026-09-14"
-shop_name: "Yatai Ramen Mamigichan"
-address: "Fukuoka, Chuo"
+title: 'Yatai Ramen Mamigichan: Fukuoka Tonkotsu Ramen at a Classic Yatai Stall'
+summary: A canvas-walled yatai in Chuo ward serving straightforward tonkotsu ramen
+  to a mostly local, late-night crowd.
+date: '2026-09-14'
+shop_name: Yatai Ramen Mamigichan
+address: Fukuoka, Chuo
 lat: 33.5911
 lng: 130.3911
 categories:
 - Tonkotsu
 - Local Gem
-thumbnail: "/static/images/yatai_ramen_mamigichan.jpg"
-image_prompt: "A 45-degree steaming macro shot of Yatai Ramen Mamigichan Tonkotsu ramen, swirling steam, warm wooden counter seat, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/yatai_ramen_mamigichan.jpg
+image_prompt: A 45-degree steaming macro shot of Yatai Ramen Mamigichan Tonkotsu ramen,
+  swirling steam, warm wooden counter seat, cinematic food photography, no text, 8k
+  detail.
 ---
+
 
 ## A Yatai Stall, Not a Restaurant
 
