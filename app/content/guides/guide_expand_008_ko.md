@@ -1,15 +1,16 @@
 ---
 lang: ko
-title: 'Master Japanese Ramen: Complete Guide to Styles, Flavors & Regional Varieties'
+title: 'Ramen Guide Hub: Shio, Shoyu, Miso, Tonkotsu & Where to Order | OKRamen'
 date: '2026-07-04'
-summary: 일본 여행의 숨은 보석, 편의점을 제대로 즐기는 방법을 소개합니다! 현지인처럼 알뜰하고 편리하게 일본 편의점 라이프를 경험해 보세요.
-description: Your essential ramen companion. Explore flavor profiles from shio to
-  tonkotsu, regional specialties across Japan, and confident ordering strategies for
-  first-time buyers.
-seo_title: 'Complete Japanese Ramen Guide: Styles, Regions & Ordering Tips | OKRamen'
-seo_description: 'Master every ramen style in Japan: shio, shoyu, miso, tonkotsu &
-  more. Complete regional guide with ordering tips for food travelers.'
+summary: A single hub linking every OKRamen style and region guide, with quick ordering
+  tips for travelers.
+description: Compare ramen styles, find regional picks, and get trip-ready ordering
+  tips — all OKRamen guides in one map-linked hub.
+seo_title: 'Ramen Guide Hub: Shio, Shoyu, Miso, Tonkotsu & Where to Order | OKRamen'
+seo_description: Compare ramen styles, find regional picks, and get trip-ready ordering
+  tips — all OKRamen guides in one map-linked hub.
 ---
+
 
 
 일본 여행을 계획하고 계신가요? 아름다운 풍경, 맛있는 음식, 그리고 쇼핑까지! 많은 즐거움이 기다리고 있지만, 혹시 **일본 편의점(Konbini)**의 진정한 매력을 놓치고 계신 건 아닐까요? 단순한 잡화점이 아닌, 일본 문화와 생활 방식의 정수를 경험할 수 있는 곳, 바로 편의점입니다. 이 가이드 하나면 여러분도 일본 현지인처럼 **세븐일레븐(7-Eleven), 로손(Lawson), 패밀리마트(FamilyMart)** 등 일본의 대표 편의점들을 100배 더 알차게 즐길 수 있을 거예요.

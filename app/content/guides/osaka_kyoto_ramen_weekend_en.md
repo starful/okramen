@@ -1,12 +1,17 @@
 ---
 lang: en
-title: "Osaka & Kyoto Ramen Weekend: A 2-Day Kansai Course"
+title: Osaka & Kyoto Ramen Weekend Course | OKRamen
 date: '2026-07-27'
-summary: "A two-day ramen course through Kansai — Saturday in Osaka's tonkotsu and shoyu scene, Sunday in Kyoto's kotteri and Ichijoji ramen street. Real shops, neighborhood notes, and a pace built for a weekend trip."
-description: "Weekend ramen itinerary covering Osaka (Namba, Umeda, Yodogawa) on day one and Kyoto (Kyoto Station, Higashiyama, Ichijoji) on day two, with shop links and timing."
-seo_title: "Osaka & Kyoto Ramen Weekend Course | OKRamen"
-seo_description: "Plan a 2-day Kansai ramen weekend — Osaka tonkotsu and shoyu on Saturday, Kyoto kotteri and Ichijoji ramen street on Sunday. Shop links and practical timing included."
+summary: A two-day ramen course through Kansai — Saturday in Osaka's tonkotsu and
+  shoyu scene, Sunday in Kyoto's kotteri and Ichijoji ramen street. Real shops, neighborhood
+  notes, and a pace built for a weekend trip.
+description: 'Plan a 2-day Kansai ramen trip: Osaka tonkotsu & shoyu Saturday, Kyoto
+  kotteri & Ichijoji ramen street Sunday, with shop picks and train timing.'
+seo_title: 'Osaka & Kyoto Ramen Weekend: 2-Day Kansai Itinerary | OKRamen'
+seo_description: 'Plan a 2-day Kansai ramen trip: Osaka tonkotsu & shoyu Saturday,
+  Kyoto kotteri & Ichijoji ramen street Sunday, with shop picks and train timing.'
 ---
+
 
 Osaka and Kyoto sit less than 30 minutes apart by train, which makes them the easiest weekend ramen pairing in Japan. Osaka leans into bold, late-night, drinking-culture bowls; Kyoto has its own surprisingly heavy "kotteri" tradition alongside one of the country's densest ramen streets. This course splits the two days by city so you're not backtracking on the JR Kyoto Line more than once.
 
@@ -104,3 +109,7 @@ If two full days feels like too much ramen, pick two stops per city — Zundoya 
 </ul>
 
 <p>See all shops on the <a href="/">OKRamen Japan ramen map</a> and confirm today's hours before you go.</p>
+
+## Who This Weekend Suits
+
+This course fits ramen fans with a free Saturday–Sunday in Kansai who want variety without a rental car: the JR Kyoto Line and Hankyu/Keihan trains cover every stop here. Solo travelers can run it as a tight loop; pairs or small groups may want to slow the pace and skip a bowl or two. Short on time? Split the itinerary and prioritize the Namba and Ichijoji legs — the two densest ramen pockets on this route.
