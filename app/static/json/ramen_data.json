@@ -1,7 +1,41 @@
 {
-  "last_updated": "2026-09-14",
-  "total_count": 202,
+  "last_updated": "2026.09.22",
+  "total_count": 204,
   "ramens": [
+    {
+      "id": "menya_masamoto_ko",
+      "lang": "ko",
+      "title": "멘야 마사모토(麺屋 政本), 후쿠오카 주오구에서 만나는 매운 돈코츠와 탄탄멘",
+      "lat": 33.5911,
+      "lng": 130.4011,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/menya_masamoto.jpg",
+      "youtube_id": "",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-09-22",
+      "summary": "텐진 인근에서 진한 돈코츠 국물에 매운맛과 탄탄멘을 함께 즐길 수 있는 현지인 단골 라멘집.",
+      "link": "/ramen/menya_masamoto_ko"
+    },
+    {
+      "id": "menya_masamoto_en",
+      "lang": "en",
+      "title": "Menya Masamoto: A Spicy Tantanmen Detour in Fukuoka's Chuo Ward",
+      "lat": 33.5911,
+      "lng": 130.4011,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/menya_masamoto.jpg",
+      "youtube_id": "",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-09-22",
+      "summary": "A neighborhood tonkotsu shop in Chuo where the tantanmen brings real heat, worth the walk if you want something spicier than standard Hakata ramen.",
+      "link": "/ramen/menya_masamoto_en"
+    },
     {
       "id": "yatai_ramen_mamigichan_en",
       "lang": "en",
@@ -396,7 +430,7 @@
     {
       "id": "ramen_setagaya_en",
       "lang": "en",
-      "title": "Ramen Setagaya Tokyo: Chiyoda's Quiet Shoyu Specialist",
+      "title": "Ramen Setagaya Tokyo: Shoyu Ramen Guide & Tips | OKRamen",
       "lat": 35.6811,
       "lng": 139.7671,
       "categories": [
@@ -407,7 +441,7 @@
       "youtube_id": "",
       "address": "Tokyo, Chiyoda",
       "published": "2026-07-27",
-      "summary": "Navigate Ramen Setagaya in Tokyo's Chiyoda district — a local favourite for refined, clear-broth shoyu ramen. Practical guide to ordering, timing, and access.",
+      "summary": "Ramen Setagaya serves a clear, restrained shoyu broth in Tokyo — a local favourite for travellers seeking something lighter than the city's richest bowls.",
       "link": "/ramen/ramen_setagaya_en"
     },
     {
@@ -617,7 +651,7 @@
     {
       "id": "ramen_higuma_ko",
       "lang": "ko",
-      "title": "Ramen Higuma — Hokkaido 미소 라멘 가이드",
+      "title": "삿포로 라멘 히구마 | 스스키노 간소 라멘 요코초 미소 라멘 가이드 | OKRamen",
       "lat": 43.0556,
       "lng": 141.3537,
       "categories": [
@@ -1722,7 +1756,7 @@
     {
       "id": "kurume_taiho_ramen_en",
       "lang": "en",
-      "title": "Kurume Taiho Ramen — 11-8 Hiyoshimachi Tonkotsu ramen guide",
+      "title": "Kurume Taiho Ramen Guide: Tonkotsu, Hiyoshimachi | OKRamen",
       "lat": 33.3111,
       "lng": 130.5111,
       "categories": [
@@ -1733,7 +1767,7 @@
       "youtube_id": "",
       "address": "11-8 Hiyoshimachi, Kurume, Fukuoka 830-0031, Japan",
       "published": "2026-04-19",
-      "summary": "Kurume Taiho Ramen in 11-8 Hiyoshimachi: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "summary": "Kurume Taiho Ramen in 11-8 Hiyoshimachi: a practical tonkotsu guide covering queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/kurume_taiho_ramen_en"
     },
     {
@@ -1790,7 +1824,7 @@
     {
       "id": "hakata_daruma_en",
       "lang": "en",
-      "title": "Hakata Daruma Ramen - Essential Traveler's Guide",
+      "title": "Hakata Daruma Ramen Fukuoka: Tonkotsu Guide & Tips",
       "lat": 33.5855,
       "lng": 130.4011,
       "categories": [
@@ -1801,7 +1835,7 @@
       "youtube_id": "",
       "address": "Fukuoka, Chuo",
       "published": "2026-04-19",
-      "summary": "Discover Hakata Daruma, a local gem in Fukuoka's Chuo district, serving authentic Hakata Tonkotsu ramen. This guide provides practical tips on what to order, navigating queues, getting there, and nearby alternatives for an unforgettable culinary experience.",
+      "summary": "Discover Hakata Daruma, a Chuo-district favorite for authentic Hakata Tonkotsu ramen, with practical tips on ordering, queues, ticket machines, and nearby alternatives.",
       "link": "/ramen/hakata_daruma_en"
     },
     {
@@ -2538,7 +2572,7 @@
     {
       "id": "muteppou_kyoto_en",
       "lang": "en",
-      "title": "Muteppou Kyoto — Kyoto Tonkotsu ramen guide",
+      "title": "Muteppou Kyoto Tonkotsu Ramen (Kizugawa) — Kotteri Pork-Bone Guide | OKRamen",
       "lat": 34.7522,
       "lng": 135.8311,
       "categories": [
@@ -2549,7 +2583,7 @@
       "youtube_id": "",
       "address": "Kyoto, Kizugawa",
       "published": "2026-04-12",
-      "summary": "Muteppou Kyoto in Kyoto: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "summary": "Muteppou Kyoto in Kizugawa: ultra-thick kotteri tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/muteppou_kyoto_en"
     },
     {
