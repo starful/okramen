@@ -22,6 +22,20 @@ def test_guide_detail_has_social_meta(client):
     assert "The Art of the Slurp" in html
 
 
+def test_konbini_ramen_how_to_guides_render(client):
+    en = client.get("/guide/konbini-ramen-how-to_en")
+    assert en.status_code == 200
+    en_html = en.get_data(as_text=True)
+    assert "Convenience Store Ramen" in en_html
+    assert "/guide/top_5_convenience_store_ramen_en" in en_html
+
+    ko = client.get("/guide/konbini-ramen-how-to_ko")
+    assert ko.status_code == 200
+    ko_html = ko.get_data(as_text=True)
+    assert "편의점 라멘" in ko_html
+    assert "/guide/top_5_convenience_store_ramen_ko" in ko_html
+
+
 def test_social_image_endpoint(client):
     response = client.get("/social/tenkaippin_main_shop.jpg")
     assert response.status_code == 200

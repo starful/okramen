@@ -107,6 +107,8 @@ You've picked your ramen, now let's make it an unforgettable meal!
 
 There you have it – my comprehensive guide to unlocking the incredible world of convenience store ramen at **Lawson (로손)**. These aren't just quick fixes; they're delicious snapshots of Japan's culinary innovation, offering remarkable flavors and experiences that often rival their restaurant counterparts. From the creamy depths of tonkotsu to the zesty kick of yuzu shio, there’s a ramen for every palate and every mood.
 
+For how to read the whole konbini shelf — cup vs chilled noodles, 7-Eleven vs Lawson vs FamilyMart, hot water, toppings — see the [convenience store ramen how-to](/guide/konbini-ramen-how-to_en).
+
 So, on your next trip to Japan, make sure to carve out some time to explore the ramen aisles of Lawson. Embrace the convenience, savor the flavors, and discover a truly authentic (and affordable!) slice of Japanese food culture. Each bowl is a testament to the country's dedication to quality, even in the most everyday settings.
 
 Ready to find your nearest Lawson and embark on your ramen quest? You can easily locate a shop using **our interactive map to find a shop** and begin your delicious journey today! Happy slurping!
