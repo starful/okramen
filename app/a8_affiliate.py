@@ -8,15 +8,16 @@ from typing import Any
 _BANNERS: dict[str, dict[str, str]] = {
     "agoda": {
         "id": "agoda",
-        "click_url": "https://px.a8.net/svt/ejp?a8mat=4BAH9J+13AS3U+4X1W+5ZMCH",
-        "image_url": "https://www27.a8.net/svt/bgt?aid=260829415066&wid=008&eno=01&mid=s00000022946001006000&mc=1",
-        "pixel_url": "https://www19.a8.net/0.gif?a8mat=4BAH9J+13AS3U+4X1W+5ZMCH",
+        # Agoda Partners (CID) — filled in _copy
+        "click_url": "",
+        "image_url": "",
+        "pixel_url": "",
         "label_en": "Agoda — hotels for ramen trips",
         "label_ko": "Agoda — 라멘 여행 숙소",
         "desc_en": "Stay near this shop or plan a multi-city ramen tour.",
         "desc_ko": "라멘 여행 숙소 예약.",
-        "alt_en": "Agoda — affiliate",
-        "alt_ko": "Agoda — 제휴",
+        "alt_en": "Agoda — hotels",
+        "alt_ko": "Agoda — 숙소",
     },
     "tora_esim": {
         "id": "tora_esim",
@@ -47,6 +48,25 @@ def _copy(banner_id: str, *, lang: str) -> dict[str, str]:
     is_ko = (lang or "en").lower() in ("ko", "kr")
     suffix = "ko" if is_ko else "en"
     key = banner_id.upper()
+    if banner_id == "agoda":
+        try:
+            from agoda_partners import url_for_location
+        except ImportError:
+            from .agoda_partners import url_for_location
+        click = url_for_location(
+            lang=lang,
+            country="jp",
+            default_city=5085,
+        )
+        return {
+            "id": src["id"],
+            "click_url": click,
+            "image_url": "",
+            "pixel_url": "",
+            "label": src[f"label_{suffix}"],
+            "desc": src[f"desc_{suffix}"],
+            "alt": src[f"alt_{suffix}"],
+        }
     return {
         "id": src["id"],
         "click_url": os.getenv(f"A8_{key}_CLICK_URL", src["click_url"]),
