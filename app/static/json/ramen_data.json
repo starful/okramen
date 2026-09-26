@@ -1,7 +1,75 @@
 {
-  "last_updated": "2026.09.22",
-  "total_count": 204,
+  "last_updated": "2026.09.26",
+  "total_count": 208,
   "ramens": [
+    {
+      "id": "ramen_takahashi_en",
+      "lang": "en",
+      "title": "Ramen Takahashi: A Shinjuku Shoyu Counter Worth the Queue",
+      "lat": 35.6955,
+      "lng": 139.7011,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_takahashi.jpg",
+      "youtube_id": "",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-09-26",
+      "summary": "A no-frills shoyu ramen counter in Shinjuku favored by locals over tourists, best visited slightly off the noon and evening peaks.",
+      "link": "/ramen/ramen_takahashi_en"
+    },
+    {
+      "id": "ramen_shingen_ko",
+      "lang": "ko",
+      "title": "삿포로 로컬 맛집 라멘 신겐(ラーメン信玄), 진한 미소라멘을 만나다",
+      "lat": 43.0544,
+      "lng": 141.3488,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_shingen.jpg",
+      "youtube_id": "",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-09-26",
+      "summary": "삿포로 중심가에서 살짝 벗어난 곳에서 현지인들이 줄 서서 먹는 진한 미소라멘 노포, 웨이팅과 주문 팁을 미리 확인하고 가면 시간 낭비 없이 즐길 수 있다.",
+      "link": "/ramen/ramen_shingen_ko"
+    },
+    {
+      "id": "ramen_shingen_en",
+      "lang": "en",
+      "title": "Ramen Shingen: A Sapporo Local's Miso Ramen Worth Seeking Out",
+      "lat": 43.0544,
+      "lng": 141.3488,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_shingen.jpg",
+      "youtube_id": "",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-09-26",
+      "summary": "Ramen Shingen rewards travelers willing to detour off the main Sapporo ramen circuit for a quieter, neighborhood-style bowl of miso ramen.",
+      "link": "/ramen/ramen_shingen_en"
+    },
+    {
+      "id": "ramen_nagi_shinjuku_en",
+      "lang": "en",
+      "title": "Ramen Nagi Shinjuku: A Shoyu Bowl Tucked Into Golden Gai's Late-Night Alleys",
+      "lat": 35.6941,
+      "lng": 139.7044,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_nagi_shinjuku.jpg",
+      "youtube_id": "",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-09-26",
+      "summary": "A narrow, character-driven shoyu ramen counter inside Shinjuku's Golden Gai bar district, best suited to late-evening visits rather than lunch.",
+      "link": "/ramen/ramen_nagi_shinjuku_en"
+    },
     {
       "id": "menya_masamoto_ko",
       "lang": "ko",
