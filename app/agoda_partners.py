@@ -1,6 +1,9 @@
 """Agoda Partners (CID) search links — replaces A8 Agoda click URLs.
 
 CID 1969838 = Approval Site. Deep-link with city= when possible.
+
+City IDs below are partner-confirmed (2026-09). If a hub is missing, ask
+for the Agoda city code rather than guessing.
 """
 
 from __future__ import annotations
@@ -12,42 +15,42 @@ from urllib.parse import urlencode
 
 AGODA_CID = os.getenv("AGODA_PARTNERS_CID", "1969838").strip() or "1969838"
 
-# Major hubs used for nearest-city matching (Agoda city IDs).
-# Tokyo 5085 confirmed via Partners; others are common Agoda search IDs.
+# Partner-confirmed Agoda city IDs (hub coords for nearest-city matching).
 AGODA_CITIES: tuple[dict[str, Any], ...] = (
     # Japan
     {"id": 5085, "name": "Tokyo", "lat": 35.6812, "lng": 139.7671, "country": "jp"},
     {"id": 9590, "name": "Osaka", "lat": 34.6937, "lng": 135.5023, "country": "jp"},
     {"id": 1784, "name": "Kyoto", "lat": 35.0116, "lng": 135.7681, "country": "jp"},
-    {"id": 7403, "name": "Fukuoka", "lat": 33.5904, "lng": 130.4017, "country": "jp"},
-    {"id": 3471, "name": "Sapporo", "lat": 43.0618, "lng": 141.3545, "country": "jp"},
-    {"id": 13876, "name": "Nagoya", "lat": 35.1815, "lng": 136.9066, "country": "jp"},
-    {"id": 10740, "name": "Naha", "lat": 26.2124, "lng": 127.6809, "country": "jp"},
-    {"id": 16594, "name": "Kobe", "lat": 34.6901, "lng": 135.1956, "country": "jp"},
-    {"id": 17033, "name": "Sendai", "lat": 38.2682, "lng": 140.8694, "country": "jp"},
-    {"id": 17034, "name": "Hiroshima", "lat": 34.3853, "lng": 132.4553, "country": "jp"},
+    {"id": 16527, "name": "Fukuoka", "lat": 33.5904, "lng": 130.4017, "country": "jp"},
+    {"id": 3435, "name": "Sapporo", "lat": 43.0618, "lng": 141.3545, "country": "jp"},
+    {"id": 13740, "name": "Nagoya", "lat": 35.1815, "lng": 136.9066, "country": "jp"},
+    {"id": 717899, "name": "Okinawa", "lat": 26.3344, "lng": 127.8056, "country": "jp"},
+    {"id": 5235, "name": "Kobe", "lat": 34.6901, "lng": 135.1956, "country": "jp"},
+    {"id": 10345, "name": "Sendai", "lat": 38.2682, "lng": 140.8694, "country": "jp"},
+    {"id": 10554, "name": "Hiroshima", "lat": 34.3853, "lng": 132.4553, "country": "jp"},
     # Korea
-    {"id": 16901, "name": "Seoul", "lat": 37.5665, "lng": 126.9780, "country": "kr"},
-    {"id": 16234, "name": "Busan", "lat": 35.1796, "lng": 129.0756, "country": "kr"},
+    {"id": 14690, "name": "Seoul", "lat": 37.5665, "lng": 126.9780, "country": "kr"},
+    {"id": 17172, "name": "Busan", "lat": 35.1796, "lng": 129.0756, "country": "kr"},
+    {"id": 16901, "name": "Jeju", "lat": 33.4996, "lng": 126.5312, "country": "kr"},
     # Thailand
     {"id": 9395, "name": "Bangkok", "lat": 13.7563, "lng": 100.5018, "country": "th"},
-    {"id": 14050, "name": "Pattaya", "lat": 12.9236, "lng": 100.8825, "country": "th"},
-    {"id": 17155, "name": "Phuket", "lat": 7.8804, "lng": 98.3923, "country": "th"},
+    {"id": 8584, "name": "Pattaya", "lat": 12.9236, "lng": 100.8825, "country": "th"},
+    {"id": 16056, "name": "Phuket", "lat": 7.8804, "lng": 98.3923, "country": "th"},
     # Vietnam
-    {"id": 17172, "name": "Ho Chi Minh City", "lat": 10.8231, "lng": 106.6297, "country": "vn"},
-    {"id": 17193, "name": "Da Nang", "lat": 16.0544, "lng": 108.2022, "country": "vn"},
+    {"id": 13170, "name": "Ho Chi Minh City", "lat": 10.8231, "lng": 106.6297, "country": "vn"},
+    {"id": 16440, "name": "Da Nang", "lat": 16.0544, "lng": 108.2022, "country": "vn"},
     # US / Pacific (okcaddie overseas)
-    {"id": 14932, "name": "Guam", "lat": 13.4443, "lng": 144.7937, "country": "gu"},
-    {"id": 17072, "name": "Honolulu", "lat": 21.3069, "lng": -157.8583, "country": "us"},
+    {"id": 6126, "name": "Guam", "lat": 13.4443, "lng": 144.7937, "country": "gu"},
+    {"id": 10921, "name": "Honolulu", "lat": 21.3069, "lng": -157.8583, "country": "us"},
 )
 
 _COUNTRY_DEFAULT = {
     "jp": 5085,  # Tokyo
-    "kr": 16901,  # Seoul
+    "kr": 14690,  # Seoul (NOT Jeju 16901)
     "th": 9395,  # Bangkok
-    "vn": 17172,  # HCMC
-    "gu": 14932,
-    "us": 17072,
+    "vn": 13170,  # HCMC
+    "gu": 6126,
+    "us": 10921,
 }
 
 _HL = {
@@ -97,7 +100,7 @@ def nearest_city_id(
         cc = "vn"
     if cc in ("guam",):
         cc = "gu"
-    if cc in ("usa", "united states"):
+    if cc in ("usa", "united states", "hawaii"):
         cc = "us"
 
     pool = [c for c in AGODA_CITIES if not cc or c["country"] == cc]

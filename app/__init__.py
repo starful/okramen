@@ -505,12 +505,12 @@ def ramen_detail(ramen_id):
         **inject_family_context(FAMILY_SITE_ID, lang),
         **og_image_context(SITE_URL, base_id),
         **share_ctx,
-        **a8_banners_context(lang=lang),
+        **a8_banners_context(
+            lang=lang,
+            lat=post.get("lat"),
+            lng=post.get("lng"),
+        ),
     )
-
-
-@app.route('/card/<ramen_id>')
-def ramen_social_card(ramen_id):
     """Lightweight share landing page for X/OG crawlers."""
     post, base_id = prepare_ramen_card_post(CONTENT_DIR, ramen_id)
     if post is None:
