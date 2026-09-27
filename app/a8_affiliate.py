@@ -11,7 +11,7 @@ _BANNERS: dict[str, dict[str, str]] = {
         "click_url": "",
         "image_url": "",
         "pixel_url": "",
-        "label_en": "Agoda — hotels for ramen trips",
+        "label_en": "Agoda — ramen trip hotels",
         "label_ko": "Agoda — 라멘 여행 숙소",
         "desc_en": "Stay near this shop or plan a multi-city ramen tour.",
         "desc_ko": "라멘 여행 숙소 예약.",
