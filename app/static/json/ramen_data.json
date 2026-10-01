@@ -1,7 +1,24 @@
 {
-  "last_updated": "2026.09.26",
-  "total_count": 208,
+  "last_updated": "2026.10.01",
+  "total_count": 209,
   "ramens": [
+    {
+      "id": "ramen_sen-no-kaze_en",
+      "lang": "en",
+      "title": "Ramen Sen-no-kaze: Tonkotsu and Shoyu Ramen in Kyoto's Nakagyo Ward",
+      "lat": 35.0033,
+      "lng": 135.7688,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_sen-no-kaze.jpg",
+      "youtube_id": "",
+      "address": "Kyoto, Nakagyo",
+      "published": "2026-10-01",
+      "summary": "A Nakagyo backstreet tonkotsu-shoyu counter favored by locals, worth the detour if you want a bowl away from the Kyoto Station crowds.",
+      "link": "/ramen/ramen_sen-no-kaze_en"
+    },
     {
       "id": "ramen_takahashi_en",
       "lang": "en",
