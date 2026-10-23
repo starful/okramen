@@ -21,7 +21,9 @@
                 <span class="a8-banners__desc">{{ banner.desc }}</span>
                 {% endif %}
             </a>
+            {% if banner.pixel_url %}
             <img class="a8-affiliate-pixel" src="{{ banner.pixel_url }}" width="1" height="1" alt="" aria-hidden="true">
+            {% endif %}
         </div>
         {% endfor %}
     </div>
@@ -29,4 +31,5 @@
     <p class="affiliate-box__note">{{ a8_banners_note }}</p>
     {% endif %}
 </aside>
+{% include 'partials/data_track_clicks.html' %}
 {% endif %}
