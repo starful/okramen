@@ -1,16 +1,19 @@
 ---
 lang: en
-title: 'Chashu vs Char Siu vs Kakuni: Differences + Aburi Tips'
+title: 'Chashu vs Char Siu vs Kakuni: Master These 3 Pork Toppings + Aburi Tips'
 date: '2026-04-14'
-summary: Think all chashu is the same? Think again! Dive deep into the delicious world
-  of ramen's most beloved pork topping as we compare the succulent secrets of rolled
-  braised versus aromatic roasted chashu, transforming your next ramen experience.
-seo_title: 'Chashu vs Char Siu vs Kakuni: Differences + Aburi Tips'
-seo_description: 'Chashu vs char siu vs kakuni: how they differ in taste, texture
-  & cooking method. Includes aburi chashu tips and a simple cha shu pork recipe.'
-description: 'Chashu vs char siu vs kakuni: how they differ in taste, texture & cooking
-  method. Includes aburi chashu tips and a simple cha shu pork recipe.'
+summary: Master the three iconic pork toppings that define Japanese ramen, from tender
+  braised chashu to Cantonese char siu, plus aburi techniques and an easy homemade
+  recipe.
+seo_title: 'Chashu vs Char Siu vs Kakuni: Master These 3 Pork Toppings + Aburi Tips'
+seo_description: Discover the differences between chashu, char siu, and kakuni. Learn
+  textures, flavors, aburi tips, and a simple cha shu pork recipe you can make at
+  home.
+description: Discover the differences between chashu, char siu, and kakuni. Learn
+  textures, flavors, aburi tips, and a simple cha shu pork recipe you can make at
+  home.
 ---
+
 **Chashu vs char siu vs kakuni** all start from pork belly or shoulder, but they diverge in flavor and technique: chashu is Japanese ramen-style pork simmered low and slow in a soy-mirin-sake broth for a mild, savory taste and tender, sliceable texture; char siu is Cantonese barbecued pork, roasted with a sweeter, reddish glaze and slightly charred edges; kakuni is a Japanese braised pork belly, cut into thick cubes and simmered until fatty and jiggly-soft, richer and sweeter than chashu. Buta kakuni vs chashu comes down to cut and cook time — kakuni uses bigger belly chunks braised longer for a melt-in-the-mouth bite, while chashu is rolled, tied, and simmered thinner for ramen toppings.
 
 **Aburi chashu** refers to chashu that's lightly torched or seared after braising, adding a smoky, caramelized edge on top of the tender interior — a common finishing touch at ramen shops. For a quick cha shu pork recipe at home: sear a rolled pork shoulder or belly, then simmer gently in a soy sauce, mirin, sake, and sugar mixture (with aromatics like ginger and scallion) until fork-tender, then slice thin and optionally torch the surface before serving.
