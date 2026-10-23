@@ -1,15 +1,18 @@
 ---
 lang: en
-title: 'Ramen Noodle Firmness: What to Say When Ordering | OKRamen'
+title: 'Ramen Noodle Firmness Guide: Barikata to Yawa—Exactly What to Say When Ordering'
 date: '2026-05-28'
-summary: A quick guide to the ramen firmness scale, from barikata to yawa, with the
-  exact words to say when ordering so your bowl comes out right.
-description: Don't guess at the counter. Here's exactly what to say for Barikata,
-  Kata, Futsu, or Yawa noodles — and what each texture tastes like.
-seo_title: 'Ramen Noodle Firmness: What to Say When Ordering | OKRamen'
-seo_description: Don't guess at the counter. Here's exactly what to say for Barikata,
-  Kata, Futsu, or Yawa noodles — and what each texture tastes like.
+summary: Never fumble at the ramen counter again. Master the firmness scale from barikata
+  (ultra-firm) to yawa (soft), and discover how each texture transforms your ramen
+  experience.
+description: 'Master ramen noodle firmness: barikata, kata, futsu, yawa. Learn exactly
+  what to say at the counter and how each texture changes your bowl''s taste.'
+seo_title: 'Ramen Noodle Firmness Guide: Barikata to Yawa—Exactly What to Say When
+  Ordering'
+seo_description: 'Master ramen noodle firmness: barikata, kata, futsu, yawa. Learn
+  exactly what to say at the counter and how each texture changes your bowl''s taste.'
 ---
+
 Ordering ramen shouldn't feel like a pop quiz. When the server asks how firm you want your noodles, you've got about five seconds to answer — and the wrong word can turn a perfect bowl into a mushy letdown. Here's the cheat sheet: what each firmness term means, how it changes the bite, and which one to pick next time.
 
 Not sure what to say when the server asks how firm you want your noodles? This guide breaks down the full firmness scale — barikata, kata, futsu, yawa, and everything in between — so you can order with confidence and get noodles that actually match your taste.
