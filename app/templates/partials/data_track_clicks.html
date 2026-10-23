@@ -1,0 +1,13 @@
+<script>
+document.addEventListener("click", function (event) {
+    var target = event.target.closest("[data-track]");
+    if (!target || typeof window.gtag !== "function") return;
+    var action = target.getAttribute("data-track");
+    if (!action || action.indexOf("affiliate_") !== 0) return;
+    var label = target.getAttribute("data-track-label") || target.getAttribute("href") || "";
+    window.gtag("event", action, {
+        event_category: "engagement",
+        event_label: label
+    });
+});
+</script>

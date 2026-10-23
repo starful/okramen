@@ -1,0 +1,18 @@
+{# Above-the-fold Agoda stay CTA for shop + guide pages. #}
+{% if show_agoda_cta and agoda_cta %}
+{% set _lang = post.lang|default(active_lang)|default('en') %}
+<aside class="early-agoda-cta" style="margin: 0 0 28px; padding: 16px 18px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 14px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;">
+  <p style="margin: 0; color: #1e3a5f; font-size: 0.95rem; font-weight: 600; line-height: 1.45; flex: 1 1 220px;">
+    {% if _lang == 'ko' %}라멘 투어 숙소는 Agoda에서 주변 호텔을 검색해 보세요.{% else %}Book hotels near this ramen spot on Agoda.{% endif %}
+  </p>
+  <a href="{{ agoda_cta.click_url }}"
+     target="_blank"
+     rel="nofollow sponsored noopener noreferrer"
+     class="early-agoda-cta__btn"
+     data-track="affiliate_a8"
+     data-track-label="agoda-early"
+     style="display: inline-block; padding: 12px 22px; background: #1d4ed8; color: #fff; font-weight: 800; font-size: 0.95rem; border-radius: 999px; text-decoration: none; white-space: nowrap;">
+    {% if _lang == 'ko' %}Agoda에서 숙소 보기{% else %}Find stays on Agoda{% endif %}
+  </a>
+</aside>
+{% endif %}

@@ -41,6 +41,13 @@
     <meta name="twitter:title" content="{{ post.seo_title }}">
     <meta name="twitter:description" content="{{ post.seo_description }}">
     <meta name="twitter:image" content="{{ post.thumbnail if post.thumbnail.startswith('http') else site_url ~ post.thumbnail }}">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KG83DN7X1L"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KG83DN7X1L');
+    </script>
 </head>
 <body>
     {% include 'header.html' %}
@@ -50,6 +57,8 @@
             <h1 class="detail-title">{{ post.title }}</h1>
             <p style="color:#888;">📅 {{ post.date }}</p>
         </div>
+
+        {% include 'partials/early_agoda_cta.html' %}
 
         <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
 
