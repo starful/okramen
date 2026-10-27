@@ -110,8 +110,7 @@ def generate_guide_article(guide_id, topic, lang, keywords) -> str:
     if is_blocked_guide_id(guide_id):
         return f"⏭️ Blocked guide id: {guide_id}_{lang}"
 
-    if not API_KEY:
-        return f"❌ API Key missing: {guide_id}_{lang}"
+    # Auth is checked inside _claude_md → site_llm.generate_md_text (Claude CLI login).
     filename = f"{guide_id}_{lang}.md"
     filepath = os.path.join(GUIDE_CONTENT_DIR, filename)
     filling_sibling = _sibling_exists(guide_id, lang)
