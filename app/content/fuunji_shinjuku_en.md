@@ -1,6 +1,5 @@
 ---
 youtube_id: ki5e9o8FcPk
-
 address: 2 Chome-14-3 Yoyogi, Shibuya City, Tokyo 151-0053, Japan
 categories:
 - Tsukemen
@@ -10,21 +9,23 @@ lang: en
 lat: 35.6875
 lng: 139.6961
 shop_name: Fuunji Shinjuku
-summary: 'Fuunji Shinjuku in Tokyo: tsukemen (dipping noodles) — practical notes on
-  queues, ordering, and how to eat the bowl. Verify hours on Maps.'
+summary: Fuunji specializes in tsukemen with concentrated dipping broth and carefully
+  prepared noodles. Plan for queues, arrive early, and expect 10–15 minutes of eating
+  time.
 thumbnail: /static/images/fuunji_shinjuku.jpg
-title: 'Fuunji Shinjuku: Master the Line with Insider Ordering Tips'
+title: 'Fuunji Shinjuku: Tokyo''s Most Famous Tsukemen Shop (Complete Guide)'
 one_liner: 'Tsukemen specialist in Tokyo: noodles and broth served separately. Verify
   hours and holidays on Maps before you go.'
 what_to_order: Standard tsukemen set; ask for soup-wari (broth dilution) after noodles
   if offered.
 good_for: Tsukemen fans and noodle-texture seekers
-seo_title: 'Fuunji Shinjuku: Master the Line with Insider Ordering Tips'
-seo_description: Master Fuunji's legendary tsukemen. Learn insider ordering strategies,
-  best visiting times, and queue-skip hacks from Tokyo ramen experts.
-description: Skip the legendary queue at Fuunji Shinjuku with proven insider strategies.
-  Learn best ordering methods, optimal visiting times, and line-skip hacks.
+seo_title: Fuunji Shinjuku Tokyo | Best Tsukemen Dipping Ramen Shop Guide
+seo_description: Fuunji Shinjuku is Tokyo's top tsukemen (dipping ramen) restaurant.
+  Get hours, menu prices, ordering tips, and how to avoid long waits.
+description: Fuunji Shinjuku is Tokyo's top tsukemen (dipping ramen) restaurant. Get
+  hours, menu prices, ordering tips, and how to avoid long waits.
 ---
+
 
 
 

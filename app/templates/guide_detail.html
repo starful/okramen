@@ -52,7 +52,7 @@
 <body>
     {% include 'header.html' %}
 
-    <article class="detail-container">
+    <article class="detail-container" data-scroll-track="guide" data-scroll-track-id="{{ post.id }}">
         <div class="detail-header">
             <h1 class="detail-title">{{ post.title }}</h1>
             <p style="color:#888;">📅 {{ post.date }}</p>
@@ -60,7 +60,7 @@
 
         {% include 'partials/early_agoda_cta.html' %}
 
-        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img">
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="detail-img" loading="eager" decoding="async" fetchpriority="high">
 
         <div class="detail-content">
             {{ content | safe }}
@@ -94,5 +94,6 @@
         </div>
     </article>
     {% include 'footer.html' %}
+    <script src="/static/js/article.js" defer></script>
 </body>
 </html>
