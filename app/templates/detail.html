@@ -74,7 +74,7 @@
 <body>
     {% include 'header.html' %}
 
-    <article class="detail-container">
+    <article class="detail-container" data-scroll-track="ramen" data-scroll-track-id="{{ post.id }}">
         <div class="detail-header">
             <h1 class="detail-title">{{ post.h1_title }}</h1>
             <p class="detail-one-liner">{{ post.one_liner }}</p>
@@ -147,7 +147,7 @@
         </section>
 
         {% if not post.youtube_id %}
-        <img src="{{ post.thumbnail }}" alt="{{ post.shop_name }} — {{ post.style_label }} ramen in {{ post.region_label }}" class="detail-img" onerror="this.onerror=null;this.src='/static/images/default.jpg'">
+        <img src="{{ post.thumbnail }}" alt="{{ post.shop_name }} — {{ post.style_label }} ramen in {{ post.region_label }}" class="detail-img" loading="eager" decoding="async" fetchpriority="high" onerror="this.onerror=null;this.src='/static/images/default.jpg'">
         {% endif %}
 
         <details class="detail-article-fold">
@@ -186,7 +186,8 @@
             <a href="{{ post.footer_nav.about_href }}" class="back-btn back-btn--secondary">{{ post.footer_nav.about_label }}</a>
         </nav>
     </article>
-    
+
     {% include 'footer.html' %}
+    <script src="/static/js/article.js" defer></script>
 </body>
 </html>

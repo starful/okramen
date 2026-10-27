@@ -588,6 +588,7 @@ header {
 .detail-trust-note--muted { font-size: 0.84rem; color: #7a6b5e; background: rgba(255, 250, 240, 0.6); }
 .detail-img { width: 100%; height: auto; border-radius: 20px; margin: 35px 0; box-shadow: 0 8px 25px rgba(62, 39, 35, 0.1); }
 .detail-content { font-size: 1.18rem; line-height: 1.95; color: #3e2723; letter-spacing: -0.01em; }
+.detail-content img { max-width: 100%; height: auto; border-radius: 12px; }
 .detail-content h2 {
     font-size: 1.7rem; color: var(--primary-color); margin-top: 60px; margin-bottom: 25px;
     padding-left: 18px; border-left: 6px solid var(--accent-color);
