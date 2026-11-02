@@ -3,7 +3,7 @@ lang: en
 title: 'Ramen Danbo Fukuoka: Customizable Tonkotsu Ramen Guide | OKRamen'
 summary: Ramen Danbo Fukuoka serves classic, richly customizable Hakata tonkotsu ramen,
   letting diners adjust broth richness and spice for a tailored bowl.
-date: '2026-07-27'
+date: '2026-10-29'
 shop_name: Ramen Danbo Fukuoka
 address: Fukuoka, Fukuoka-shi
 lat: 33.5861
@@ -21,6 +21,9 @@ seo_title: 'Ramen Danbo Fukuoka: Customizable Tonkotsu Ramen Guide | OKRamen'
 seo_description: 'Ramen Danbo Fukuoka guide: creamy Hakata tonkotsu ramen with custom
   spice & richness levels. What to expect, tips, and why OKRamen recommends it.'
 ---
+
+
+
 
 
 
