@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.10.01",
+  "last_updated": "2026-10-29",
   "total_count": 209,
   "ramens": [
     {
@@ -345,7 +345,7 @@
     {
       "id": "ryukishin_rize_en",
       "lang": "en",
-      "title": "Ryukishin Rize — Osaka Shio ramen guide",
+      "title": "Ryukishin Rize Shio Ramen Guide | Naniwa, Osaka | OKRamen",
       "lat": 34.6611,
       "lng": 135.5011,
       "categories": [
@@ -356,7 +356,7 @@
       "youtube_id": "",
       "address": "Osaka, Naniwa",
       "published": "2026-07-27",
-      "summary": "Ryukishin Rize in Osaka: Shio ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "summary": "Ryukishin Rize in Naniwa, Osaka serves shio ramen — this guide covers queue times, ordering tips, and what to try, plus nearby spots. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/ryukishin_rize_en"
     },
     {
@@ -549,7 +549,7 @@
     {
       "id": "ramen_sapporo_ichiryu_en",
       "lang": "en",
-      "title": "Ramen Sapporo Ichiryu — Hokkaido Miso ramen guide",
+      "title": "Ramen Sapporo Ichiryu: Miso Ramen Guide in Chuo, Hokkaido",
       "lat": 43.0611,
       "lng": 141.3511,
       "categories": [
@@ -560,7 +560,7 @@
       "youtube_id": "",
       "address": "5-chome-20-2 Minami 4 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0804, Japan",
       "published": "2026-07-27",
-      "summary": "Ramen Sapporo Ichiryu in Hokkaido: Miso ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "summary": "Ramen Sapporo Ichiryu in Chuo, Hokkaido: a practical miso ramen guide covering queues, ordering, and what to try — confirm hours on Google Maps before visiting.",
       "link": "/ramen/ramen_sapporo_ichiryu_en"
     },
     {
@@ -814,7 +814,7 @@
       "thumbnail": "/static/images/ramen_danbo_fukuoka.jpg",
       "youtube_id": "",
       "address": "Fukuoka, Fukuoka-shi",
-      "published": "2026-07-27",
+      "published": "2026-10-29",
       "summary": "후쿠오카 현지인들이 사랑하는 진한 돈코츠 라멘 맛집, 단보 라멘에서 웨이팅 없이 즐기는 팁과 주문 가이드를 전합니다.",
       "link": "/ramen/ramen_danbo_fukuoka_ko"
     },
@@ -831,7 +831,7 @@
       "thumbnail": "/static/images/ramen_danbo_fukuoka.jpg",
       "youtube_id": "",
       "address": "Fukuoka, Fukuoka-shi",
-      "published": "2026-07-27",
+      "published": "2026-10-29",
       "summary": "Ramen Danbo Fukuoka serves classic, richly customizable Hakata tonkotsu ramen, letting diners adjust broth richness and spice for a tailored bowl.",
       "link": "/ramen/ramen_danbo_fukuoka_en"
     },
@@ -2062,7 +2062,7 @@
     {
       "id": "rokurinsha_haneda_ko",
       "lang": "ko",
-      "title": "육수 맛집 '로쿠린샤 하네다' 츠케멘 완벽 가이드",
+      "title": "로쿠린샤 하네다 츠케멘 완벽 가이드｜웨이팅 팁과 추천 메뉴",
       "lat": 35.5491,
       "lng": 139.7811,
       "categories": [
@@ -2073,7 +2073,7 @@
       "youtube_id": "6YsQB-YIhoM",
       "address": "Tokyo, Ota",
       "published": "2026-04-14",
-      "summary": "하네다 공항에서 즐기는 깊고 진한 츠케멘의 정수, 로쿠린샤 하네다. 웨이팅부터 주문, 맛있게 먹는 법, 주변 대안까지 실전 여행자를 위한 모든 팁을 담았습니다.",
+      "summary": "하네다 공항 로쿠린샤 츠케멘을 짧은 시간 안에 제대로 즐기는 법. 웨이팅, 메뉴 선택, 스프 와리까지 실전 팁을 담았습니다.",
       "link": "/ramen/rokurinsha_haneda_ko"
     },
     {
@@ -2215,7 +2215,7 @@
     {
       "id": "menya_saimi_en",
       "lang": "en",
-      "title": "Sapporo's #1 Miso Ramen at Menya Saimi | Hokkaido Guide",
+      "title": "Menya Saimi Sapporo: The #1 Miso Ramen | Hours, Queue & Menu",
       "lat": 43.0311,
       "lng": 141.3911,
       "categories": [
@@ -2226,7 +2226,7 @@
       "youtube_id": "",
       "address": "Hokkaido, Sapporo",
       "published": "2026-04-14",
-      "summary": "Menya Saimi in Hokkaido: Miso ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "summary": "Menya Saimi delivers legendary miso ramen in Sapporo with rich, complex flavors — worth the queue.",
       "link": "/ramen/menya_saimi_en"
     },
     {
@@ -3371,7 +3371,7 @@
     {
       "id": "fuunji_shinjuku_en",
       "lang": "en",
-      "title": "Fuunji Shinjuku: Master the Line with Insider Ordering Tips",
+      "title": "Fuunji Shinjuku: Tokyo's Most Famous Tsukemen Shop (Complete Guide)",
       "lat": 35.6875,
       "lng": 139.6961,
       "categories": [
@@ -3382,7 +3382,7 @@
       "youtube_id": "ki5e9o8FcPk",
       "address": "2 Chome-14-3 Yoyogi, Shibuya City, Tokyo 151-0053, Japan",
       "published": "2026-04-03",
-      "summary": "Fuunji Shinjuku in Tokyo: tsukemen (dipping noodles) — practical notes on queues, ordering, and how to eat the bowl. Verify hours on Maps.",
+      "summary": "Fuunji specializes in tsukemen with concentrated dipping broth and carefully prepared noodles. Plan for queues, arrive early, and expect 10–15 minutes of eating time.",
       "link": "/ramen/fuunji_shinjuku_en"
     },
     {

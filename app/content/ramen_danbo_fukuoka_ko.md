@@ -2,7 +2,7 @@
 lang: ko
 title: 후쿠오카 돈코츠 라멘의 정수, 단보 라멘 후쿠오카점 웨이팅 가이드
 summary: 후쿠오카 현지인들이 사랑하는 진한 돈코츠 라멘 맛집, 단보 라멘에서 웨이팅 없이 즐기는 팁과 주문 가이드를 전합니다.
-date: '2026-07-27'
+date: '2026-10-29'
 shop_name: Ramen Danbo Fukuoka
 address: Fukuoka, Fukuoka-shi
 lat: 33.5861
@@ -14,6 +14,9 @@ thumbnail: /static/images/ramen_danbo_fukuoka.jpg
 image_prompt: A 45-degree steaming macro shot of Ramen Danbo Fukuoka 돈코츠 ramen, swirling
   steam, warm wooden counter seat, cinematic food photography, no text, 8k detail.
 ---
+
+
+
 
 
 
