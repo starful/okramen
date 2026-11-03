@@ -825,6 +825,11 @@ body.compare-bar-active { padding-bottom: 90px; }
 .a8-banners__item--agoda .a8-banners__link { background: #5c2d91; }
 .a8-banners__item--agoda .a8-banners__link:hover { background: #4a2474; }
 .a8-banners__item--agoda .a8-banners__link::before { content: "🏨"; }
+.a8-banners__item--amazon .a8-banners__link { background: #ff9900; color: #111827; }
+.a8-banners__item--amazon .a8-banners__link:hover { background: #e68a00; }
+.a8-banners__item--amazon .a8-banners__link::before { content: "🛒"; }
+.a8-banners__item--amazon .a8-banners__label { color: #111827; }
+.a8-banners__item--amazon .a8-banners__desc { color: rgba(17, 24, 39, 0.8); }
 .a8-banners__item--kkday .a8-banners__link { background: #ea580c; }
 .a8-banners__item--kkday .a8-banners__link:hover { background: #c2410c; }
 .a8-banners__item--kkday .a8-banners__link::before { content: "🎫"; }
@@ -889,13 +894,6 @@ body.compare-bar-active { padding-bottom: 90px; }
     margin: 10px 0 0;
     font-size: 0.68rem;
     color: #94a3b8;
-}
-.a8-affiliate-pixel {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    opacity: 0;
-    pointer-events: none;
 }
 @media (max-width: 520px) {
     .a8-banners__item {

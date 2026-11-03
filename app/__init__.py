@@ -461,6 +461,10 @@ def guide_detail(guide_id):
         from .a8_affiliate import a8_banners_context
     except ImportError:
         from a8_affiliate import a8_banners_context
+    try:
+        from .amazon_affiliate import amazon_context
+    except ImportError:
+        from amazon_affiliate import amazon_context
     return render_template(
         "guide_detail.html",
         post=post,
@@ -470,6 +474,10 @@ def guide_detail(guide_id):
         **inject_family_context(FAMILY_SITE_ID, lang),
         **share_ctx,
         **a8_banners_context(lang=lang),
+        **amazon_context(
+            kind="instant" if "instant" in guide_id.lower() else "guide",
+            lang=lang,
+        ),
     )
 
 @app.route('/ramen/<ramen_id>')
@@ -494,6 +502,10 @@ def ramen_detail(ramen_id):
         from .a8_affiliate import a8_banners_context
     except ImportError:
         from a8_affiliate import a8_banners_context
+    try:
+        from .amazon_affiliate import amazon_context
+    except ImportError:
+        from amazon_affiliate import amazon_context
     return render_template(
         "detail.html",
         post=post,
@@ -510,6 +522,7 @@ def ramen_detail(ramen_id):
             lat=post.get("lat"),
             lng=post.get("lng"),
         ),
+        **amazon_context(kind="shop", lang=lang),
     )
     """Lightweight share landing page for X/OG crawlers."""
     post, base_id = prepare_ramen_card_post(CONTENT_DIR, ramen_id)
