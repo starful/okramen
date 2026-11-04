@@ -1,16 +1,16 @@
 ---
 lang: en
-title: 'Sake & Ramen Pairings: Expert Sommelier Guide to Transforming Each Broth Type'
+title: 'Sake & Ramen Pairings: Elevate Every Bowl with Expert Sommelier Combinations'
 date: '2026-05-28'
-summary: Sake and ramen create surprising synergy when paired thoughtfully. This sommelier's
-  guide reveals specific pairings and flavor profiles for each ramen style.
-description: Which sake cuts Tonkotsu's fat? Elevates Shio's salt? Deepens Miso's
-  umami? Professional sommelier reveals the best pairing combinations.
-seo_title: 'Sake & Ramen Pairings: Sommelier''s Guide to Unexpected Combos That Transform
-  Broth'
-seo_description: Which sake cuts Tonkotsu's fat? Elevates Shio's salt? Deepens Miso's
-  umami? Professional sommelier reveals the best pairing combinations.
+summary: Sake and ramen form unexpected flavor synergies when paired thoughtfully.
+  This sommelier guide reveals specific pairings that enhance each broth style.
+description: Which sake cuts Tonkotsu's richness? Perfect pairings for every ramen
+  style. Discover professional combinations that transform your bowl.
+seo_title: 'Sake & Ramen Pairings: Elevate Every Bowl with Expert Sommelier Combinations'
+seo_description: Which sake cuts Tonkotsu's richness? Perfect pairings for every ramen
+  style. Discover professional combinations that transform your bowl.
 ---
+
 
 
 

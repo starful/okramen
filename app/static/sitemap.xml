@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://okramen.net/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://okramen.net/guide</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://okramen.net/guide?lang=ko</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -35,6 +35,18 @@
     <lastmod>2026-07-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://okramen.net/ramen/ramen_danbo_fukuoka_ko</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://okramen.net/ramen/ramen_danbo_fukuoka_en</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://okramen.net/ramen/ramen_sen-no-kaze_en</loc>
@@ -315,18 +327,6 @@
   <url>
     <loc>https://okramen.net/ramen/ramen_gantetsu_en</loc>
     <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/ramen/ramen_danbo_fukuoka_ko</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://okramen.net/ramen/ramen_danbo_fukuoka_en</loc>
-    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1250,7 +1250,7 @@
   </url>
   <url>
     <loc>https://okramen.net/ramen/ippudo_ginza_en</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1291,8 +1291,20 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://okramen.net/guide/jiro-ramen-ordering-guide_en</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://okramen.net/guide/conbini-ramen-2026_en</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://okramen.net/guide/konbini-ramen-2026_en</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1322,7 +1334,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/best-instant-ramen-japan_en</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1574,13 +1586,13 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/tori_paitan_craze_en</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://okramen.net/guide/ramen_and_sake_tasting_en</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1592,7 +1604,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/hakodate_clear_shio_en</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1748,7 +1760,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/solo_traveler_ramen_en</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1760,7 +1772,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/ramen_prices_en</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1958,7 +1970,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/ramen_spoons_and_utensils_ko</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -2012,7 +2024,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/ramen_noodle_disposal_manners_ko</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -2150,7 +2162,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/miso_deep_dive_ko</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -2186,7 +2198,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/tsukemen_art_ko</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -2216,7 +2228,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/types_of_ramen_ko</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -2252,7 +2264,7 @@
   </url>
   <url>
     <loc>https://okramen.net/guide/ramen_noodle_science_ko</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
