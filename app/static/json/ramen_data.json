@@ -1,7 +1,41 @@
 {
-  "last_updated": "2026-10-29",
+  "last_updated": "2026.11.03",
   "total_count": 209,
   "ramens": [
+    {
+      "id": "ramen_danbo_fukuoka_ko",
+      "lang": "ko",
+      "title": "후쿠오카 돈코츠 라멘의 정수, 단보 라멘 후쿠오카점 웨이팅 가이드",
+      "lat": 33.5861,
+      "lng": 130.4024,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_danbo_fukuoka.jpg",
+      "youtube_id": "",
+      "address": "Fukuoka, Fukuoka-shi",
+      "published": "2026-10-29",
+      "summary": "후쿠오카 현지인들이 사랑하는 진한 돈코츠 라멘 맛집, 단보 라멘에서 웨이팅 없이 즐기는 팁과 주문 가이드를 전합니다.",
+      "link": "/ramen/ramen_danbo_fukuoka_ko"
+    },
+    {
+      "id": "ramen_danbo_fukuoka_en",
+      "lang": "en",
+      "title": "Ramen Danbo Fukuoka: Customizable Tonkotsu Ramen Guide | OKRamen",
+      "lat": 33.5861,
+      "lng": 130.4024,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_danbo_fukuoka.jpg",
+      "youtube_id": "",
+      "address": "Fukuoka, Fukuoka-shi",
+      "published": "2026-10-29",
+      "summary": "Ramen Danbo Fukuoka serves classic, richly customizable Hakata tonkotsu ramen, letting diners adjust broth richness and spice for a tailored bowl.",
+      "link": "/ramen/ramen_danbo_fukuoka_en"
+    },
     {
       "id": "ramen_sen-no-kaze_en",
       "lang": "en",
@@ -800,40 +834,6 @@
       "published": "2026-07-27",
       "summary": "Ramen Gantetsu in Hokkaido: Miso ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/ramen_gantetsu_en"
-    },
-    {
-      "id": "ramen_danbo_fukuoka_ko",
-      "lang": "ko",
-      "title": "후쿠오카 돈코츠 라멘의 정수, 단보 라멘 후쿠오카점 웨이팅 가이드",
-      "lat": 33.5861,
-      "lng": 130.4024,
-      "categories": [
-        "돈코츠",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/ramen_danbo_fukuoka.jpg",
-      "youtube_id": "",
-      "address": "Fukuoka, Fukuoka-shi",
-      "published": "2026-10-29",
-      "summary": "후쿠오카 현지인들이 사랑하는 진한 돈코츠 라멘 맛집, 단보 라멘에서 웨이팅 없이 즐기는 팁과 주문 가이드를 전합니다.",
-      "link": "/ramen/ramen_danbo_fukuoka_ko"
-    },
-    {
-      "id": "ramen_danbo_fukuoka_en",
-      "lang": "en",
-      "title": "Ramen Danbo Fukuoka: Customizable Tonkotsu Ramen Guide | OKRamen",
-      "lat": 33.5861,
-      "lng": 130.4024,
-      "categories": [
-        "Tonkotsu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/ramen_danbo_fukuoka.jpg",
-      "youtube_id": "",
-      "address": "Fukuoka, Fukuoka-shi",
-      "published": "2026-10-29",
-      "summary": "Ramen Danbo Fukuoka serves classic, richly customizable Hakata tonkotsu ramen, letting diners adjust broth richness and spice for a tailored bowl.",
-      "link": "/ramen/ramen_danbo_fukuoka_en"
     },
     {
       "id": "menya_takeichi_shinbashi_ko",
@@ -3439,7 +3439,7 @@
     {
       "id": "ippudo_ginza_en",
       "lang": "en",
-      "title": "Ippudo Ginza Ramen: Best Tonkotsu + Menu & Queue Hacks",
+      "title": "Ippudo Ginza: Tokyo's Must-Visit Tonkotsu Ramen + Skip-the-Line Secrets",
       "lat": 35.6711,
       "lng": 139.7662,
       "categories": [
