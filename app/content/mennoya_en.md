@@ -1,6 +1,5 @@
 ---
 youtube_id: P6vaa5M9FqA
-
 address: Osaka, Chuo
 categories:
 - Shoyu
@@ -14,15 +13,21 @@ lang: en
 lat: 34.6811
 lng: 135.5111
 shop_name: Mennoya
-summary: "Mennoya in Osaka: Shoyu ramen — practical guide to queues, ordering, and\
-  \ what to try. Confirm hours on Google Maps before visiting."
+summary: 'Mennoya in Osaka: Shoyu ramen — practical guide to queues, ordering, and
+  what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/mennoya.jpg
-title: Mennoya — Osaka Shoyu ramen guide
+title: Mennoya Osaka | Signature Shoyu Ramen Shop Guide & Queue Tips
 one_liner: Shoyu ramen at Mennoya, Osaka. Verify hours and holidays on Maps before
   you go.
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
+description: 'Mennoya Osaka: Expert guide to shoyu ramen, ordering, queues. Confirm
+  hours on Google Maps before your visit.'
+seo_title: Mennoya Osaka | Signature Shoyu Ramen Shop Guide & Queue Tips
+seo_description: 'Mennoya Osaka: Expert guide to shoyu ramen, ordering, queues. Confirm
+  hours on Google Maps before your visit.'
 ---
+
 
 **Intro:** Mennoya is a shoyu ramen shop in Chuo, Osaka. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

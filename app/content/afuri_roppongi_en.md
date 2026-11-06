@@ -1,6 +1,5 @@
 ---
 youtube_id: xX5HgGzBMmg
-
 address: Tokyo, Minato
 categories:
 - Shio
@@ -20,17 +19,19 @@ summary: Explore Afuri Roppongi, famous for its yuzu shio ramen. Get practical t
   on what to order, queue management, how to reach it, and nearby alternatives for
   travelers.
 thumbnail: /static/images/afuri_roppongi.jpg
-title: Afuri Roppongi Ramen in Tokyo's Minato District
+title: Afuri Roppongi Tokyo | Yuzu Shio Ramen Traveler's Guide
 one_liner: Shio ramen at Afuri Roppongi, Tokyo. Verify hours and holidays on Maps
   before you go.
 what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
-seo_title: Afuri Roppongi Ramen Tokyo | Yuzu Shio | Traveler's Guide
-seo_description: Visiting Afuri Roppongi in Minato, Tokyo? This guide offers essential
-  advice on ordering their signature yuzu shio ramen, navigating queues, directions,
-  and alternative ramen shops for a smooth dining experience.
+seo_title: Afuri Roppongi Tokyo | Yuzu Shio Ramen Traveler's Guide
+seo_description: 'Afuri Roppongi Tokyo: Yuzu shio ramen guide with ordering tips,
+  queue advice, menu selections for travelers.'
 slug: afuri_roppongi
+description: 'Afuri Roppongi Tokyo: Yuzu shio ramen guide with ordering tips, queue
+  advice, menu selections for travelers.'
 ---
+
 
 
 ## Overview

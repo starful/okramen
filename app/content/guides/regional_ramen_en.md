@@ -1,9 +1,16 @@
 ---
 lang: en
-title: "The Ultimate Ramen Pilgrimage: Top 5 Regional Styles You Must Savor in Japan"
-date: "2026-04-14"
-summary: "Embark on an unparalleled gastronomic journey through Japan's diverse ramen landscape, discovering the iconic regional variations that define this beloved dish. This expert guide unveils the essential five ramen styles every serious foodie and traveler absolutely needs to experience firsthand across the archipelago."
+title: 'The Ultimate Ramen Pilgrimage: Japan''s 5 Essential Regional Styles'
+date: '2026-04-14'
+summary: Journey through Japan's diverse ramen landscape discovering five quintessential
+  regional styles that define this beloved culinary tradition.
+description: Explore Japan's most iconic regional ramen styles from Hakata tonkotsu
+  to Hokkaido miso and beyond
+seo_title: 'The Ultimate Ramen Pilgrimage: Japan''s 5 Essential Regional Styles'
+seo_description: 'Discover Japan''s 5 essential ramen styles: Hakata tonkotsu, Tokyo
+  shoyu, Hokkaido miso, Okinawa shio & more.'
 ---
+
 
 <h2>Introduction: Beyond the Bowl – A Journey into Japan's Ramen Soul</h2>
 
