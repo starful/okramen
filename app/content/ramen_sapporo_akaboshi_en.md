@@ -1,18 +1,22 @@
 ---
 lang: en
-title: "Ramen Sapporo Akaboshi: A No-Frills Shoyu and Shio Bowl Worth the Detour"
-summary: "A budget-friendly Sapporo shoyu and shio ramen shop where the queue moves fast and the bowls justify the wait."
-date: "2026-08-25"
-shop_name: "Ramen Sapporo Akaboshi"
-address: "Hokkaido, Sapporo"
+title: 'Ramen Sapporo Akaboshi: A No-Frills Shoyu and Shio Bowl Worth the Detour'
+summary: A budget-friendly Sapporo shoyu and shio ramen shop where the queue moves
+  fast and the bowls justify the wait.
+date: '2026-11-07'
+shop_name: Ramen Sapporo Akaboshi
+address: Hokkaido, Sapporo
 lat: 43.0511
 lng: 141.3511
 categories:
 - Shoyu
 - Local Gem
-thumbnail: "/static/images/ramen_sapporo_akaboshi.jpg"
-image_prompt: "A overhead flat-lay of Ramen Sapporo Akaboshi Shoyu ramen, swirling steam, bright minimalist shop interior, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/ramen_sapporo_akaboshi.jpg
+image_prompt: A overhead flat-lay of Ramen Sapporo Akaboshi Shoyu ramen, swirling
+  steam, bright minimalist shop interior, cinematic food photography, no text, 8k
+  detail.
 ---
+
 
 ## Where Akaboshi Fits in Sapporo's Ramen Map
 

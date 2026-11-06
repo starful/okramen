@@ -1,18 +1,20 @@
 ---
 lang: ko
-title: "멘야 마사모토(麺屋 政本), 후쿠오카 주오구에서 만나는 매운 돈코츠와 탄탄멘"
-summary: "텐진 인근에서 진한 돈코츠 국물에 매운맛과 탄탄멘을 함께 즐길 수 있는 현지인 단골 라멘집."
-date: "2026-09-22"
-shop_name: "Menya Masamoto"
-address: "Fukuoka, Chuo"
+title: 멘야 마사모토(麺屋 政本), 후쿠오카 주오구에서 만나는 매운 돈코츠와 탄탄멘
+summary: 텐진 인근에서 진한 돈코츠 국물에 매운맛과 탄탄멘을 함께 즐길 수 있는 현지인 단골 라멘집.
+date: '2026-11-07'
+shop_name: Menya Masamoto
+address: Fukuoka, Chuo
 lat: 33.5911
 lng: 130.4011
 categories:
 - 돈코츠
 - 현지인맛집
-thumbnail: "/static/images/menya_masamoto.jpg"
-image_prompt: "A 45-degree steaming macro shot of Menya Masamoto 돈코츠 ramen, swirling steam, warm wooden counter seat, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/menya_masamoto.jpg
+image_prompt: A 45-degree steaming macro shot of Menya Masamoto 돈코츠 ramen, swirling
+  steam, warm wooden counter seat, cinematic food photography, no text, 8k detail.
 ---
+
 
 ## 나가하마식이 아닌, 후쿠오카 중심가의 '마사모토식' 돈코츠
 

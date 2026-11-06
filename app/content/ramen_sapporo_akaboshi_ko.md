@@ -1,18 +1,20 @@
 ---
 lang: ko
-title: "삿포로 라멘 아카보시 완전 정복 - 쇼유·시오 라멘 맛집 방문 가이드"
-summary: "삿포로 시내에서 가성비 좋은 쇼유·시오 라멘을 현지인처럼 맛보고 싶은 여행자를 위한 실전 방문 가이드."
-date: "2026-08-26"
-shop_name: "Ramen Sapporo Akaboshi"
-address: "Hokkaido, Sapporo"
+title: 삿포로 라멘 아카보시 완전 정복 - 쇼유·시오 라멘 맛집 방문 가이드
+summary: 삿포로 시내에서 가성비 좋은 쇼유·시오 라멘을 현지인처럼 맛보고 싶은 여행자를 위한 실전 방문 가이드.
+date: '2026-11-07'
+shop_name: Ramen Sapporo Akaboshi
+address: Hokkaido, Sapporo
 lat: 43.0511
 lng: 141.3511
 categories:
 - 쇼유
 - 현지인맛집
-thumbnail: "/static/images/ramen_sapporo_akaboshi.jpg"
-image_prompt: "A overhead flat-lay of Ramen Sapporo Akaboshi 쇼유 ramen, swirling steam, bright minimalist shop interior, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/ramen_sapporo_akaboshi.jpg
+image_prompt: A overhead flat-lay of Ramen Sapporo Akaboshi 쇼유 ramen, swirling steam,
+  bright minimalist shop interior, cinematic food photography, no text, 8k detail.
 ---
+
 
 ## 삿포로 아카보시, 어떤 라멘집인가
 

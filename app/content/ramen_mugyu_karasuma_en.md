@@ -3,7 +3,7 @@ address: Kyoto, Nakagyo
 categories:
 - Shoyu
 - Local Gem
-date: '2026-07-27'
+date: '2026-11-07'
 image_prompt: A overhead flat-lay of Ramen Mugyu Karasuma Shoyu ramen, swirling steam,
   bright minimalist shop interior, cinematic food photography, no text, 8k detail.
 lang: en
@@ -19,6 +19,7 @@ one_liner: Shoyu ramen at Ramen Mugyu Karasuma, Kyoto. Verify hours and holidays
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 ---
+
 
 
 **At a glance:** Ramen Mugyu Karasuma is a shoyu ramen shop in Nakagyo, Kyoto. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.

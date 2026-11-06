@@ -3,7 +3,7 @@ address: Osaka, Chuo
 categories:
 - Shio
 - Premium
-date: '2026-07-27'
+date: '2026-11-07'
 image_prompt: A side profile close-up of Ramen Junk Story Tanimachi Shio ramen, swirling
   steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: en
@@ -19,6 +19,7 @@ one_liner: Shio ramen at Ramen Junk Story Tanimachi, Osaka. Verify hours and hol
 what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
 ---
+
 
 
 

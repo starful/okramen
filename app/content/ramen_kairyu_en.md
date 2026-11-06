@@ -3,7 +3,7 @@ lang: en
 title: 'Ramen Kairyu in Kitakyushu: A Tonkotsu Local Gem Worth the Detour'
 summary: A no-frills Kitakyushu tonkotsu counter favored by regulars, where a straight
   bowl and a short wait beat the flashier Fukuoka-city shops.
-date: '2026-09-14'
+date: '2026-11-07'
 shop_name: Ramen Kairyu
 address: Fukuoka, Kitakyushu
 lat: 33.8811
@@ -15,6 +15,7 @@ thumbnail: /static/images/ramen_kairyu.jpg
 image_prompt: A overhead flat-lay of Ramen Kairyu Tonkotsu ramen, swirling steam,
   bright minimalist shop interior, cinematic food photography, no text, 8k detail.
 ---
+
 
 
 ## Why Kitakyushu Regulars Keep Coming Back to Kairyu

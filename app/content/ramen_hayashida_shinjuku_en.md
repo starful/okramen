@@ -3,7 +3,7 @@ address: Tokyo, Shinjuku
 categories:
 - Shoyu
 - Premium
-date: '2026-07-04'
+date: '2026-11-07'
 image_prompt: A side profile close-up of Ramen Hayashida Shinjuku Shoyu ramen, swirling
   steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: en
@@ -24,6 +24,7 @@ seo_title: Hayashida Shinjuku | Best Shoyu Ramen in Tokyo | OKRamen
 seo_description: Discover Hayashida Shinjuku's legendary shoyu ramen. Hours, menu,
   reviews, and directions. Must-try Tokyo ramen spot.
 ---
+
 
 
 **At a glance:** Ramen Hayashida Shinjuku is a shoyu ramen shop in Shinjuku, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.

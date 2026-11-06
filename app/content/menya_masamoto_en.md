@@ -1,18 +1,21 @@
 ---
 lang: en
-title: "Menya Masamoto: A Spicy Tantanmen Detour in Fukuoka's Chuo Ward"
-summary: "A neighborhood tonkotsu shop in Chuo where the tantanmen brings real heat, worth the walk if you want something spicier than standard Hakata ramen."
-date: "2026-09-22"
-shop_name: "Menya Masamoto"
-address: "Fukuoka, Chuo"
+title: 'Menya Masamoto: A Spicy Tantanmen Detour in Fukuoka''s Chuo Ward'
+summary: A neighborhood tonkotsu shop in Chuo where the tantanmen brings real heat,
+  worth the walk if you want something spicier than standard Hakata ramen.
+date: '2026-11-07'
+shop_name: Menya Masamoto
+address: Fukuoka, Chuo
 lat: 33.5911
 lng: 130.4011
 categories:
 - Tonkotsu
 - Local Gem
-thumbnail: "/static/images/menya_masamoto.jpg"
-image_prompt: "A 45-degree steaming macro shot of Menya Masamoto Tonkotsu ramen, swirling steam, warm wooden counter seat, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/menya_masamoto.jpg
+image_prompt: A 45-degree steaming macro shot of Menya Masamoto Tonkotsu ramen, swirling
+  steam, warm wooden counter seat, cinematic food photography, no text, 8k detail.
 ---
+
 
 ## Why This Shop Stands Out From Standard Hakata Tonkotsu
 

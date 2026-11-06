@@ -1,18 +1,23 @@
 ---
 lang: en
-title: "Kurume Ramen Honda-shoten: A Traveler's Guide to Fukuoka's Master Broth Tonkotsu"
-summary: "A no-frills Kurume-style tonkotsu counter in Fukuoka running a decades-old master broth, best visited at off-peak hours to skip the queue."
-date: "2026-08-20"
-shop_name: "Kurume Ramen Honda-shoten"
-address: "Fukuoka, Kurume"
+title: 'Kurume Ramen Honda-shoten: A Traveler''s Guide to Fukuoka''s Master Broth
+  Tonkotsu'
+summary: A no-frills Kurume-style tonkotsu counter in Fukuoka running a decades-old
+  master broth, best visited at off-peak hours to skip the queue.
+date: '2026-11-07'
+shop_name: Kurume Ramen Honda-shoten
+address: Fukuoka, Kurume
 lat: 33.3195
 lng: 130.5108
 categories:
 - Tonkotsu
 - Local Gem
-thumbnail: "/static/images/kurume_ramen_honda-shoten.jpg"
-image_prompt: "A 45-degree steaming macro shot of Kurume Ramen Honda-shoten Tonkotsu ramen, swirling steam, warm wooden counter seat, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/kurume_ramen_honda-shoten.jpg
+image_prompt: A 45-degree steaming macro shot of Kurume Ramen Honda-shoten Tonkotsu
+  ramen, swirling steam, warm wooden counter seat, cinematic food photography, no
+  text, 8k detail.
 ---
+
 
 ## Why Honda-shoten Matters to Kurume's Ramen Story
 
