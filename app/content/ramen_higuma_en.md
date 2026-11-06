@@ -3,7 +3,7 @@ address: Hokkaido, Sapporo
 categories:
 - Miso
 - Local Gem
-date: '2026-07-27'
+date: '2026-11-07'
 image_prompt: A steaming macro shot of a rich, glistening Sapporo miso ramen at Ramen
   Higuma, capturing a velvety golden-orange broth flecked with aromatic lard, perfectly
   yellow curly wavy noodles lifted by chopsticks, tender roasted chashu, and fresh
@@ -23,6 +23,7 @@ what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-s
   toppings.
 good_for: Cold-weather comfort bowls
 ---
+
 
 
 ## Overview

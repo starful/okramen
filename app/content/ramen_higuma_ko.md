@@ -3,7 +3,7 @@ address: 3 Minami 5-jo Nishi, Chuo-ku, Sapporo, Hokkaido (Ganso Ramen Yokocho)
 categories:
 - 미소
 - 현지인맛집
-date: '2026-07-27'
+date: '2026-11-07'
 image_prompt: A steaming macro shot of traditional Sapporo miso ramen at Ramen Higuma,
   rich golden-orange miso broth glistening with aromatic lard, wavy yellow curly noodles
   lifted by chopsticks, tender chashu pork, stir-fried bean sprouts, set in a rustic
@@ -23,6 +23,7 @@ description: 삿포로 스스키노 간소 라멘 요코초의 라멘 히구마 
 seo_title: 라멘 히구마 삿포로 미소 라멘 | 간소 라멘 요코초 가이드 | OKRamen
 seo_description: 삿포로 간소 라멘 요코초 라멘 히구마 방문 가이드. 미소 라멘 특징, 주문 팁, 위치를 한눈에 확인하세요.
 ---
+
 
 
 

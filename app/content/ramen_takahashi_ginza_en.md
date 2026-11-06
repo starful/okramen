@@ -3,15 +3,15 @@ address: Tokyo, Ginza
 categories:
 - Shoyu
 - Local Gem
-date: '2026-06-30'
+date: '2026-11-07'
 image_prompt: A side profile close-up of Ramen Takahashi Ginza Shoyu ramen, swirling
   steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: en
 lat: 35.6703
 lng: 139.7651
 shop_name: Ramen Takahashi Ginza
-summary: "Ramen Takahashi Ginza in Tokyo: Shoyu ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Takahashi Ginza in Tokyo: Shoyu ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_takahashi_ginza.jpg
 title: Ramen Takahashi Ginza — Tokyo Shoyu ramen guide
 one_liner: Shoyu ramen at Ramen Takahashi Ginza, Tokyo. Verify hours and holidays
@@ -19,6 +19,7 @@ one_liner: Shoyu ramen at Ramen Takahashi Ginza, Tokyo. Verify hours and holiday
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 ---
+
 
 **What to expect:** Ramen Takahashi Ginza is a shoyu ramen shop in Ginza, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

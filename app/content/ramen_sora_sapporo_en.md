@@ -3,15 +3,15 @@ address: Hokkaido, Sapporo
 categories:
 - Miso
 - Local Gem
-date: '2026-07-04'
+date: '2026-11-07'
 image_prompt: A side profile close-up of Ramen Sora Sapporo Miso ramen, swirling steam,
   neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: en
 lat: 43.0562
 lng: 141.3541
 shop_name: Ramen Sora Sapporo
-summary: "Ramen Sora Sapporo in Hokkaido: Miso ramen — practical guide to queues,\
-  \ ordering, and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Sora Sapporo in Hokkaido: Miso ramen — practical guide to queues,
+  ordering, and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_sora_sapporo.jpg
 title: Ramen Sora Sapporo — Hokkaido Miso ramen guide
 one_liner: Miso ramen at Ramen Sora Sapporo, Hokkaido. Verify hours and holidays on
@@ -20,6 +20,7 @@ what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-s
   toppings.
 good_for: Cold-weather comfort bowls
 ---
+
 
 **What to expect:** Ramen Sora Sapporo is a miso ramen shop in Sapporo, Hokkaido. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

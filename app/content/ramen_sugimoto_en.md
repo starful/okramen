@@ -3,15 +3,15 @@ address: Kanagawa, Yokohama
 categories:
 - Shoyu
 - Local Gem
-date: '2026-07-04'
+date: '2026-11-07'
 image_prompt: A 45-degree steaming macro shot of Ramen Sugimoto Shoyu ramen, swirling
   steam, warm wooden counter seat, cinematic food photography, no text, 8k detail.
 lang: en
 lat: 35.5422
 lng: 139.5264
 shop_name: Ramen Sugimoto
-summary: "Ramen Sugimoto in Kanagawa: Shoyu ramen — practical guide to queues, ordering,\
-  \ and what to try. Confirm hours on Google Maps before visiting."
+summary: 'Ramen Sugimoto in Kanagawa: Shoyu ramen — practical guide to queues, ordering,
+  and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/ramen_sugimoto.jpg
 title: Ramen Sugimoto — Kanagawa Shoyu ramen guide
 one_liner: Shoyu ramen at Ramen Sugimoto, Kanagawa. Verify hours and holidays on Maps
@@ -19,6 +19,7 @@ one_liner: Shoyu ramen at Ramen Sugimoto, Kanagawa. Verify hours and holidays on
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 ---
+
 
 **Overview:** Ramen Sugimoto is a shoyu ramen shop in Yokohama, Kanagawa. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 

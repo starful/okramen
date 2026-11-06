@@ -4,7 +4,7 @@ address: Tokyo, Minato
 categories:
 - Shio
 - Premium
-date: '2026-07-27'
+date: '2026-11-07'
 image_prompt: A 45-degree angle dramatic macro shot of Afuri's Yuzu Shio Ramen, featuring
   a clear, golden dashi broth shimmering with micro-droplets of fat, delicate thin-cut
   noodles, a perfectly seared slice of charcoal-grilled pork chashu, a vibrant soft-boiled
@@ -31,6 +31,7 @@ slug: afuri_roppongi
 description: 'Afuri Roppongi Tokyo: Yuzu shio ramen guide with ordering tips, queue
   advice, menu selections for travelers.'
 ---
+
 
 
 
