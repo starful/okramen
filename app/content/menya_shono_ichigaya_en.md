@@ -3,7 +3,7 @@ address: Tokyo, Shinjuku
 categories:
 - Tsukemen
 - Local Gem
-date: '2026-07-27'
+date: '2026-11-07'
 image_prompt: A side profile close-up of Menya Shono Ichigaya Tsukemen ramen, swirling
   steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: en
@@ -19,6 +19,7 @@ one_liner: 'Tsukemen specialist in Tokyo: noodles and broth served separately. V
 what_to_order: House tsukemen; ask about soup-wari (broth top-up) if offered.
 good_for: Tsukemen fans and noodle-texture seekers
 ---
+
 
 
 

@@ -21,8 +21,6 @@ what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
 ---
 
-
-
 **Overview:** Chuka Soba Ginza Hachigou is a shio ramen shop in Chuo, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 
 **The bowl:** First visit: order the signature bowl on the menu. Add extra chashu or noodles only if you want a heavier meal. Prices are typically roughly ¥1,000–¥1,300; many shops use ticket machines (cash only in some cases).

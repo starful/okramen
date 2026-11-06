@@ -23,9 +23,6 @@ what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 ---
 
-
-
-
 **Intro:** Ago-dashi Shoyu Ramen Takahashi Shinjuku is a shoyu ramen shop in Shinjuku, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 
 **Broth & noodles:** First visit: order the signature bowl on the menu. Add extra chashu or noodles only if you want a heavier meal. Prices are typically roughly ¥1,000–¥1,300; many shops use ticket machines (cash only in some cases).

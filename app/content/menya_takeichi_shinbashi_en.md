@@ -25,10 +25,6 @@ seo_description: Visit Menya Takeichi in Shimbashi, Tokyo for their legendary cr
   Chicken Tori Paitan ramen. Find the menu, hours, and directions here.
 ---
 
-
-
-
-
 **Overview:** Menya Takeichi Shinbashi is a chicken ramen ramen shop in Minato, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 
 **The bowl:** First visit: order the signature bowl on the menu. Add extra chashu or noodles only if you want a heavier meal. Prices are typically roughly ¥1,000–¥1,300; many shops use ticket machines (cash only in some cases).

@@ -3,7 +3,7 @@ address: Tokyo, Shinjuku
 categories:
 - 츠케멘
 - 현지인맛집
-date: '2026-07-27'
+date: '2026-11-07'
 image_prompt: A side profile close-up of Menya Shono Ichigaya 츠케멘 ramen, swirling
   steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 lang: ko
@@ -18,6 +18,7 @@ one_liner: Tokyo 츠케멘 전문 — 면과 육수를 따로 받아 찍어 먹�
 what_to_order: 츠케멘(기본) — 가능하면 마지막에 스프 와리
 good_for: 면 식감·츠케멘 입문
 ---
+
 
 
 
