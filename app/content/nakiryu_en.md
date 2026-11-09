@@ -15,18 +15,19 @@ shop_name: Nakiryu
 summary: 'Nakiryu in Tokyo: Chicken ramen ramen — practical guide to queues, ordering,
   and what to try. Confirm hours on Google Maps before visiting.'
 thumbnail: /static/images/nakiryu.jpg
-title: Nakiryu Tokyo | Famous Chicken Ramen Shop Guide & Queue Tips
+title: 'Nakiryu Tokyo: The Original Chicken Ramen – Inside Japan''s Most Famous Shop'
 one_liner: Chicken ramen ramen at Nakiryu, Tokyo. Verify hours and holidays on Maps
   before you go.
 what_to_order: The shop’s signature bowl on the menu board.
 good_for: Trip planning before you land
-description: 'Nakiryu Tokyo: Chicken ramen guide with queue tips, ordering advice.
-  Best times to visit, practical directions.'
-seo_title: Nakiryu Tokyo | Famous Chicken Ramen Shop Guide & Queue Tips
-seo_description: 'Nakiryu Tokyo: Chicken ramen guide with queue tips, ordering advice.
-  Best times to visit, practical directions.'
+description: 'Nakiryu Tokyo chicken ramen: Discover why this legendary shop inspired
+  a ramen trend. Ordering guide, queue strategy, best visit times.'
+seo_title: 'Nakiryu Tokyo: The Original Chicken Ramen – Inside Japan''s Most Famous
+  Shop'
+seo_description: 'Nakiryu Tokyo chicken ramen: Discover why this legendary shop inspired
+  a ramen trend. Ordering guide, queue strategy, best visit times.'
 ---
-
+Nakiryu pioneered chicken ramen in Tokyo, creating a style now imitated across Japan. The signature broth balances rich chicken essence with precisely textured noodles—a distinctly lighter alternative to tonkotsu. First-time visitors discover why locals still queue here.
 
 **At a glance:** Nakiryu is a chicken ramen ramen shop in Toshima, Tokyo. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 
