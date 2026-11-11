@@ -11,13 +11,6 @@ seo_description: Discover vegan and vegetarian ramen across Japan. Find authenti
   plant-based broths, top restaurants & tips for delicious meat-free ramen.
 ---
 
-
-lang: en
-title: Beyond the Broth: Your Definitive Guide to Finding the Best Vegan and Vegetarian Ramen in Japan
-summary: Discover the flourishing world of plant-based ramen in Japan. This guide offers insights, regional tips, and specific recommendations for vegans and vegetarians seeking authentic, delicious ramen beyond traditional animal-based broths.
-seo_title: Vegan & Vegetarian Ramen Japan Guide | Plant-Based Noodles & Shops
-seo_description: Navigate Japan's evolving ramen scene as a vegan or vegetarian. From Tokyo's innovative shops to Kyoto's cultural gems, find your perfect plant-based bowl with our expert tips and specific recommendations.
-
 # Beyond the Broth: Your Definitive Guide to Finding the Best Vegan and Vegetarian Ramen in Japan
 
 For decades, the very mention of Japanese ramen conjured images of rich, pork-bone tonkotsu broth, slices of savory chashu, and perfectly marinated aji-tama (soft-boiled egg). It was, quite rightly, a carnivore's paradise, a culinary masterpiece built on the foundations of animal fats and proteins. For food enthusiasts exploring Japan with vegetarian or vegan dietary preferences, the dream of a steaming bowl of authentic ramen often seemed just that – a dream, tantalizingly out of reach.
