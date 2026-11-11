@@ -23,10 +23,11 @@ what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
 description: 'Mennoya Osaka shoyu ramen: Master the ordering system, skip long queues,
   discover signature toppings. Insider tips from ramen experts.'
-seo_title: 'Mennoya Osaka: Beat the Queue & Order Premium Shoyu Ramen Like a Pro'
-seo_description: 'Mennoya Osaka shoyu ramen: Master the ordering system, skip long
-  queues, discover signature toppings. Insider tips from ramen experts.'
+seo_title: 'Mennoya Osaka Shoyu Ramen: Skip the Queue & Order Like a Regular'
+seo_description: 'Mennoya Osaka: Skip the queue, master the ordering system, try signature
+  toppings. Complete shoyu ramen visitor guide.'
 ---
+
 
 
 

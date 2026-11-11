@@ -16,8 +16,7 @@ lat: 35.6611
 lng: 139.7311
 shop_name: Afuri Roppongi
 summary: Explore Afuri Roppongi, famous for its yuzu shio ramen. Get practical tips
-  on what to order, queue management, how to reach it, and nearby alternatives for
-  travelers.
+  on what to order, queue management, how to reach it, and nearby alternatives.
 thumbnail: /static/images/afuri_roppongi.jpg
 title: 'Afuri Roppongi: Tokyo''s Signature Yuzu Shio Ramen – Fresh, Citrus-Infused
   & Light'
@@ -25,14 +24,15 @@ one_liner: Shio ramen at Afuri Roppongi, Tokyo. Verify hours and holidays on Map
   before you go.
 what_to_order: Shio (salt) ramen for a lighter, clearer broth.
 good_for: Trip planning before you land
-seo_title: 'Afuri Roppongi: Tokyo''s Signature Yuzu Shio Ramen – Fresh, Citrus-Infused
-  & Light'
-seo_description: 'Afuri Roppongi: Citrus-bright yuzu shio ramen in Tokyo''s Minato.
-  Learn the tanrei vs. maro broth choice, ordering, and why locals love it.'
+seo_title: 'Afuri Roppongi: Tokyo''s Famous Yuzu Shio Ramen – Fresh & Light Guide'
+seo_description: 'Afuri Roppongi: Bright yuzu shio ramen in Tokyo. Learn the tanrei
+  vs. maro broth choice, how to order, and why locals love it.'
 slug: afuri_roppongi
 description: 'Afuri Roppongi: Citrus-bright yuzu shio ramen in Tokyo''s Minato. Learn
   the tanrei vs. maro broth choice, ordering, and why locals love it.'
 ---
+Afuri Roppongi stands out for its signature yuzu shio ramen—a refreshing alternative to Japan's heavier broths. This citrus-infused, salt-based style appeals to travelers seeking lighter flavors.
+
 Afuri's yuzu shio ramen offers a refreshing departure from Japan's heavier broths. Yuzu citrus brings brightness and aromatics to the salt-based (shio) broth—a signature style that influenced ramen across Japan. It's especially popular with travelers seeking lighter flavors.
 
 ## Overview
