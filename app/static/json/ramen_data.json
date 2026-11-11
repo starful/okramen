@@ -1,7 +1,602 @@
 {
-  "last_updated": "2026-11-07",
+  "last_updated": "2026.11.11",
   "total_count": 209,
   "ramens": [
+    {
+      "id": "yatai_ramen_mamigichan_en",
+      "lang": "en",
+      "title": "Yatai Ramen Mamigichan: Fukuoka Tonkotsu Ramen at a Classic Yatai Stall",
+      "lat": 33.5911,
+      "lng": 130.3911,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/yatai_ramen_mamigichan.jpg",
+      "youtube_id": "",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-11-07",
+      "summary": "A canvas-walled yatai in Chuo ward serving straightforward tonkotsu ramen to a mostly local, late-night crowd.",
+      "link": "/ramen/yatai_ramen_mamigichan_en"
+    },
+    {
+      "id": "tairyo_ramen_ko",
+      "lang": "ko",
+      "title": "하카타 골목 안 로컬 맛집, 타이료 라멘(大漁ラーメン) 돈코츠 완전 정복",
+      "lat": 33.6011,
+      "lng": 130.4111,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/tairyo_ramen.jpg",
+      "youtube_id": "",
+      "address": "Fukuoka, Hakata",
+      "published": "2026-11-07",
+      "summary": "후쿠오카 하카타 뒷골목에 숨은 현지인 돈코츠 맛집, 타이료 라멘을 줄서기 전략과 함께 소개한다.",
+      "link": "/ramen/tairyo_ramen_ko"
+    },
+    {
+      "id": "tairyo_ramen_en",
+      "lang": "en",
+      "title": "Tairyo Ramen in Hakata: A Local Tonkotsu Bowl Worth the Queue",
+      "lat": 33.6011,
+      "lng": 130.4111,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/tairyo_ramen.jpg",
+      "youtube_id": "",
+      "address": "Fukuoka, Hakata",
+      "published": "2026-11-07",
+      "summary": "A no-frills Hakata tonkotsu counter favored by locals over tourists, best visited early or accepted with a short wait.",
+      "link": "/ramen/tairyo_ramen_en"
+    },
+    {
+      "id": "ramen_takahashi_ginza_ko",
+      "lang": "ko",
+      "title": "Ramen Takahashi Ginza — Tokyo 쇼유 라멘 가이드",
+      "lat": 35.6703,
+      "lng": 139.7651,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_takahashi_ginza.jpg",
+      "youtube_id": "",
+      "address": "Tokyo, Ginza",
+      "published": "2026-11-07",
+      "summary": "Tokyo Ramen Takahashi Ginza — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_takahashi_ginza_ko"
+    },
+    {
+      "id": "ramen_takahashi_ginza_en",
+      "lang": "en",
+      "title": "Ramen Takahashi Ginza — Tokyo Shoyu ramen guide",
+      "lat": 35.6703,
+      "lng": 139.7651,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_takahashi_ginza.jpg",
+      "youtube_id": "",
+      "address": "Tokyo, Ginza",
+      "published": "2026-11-07",
+      "summary": "Ramen Takahashi Ginza in Tokyo: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_takahashi_ginza_en"
+    },
+    {
+      "id": "ramen_sugimoto_ko",
+      "lang": "ko",
+      "title": "Ramen Sugimoto — Kanagawa 쇼유 라멘 가이드",
+      "lat": 35.5422,
+      "lng": 139.5264,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_sugimoto.jpg",
+      "youtube_id": "",
+      "address": "Kanagawa, Yokohama",
+      "published": "2026-11-07",
+      "summary": "Kanagawa Ramen Sugimoto — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_sugimoto_ko"
+    },
+    {
+      "id": "ramen_sugimoto_en",
+      "lang": "en",
+      "title": "Ramen Sugimoto — Kanagawa Shoyu ramen guide",
+      "lat": 35.5422,
+      "lng": 139.5264,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_sugimoto.jpg",
+      "youtube_id": "",
+      "address": "Kanagawa, Yokohama",
+      "published": "2026-11-07",
+      "summary": "Ramen Sugimoto in Kanagawa: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_sugimoto_en"
+    },
+    {
+      "id": "ramen_sora_sapporo_ko",
+      "lang": "ko",
+      "title": "Ramen Sora Sapporo — Hokkaido 미소 라멘 가이드",
+      "lat": 43.0562,
+      "lng": 141.3541,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_sora_sapporo.jpg",
+      "youtube_id": "",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-11-07",
+      "summary": "Hokkaido Ramen Sora Sapporo — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_sora_sapporo_ko"
+    },
+    {
+      "id": "ramen_sora_sapporo_en",
+      "lang": "en",
+      "title": "Ramen Sora Sapporo — Hokkaido Miso ramen guide",
+      "lat": 43.0562,
+      "lng": 141.3541,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_sora_sapporo.jpg",
+      "youtube_id": "",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-11-07",
+      "summary": "Ramen Sora Sapporo in Hokkaido: Miso ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_sora_sapporo_en"
+    },
+    {
+      "id": "ramen_sapporo_akaboshi_ko",
+      "lang": "ko",
+      "title": "삿포로 라멘 아카보시 완전 정복 - 쇼유·시오 라멘 맛집 방문 가이드",
+      "lat": 43.0511,
+      "lng": 141.3511,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_sapporo_akaboshi.jpg",
+      "youtube_id": "",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-11-07",
+      "summary": "삿포로 시내에서 가성비 좋은 쇼유·시오 라멘을 현지인처럼 맛보고 싶은 여행자를 위한 실전 방문 가이드.",
+      "link": "/ramen/ramen_sapporo_akaboshi_ko"
+    },
+    {
+      "id": "ramen_sapporo_akaboshi_en",
+      "lang": "en",
+      "title": "Ramen Sapporo Akaboshi: A No-Frills Shoyu and Shio Bowl Worth the Detour",
+      "lat": 43.0511,
+      "lng": 141.3511,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_sapporo_akaboshi.jpg",
+      "youtube_id": "",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-11-07",
+      "summary": "A budget-friendly Sapporo shoyu and shio ramen shop where the queue moves fast and the bowls justify the wait.",
+      "link": "/ramen/ramen_sapporo_akaboshi_en"
+    },
+    {
+      "id": "ramen_mugyu_karasuma_ko",
+      "lang": "ko",
+      "title": "Ramen Mugyu Karasuma — Kyoto 쇼유 라멘 가이드",
+      "lat": 35.0042,
+      "lng": 135.7592,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_mugyu_karasuma.jpg",
+      "youtube_id": "",
+      "address": "Kyoto, Nakagyo",
+      "published": "2026-11-07",
+      "summary": "Kyoto Ramen Mugyu Karasuma — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_mugyu_karasuma_ko"
+    },
+    {
+      "id": "ramen_mugyu_karasuma_en",
+      "lang": "en",
+      "title": "Ramen Mugyu Karasuma — Kyoto Shoyu ramen guide",
+      "lat": 35.0042,
+      "lng": 135.7592,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_mugyu_karasuma.jpg",
+      "youtube_id": "",
+      "address": "Kyoto, Nakagyo",
+      "published": "2026-11-07",
+      "summary": "Ramen Mugyu Karasuma in Kyoto: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_mugyu_karasuma_en"
+    },
+    {
+      "id": "ramen_kairyu_en",
+      "lang": "en",
+      "title": "Ramen Kairyu in Kitakyushu: A Tonkotsu Local Gem Worth the Detour",
+      "lat": 33.8811,
+      "lng": 130.8811,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_kairyu.jpg",
+      "youtube_id": "",
+      "address": "Fukuoka, Kitakyushu",
+      "published": "2026-11-07",
+      "summary": "A no-frills Kitakyushu tonkotsu counter favored by regulars, where a straight bowl and a short wait beat the flashier Fukuoka-city shops.",
+      "link": "/ramen/ramen_kairyu_en"
+    },
+    {
+      "id": "ramen_junk_story_tanimachi_ko",
+      "lang": "ko",
+      "title": "Ramen Junk Story Tanimachi — Osaka 시오 라멘 가이드",
+      "lat": 34.6677,
+      "lng": 135.5164,
+      "categories": [
+        "시오",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/ramen_junk_story_tanimachi.jpg",
+      "youtube_id": "",
+      "address": "Osaka, Chuo",
+      "published": "2026-11-07",
+      "summary": "Osaka Ramen Junk Story Tanimachi — 시오 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_junk_story_tanimachi_ko"
+    },
+    {
+      "id": "ramen_junk_story_tanimachi_en",
+      "lang": "en",
+      "title": "Ramen Junk Story Tanimachi — Osaka Shio ramen guide",
+      "lat": 34.6677,
+      "lng": 135.5164,
+      "categories": [
+        "Shio",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/ramen_junk_story_tanimachi.jpg",
+      "youtube_id": "",
+      "address": "Osaka, Chuo",
+      "published": "2026-11-07",
+      "summary": "Ramen Junk Story Tanimachi in Osaka: Shio ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_junk_story_tanimachi_en"
+    },
+    {
+      "id": "ramen_higuma_ko",
+      "lang": "ko",
+      "title": "삿포로 라멘 히구마 | 스스키노 간소 라멘 요코초 미소 라멘 가이드 | OKRamen",
+      "lat": 43.0556,
+      "lng": 141.3537,
+      "categories": [
+        "미소",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ramen_higuma.jpg",
+      "youtube_id": "",
+      "address": "3 Minami 5-jo Nishi, Chuo-ku, Sapporo, Hokkaido (Ganso Ramen Yokocho)",
+      "published": "2026-11-07",
+      "summary": "Hokkaido Ramen Higuma — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_higuma_ko"
+    },
+    {
+      "id": "ramen_higuma_en",
+      "lang": "en",
+      "title": "Ramen Higuma — Hokkaido Miso ramen guide",
+      "lat": 43.0611,
+      "lng": 141.3511,
+      "categories": [
+        "Miso",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ramen_higuma.jpg",
+      "youtube_id": "",
+      "address": "Hokkaido, Sapporo",
+      "published": "2026-11-07",
+      "summary": "Ramen Higuma in Hokkaido: Miso ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_higuma_en"
+    },
+    {
+      "id": "ramen_hayashida_shinjuku_ko",
+      "lang": "ko",
+      "title": "Ramen Hayashida Shinjuku — Tokyo 쇼유 라멘 가이드",
+      "lat": 35.6905,
+      "lng": 139.7041,
+      "categories": [
+        "쇼유",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/ramen_hayashida_shinjuku.jpg",
+      "youtube_id": "",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-11-07",
+      "summary": "Tokyo Ramen Hayashida Shinjuku — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ramen_hayashida_shinjuku_ko"
+    },
+    {
+      "id": "ramen_hayashida_shinjuku_en",
+      "lang": "en",
+      "title": "Ramen Hayashida Shinjuku — Tokyo's Best Shoyu Ramen",
+      "lat": 35.6905,
+      "lng": 139.7041,
+      "categories": [
+        "Shoyu",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/ramen_hayashida_shinjuku.jpg",
+      "youtube_id": "",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-11-07",
+      "summary": "Ramen Hayashida Shinjuku in Tokyo: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ramen_hayashida_shinjuku_en"
+    },
+    {
+      "id": "menya_takeichi_shinbashi_ko",
+      "lang": "ko",
+      "title": "Menya Takeichi Shinbashi — Tokyo 치킨 라멘 라멘 가이드",
+      "lat": 35.6661,
+      "lng": 139.7554,
+      "categories": [
+        "치킨 라멘",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/menya_takeichi_shinbashi.jpg",
+      "youtube_id": "",
+      "address": "Tokyo, Minato",
+      "published": "2026-11-07",
+      "summary": "Tokyo Menya Takeichi Shinbashi — 치킨 라멘 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/menya_takeichi_shinbashi_ko"
+    },
+    {
+      "id": "menya_takeichi_shinbashi_en",
+      "lang": "en",
+      "title": "Menya Takeichi Shinbashi — Ultimate Chicken Tori Paitan Ramen",
+      "lat": 35.6661,
+      "lng": 139.7554,
+      "categories": [
+        "Chicken",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/menya_takeichi_shinbashi.jpg",
+      "youtube_id": "",
+      "address": "Tokyo, Minato",
+      "published": "2026-11-07",
+      "summary": "Menya Takeichi Shinbashi in Tokyo: Chicken ramen ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/menya_takeichi_shinbashi_en"
+    },
+    {
+      "id": "menya_shono_ichigaya_ko",
+      "lang": "ko",
+      "title": "Menya Shono Ichigaya — Tokyo 측멘 라멘 가이드",
+      "lat": 35.6923,
+      "lng": 139.7345,
+      "categories": [
+        "츠케멘",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/menya_shono_ichigaya.jpg",
+      "youtube_id": "",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-11-07",
+      "summary": "Tokyo Menya Shono Ichigaya 츠케멘 가이드 — 면과 육수를 분리해 먹는 스타일, 웨이팅·주문 요령을 정리했습니다. 영업시간은 지도에서 재확인하세요.",
+      "link": "/ramen/menya_shono_ichigaya_ko"
+    },
+    {
+      "id": "menya_shono_ichigaya_en",
+      "lang": "en",
+      "title": "Menya Shono Ichigaya — Tokyo Tsukemen ramen guide",
+      "lat": 35.6923,
+      "lng": 139.7345,
+      "categories": [
+        "Tsukemen",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/menya_shono_ichigaya.jpg",
+      "youtube_id": "",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-11-07",
+      "summary": "Menya Shono Ichigaya in Tokyo: tsukemen (dipping noodles) — practical notes on queues, ordering, and how to eat the bowl. Verify hours on Maps.",
+      "link": "/ramen/menya_shono_ichigaya_en"
+    },
+    {
+      "id": "menya_masamoto_ko",
+      "lang": "ko",
+      "title": "멘야 마사모토(麺屋 政本), 후쿠오카 주오구에서 만나는 매운 돈코츠와 탄탄멘",
+      "lat": 33.5911,
+      "lng": 130.4011,
+      "categories": [
+        "돈코츠",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/menya_masamoto.jpg",
+      "youtube_id": "",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-11-07",
+      "summary": "텐진 인근에서 진한 돈코츠 국물에 매운맛과 탄탄멘을 함께 즐길 수 있는 현지인 단골 라멘집.",
+      "link": "/ramen/menya_masamoto_ko"
+    },
+    {
+      "id": "menya_masamoto_en",
+      "lang": "en",
+      "title": "Menya Masamoto: A Spicy Tantanmen Detour in Fukuoka's Chuo Ward",
+      "lat": 33.5911,
+      "lng": 130.4011,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/menya_masamoto.jpg",
+      "youtube_id": "",
+      "address": "Fukuoka, Chuo",
+      "published": "2026-11-07",
+      "summary": "A neighborhood tonkotsu shop in Chuo where the tantanmen brings real heat, worth the walk if you want something spicier than standard Hakata ramen.",
+      "link": "/ramen/menya_masamoto_en"
+    },
+    {
+      "id": "menya_7.5hz_umeda_ko",
+      "lang": "ko",
+      "title": "Menya 7.5Hz Umeda — Osaka 쇼유 라멘 가이드",
+      "lat": 34.7012,
+      "lng": 135.4975,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/menya_7.5hz_umeda.jpg",
+      "youtube_id": "",
+      "address": "Osaka, Kita",
+      "published": "2026-11-07",
+      "summary": "Osaka Menya 7.5Hz Umeda — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/menya_7.5hz_umeda_ko"
+    },
+    {
+      "id": "menya_7.5hz_umeda_en",
+      "lang": "en",
+      "title": "Menya 7.5Hz Umeda — Osaka Shoyu ramen guide",
+      "lat": 34.7012,
+      "lng": 135.4975,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/menya_7.5hz_umeda.jpg",
+      "youtube_id": "",
+      "address": "Osaka, Kita",
+      "published": "2026-11-07",
+      "summary": "Menya 7.5Hz Umeda in Osaka: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/menya_7.5hz_umeda_en"
+    },
+    {
+      "id": "kurume_ramen_honda-shoten_en",
+      "lang": "en",
+      "title": "Kurume Ramen Honda-shoten: A Traveler's Guide to Fukuoka's Master Broth Tonkotsu",
+      "lat": 33.3195,
+      "lng": 130.5108,
+      "categories": [
+        "Tonkotsu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/kurume_ramen_honda-shoten.jpg",
+      "youtube_id": "",
+      "address": "Fukuoka, Kurume",
+      "published": "2026-11-07",
+      "summary": "A no-frills Kurume-style tonkotsu counter in Fukuoka running a decades-old master broth, best visited at off-peak hours to skip the queue.",
+      "link": "/ramen/kurume_ramen_honda-shoten_en"
+    },
+    {
+      "id": "chuka_soba_ginza_hachigou_ko",
+      "lang": "ko",
+      "title": "Chuka Soba Ginza Hachigou — Tokyo 시오 라멘 가이드",
+      "lat": 35.6698,
+      "lng": 139.7686,
+      "categories": [
+        "시오",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/chuka_soba_ginza_hachigou.jpg",
+      "youtube_id": "EOWVyUliNTo",
+      "address": "Tokyo, Chuo",
+      "published": "2026-11-07",
+      "summary": "Tokyo Chuka Soba Ginza Hachigou — 시오 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/chuka_soba_ginza_hachigou_ko"
+    },
+    {
+      "id": "chuka_soba_ginza_hachigou_en",
+      "lang": "en",
+      "title": "Chuka Soba Ginza Hachigou — Tokyo Shio ramen guide",
+      "lat": 35.6698,
+      "lng": 139.7686,
+      "categories": [
+        "Shio",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/chuka_soba_ginza_hachigou.jpg",
+      "youtube_id": "EOWVyUliNTo",
+      "address": "Tokyo, Chuo",
+      "published": "2026-11-07",
+      "summary": "Chuka Soba Ginza Hachigou in Tokyo: Shio ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/chuka_soba_ginza_hachigou_en"
+    },
+    {
+      "id": "ago-dashi_shoyu_ramen_takahashi_shinjuku_ko",
+      "lang": "ko",
+      "title": "Ago-dashi Shoyu Ramen Takahashi Shinjuku — Tokyo 쇼유 라멘 가이드",
+      "lat": 35.6946,
+      "lng": 139.7008,
+      "categories": [
+        "쇼유",
+        "현지인맛집"
+      ],
+      "thumbnail": "/static/images/ago-dashi_shoyu_ramen_takahashi_shinjuku.jpg",
+      "youtube_id": "nGM6EPBQz1E",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-11-07",
+      "summary": "Tokyo Ago-dashi Shoyu Ramen Takahashi Shinjuku — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
+      "link": "/ramen/ago-dashi_shoyu_ramen_takahashi_shinjuku_ko"
+    },
+    {
+      "id": "ago-dashi_shoyu_ramen_takahashi_shinjuku_en",
+      "lang": "en",
+      "title": "Ago-dashi Shoyu Ramen Takahashi Shinjuku — Tokyo Shoyu ramen guide",
+      "lat": 35.6946,
+      "lng": 139.7008,
+      "categories": [
+        "Shoyu",
+        "Local Gem"
+      ],
+      "thumbnail": "/static/images/ago-dashi_shoyu_ramen_takahashi_shinjuku.jpg",
+      "youtube_id": "nGM6EPBQz1E",
+      "address": "Tokyo, Shinjuku",
+      "published": "2026-11-07",
+      "summary": "Ago-dashi Shoyu Ramen Takahashi Shinjuku in Tokyo: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "link": "/ramen/ago-dashi_shoyu_ramen_takahashi_shinjuku_en"
+    },
+    {
+      "id": "afuri_roppongi_ko",
+      "lang": "ko",
+      "title": "아후리 롯폰기 (Afuri Roppongi) - 유자 시오 라멘의 산뜻함",
+      "lat": 35.6611,
+      "lng": 139.7311,
+      "categories": [
+        "시오",
+        "프리미엄"
+      ],
+      "thumbnail": "/static/images/afuri_roppongi.jpg",
+      "youtube_id": "xX5HgGzBMmg",
+      "address": "Tokyo, Minato",
+      "published": "2026-11-07",
+      "summary": "도쿄 미나토에 위치한 아후리 롯폰기는 신선한 유자의 향긋함이 돋보이는 시오 라멘으로 유명합니다. 맑고 개운한 국물과 숯불에 구운 차슈가 조화를 이루는 아후리 롯폰기에서의 실용적인 방문 팁과 주문 가이드를 확인하세요.",
+      "link": "/ramen/afuri_roppongi_ko"
+    },
+    {
+      "id": "afuri_roppongi_en",
+      "lang": "en",
+      "title": "Afuri Roppongi: Tokyo's Signature Yuzu Shio Ramen – Fresh, Citrus-Infused & Light",
+      "lat": 35.6611,
+      "lng": 139.7311,
+      "categories": [
+        "Shio",
+        "Premium"
+      ],
+      "thumbnail": "/static/images/afuri_roppongi.jpg",
+      "youtube_id": "xX5HgGzBMmg",
+      "address": "Tokyo, Minato",
+      "published": "2026-11-07",
+      "summary": "Explore Afuri Roppongi, famous for its yuzu shio ramen. Get practical tips on what to order, queue management, how to reach it, and nearby alternatives.",
+      "link": "/ramen/afuri_roppongi_en"
+    },
     {
       "id": "ramen_danbo_fukuoka_ko",
       "lang": "ko",
@@ -122,108 +717,6 @@
       "link": "/ramen/ramen_nagi_shinjuku_en"
     },
     {
-      "id": "menya_masamoto_ko",
-      "lang": "ko",
-      "title": "멘야 마사모토(麺屋 政本), 후쿠오카 주오구에서 만나는 매운 돈코츠와 탄탄멘",
-      "lat": 33.5911,
-      "lng": 130.4011,
-      "categories": [
-        "돈코츠",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/menya_masamoto.jpg",
-      "youtube_id": "",
-      "address": "Fukuoka, Chuo",
-      "published": "2026-11-07",
-      "summary": "텐진 인근에서 진한 돈코츠 국물에 매운맛과 탄탄멘을 함께 즐길 수 있는 현지인 단골 라멘집.",
-      "link": "/ramen/menya_masamoto_ko"
-    },
-    {
-      "id": "menya_masamoto_en",
-      "lang": "en",
-      "title": "Menya Masamoto: A Spicy Tantanmen Detour in Fukuoka's Chuo Ward",
-      "lat": 33.5911,
-      "lng": 130.4011,
-      "categories": [
-        "Tonkotsu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/menya_masamoto.jpg",
-      "youtube_id": "",
-      "address": "Fukuoka, Chuo",
-      "published": "2026-11-07",
-      "summary": "A neighborhood tonkotsu shop in Chuo where the tantanmen brings real heat, worth the walk if you want something spicier than standard Hakata ramen.",
-      "link": "/ramen/menya_masamoto_en"
-    },
-    {
-      "id": "yatai_ramen_mamigichan_en",
-      "lang": "en",
-      "title": "Yatai Ramen Mamigichan: Fukuoka Tonkotsu Ramen at a Classic Yatai Stall",
-      "lat": 33.5911,
-      "lng": 130.3911,
-      "categories": [
-        "Tonkotsu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/yatai_ramen_mamigichan.jpg",
-      "youtube_id": "",
-      "address": "Fukuoka, Chuo",
-      "published": "2026-11-07",
-      "summary": "A canvas-walled yatai in Chuo ward serving straightforward tonkotsu ramen to a mostly local, late-night crowd.",
-      "link": "/ramen/yatai_ramen_mamigichan_en"
-    },
-    {
-      "id": "tairyo_ramen_ko",
-      "lang": "ko",
-      "title": "하카타 골목 안 로컬 맛집, 타이료 라멘(大漁ラーメン) 돈코츠 완전 정복",
-      "lat": 33.6011,
-      "lng": 130.4111,
-      "categories": [
-        "돈코츠",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/tairyo_ramen.jpg",
-      "youtube_id": "",
-      "address": "Fukuoka, Hakata",
-      "published": "2026-11-07",
-      "summary": "후쿠오카 하카타 뒷골목에 숨은 현지인 돈코츠 맛집, 타이료 라멘을 줄서기 전략과 함께 소개한다.",
-      "link": "/ramen/tairyo_ramen_ko"
-    },
-    {
-      "id": "tairyo_ramen_en",
-      "lang": "en",
-      "title": "Tairyo Ramen in Hakata: A Local Tonkotsu Bowl Worth the Queue",
-      "lat": 33.6011,
-      "lng": 130.4111,
-      "categories": [
-        "Tonkotsu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/tairyo_ramen.jpg",
-      "youtube_id": "",
-      "address": "Fukuoka, Hakata",
-      "published": "2026-11-07",
-      "summary": "A no-frills Hakata tonkotsu counter favored by locals over tourists, best visited early or accepted with a short wait.",
-      "link": "/ramen/tairyo_ramen_en"
-    },
-    {
-      "id": "ramen_kairyu_en",
-      "lang": "en",
-      "title": "Ramen Kairyu in Kitakyushu: A Tonkotsu Local Gem Worth the Detour",
-      "lat": 33.8811,
-      "lng": 130.8811,
-      "categories": [
-        "Tonkotsu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/ramen_kairyu.jpg",
-      "youtube_id": "",
-      "address": "Fukuoka, Kitakyushu",
-      "published": "2026-11-07",
-      "summary": "A no-frills Kitakyushu tonkotsu counter favored by regulars, where a straight bowl and a short wait beat the flashier Fukuoka-city shops.",
-      "link": "/ramen/ramen_kairyu_en"
-    },
-    {
       "id": "ramen_takahashi_shinjuku_en",
       "lang": "en",
       "title": "Ramen Takahashi Shinjuku: A Grilled Flying Fish Shio Ramen Worth the Detour",
@@ -239,57 +732,6 @@
       "published": "2026-08-26",
       "summary": "Ramen Takahashi Shinjuku serves a smoky ago-dashi shio broth that rewards a short walk from the station more than a long wait in line.",
       "link": "/ramen/ramen_takahashi_shinjuku_en"
-    },
-    {
-      "id": "ramen_sapporo_akaboshi_ko",
-      "lang": "ko",
-      "title": "삿포로 라멘 아카보시 완전 정복 - 쇼유·시오 라멘 맛집 방문 가이드",
-      "lat": 43.0511,
-      "lng": 141.3511,
-      "categories": [
-        "쇼유",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/ramen_sapporo_akaboshi.jpg",
-      "youtube_id": "",
-      "address": "Hokkaido, Sapporo",
-      "published": "2026-11-07",
-      "summary": "삿포로 시내에서 가성비 좋은 쇼유·시오 라멘을 현지인처럼 맛보고 싶은 여행자를 위한 실전 방문 가이드.",
-      "link": "/ramen/ramen_sapporo_akaboshi_ko"
-    },
-    {
-      "id": "ramen_sapporo_akaboshi_en",
-      "lang": "en",
-      "title": "Ramen Sapporo Akaboshi: A No-Frills Shoyu and Shio Bowl Worth the Detour",
-      "lat": 43.0511,
-      "lng": 141.3511,
-      "categories": [
-        "Shoyu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/ramen_sapporo_akaboshi.jpg",
-      "youtube_id": "",
-      "address": "Hokkaido, Sapporo",
-      "published": "2026-11-07",
-      "summary": "A budget-friendly Sapporo shoyu and shio ramen shop where the queue moves fast and the bowls justify the wait.",
-      "link": "/ramen/ramen_sapporo_akaboshi_en"
-    },
-    {
-      "id": "kurume_ramen_honda-shoten_en",
-      "lang": "en",
-      "title": "Kurume Ramen Honda-shoten: A Traveler's Guide to Fukuoka's Master Broth Tonkotsu",
-      "lat": 33.3195,
-      "lng": 130.5108,
-      "categories": [
-        "Tonkotsu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/kurume_ramen_honda-shoten.jpg",
-      "youtube_id": "",
-      "address": "Fukuoka, Kurume",
-      "published": "2026-11-07",
-      "summary": "A no-frills Kurume-style tonkotsu counter in Fukuoka running a decades-old master broth, best visited at off-peak hours to skip the queue.",
-      "link": "/ramen/kurume_ramen_honda-shoten_en"
     },
     {
       "id": "teshikaga_ramen_ko",
@@ -447,7 +889,7 @@
     {
       "id": "ramen_touhichi_en",
       "lang": "en",
-      "title": "Ramen Touhichi — Kyoto Shoyu Ramen at Its Best",
+      "title": "Ramen Touhichi Kyoto: The Art of Refined Shoyu Ramen – Insider's Ordering Guide",
       "lat": 35.0511,
       "lng": 135.7511,
       "categories": [
@@ -632,40 +1074,6 @@
       "link": "/ramen/ramen_santouka_harajuku_en"
     },
     {
-      "id": "ramen_mugyu_karasuma_ko",
-      "lang": "ko",
-      "title": "Ramen Mugyu Karasuma — Kyoto 쇼유 라멘 가이드",
-      "lat": 35.0042,
-      "lng": 135.7592,
-      "categories": [
-        "쇼유",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/ramen_mugyu_karasuma.jpg",
-      "youtube_id": "",
-      "address": "Kyoto, Nakagyo",
-      "published": "2026-11-07",
-      "summary": "Kyoto Ramen Mugyu Karasuma — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/ramen_mugyu_karasuma_ko"
-    },
-    {
-      "id": "ramen_mugyu_karasuma_en",
-      "lang": "en",
-      "title": "Ramen Mugyu Karasuma — Kyoto Shoyu ramen guide",
-      "lat": 35.0042,
-      "lng": 135.7592,
-      "categories": [
-        "Shoyu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/ramen_mugyu_karasuma.jpg",
-      "youtube_id": "",
-      "address": "Kyoto, Nakagyo",
-      "published": "2026-11-07",
-      "summary": "Ramen Mugyu Karasuma in Kyoto: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/ramen_mugyu_karasuma_en"
-    },
-    {
       "id": "ramen_miyako_ko",
       "lang": "ko",
       "title": "라멘 미야코 (Ramen Miyako) 교토 히가시야마 – 현지인처럼 즐기는 돈코츠 라멘",
@@ -734,74 +1142,6 @@
       "link": "/ramen/ramen_kairikiya_en"
     },
     {
-      "id": "ramen_junk_story_tanimachi_ko",
-      "lang": "ko",
-      "title": "Ramen Junk Story Tanimachi — Osaka 시오 라멘 가이드",
-      "lat": 34.6677,
-      "lng": 135.5164,
-      "categories": [
-        "시오",
-        "프리미엄"
-      ],
-      "thumbnail": "/static/images/ramen_junk_story_tanimachi.jpg",
-      "youtube_id": "",
-      "address": "Osaka, Chuo",
-      "published": "2026-11-07",
-      "summary": "Osaka Ramen Junk Story Tanimachi — 시오 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/ramen_junk_story_tanimachi_ko"
-    },
-    {
-      "id": "ramen_junk_story_tanimachi_en",
-      "lang": "en",
-      "title": "Ramen Junk Story Tanimachi — Osaka Shio ramen guide",
-      "lat": 34.6677,
-      "lng": 135.5164,
-      "categories": [
-        "Shio",
-        "Premium"
-      ],
-      "thumbnail": "/static/images/ramen_junk_story_tanimachi.jpg",
-      "youtube_id": "",
-      "address": "Osaka, Chuo",
-      "published": "2026-11-07",
-      "summary": "Ramen Junk Story Tanimachi in Osaka: Shio ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/ramen_junk_story_tanimachi_en"
-    },
-    {
-      "id": "ramen_higuma_ko",
-      "lang": "ko",
-      "title": "삿포로 라멘 히구마 | 스스키노 간소 라멘 요코초 미소 라멘 가이드 | OKRamen",
-      "lat": 43.0556,
-      "lng": 141.3537,
-      "categories": [
-        "미소",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/ramen_higuma.jpg",
-      "youtube_id": "",
-      "address": "3 Minami 5-jo Nishi, Chuo-ku, Sapporo, Hokkaido (Ganso Ramen Yokocho)",
-      "published": "2026-11-07",
-      "summary": "Hokkaido Ramen Higuma — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/ramen_higuma_ko"
-    },
-    {
-      "id": "ramen_higuma_en",
-      "lang": "en",
-      "title": "Ramen Higuma — Hokkaido Miso ramen guide",
-      "lat": 43.0611,
-      "lng": 141.3511,
-      "categories": [
-        "Miso",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/ramen_higuma.jpg",
-      "youtube_id": "",
-      "address": "Hokkaido, Sapporo",
-      "published": "2026-11-07",
-      "summary": "Ramen Higuma in Hokkaido: Miso ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/ramen_higuma_en"
-    },
-    {
       "id": "ramen_gantetsu_ko",
       "lang": "ko",
       "title": "라멘 간테츠 삿포로 미소라멘 맛집 | OKRamen 위치, 영업시간, 메뉴",
@@ -836,74 +1176,6 @@
       "link": "/ramen/ramen_gantetsu_en"
     },
     {
-      "id": "menya_takeichi_shinbashi_ko",
-      "lang": "ko",
-      "title": "Menya Takeichi Shinbashi — Tokyo 치킨 라멘 라멘 가이드",
-      "lat": 35.6661,
-      "lng": 139.7554,
-      "categories": [
-        "치킨 라멘",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/menya_takeichi_shinbashi.jpg",
-      "youtube_id": "",
-      "address": "Tokyo, Minato",
-      "published": "2026-11-07",
-      "summary": "Tokyo Menya Takeichi Shinbashi — 치킨 라멘 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/menya_takeichi_shinbashi_ko"
-    },
-    {
-      "id": "menya_takeichi_shinbashi_en",
-      "lang": "en",
-      "title": "Menya Takeichi Shinbashi — Ultimate Chicken Tori Paitan Ramen",
-      "lat": 35.6661,
-      "lng": 139.7554,
-      "categories": [
-        "Chicken",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/menya_takeichi_shinbashi.jpg",
-      "youtube_id": "",
-      "address": "Tokyo, Minato",
-      "published": "2026-11-07",
-      "summary": "Menya Takeichi Shinbashi in Tokyo: Chicken ramen ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/menya_takeichi_shinbashi_en"
-    },
-    {
-      "id": "menya_shono_ichigaya_ko",
-      "lang": "ko",
-      "title": "Menya Shono Ichigaya — Tokyo 측멘 라멘 가이드",
-      "lat": 35.6923,
-      "lng": 139.7345,
-      "categories": [
-        "츠케멘",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/menya_shono_ichigaya.jpg",
-      "youtube_id": "",
-      "address": "Tokyo, Shinjuku",
-      "published": "2026-11-07",
-      "summary": "Tokyo Menya Shono Ichigaya 츠케멘 가이드 — 면과 육수를 분리해 먹는 스타일, 웨이팅·주문 요령을 정리했습니다. 영업시간은 지도에서 재확인하세요.",
-      "link": "/ramen/menya_shono_ichigaya_ko"
-    },
-    {
-      "id": "menya_shono_ichigaya_en",
-      "lang": "en",
-      "title": "Menya Shono Ichigaya — Tokyo Tsukemen ramen guide",
-      "lat": 35.6923,
-      "lng": 139.7345,
-      "categories": [
-        "Tsukemen",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/menya_shono_ichigaya.jpg",
-      "youtube_id": "",
-      "address": "Tokyo, Shinjuku",
-      "published": "2026-11-07",
-      "summary": "Menya Shono Ichigaya in Tokyo: tsukemen (dipping noodles) — practical notes on queues, ordering, and how to eat the bowl. Verify hours on Maps.",
-      "link": "/ramen/menya_shono_ichigaya_en"
-    },
-    {
       "id": "menya_musashi_bukotsu_ko",
       "lang": "ko",
       "title": "Menya Musashi Bukotsu — Tokyo 돈코츠 라멘 가이드",
@@ -936,40 +1208,6 @@
       "published": "2026-07-27",
       "summary": "Menya Musashi Bukotsu in Tokyo: Tonkotsu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/menya_musashi_bukotsu_en"
-    },
-    {
-      "id": "menya_7.5hz_umeda_ko",
-      "lang": "ko",
-      "title": "Menya 7.5Hz Umeda — Osaka 쇼유 라멘 가이드",
-      "lat": 34.7012,
-      "lng": 135.4975,
-      "categories": [
-        "쇼유",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/menya_7.5hz_umeda.jpg",
-      "youtube_id": "",
-      "address": "Osaka, Kita",
-      "published": "2026-11-07",
-      "summary": "Osaka Menya 7.5Hz Umeda — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/menya_7.5hz_umeda_ko"
-    },
-    {
-      "id": "menya_7.5hz_umeda_en",
-      "lang": "en",
-      "title": "Menya 7.5Hz Umeda — Osaka Shoyu ramen guide",
-      "lat": 34.7012,
-      "lng": 135.4975,
-      "categories": [
-        "Shoyu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/menya_7.5hz_umeda.jpg",
-      "youtube_id": "",
-      "address": "Osaka, Kita",
-      "published": "2026-11-07",
-      "summary": "Menya 7.5Hz Umeda in Osaka: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/menya_7.5hz_umeda_en"
     },
     {
       "id": "kyoto_gogyo_ko",
@@ -1244,40 +1482,6 @@
       "link": "/ramen/ebisoba_ichigen_shinjuku_en"
     },
     {
-      "id": "chuka_soba_ginza_hachigou_ko",
-      "lang": "ko",
-      "title": "Chuka Soba Ginza Hachigou — Tokyo 시오 라멘 가이드",
-      "lat": 35.6698,
-      "lng": 139.7686,
-      "categories": [
-        "시오",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/chuka_soba_ginza_hachigou.jpg",
-      "youtube_id": "EOWVyUliNTo",
-      "address": "Tokyo, Chuo",
-      "published": "2026-11-07",
-      "summary": "Tokyo Chuka Soba Ginza Hachigou — 시오 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/chuka_soba_ginza_hachigou_ko"
-    },
-    {
-      "id": "chuka_soba_ginza_hachigou_en",
-      "lang": "en",
-      "title": "Chuka Soba Ginza Hachigou — Tokyo Shio ramen guide",
-      "lat": 35.6698,
-      "lng": 139.7686,
-      "categories": [
-        "Shio",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/chuka_soba_ginza_hachigou.jpg",
-      "youtube_id": "EOWVyUliNTo",
-      "address": "Tokyo, Chuo",
-      "published": "2026-11-07",
-      "summary": "Chuka Soba Ginza Hachigou in Tokyo: Shio ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/chuka_soba_ginza_hachigou_en"
-    },
-    {
       "id": "aji_no_sanpei_ko",
       "lang": "ko",
       "title": "아지노 산페이 (Aji no Sanpei) — 삿포로 미소라멘 원조 맛집",
@@ -1312,142 +1516,6 @@
       "link": "/ramen/aji_no_sanpei_en"
     },
     {
-      "id": "ago-dashi_shoyu_ramen_takahashi_shinjuku_ko",
-      "lang": "ko",
-      "title": "Ago-dashi Shoyu Ramen Takahashi Shinjuku — Tokyo 쇼유 라멘 가이드",
-      "lat": 35.6946,
-      "lng": 139.7008,
-      "categories": [
-        "쇼유",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/ago-dashi_shoyu_ramen_takahashi_shinjuku.jpg",
-      "youtube_id": "nGM6EPBQz1E",
-      "address": "Tokyo, Shinjuku",
-      "published": "2026-11-07",
-      "summary": "Tokyo Ago-dashi Shoyu Ramen Takahashi Shinjuku — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/ago-dashi_shoyu_ramen_takahashi_shinjuku_ko"
-    },
-    {
-      "id": "ago-dashi_shoyu_ramen_takahashi_shinjuku_en",
-      "lang": "en",
-      "title": "Ago-dashi Shoyu Ramen Takahashi Shinjuku — Tokyo Shoyu ramen guide",
-      "lat": 35.6946,
-      "lng": 139.7008,
-      "categories": [
-        "Shoyu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/ago-dashi_shoyu_ramen_takahashi_shinjuku.jpg",
-      "youtube_id": "nGM6EPBQz1E",
-      "address": "Tokyo, Shinjuku",
-      "published": "2026-11-07",
-      "summary": "Ago-dashi Shoyu Ramen Takahashi Shinjuku in Tokyo: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/ago-dashi_shoyu_ramen_takahashi_shinjuku_en"
-    },
-    {
-      "id": "afuri_roppongi_ko",
-      "lang": "ko",
-      "title": "아후리 롯폰기 (Afuri Roppongi) - 유자 시오 라멘의 산뜻함",
-      "lat": 35.6611,
-      "lng": 139.7311,
-      "categories": [
-        "시오",
-        "프리미엄"
-      ],
-      "thumbnail": "/static/images/afuri_roppongi.jpg",
-      "youtube_id": "xX5HgGzBMmg",
-      "address": "Tokyo, Minato",
-      "published": "2026-11-07",
-      "summary": "도쿄 미나토에 위치한 아후리 롯폰기는 신선한 유자의 향긋함이 돋보이는 시오 라멘으로 유명합니다. 맑고 개운한 국물과 숯불에 구운 차슈가 조화를 이루는 아후리 롯폰기에서의 실용적인 방문 팁과 주문 가이드를 확인하세요.",
-      "link": "/ramen/afuri_roppongi_ko"
-    },
-    {
-      "id": "afuri_roppongi_en",
-      "lang": "en",
-      "title": "Afuri Roppongi Tokyo | Yuzu Shio Ramen Traveler's Guide",
-      "lat": 35.6611,
-      "lng": 139.7311,
-      "categories": [
-        "Shio",
-        "Premium"
-      ],
-      "thumbnail": "/static/images/afuri_roppongi.jpg",
-      "youtube_id": "xX5HgGzBMmg",
-      "address": "Tokyo, Minato",
-      "published": "2026-11-07",
-      "summary": "Explore Afuri Roppongi, famous for its yuzu shio ramen. Get practical tips on what to order, queue management, how to reach it, and nearby alternatives for travelers.",
-      "link": "/ramen/afuri_roppongi_en"
-    },
-    {
-      "id": "ramen_sugimoto_ko",
-      "lang": "ko",
-      "title": "Ramen Sugimoto — Kanagawa 쇼유 라멘 가이드",
-      "lat": 35.5422,
-      "lng": 139.5264,
-      "categories": [
-        "쇼유",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/ramen_sugimoto.jpg",
-      "youtube_id": "",
-      "address": "Kanagawa, Yokohama",
-      "published": "2026-11-07",
-      "summary": "Kanagawa Ramen Sugimoto — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/ramen_sugimoto_ko"
-    },
-    {
-      "id": "ramen_sugimoto_en",
-      "lang": "en",
-      "title": "Ramen Sugimoto — Kanagawa Shoyu ramen guide",
-      "lat": 35.5422,
-      "lng": 139.5264,
-      "categories": [
-        "Shoyu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/ramen_sugimoto.jpg",
-      "youtube_id": "",
-      "address": "Kanagawa, Yokohama",
-      "published": "2026-11-07",
-      "summary": "Ramen Sugimoto in Kanagawa: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/ramen_sugimoto_en"
-    },
-    {
-      "id": "ramen_sora_sapporo_ko",
-      "lang": "ko",
-      "title": "Ramen Sora Sapporo — Hokkaido 미소 라멘 가이드",
-      "lat": 43.0562,
-      "lng": 141.3541,
-      "categories": [
-        "미소",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/ramen_sora_sapporo.jpg",
-      "youtube_id": "",
-      "address": "Hokkaido, Sapporo",
-      "published": "2026-11-07",
-      "summary": "Hokkaido Ramen Sora Sapporo — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/ramen_sora_sapporo_ko"
-    },
-    {
-      "id": "ramen_sora_sapporo_en",
-      "lang": "en",
-      "title": "Ramen Sora Sapporo — Hokkaido Miso ramen guide",
-      "lat": 43.0562,
-      "lng": 141.3541,
-      "categories": [
-        "Miso",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/ramen_sora_sapporo.jpg",
-      "youtube_id": "",
-      "address": "Hokkaido, Sapporo",
-      "published": "2026-11-07",
-      "summary": "Ramen Sora Sapporo in Hokkaido: Miso ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/ramen_sora_sapporo_en"
-    },
-    {
       "id": "ramen_shingen_minami_6-jo_ko",
       "lang": "ko",
       "title": "Ramen Shingen Minami 6-jo — Hokkaido 미소 라멘 가이드",
@@ -1480,40 +1548,6 @@
       "published": "2026-07-04",
       "summary": "Ramen Shingen Minami 6-jo in Hokkaido: Miso ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/ramen_shingen_minami_6-jo_en"
-    },
-    {
-      "id": "ramen_hayashida_shinjuku_ko",
-      "lang": "ko",
-      "title": "Ramen Hayashida Shinjuku — Tokyo 쇼유 라멘 가이드",
-      "lat": 35.6905,
-      "lng": 139.7041,
-      "categories": [
-        "쇼유",
-        "프리미엄"
-      ],
-      "thumbnail": "/static/images/ramen_hayashida_shinjuku.jpg",
-      "youtube_id": "",
-      "address": "Tokyo, Shinjuku",
-      "published": "2026-11-07",
-      "summary": "Tokyo Ramen Hayashida Shinjuku — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/ramen_hayashida_shinjuku_ko"
-    },
-    {
-      "id": "ramen_hayashida_shinjuku_en",
-      "lang": "en",
-      "title": "Ramen Hayashida Shinjuku — Tokyo's Best Shoyu Ramen",
-      "lat": 35.6905,
-      "lng": 139.7041,
-      "categories": [
-        "Shoyu",
-        "Premium"
-      ],
-      "thumbnail": "/static/images/ramen_hayashida_shinjuku.jpg",
-      "youtube_id": "",
-      "address": "Tokyo, Shinjuku",
-      "published": "2026-11-07",
-      "summary": "Ramen Hayashida Shinjuku in Tokyo: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/ramen_hayashida_shinjuku_en"
     },
     {
       "id": "mutekiya_ikebukuro_ko",
@@ -1616,40 +1650,6 @@
       "published": "2026-07-04",
       "summary": "Chuka Soba Tomita in Chiba: tsukemen (dipping noodles) — practical notes on queues, ordering, and how to eat the bowl. Verify hours on Maps.",
       "link": "/ramen/chuka_soba_tomita_en"
-    },
-    {
-      "id": "ramen_takahashi_ginza_ko",
-      "lang": "ko",
-      "title": "Ramen Takahashi Ginza — Tokyo 쇼유 라멘 가이드",
-      "lat": 35.6703,
-      "lng": 139.7651,
-      "categories": [
-        "쇼유",
-        "현지인맛집"
-      ],
-      "thumbnail": "/static/images/ramen_takahashi_ginza.jpg",
-      "youtube_id": "",
-      "address": "Tokyo, Ginza",
-      "published": "2026-11-07",
-      "summary": "Tokyo Ramen Takahashi Ginza — 쇼유 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
-      "link": "/ramen/ramen_takahashi_ginza_ko"
-    },
-    {
-      "id": "ramen_takahashi_ginza_en",
-      "lang": "en",
-      "title": "Ramen Takahashi Ginza — Tokyo Shoyu ramen guide",
-      "lat": 35.6703,
-      "lng": 139.7651,
-      "categories": [
-        "Shoyu",
-        "Local Gem"
-      ],
-      "thumbnail": "/static/images/ramen_takahashi_ginza.jpg",
-      "youtube_id": "",
-      "address": "Tokyo, Ginza",
-      "published": "2026-11-07",
-      "summary": "Ramen Takahashi Ginza in Tokyo: Shoyu ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
-      "link": "/ramen/ramen_takahashi_ginza_en"
     },
     {
       "id": "ramen_mutsumiya_ko",
@@ -1773,7 +1773,7 @@
     {
       "id": "nakiryu_en",
       "lang": "en",
-      "title": "Nakiryu Tokyo | Famous Chicken Ramen Shop Guide & Queue Tips",
+      "title": "Nakiryu Tokyo: The Original Chicken Ramen – Inside Japan's Most Famous Shop",
       "lat": 35.7322,
       "lng": 139.7291,
       "categories": [
@@ -1784,7 +1784,7 @@
       "youtube_id": "",
       "address": "Tokyo, Toshima",
       "published": "2026-04-19",
-      "summary": "Nakiryu in Tokyo: Chicken ramen ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
+      "summary": "Nakiryu in Tokyo: Chicken ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/nakiryu_en"
     },
     {
@@ -2759,7 +2759,7 @@
     {
       "id": "mennoya_en",
       "lang": "en",
-      "title": "Mennoya Osaka | Signature Shoyu Ramen Shop Guide & Queue Tips",
+      "title": "Mennoya Osaka: Beat the Queue & Order Premium Shoyu Ramen Like a Pro",
       "lat": 34.6811,
       "lng": 135.5111,
       "categories": [
