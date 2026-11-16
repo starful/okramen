@@ -1,4 +1,6 @@
 ---
+youtube_id: DxzutheF7Ck
+
 address: Hokkaido, Hakodate
 categories:
 - Shio

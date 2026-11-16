@@ -1,4 +1,6 @@
 ---
+youtube_id: fIdAhQPMYXk
+
 address: Tokyo, Ginza
 categories:
 - 쇼유

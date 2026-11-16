@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07",
+  "last_updated": "2026-11-16",
   "total_count": 209,
   "ramens": [
     {
@@ -712,7 +712,7 @@
       "thumbnail": "/static/images/ramen_nagi_shinjuku.jpg",
       "youtube_id": "",
       "address": "Tokyo, Shinjuku",
-      "published": "2026-09-26",
+      "published": "2026-11-16",
       "summary": "A narrow, character-driven shoyu ramen counter inside Shinjuku's Golden Gai bar district, best suited to late-evening visits rather than lunch.",
       "link": "/ramen/ramen_nagi_shinjuku_en"
     },
@@ -729,7 +729,7 @@
       "thumbnail": "/static/images/ramen_takahashi_shinjuku.jpg",
       "youtube_id": "",
       "address": "Tokyo, Shinjuku City",
-      "published": "2026-08-26",
+      "published": "2026-11-16",
       "summary": "Ramen Takahashi Shinjuku serves a smoky ago-dashi shio broth that rewards a short walk from the station more than a long wait in line.",
       "link": "/ramen/ramen_takahashi_shinjuku_en"
     },
@@ -848,7 +848,7 @@
       "thumbnail": "/static/images/ramen_yoshiyama_shoten.jpg",
       "youtube_id": "",
       "address": "Hokkaido, Sapporo",
-      "published": "2026-07-27",
+      "published": "2026-11-16",
       "summary": "Hokkaido Ramen Yoshiyama Shoten — 미소 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
       "link": "/ramen/ramen_yoshiyama_shoten_ko"
     },
@@ -865,7 +865,7 @@
       "thumbnail": "/static/images/ramen_yoshiyama_shoten.jpg",
       "youtube_id": "",
       "address": "Hokkaido, Sapporo",
-      "published": "2026-07-27",
+      "published": "2026-11-16",
       "summary": "Ramen Yoshiyama Shoten in Hokkaido: Miso ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/ramen_yoshiyama_shoten_en"
     },
@@ -1052,7 +1052,7 @@
       "thumbnail": "/static/images/ramen_santouka_harajuku.jpg",
       "youtube_id": "",
       "address": "Tokyo, Shibuya",
-      "published": "2026-07-27",
+      "published": "2026-11-16",
       "summary": "Tokyo Ramen Santouka Harajuku — 시오 라멘. 웨이팅·주문·추천 메뉴를 여행 전에 확인할 수 있는 실용 가이드입니다.",
       "link": "/ramen/ramen_santouka_harajuku_ko"
     },
@@ -1069,7 +1069,7 @@
       "thumbnail": "/static/images/ramen_santouka_harajuku.jpg",
       "youtube_id": "",
       "address": "1F, 6-1-6 Jingumae, Shibuya City, Tokyo",
-      "published": "2026-07-27",
+      "published": "2026-11-16",
       "summary": "Ramen Santouka Harajuku in 1F: Shio ramen — practical guide to queues, ordering, and what to try. Confirm hours on Google Maps before visiting.",
       "link": "/ramen/ramen_santouka_harajuku_en"
     },

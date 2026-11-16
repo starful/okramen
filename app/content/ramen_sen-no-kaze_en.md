@@ -1,4 +1,6 @@
 ---
+youtube_id: DmXL2muXX2Y
+
 lang: en
 title: "Ramen Sen-no-kaze: Tonkotsu and Shoyu Ramen in Kyoto's Nakagyo Ward"
 summary: "A Nakagyo backstreet tonkotsu-shoyu counter favored by locals, worth the detour if you want a bowl away from the Kyoto Station crowds."
