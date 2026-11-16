@@ -1,4 +1,6 @@
 ---
+youtube_id: CFb8f1jLuKk
+
 address: Hokkaido, Sapporo, Chuo Ward, Minami 3 Jonishi, 7 Chome−5-2
 categories:
 - Miso

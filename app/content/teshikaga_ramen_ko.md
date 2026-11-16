@@ -1,4 +1,6 @@
 ---
+youtube_id: 89VS0A3waQY
+
 address: Hokkaido, Sapporo
 categories:
 - 쇼유

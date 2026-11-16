@@ -1,18 +1,23 @@
 ---
+youtube_id: NqbbBGlx2R4
 lang: en
-title: "Ramen Takahashi Shinjuku: A Grilled Flying Fish Shio Ramen Worth the Detour"
-summary: "Ramen Takahashi Shinjuku serves a smoky ago-dashi shio broth that rewards a short walk from the station more than a long wait in line."
-date: "2026-08-26"
-shop_name: "Ramen Takahashi Shinjuku"
-address: "Tokyo, Shinjuku City"
+title: 'Ramen Takahashi Shinjuku: A Grilled Flying Fish Shio Ramen Worth the Detour'
+summary: Ramen Takahashi Shinjuku serves a smoky ago-dashi shio broth that rewards
+  a short walk from the station more than a long wait in line.
+date: '2026-11-16'
+shop_name: Ramen Takahashi Shinjuku
+address: Tokyo, Shinjuku City
 lat: 35.6938
 lng: 139.7011
 categories:
 - Shio
 - Local Gem
-thumbnail: "/static/images/ramen_takahashi_shinjuku.jpg"
-image_prompt: "A 45-degree steaming macro shot of Ramen Takahashi Shinjuku Shio ramen, swirling steam, warm wooden counter seat, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/ramen_takahashi_shinjuku.jpg
+image_prompt: A 45-degree steaming macro shot of Ramen Takahashi Shinjuku Shio ramen,
+  swirling steam, warm wooden counter seat, cinematic food photography, no text, 8k
+  detail.
 ---
+
 
 ## A Smoky Shio Bowl That Doesn't Taste Like Every Other Shio Bowl
 

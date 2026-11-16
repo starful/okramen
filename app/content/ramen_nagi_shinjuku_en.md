@@ -1,18 +1,21 @@
 ---
 lang: en
-title: "Ramen Nagi Shinjuku: A Shoyu Bowl Tucked Into Golden Gai's Late-Night Alleys"
-summary: "A narrow, character-driven shoyu ramen counter inside Shinjuku's Golden Gai bar district, best suited to late-evening visits rather than lunch."
-date: "2026-09-26"
-shop_name: "Ramen Nagi Shinjuku"
-address: "Tokyo, Shinjuku"
+title: 'Ramen Nagi Shinjuku: A Shoyu Bowl Tucked Into Golden Gai''s Late-Night Alleys'
+summary: A narrow, character-driven shoyu ramen counter inside Shinjuku's Golden Gai
+  bar district, best suited to late-evening visits rather than lunch.
+date: '2026-11-16'
+shop_name: Ramen Nagi Shinjuku
+address: Tokyo, Shinjuku
 lat: 35.6941
 lng: 139.7044
 categories:
 - Shoyu
 - Local Gem
-thumbnail: "/static/images/ramen_nagi_shinjuku.jpg"
-image_prompt: "A side profile close-up of Ramen Nagi Shinjuku Shoyu ramen, swirling steam, neon-lit late night alley, cinematic food photography, no text, 8k detail."
+thumbnail: /static/images/ramen_nagi_shinjuku.jpg
+image_prompt: A side profile close-up of Ramen Nagi Shinjuku Shoyu ramen, swirling
+  steam, neon-lit late night alley, cinematic food photography, no text, 8k detail.
 ---
+
 
 ## A Late-Night Shoyu Institution in Golden Gai
 

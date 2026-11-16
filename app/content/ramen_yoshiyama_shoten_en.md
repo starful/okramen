@@ -3,7 +3,7 @@ address: Hokkaido, Sapporo
 categories:
 - Miso
 - Local Gem
-date: '2026-07-27'
+date: '2026-11-16'
 image_prompt: A steaming macro shot of a bowl of rich roasted miso ramen from Ramen
   Yoshiyama Shoten in Sapporo, showcasing a thick, caramel-hued orange-brown broth
   glistening with aromatic lard, topped with tender flame-seared chashu pork, crisp
@@ -23,6 +23,7 @@ what_to_order: House miso ramen; butter-corn or spicy miso if you want Sapporo-s
   toppings.
 good_for: Cold-weather comfort bowls
 ---
+
 
 
 **Overview:** Ramen Yoshiyama Shoten is a miso ramen shop in Sapporo, Hokkaido. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
