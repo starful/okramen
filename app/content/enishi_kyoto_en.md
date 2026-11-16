@@ -1,6 +1,5 @@
 ---
 youtube_id: ikEarPiDuWE
-
 address: Kyoto, Nakagyo
 categories:
 - Shoyu
@@ -15,17 +14,22 @@ lang: en
 lat: 35.0011
 lng: 135.7511
 shop_name: Enishi Kyoto
-summary: 'Enishi Kyoto in Kyoto: Shoyu ramen — practical guide to queues, ordering,
-  and what to try. Confirm hours on Google Maps before visiting.'
+summary: Kyoto-style shoyu ramen with lighter, salt-forward broth—a regional alternative
+  to creamy tonkotsu bowls.
 thumbnail: /static/images/enishi_kyoto.jpg
-title: Enishi Kyoto — Kyoto Shoyu ramen guide
+title: 'Enishi Kyoto — Kyoto Shoyu Ramen in Nakagyo: What to Order & When to Go'
 one_liner: Shoyu ramen at Enishi Kyoto, Kyoto. Verify hours and holidays on Maps before
   you go.
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
+description: 'Enishi Kyoto in Nakagyo: Shoyu ramen with soy-forward broth. Hours,
+  queues, ticket ordering, and exactly what to try on your first visit.'
+seo_title: Enishi Kyoto Shoyu Ramen — Nakagyo Tokyo Area (Hours, Menu, First-Timer
+  Guide)
+seo_description: 'Enishi Kyoto: Shoyu ramen in Nakagyo with clear, salty soy broth.
+  First-time ordering, wait times, and why Kyoto''s style differs from Tokyo tonkotsu.'
 ---
-
-
+**Shoyu vs. tonkotsu—why Kyoto's style matters:** Shoyu ramen builds flavor from soy tare + clear broth; Kyoto versions tend lighter than Tokyo tonkotsu's creamy richness. First visit: order the signature bowl without upgrades. Prices ¥1,000–¥1,300; ticket machine + cash preferred. Lunch rush (12–13:00) and dinner peak (18–20:00) draw lines; off-peak is faster.
 
 **Overview:** Enishi Kyoto is a shoyu ramen shop in Nakagyo, Kyoto. Use this page for trip planning — always confirm today's hours on Google Maps. This is editorial guidance, not the shop's official site.
 
