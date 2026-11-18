@@ -8,3 +8,4 @@ markdown
 pytest
 firebase-admin
 Pillow
+google-cloud-firestore
