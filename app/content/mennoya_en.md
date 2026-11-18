@@ -13,20 +13,22 @@ lang: en
 lat: 34.6811
 lng: 135.5111
 shop_name: Mennoya
-summary: 'Mennoya in Osaka: Shoyu ramen — practical guide to queues, ordering, and
-  what to try. Confirm hours on Google Maps before visiting.'
+summary: Navigate Osaka's Mennoya with strategic timing to avoid queues, master the
+  Japanese ordering system, and discover why locals love this premium shoyu ramen
+  shop.
 thumbnail: /static/images/mennoya.jpg
-title: 'Mennoya Osaka: Beat the Queue & Order Premium Shoyu Ramen Like a Pro'
+title: 'Mennoya Osaka: Beat the Queue & Order Shoyu Ramen Like a Pro'
 one_liner: Shoyu ramen at Mennoya, Osaka. Verify hours and holidays on Maps before
   you go.
 what_to_order: Classic shoyu ramen — taste the broth before adding condiments.
 good_for: Trip planning before you land
-description: 'Mennoya Osaka shoyu ramen: Master the ordering system, skip long queues,
-  discover signature toppings. Insider tips from ramen experts.'
-seo_title: 'Mennoya Osaka Shoyu Ramen: Skip the Queue & Order Like a Regular'
-seo_description: 'Mennoya Osaka: Skip the queue, master the ordering system, try signature
-  toppings. Complete shoyu ramen visitor guide.'
+description: Skip the queue at Osaka's Mennoya and order premium shoyu ramen like
+  a regular
+seo_title: 'Mennoya Osaka Shoyu Ramen: Skip the Queue & Order Like a Local'
+seo_description: Beat the queue at Mennoya Osaka. Master the ordering system, discover
+  signature shoyu ramen, and tips from regular visitors.
 ---
+
 
 
 

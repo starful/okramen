@@ -12,21 +12,23 @@ lang: en
 lat: 33.6611
 lng: 130.4411
 shop_name: Ichiraku Ramen
-summary: 'Ichiraku Ramen in Fukuoka: Tonkotsu ramen — practical guide to queues, ordering,
-  and what to try. Confirm hours on Google Maps before visiting.'
+summary: The actual Ichiraku Ramen from Naruto anime exists in Fukuoka. Practical
+  tips on queuing, menu navigation, and what to order at this real anime-inspired
+  shop.
 thumbnail: /static/images/ichiraku_ramen.jpg
-title: 'Ichiraku Ramen Fukuoka: Visit Naruto''s Real Favorite Ramen Shop'
+title: 'Ichiraku Ramen in Fukuoka: The Real Naruto Ramen Restaurant Guide'
 one_liner: Tonkotsu ramen at Ichiraku Ramen, Fukuoka. Verify hours and holidays on
   Maps before you go.
 what_to_order: Signature tonkotsu ramen; extra chashu or kaedama if you want a heavier
   bowl.
 good_for: Trip planning before you land
-seo_title: 'Ichiraku Ramen in Fukuoka: The Real Naruto Ramen Restaurant Guide'
-seo_description: 'Yes, Ichiraku Ramen from Naruto anime is real. Visit the actual
-  Fukuoka shop with our complete guide: menus, location, hours, tips.'
-description: Ichiraku Ramen really exists in Fukuoka, Japan. Get hours, directions,
-  menu & how to order Naruto's favorite bowl.
+seo_title: 'Ichiraku Ramen Fukuoka: Real Naruto Restaurant—Hours, Menus & Visit Guide'
+seo_description: 'Yes, Ichiraku from Naruto anime is real. Complete Fukuoka guide:
+  queues, tonkotsu style, ordering tips, and best times to visit.'
+description: Ichiraku Ramen Fukuoka—real Naruto anime location guide and practical
+  tips
 ---
+
 
 
 
