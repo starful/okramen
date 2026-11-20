@@ -1,9 +1,16 @@
 ---
 lang: en
-title: "Japan Ramen Price Guide 2026: What Tonkotsu, Miso, Shoyu, and Shio Actually Cost by Region"
-summary: "See exactly how much a bowl should cost by style and city before you order, so you never overpay at a tourist-trap counter near the station."
-date: "2026-11-11"
+title: 'Ramen Prices in Japan 2026: Tonkotsu vs Miso vs Shoyu vs Shio'
+summary: Learn how broth type and regional location affect ramen prices to identify
+  fair prices before ordering.
+date: '2026-11-11'
+description: See exactly how much a bowl should cost by style and city before you
+  order, so you never overpay at a tourist-trap counter near the station.
+seo_title: 'Ramen Prices in Japan 2026: Tonkotsu vs Miso vs Shoyu vs Shio'
+seo_description: Compare ramen prices by style and city. See what tonkotsu, miso,
+  shoyu, and shio bowls should cost—avoid tourist-trap pricing.
 ---
+
 
 Ramen pricing in Japan isn't random — it follows patterns tied to broth type, region, and shop format that most visitors never learn. A tonkotsu bowl in Fukuoka's Nakasu stalls costs differently than the same style reinterpreted in a Tokyo basement shop, and knowing why helps you budget a multi-city ramen trip without guessing. This guide breaks down the real cost drivers so you can tell a fair bowl from an inflated one at a glance.
 
