@@ -184,7 +184,7 @@ seo_description: "..."  # 선택
 - 글쓰기: HQ `app/content/poicontent.py` Kit `okramen` — Places 타입 `ramen_restaurant` 등, 필드 Name·Lat·Lng·Address·Thumbnail·Features, slug 검사 `is_non_ramen_slug`
 - visitlog: `register_visitlog(app, site_id="okramen", db_path=data/visitlog.sqlite3)` · 이벤트 pv·click·cta·outbound·affiliate · HQ는 `GET /hq/api/users`를 Bearer 토큰으로 읽음
 - URL별 숫자: HQ `app/url_stats.py`가 GSC/GA4에서 페이지별 조회·노출·CTR·순위를 가져옴 (제목 꼬리 「| OKRamen」「- OKRamen」 제거)
-- 회의: HQ `app/office/meeting.py`가 이 사이트의 이미 있는 글 목록을 프롬프트에 넣음. 기획서 본문 + URL별 숫자 + 최근 회의 결정·실행 결과는 starful-hq #12 (머지 대기)
+- 회의: HQ `app/office/meeting.py`가 이 사이트의 이미 있는 글 목록 + 기획서 본문 + URL별 숫자 + 최근 회의 결정·실행 결과를 프롬프트에 넣음 (starful-hq #9 · #12)
 - 토픽: okadmin `data/topic_banks/okramen/`
 
 ## 8. 테스트
